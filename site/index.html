@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="竞品营销动作监控与发布周期分析">
+  <title>竞品营销动作监控</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091423'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%235fe1be' stroke-width='4'/%3E%3Cpath d='M32 32 49 21' stroke='%23ffb454' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles-rules.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark"></span><span>竞品营销动作监控</span></div>
+    <nav aria-label="主导航">
+      <button class="nav-item active" data-view="overview">监控总览</button>
+      <button class="nav-item" data-view="schedule">监控规则</button>
+      <button class="nav-item" data-view="edm">EDM 实验</button>
+    </nav>
+    <div class="run-state"><i></i>常态监控中</div>
+  </header>
+
+  <main>
+    <div class="demo-banner" id="data-status-banner"><strong>数据状态</strong><span>真实 Sitemap 基线与模拟营销动作分区展示，二者不混合统计。</span><span id="data-updated-at">正在读取真实基线…</span></div>
+
+    <section class="view active" id="overview">
+      <div class="filter-row">
+        <label>国家站点<select id="market-filter"><option value="全部">全部国家站点</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label>
+        <label>品牌<select id="brand-filter"><option value="全部">全部竞品</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
+        <label>渠道<select id="channel-filter"><option value="全部">全部渠道</option><option>官网</option><option>PR</option><option>社媒广告</option><option>EDM</option><option>视频</option></select></label>
+        <div class="period">观察周期：CES 前后 4 周</div>
+      </div>
+
+      <article class="panel real-data-panel">
+        <div class="panel-head"><div><h2>Mammotion 四国真实监控基线</h2><p>来源为公开 Sitemap；首次运行仅建立基线，不生成营销动作</p></div><span class="badge green" id="baseline-status">读取中</span></div>
+        <div class="real-kpis"><div><span>健康站点</span><strong id="real-healthy">—</strong></div><div><span>纳入页面</span><strong id="real-pages">—</strong></div><div><span>待复核变化</span><strong id="real-pending">—</strong></div><div><span>运行模式</span><strong>每周全量</strong></div></div>
+        <div class="coverage-grid" id="coverage-grid"><div class="coverage-loading">正在读取真实监控数据…</div></div>
+      </article>
+
+      <article class="panel radar-panel">
+        <div class="panel-head"><div><h2>未知新品雷达</h2><p>不依赖已知型号名；先保留临时实体，证据充分后再确认正式名称</p></div><span class="badge orange" id="radar-count">读取中</span></div>
+        <div class="radar-flow" aria-label="新品候选确认流程"><span>弱信号</span><b>→</b><span>候选实体</span><b>→</b><span>多源确认</span><b>→</b><span>型号确认</span><b>→</b><span>正式动作</span></div>
+        <div id="radar-list" class="radar-list"><div class="coverage-loading">正在读取新品候选…</div></div>
+      </article>
+
+      <div class="kpi-grid">
+        <article class="kpi"><span>模拟营销动作</span><strong id="action-count">42</strong><small>用于验证时间轴交互</small></article>
+        <article class="kpi"><span>识别营销事件</span><strong>9</strong><small>7 个完成跨渠道聚类</small></article>
+        <article class="kpi"><span>最早预热提前量</span><strong>21<em>天</em></strong><small>Mova · 德国</small></article>
+        <article class="kpi"><span>待人工复核</span><strong>4</strong><small>主要为首次发布日期</small></article>
+      </div>
+
+      <div class="main-grid">
+        <article class="panel timeline-panel">
+          <div class="panel-head"><div><h2>营销动作时间轴</h2><p>点击动作查看证据与 AI 判断</p></div><div class="legend"><span class="blue">官网</span><span class="purple">PR</span><span class="orange">广告</span><span class="green">EDM</span></div></div>
+          <div class="timeline"><div class="timeline-axis"><span></span><span>T-21</span><span>T-14</span><span>T-7</span><span>CES</span><span>T+7</span><span>T+14</span></div><div id="timeline-rows"></div></div>
+        </article>
+
+        <aside class="panel insight-panel">
+          <div class="panel-head"><div><h2>AI 周期洞察</h2><p>基于跨渠道动作聚类推测</p></div></div>
+          <div class="insight"><b>01</b><div><strong>Mova 预热窗口最长</strong><p>德国市场先启动 EDM，随后广告与官网依次上线。</p><small>判断置信度 88%</small></div></div>
+          <div class="insight"><b>02</b><div><strong>Dreame 采用集中爆发</strong><p>官网、PR、视频在 CES 当天集中上线。</p><small>判断置信度 82%</small></div></div>
+          <div class="insight"><b>03</b><div><strong>美国促销承接更快</strong><p>新品发布后 3 天出现 Offer 类 EDM。</p><small>判断置信度 76%</small></div></div>
+        </aside>
+      </div>
+
+      <article class="panel table-panel">
+        <div class="panel-head"><div><h2>近期监控动作</h2><p>同一动作在不同国家站点分别记录</p></div><button class="secondary" id="reset-filters">清除筛选</button></div>
+        <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>渠道</th><th>动作摘要</th><th>阶段</th><th>可信度</th></tr></thead><tbody id="action-table"></tbody></table></div>
+      </article>
+    </section>
+
+    <section class="view" id="schedule">
+      <div class="section-intro"><div><span class="eyebrow">ADAPTIVE MONITORING</span><h1>按营销周期动态调整抓取频率</h1><p>常态期控制成本，重点节点自动提升频率；Sitemap 和少量关键页面作为每日轻量哨兵。</p></div><button class="primary" id="simulate-mode">模拟进入活动期</button></div>
+      <div class="mode-grid">
+        <article class="mode active-mode"><span class="mode-tag">当前模式</span><h2>常态监控</h2><strong>每周一次全量</strong><p>每日只检查 Sitemap、首页、新品集合页和活动页；无变化不继续抓取。</p><ul><li>全量抓取：每周一次</li><li>轻量哨兵：每日一次</li><li>看板发布：每周或有变化时</li></ul></article>
+        <article class="mode"><span class="mode-tag">营销节点</span><h2>活动监控</h2><strong>每周两次</strong><p>适用于黑五、网一、圣诞等持续促销周期。</p><ul><li>全量抓取：每周两次</li><li>重点页面：每日一次</li><li>看板发布：有变化时</li></ul></article>
+        <article class="mode"><span class="mode-tag">发布窗口</span><h2>重点发布</h2><strong>每日一次</strong><p>适用于 CES、新品发布前后 7～21 天。</p><ul><li>全量抓取：每日一次</li><li>官网、PR、广告、EDM联动</li><li>看板发布：每日</li></ul></article>
+      </div>
+      <article class="panel calendar-panel"><div class="panel-head"><div><h2>重点营销日历</h2><p>日期进入窗口后自动切换模式</p></div></div><div class="calendar-row"><time>11/01—12/05</time><strong>Black Friday / Cyber Monday</strong><span class="badge orange">活动监控</span><p>促销、折扣、Bundle、优惠码</p></div><div class="calendar-row"><time>12/01—12/31</time><strong>Christmas</strong><span class="badge orange">活动监控</span><p>礼赠、截止日期、配送承诺</p></div><div class="calendar-row"><time>12/15—01/20</time><strong>CES</strong><span class="badge green">重点发布</span><p>参展、新品预热、发布与媒体背书</p></div></article>
+      <article class="panel rules-panel">
+        <div class="panel-head"><div><h2>监控分工与频次</h2><p>按原始表格配置；关键节点频次不替代常规频次</p></div></div>
+        <div class="table-wrap"><table class="rules-table"><thead><tr><th>监控模块</th><th>负责团队</th><th>常规频率</th><th>关键节点频率</th><th>主要监控内容</th><th>最少必填</th><th>记录位置</th><th>交付口径</th></tr></thead><tbody>
+          <tr><td>官网</td><td>各区域运营</td><td>每周1次</td><td>CES / GaLaBau / equip / IFA 前后每日</td><td>首页、PDP、集合页、促销页、价格、CTA与新页面</td><td>日期、国家、动作、URL</td><td>DTC监控总表</td><td>有明确上线或更新才记录；同一动作在多个国家站点出现时分行记录</td></tr>
+          <tr><td>新品发布/促销节奏</td><td>各区域运营</td><td>按关键阶段</td><td>预热、预告、预售开始前后每日</td><td>早鸟价、MSRP、当前价、促销价、权益与核心卖点</td><td>日期、价格、权益</td><td>新品主档</td><td>有明确上线或更新才记录；同一动作在多个国家站点出现时分行记录</td></tr>
+          <tr><td>PR</td><td>SEO-jessie</td><td>每周1次</td><td>展会前后每日</td><td>官网 Newsroom、新闻稿、核心媒体转载与发布主题</td><td>发布日期、国家、标题、URL</td><td>DTC监控总表</td><td>PR 与 Blog 分开选择模块；发布日期无法确认时留空，月份使用发现日期</td></tr>
+          <tr><td>Blog</td><td>SEO-海强/敏英</td><td>每周1次</td><td>每周1次</td><td>Blog新文章、旧文更新、主题方向与产品功能露出</td><td>日期、国家、主题、URL</td><td>DTC监控总表</td><td>重点记录 SEO 主题和竞品产品</td></tr>
+          <tr><td>社媒广告</td><td>广告-karen</td><td>每周2次</td><td>展会前后每日</td><td>Meta、TikTok、YouTube新广告、素材、文案、Offer、CTA与落地页</td><td>日期、国家、素材、Offer、URL</td><td>DTC监控总表</td><td>新上线或明显换素材时记录；无原链接时使用广告库或截图链接</td></tr>
+          <tr><td>EDM</td><td>Kay</td><td>每周1次</td><td>每周1次</td><td>竞品新品及展会相关主题 EDM</td><td>日期、国家、主题、Offer</td><td>DTC监控总表</td><td>有明确上线或更新才记录</td></tr>
+          <tr><td>月度汇总</td><td>Faye</td><td>每月1次</td><td>关键节点周补充复盘</td><td>检查国家覆盖、模块覆盖与重点动作</td><td>月份、结论、待跟进</td><td>月度汇总</td><td>不新增原始数据；所有统计来自监控总表</td></tr>
+        </tbody></table></div>
+      </article>
+      <div class="scope-grid">
+        <article class="panel"><div class="panel-head"><div><h2>待监控竞品清单</h2><p>完整品牌名、区域、国家站点与优先级</p></div></div><div class="table-wrap"><table><thead><tr><th>品牌</th><th>区域</th><th>国家/站点</th><th>优先级</th></tr></thead><tbody><tr><td>Mammotion</td><td>欧洲、北美</td><td>美国、德国、英国、法国</td><td><span class="priority p0">P0</span></td></tr><tr><td>Mova</td><td>欧洲、北美</td><td>美国、德国、法国</td><td><span class="priority p1">P1</span></td></tr><tr><td>Dreame</td><td>欧洲、北美</td><td>美国、德国、法国</td><td><span class="priority p2">P2</span></td></tr><tr><td>Ecovacs</td><td>北美</td><td>美国</td><td><span class="priority p1">P1</span></td></tr><tr><td>Eufy</td><td>欧洲</td><td>德国、法国</td><td><span class="priority p4">P4</span></td></tr></tbody></table></div></article>
+        <article class="panel"><div class="panel-head"><div><h2>统一记录逻辑</h2><p>所有模块使用同一数据口径</p></div></div><ol class="logic-list"><li>一个明确动作记录一行，不按品牌或月份合并。</li><li>发现日期与上线/发布日期分开；无法确认上线日期时保持空白。</li><li>以国家站点为基本单位，同一内容在不同国家站点上线时分别记录。</li><li>仅监控公开可见的 DTC 信息，不推测预算、销量等不可获取数据。</li><li>无变化不重复记录；页面、文案、价格、Offer、素材或落地页变化时新增一行。</li><li>CES、GaLaBau、IFA 仅作为关键节点标签，不搭建完整竞品生命周期。</li><li>每条记录保留来源 URL；社媒广告无原链接时使用广告库或截图链接。</li></ol></article>
+      </div>
+    </section>
+
+    <section class="view" id="edm">
+      <div class="section-intro"><div><span class="eyebrow">CONTROLLED PERSONAS</span><h1>EDM 订阅身份实验</h1><p>用不同邮箱身份执行固定行为策略，对比竞品可能采用的用户标签和定向推送。</p></div></div>
+      <div class="persona-grid" id="persona-grid"></div>
+      <article class="panel edm-summary"><div><span>实验品牌</span><strong>Mova · 德国</strong></div><div><span>监控身份</span><strong>8</strong></div><div><span>模拟收件</span><strong>87</strong></div><div><span>独有版本</span><strong>14</strong></div><div><span>推测标签</span><strong>5</strong></div></article>
+      <p class="footnote">零行为对照组不会加载远程图片或追踪像素。所有点击行为都由预先批准的规则控制。</p>
+    </section>
+  </main>
+
+  <dialog id="detail-dialog"><div class="dialog-head"><h2>动作详情</h2><button aria-label="关闭">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>

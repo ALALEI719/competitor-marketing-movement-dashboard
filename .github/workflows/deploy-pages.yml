@@ -1,0 +1,69 @@
+name: Deploy Dashboard Mirror
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-pages.yml"
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mirror
+        uses: actions/checkout@v4
+
+      - name: Prepare fallback copy
+        run: |
+          mkdir -p _site
+          cp -R site/. _site/
+          touch _site/.nojekyll
+
+      - name: Refresh public files from Vercel when reachable
+        shell: bash
+        run: |
+          base="https://competitor-marketing-movement-track.vercel.app"
+          fetch_file() {
+            source_path="$1"
+            destination="$2"
+            temporary="${destination}.download"
+            if curl --fail --silent --show-error --location --retry 2 --max-time 30 "${base}/${source_path}" --output "${temporary}"; then
+              mv "${temporary}" "${destination}"
+            else
+              rm -f "${temporary}"
+              echo "Using committed fallback for ${source_path}."
+            fi
+          }
+          fetch_file "index.html" "_site/index.html"
+          fetch_file "app.js" "_site/app.js"
+          fetch_file "styles.css" "_site/styles.css"
+          fetch_file "styles-rules.css" "_site/styles-rules.css"
+          fetch_file "data/monitor-summary.json" "_site/data/monitor-summary.json"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

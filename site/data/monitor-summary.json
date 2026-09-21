@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-21T08:57:11.235Z",
+  "dataMode": "real_sitemap",
+  "brand": "Mammotion",
+  "activeEvents": [],
+  "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
+  "totals": {
+    "sites": 4,
+    "healthySites": 4,
+    "pages": 1113,
+    "pendingChanges": 0,
+    "productCandidates": 0
+  },
+  "sites": [
+    {
+      "site": {
+        "id": "mammotion-us",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "priority": "P0",
+        "siteUrl": "https://us.mammotion.com/",
+        "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
+      },
+      "checkedAt": "2026-09-21T08:56:59.704Z",
+      "status": "ok",
+      "baseline": false,
+      "pageCount": 329,
+      "breakdown": {
+        "page": 61,
+        "blog": 198,
+        "collection": 22,
+        "product": 48
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
+      },
+      "contentInspection": {
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": []
+      }
+    },
+    {
+      "site": {
+        "id": "mammotion-de",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "priority": "P0",
+        "siteUrl": "https://de.mammotion.com/",
+        "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
+      },
+      "checkedAt": "2026-09-21T08:57:02.623Z",
+      "status": "ok",
+      "baseline": false,
+      "pageCount": 286,
+      "breakdown": {
+        "page": 35,
+        "blog": 152,
+        "collection": 14,
+        "pr": 1,
+        "product": 84
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
+      },
+      "contentInspection": {
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": []
+      }
+    },
+    {
+      "site": {
+        "id": "mammotion-uk",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "priority": "P0",
+        "siteUrl": "https://uk.mammotion.com/",
+        "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
+      },
+      "checkedAt": "2026-09-21T08:57:05.336Z",
+      "status": "ok",
+      "baseline": false,
+      "pageCount": 211,
+      "breakdown": {
+        "page": 38,
+        "blog": 89,
+        "collection": 16,
+        "pr": 1,
+        "product": 67
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
+      },
+      "contentInspection": {
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": []
+      }
+    },
+    {
+      "site": {
+        "id": "mammotion-fr",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "priority": "P0",
+        "siteUrl": "https://fr.mammotion.com/",
+        "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
+      },
+      "checkedAt": "2026-09-21T08:57:08.344Z",
+      "status": "ok",
+      "baseline": false,
+      "pageCount": 287,
+      "breakdown": {
+        "page": 37,
+        "blog": 146,
+        "collection": 18,
+        "product": 86
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
+      },
+      "contentInspection": {
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": []
+      }
+    }
+  ],
+  "pendingRecords": [],
+  "productRadar": {
+    "mechanism": "open_world_discovery",
+    "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
+    "candidates": []
+  }
+}
