@@ -24,18 +24,31 @@ const personas=[
 const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
 const channel=document.querySelector('#channel-filter');
+let evidenceIndex={entries:{}};
+
+function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
+
+async function loadEvidenceIndex(){
+  try{
+    const response=await fetch('./data/evidence/index.json',{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    return await response.json();
+  }catch{return {entries:{}};}
+}
 
 async function loadMonitorSummary(){
   try{
-    const response=await fetch('./data/monitor-summary.json',{cache:'no-store'});
+    const [response,evidence]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex()]);
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const summary=await response.json();
+    evidenceIndex=evidence;
     document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
     const candidates=summary.productRadar?.candidates||[];
     document.querySelector('#radar-count').textContent=candidates.length?`${candidates.length} 个待复核`:'暂无候选';
-    document.querySelector('#radar-list').innerHTML=candidates.length?candidates.slice(0,6).map(item=>`<article class="radar-item"><div><strong>${item.temporaryName}</strong><span>${item.entityId} · ${item.countries.join(' / ')}</span></div><p>${item.observedNames?.[0]||'官方型号尚未确认'}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></article>`).join(''):'<div class="radar-empty"><strong>当前没有达到阈值的新品候选</strong><span>系统仍会保存页面快照，并持续检查新增 URL、预热词、结构化商品信息、CTA 与 CES 等事件信号。</span></div>';
+    document.querySelector('#radar-list').innerHTML=candidates.length?candidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有达到阈值的新品候选</strong><span>已建立 ${Object.keys(evidenceIndex.entries||{}).length} 个关键页面截图基线；系统继续通过 HTML 检查新增 URL、预热词、价格、Offer、CTA 与结构化商品信息，仅在出现候选时再次截图。</span></div>`;
+    document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(candidates[Number(button.dataset.candidate)]));
     document.querySelector('#baseline-status').textContent=summary.sites.every(site=>site.status==='ok')?'基线正常':'部分异常';
     document.querySelector('#data-updated-at').textContent=`真实数据更新 ${new Date(summary.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;
     document.querySelector('#coverage-grid').innerHTML=summary.sites.map(site=>`<a class="coverage-card" href="${site.site.siteUrl}" target="_blank" rel="noreferrer"><span><b>${site.site.country}</b><small>${site.site.countryCode} · ${site.site.priority}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · Blog ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'基线已建立':'采集异常'}</em></a>`).join('');
@@ -62,7 +75,21 @@ function renderActions(){
 function bindActionClicks(){document.querySelectorAll('[data-action]').forEach(el=>el.onclick=()=>showAction(Number(el.dataset.action)));}
 function showAction(id){
   const a=actions.find(item=>item.id===id);if(!a)return;
+  document.querySelector('#detail-title').textContent='动作详情';
   document.querySelector('#dialog-content').innerHTML=`<dl><dt>品牌 / 市场</dt><dd>${a.brand} · ${a.market}</dd><dt>发现时间</dt><dd>2026/${a.date}</dd><dt>渠道</dt><dd>${a.channel}</dd><dt>营销阶段</dt><dd>${a.stage}</dd><dt>AI判断</dt><dd>该动作与 CES 新品发布事件高度相关，建议关联至统一事件链。</dd><dt>可信度</dt><dd>${a.confidence}</dd></dl><div class="evidence">证据包：计划保存原始 URL、页面截图、内容指纹、首次发现时间和关键字段。当前为模拟记录。</div>`;
+  document.querySelector('#detail-dialog').showModal();
+}
+
+function evidenceForUrl(url){return Object.values(evidenceIndex.entries||{}).find(entry=>entry.url===url);}
+function evidenceFigure(path,label){return path?`<figure><img src="./${escapeHtml(path)}" alt="${escapeHtml(label)}"><figcaption>${escapeHtml(label)}</figcaption></figure>`:`<div class="evidence-missing">${escapeHtml(label)}：暂无截图</div>`;}
+function showCandidate(candidate){
+  if(!candidate)return;
+  document.querySelector('#detail-title').textContent='新品候选详情';
+  const references=candidate.evidenceRefs||[];
+  const evidence=references.map(reference=>evidenceForUrl(reference.url)).find(Boolean);
+  const latest=evidence?.captures?.at(-1);
+  const signals=[...new Set(references.flatMap(reference=>Object.values(reference.matchedSignals||{}).flat()))];
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>临时编号</dt><dd>${escapeHtml(candidate.entityId)}</dd><dt>正式型号</dt><dd>${escapeHtml(candidate.canonicalName||'尚未确认')}</dd><dt>国家站点</dt><dd>${escapeHtml((candidate.countries||[]).join(' / '))}</dd><dt>首次发现</dt><dd>${escapeHtml(new Date(candidate.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>当前阶段</dt><dd>${candidate.launchStage==='multi_source_candidate'?'多源候选':'弱信号'}</dd><dt>命中信号</dt><dd>${escapeHtml(signals.join('、')||'结构化商品信息')}</dd><dt>复核状态</dt><dd>${escapeHtml(candidate.reviewStatus)}</dd></dl><div class="source-links">${references.map(reference=>`<a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">查看 ${escapeHtml(reference.siteId)} 原页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'变化后 / 当前证据')}</div><div class="evidence">HTML 负责判断标题、正文、价格、Offer、CTA 和结构化商品数据是否变化；截图只用于视觉补充与证据留档。候选完成复核前不会进入正式营销动作时间轴。</div>`;
   document.querySelector('#detail-dialog').showModal();
 }
 

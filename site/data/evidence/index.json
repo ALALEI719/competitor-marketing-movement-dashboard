@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-21T09:27:38.491Z",
+  "entries": {
+    "a3bcf7804ee70db1": {
+      "url": "https://us.mammotion.com/",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-21T09:26:43.214Z",
+        "reason": "baseline_homepage",
+        "sourceObservedAt": "baseline",
+          "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-21T09-26-43-214Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "af416e59d4744994": {
+      "url": "https://de.mammotion.com/",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-21T09:26:53.285Z",
+        "reason": "baseline_homepage",
+        "sourceObservedAt": "baseline",
+          "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-09-21T09-26-53-285Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b2e4ee315005450e": {
+      "url": "https://uk.mammotion.com/",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-21T09:27:24.021Z",
+        "reason": "baseline_homepage",
+        "sourceObservedAt": "baseline",
+          "title": "Smart Yards Start Here | Mammotion UK",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-09-21T09-27-24-021Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "0f7db38ca366aeba": {
+      "url": "https://fr.mammotion.com/",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-21T09:27:30.887Z",
+        "reason": "baseline_homepage",
+        "sourceObservedAt": "baseline",
+          "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-21T09-27-30-887Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    }
+  }
+}

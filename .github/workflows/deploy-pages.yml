@@ -33,6 +33,7 @@ jobs:
         shell: bash
         run: |
           base="https://competitor-marketing-movement-track.vercel.app"
+          mkdir -p site/data/evidence/screenshots
           fetch_file() {
             source_path="$1"
             destination="$2"
@@ -49,6 +50,13 @@ jobs:
           fetch_file "styles.css" "site/styles.css"
           fetch_file "styles-rules.css" "site/styles-rules.css"
           fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
+          fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
+          if [ -f site/data/evidence/index.json ]; then
+            jq -r '.entries[].captures[] | .viewportScreenshot, .keyRegionScreenshot, .previousViewportScreenshot' site/data/evidence/index.json | sed '/^$/d' | sort -u | while read -r asset; do
+              mkdir -p "site/$(dirname "${asset}")"
+              fetch_file "${asset}" "site/${asset}"
+            done
+          fi
 
       - name: Keep assets compatible with the Pages subdirectory
         run: |
