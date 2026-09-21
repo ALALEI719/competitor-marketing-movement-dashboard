@@ -36,9 +36,30 @@ async function loadEvidenceIndex(){
   }catch{return {entries:{}};}
 }
 
+async function loadFormalActions(){
+  try{
+    const response=await fetch('./data/formal-actions.json',{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    return await response.json();
+  }catch{return {actions:[]};}
+}
+
+function reviewLabel(status){return ({pending:'待复核',approved:'已确认',rejected:'已驳回'})[status]||status;}
+function renderReviewQueue(candidates){
+  const pending=candidates.filter(item=>item.reviewStatus==='pending').length;
+  document.querySelector('#review-pending-count').textContent=`${pending} 个待复核`;
+  document.querySelector('#review-queue-body').innerHTML=candidates.length?candidates.map(item=>`<tr><td><code>${escapeHtml(item.entityId)}</code></td><td>${escapeHtml(item.brand)} · ${escapeHtml((item.countries||[]).join(' / '))}</td><td>${escapeHtml(new Date(item.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</td><td>${item.confidenceScore}</td><td><span class="review-status ${escapeHtml(item.reviewStatus)}">${reviewLabel(item.reviewStatus)}</span></td><td><button class="secondary compact" data-review-candidate="${escapeHtml(item.entityId)}">查看证据</button></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前没有新品候选</td></tr>';
+  document.querySelectorAll('[data-review-candidate]').forEach(button=>button.onclick=()=>showCandidate(candidates.find(item=>item.entityId===button.dataset.reviewCandidate)));
+}
+
+function renderFormalActions(actions){
+  document.querySelector('#formal-action-count').textContent=`${actions.length} 条`;
+  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map(action=>`<tr><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill">${escapeHtml(action.brand)}</span>　${escapeHtml(action.country)}</td><td>官网</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(action.stage)}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">目前没有通过复核的真实营销动作</td></tr>';
+}
+
 async function loadMonitorSummary(){
   try{
-    const [response,evidence]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex()]);
+    const [response,evidence,formalActions]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex(),loadFormalActions()]);
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const summary=await response.json();
     evidenceIndex=evidence;
@@ -46,6 +67,8 @@ async function loadMonitorSummary(){
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
     const candidates=summary.productRadar?.candidates||[];
+    renderReviewQueue(candidates);
+    renderFormalActions(formalActions.actions||[]);
     document.querySelector('#radar-count').textContent=candidates.length?`${candidates.length} 个待复核`:'暂无候选';
     document.querySelector('#radar-list').innerHTML=candidates.length?candidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有达到阈值的新品候选</strong><span>已建立 ${Object.keys(evidenceIndex.entries||{}).length} 个关键页面截图基线；系统继续通过 HTML 检查新增 URL、预热词、价格、Offer、CTA 与结构化商品信息，仅在出现候选时再次截图。</span></div>`;
     document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(candidates[Number(button.dataset.candidate)]));
@@ -89,7 +112,7 @@ function showCandidate(candidate){
   const evidence=references.map(reference=>evidenceForUrl(reference.url)).find(Boolean);
   const latest=evidence?.captures?.at(-1);
   const signals=[...new Set(references.flatMap(reference=>Object.values(reference.matchedSignals||{}).flat()))];
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>临时编号</dt><dd>${escapeHtml(candidate.entityId)}</dd><dt>正式型号</dt><dd>${escapeHtml(candidate.canonicalName||'尚未确认')}</dd><dt>国家站点</dt><dd>${escapeHtml((candidate.countries||[]).join(' / '))}</dd><dt>首次发现</dt><dd>${escapeHtml(new Date(candidate.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>当前阶段</dt><dd>${candidate.launchStage==='multi_source_candidate'?'多源候选':'弱信号'}</dd><dt>命中信号</dt><dd>${escapeHtml(signals.join('、')||'结构化商品信息')}</dd><dt>复核状态</dt><dd>${escapeHtml(candidate.reviewStatus)}</dd></dl><div class="source-links">${references.map(reference=>`<a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">查看 ${escapeHtml(reference.siteId)} 原页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'变化后 / 当前证据')}</div><div class="evidence">HTML 负责判断标题、正文、价格、Offer、CTA 和结构化商品数据是否变化；截图只用于视觉补充与证据留档。候选完成复核前不会进入正式营销动作时间轴。</div>`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>临时编号</dt><dd><code>${escapeHtml(candidate.entityId)}</code></dd><dt>正式型号</dt><dd>${escapeHtml(candidate.canonicalName||'尚未确认')}</dd><dt>国家站点</dt><dd>${escapeHtml((candidate.countries||[]).join(' / '))}</dd><dt>首次发现</dt><dd>${escapeHtml(new Date(candidate.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>当前阶段</dt><dd>${candidate.launchStage==='multi_source_candidate'?'多源候选':'弱信号'}</dd><dt>命中信号</dt><dd>${escapeHtml(signals.join('、')||'结构化商品信息')}</dd><dt>复核状态</dt><dd>${escapeHtml(reviewLabel(candidate.reviewStatus))}</dd></dl><div class="source-links">${references.map(reference=>`<a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">查看 ${escapeHtml(reference.siteId)} 原页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'变化后 / 当前证据')}</div><div class="evidence">HTML 负责判断标题、正文、价格、Offer、CTA 和结构化商品数据是否变化；截图只用于视觉补充与证据留档。候选完成复核前不会进入正式营销动作时间轴。</div>${candidate.reviewStatus==='pending'?'<a class="primary dialog-review-link" href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-product-candidate.yml" target="_blank" rel="noreferrer">前往私有复核入口</a>':''}`;
   document.querySelector('#detail-dialog').showModal();
 }
 

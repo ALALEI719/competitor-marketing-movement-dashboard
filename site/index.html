@@ -16,6 +16,7 @@
     <div class="brand"><span class="brand-mark"></span><span>竞品营销动作监控</span></div>
     <nav aria-label="主导航">
       <button class="nav-item active" data-view="overview">监控总览</button>
+      <button class="nav-item" data-view="review">复核队列</button>
       <button class="nav-item" data-view="schedule">监控规则</button>
       <button class="nav-item" data-view="edm">EDM 实验</button>
     </nav>
@@ -45,6 +46,11 @@
         <div id="radar-list" class="radar-list"><div class="coverage-loading">正在读取新品候选…</div></div>
       </article>
 
+      <article class="panel verified-panel">
+        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>只有完成复核并确认通过的候选才进入这里，并按国家站点分别记录</p></div><span class="badge green" id="formal-action-count">读取中</span></div>
+        <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>渠道</th><th>正式动作</th><th>阶段</th><th>状态</th></tr></thead><tbody id="formal-action-table"><tr><td colspan="6">正在读取真实动作…</td></tr></tbody></table></div>
+      </article>
+
       <div class="kpi-grid">
         <article class="kpi"><span>模拟营销动作</span><strong id="action-count">42</strong><small>用于验证时间轴交互</small></article>
         <article class="kpi"><span>识别营销事件</span><strong>9</strong><small>7 个完成跨渠道聚类</small></article>
@@ -70,6 +76,15 @@
         <div class="panel-head"><div><h2>近期监控动作</h2><p>同一动作在不同国家站点分别记录</p></div><button class="secondary" id="reset-filters">清除筛选</button></div>
         <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>渠道</th><th>动作摘要</th><th>阶段</th><th>可信度</th></tr></thead><tbody id="action-table"></tbody></table></div>
       </article>
+    </section>
+
+    <section class="view" id="review">
+      <div class="section-intro"><div><span class="eyebrow">HUMAN REVIEW GATE</span><h1>新品候选复核队列</h1><p>HTML 和截图提供证据；有私有仓库权限的复核人确认或驳回。公开看板本身不保存写操作。</p></div><a class="primary review-entry" href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-product-candidate.yml" target="_blank" rel="noreferrer">打开安全复核入口</a></div>
+      <article class="panel">
+        <div class="panel-head"><div><h2>候选状态</h2><p>复制临时编号，在复核入口填写结论、复核人、官方型号和判断依据</p></div><span class="badge orange" id="review-pending-count">0 个待复核</span></div>
+        <div class="table-wrap"><table><thead><tr><th>临时编号</th><th>品牌 / 国家</th><th>首次发现</th><th>信号分</th><th>状态</th><th>操作</th></tr></thead><tbody id="review-queue-body"><tr><td colspan="6">正在读取候选…</td></tr></tbody></table></div>
+      </article>
+      <p class="footnote">复核操作通过私有 GitHub 工作流执行并写入日志，避免公开页面被未授权人员修改。</p>
     </section>
 
     <section class="view" id="schedule">
