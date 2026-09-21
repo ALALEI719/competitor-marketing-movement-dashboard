@@ -51,6 +51,7 @@ jobs:
           fetch_file "styles-rules.css" "site/styles-rules.css"
           fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
           fetch_file "data/formal-actions.json" "site/data/formal-actions.json"
+          fetch_file "data/marketing-events.json" "site/data/marketing-events.json"
           fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
           if [ -f site/data/evidence/index.json ]; then
             jq -r '.entries[].captures[] | .viewportScreenshot, .keyRegionScreenshot, .previousViewportScreenshot' site/data/evidence/index.json | sed '/^$/d' | sort -u | while read -r asset; do
