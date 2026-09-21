@@ -56,6 +56,13 @@ jobs:
           fetch_file "styles-rules.css" "_site/styles-rules.css"
           fetch_file "data/monitor-summary.json" "_site/data/monitor-summary.json"
 
+      - name: Keep assets compatible with the Pages subdirectory
+        run: |
+          sed -i 's|href="/styles.css"|href="./styles.css"|g' _site/index.html
+          sed -i 's|href="/styles-rules.css"|href="./styles-rules.css"|g' _site/index.html
+          sed -i 's|src="/app.js"|src="./app.js"|g' _site/index.html
+          sed -i "s|fetch('/data/monitor-summary.json'|fetch('./data/monitor-summary.json'|g" _site/app.js
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
