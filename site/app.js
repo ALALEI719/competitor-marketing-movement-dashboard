@@ -55,6 +55,15 @@ async function loadMarketingEvents(){
 function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'Blog',social_ads:'社媒广告',video:'视频',edm:'EDM'})[channel]||channel;}
 
 function reviewLabel(status){return ({pending:'待复核',approved:'已确认',rejected:'已驳回'})[status]||status;}
+function renderChannelMonitoring(monitoring){
+  const sources=monitoring?.sources||[];
+  const healthy=sources.filter(item=>item.status==='ok').length;
+  document.querySelector('#channel-source-status').textContent=sources.length?`${healthy}/${sources.length} 正常`:'暂无数据';
+  document.querySelector('#channel-source-status').className=`badge ${healthy===sources.length?'green':'orange'}`;
+  document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · ${escapeHtml(channelLabel(item.source.channel))}</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立渠道基线</div>';
+  const records=monitoring?.pendingRecords||[];
+  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,8).map(item=>`<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${escapeHtml(channelLabel(item.channel))} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a>`).join(''):'<div class="timeline-empty">当前没有新增或更新的 PR / Blog 内容。</div>';
+}
 function renderReviewQueue(candidates){
   const pending=candidates.filter(item=>item.reviewStatus==='pending').length;
   document.querySelector('#review-pending-count').textContent=`${pending} 个待复核`;
@@ -91,6 +100,7 @@ async function loadMonitorSummary(){
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const summary=await response.json();
     evidenceIndex=evidence;
+    renderChannelMonitoring(summary.channelMonitoring);
     document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
@@ -111,6 +121,7 @@ async function loadMonitorSummary(){
     document.querySelector('#data-updated-at').textContent='真实数据尚未加载';
     document.querySelector('#radar-count').textContent='数据不可用';
     document.querySelector('#radar-list').innerHTML='<div class="coverage-loading">新品雷达数据暂时无法读取</div>';
+    renderChannelMonitoring(null);
   }
 }
 

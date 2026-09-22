@@ -30,7 +30,7 @@
       <div class="filter-row">
         <label>国家站点<select id="market-filter"><option value="全部">全部国家站点</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label>
         <label>品牌<select id="brand-filter"><option value="全部">全部竞品</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
-        <label>渠道<select id="channel-filter"><option value="全部">全部渠道</option><option>官网</option><option>PR</option><option>社媒广告</option><option>EDM</option><option>视频</option></select></label>
+        <label>渠道<select id="channel-filter"><option value="全部">全部渠道</option><option>官网</option><option>PR</option><option>Blog</option><option>社媒广告</option><option>EDM</option><option>视频</option></select></label>
         <div class="period">观察周期：CES 前后 4 周</div>
       </div>
 
@@ -38,6 +38,11 @@
         <div class="panel-head"><div><h2>Mammotion 四国真实监控基线</h2><p>来源为公开 Sitemap；首次运行仅建立基线，不生成营销动作</p></div><span class="badge green" id="baseline-status">读取中</span></div>
         <div class="real-kpis"><div><span>健康站点</span><strong id="real-healthy">—</strong></div><div><span>纳入页面</span><strong id="real-pages">—</strong></div><div><span>待复核变化</span><strong id="real-pending">—</strong></div><div><span>运行模式</span><strong>每周全量</strong></div></div>
         <div class="coverage-grid" id="coverage-grid"><div class="coverage-loading">正在读取真实监控数据…</div></div>
+      </article>
+
+      <article class="panel channel-panel">
+        <div class="panel-head"><div><h2>PR / Blog 渠道监控</h2><p>Blog 使用官方 Atom Feed；全球 Newsroom 独立探测，首次运行只建立基线</p></div><span class="badge green" id="channel-source-status">读取中</span></div>
+        <div class="channel-monitor-grid"><div id="channel-source-list" class="channel-source-list"><div class="coverage-loading">正在读取渠道源…</div></div><aside><strong>待复核渠道变化</strong><div id="channel-record-list" class="channel-record-list"><div class="timeline-empty">正在读取…</div></div></aside></div>
       </article>
 
       <article class="panel radar-panel">

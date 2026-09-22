@@ -10,7 +10,11 @@
     "healthySites": 4,
     "pages": 1113,
     "pendingChanges": 0,
-    "productCandidates": 0
+    "productCandidates": 0,
+    "channelSources": 5,
+    "healthyChannelSources": 4,
+    "channelItems": 120,
+    "pendingChannelChanges": 0
   },
   "sites": [
     {
@@ -165,5 +169,108 @@
     "mechanism": "open_world_discovery",
     "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
     "candidates": []
+  },
+  "channelMonitoring": {
+    "checkedAt": "2026-09-22T08:05:51.915Z",
+    "note": "Blog 使用官方 Atom feed；全球 Newsroom 独立监控，访问失败时明确保留错误状态。首次运行只建立基线。",
+    "sources": [
+      {
+        "source": {
+          "id": "mammotion-us-blog",
+          "brand": "Mammotion",
+          "country": "美国",
+          "countryCode": "US",
+          "channel": "blog",
+          "url": "https://us.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-09-22T08:05:51.915Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-20T23:05:18-07:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-de-blog",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "blog",
+          "url": "https://de.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-09-22T08:05:51.915Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-08T05:51:34+02:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-uk-blog",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "blog",
+          "url": "https://uk.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-09-22T08:05:51.915Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-fr-blog",
+          "brand": "Mammotion",
+          "country": "法国",
+          "countryCode": "FR",
+          "channel": "blog",
+          "url": "https://fr.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-09-22T08:05:51.915Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-20T12:29:51+02:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-global-newsroom",
+          "brand": "Mammotion",
+          "country": "全球",
+          "countryCode": "GLOBAL",
+          "channel": "pr",
+          "url": "https://mammotion.com/pages/newsroom"
+        },
+        "checkedAt": "2026-09-22T08:05:51.915Z",
+        "status": "error",
+        "error": "HTTP 404",
+        "baseline": true,
+        "itemCount": 0,
+        "latestPublishedAt": "",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        }
+      }
+    ],
+    "pendingRecords": []
   }
 }
