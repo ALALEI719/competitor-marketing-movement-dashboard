@@ -14,7 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "pendingChannelChanges": 0
+    "pendingChannelChanges": 0,
+    "blogChanges": 0
   },
   "sites": [
     {
@@ -171,8 +172,8 @@
     "candidates": []
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-22T08:40:38.750Z",
-    "note": "只监控 Mammotion 美国、德国、英国、法国四个子站的官方 Blog Atom Feed；首次运行只建立基线。",
+    "checkedAt": "2026-09-22T09:02:54.265Z",
+    "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
         "source": {
@@ -183,7 +184,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T08:40:38.750Z",
+        "checkedAt": "2026-09-22T09:02:54.265Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -202,7 +203,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T08:40:38.750Z",
+        "checkedAt": "2026-09-22T09:02:54.265Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -221,7 +222,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T08:40:38.750Z",
+        "checkedAt": "2026-09-22T09:02:54.265Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -240,7 +241,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T08:40:38.750Z",
+        "checkedAt": "2026-09-22T09:02:54.265Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -251,6 +252,7 @@
         }
       }
     ],
+    "recentRecords": [],
     "pendingRecords": []
   }
 }
