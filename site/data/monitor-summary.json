@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "pendingChannelChanges": 0,
-    "blogChanges": 0
+    "pendingChannelChanges": 1,
+    "blogChanges": 1
   },
   "sites": [
     {
@@ -172,7 +172,7 @@
     "candidates": []
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-22T09:02:54.265Z",
+    "checkedAt": "2026-09-23T07:58:53.251Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -184,13 +184,13 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T09:02:54.265Z",
+        "checkedAt": "2026-09-23T07:58:53.251Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-20T23:05:18-07:00",
+        "latestPublishedAt": "2026-09-22T02:44:10-07:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         }
       },
@@ -203,7 +203,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T09:02:54.265Z",
+        "checkedAt": "2026-09-23T07:58:53.251Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -222,7 +222,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T09:02:54.265Z",
+        "checkedAt": "2026-09-23T07:58:53.251Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -241,7 +241,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-22T09:02:54.265Z",
+        "checkedAt": "2026-09-23T07:58:53.251Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -252,7 +252,73 @@
         }
       }
     ],
-    "recentRecords": [],
-    "pendingRecords": []
+    "recentRecords": [
+      {
+        "recordId": "CH-70080EC49671",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Summer Lawn Care: What to Do for a Healthy Lawn in Summer",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/summer-lawn-care",
+        "publishDate": "2026-09-22T02:44:10-07:00",
+        "updatedAt": "2026-09-22T02:44:11-07:00",
+        "discoveredAt": "2026-09-23T07:58:53.251Z",
+        "summary": "Learn how to care for your lawn in summer with practical mowing, watering, heat and drought tips. Know when to fertilize, control weeds, overseed, or wait. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.24,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      }
+    ],
+    "pendingRecords": [
+      {
+        "recordId": "CH-70080EC49671",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Summer Lawn Care: What to Do for a Healthy Lawn in Summer",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/summer-lawn-care",
+        "publishDate": "2026-09-22T02:44:10-07:00",
+        "updatedAt": "2026-09-22T02:44:11-07:00",
+        "discoveredAt": "2026-09-23T07:58:53.251Z",
+        "summary": "Learn how to care for your lawn in summer with practical mowing, watering, heat and drought tips. Know when to fertilize, control weeds, overseed, or wait. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.24,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      }
+    ]
   }
 }
