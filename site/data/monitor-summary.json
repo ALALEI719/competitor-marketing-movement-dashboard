@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "pendingChannelChanges": 1,
-    "blogChanges": 1
+    "pendingChannelChanges": 2,
+    "blogChanges": 2
   },
   "sites": [
     {
@@ -172,7 +172,7 @@
     "candidates": []
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-24T07:49:58.313Z",
+    "checkedAt": "2026-09-25T08:12:48.672Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -184,14 +184,14 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-24T07:49:58.313Z",
+        "checkedAt": "2026-09-25T08:12:48.672Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-09-22T02:44:10-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         }
       },
       {
@@ -203,7 +203,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-24T07:49:58.313Z",
+        "checkedAt": "2026-09-25T08:12:48.672Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -222,7 +222,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-24T07:49:58.313Z",
+        "checkedAt": "2026-09-25T08:12:48.672Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -241,7 +241,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-24T07:49:58.313Z",
+        "checkedAt": "2026-09-25T08:12:48.672Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -253,6 +253,38 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-5A55889BCA72",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Seasonal Lawn Care: A Year-Round Guide for Healthy Grass in Every Season",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/seasonal-lawn-care",
+        "publishDate": "2026-09-20T23:05:18-07:00",
+        "updatedAt": "2026-09-24T02:55:28-07:00",
+        "discoveredAt": "2026-09-25T08:12:48.672Z",
+        "summary": "Learn seasonal lawn care for spring, summer, fall, and winter. Get practical mowing, watering, fertilizing, aeration, overseeding, and weed-control tips by grass type. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.19,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-70080EC49671",
         "sourceId": "mammotion-us-blog",
@@ -287,6 +319,38 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-5A55889BCA72",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Seasonal Lawn Care: A Year-Round Guide for Healthy Grass in Every Season",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/seasonal-lawn-care",
+        "publishDate": "2026-09-20T23:05:18-07:00",
+        "updatedAt": "2026-09-24T02:55:28-07:00",
+        "discoveredAt": "2026-09-25T08:12:48.672Z",
+        "summary": "Learn seasonal lawn care for spring, summer, fall, and winter. Get practical mowing, watering, fertilizing, aeration, overseeding, and weed-control tips by grass type. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.19,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-70080EC49671",
         "sourceId": "mammotion-us-blog",
