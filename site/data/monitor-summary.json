@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-21T08:57:11.235Z",
+  "generatedAt": "2026-09-28T08:48:23.404Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [],
@@ -8,14 +8,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1113,
-    "pendingChanges": 0,
-    "productCandidates": 0,
+    "pages": 1117,
+    "pendingChanges": 6,
+    "productCandidates": 2,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "pendingChannelChanges": 2,
-    "blogChanges": 2
+    "blogChanges": 3,
+    "pendingChannelChanges": 3
   },
   "sites": [
     {
@@ -28,29 +28,29 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-09-21T08:56:59.704Z",
+      "checkedAt": "2026-09-28T08:48:12.023Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 329,
+      "pageCount": 330,
       "breakdown": {
         "page": 61,
-        "blog": 198,
+        "blog": 199,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 75
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 75,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "inspectedPages": 2,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -64,26 +64,25 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-09-21T08:57:02.623Z",
+      "checkedAt": "2026-09-28T08:48:14.900Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 286,
       "breakdown": {
-        "page": 35,
+        "page": 36,
         "blog": 152,
         "collection": 14,
-        "pr": 1,
         "product": 84
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 98
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 98,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
@@ -101,29 +100,28 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-09-21T08:57:05.336Z",
+      "checkedAt": "2026-09-28T08:48:17.085Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 211,
+      "pageCount": 212,
       "breakdown": {
-        "page": 38,
+        "page": 40,
         "blog": 89,
         "collection": 16,
-        "pr": 1,
         "product": 67
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 78
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 78,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -138,41 +136,446 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-09-21T08:57:08.344Z",
+      "checkedAt": "2026-09-28T08:48:19.560Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 287,
+      "pageCount": 289,
       "breakdown": {
         "page": 37,
-        "blog": 146,
-        "collection": 18,
+        "blog": 147,
+        "collection": 19,
         "product": 86
       },
       "changeCounts": {
-        "added": 0,
+        "added": 2,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 100
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 100,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "inspectedPages": 3,
+        "meaningfulChanges": 1,
         "errors": []
       }
     }
   ],
-  "pendingRecords": [],
+  "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-09-28T08:48:12.023Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/summer-lawn-care",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-09-28T08:48:12.023Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "55fb6c47aae5eaaea5fb5453b53bd93b67a492f0b9c054573c0ba2902b5e656a",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.11
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "routine_content_refresh",
+            "confidence": 0.98,
+            "probabilities": {
+              "promotion": 0,
+              "product_launch": 0.02,
+              "other": 0,
+              "messaging_or_cta": 0,
+              "price_change": 0,
+              "routine_content_refresh": 0.98,
+              "availability_change": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "announcement": 0,
+              "on_sale": 0,
+              "preorder": 0,
+              "not_launch_related": 0.99,
+              "teaser": 0,
+              "weak_signal": 0.01
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.21,
+            "confidence": 0.77,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.03,
+              "1": 0.77,
+              "2": 0.16,
+              "3": 0.04,
+              "4": 0
+            }
+          }
+        },
+        "latencyMs": 182,
+        "usage": {
+          "input_tokens": 5630,
+          "output_tokens": 185
+        },
+        "error": null,
+        "evaluatedAt": "2026-09-28T08:48:14.291Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      }
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-09-28T08:48:17.085Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/pages/google-callback",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-09-28T08:48:19.560Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-09-28T08:48:19.560Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/robots-tondeuses-test12589",
+      "pageType": "collection",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "5073afcc0b2fee68b82ec625b4f05c5b6ec95fe821c43f62d32c3854252f781f",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.44
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.5,
+            "probabilities": {
+              "price_change": 0,
+              "promotion": 0.57,
+              "availability_change": 0.01,
+              "other": 0.26,
+              "product_launch": 0.07,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0.08
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.78,
+            "probabilities": {
+              "weak_signal": 0.03,
+              "preorder": 0,
+              "announcement": 0.02,
+              "on_sale": 0.12,
+              "teaser": 0,
+              "not_launch_related": 0.83
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.4,
+            "confidence": 0.43,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.12,
+              "1": 0.04,
+              "2": 0.19,
+              "3": 0.61,
+              "4": 0.04
+            }
+          }
+        },
+        "latencyMs": 190,
+        "usage": {
+          "input_tokens": 4069,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-09-28T08:48:23.247Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      }
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-09-28T08:48:19.560Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "aa3f76c716185eff6408b3cdbe159b39f0641a2054271b9367e3508e0b695393",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.14
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "routine_content_refresh",
+            "confidence": 0.99,
+            "probabilities": {
+              "promotion": 0,
+              "product_launch": 0,
+              "price_change": 0,
+              "availability_change": 0,
+              "other": 0,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0.99
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "teaser": 0,
+              "preorder": 0,
+              "weak_signal": 0.01,
+              "not_launch_related": 0.99,
+              "on_sale": 0,
+              "announcement": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.2,
+            "confidence": 0.78,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.03,
+              "1": 0.75,
+              "2": 0.21,
+              "3": 0.01,
+              "4": 0
+            }
+          }
+        },
+        "latencyMs": 203,
+        "usage": {
+          "input_tokens": 6231,
+          "output_tokens": 185
+        },
+        "error": null,
+        "evaluatedAt": "2026-09-28T08:48:21.986Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      }
+    }
+  ],
   "productRadar": {
     "mechanism": "open_world_discovery",
     "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
-    "candidates": []
+    "candidates": [
+      {
+        "entityId": "MAM-UNKNOWN-CB0AD102",
+        "canonicalName": "",
+        "temporaryName": "Mammotion 未知新品 D102",
+        "nameStatus": "unknown",
+        "observedNames": [
+          "MAMMOTION France"
+        ],
+        "brand": "Mammotion",
+        "productCategory": "",
+        "firstSeenAt": "2026-09-28T08:48:19.560Z",
+        "firstSeenCountry": "法国",
+        "countries": [
+          "法国"
+        ],
+        "launchStage": "weak_signal",
+        "eventTags": [
+          "CES"
+        ],
+        "confidence": "medium",
+        "confidenceScore": 4,
+        "reviewStatus": "pending",
+        "evidenceRefs": [
+          {
+            "url": "https://fr.mammotion.com/",
+            "siteId": "mammotion-fr",
+            "capturedAt": "2026-09-28T08:48:19.560Z",
+            "sourceReason": "sentinel_homepage",
+            "matchedSignals": {
+              "url": [],
+              "launch": [
+                "première mondiale"
+              ],
+              "cta": [
+                "en savoir plus"
+              ],
+              "event": [
+                "ces"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entityId": "MAM-UNKNOWN-68BDC356",
+        "canonicalName": "",
+        "temporaryName": "Mammotion 未知新品 C356",
+        "nameStatus": "unknown",
+        "observedNames": [
+          "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien"
+        ],
+        "brand": "Mammotion",
+        "productCategory": "",
+        "firstSeenAt": "2026-09-28T08:48:19.560Z",
+        "firstSeenCountry": "法国",
+        "countries": [
+          "法国"
+        ],
+        "launchStage": "weak_signal",
+        "eventTags": [
+          "CES"
+        ],
+        "confidence": "medium",
+        "confidenceScore": 4,
+        "reviewStatus": "pending",
+        "evidenceRefs": [
+          {
+            "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+            "siteId": "mammotion-fr",
+            "capturedAt": "2026-09-28T08:48:19.560Z",
+            "sourceReason": "new_sitemap_url",
+            "matchedSignals": {
+              "url": [
+                "new"
+              ],
+              "launch": [],
+              "cta": [
+                "en savoir plus"
+              ],
+              "event": [
+                "ces"
+              ]
+            }
+          }
+        ]
+      }
+    ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-27T08:34:58.996Z",
+    "checkedAt": "2026-09-28T08:58:44.263Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -184,7 +587,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-27T08:34:58.996Z",
+        "checkedAt": "2026-09-28T08:58:44.263Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -203,7 +606,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-27T08:34:58.996Z",
+        "checkedAt": "2026-09-28T08:58:44.263Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -222,7 +625,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-27T08:34:58.996Z",
+        "checkedAt": "2026-09-28T08:58:44.263Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -241,11 +644,11 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-27T08:34:58.996Z",
+        "checkedAt": "2026-09-28T08:58:44.263Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-20T12:29:51+02:00",
+        "latestPublishedAt": "2026-09-28T10:41:48+02:00",
         "changeCounts": {
           "added": 0,
           "updated": 0
@@ -253,6 +656,38 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-E6904CF18251",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+        "publishDate": "2026-09-28T10:41:48+02:00",
+        "updatedAt": "2026-09-28T10:41:50+02:00",
+        "discoveredAt": "2026-09-28T08:48:23.586Z",
+        "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.96,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-5A55889BCA72",
         "sourceId": "mammotion-us-blog",
@@ -319,6 +754,38 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-E6904CF18251",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+        "publishDate": "2026-09-28T10:41:48+02:00",
+        "updatedAt": "2026-09-28T10:41:50+02:00",
+        "discoveredAt": "2026-09-28T08:48:23.586Z",
+        "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.96,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-5A55889BCA72",
         "sourceId": "mammotion-us-blog",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-21T09:27:38.491Z",
+  "generatedAt": "2026-09-28T08:49:18.110Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -10,13 +10,23 @@
       "captures": [
         {
           "capturedAt": "2026-09-21T09:26:43.214Z",
-        "reason": "baseline_homepage",
-        "sourceObservedAt": "baseline",
+          "reason": "baseline_homepage",
+          "sourceObservedAt": "baseline",
           "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-21T09-26-43-214Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-09-28T08:48:36.974Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-09-28T08:48:12.023Z",
+          "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-28T08-48-36-974Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-21T09-26-43-214Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -29,8 +39,8 @@
       "captures": [
         {
           "capturedAt": "2026-09-21T09:26:53.285Z",
-        "reason": "baseline_homepage",
-        "sourceObservedAt": "baseline",
+          "reason": "baseline_homepage",
+          "sourceObservedAt": "baseline",
           "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-09-21T09-26-53-285Z-viewport.jpg",
@@ -48,8 +58,8 @@
       "captures": [
         {
           "capturedAt": "2026-09-21T09:27:24.021Z",
-        "reason": "baseline_homepage",
-        "sourceObservedAt": "baseline",
+          "reason": "baseline_homepage",
+          "sourceObservedAt": "baseline",
           "title": "Smart Yards Start Here | Mammotion UK",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-09-21T09-27-24-021Z-viewport.jpg",
@@ -67,11 +77,97 @@
       "captures": [
         {
           "capturedAt": "2026-09-21T09:27:30.887Z",
-        "reason": "baseline_homepage",
-        "sourceObservedAt": "baseline",
+          "reason": "baseline_homepage",
+          "sourceObservedAt": "baseline",
           "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-21T09-27-30-887Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-09-28T08:49:07.902Z",
+          "reason": "product_candidate:MAM-UNKNOWN-CB0AD102",
+          "sourceObservedAt": "2026-09-28T08:48:19.560Z",
+          "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
+          "matchedTerm": "première mondiale",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-28T08-49-07-902Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-28T08-49-07-902Z-key.jpg",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-21T09-27-30-887Z-viewport.jpg"
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-CB0AD102"
+    },
+    "37c70b2b1da6b15a": {
+      "url": "https://us.mammotion.com/blogs/news/summer-lawn-care",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-28T08:48:26.453Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-09-28T08:48:12.023Z",
+          "title": "Summer Lawn Care: How to Mow, Water, and Protect Your Lawn in Summer",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-37c70b2b1da6b15a-2026-09-28T08-48-26-453Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "27e67dab2c115a20": {
+      "url": "https://uk.mammotion.com/pages/google-callback",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-28T08:48:47.479Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-09-28T08:48:17.085Z",
+          "title": "Social Login",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-27e67dab2c115a20-2026-09-28T08-48-47-479Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "bc97975c02c554d5": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-28T08:48:51.159Z",
+          "reason": "product_candidate:MAM-UNKNOWN-68BDC356",
+          "sourceObservedAt": "2026-09-28T08:48:19.560Z",
+          "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-bc97975c02c554d5-2026-09-28T08-48-51-159Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-bc97975c02c554d5-2026-09-28T08-48-51-159Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-68BDC356"
+    },
+    "3a3d5a9ffd48971a": {
+      "url": "https://fr.mammotion.com/collections/robots-tondeuses-test12589",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-09-28T08:48:59.808Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-09-28T08:48:19.560Z",
+          "title": "Robots Tondeuses Sans Fil Périphérique LUBA & YUKA | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-3a3d5a9ffd48971a-2026-09-28T08-48-59-808Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
