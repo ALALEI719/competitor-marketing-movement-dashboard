@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 3,
-    "pendingChannelChanges": 3
+    "blogChanges": 4,
+    "pendingChannelChanges": 4
   },
   "sites": [
     {
@@ -575,7 +575,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-28T08:58:44.263Z",
+    "checkedAt": "2026-09-29T09:05:25.497Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -587,7 +587,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-28T08:58:44.263Z",
+        "checkedAt": "2026-09-29T09:05:25.497Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -606,7 +606,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-28T08:58:44.263Z",
+        "checkedAt": "2026-09-29T09:05:25.497Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -625,7 +625,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-28T08:58:44.263Z",
+        "checkedAt": "2026-09-29T09:05:25.497Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -644,18 +644,50 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-28T08:58:44.263Z",
+        "checkedAt": "2026-09-29T09:05:25.497Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-28T10:41:48+02:00",
+        "latestPublishedAt": "2026-09-29T08:58:57+02:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-C998005A7AFB",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+        "publishDate": "2026-09-29T08:58:57+02:00",
+        "updatedAt": "2026-09-29T08:58:58+02:00",
+        "discoveredAt": "2026-09-29T09:05:25.497Z",
+        "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.91,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-E6904CF18251",
         "sourceId": "mammotion-fr-blog",
@@ -754,6 +786,38 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-C998005A7AFB",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+        "publishDate": "2026-09-29T08:58:57+02:00",
+        "updatedAt": "2026-09-29T08:58:58+02:00",
+        "discoveredAt": "2026-09-29T09:05:25.497Z",
+        "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.91,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-E6904CF18251",
         "sourceId": "mammotion-fr-blog",
