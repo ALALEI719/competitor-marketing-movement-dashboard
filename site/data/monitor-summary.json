@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 4,
-    "pendingChannelChanges": 4
+    "blogChanges": 5,
+    "pendingChannelChanges": 5
   },
   "sites": [
     {
@@ -575,7 +575,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-09-29T09:05:25.497Z",
+    "checkedAt": "2026-09-30T09:02:05.188Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -587,7 +587,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-29T09:05:25.497Z",
+        "checkedAt": "2026-09-30T09:02:05.188Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -606,7 +606,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-29T09:05:25.497Z",
+        "checkedAt": "2026-09-30T09:02:05.188Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -625,7 +625,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-29T09:05:25.497Z",
+        "checkedAt": "2026-09-30T09:02:05.188Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -644,11 +644,11 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-09-29T09:05:25.497Z",
+        "checkedAt": "2026-09-30T09:02:05.188Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-29T08:58:57+02:00",
+        "latestPublishedAt": "2026-09-29T11:30:35+02:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
@@ -656,6 +656,38 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-599250CA14FE",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Choisir un robot tondeuse pour petite surface",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-09-29T11:30:35+02:00",
+        "updatedAt": "2026-09-29T11:30:37+02:00",
+        "discoveredAt": "2026-09-30T09:02:05.188Z",
+        "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-C998005A7AFB",
         "sourceId": "mammotion-fr-blog",
@@ -786,6 +818,38 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-599250CA14FE",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Choisir un robot tondeuse pour petite surface",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-09-29T11:30:35+02:00",
+        "updatedAt": "2026-09-29T11:30:37+02:00",
+        "discoveredAt": "2026-09-30T09:02:05.188Z",
+        "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-C998005A7AFB",
         "sourceId": "mammotion-fr-blog",
