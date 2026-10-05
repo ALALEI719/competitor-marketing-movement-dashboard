@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-28T08:49:18.110Z",
+  "generatedAt": "2026-10-05T09:15:38.256Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -94,6 +94,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-28T08-49-07-902Z-viewport.jpg",
           "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-28T08-49-07-902Z-key.jpg",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-21T09-27-30-887Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-10-05T09:15:31.224Z",
+          "reason": "product_candidate:MAM-UNKNOWN-CB0AD102",
+          "sourceObservedAt": "2026-10-05T09:15:13.425Z",
+          "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
+          "matchedTerm": "première mondiale",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-10-05T09-15-31-224Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-10-05T09-15-31-224Z-key.jpg",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-fr-0f7db38ca366aeba-2026-09-28T08-49-07-902Z-viewport.jpg"
         }
       ],
       "entityId": "MAM-UNKNOWN-CB0AD102"
@@ -173,6 +183,44 @@
         }
       ],
       "entityId": ""
+    },
+    "6ab3f80c25ed676b": {
+      "url": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-05T09:15:19.235Z",
+          "reason": "product_candidate:MAM-UNKNOWN-51DA1F5B",
+          "sourceObservedAt": "2026-10-05T09:15:13.425Z",
+          "title": "Choisir un robot tondeuse pour petite surface",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-6ab3f80c25ed676b-2026-10-05T09-15-19-235Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-6ab3f80c25ed676b-2026-10-05T09-15-19-235Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-51DA1F5B"
+    },
+    "17d05293ca4e2540": {
+      "url": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-05T09:15:25.340Z",
+          "reason": "product_candidate:MAM-UNKNOWN-FF99DEB6",
+          "sourceObservedAt": "2026-10-05T09:15:13.425Z",
+          "title": "Tondre une pelouse mi-ombre / mi-soleil : guide & hauteur",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-17d05293ca4e2540-2026-10-05T09-15-25-340Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-17d05293ca4e2540-2026-10-05T09-15-25-340Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-FF99DEB6"
     }
   }
 }
