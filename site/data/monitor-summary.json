@@ -481,7 +481,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-05T09:37:52.872Z",
+    "checkedAt": "2026-10-06T09:26:43.202Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -493,7 +493,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-05T09:37:52.872Z",
+        "checkedAt": "2026-10-06T09:26:43.202Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -512,7 +512,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-05T09:37:52.872Z",
+        "checkedAt": "2026-10-06T09:26:43.202Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -531,7 +531,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-05T09:37:52.872Z",
+        "checkedAt": "2026-10-06T09:26:43.202Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -550,7 +550,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-05T09:37:52.872Z",
+        "checkedAt": "2026-10-06T09:26:43.202Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
