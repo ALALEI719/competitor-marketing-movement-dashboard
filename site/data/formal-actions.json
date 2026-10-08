@@ -1,5 +1,126 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "",
-  "actions": []
+  "updatedAt": "2026-10-08T03:36:57.043Z",
+  "actions": [
+    {
+      "actionId": "ACT-F9A3A5963E13",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-09-30T09:02:05.188Z",
+      "publishDate": "2026-09-29T11:30:35+02:00",
+      "title": "Choisir un robot tondeuse pour petite surface",
+      "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux.",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+          "discoveredAt": "2026-09-30T09:02:05.188Z",
+          "publishDate": "2026-09-29T11:30:35+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-08T03:31:30.757Z"
+    },
+    {
+      "actionId": "ACT-8DEF0D8444AE",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-09-29T09:05:25.497Z",
+      "publishDate": "2026-09-29T08:58:57+02:00",
+      "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
+      "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon.",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+          "discoveredAt": "2026-09-29T09:05:25.497Z",
+          "publishDate": "2026-09-29T08:58:57+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-08T03:32:22.414Z"
+    },
+    {
+      "actionId": "ACT-D9CB8B003CFD",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-09-28T08:48:23.586Z",
+      "publishDate": "2026-09-28T10:41:48+02:00",
+      "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
+      "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil.",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+          "discoveredAt": "2026-09-28T08:48:23.586Z",
+          "publishDate": "2026-09-28T10:41:48+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-08T03:32:47.837Z"
+    },
+    {
+      "actionId": "ACT-997EEE05342B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-09-23T07:58:53.251Z",
+      "publishDate": "2026-09-22T02:44:10-07:00",
+      "title": "Summer Lawn Care: What to Do for a Healthy Lawn in Summer",
+      "summary": "Learn how to care for your lawn in summer with practical mowing, watering, heat and drought tips. Know when to fertilize, control weeds, overseed, or wait.",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/summer-lawn-care"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/summer-lawn-care",
+          "discoveredAt": "2026-09-23T07:58:53.251Z",
+          "publishDate": "2026-09-22T02:44:10-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-08T03:33:10.486Z"
+    }
+  ]
 }

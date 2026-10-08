@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-05T09:15:16.987Z",
+  "generatedAt": "2026-10-08T03:35:40.174Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [],
@@ -9,13 +9,13 @@
     "sites": 4,
     "healthySites": 4,
     "pages": 1119,
-    "pendingChanges": 3,
-    "productCandidates": 4,
+    "pendingChanges": 0,
+    "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 5,
-    "pendingChannelChanges": 5
+    "pendingChannelChanges": 0
   },
   "sites": [
     {
@@ -163,127 +163,7 @@
       }
     }
   ],
-  "pendingRecords": [
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-fr",
-      "brand": "Mammotion",
-      "country": "法国",
-      "discoveredAt": "2026-10-05T09:15:13.425Z",
-      "publishDate": "",
-      "url": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-fr",
-      "brand": "Mammotion",
-      "country": "法国",
-      "discoveredAt": "2026-10-05T09:15:13.425Z",
-      "publishDate": "",
-      "url": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-fr",
-      "brand": "Mammotion",
-      "country": "法国",
-      "discoveredAt": "2026-10-05T09:15:13.425Z",
-      "publishDate": "",
-      "url": "https://fr.mammotion.com/",
-      "pageType": "homepage",
-      "changedFields": [
-        "headings",
-        "body"
-      ],
-      "summary": "页面关键内容变化：headings、body，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.13.0",
-        "modelVersion": "jev-1.13.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "d48645e6fed3c7037c1ef71891ab06bbaae1d6f2fb3f08fe98c2d56980d5199e",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.15
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 1,
-            "probabilities": {
-              "availability_change": 0,
-              "promotion": 0,
-              "product_launch": 0,
-              "other": 0,
-              "price_change": 0,
-              "messaging_or_cta": 0,
-              "routine_content_refresh": 1
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.99,
-            "probabilities": {
-              "preorder": 0,
-              "announcement": 0,
-              "weak_signal": 0.01,
-              "teaser": 0,
-              "on_sale": 0,
-              "not_launch_related": 0.99
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 1.32,
-            "confidence": 0.7,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.02,
-              "1": 0.65,
-              "2": 0.32,
-              "3": 0.01,
-              "4": 0
-            }
-          }
-        },
-        "latencyMs": 228,
-        "usage": {
-          "input_tokens": 6229,
-          "output_tokens": 185
-        },
-        "error": null,
-        "evaluatedAt": "2026-10-05T09:15:15.851Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      }
-    }
-  ],
+  "pendingRecords": [],
   "productRadar": {
     "mechanism": "open_world_discovery",
     "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
@@ -309,7 +189,7 @@
         ],
         "confidence": "medium",
         "confidenceScore": 4,
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "evidenceRefs": [
           {
             "url": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
@@ -329,7 +209,8 @@
               ]
             }
           }
-        ]
+        ],
+        "reviewedAt": "2026-10-08T03:34:15.223Z"
       },
       {
         "entityId": "MAM-UNKNOWN-FF99DEB6",
@@ -352,7 +233,7 @@
         ],
         "confidence": "medium",
         "confidenceScore": 4,
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "evidenceRefs": [
           {
             "url": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
@@ -372,7 +253,8 @@
               ]
             }
           }
-        ]
+        ],
+        "reviewedAt": "2026-10-08T03:34:39.619Z"
       },
       {
         "entityId": "MAM-UNKNOWN-CB0AD102",
@@ -395,7 +277,7 @@
         ],
         "confidence": "medium",
         "confidenceScore": 4,
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "evidenceRefs": [
           {
             "url": "https://fr.mammotion.com/",
@@ -433,7 +315,8 @@
               ]
             }
           }
-        ]
+        ],
+        "reviewedAt": "2026-10-08T03:35:40.174Z"
       },
       {
         "entityId": "MAM-UNKNOWN-68BDC356",
@@ -456,7 +339,7 @@
         ],
         "confidence": "medium",
         "confidenceScore": 4,
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "evidenceRefs": [
           {
             "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
@@ -476,7 +359,8 @@
               ]
             }
           }
-        ]
+        ],
+        "reviewedAt": "2026-10-08T03:35:17.254Z"
       }
     ]
   },
@@ -570,7 +454,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Choisir un robot tondeuse pour petite surface",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
         "publishDate": "2026-09-29T11:30:35+02:00",
@@ -592,7 +476,10 @@
           "monitoringPriority": 1.95,
           "priorityConfidence": 0.85
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "reviewedAt": "2026-10-08T03:31:30.757Z"
+        }
       },
       {
         "recordId": "CH-C998005A7AFB",
@@ -602,7 +489,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
         "publishDate": "2026-09-29T08:58:57+02:00",
@@ -624,7 +511,10 @@
           "monitoringPriority": 1.91,
           "priorityConfidence": 0.82
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "reviewedAt": "2026-10-08T03:32:22.414Z"
+        }
       },
       {
         "recordId": "CH-E6904CF18251",
@@ -634,7 +524,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
         "publishDate": "2026-09-28T10:41:48+02:00",
@@ -656,7 +546,10 @@
           "monitoringPriority": 1.96,
           "priorityConfidence": 0.85
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "reviewedAt": "2026-10-08T03:32:47.837Z"
+        }
       },
       {
         "recordId": "CH-5A55889BCA72",
@@ -666,7 +559,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Seasonal Lawn Care: A Year-Round Guide for Healthy Grass in Every Season",
         "sourceUrl": "https://us.mammotion.com/blogs/news/seasonal-lawn-care",
         "publishDate": "2026-09-20T23:05:18-07:00",
@@ -688,7 +581,10 @@
           "monitoringPriority": 1.19,
           "priorityConfidence": 0.78
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "reviewedAt": "2026-10-08T03:33:49.498Z"
+        }
       },
       {
         "recordId": "CH-70080EC49671",
@@ -698,7 +594,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Summer Lawn Care: What to Do for a Healthy Lawn in Summer",
         "sourceUrl": "https://us.mammotion.com/blogs/news/summer-lawn-care",
         "publishDate": "2026-09-22T02:44:10-07:00",
@@ -720,170 +616,12 @@
           "monitoringPriority": 1.24,
           "priorityConfidence": 0.74
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "reviewedAt": "2026-10-08T03:33:10.486Z"
+        }
       }
     ],
-    "pendingRecords": [
-      {
-        "recordId": "CH-599250CA14FE",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Choisir un robot tondeuse pour petite surface",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
-        "publishDate": "2026-09-29T11:30:35+02:00",
-        "updatedAt": "2026-09-29T11:30:37+02:00",
-        "discoveredAt": "2026-09-30T09:02:05.188Z",
-        "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.95,
-          "priorityConfidence": 0.85
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-C998005A7AFB",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
-        "publishDate": "2026-09-29T08:58:57+02:00",
-        "updatedAt": "2026-09-29T08:58:58+02:00",
-        "discoveredAt": "2026-09-29T09:05:25.497Z",
-        "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.91,
-          "priorityConfidence": 0.82
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-E6904CF18251",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
-        "publishDate": "2026-09-28T10:41:48+02:00",
-        "updatedAt": "2026-09-28T10:41:50+02:00",
-        "discoveredAt": "2026-09-28T08:48:23.586Z",
-        "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.96,
-          "priorityConfidence": 0.85
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-5A55889BCA72",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Seasonal Lawn Care: A Year-Round Guide for Healthy Grass in Every Season",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/seasonal-lawn-care",
-        "publishDate": "2026-09-20T23:05:18-07:00",
-        "updatedAt": "2026-09-24T02:55:28-07:00",
-        "discoveredAt": "2026-09-25T08:12:48.672Z",
-        "summary": "Learn seasonal lawn care for spring, summer, fall, and winter. Get practical mowing, watering, fertilizing, aeration, overseeding, and weed-control tips by grass type. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.19,
-          "priorityConfidence": 0.78
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-70080EC49671",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Summer Lawn Care: What to Do for a Healthy Lawn in Summer",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/summer-lawn-care",
-        "publishDate": "2026-09-22T02:44:10-07:00",
-        "updatedAt": "2026-09-22T02:44:11-07:00",
-        "discoveredAt": "2026-09-23T07:58:53.251Z",
-        "summary": "Learn how to care for your lawn in summer with practical mowing, watering, heat and drought tips. Know when to fertilize, control weeds, overseed, or wait. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.24,
-          "priorityConfidence": 0.74
-        },
-        "humanAssessment": null
-      }
-    ]
+    "pendingRecords": []
   }
 }
