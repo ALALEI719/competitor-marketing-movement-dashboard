@@ -6,6 +6,7 @@ let edmDetailIndex={items:[]};
 let formalActionState=[];
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
+function brandKind(item){return item.brandRole==='own'||item.brand==='Navimow'?'自有品牌':'竞品';}
 
 async function fetchDashboardJson(url){
   const controller=new AbortController();
@@ -43,7 +44,7 @@ async function loadEdmDetailIndex(){
 
 function renderEdmLibrary(items){
   const container=document.querySelector('#edm-content-list');
-  container.innerHTML=items.length?items.map((item,index)=>`<button class="edm-content-card" data-edm-detail="${index}"><small>${escapeHtml(item.brand)} · ${escapeHtml(item.country)} · ${item.sentAt?escapeHtml(new Date(item.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><strong>${escapeHtml(item.subject)}</strong><span>${escapeHtml(item.summary)}</span></button>`).join(''):'<div class="timeline-empty">尚无完成内容识别和人工复核的真实 EDM；待审邮件不会提前展示在公开看板。</div>';
+  container.innerHTML=items.length?items.map((item,index)=>`<button class="edm-content-card ${brandKind(item)==='自有品牌'?'own-brand':''}" data-edm-detail="${index}"><small>${escapeHtml(item.brand)} · ${brandKind(item)} · ${escapeHtml(item.country)} · ${item.sentAt?escapeHtml(new Date(item.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><strong>${escapeHtml(item.subject)}</strong><span>${escapeHtml(item.summary)}</span></button>`).join(''):'<div class="timeline-empty">尚无完成内容识别和人工复核的真实 EDM；待审及验收邮件不会提前展示在公开看板。</div>';
   container.querySelectorAll('[data-edm-detail]').forEach(button=>button.onclick=()=>showEdmDetail(items[Number(button.dataset.edmDetail)]));
 }
 
@@ -66,7 +67,7 @@ async function edmMailMarkup(reference){
   try{
     const detail=await fetchDashboardJson(detailRef);
     const images=(detail.images||[]).map(item=>{const src=safeEdmAssetPath(item.src);return src?`<figure><img loading="lazy" src="${escapeHtml(src)}" alt="${escapeHtml(item.description||'EDM 营销图片')}"><figcaption>${escapeHtml(item.description||'')}</figcaption></figure>`:'';}).join('');
-    return `<article class="edm-mail"><div class="edm-mail-header"><small>${escapeHtml(detail.brand)} · ${escapeHtml(detail.country)} · ${detail.sentAt?escapeHtml(new Date(detail.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><h3>${escapeHtml(detail.subject)}</h3></div><div class="edm-mail-summary"><strong>营销动作概括：</strong>${escapeHtml(detail.contentSummary)}</div><div class="edm-mail-body">${(detail.bodyParagraphs||[]).map(paragraph=>`<p>${escapeHtml(paragraph)}</p>`).join('')}</div><div class="edm-mail-images">${images}</div><div class="edm-mail-note">邮件图片为留存副本；促销按钮不可点击，原始追踪链接与收件信息不展示。</div></article>`;
+    return `<article class="edm-mail"><div class="edm-mail-header"><small>${escapeHtml(detail.brand)} · ${brandKind(detail)} · ${escapeHtml(detail.country)} · ${detail.sentAt?escapeHtml(new Date(detail.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><h3>${escapeHtml(detail.subject)}</h3></div><div class="edm-mail-summary"><strong>营销动作概括：</strong>${escapeHtml(detail.contentSummary)}</div><div class="edm-mail-body">${(detail.bodyParagraphs||[]).map(paragraph=>`<p>${escapeHtml(paragraph)}</p>`).join('')}</div><div class="edm-mail-images">${images}</div><div class="edm-mail-note">邮件图片为留存副本；促销按钮不可点击，原始追踪链接与收件信息不展示。</div></article>`;
   }catch{return '<div class="evidence">邮件详情暂时无法读取，请稍后重试。</div>';}
 }
 
@@ -102,7 +103,7 @@ function renderReviewQueue(candidates){
 
 function renderFormalActions(actions){
   document.querySelector('#formal-action-count').textContent=`${actions.length} 条`;
-  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill">${escapeHtml(action.brand)}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前筛选下没有已确认动作</td></tr>';
+  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill ${brandKind(action)==='自有品牌'?'own-brand':''}">${escapeHtml(action.brand)}${brandKind(action)==='自有品牌'?' · 自有品牌':''}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前筛选下没有已确认动作</td></tr>';
   document.querySelectorAll('[data-formal-action]').forEach(row=>row.onclick=()=>showFormalAction(actions[Number(row.dataset.formalAction)]));
 }
 
@@ -114,7 +115,7 @@ function renderFormalTimeline(actions){
   const min=Math.min(...times),max=Math.max(...times),span=Math.max(max-min,24*60*60*1000);
   const format=value=>new Date(value).toLocaleDateString('zh-CN',{month:'2-digit',day:'2-digit'});
   axis.innerHTML=`<span>${format(min)}</span><span>${format(min+span/2)}</span><span>${format(max)}</span>`;
-  container.innerHTML=actions.map((action,index)=>{const time=new Date(action.discoveredAt).getTime();const position=((time-min)/span)*100;return `<div class="lane formal-action-lane" data-action-id="${escapeHtml(action.actionId)}"><div class="lane-label"><strong>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}</strong><span title="${escapeHtml(action.title)}">${escapeHtml(action.title)}</span></div><div class="track"><button class="formal-event ${escapeHtml(action.channel)}" data-formal-timeline="${index}" style="--point-position:${position}%" title="${escapeHtml(action.title)}"><span class="formal-event-date">${escapeHtml(format(time))}</span><span>${escapeHtml(stageLabel(action.stage))} · ${escapeHtml(channelLabel(action.channel))}</span></button></div></div>`;}).join('');
+  container.innerHTML=actions.map((action,index)=>{const time=new Date(action.discoveredAt).getTime();const position=((time-min)/span)*100;const own=brandKind(action)==='自有品牌';return `<div class="lane formal-action-lane ${own?'own-brand':''}" data-action-id="${escapeHtml(action.actionId)}"><div class="lane-label"><strong>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}${own?' · 自有':''}</strong><span title="${escapeHtml(action.title)}">${escapeHtml(action.title)}</span></div><div class="track"><button class="formal-event ${escapeHtml(action.channel)}" data-formal-timeline="${index}" style="--point-position:${position}%" title="${escapeHtml(action.title)}"><span class="formal-event-date">${escapeHtml(format(time))}</span><span>${escapeHtml(stageLabel(action.stage))} · ${escapeHtml(channelLabel(action.channel))}</span></button></div></div>`;}).join('');
   document.querySelectorAll('[data-formal-timeline]').forEach(button=>button.onclick=()=>showFormalAction(actions[Number(button.dataset.formalTimeline)]));
 }
 
@@ -205,7 +206,7 @@ async function showFormalAction(action){
     : action.channel==='edm'&&action.evidenceRefs?.some(ref=>ref.access==='private')
     ? '<div class="evidence">该 EDM 的完整内容尚未通过复核，暂不展示原件。</div>'
     : `<div class="source-links">${(action.sourceUrls||[]).map(url=>`<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">查看原始页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'确认时证据')}</div>`;
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>动作编号</dt><dd><code>${escapeHtml(action.actionId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}</dd><dt>渠道</dt><dd>${escapeHtml(channelLabel(action.channel))}</dd><dt>发现时间</dt><dd>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>营销阶段</dt><dd>${escapeHtml(stageLabel(action.stage))}</dd><dt>动作摘要</dt><dd>${escapeHtml(action.summary)}</dd><dt>状态</dt><dd>已复核</dd></dl>${evidenceDetail}`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>动作编号</dt><dd><code>${escapeHtml(action.actionId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}（${brandKind(action)}）</dd><dt>渠道</dt><dd>${escapeHtml(channelLabel(action.channel))}</dd><dt>发现时间</dt><dd>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>营销阶段</dt><dd>${escapeHtml(stageLabel(action.stage))}</dd><dt>动作摘要</dt><dd>${escapeHtml(action.summary)}</dd><dt>状态</dt><dd>已复核</dd></dl>${evidenceDetail}`;
   document.querySelector('#detail-dialog').showModal();
   if(action.channel==='edm'&&action.detailRef){
     const target=document.querySelector('#edm-formal-detail');

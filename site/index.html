@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="竞品营销动作监控与发布周期分析">
-  <title>竞品营销动作监控</title>
+  <meta name="description" content="竞品与 Navimow 营销动作对照及发布周期分析">
+  <title>营销动作监控与对照</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091423'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%235fe1be' stroke-width='4'/%3E%3Cpath d='M32 32 49 21' stroke='%23ffb454' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./styles-rules.css?v=20261009-3">
-  <link rel="stylesheet" href="./styles-edm.css?v=20261009-3">
-  <script src="./app.js?v=20261009-3" defer></script>
+  <link rel="stylesheet" href="./styles-rules.css?v=20261009-4">
+  <link rel="stylesheet" href="./styles-edm.css?v=20261009-4">
+  <script src="./app.js?v=20261009-4" defer></script>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><span class="brand-mark"></span><span>竞品营销动作监控</span></div>
+    <div class="brand"><span class="brand-mark"></span><span>营销动作监控与对照</span></div>
     <nav aria-label="主导航">
       <button class="nav-item active" data-view="overview">监控总览</button>
       <button class="nav-item" data-view="review">复核队列</button>
@@ -30,7 +30,7 @@
     <section class="view active" id="overview">
       <div class="filter-row">
         <label>国家站点<select id="market-filter"><option value="全部">全部国家站点</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label>
-        <label>品牌<select id="brand-filter"><option value="全部">全部竞品</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
+        <label>品牌<select id="brand-filter"><option value="全部">全部品牌</option><option value="Navimow">Navimow（自有品牌）</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
         <label>渠道<select id="channel-filter"><option value="全部">全部渠道</option><option>官网</option><option>PR</option><option>Blog</option><option>社媒广告</option><option>EDM</option><option>视频</option></select></label>
         <button class="secondary" id="reset-filters">清除筛选</button>
       </div>
@@ -53,7 +53,7 @@
       </article>
 
       <article class="panel verified-panel">
-        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>每条已确认动作在时间线上独占一行；位置表示发现时间，标记宽度不表示持续天数。</p><a class="edm-jump" href="#edm">查看 EDM 邮件内容与图片 →</a></div><span class="badge green" id="formal-action-count">读取中</span></div>
+        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>Navimow 为自有品牌对照；只有确认已正式对外发送的邮件才会出现。验收测试不公开。每条动作独占一行，标记宽度不表示持续天数。</p><a class="edm-jump" href="#edm">查看 EDM 邮件内容与图片 →</a></div><span class="badge green" id="formal-action-count">读取中</span></div>
         <div class="confirmed-grid">
           <div class="real-gantt"><div class="real-gantt-head"><strong>已确认动作时间线</strong><div id="formal-timeline-axis"></div></div><div id="formal-timeline"><div class="timeline-empty">正在读取真实动作…</div></div></div>
           <aside class="event-clusters"><strong>跨渠道事件</strong><div id="event-cluster-list"><div class="timeline-empty">正在聚类…</div></div></aside>
@@ -92,8 +92,8 @@
     </section>
 
     <section class="view" id="edm">
-      <div class="section-intro"><div><span class="eyebrow">REAL EDM ARCHIVE</span><h1>竞品 EDM 内容库</h1><p>时间线展示经复核的营销动作；点击邮件可在看板内查看标题、正文和营销图片。图片为本地留存副本，不加载追踪像素或原邮件链接。</p></div></div>
-      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>真实 EDM 邮件内容与图片</h2><p>仅展示已复核的真实竞品邮件；点击邮件卡片查看正文说明与按原顺序留存的营销图片。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
+      <div class="section-intro"><div><span class="eyebrow">REAL EDM ARCHIVE</span><h1>营销 EDM 内容库</h1><p>竞品与 Navimow 正式外发邮件使用同一复核口径；点击邮件可查看标题、正文和营销图片。验收测试不进入公开内容库。</p></div></div>
+      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>已确认 EDM 邮件内容与图片</h2><p>仅展示已复核的真实营销邮件；点击邮件卡片查看正文说明与按原顺序留存的营销图片。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
     </section>
   </main>
 

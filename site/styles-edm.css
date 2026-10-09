@@ -4,6 +4,7 @@
 .edm-content-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .edm-content-card{display:block;width:100%;padding:16px;text-align:left;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:12px;cursor:pointer}
 .edm-content-card:hover{border-color:var(--green)}
+.edm-content-card.own-brand{border-left:4px solid var(--green)}
 .edm-content-card small,.edm-content-card strong,.edm-content-card span{display:block}
 .edm-content-card small{color:var(--green);margin-bottom:8px}
 .edm-content-card strong{font-size:15px;line-height:1.4}

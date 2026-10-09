@@ -49,4 +49,8 @@
 .formal-event.blog,.formal-event.pr{background:var(--purple)}
 .formal-event.social_ads{background:var(--orange)}
 .formal-event.video{background:#fa819d}
+.formal-action-lane.own-brand{background:rgba(95,225,190,.065)}
+.formal-action-lane.own-brand .lane-label strong{color:var(--green)}
+.formal-action-lane.own-brand .formal-event.edm{border-color:#f3f7ff;box-shadow:0 0 0 2px rgba(95,225,190,.23)}
+.pill.own-brand{background:rgba(95,225,190,.17);color:var(--green)}
 @media(max-width:680px){.filter-row #reset-filters{grid-column:1/-1}.real-gantt-head,#formal-timeline{min-width:620px}.real-gantt-head,.formal-action-lane{grid-template-columns:160px minmax(0,1fr)}}
