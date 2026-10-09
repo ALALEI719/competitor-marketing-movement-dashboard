@@ -1,0 +1,21 @@
+.edm-library-panel{margin-bottom:28px}
+.edm-content-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.edm-content-card{display:block;width:100%;padding:16px;text-align:left;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:12px;cursor:pointer}
+.edm-content-card:hover{border-color:var(--green)}
+.edm-content-card small,.edm-content-card strong,.edm-content-card span{display:block}
+.edm-content-card small{color:var(--green);margin-bottom:8px}
+.edm-content-card strong{font-size:15px;line-height:1.4}
+.edm-content-card span{font-size:13px;color:var(--muted);margin-top:8px}
+dialog:has(.edm-mail){width:min(820px,calc(100% - 28px));max-height:calc(100vh - 40px);overflow:auto}
+.edm-mail{margin-top:18px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;color:#17202c}
+.edm-mail-header{padding:20px 24px;background:#f3f5f7;border-bottom:1px solid #dce1e5}
+.edm-mail-header small{display:block;color:#65717f;margin-bottom:7px}
+.edm-mail-header h3{margin:0;font-size:20px;line-height:1.35}
+.edm-mail-summary{padding:17px 24px;background:#eaf5f1;border-bottom:1px solid #d2e5dc;font-size:14px;line-height:1.65}
+.edm-mail-body{padding:22px 24px;font-size:15px;line-height:1.65}
+.edm-mail-body p{margin:0 0 12px}
+.edm-mail-images{max-width:600px;margin:0 auto;padding-bottom:20px}
+.edm-mail-images figure{margin:0}
+.edm-mail-images img{display:block;width:100%;height:auto}
+.edm-mail-images figcaption{font-size:12px;color:#65717f;padding:6px 16px 12px;text-align:center}
+.edm-mail-note{padding:10px 24px 18px;color:#65717f;font-size:12px}

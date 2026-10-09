@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "items": [
+    {
+      "actionId": "ACT-EDM-FF18822D96A1",
+      "recordId": "EDM-FF18822D96A1",
+      "brand": "Mova",
+      "country": "美国",
+      "sentAt": "2026-10-08T17:32:36.000Z",
+      "subject": "⏰ Missed out? You’re in luck! Fall Prime Day Deals Are Back for a Limited Time 🍁",
+      "summary": "MOVA 通过 EDM 推广 Fall Prime Day 限时返场，展示两款扫地机器人及四款割草机器人的活动价和节省金额，另宣传部分商品额外积分及官方商城保障；邮件未标明活动截止日。",
+      "detailRef": "./data/edm-details/EDM-FF18822D96A1.json"
+    }
+  ]
+}

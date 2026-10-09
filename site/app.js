@@ -25,6 +25,7 @@ const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
 const channel=document.querySelector('#channel-filter');
 let evidenceIndex={entries:{}};
+let edmDetailIndex={items:[]};
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 
@@ -50,6 +51,43 @@ async function loadMarketingEvents(){
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     return await response.json();
   }catch{return {events:[]};}
+}
+
+async function loadEdmDetailIndex(){
+  try{
+    const response=await fetch('./data/edm-details/index.json',{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    return await response.json();
+  }catch{return {items:[]};}
+}
+
+function renderEdmLibrary(items){
+  const container=document.querySelector('#edm-content-list');
+  container.innerHTML=items.length?items.map((item,index)=>`<button class="edm-content-card" data-edm-detail="${index}"><small>${escapeHtml(item.brand)} · ${escapeHtml(item.country)} · ${item.sentAt?escapeHtml(new Date(item.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><strong>${escapeHtml(item.subject)}</strong><span>${escapeHtml(item.summary)}</span></button>`).join(''):'<div class="timeline-empty">尚无完成内容识别和人工复核的真实 EDM；待审邮件不会提前展示在公开看板。</div>';
+  container.querySelectorAll('[data-edm-detail]').forEach(button=>button.onclick=()=>showEdmDetail(items[Number(button.dataset.edmDetail)]));
+}
+
+function safeEdmDetailRef(value){return /^\.\/data\/edm-details\/EDM-[A-Z0-9]+\.json$/.test(value||'')?value:'';}
+function safeEdmAssetPath(value){return /^\.\/data\/edm-assets\/EDM-[A-Z0-9]+\/image-\d{2}\.(?:png|jpe?g|gif|webp|avif)$/.test(value||'')?value:'';}
+
+async function edmMailMarkup(reference){
+  const detailRef=safeEdmDetailRef(reference);
+  if(!detailRef)return '<div class="evidence">邮件详情尚未通过安全复核。</div>';
+  try{
+    const response=await fetch(detailRef,{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const detail=await response.json();
+    const images=(detail.images||[]).map(item=>{const src=safeEdmAssetPath(item.src);return src?`<figure><img loading="lazy" src="${escapeHtml(src)}" alt="${escapeHtml(item.description||'EDM 营销图片')}"><figcaption>${escapeHtml(item.description||'')}</figcaption></figure>`:'';}).join('');
+    return `<article class="edm-mail"><div class="edm-mail-header"><small>${escapeHtml(detail.brand)} · ${escapeHtml(detail.country)} · ${detail.sentAt?escapeHtml(new Date(detail.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><h3>${escapeHtml(detail.subject)}</h3></div><div class="edm-mail-summary"><strong>营销动作概括：</strong>${escapeHtml(detail.contentSummary)}</div><div class="edm-mail-body">${(detail.bodyParagraphs||[]).map(paragraph=>`<p>${escapeHtml(paragraph)}</p>`).join('')}</div><div class="edm-mail-images">${images}</div><div class="edm-mail-note">邮件图片为留存副本；促销按钮不可点击，原始追踪链接与收件信息不展示。</div></article>`;
+  }catch{return '<div class="evidence">邮件详情暂时无法读取，请稍后重试。</div>';}
+}
+
+async function showEdmDetail(item){
+  if(!item)return;
+  document.querySelector('#detail-title').textContent='EDM 邮件内容';
+  document.querySelector('#dialog-content').innerHTML='<div class="timeline-empty">正在读取邮件内容…</div>';
+  document.querySelector('#detail-dialog').showModal();
+  document.querySelector('#dialog-content').innerHTML=await edmMailMarkup(item.detailRef);
 }
 
 function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'Blog',social_ads:'社媒广告',video:'视频',edm:'EDM'})[channel]||channel;}
@@ -99,10 +137,12 @@ function renderEventClusters(events){
 
 async function loadMonitorSummary(){
   try{
-    const [response,evidence,formalActions,marketingEvents]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex(),loadFormalActions(),loadMarketingEvents()]);
+    const [response,evidence,formalActions,marketingEvents,edmDetails]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex(),loadFormalActions(),loadMarketingEvents(),loadEdmDetailIndex()]);
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const summary=await response.json();
     evidenceIndex=evidence;
+    edmDetailIndex=edmDetails;
+    renderEdmLibrary(edmDetailIndex.items||[]);
     renderChannelMonitoring(summary.channelMonitoring);
     document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
@@ -125,6 +165,7 @@ async function loadMonitorSummary(){
     document.querySelector('#radar-count').textContent='数据不可用';
     document.querySelector('#radar-list').innerHTML='<div class="coverage-loading">新品雷达数据暂时无法读取</div>';
     renderChannelMonitoring(null);
+    renderEdmLibrary([]);
   }
 }
 
@@ -160,16 +201,22 @@ function showCandidate(candidate){
   document.querySelector('#detail-dialog').showModal();
 }
 
-function showFormalAction(action){
+async function showFormalAction(action){
   if(!action)return;
   document.querySelector('#detail-title').textContent='正式营销动作';
   const evidence=(action.sourceUrls||[]).map(evidenceForUrl).find(Boolean);
   const latest=evidence?.captures?.at(-1);
-  const evidenceDetail=action.channel==='edm'&&action.evidenceRefs?.some(ref=>ref.access==='private')
-    ? '<div class="evidence">邮件原件、收件地址、正文与追踪链接仅保存在项目私有归档中；公开看板不展示或打开这些内容。</div>'
+  const evidenceDetail=action.channel==='edm'&&action.detailRef
+    ? '<div id="edm-formal-detail" class="timeline-empty">正在读取邮件内容…</div>'
+    : action.channel==='edm'&&action.evidenceRefs?.some(ref=>ref.access==='private')
+    ? '<div class="evidence">该 EDM 的完整内容尚未通过复核，暂不展示原件。</div>'
     : `<div class="source-links">${(action.sourceUrls||[]).map(url=>`<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">查看原始页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'确认时证据')}</div>`;
   document.querySelector('#dialog-content').innerHTML=`<dl><dt>动作编号</dt><dd><code>${escapeHtml(action.actionId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}</dd><dt>渠道</dt><dd>${escapeHtml(channelLabel(action.channel))}</dd><dt>发现时间</dt><dd>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>营销阶段</dt><dd>${escapeHtml(stageLabel(action.stage))}</dd><dt>动作摘要</dt><dd>${escapeHtml(action.summary)}</dd><dt>状态</dt><dd>已复核</dd></dl>${evidenceDetail}`;
   document.querySelector('#detail-dialog').showModal();
+  if(action.channel==='edm'&&action.detailRef){
+    const target=document.querySelector('#edm-formal-detail');
+    if(target)target.innerHTML=await edmMailMarkup(action.detailRef);
+  }
 }
 
 [market,brand,channel].forEach(control=>control.addEventListener('change',renderActions));

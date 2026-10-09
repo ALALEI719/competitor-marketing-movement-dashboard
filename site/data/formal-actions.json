@@ -1,7 +1,34 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-08T03:36:57.043Z",
+  "updatedAt": "2026-10-09T06:30:32.921Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-FF18822D96A1",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-08T21:37:31.396Z",
+      "publishDate": "2026-10-08T17:32:36.000Z",
+      "title": "MOVA 美国 Fall Prime Day 优惠限时返场",
+      "summary": "MOVA 通过 EDM 推广 Fall Prime Day 限时返场，展示两款扫地机器人及四款割草机器人的活动价和节省金额，另宣传部分商品额外积分及官方商城保障；邮件未标明活动截止日。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-09T06:30:32.921Z",
+      "detailRef": "./data/edm-details/EDM-FF18822D96A1.json"
+    },
     {
       "actionId": "ACT-F9A3A5963E13",
       "entityId": "",

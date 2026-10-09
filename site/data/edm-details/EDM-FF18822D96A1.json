@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-FF18822D96A1",
+  "actionId": "ACT-EDM-FF18822D96A1",
+  "brand": "Mova",
+  "country": "美国",
+  "sentAt": "2026-10-08T17:32:36.000Z",
+  "subject": "⏰ Missed out? You’re in luck! Fall Prime Day Deals Are Back for a Limited Time 🍁",
+  "contentSummary": "MOVA 美国站以“Fall Prime Day Deals 限时返场”为主题，同时推广扫地机器人和割草机器人。邮件列出六款产品的活动价与节省金额，并追加部分商品活动期间可获额外积分的信息；结尾强调官方商城的保修、价保、配送、退货和运费权益。图片中未标明活动截止日或积分与具体商品的对应关系，不能据此推断。",
+  "bodyParagraphs": [
+    "Fall Prime Day Deals Are Back for a Limited Time.",
+    "活动商品涵盖 P10 Pro Ultra Gen2、E30 Pro Plus，以及 Lidax Pro 800、LIDAX Ultra 1000、Lidax Ultra 2000 AWD、Lidax Ultra 3000 AWD。各商品价格与优惠金额见下方原邮件图片。",
+    "Earn Bonus Points During the Campaign：部分商品可获得额外积分；原邮件未明确积分与具体商品的对应关系。",
+    "Why Choose Official Store：邮件强调 3 年保修、30 天价保、2–7 个工作日配送、30 天退货以及免费/快速配送；保修适用范围以官网条款为准。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-01.png",
+      "description": "MOVA 品牌标识。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-02.png",
+      "description": "主视觉：Fall Prime Day Deals 限时返场，展示扫地机器人与割草机器人产品。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-03.png",
+      "description": "P10 Pro Ultra Gen2 扫地机器人：活动价 427 美元，原价 599 美元，节省 172 美元。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-04.png",
+      "description": "E30 Pro Plus 扫地机器人：活动价 229 美元，原价 299 美元，节省 70 美元。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-05.png",
+      "description": "Lidax Pro 800 割草机器人（0.2 英亩）：活动价 949 美元，原价 1299 美元，节省 350 美元。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-06.png",
+      "description": "LIDAX Ultra 1000 割草机器人（0.25 英亩）：活动价 999 美元，原价 1299 美元，节省 300 美元。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-07.png",
+      "description": "Lidax Ultra 2000 AWD 割草机器人（0.5 英亩）：活动价 1999 美元，原价 2299 美元，节省 300 美元。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-08.png",
+      "description": "Lidax Ultra 3000 AWD 割草机器人（0.75 英亩）：活动价 2399 美元，原价 2999 美元，节省 600 美元。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-09.png",
+      "description": "活动期间部分商品有额外积分；图片出现 1500、2000、4000 积分图形，未标明商品对应关系。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-10.png",
+      "description": "原邮件中的 Buy now 购买按钮图片；在看板中仅作展示，不可点击。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-FF18822D96A1/image-11.png",
+      "description": "官方商城权益：3 年保修、30 天价保、2–7 个工作日配送、30 天退货及免费/快速配送；部分型号和零部件可能不适用保修。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
