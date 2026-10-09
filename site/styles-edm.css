@@ -1,4 +1,6 @@
 .edm-library-panel{margin-bottom:28px}
+.edm-jump{display:inline-block;margin-top:9px;color:var(--green);font-size:13px;text-decoration:none}
+.edm-jump:hover{text-decoration:underline}
 .edm-content-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .edm-content-card{display:block;width:100%;padding:16px;text-align:left;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:12px;cursor:pointer}
 .edm-content-card:hover{border-color:var(--green)}

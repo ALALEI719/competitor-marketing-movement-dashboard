@@ -29,42 +29,54 @@ let edmDetailIndex={items:[]};
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 
-async function loadEvidenceIndex(){
+async function fetchDashboardJson(url){
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),8000);
   try{
-    const response=await fetch('./data/evidence/index.json',{cache:'no-store'});
+    const response=await fetch(url,{cache:'no-store',signal:controller.signal});
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     return await response.json();
+  }finally{clearTimeout(timeout);}
+}
+
+async function loadEvidenceIndex(){
+  try{
+    return await fetchDashboardJson('./data/evidence/index.json');
   }catch{return {entries:{}};}
 }
 
 async function loadFormalActions(){
   try{
-    const response=await fetch('./data/formal-actions.json',{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    return await response.json();
-  }catch{return {actions:[]};}
+    return await fetchDashboardJson('./data/formal-actions.json');
+  }catch(error){return {actions:[],loadError:error.message};}
 }
 
 async function loadMarketingEvents(){
   try{
-    const response=await fetch('./data/marketing-events.json',{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    return await response.json();
-  }catch{return {events:[]};}
+    return await fetchDashboardJson('./data/marketing-events.json');
+  }catch(error){return {events:[],loadError:error.message};}
 }
 
 async function loadEdmDetailIndex(){
   try{
-    const response=await fetch('./data/edm-details/index.json',{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    return await response.json();
-  }catch{return {items:[]};}
+    return await fetchDashboardJson('./data/edm-details/index.json');
+  }catch(error){return {items:[],loadError:error.message};}
 }
 
 function renderEdmLibrary(items){
   const container=document.querySelector('#edm-content-list');
   container.innerHTML=items.length?items.map((item,index)=>`<button class="edm-content-card" data-edm-detail="${index}"><small>${escapeHtml(item.brand)} · ${escapeHtml(item.country)} · ${item.sentAt?escapeHtml(new Date(item.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><strong>${escapeHtml(item.subject)}</strong><span>${escapeHtml(item.summary)}</span></button>`).join(''):'<div class="timeline-empty">尚无完成内容识别和人工复核的真实 EDM；待审邮件不会提前展示在公开看板。</div>';
   container.querySelectorAll('[data-edm-detail]').forEach(button=>button.onclick=()=>showEdmDetail(items[Number(button.dataset.edmDetail)]));
+}
+
+async function loadEdmLibrary(){
+  edmDetailIndex=await loadEdmDetailIndex();
+  if(edmDetailIndex.loadError){
+    document.querySelector('#edm-content-list').innerHTML='<div class="timeline-empty">邮件内容暂时读取失败。<button class="secondary compact" id="retry-edm-library">重新读取</button></div>';
+    document.querySelector('#retry-edm-library').onclick=loadEdmLibrary;
+    return;
+  }
+  renderEdmLibrary(edmDetailIndex.items||[]);
 }
 
 function safeEdmDetailRef(value){return /^\.\/data\/edm-details\/EDM-[A-Z0-9]+\.json$/.test(value||'')?value:'';}
@@ -74,9 +86,7 @@ async function edmMailMarkup(reference){
   const detailRef=safeEdmDetailRef(reference);
   if(!detailRef)return '<div class="evidence">邮件详情尚未通过安全复核。</div>';
   try{
-    const response=await fetch(detailRef,{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    const detail=await response.json();
+    const detail=await fetchDashboardJson(detailRef);
     const images=(detail.images||[]).map(item=>{const src=safeEdmAssetPath(item.src);return src?`<figure><img loading="lazy" src="${escapeHtml(src)}" alt="${escapeHtml(item.description||'EDM 营销图片')}"><figcaption>${escapeHtml(item.description||'')}</figcaption></figure>`:'';}).join('');
     return `<article class="edm-mail"><div class="edm-mail-header"><small>${escapeHtml(detail.brand)} · ${escapeHtml(detail.country)} · ${detail.sentAt?escapeHtml(new Date(detail.sentAt).toLocaleDateString('zh-CN')):'日期待确认'}</small><h3>${escapeHtml(detail.subject)}</h3></div><div class="edm-mail-summary"><strong>营销动作概括：</strong>${escapeHtml(detail.contentSummary)}</div><div class="edm-mail-body">${(detail.bodyParagraphs||[]).map(paragraph=>`<p>${escapeHtml(paragraph)}</p>`).join('')}</div><div class="edm-mail-images">${images}</div><div class="edm-mail-note">邮件图片为留存副本；促销按钮不可点击，原始追踪链接与收件信息不展示。</div></article>`;
   }catch{return '<div class="evidence">邮件详情暂时无法读取，请稍后重试。</div>';}
@@ -135,23 +145,38 @@ function renderEventClusters(events){
   document.querySelector('#event-cluster-list').innerHTML=events.length?events.map(event=>`<article class="event-card"><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.countries.join(' / '))}</span><p>${event.actionCount} 个动作 · ${escapeHtml(event.channels.map(channelLabel).join(' + '))}</p><em>${escapeHtml(event.stages.map(stageLabel).join(' → '))}</em></article>`).join(''):'<div class="timeline-empty">当前没有可聚合的营销事件；独立 Blog 动作仍会显示在正式时间线中。</div>';
 }
 
+async function loadActionData(){
+  const formalActions=await loadFormalActions();
+  if(formalActions.loadError){
+    document.querySelector('#formal-action-count').textContent='读取失败';
+    document.querySelector('#formal-timeline-axis').innerHTML='';
+    document.querySelector('#formal-timeline').innerHTML='<div class="timeline-empty">正式动作暂时读取失败。<button class="secondary compact retry-actions">重新读取</button></div>';
+    document.querySelector('#formal-action-table').innerHTML='<tr><td colspan="6">正式动作暂时读取失败。<button class="secondary compact retry-actions">重新读取</button></td></tr>';
+    document.querySelectorAll('.retry-actions').forEach(button=>button.onclick=loadActionData);
+  }else{
+    renderFormalActions(formalActions.actions||[]);
+    renderFormalTimeline(formalActions.actions||[]);
+  }
+}
+
+async function loadEventData(){
+  const marketingEvents=await loadMarketingEvents();
+  if(marketingEvents.loadError){
+    document.querySelector('#event-cluster-list').innerHTML='<div class="timeline-empty">跨渠道事件暂时读取失败。<button class="secondary compact" id="retry-actions-events">重新读取</button></div>';
+    document.querySelector('#retry-actions-events').onclick=loadEventData;
+  }else renderEventClusters(marketingEvents.events||[]);
+}
+
 async function loadMonitorSummary(){
   try{
-    const [response,evidence,formalActions,marketingEvents,edmDetails]=await Promise.all([fetch('./data/monitor-summary.json',{cache:'no-store'}),loadEvidenceIndex(),loadFormalActions(),loadMarketingEvents(),loadEdmDetailIndex()]);
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    const summary=await response.json();
+    const [summary,evidence]=await Promise.all([fetchDashboardJson('./data/monitor-summary.json'),loadEvidenceIndex()]);
     evidenceIndex=evidence;
-    edmDetailIndex=edmDetails;
-    renderEdmLibrary(edmDetailIndex.items||[]);
     renderChannelMonitoring(summary.channelMonitoring);
     document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
     const candidates=summary.productRadar?.candidates||[];
     renderReviewQueue(candidates);
-    renderFormalActions(formalActions.actions||[]);
-    renderFormalTimeline(formalActions.actions||[]);
-    renderEventClusters(marketingEvents.events||[]);
     document.querySelector('#radar-count').textContent=candidates.length?`${candidates.length} 个待复核`:'暂无候选';
     document.querySelector('#radar-list').innerHTML=candidates.length?candidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有达到阈值的新品候选</strong><span>已建立 ${Object.keys(evidenceIndex.entries||{}).length} 个关键页面截图基线；系统继续通过 HTML 检查新增 URL、预热词、价格、Offer、CTA 与结构化商品信息，仅在出现候选时再次截图。</span></div>`;
     document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(candidates[Number(button.dataset.candidate)]));
@@ -165,7 +190,6 @@ async function loadMonitorSummary(){
     document.querySelector('#radar-count').textContent='数据不可用';
     document.querySelector('#radar-list').innerHTML='<div class="coverage-loading">新品雷达数据暂时无法读取</div>';
     renderChannelMonitoring(null);
-    renderEdmLibrary([]);
   }
 }
 
@@ -221,7 +245,14 @@ async function showFormalAction(action){
 
 [market,brand,channel].forEach(control=>control.addEventListener('change',renderActions));
 document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderActions();};
-document.querySelectorAll('.nav-item').forEach(button=>button.onclick=()=>{document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item===button));document.querySelectorAll('.view').forEach(view=>view.classList.toggle('active',view.id===button.dataset.view));});
+function activateView(view){
+  const target=['overview','review','schedule','edm'].includes(view)?view:'overview';
+  document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item.dataset.view===target));
+  document.querySelectorAll('.view').forEach(item=>item.classList.toggle('active',item.id===target));
+}
+document.querySelectorAll('.nav-item').forEach(button=>button.onclick=()=>{window.location.hash=button.dataset.view;activateView(button.dataset.view);});
+window.addEventListener('hashchange',()=>activateView(window.location.hash.slice(1)));
+activateView(window.location.hash.slice(1));
 document.querySelector('#detail-dialog .dialog-head button').onclick=()=>document.querySelector('#detail-dialog').close();
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
 document.querySelector('#persona-grid').innerHTML=personas.map((p,index)=>`<article class="persona ${index===2?'selected':''}"><span class="persona-icon">${p[0]}</span><strong>${p[1]}</strong><p>${p[2]}</p><small>${p[3]}</small></article>`).join('');
@@ -229,3 +260,6 @@ document.querySelectorAll('.persona').forEach(card=>card.onclick=()=>{document.q
 document.querySelector('#simulate-mode').onclick=event=>{document.querySelectorAll('.mode').forEach((mode,index)=>mode.classList.toggle('active-mode',index===1));event.currentTarget.textContent='已切换：活动监控';document.querySelector('.run-state').innerHTML='<i></i>活动监控中';};
 renderActions();
 loadMonitorSummary();
+loadActionData();
+loadEventData();
+loadEdmLibrary();

@@ -9,8 +9,8 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091423'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%235fe1be' stroke-width='4'/%3E%3Cpath d='M32 32 49 21' stroke='%23ffb454' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./styles-rules.css">
-  <link rel="stylesheet" href="./styles-edm.css">
-  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./styles-edm.css?v=20261009-2">
+  <script src="./app.js?v=20261009-2" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -19,7 +19,7 @@
       <button class="nav-item active" data-view="overview">监控总览</button>
       <button class="nav-item" data-view="review">复核队列</button>
       <button class="nav-item" data-view="schedule">监控规则</button>
-      <button class="nav-item" data-view="edm">EDM 实验</button>
+      <button class="nav-item" data-view="edm">EDM 邮件</button>
     </nav>
     <div class="run-state"><i></i>常态监控中</div>
   </header>
@@ -53,7 +53,7 @@
       </article>
 
       <article class="panel verified-panel">
-        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>只有完成复核并确认通过的候选才进入这里，并按国家站点分别记录</p></div><span class="badge green" id="formal-action-count">读取中</span></div>
+        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>只有完成复核并确认通过的候选才进入这里，并按国家站点分别记录</p><a class="edm-jump" href="#edm">查看 EDM 邮件内容与图片 →</a></div><span class="badge green" id="formal-action-count">读取中</span></div>
         <div class="confirmed-grid">
           <div class="real-gantt"><div class="real-gantt-head"><strong>真实动作甘特时间轴</strong><div id="formal-timeline-axis"></div></div><div id="formal-timeline"><div class="timeline-empty">正在读取真实动作…</div></div></div>
           <aside class="event-clusters"><strong>跨渠道事件</strong><div id="event-cluster-list"><div class="timeline-empty">正在聚类…</div></div></aside>
@@ -124,7 +124,7 @@
 
     <section class="view" id="edm">
       <div class="section-intro"><div><span class="eyebrow">REAL EDM ARCHIVE</span><h1>竞品 EDM 内容库</h1><p>时间线展示经复核的营销动作；点击邮件可在看板内查看标题、正文和营销图片。图片为本地留存副本，不加载追踪像素或原邮件链接。</p></div></div>
-      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>已确认邮件</h2><p>只展示完成内容识别与人工复核的真实竞品 EDM</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
+      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>真实 EDM 邮件内容与图片</h2><p>点击邮件卡片查看邮件正文说明与按原顺序留存的营销图片；下方模拟实验不是真实邮件。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
       <div class="section-intro"><div><span class="eyebrow">CONTROLLED PERSONAS</span><h1>EDM 订阅身份实验</h1><p>用不同邮箱身份执行固定行为策略，对比竞品可能采用的用户标签和定向推送。</p></div></div>
       <div class="persona-grid" id="persona-grid"></div>
       <article class="panel edm-summary"><div><span>实验品牌</span><strong>Mova · 德国</strong></div><div><span>监控身份</span><strong>8</strong></div><div><span>模拟收件</span><strong>87</strong></div><div><span>独有版本</span><strong>14</strong></div><div><span>推测标签</span><strong>5</strong></div></article>
