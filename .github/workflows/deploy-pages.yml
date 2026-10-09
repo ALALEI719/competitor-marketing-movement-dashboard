@@ -33,7 +33,7 @@ jobs:
         shell: bash
         run: |
           base="https://competitor-marketing-movement-track.vercel.app"
-          mkdir -p site/data/evidence/screenshots
+          mkdir -p site/data/evidence/screenshots site/data/edm-details
           fetch_file() {
             source_path="$1"
             destination="$2"
@@ -49,14 +49,38 @@ jobs:
           fetch_file "app.js" "site/app.js"
           fetch_file "styles.css" "site/styles.css"
           fetch_file "styles-rules.css" "site/styles-rules.css"
+          fetch_file "styles-edm.css" "site/styles-edm.css"
           fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
           fetch_file "data/formal-actions.json" "site/data/formal-actions.json"
           fetch_file "data/marketing-events.json" "site/data/marketing-events.json"
           fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
+          fetch_file "data/edm-details/index.json" "site/data/edm-details/index.json"
           if [ -f site/data/evidence/index.json ]; then
             jq -r '.entries[].captures[] | .viewportScreenshot, .keyRegionScreenshot, .previousViewportScreenshot' site/data/evidence/index.json | sed '/^$/d' | sort -u | while read -r asset; do
               mkdir -p "site/$(dirname "${asset}")"
               fetch_file "${asset}" "site/${asset}"
+            done
+          fi
+          if [ -f site/data/edm-details/index.json ]; then
+            jq -r '.items[].detailRef' site/data/edm-details/index.json | while read -r detail; do
+              if [[ ! "$detail" =~ ^\./data/edm-details/EDM-[A-Z0-9]+\.json$ ]]; then
+                echo "Skipping invalid EDM detail path: ${detail}"
+                continue
+              fi
+              detail_path="${detail#./}"
+              fetch_file "$detail_path" "site/$detail_path"
+              if [ ! -f "site/$detail_path" ]; then
+                continue
+              fi
+              jq -r '.images[].src' "site/$detail_path" | while read -r asset; do
+                if [[ ! "$asset" =~ ^\./data/edm-assets/EDM-[A-Z0-9]+/image-[0-9][0-9]\.(png|jpg|jpeg|gif|webp|avif)$ ]]; then
+                  echo "Skipping invalid EDM image path: ${asset}"
+                  continue
+                fi
+                asset_path="${asset#./}"
+                mkdir -p "site/$(dirname "$asset_path")"
+                fetch_file "$asset_path" "site/$asset_path"
+              done
             done
           fi
 
@@ -64,6 +88,7 @@ jobs:
         run: |
           sed -i 's|href="/styles.css"|href="./styles.css"|g' site/index.html
           sed -i 's|href="/styles-rules.css"|href="./styles-rules.css"|g' site/index.html
+          sed -i 's|href="/styles-edm.css"|href="./styles-edm.css"|g' site/index.html
           sed -i 's|src="/app.js"|src="./app.js"|g' site/index.html
           sed -i "s|fetch('/data/monitor-summary.json'|fetch('./data/monitor-summary.json'|g" site/app.js
 
