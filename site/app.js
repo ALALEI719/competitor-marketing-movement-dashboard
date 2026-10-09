@@ -1,31 +1,9 @@
-const actions=[
-  {id:1,date:'12/18',brand:'Mova',market:'德国',channel:'EDM',title:'CES 神秘新品预告首次发送',stage:'预热',confidence:'高',left:2,width:18},
-  {id:2,date:'12/23',brand:'Mammotion',market:'美国',channel:'社媒广告',title:'“边界突破”主题短视频素材上线',stage:'预热',confidence:'待复核',left:17,width:22},
-  {id:3,date:'12/28',brand:'Eufy',market:'德国',channel:'PR',title:'Newsroom 发布 CES 参展预告',stage:'官宣',confidence:'高',left:30,width:19},
-  {id:4,date:'01/02',brand:'Mova',market:'美国',channel:'官网',title:'首页上线 CES 倒计时与新品入口',stage:'引流',confidence:'高',left:42,width:20},
-  {id:5,date:'01/06',brand:'Dreame',market:'德国',channel:'官网',title:'新品 PDP、售价与购买 CTA 同步上线',stage:'发布',confidence:'高',left:53,width:21},
-  {id:6,date:'01/06',brand:'Dreame',market:'美国',channel:'PR',title:'发布旗舰新品与核心卖点新闻稿',stage:'发布',confidence:'高',left:53,width:21},
-  {id:7,date:'01/07',brand:'Mammotion',market:'英国',channel:'视频',title:'发布展台演示与功能讲解视频',stage:'发布',confidence:'高',left:57,width:18},
-  {id:8,date:'01/09',brand:'Ecovacs',market:'美国',channel:'EDM',title:'高意向用户收到首发优惠码',stage:'转化',confidence:'中',left:65,width:18},
-  {id:9,date:'01/12',brand:'Mova',market:'法国',channel:'社媒广告',title:'素材切换为媒体奖项与测评背书',stage:'口碑',confidence:'高',left:76,width:20}
-];
-
-const personas=[
-  ['○','零行为对照组','不打开、不点击，不加载追踪像素','9 封'],
-  ['◐','只打开组','允许加载完整邮件，不点击链接','10 封'],
-  ['✦','新品兴趣组','只点击新品与发布会内容','12 封'],
-  ['A','产品线 A','仅浏览产品 A 页面','11 封'],
-  ['B','产品线 B','仅浏览产品 B 页面','10 封'],
-  ['%','促销敏感组','只点击折扣、Offer 与优惠码','13 封'],
-  ['↑','高意向组','浏览产品并模拟加购但不购买','14 封'],
-  ['—','长期沉默组','持续不打开，观察唤醒邮件','8 封']
-];
-
 const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
 const channel=document.querySelector('#channel-filter');
 let evidenceIndex={entries:{}};
 let edmDetailIndex={items:[]};
+let formalActionState=[];
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 
@@ -124,21 +102,32 @@ function renderReviewQueue(candidates){
 
 function renderFormalActions(actions){
   document.querySelector('#formal-action-count').textContent=`${actions.length} 条`;
-  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill">${escapeHtml(action.brand)}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">目前没有通过复核的真实营销动作</td></tr>';
+  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill">${escapeHtml(action.brand)}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前筛选下没有已确认动作</td></tr>';
   document.querySelectorAll('[data-formal-action]').forEach(row=>row.onclick=()=>showFormalAction(actions[Number(row.dataset.formalAction)]));
 }
 
 function renderFormalTimeline(actions){
   const container=document.querySelector('#formal-timeline');
   const axis=document.querySelector('#formal-timeline-axis');
-  if(!actions.length){axis.innerHTML='';container.innerHTML='<div class="timeline-empty">尚无已确认动作；候选通过复核后会自动出现在这里。</div>';return;}
+  if(!actions.length){axis.innerHTML='';container.innerHTML='<div class="timeline-empty">当前筛选下没有已确认动作。</div>';return;}
   const times=actions.map(action=>new Date(action.discoveredAt).getTime());
   const min=Math.min(...times),max=Math.max(...times),span=Math.max(max-min,24*60*60*1000);
   const format=value=>new Date(value).toLocaleDateString('zh-CN',{month:'2-digit',day:'2-digit'});
   axis.innerHTML=`<span>${format(min)}</span><span>${format(min+span/2)}</span><span>${format(max)}</span>`;
-  const groups=[...new Set(actions.map(action=>`${action.brand}|${action.country}`))];
-  container.innerHTML=groups.map(group=>{const [brandName,country]=group.split('|');const groupActions=actions.filter(action=>action.brand===brandName&&action.country===country);return `<div class="lane"><div class="lane-label"><strong>${escapeHtml(brandName)}</strong><span>${escapeHtml(country)}</span></div><div class="track">${groupActions.map(action=>{const index=actions.indexOf(action);const left=2+((new Date(action.discoveredAt).getTime()-min)/span)*82;return `<button class="event ${escapeHtml(channelLabel(action.channel))}" data-formal-timeline="${index}" style="left:${left}%;width:${Math.min(18,96-left)}%">${escapeHtml(stageLabel(action.stage))} · ${escapeHtml(channelLabel(action.channel))}</button>`;}).join('')}</div></div>`;}).join('');
+  container.innerHTML=actions.map((action,index)=>{const time=new Date(action.discoveredAt).getTime();const position=((time-min)/span)*100;return `<div class="lane formal-action-lane" data-action-id="${escapeHtml(action.actionId)}"><div class="lane-label"><strong>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}</strong><span title="${escapeHtml(action.title)}">${escapeHtml(action.title)}</span></div><div class="track"><button class="formal-event ${escapeHtml(action.channel)}" data-formal-timeline="${index}" style="--point-position:${position}%" title="${escapeHtml(action.title)}"><span class="formal-event-date">${escapeHtml(format(time))}</span><span>${escapeHtml(stageLabel(action.stage))} · ${escapeHtml(channelLabel(action.channel))}</span></button></div></div>`;}).join('');
   document.querySelectorAll('[data-formal-timeline]').forEach(button=>button.onclick=()=>showFormalAction(actions[Number(button.dataset.formalTimeline)]));
+}
+
+function filteredFormalActions(){
+  return formalActionState.filter(action=>(market.value==='全部'||action.country===market.value)
+    &&(brand.value==='全部'||action.brand===brand.value)
+    &&(channel.value==='全部'||channelLabel(action.channel)===channel.value));
+}
+
+function renderCurrentFormalActions(){
+  const actions=filteredFormalActions();
+  renderFormalActions(actions);
+  renderFormalTimeline(actions);
 }
 
 function renderEventClusters(events){
@@ -154,8 +143,8 @@ async function loadActionData(){
     document.querySelector('#formal-action-table').innerHTML='<tr><td colspan="6">正式动作暂时读取失败。<button class="secondary compact retry-actions">重新读取</button></td></tr>';
     document.querySelectorAll('.retry-actions').forEach(button=>button.onclick=loadActionData);
   }else{
-    renderFormalActions(formalActions.actions||[]);
-    renderFormalTimeline(formalActions.actions||[]);
+    formalActionState=formalActions.actions||[];
+    renderCurrentFormalActions();
   }
 }
 
@@ -193,25 +182,6 @@ async function loadMonitorSummary(){
   }
 }
 
-function currentActions(){return actions.filter(a=>(market.value==='全部'||a.market===market.value)&&(brand.value==='全部'||a.brand===brand.value)&&(channel.value==='全部'||a.channel===channel.value));}
-
-function renderActions(){
-  const data=currentActions();
-  document.querySelector('#action-count').textContent=data.length===actions.length?'42':data.length;
-  document.querySelector('#action-table').innerHTML=data.length?data.map(a=>`<tr data-action="${a.id}"><td>${a.date} · 09:${String(a.id*7).padStart(2,'0')}</td><td><span class="pill">${a.brand}</span>　${a.market}</td><td>${a.channel}</td><td>${a.title}</td><td>${a.stage}</td><td>${a.confidence}</td></tr>`).join(''):'<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:32px">当前筛选没有模拟记录</td></tr>';
-  const groups=[...new Map(data.map(a=>[`${a.brand}-${a.market}`,a])).values()];
-  document.querySelector('#timeline-rows').innerHTML=groups.map(g=>`<div class="lane"><div class="lane-label"><strong>${g.brand}</strong><span>${g.market}</span></div><div class="track">${data.filter(a=>a.brand===g.brand&&a.market===g.market).map(a=>`<button class="event ${a.channel}" data-action="${a.id}" style="left:${a.left}%;width:${Math.min(a.width,98-a.left)}%">${a.stage} · ${a.channel}</button>`).join('')}</div></div>`).join('');
-  bindActionClicks();
-}
-
-function bindActionClicks(){document.querySelectorAll('[data-action]').forEach(el=>el.onclick=()=>showAction(Number(el.dataset.action)));}
-function showAction(id){
-  const a=actions.find(item=>item.id===id);if(!a)return;
-  document.querySelector('#detail-title').textContent='动作详情';
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>品牌 / 市场</dt><dd>${a.brand} · ${a.market}</dd><dt>发现时间</dt><dd>2026/${a.date}</dd><dt>渠道</dt><dd>${a.channel}</dd><dt>营销阶段</dt><dd>${a.stage}</dd><dt>AI判断</dt><dd>该动作与 CES 新品发布事件高度相关，建议关联至统一事件链。</dd><dt>可信度</dt><dd>${a.confidence}</dd></dl><div class="evidence">证据包：计划保存原始 URL、页面截图、内容指纹、首次发现时间和关键字段。当前为模拟记录。</div>`;
-  document.querySelector('#detail-dialog').showModal();
-}
-
 function evidenceForUrl(url){return Object.values(evidenceIndex.entries||{}).find(entry=>entry.url===url);}
 function evidenceFigure(path,label){return path?`<figure><img src="./${escapeHtml(path)}" alt="${escapeHtml(label)}"><figcaption>${escapeHtml(label)}</figcaption></figure>`:`<div class="evidence-missing">${escapeHtml(label)}：暂无截图</div>`;}
 function showCandidate(candidate){
@@ -243,8 +213,8 @@ async function showFormalAction(action){
   }
 }
 
-[market,brand,channel].forEach(control=>control.addEventListener('change',renderActions));
-document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderActions();};
+[market,brand,channel].forEach(control=>control.addEventListener('change',renderCurrentFormalActions));
+document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderCurrentFormalActions();};
 function activateView(view){
   const target=['overview','review','schedule','edm'].includes(view)?view:'overview';
   document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item.dataset.view===target));
@@ -255,10 +225,6 @@ window.addEventListener('hashchange',()=>activateView(window.location.hash.slice
 activateView(window.location.hash.slice(1));
 document.querySelector('#detail-dialog .dialog-head button').onclick=()=>document.querySelector('#detail-dialog').close();
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
-document.querySelector('#persona-grid').innerHTML=personas.map((p,index)=>`<article class="persona ${index===2?'selected':''}"><span class="persona-icon">${p[0]}</span><strong>${p[1]}</strong><p>${p[2]}</p><small>${p[3]}</small></article>`).join('');
-document.querySelectorAll('.persona').forEach(card=>card.onclick=()=>{document.querySelectorAll('.persona').forEach(item=>item.classList.remove('selected'));card.classList.add('selected');});
-document.querySelector('#simulate-mode').onclick=event=>{document.querySelectorAll('.mode').forEach((mode,index)=>mode.classList.toggle('active-mode',index===1));event.currentTarget.textContent='已切换：活动监控';document.querySelector('.run-state').innerHTML='<i></i>活动监控中';};
-renderActions();
 loadMonitorSummary();
 loadActionData();
 loadEventData();

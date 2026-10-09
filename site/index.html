@@ -8,9 +8,9 @@
   <title>竞品营销动作监控</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091423'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%235fe1be' stroke-width='4'/%3E%3Cpath d='M32 32 49 21' stroke='%23ffb454' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./styles-rules.css">
-  <link rel="stylesheet" href="./styles-edm.css?v=20261009-2">
-  <script src="./app.js?v=20261009-2" defer></script>
+  <link rel="stylesheet" href="./styles-rules.css?v=20261009-3">
+  <link rel="stylesheet" href="./styles-edm.css?v=20261009-3">
+  <script src="./app.js?v=20261009-3" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -21,18 +21,18 @@
       <button class="nav-item" data-view="schedule">监控规则</button>
       <button class="nav-item" data-view="edm">EDM 邮件</button>
     </nav>
-    <div class="run-state"><i></i>常态监控中</div>
+    <div class="run-state"><i></i>真实数据看板</div>
   </header>
 
   <main>
-    <div class="demo-banner" id="data-status-banner"><strong>数据状态</strong><span>真实 Sitemap 基线与模拟营销动作分区展示，二者不混合统计。</span><span id="data-updated-at">正在读取真实基线…</span></div>
+    <div class="demo-banner" id="data-status-banner"><strong>数据状态</strong><span>本页只展示真实采集结果和已确认营销动作。</span><span id="data-updated-at">正在读取真实基线…</span></div>
 
     <section class="view active" id="overview">
       <div class="filter-row">
         <label>国家站点<select id="market-filter"><option value="全部">全部国家站点</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label>
         <label>品牌<select id="brand-filter"><option value="全部">全部竞品</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
         <label>渠道<select id="channel-filter"><option value="全部">全部渠道</option><option>官网</option><option>PR</option><option>Blog</option><option>社媒广告</option><option>EDM</option><option>视频</option></select></label>
-        <div class="period">观察周期：CES 前后 4 周</div>
+        <button class="secondary" id="reset-filters">清除筛选</button>
       </div>
 
       <article class="panel real-data-panel">
@@ -53,39 +53,14 @@
       </article>
 
       <article class="panel verified-panel">
-        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>只有完成复核并确认通过的候选才进入这里，并按国家站点分别记录</p><a class="edm-jump" href="#edm">查看 EDM 邮件内容与图片 →</a></div><span class="badge green" id="formal-action-count">读取中</span></div>
+        <div class="panel-head"><div><h2>已确认真实营销动作</h2><p>每条已确认动作在时间线上独占一行；位置表示发现时间，标记宽度不表示持续天数。</p><a class="edm-jump" href="#edm">查看 EDM 邮件内容与图片 →</a></div><span class="badge green" id="formal-action-count">读取中</span></div>
         <div class="confirmed-grid">
-          <div class="real-gantt"><div class="real-gantt-head"><strong>真实动作甘特时间轴</strong><div id="formal-timeline-axis"></div></div><div id="formal-timeline"><div class="timeline-empty">正在读取真实动作…</div></div></div>
+          <div class="real-gantt"><div class="real-gantt-head"><strong>已确认动作时间线</strong><div id="formal-timeline-axis"></div></div><div id="formal-timeline"><div class="timeline-empty">正在读取真实动作…</div></div></div>
           <aside class="event-clusters"><strong>跨渠道事件</strong><div id="event-cluster-list"><div class="timeline-empty">正在聚类…</div></div></aside>
         </div>
         <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>渠道</th><th>正式动作</th><th>阶段</th><th>状态</th></tr></thead><tbody id="formal-action-table"><tr><td colspan="6">正在读取真实动作…</td></tr></tbody></table></div>
       </article>
 
-      <div class="kpi-grid">
-        <article class="kpi"><span>模拟营销动作</span><strong id="action-count">42</strong><small>用于验证时间轴交互</small></article>
-        <article class="kpi"><span>识别营销事件</span><strong>9</strong><small>7 个完成跨渠道聚类</small></article>
-        <article class="kpi"><span>最早预热提前量</span><strong>21<em>天</em></strong><small>Mova · 德国</small></article>
-        <article class="kpi"><span>待人工复核</span><strong>4</strong><small>主要为首次发布日期</small></article>
-      </div>
-
-      <div class="main-grid">
-        <article class="panel timeline-panel">
-          <div class="panel-head"><div><h2>营销动作时间轴</h2><p>点击动作查看证据与 AI 判断</p></div><div class="legend"><span class="blue">官网</span><span class="purple">PR</span><span class="orange">广告</span><span class="green">EDM</span></div></div>
-          <div class="timeline"><div class="timeline-axis"><span></span><span>T-21</span><span>T-14</span><span>T-7</span><span>CES</span><span>T+7</span><span>T+14</span></div><div id="timeline-rows"></div></div>
-        </article>
-
-        <aside class="panel insight-panel">
-          <div class="panel-head"><div><h2>AI 周期洞察</h2><p>基于跨渠道动作聚类推测</p></div></div>
-          <div class="insight"><b>01</b><div><strong>Mova 预热窗口最长</strong><p>德国市场先启动 EDM，随后广告与官网依次上线。</p><small>判断置信度 88%</small></div></div>
-          <div class="insight"><b>02</b><div><strong>Dreame 采用集中爆发</strong><p>官网、PR、视频在 CES 当天集中上线。</p><small>判断置信度 82%</small></div></div>
-          <div class="insight"><b>03</b><div><strong>美国促销承接更快</strong><p>新品发布后 3 天出现 Offer 类 EDM。</p><small>判断置信度 76%</small></div></div>
-        </aside>
-      </div>
-
-      <article class="panel table-panel">
-        <div class="panel-head"><div><h2>近期监控动作</h2><p>同一动作在不同国家站点分别记录</p></div><button class="secondary" id="reset-filters">清除筛选</button></div>
-        <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>渠道</th><th>动作摘要</th><th>阶段</th><th>可信度</th></tr></thead><tbody id="action-table"></tbody></table></div>
-      </article>
     </section>
 
     <section class="view" id="review">
@@ -98,13 +73,7 @@
     </section>
 
     <section class="view" id="schedule">
-      <div class="section-intro"><div><span class="eyebrow">ADAPTIVE MONITORING</span><h1>按营销周期动态调整抓取频率</h1><p>常态期控制成本，重点节点自动提升频率；Sitemap 和少量关键页面作为每日轻量哨兵。</p></div><button class="primary" id="simulate-mode">模拟进入活动期</button></div>
-      <div class="mode-grid">
-        <article class="mode active-mode"><span class="mode-tag">当前模式</span><h2>常态监控</h2><strong>每周一次全量</strong><p>每日只检查 Sitemap、首页、新品集合页和活动页；无变化不继续抓取。</p><ul><li>全量抓取：每周一次</li><li>轻量哨兵：每日一次</li><li>看板发布：每周或有变化时</li></ul></article>
-        <article class="mode"><span class="mode-tag">营销节点</span><h2>活动监控</h2><strong>每周两次</strong><p>适用于黑五、网一、圣诞等持续促销周期。</p><ul><li>全量抓取：每周两次</li><li>重点页面：每日一次</li><li>看板发布：有变化时</li></ul></article>
-        <article class="mode"><span class="mode-tag">发布窗口</span><h2>重点发布</h2><strong>每日一次</strong><p>适用于 CES、新品发布前后 7～21 天。</p><ul><li>全量抓取：每日一次</li><li>官网、PR、广告、EDM联动</li><li>看板发布：每日</li></ul></article>
-      </div>
-      <article class="panel calendar-panel"><div class="panel-head"><div><h2>重点营销日历</h2><p>日期进入窗口后自动切换模式</p></div></div><div class="calendar-row"><time>11/01—12/05</time><strong>Black Friday / Cyber Monday</strong><span class="badge orange">活动监控</span><p>促销、折扣、Bundle、优惠码</p></div><div class="calendar-row"><time>12/01—12/31</time><strong>Christmas</strong><span class="badge orange">活动监控</span><p>礼赠、截止日期、配送承诺</p></div><div class="calendar-row"><time>12/15—01/20</time><strong>CES</strong><span class="badge green">重点发布</span><p>参展、新品预热、发布与媒体背书</p></div></article>
+      <div class="section-intro"><div><span class="eyebrow">MONITORING SCOPE</span><h1>监控范围与工作规划</h1><p>以下是监控分工和计划口径，不代表当前已接入渠道的实时运行状态。</p></div></div>
       <article class="panel rules-panel">
         <div class="panel-head"><div><h2>监控分工与频次</h2><p>按原始表格配置；关键节点频次不替代常规频次</p></div></div>
         <div class="table-wrap"><table class="rules-table"><thead><tr><th>监控模块</th><th>负责团队</th><th>常规频率</th><th>关键节点频率</th><th>主要监控内容</th><th>最少必填</th><th>记录位置</th><th>交付口径</th></tr></thead><tbody>
@@ -124,11 +93,7 @@
 
     <section class="view" id="edm">
       <div class="section-intro"><div><span class="eyebrow">REAL EDM ARCHIVE</span><h1>竞品 EDM 内容库</h1><p>时间线展示经复核的营销动作；点击邮件可在看板内查看标题、正文和营销图片。图片为本地留存副本，不加载追踪像素或原邮件链接。</p></div></div>
-      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>真实 EDM 邮件内容与图片</h2><p>点击邮件卡片查看邮件正文说明与按原顺序留存的营销图片；下方模拟实验不是真实邮件。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
-      <div class="section-intro"><div><span class="eyebrow">CONTROLLED PERSONAS</span><h1>EDM 订阅身份实验</h1><p>用不同邮箱身份执行固定行为策略，对比竞品可能采用的用户标签和定向推送。</p></div></div>
-      <div class="persona-grid" id="persona-grid"></div>
-      <article class="panel edm-summary"><div><span>实验品牌</span><strong>Mova · 德国</strong></div><div><span>监控身份</span><strong>8</strong></div><div><span>模拟收件</span><strong>87</strong></div><div><span>独有版本</span><strong>14</strong></div><div><span>推测标签</span><strong>5</strong></div></article>
-      <p class="footnote">零行为对照组不会加载远程图片或追踪像素。所有点击行为都由预先批准的规则控制。</p>
+      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>真实 EDM 邮件内容与图片</h2><p>仅展示已复核的真实竞品邮件；点击邮件卡片查看正文说明与按原顺序留存的营销图片。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
     </section>
   </main>
 
