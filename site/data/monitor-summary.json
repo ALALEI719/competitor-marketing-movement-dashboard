@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 5,
-    "pendingChannelChanges": 0
+    "blogChanges": 6,
+    "pendingChannelChanges": 1
   },
   "sites": [
     {
@@ -365,7 +365,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-09T09:39:58.390Z",
+    "checkedAt": "2026-10-10T09:05:38.206Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -377,7 +377,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-09T09:39:58.390Z",
+        "checkedAt": "2026-10-10T09:05:38.206Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -387,7 +387,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 2,
+          "captured": 4,
           "total": 30,
           "backfilled": 2
         }
@@ -401,7 +401,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-09T09:39:58.390Z",
+        "checkedAt": "2026-10-10T09:05:38.206Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -411,7 +411,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 2,
+          "captured": 4,
           "total": 30,
           "backfilled": 2
         }
@@ -425,7 +425,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-09T09:39:58.390Z",
+        "checkedAt": "2026-10-10T09:05:38.206Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -435,7 +435,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 2,
+          "captured": 4,
           "total": 30,
           "backfilled": 2
         }
@@ -449,23 +449,61 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-09T09:39:58.390Z",
+        "checkedAt": "2026-10-10T09:05:38.206Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-29T11:30:35+02:00",
+        "latestPublishedAt": "2026-10-10T10:40:23+02:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 2,
+          "captured": 5,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-9AFB68DBC0CD",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+        "publishDate": "2026-10-10T10:40:23+02:00",
+        "updatedAt": "2026-10-10T10:48:15+02:00",
+        "discoveredAt": "2026-10-10T09:05:38.206Z",
+        "summary": "Roue omnidirectionnelle, pivotante ou directrice : comparatif des robots tondeuses 4x4 pour savoir lequel respecte le mieux la pelouse en virage. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "b8a858bf900de8f9a5defb53175153aa45c83b8ada562194c3ceb78e5a8f8cc5",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.95,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.96,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-599250CA14FE",
         "sourceId": "mammotion-fr-blog",
@@ -647,6 +685,45 @@
         }
       }
     ],
-    "pendingRecords": []
+    "pendingRecords": [
+      {
+        "recordId": "CH-9AFB68DBC0CD",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+        "publishDate": "2026-10-10T10:40:23+02:00",
+        "updatedAt": "2026-10-10T10:48:15+02:00",
+        "discoveredAt": "2026-10-10T09:05:38.206Z",
+        "summary": "Roue omnidirectionnelle, pivotante ou directrice : comparatif des robots tondeuses 4x4 pour savoir lequel respecte le mieux la pelouse en virage. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "b8a858bf900de8f9a5defb53175153aa45c83b8ada562194c3ceb78e5a8f8cc5",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.95,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.96,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      }
+    ]
   }
 }
