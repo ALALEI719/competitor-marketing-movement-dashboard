@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 6,
-    "pendingChannelChanges": 1
+    "blogChanges": 8,
+    "pendingChannelChanges": 3
   },
   "sites": [
     {
@@ -365,7 +365,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-10T09:05:38.206Z",
+    "checkedAt": "2026-10-11T09:19:48.810Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -377,17 +377,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-10T09:05:38.206Z",
+        "checkedAt": "2026-10-11T09:19:48.810Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-22T02:44:10-07:00",
+        "latestPublishedAt": "2026-10-10T03:22:09-07:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 4,
+          "captured": 7,
           "total": 30,
           "backfilled": 2
         }
@@ -401,7 +401,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-10T09:05:38.206Z",
+        "checkedAt": "2026-10-11T09:19:48.810Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -411,7 +411,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 4,
+          "captured": 6,
           "total": 30,
           "backfilled": 2
         }
@@ -425,7 +425,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-10T09:05:38.206Z",
+        "checkedAt": "2026-10-11T09:19:48.810Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -435,7 +435,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 4,
+          "captured": 6,
           "total": 30,
           "backfilled": 2
         }
@@ -449,23 +449,99 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-10T09:05:38.206Z",
+        "checkedAt": "2026-10-11T09:19:48.810Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-10T10:40:23+02:00",
+        "latestPublishedAt": "2026-10-10T12:31:16+02:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 5,
+          "captured": 8,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-1FC9123C43E7",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+        "publishDate": "2026-10-10T03:22:09-07:00",
+        "updatedAt": "2026-10-10T03:29:57-07:00",
+        "discoveredAt": "2026-10-11T09:19:48.810Z",
+        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.1,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-911252D74E75",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+        "publishDate": "2026-10-10T12:31:16+02:00",
+        "updatedAt": "2026-10-10T12:31:16+02:00",
+        "discoveredAt": "2026-10-11T09:19:48.810Z",
+        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e5c8ec73d9ad2e2bfb130716a3c1e83a305790c3a3526a546b3a56c63464f0eb",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-9AFB68DBC0CD",
         "sourceId": "mammotion-fr-blog",
@@ -686,6 +762,82 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-1FC9123C43E7",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+        "publishDate": "2026-10-10T03:22:09-07:00",
+        "updatedAt": "2026-10-10T03:29:57-07:00",
+        "discoveredAt": "2026-10-11T09:19:48.810Z",
+        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.1,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-911252D74E75",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+        "publishDate": "2026-10-10T12:31:16+02:00",
+        "updatedAt": "2026-10-10T12:31:16+02:00",
+        "discoveredAt": "2026-10-11T09:19:48.810Z",
+        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e5c8ec73d9ad2e2bfb130716a3c1e83a305790c3a3526a546b3a56c63464f0eb",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-9AFB68DBC0CD",
         "sourceId": "mammotion-fr-blog",
