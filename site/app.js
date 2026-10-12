@@ -4,6 +4,7 @@ const channel=document.querySelector('#channel-filter');
 let evidenceIndex={entries:{}};
 let edmDetailIndex={items:[]};
 let formalActionState=[];
+let siteObservationState=[];
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 function brandKind(item){return item.brandRole==='own'||item.brand==='Navimow'?'自有品牌':'竞品';}
@@ -107,6 +108,35 @@ function renderFormalActions(actions){
   document.querySelectorAll('[data-formal-action]').forEach(row=>row.onclick=()=>showFormalAction(actions[Number(row.dataset.formalAction)]));
 }
 
+function safeObservationUrl(value){
+  try{const url=new URL(value);return url.protocol==='https:'&&url.hostname==='www.ecovacs.com'&&url.pathname.startsWith('/us/')?url.href:'';}catch{return '';}
+}
+function observationFieldLabel(field){return ({title:'标题',description:'描述',headings:'页面标题',cta:'按钮文案',offer:'优惠文字',price:'价格',currency:'币种',availability:'库存状态',product_name:'商品名称',body:'正文'})[field]||field;}
+function observationValue(value){const text=Array.isArray(value)?value.join('、'):String(value??'');return escapeHtml(text.length>180?`${text.slice(0,180)}…`:text||'无');}
+function observationChangeMarkup(record){
+  if(record.type==='page_added')return '<span class="observation-type">来源清单新增链接</span>';
+  if(record.type==='page_missing_from_sources')return '<span class="observation-type">来源清单暂未发现该链接</span>';
+  const fields=Object.entries(record.fields||{});
+  return fields.length?fields.map(([field,pair])=>field==='body'
+    ?'<span class="observation-change"><b>正文</b> 内容有变化</span>'
+    :`<span class="observation-change"><b>${escapeHtml(observationFieldLabel(field))}</b> ${observationValue(pair.before)} <span aria-label="变为">→</span> ${observationValue(pair.after)}${field==='price'?' USD':''}</span>`).join('')
+    :'<span class="observation-type">页面字段有变化</span>';
+}
+function renderCurrentSiteObservations(){
+  const filtered=siteObservationState.filter(item=>(market.value==='全部'||item.country===market.value)
+    &&(brand.value==='全部'||item.brand===brand.value)
+    &&(channel.value==='全部'||channel.value==='官网'));
+  document.querySelector('#site-observation-count').textContent=`${filtered.length} 条变化`;
+  document.querySelector('#site-observation-table').innerHTML=filtered.length?filtered.slice(0,100).map(item=>{
+    const url=safeObservationUrl(item.url);
+    return `<tr><td>${escapeHtml(new Date(item.observedAt).toLocaleString('zh-CN',{hour12:false}))}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(item.title||item.url||'未知页面')}</td><td><div class="observation-changes">${observationChangeMarkup(item)}</div></td><td>${url?`<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">查看官网</a>`:'来源不可用'}</td></tr>`;
+  }).join(''):'<tr><td colspan="5" class="empty-cell">当前筛选下暂无网页变化记录。</td></tr>';
+}
+async function loadSiteObservations(){
+  try{const data=await fetchDashboardJson('./data/site-observations.json');siteObservationState=data.observations||[];document.querySelector('#site-observation-checked-at').textContent=`最近检查：${new Date(data.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;renderCurrentSiteObservations();}
+  catch{document.querySelector('#site-observation-count').textContent='暂不可用';document.querySelector('#site-observation-checked-at').textContent='最近检查时间不可用';document.querySelector('#site-observation-table').innerHTML='<tr><td colspan="5" class="empty-cell">网页变化记录暂时无法读取。</td></tr>';}
+}
+
 function renderFormalTimeline(actions){
   const container=document.querySelector('#formal-timeline');
   const axis=document.querySelector('#formal-timeline-axis');
@@ -166,12 +196,13 @@ async function loadMonitorSummary(){
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
     const candidates=summary.productRadar?.candidates||[];
+    const pendingCandidates=candidates.filter(item=>item.reviewStatus==='pending');
     renderReviewQueue(candidates);
-    document.querySelector('#radar-count').textContent=candidates.length?`${candidates.length} 个待复核`:'暂无候选';
-    document.querySelector('#radar-list').innerHTML=candidates.length?candidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有达到阈值的新品候选</strong><span>已建立 ${Object.keys(evidenceIndex.entries||{}).length} 个关键页面截图基线；系统继续通过 HTML 检查新增 URL、预热词、价格、Offer、CTA 与结构化商品信息，仅在出现候选时再次截图。</span></div>`;
-    document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(candidates[Number(button.dataset.candidate)]));
+    document.querySelector('#radar-count').textContent=pendingCandidates.length?`${pendingCandidates.length} 个待核实`:'暂无待核实候选';
+    document.querySelector('#radar-list').innerHTML=pendingCandidates.length?pendingCandidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有待核实的新品候选</strong><span>已接入的官网网页变化会单独记录和展示；是否形成新品营销结论由后续证据决定。</span></div>`;
+    document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(pendingCandidates[Number(button.dataset.candidate)]));
     document.querySelector('#baseline-status').textContent=summary.sites.every(site=>site.status==='ok')?'基线正常':'部分异常';
-    document.querySelector('#data-updated-at').textContent=`真实数据更新 ${new Date(summary.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;
+    document.querySelector('#data-updated-at').textContent=`监控基线更新 ${new Date(summary.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;
     document.querySelector('#coverage-grid').innerHTML=summary.sites.map(site=>`<a class="coverage-card" href="${site.site.siteUrl}" target="_blank" rel="noreferrer"><span><b>${site.site.country}</b><small>${site.site.countryCode} · ${site.site.priority}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · Blog ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'基线已建立':'采集异常'}</em></a>`).join('');
   }catch(error){
     document.querySelector('#baseline-status').textContent='数据不可用';
@@ -192,7 +223,7 @@ function showCandidate(candidate){
   const evidence=references.map(reference=>evidenceForUrl(reference.url)).find(Boolean);
   const latest=evidence?.captures?.at(-1);
   const signals=[...new Set(references.flatMap(reference=>Object.values(reference.matchedSignals||{}).flat()))];
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>临时编号</dt><dd><code>${escapeHtml(candidate.entityId)}</code></dd><dt>正式型号</dt><dd>${escapeHtml(candidate.canonicalName||'尚未确认')}</dd><dt>国家站点</dt><dd>${escapeHtml((candidate.countries||[]).join(' / '))}</dd><dt>首次发现</dt><dd>${escapeHtml(new Date(candidate.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>当前阶段</dt><dd>${candidate.launchStage==='multi_source_candidate'?'多源候选':'弱信号'}</dd><dt>命中信号</dt><dd>${escapeHtml(signals.join('、')||'结构化商品信息')}</dd><dt>复核状态</dt><dd>${escapeHtml(reviewLabel(candidate.reviewStatus))}</dd></dl><div class="source-links">${references.map(reference=>`<a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">查看 ${escapeHtml(reference.siteId)} 原页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'变化后 / 当前证据')}</div><div class="evidence">HTML 负责判断标题、正文、价格、Offer、CTA 和结构化商品数据是否变化；截图只用于视觉补充与证据留档。候选完成复核前不会进入正式营销动作时间轴。</div>${candidate.reviewStatus==='pending'?'<a class="primary dialog-review-link" href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-product-candidate.yml" target="_blank" rel="noreferrer">前往私有复核入口</a>':''}`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>临时编号</dt><dd><code>${escapeHtml(candidate.entityId)}</code></dd><dt>正式型号</dt><dd>${escapeHtml(candidate.canonicalName||'尚未确认')}</dd><dt>国家站点</dt><dd>${escapeHtml((candidate.countries||[]).join(' / '))}</dd><dt>首次发现</dt><dd>${escapeHtml(new Date(candidate.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>当前阶段</dt><dd>${candidate.launchStage==='multi_source_candidate'?'多源候选':'弱信号'}</dd><dt>命中信号</dt><dd>${escapeHtml(signals.join('、')||'结构化商品信息')}</dd><dt>复核状态</dt><dd>${escapeHtml(reviewLabel(candidate.reviewStatus))}</dd></dl><div class="source-links">${references.map(reference=>`<a href="${escapeHtml(reference.url)}" target="_blank" rel="noreferrer">查看 ${escapeHtml(reference.siteId)} 原页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'变化后 / 当前证据')}</div><div class="evidence">HTML 负责判断标题、正文、价格、Offer、CTA 和结构化商品数据是否变化；截图只用于视觉补充与证据留档。候选完成复核前不会进入正式营销动作时间轴。</div>${candidate.reviewStatus==='pending'?'<div class="evidence">若需确认新品营销结论，请由项目管理员登录私有仓库并在 Actions 中运行 Review Product Candidate。已接入的网页变化记录不受此流程影响。</div>':''}`;
   document.querySelector('#detail-dialog').showModal();
 }
 
@@ -214,8 +245,8 @@ async function showFormalAction(action){
   }
 }
 
-[market,brand,channel].forEach(control=>control.addEventListener('change',renderCurrentFormalActions));
-document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderCurrentFormalActions();};
+[market,brand,channel].forEach(control=>control.addEventListener('change',()=>{renderCurrentFormalActions();renderCurrentSiteObservations();}));
+document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderCurrentFormalActions();renderCurrentSiteObservations();};
 function activateView(view){
   const target=['overview','review','schedule','edm'].includes(view)?view:'overview';
   document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item.dataset.view===target));
@@ -227,6 +258,7 @@ activateView(window.location.hash.slice(1));
 document.querySelector('#detail-dialog .dialog-head button').onclick=()=>document.querySelector('#detail-dialog').close();
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
 loadMonitorSummary();
+loadSiteObservations();
 loadActionData();
 loadEventData();
 loadEdmLibrary();

@@ -51,6 +51,7 @@ jobs:
           fetch_file "styles-rules.css" "site/styles-rules.css"
           fetch_file "styles-edm.css" "site/styles-edm.css"
           fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
+          fetch_file "data/site-observations.json" "site/data/site-observations.json"
           fetch_file "data/formal-actions.json" "site/data/formal-actions.json"
           fetch_file "data/marketing-events.json" "site/data/marketing-events.json"
           fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
