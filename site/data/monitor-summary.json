@@ -888,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-12T09:26:49.072Z",
+    "checkedAt": "2026-10-12T09:48:29.996Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:26:49.072Z",
+        "checkedAt": "2026-10-12T09:48:29.996Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-12T01:29:38-07:00",
         "changeCounts": {
-          "added": 2,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 11,
+          "captured": 13,
           "total": 30,
           "backfilled": 2
         }
@@ -924,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:26:49.072Z",
+        "checkedAt": "2026-10-12T09:48:29.996Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 8,
+          "captured": 10,
           "total": 30,
           "backfilled": 2
         }
@@ -948,17 +948,17 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:26:49.072Z",
+        "checkedAt": "2026-10-12T09:48:29.996Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-09-14T08:15:57+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 1
+          "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 8,
+          "captured": 10,
           "total": 30,
           "backfilled": 2
         }
@@ -972,17 +972,17 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:26:49.072Z",
+        "checkedAt": "2026-10-12T09:48:29.996Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-12T09:43:34+02:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 12,
+          "captured": 14,
           "total": 30,
           "backfilled": 2
         }
