@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-10-12T09:00:18.076Z",
+  "siteId": "ecovacs-us",
+  "totalCount": 4,
+  "observations": [
+    {
+      "id": "OBS-3866D2CFEE9CEEAC",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-12T09:00:18.076Z",
+      "previousCapturedAt": "2026-10-12T06:10:24.843Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a3000-lidar-pro-garage-blade-kit",
+      "pageType": "bundle",
+      "title": "Official Exclusive - GOAT A3000 LiDAR PRO Package - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "2499.99",
+          "after": "2611"
+        }
+      }
+    },
+    {
+      "id": "OBS-C025117722D8EA0D",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-12T09:00:18.076Z",
+      "previousCapturedAt": "2026-10-12T06:10:24.843Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-blade-kit-2sets",
+      "pageType": "bundle",
+      "title": "Official Exclusive - GOAT O1000 LiDAR PRO + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "1560",
+          "after": "992"
+        }
+      }
+    },
+    {
+      "id": "OBS-826A0BC014DD21C7",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-12T09:00:18.076Z",
+      "previousCapturedAt": "2026-10-12T06:10:24.843Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-garage-blade-kit",
+      "pageType": "bundle",
+      "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower + Garage + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "1690",
+          "after": "1060"
+        }
+      }
+    },
+    {
+      "id": "OBS-C6CF2F6CC5BA156F",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-12T09:00:18.076Z",
+      "previousCapturedAt": "2026-10-12T06:10:24.843Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+      "pageType": "product",
+      "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "1499.99",
+          "after": "949"
+        }
+      }
+    }
+  ]
+}
