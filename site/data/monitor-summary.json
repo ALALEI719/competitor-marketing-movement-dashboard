@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-08T03:35:40.174Z",
+  "generatedAt": "2026-10-12T09:26:48.888Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [],
@@ -8,14 +8,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1119,
-    "pendingChanges": 0,
+    "pages": 1123,
+    "pendingChanges": 8,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 8,
-    "pendingChannelChanges": 3
+    "blogChanges": 14,
+    "pendingChannelChanges": 9
   },
   "sites": [
     {
@@ -28,29 +28,29 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-05T09:15:06.265Z",
+      "checkedAt": "2026-10-12T09:26:29.828Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 330,
+      "pageCount": 331,
       "breakdown": {
         "page": 61,
-        "blog": 199,
+        "blog": 200,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 68
+        "lastmodChanged": 73
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 68,
+        "lastmodPagesNeedingContentCheck": 73,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "inspectedPages": 2,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -64,29 +64,29 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-05T09:15:08.459Z",
+      "checkedAt": "2026-10-12T09:26:34.345Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 286,
+      "pageCount": 287,
       "breakdown": {
         "page": 36,
         "blog": 152,
-        "collection": 14,
+        "collection": 15,
         "product": 84
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 98
+        "lastmodChanged": 99
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 98,
+        "lastmodPagesNeedingContentCheck": 99,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "inspectedPages": 2,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -100,7 +100,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-05T09:15:11.012Z",
+      "checkedAt": "2026-10-12T09:26:39.555Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -113,16 +113,16 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 78
+        "lastmodChanged": 81
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 78,
+        "lastmodPagesNeedingContentCheck": 81,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -136,24 +136,24 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-05T09:15:13.425Z",
+      "checkedAt": "2026-10-12T09:26:42.710Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 291,
+      "pageCount": 293,
       "breakdown": {
         "page": 37,
-        "blog": 149,
+        "blog": 151,
         "collection": 19,
         "product": 86
       },
       "changeCounts": {
         "added": 2,
         "removed": 0,
-        "lastmodChanged": 102
+        "lastmodChanged": 103
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 102,
+        "lastmodPagesNeedingContentCheck": 103,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -163,7 +163,530 @@
       }
     }
   ],
-  "pendingRecords": [],
+  "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-12T09:26:42.710Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-339BBFAC524D"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-12T09:26:42.710Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-6FA9DCC7E88F"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-12T09:26:42.710Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "876fa3e00d5f0abc248f6d1d4ad5e2ad9a46563fc452a3df7ff71262cadd2beb",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "product_launch",
+            "confidence": 0.89,
+            "probabilities": {
+              "product_launch": 0.91,
+              "promotion": 0.07,
+              "price_change": 0.02,
+              "availability_change": 0,
+              "messaging_or_cta": 0,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "on_sale",
+            "confidence": 0.65,
+            "probabilities": {
+              "not_launch_related": 0.04,
+              "weak_signal": 0.01,
+              "teaser": 0,
+              "announcement": 0.24,
+              "preorder": 0,
+              "on_sale": 0.71
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.16,
+            "confidence": 0.82,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.02,
+              "3": 0.79,
+              "4": 0.19
+            }
+          }
+        },
+        "latencyMs": 146,
+        "usage": {
+          "input_tokens": 6196,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-12T09:26:47.814Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-893A6D583DD1"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-10-12T09:26:39.555Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "5abd151dcbaa6d8ebbd36c2c780521d3d72147f38e14ec8898d1a89b971c481e",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.86
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "price_change",
+            "confidence": 0.56,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.35,
+              "price_change": 0.62,
+              "availability_change": 0.02,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.98,
+            "probabilities": {
+              "not_launch_related": 0.98,
+              "weak_signal": 0.01,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.01
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.66,
+            "confidence": 0.7,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.01,
+              "1": 0.03,
+              "2": 0.26,
+              "3": 0.69,
+              "4": 0.01
+            }
+          }
+        },
+        "latencyMs": 122,
+        "usage": {
+          "input_tokens": 6034,
+          "output_tokens": 184
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-12T09:26:42.557Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-5250D3AD6BA5"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-12T09:26:34.345Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/collections/mahroboter-ohne-begrenzungskabel-copy",
+      "pageType": "collection",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "5ad66f102528249db42e69afc0e55f6db9e2b9c8d0cbbaf3c688c9f9d464da26",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.43
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.23,
+            "probabilities": {
+              "product_launch": 0.21,
+              "promotion": 0.34,
+              "price_change": 0,
+              "availability_change": 0.01,
+              "messaging_or_cta": 0.04,
+              "routine_content_refresh": 0.1,
+              "other": 0.3
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.69,
+            "probabilities": {
+              "not_launch_related": 0.74,
+              "weak_signal": 0.05,
+              "teaser": 0,
+              "announcement": 0.04,
+              "preorder": 0,
+              "on_sale": 0.17
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.21,
+            "confidence": 0.28,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.12,
+              "1": 0.07,
+              "2": 0.33,
+              "3": 0.45,
+              "4": 0.03
+            }
+          }
+        },
+        "latencyMs": 102,
+        "usage": {
+          "input_tokens": 4097,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-12T09:26:39.401Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-071A94C947FB"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-12T09:26:34.345Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "6974dd219ebc159e903a98843e899a807a646f4dd9fef24099a70f52dce4838f",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "product_launch",
+            "confidence": 0.67,
+            "probabilities": {
+              "product_launch": 0.72,
+              "promotion": 0.21,
+              "price_change": 0.04,
+              "availability_change": 0.01,
+              "messaging_or_cta": 0.02,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "announcement",
+            "confidence": 0.66,
+            "probabilities": {
+              "not_launch_related": 0.13,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0.72,
+              "preorder": 0,
+              "on_sale": 0.12
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.1,
+            "confidence": 0.88,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.02,
+              "3": 0.85,
+              "4": 0.13
+            }
+          }
+        },
+        "latencyMs": 172,
+        "usage": {
+          "input_tokens": 6616,
+          "output_tokens": 182
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-12T09:26:38.771Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-86ED288D98F1"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-12T09:26:29.828Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-030CF89BA781"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-12T09:26:29.828Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "06a755e5671ae34ff1973e45e35e5278cb4dd3a6e216b0d4db58524cde6d99cf",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.86
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.46,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.54,
+              "price_change": 0.43,
+              "availability_change": 0,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0.02,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "not_launch_related": 0.99,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.01
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.74,
+            "confidence": 0.79,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0.01,
+              "2": 0.23,
+              "3": 0.76,
+              "4": 0
+            }
+          }
+        },
+        "latencyMs": 173,
+        "usage": {
+          "input_tokens": 5564,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-12T09:26:33.678Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-557CF57BCEB4"
+    }
+  ],
   "productRadar": {
     "mechanism": "open_world_discovery",
     "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
@@ -365,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-11T09:19:48.810Z",
+    "checkedAt": "2026-10-12T09:26:49.072Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -377,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-11T09:19:48.810Z",
+        "checkedAt": "2026-10-12T09:26:49.072Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-10T03:22:09-07:00",
+        "latestPublishedAt": "2026-10-12T01:29:38-07:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 0
+          "added": 2,
+          "updated": 1
         },
         "snapshotCoverage": {
-          "captured": 7,
+          "captured": 11,
           "total": 30,
           "backfilled": 2
         }
@@ -401,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-11T09:19:48.810Z",
+        "checkedAt": "2026-10-12T09:26:49.072Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -411,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 6,
+          "captured": 8,
           "total": 30,
           "backfilled": 2
         }
@@ -425,17 +948,17 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-11T09:19:48.810Z",
+        "checkedAt": "2026-10-12T09:26:49.072Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-09-14T08:15:57+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
-          "captured": 6,
+          "captured": 8,
           "total": 30,
           "backfilled": 2
         }
@@ -449,23 +972,260 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-11T09:19:48.810Z",
+        "checkedAt": "2026-10-12T09:26:49.072Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-10T12:31:16+02:00",
+        "latestPublishedAt": "2026-10-12T09:43:34+02:00",
         "changeCounts": {
           "added": 1,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
-          "captured": 8,
+          "captured": 12,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-FEDDE9BADF76",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize New Grass: Seed vs. Sod",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
+        "publishDate": "2026-10-12T01:29:38-07:00",
+        "updatedAt": "2026-10-12T01:29:40-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn when to fertilize new grass seed and sod, when to apply starter fertilizer, and how to choose the right fertilizer for healthy lawn establishment. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "75f085c221d1c9e5f43873fa1fdb3b494510cb398fd1d83a6a8d3e870fb233fd",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.08,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-61B17656F9B1",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+        "publishDate": "2026-10-11T23:32:46-07:00",
+        "updatedAt": "2026-10-11T23:32:47-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.06,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A0D2BA5CAF20",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+        "publishDate": "2026-10-10T03:22:09-07:00",
+        "updatedAt": "2026-10-11T23:38:02-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
+          "afterHash": "5ab1f60a78b02b57773afee91165f480ed9b23627cb829ad8cf23a6feb5f0e1b",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "0, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi",
+          "afterExcerpt": "1, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.09,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-F3D81040A1B0",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+        "publishDate": "2026-09-11T10:01:56+01:00",
+        "updatedAt": "2026-10-12T03:49:55+01:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Explore all LUBA 4 AWD models, their full specs, launch dates, and who each model is best suited for. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "4011a6e35f4720ac05ac2fd4fd1b26fb538babf286b62f2fafd8390771841288",
+          "afterHash": "bbd38be9f807f8825149c56a73a0e7a3fe5c1c18ce6b7d547245504d8f51f719",
+          "changedFields": [
+            "offer"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "related",
+          "newProductProbability": 1,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_launch",
+          "themeConfidence": 1,
+          "monitoringPriority": 3.97,
+          "priorityConfidence": 0.98
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-DB60F9B7ED78",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+        "publishDate": "2026-10-12T09:43:34+02:00",
+        "updatedAt": "2026-10-12T09:43:34+02:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.86,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-CEA994D4CA25",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "LUBA 4 AWD dévoilé : tout ce qu&apos;il faut savoir",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
+        "publishDate": "2026-09-11T11:45:48+02:00",
+        "updatedAt": "2026-10-12T04:48:46+02:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Découvrez tous les modèles LUBA 4 AWD, leurs caractéristiques complètes, dates de lancement, et à qui chaque modèle s'adresse. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "beforeHash": "",
+          "afterHash": "42643c080b6c99458df8085f229507d2e442e90ea35af0b9317f69a5750f948f",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "related",
+          "newProductProbability": 1,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_launch",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 3.95,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-1FC9123C43E7",
         "sourceId": "mammotion-us-blog",
@@ -762,6 +1522,243 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-FEDDE9BADF76",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize New Grass: Seed vs. Sod",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
+        "publishDate": "2026-10-12T01:29:38-07:00",
+        "updatedAt": "2026-10-12T01:29:40-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn when to fertilize new grass seed and sod, when to apply starter fertilizer, and how to choose the right fertilizer for healthy lawn establishment. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "75f085c221d1c9e5f43873fa1fdb3b494510cb398fd1d83a6a8d3e870fb233fd",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.08,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-61B17656F9B1",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+        "publishDate": "2026-10-11T23:32:46-07:00",
+        "updatedAt": "2026-10-11T23:32:47-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.06,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A0D2BA5CAF20",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+        "publishDate": "2026-10-10T03:22:09-07:00",
+        "updatedAt": "2026-10-11T23:38:02-07:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
+          "afterHash": "5ab1f60a78b02b57773afee91165f480ed9b23627cb829ad8cf23a6feb5f0e1b",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "0, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi",
+          "afterExcerpt": "1, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.09,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-F3D81040A1B0",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+        "publishDate": "2026-09-11T10:01:56+01:00",
+        "updatedAt": "2026-10-12T03:49:55+01:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Explore all LUBA 4 AWD models, their full specs, launch dates, and who each model is best suited for. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "4011a6e35f4720ac05ac2fd4fd1b26fb538babf286b62f2fafd8390771841288",
+          "afterHash": "bbd38be9f807f8825149c56a73a0e7a3fe5c1c18ce6b7d547245504d8f51f719",
+          "changedFields": [
+            "offer"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "related",
+          "newProductProbability": 1,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_launch",
+          "themeConfidence": 1,
+          "monitoringPriority": 3.97,
+          "priorityConfidence": 0.98
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-DB60F9B7ED78",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+        "publishDate": "2026-10-12T09:43:34+02:00",
+        "updatedAt": "2026-10-12T09:43:34+02:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.86,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-CEA994D4CA25",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "LUBA 4 AWD dévoilé : tout ce qu&apos;il faut savoir",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
+        "publishDate": "2026-09-11T11:45:48+02:00",
+        "updatedAt": "2026-10-12T04:48:46+02:00",
+        "discoveredAt": "2026-10-12T09:26:49.072Z",
+        "summary": "Découvrez tous les modèles LUBA 4 AWD, leurs caractéristiques complètes, dates de lancement, et à qui chaque modèle s'adresse. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "beforeHash": "",
+          "afterHash": "42643c080b6c99458df8085f229507d2e442e90ea35af0b9317f69a5750f948f",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "related",
+          "newProductProbability": 1,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_launch",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 3.95,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-1FC9123C43E7",
         "sourceId": "mammotion-us-blog",

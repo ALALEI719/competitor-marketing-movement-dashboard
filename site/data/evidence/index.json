@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-05T09:15:38.256Z",
+  "generatedAt": "2026-10-12T09:28:02.881Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -27,6 +27,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-28T08-48-36-974Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-21T09-26-43-214Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-10-12T09:27:52.869Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-10-12T09:26:29.828Z",
+          "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-10-12T09-27-52-869Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-28T08-48-36-974Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -46,6 +56,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-09-21T09-26-53-285Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-10-12T09:27:34.526Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-10-12T09:26:34.345Z",
+          "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-10-12T09-27-34-526Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-09-21T09-26-53-285Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -65,6 +85,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-09-21T09-27-24-021Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-10-12T09:27:18.822Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-10-12T09:26:39.555Z",
+          "title": "Smart Yards Start Here | Mammotion UK",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-10-12T09-27-18-822Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-09-21T09-27-24-021Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -221,6 +251,82 @@
         }
       ],
       "entityId": "MAM-UNKNOWN-FF99DEB6"
+    },
+    "a7a6286e24248695": {
+      "url": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-12T09:27:01.230Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-12T09:26:42.710Z",
+          "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-a7a6286e24248695-2026-10-12T09-27-01-230Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "4cbefcdac7a804b0": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-12T09:27:10.948Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-12T09:26:42.710Z",
+          "title": "Robot tondeuse 4 roues motrices : lequel respecte la pelouse ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-4cbefcdac7a804b0-2026-10-12T09-27-10-948Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "4bc16391a744663b": {
+      "url": "https://de.mammotion.com/collections/mahroboter-ohne-begrenzungskabel-copy",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-12T09:27:25.587Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-12T09:26:34.345Z",
+          "title": "Mähroboter ohne Begrenzungskabel – Smarte & kabellose Rasenroboter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-4bc16391a744663b-2026-10-12T09-27-25-587Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "809e9546cc216da7": {
+      "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-12T09:27:44.810Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-12T09:26:29.828Z",
+          "title": "When to Fertilize Lawn: Seasonal & Regional Guide",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-809e9546cc216da7-2026-10-12T09-27-44-810Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
     }
   }
 }
