@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 14,
-    "pendingChannelChanges": 9
+    "blogChanges": 16,
+    "pendingChannelChanges": 11
   },
   "sites": [
     {
@@ -888,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-12T09:48:29.996Z",
+    "checkedAt": "2026-10-13T09:45:59.157Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:48:29.996Z",
+        "checkedAt": "2026-10-13T09:45:59.157Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-12T01:29:38-07:00",
+        "latestPublishedAt": "2026-10-12T23:37:31-07:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 13,
+          "captured": 16,
           "total": 30,
           "backfilled": 2
         }
@@ -924,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:48:29.996Z",
+        "checkedAt": "2026-10-13T09:45:59.157Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 10,
+          "captured": 12,
           "total": 30,
           "backfilled": 2
         }
@@ -948,7 +948,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:48:29.996Z",
+        "checkedAt": "2026-10-13T09:45:59.157Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -958,7 +958,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 10,
+          "captured": 12,
           "total": 30,
           "backfilled": 2
         }
@@ -972,23 +972,99 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-12T09:48:29.996Z",
+        "checkedAt": "2026-10-13T09:45:59.157Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-12T09:43:34+02:00",
+        "latestPublishedAt": "2026-10-13T05:50:29+02:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 14,
+          "captured": 17,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-3AF591415C52",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+        "publishDate": "2026-10-12T23:37:31-07:00",
+        "updatedAt": "2026-10-12T23:51:28-07:00",
+        "discoveredAt": "2026-10-13T09:45:59.157Z",
+        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.14,
+          "priorityConfidence": 0.79
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-C5C8E2C56102",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+        "publishDate": "2026-10-13T05:50:29+02:00",
+        "updatedAt": "2026-10-13T05:50:30+02:00",
+        "discoveredAt": "2026-10-13T09:45:59.157Z",
+        "summary": "Robot tondeuse tout-terrain : chenilles ou 4 roues motrices ? Pente, sol humide, pelouse, bordures : notre comparatif pour bien choisir selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.97,
+          "priorityConfidence": 0.88
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-FEDDE9BADF76",
         "sourceId": "mammotion-us-blog",
@@ -1522,6 +1598,82 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-3AF591415C52",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+        "publishDate": "2026-10-12T23:37:31-07:00",
+        "updatedAt": "2026-10-12T23:51:28-07:00",
+        "discoveredAt": "2026-10-13T09:45:59.157Z",
+        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.14,
+          "priorityConfidence": 0.79
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-C5C8E2C56102",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+        "publishDate": "2026-10-13T05:50:29+02:00",
+        "updatedAt": "2026-10-13T05:50:30+02:00",
+        "discoveredAt": "2026-10-13T09:45:59.157Z",
+        "summary": "Robot tondeuse tout-terrain : chenilles ou 4 roues motrices ? Pente, sol humide, pelouse, bordures : notre comparatif pour bien choisir selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.97,
+          "priorityConfidence": 0.88
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-FEDDE9BADF76",
         "sourceId": "mammotion-us-blog",
