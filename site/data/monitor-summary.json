@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 16,
-    "pendingChannelChanges": 11
+    "blogChanges": 18,
+    "pendingChannelChanges": 13
   },
   "sites": [
     {
@@ -888,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-13T09:45:59.157Z",
+    "checkedAt": "2026-10-14T08:03:13.501Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-13T09:45:59.157Z",
+        "checkedAt": "2026-10-14T08:03:13.501Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-12T23:37:31-07:00",
+        "latestPublishedAt": "2026-10-14T00:37:32-07:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 16,
+          "captured": 19,
           "total": 30,
           "backfilled": 2
         }
@@ -924,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-13T09:45:59.157Z",
+        "checkedAt": "2026-10-14T08:03:13.501Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 12,
+          "captured": 14,
           "total": 30,
           "backfilled": 2
         }
@@ -948,7 +948,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-13T09:45:59.157Z",
+        "checkedAt": "2026-10-14T08:03:13.501Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -958,7 +958,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 12,
+          "captured": 14,
           "total": 30,
           "backfilled": 2
         }
@@ -972,23 +972,99 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-13T09:45:59.157Z",
+        "checkedAt": "2026-10-14T08:03:13.501Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-13T05:50:29+02:00",
+        "latestPublishedAt": "2026-10-14T05:34:04+02:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 17,
+          "captured": 20,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-EF444673C908",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-14T00:37:33-07:00",
+        "discoveredAt": "2026-10-14T08:03:13.501Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.09,
+          "priorityConfidence": 0.79
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-22AE8FDF074A",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+        "publishDate": "2026-10-14T05:34:04+02:00",
+        "updatedAt": "2026-10-14T05:34:04+02:00",
+        "discoveredAt": "2026-10-14T08:03:13.501Z",
+        "summary": "Robot tondeuse ou tondeuse thermique ? Temps, coût sur 5 ans, entretien, bruit, pentes : notre comparatif pour choisir la solution adaptée à son jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.84,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-3AF591415C52",
         "sourceId": "mammotion-us-blog",
@@ -1598,6 +1674,82 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-EF444673C908",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-14T00:37:33-07:00",
+        "discoveredAt": "2026-10-14T08:03:13.501Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.09,
+          "priorityConfidence": 0.79
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-22AE8FDF074A",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+        "publishDate": "2026-10-14T05:34:04+02:00",
+        "updatedAt": "2026-10-14T05:34:04+02:00",
+        "discoveredAt": "2026-10-14T08:03:13.501Z",
+        "summary": "Robot tondeuse ou tondeuse thermique ? Temps, coût sur 5 ans, entretien, bruit, pentes : notre comparatif pour choisir la solution adaptée à son jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.84,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-3AF591415C52",
         "sourceId": "mammotion-us-blog",
