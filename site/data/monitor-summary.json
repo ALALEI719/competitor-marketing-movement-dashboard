@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 18,
-    "pendingChannelChanges": 13
+    "blogChanges": 20,
+    "pendingChannelChanges": 15
   },
   "sites": [
     {
@@ -888,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-14T08:03:13.501Z",
+    "checkedAt": "2026-10-15T07:44:49.872Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-14T08:03:13.501Z",
+        "checkedAt": "2026-10-15T07:44:49.872Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-14T00:37:32-07:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 0
+          "added": 0,
+          "updated": 1
         },
         "snapshotCoverage": {
-          "captured": 19,
+          "captured": 21,
           "total": 30,
           "backfilled": 2
         }
@@ -924,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-14T08:03:13.501Z",
+        "checkedAt": "2026-10-15T07:44:49.872Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 14,
+          "captured": 16,
           "total": 30,
           "backfilled": 2
         }
@@ -948,7 +948,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-14T08:03:13.501Z",
+        "checkedAt": "2026-10-15T07:44:49.872Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -958,7 +958,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 14,
+          "captured": 16,
           "total": 30,
           "backfilled": 2
         }
@@ -972,23 +972,107 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-14T08:03:13.501Z",
+        "checkedAt": "2026-10-15T07:44:49.872Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-14T05:34:04+02:00",
+        "latestPublishedAt": "2026-10-14T10:19:22+02:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 20,
+          "captured": 23,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-9DBCE3BBB2B8",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+        "publishDate": "2026-10-11T23:32:46-07:00",
+        "updatedAt": "2026-10-14T18:56:55-07:00",
+        "discoveredAt": "2026-10-15T07:44:49.872Z",
+        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
+          "afterHash": "ec99c350c655e63d07bbfa8c3a529bc39c4069501c86893de070ebee144681e6",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "Lawn Care How Often to Fertilize Your Lawn: A Practical Guide. Oct 11, 2026 . By Keira Jones. . . . . . . How often you should fertilize your lawn depends on your grass type, soil conditions, local climate, and maintenance goals. Some established lawns can stay healthy with one or two applications p",
+          "afterExcerpt": ". Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Become a Member & Unlock Exclusive Perks. Join Now Log In . . . . Reward Program . . . Cart. 0 . . . . Have questi"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.17,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-0A69681FFF5D",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+        "publishDate": "2026-10-14T10:19:22+02:00",
+        "updatedAt": "2026-10-14T10:19:39+02:00",
+        "discoveredAt": "2026-10-15T07:44:49.872Z",
+        "summary": "Robot tondeuse ou tondeuse électrique sans fil ? Autonomie, temps de tonte, qualité de la pelouse, prix : notre comparatif pour choisir selon son jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.84,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-EF444673C908",
         "sourceId": "mammotion-us-blog",
@@ -1674,6 +1758,90 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-9DBCE3BBB2B8",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+        "publishDate": "2026-10-11T23:32:46-07:00",
+        "updatedAt": "2026-10-14T18:56:55-07:00",
+        "discoveredAt": "2026-10-15T07:44:49.872Z",
+        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
+          "afterHash": "ec99c350c655e63d07bbfa8c3a529bc39c4069501c86893de070ebee144681e6",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "Lawn Care How Often to Fertilize Your Lawn: A Practical Guide. Oct 11, 2026 . By Keira Jones. . . . . . . How often you should fertilize your lawn depends on your grass type, soil conditions, local climate, and maintenance goals. Some established lawns can stay healthy with one or two applications p",
+          "afterExcerpt": ". Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Become a Member & Unlock Exclusive Perks. Join Now Log In . . . . Reward Program . . . Cart. 0 . . . . Have questi"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.17,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-0A69681FFF5D",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+        "publishDate": "2026-10-14T10:19:22+02:00",
+        "updatedAt": "2026-10-14T10:19:39+02:00",
+        "discoveredAt": "2026-10-15T07:44:49.872Z",
+        "summary": "Robot tondeuse ou tondeuse électrique sans fil ? Autonomie, temps de tonte, qualité de la pelouse, prix : notre comparatif pour choisir selon son jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.84,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-EF444673C908",
         "sourceId": "mammotion-us-blog",
