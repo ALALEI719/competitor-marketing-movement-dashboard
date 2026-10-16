@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 20,
-    "pendingChannelChanges": 15
+    "blogChanges": 21,
+    "pendingChannelChanges": 16
   },
   "sites": [
     {
@@ -888,7 +888,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-15T07:44:49.872Z",
+    "checkedAt": "2026-10-16T07:32:50.782Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,17 +900,17 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-15T07:44:49.872Z",
+        "checkedAt": "2026-10-16T07:32:50.782Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-14T00:37:32-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 1
+          "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 21,
+          "captured": 23,
           "total": 30,
           "backfilled": 2
         }
@@ -924,7 +924,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-15T07:44:49.872Z",
+        "checkedAt": "2026-10-16T07:32:50.782Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +934,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 16,
+          "captured": 18,
           "total": 30,
           "backfilled": 2
         }
@@ -948,7 +948,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-15T07:44:49.872Z",
+        "checkedAt": "2026-10-16T07:32:50.782Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -958,7 +958,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 16,
+          "captured": 18,
           "total": 30,
           "backfilled": 2
         }
@@ -972,23 +972,61 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-15T07:44:49.872Z",
+        "checkedAt": "2026-10-16T07:32:50.782Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-14T10:19:22+02:00",
+        "latestPublishedAt": "2026-10-16T05:03:02+02:00",
         "changeCounts": {
           "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 23,
+          "captured": 26,
           "total": 30,
           "backfilled": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-F8E337006D98",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+        "publishDate": "2026-10-16T05:03:02+02:00",
+        "updatedAt": "2026-10-16T05:03:02+02:00",
+        "discoveredAt": "2026-10-16T07:32:50.782Z",
+        "summary": "Robot tondeuse ou tondeuse autoportée ? Comparatif du robot tondeuse avec le tracteur tondeuse, la tondeuse autoportée rider et la tondeuse autoportée zero-turn. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.83,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-9DBCE3BBB2B8",
         "sourceId": "mammotion-us-blog",
@@ -1758,6 +1796,44 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-F8E337006D98",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+        "publishDate": "2026-10-16T05:03:02+02:00",
+        "updatedAt": "2026-10-16T05:03:02+02:00",
+        "discoveredAt": "2026-10-16T07:32:50.782Z",
+        "summary": "Robot tondeuse ou tondeuse autoportée ? Comparatif du robot tondeuse avec le tracteur tondeuse, la tondeuse autoportée rider et la tondeuse autoportée zero-turn. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.83,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-9DBCE3BBB2B8",
         "sourceId": "mammotion-us-blog",
