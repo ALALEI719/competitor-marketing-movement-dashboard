@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-7DBDD554AC85",
+  "actionId": "ACT-EDM-7DBDD554AC85",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-15T07:30:19.000Z",
+  "subject": "MOVA 德国秋季 EDM：三款 LiDAX 割草机优惠与加 1 欧元购机库",
+  "contentSummary": "MOVA 德国站 2026 年 10 月 15 日促销 EDM 宣称：LiDAX Ultra 1200 为 749 欧元（图示原价 1099 欧元），LiDAX Ultra 1600 AWD 为 1599 欧元（1899 欧元），LiDAX Ultra 1600 为 849 欧元（1499 欧元），均宣传加 1 欧元购对应机库。记录仅描述邮件当日内容，不代表当前官网价格；邮件未注明截止日期，部分素材带 Prime Day Sale 标记。",
+  "bodyParagraphs": [
+    "邮件以‘秋季精选独家价格’为主题，首屏将机器人割草机与扫地机器人等品类并列展示，设有准备选购的按钮。",
+    "割草机器人部分：LiDAX Ultra 1200 图示 749 欧元，原价 1099 欧元，优惠 350 欧元，并标注加 1 欧元购买价值 149 欧元的机库；视觉文案强调免 RTK 设置、自动建图、360° 3D LiDAR、贴边修剪和障碍识别。",
+    "另一张产品图为 LiDAX Ultra 1600 AWD，图示 1599 欧元，原价 1899 欧元，优惠 300 欧元，并标注加 1 欧元购买价值 249 欧元的 Garage Max。另一张为 LiDAX Ultra 1600，图示 849 欧元，原价 1499 欧元，优惠 650 欧元，并标注加 1 欧元购买价值 149 欧元的机库。两者型号不同，不应合并价格。",
+    "邮件还展示 S70 Ultra Roller、E30 Ultra 和 Z60 Ultra Roller 等扫地机器人的折扣及购买按钮。这些内容可用于还原完整邮件，但不计入本项目的割草机器人正式动作。",
+    "结尾包含继续购物按钮，以及三年保修、30 天退货、5 至 7 个工作日配送、全年客户支持和 30 天价格保证等服务卖点。",
+    "本记录中的价格均为邮件当日宣称；活动有效期未知，不代表当前官网报价。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-01.png",
+      "description": "白底 MOVA 品牌标识，副标 Powered by Dreame。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-02.png",
+      "description": "秋叶背景的首屏主视觉，德文标题为秋季精选独家价格；多种家电并列，前景可见两台机器人割草机，附‘现在准备’按钮。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-03.png",
+      "description": "S70 Ultra Roller 扫地机器人图，标示 599 欧元、划线原价 999 欧元和 400 欧元折扣；属非割草机品类。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-04.png",
+      "description": "LiDAX Ultra 1200 机器人割草机在草坪上的产品图，标示 749 欧元、原价 1099 欧元、优惠 350 欧元；加 1 欧元购价值 149 欧元机库，并展示建图、LiDAR、修剪和避障卖点。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-05.png",
+      "description": "LiDAX Ultra 1600 AWD 机器人割草机产品图，标示 1599 欧元、原价 1899 欧元、优惠 300 欧元；加 1 欧元购价值 249 欧元 Garage Max。图上另有 Prime Day Sale 标签。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-06.png",
+      "description": "E30 Ultra 扫地机器人图，标示 279 欧元、原价 349 欧元和 70 欧元折扣；属非割草机品类，并带 Prime Day Sale 标签。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-07.png",
+      "description": "Z60 Ultra Roller Standalone 扫地机器人图，标示 599 欧元、原价 899 欧元和 300 欧元折扣；属非割草机品类，并带 Prime Day Sale 标签。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-08.png",
+      "description": "LiDAX Ultra 1600 机器人割草机产品图，标示 849 欧元、原价 1499 欧元、优惠 650 欧元；加 1 欧元购价值 149 欧元机库，带 Prime Day Sale 标签。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-09.png",
+      "description": "德文‘继续购物’按钮图。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-7DBDD554AC85/image-10.png",
+      "description": "MOVA 购买保障图，列出三年保修、30 天退货、5 至 7 个工作日配送、全年客户支持、30 天价格保证和支付方式。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-09T06:30:32.921Z",
+  "updatedAt": "2026-10-16T06:14:39.439Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-7DBDD554AC85",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-15T11:57:57.792Z",
+      "publishDate": "2026-10-15T07:30:19.000Z",
+      "title": "MOVA 德国秋季 EDM：三款 LiDAX 割草机优惠与加 1 欧元购机库",
+      "summary": "MOVA 德国站 2026 年 10 月 15 日促销 EDM 宣称：LiDAX Ultra 1200 为 749 欧元（图示原价 1099 欧元），LiDAX Ultra 1600 AWD 为 1599 欧元（1899 欧元），LiDAX Ultra 1600 为 849 欧元（1499 欧元），均宣传加 1 欧元购对应机库。记录仅描述邮件当日内容，不代表当前官网价格；邮件未注明截止日期，部分素材带 Prime Day Sale 标记。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-16T06:14:39.439Z",
+      "detailRef": "./data/edm-details/EDM-7DBDD554AC85.json"
+    },
     {
       "actionId": "ACT-EDM-FF18822D96A1",
       "entityId": "",
