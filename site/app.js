@@ -95,6 +95,16 @@ function renderChannelMonitoring(monitoring){
   const records=monitoring?.recentRecords||monitoring?.pendingRecords||[];
   document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前没有新增或更新的 Blog 内容；后续任何变化都会直接显示在这里。</div>';
 }
+function renderPrMonitoring(monitoring){
+  const sources=monitoring?.sources||[];
+  const healthy=sources.filter(item=>item.status==='ok').length;
+  const prThemeLabels={product_launch:'新品发布',review:'评测',promotion:'促销',event:'活动',award:'获奖',partnership:'合作',other:'待归类'};
+  document.querySelector('#pr-source-status').textContent=sources.length?`${healthy}/${sources.length} 正常`:'来源待核验';
+  document.querySelector('#pr-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
+  document.querySelector('#pr-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.outlet||item.source.brand)} · ${escapeHtml(item.source.country)} · PR</strong><span>${item.status==='ok'?item.discoveredUrlCount?`${item.discoveredUrlCount} 个文章 URL · ${item.itemCount} 条相关内容`:`${item.itemCount} 条相关内容基线`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">媒体试点来源待核验；Newsroom 入口待确定。</div>';
+  const records=monitoring?.recentRecords||[];
+  document.querySelector('#pr-record-list').innerHTML=records.length?records.slice(0,12).map(item=>`<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.outlet||item.brand)} · ${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'内容更新':item.changeType==='new_coverage'?'新媒体报道':'新新闻稿'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em><em class="channel-tag">主题初筛：${escapeHtml((item.themeAssessment?.tags||['other']).map(tag=>prThemeLabels[tag]||'待归类').join('／'))}</em><em class="channel-tag">页面证据 ${escapeHtml(item.evidence?.contentHash?.slice(0,12)||'待补')}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-pr-record.yml" target="_blank" rel="noreferrer">人工复核入口</a></small></article>`).join(''):'<div class="timeline-empty">暂无 PR 变化；来源核验后首次运行只建基线。</div>';
+}
 function renderReviewQueue(candidates){
   const pending=candidates.filter(item=>item.reviewStatus==='pending').length;
   document.querySelector('#review-pending-count').textContent=`${pending} 个待复核`;
@@ -192,6 +202,7 @@ async function loadMonitorSummary(){
     const [summary,evidence]=await Promise.all([fetchDashboardJson('./data/monitor-summary.json'),loadEvidenceIndex()]);
     evidenceIndex=evidence;
     renderChannelMonitoring(summary.channelMonitoring);
+    renderPrMonitoring(summary.prMonitoring);
     document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
     document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
     document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
