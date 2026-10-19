@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-16T06:14:39.439Z",
+  "updatedAt": "2026-10-19T08:15:58.120Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-F0D6FB102756",
+      "entityId": "",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "email_campaign",
+      "stage": "teaser",
+      "discoveredAt": "2026-10-19T06:36:32.731Z",
+      "publishDate": "2026-10-19T02:56:29.000Z",
+      "title": "Dreame 德国站 Black Friday 预热：割草机器人亮相跨品类主视觉",
+      "summary": "Dreame 德国站在 10 月 19 日 EDM 中预热 Black Friday，割草机器人出现在多品类主视觉。邮件称全站最高优惠 1,060 欧元，未注明割草机器人型号或专属优惠。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-19T08:15:58.120Z",
+      "detailRef": "./data/edm-details/EDM-F0D6FB102756.json"
+    },
     {
       "actionId": "ACT-EDM-7DBDD554AC85",
       "entityId": "",

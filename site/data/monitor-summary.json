@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-12T09:26:48.888Z",
+  "generatedAt": "2026-10-19T07:56:13.949Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [],
@@ -8,14 +8,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1123,
-    "pendingChanges": 8,
+    "pages": 1138,
+    "pendingChanges": 29,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 23,
-    "pendingChannelChanges": 18
+    "blogChanges": 27,
+    "pendingChannelChanges": 22
   },
   "sites": [
     {
@@ -28,28 +28,28 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-12T09:26:29.828Z",
+      "checkedAt": "2026-10-19T07:55:55.367Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 331,
+      "pageCount": 339,
       "breakdown": {
-        "page": 61,
-        "blog": 200,
+        "page": 64,
+        "blog": 205,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
-        "added": 1,
+        "added": 8,
         "removed": 0,
-        "lastmodChanged": 73
+        "lastmodChanged": 69
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 73,
+        "lastmodPagesNeedingContentCheck": 69,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 2,
+        "inspectedPages": 9,
         "meaningfulChanges": 1,
         "errors": []
       }
@@ -64,12 +64,12 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-12T09:26:34.345Z",
+      "checkedAt": "2026-10-19T07:56:02.474Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 287,
+      "pageCount": 288,
       "breakdown": {
-        "page": 36,
+        "page": 37,
         "blog": 152,
         "collection": 15,
         "product": 84
@@ -77,11 +77,11 @@
       "changeCounts": {
         "added": 1,
         "removed": 0,
-        "lastmodChanged": 99
+        "lastmodChanged": 98
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 99,
+        "lastmodPagesNeedingContentCheck": 98,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -100,7 +100,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-12T09:26:39.555Z",
+      "checkedAt": "2026-10-19T07:56:05.306Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -113,11 +113,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 81
+        "lastmodChanged": 78
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 81,
+        "lastmodPagesNeedingContentCheck": 78,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -136,34 +136,647 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-12T09:26:42.710Z",
+      "checkedAt": "2026-10-19T07:56:08.127Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 293,
+      "pageCount": 299,
       "breakdown": {
-        "page": 37,
-        "blog": 151,
-        "collection": 19,
+        "page": 38,
+        "blog": 157,
+        "collection": 18,
         "product": 86
       },
       "changeCounts": {
-        "added": 2,
-        "removed": 0,
-        "lastmodChanged": 103
+        "added": 7,
+        "removed": 1,
+        "lastmodChanged": 100
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 103,
+        "lastmodPagesNeedingContentCheck": 100,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
+        "inspectedPages": 8,
         "meaningfulChanges": 1,
         "errors": []
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-8B9A815C390B"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-042BFEA74467"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-F1497EA392DB"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-69F2E3D36953"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-B9035556C54E"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-174BE33F547C"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/pages/guide-achat-robots-tondeuses",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-2282F8CB7549"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/robots-tondeuses-test12589",
+      "pageType": "collection",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-694B19122152"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "68f3e7215e0042dae525657176948ba7a76da5e4818cd2617a6f876633810b00",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.9
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.82,
+            "probabilities": {
+              "product_launch": 0.03,
+              "promotion": 0.85,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.11,
+              "routine_content_refresh": 0,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.56,
+            "probabilities": {
+              "not_launch_related": 0.63,
+              "weak_signal": 0.02,
+              "teaser": 0,
+              "announcement": 0.05,
+              "preorder": 0,
+              "on_sale": 0.3
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.02,
+            "confidence": 0.95,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.02,
+              "3": 0.94,
+              "4": 0.04
+            }
+          }
+        },
+        "latencyMs": 107,
+        "usage": {
+          "input_tokens": 6354,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-19T07:56:10.550Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-82D468B610E2"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-10-19T07:56:05.306Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "ac7c4841fefd4cd1c8282cdcb27c10078673c80e4f0f39268a17f23354150eba",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.83
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "messaging_or_cta",
+            "confidence": 0.76,
+            "probabilities": {
+              "product_launch": 0.11,
+              "promotion": 0.06,
+              "price_change": 0.01,
+              "availability_change": 0,
+              "messaging_or_cta": 0.79,
+              "routine_content_refresh": 0.02,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.63,
+            "probabilities": {
+              "not_launch_related": 0.69,
+              "weak_signal": 0.04,
+              "teaser": 0,
+              "announcement": 0.11,
+              "preorder": 0,
+              "on_sale": 0.16
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.96,
+            "confidence": 0.91,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.07,
+              "3": 0.89,
+              "4": 0.04
+            }
+          }
+        },
+        "latencyMs": 178,
+        "usage": {
+          "input_tokens": 6012,
+          "output_tokens": 187
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-19T07:56:07.974Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-E499EF2AFC83"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-19T07:56:02.474Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/pages/maehroboter-kaufberatung",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-C023BAFB4FA0"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-19T07:56:02.474Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "2378568220e19020b4415f80e03723a78477554a3ec2e4d54e58639e6df0c6b7",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "product_launch",
+            "confidence": 0.73,
+            "probabilities": {
+              "product_launch": 0.77,
+              "promotion": 0.19,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.04,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "on_sale",
+            "confidence": 0.39,
+            "probabilities": {
+              "not_launch_related": 0.09,
+              "weak_signal": 0.01,
+              "teaser": 0.02,
+              "announcement": 0.39,
+              "preorder": 0,
+              "on_sale": 0.49
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.21,
+            "confidence": 0.81,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.01,
+              "3": 0.77,
+              "4": 0.22
+            }
+          }
+        },
+        "latencyMs": 151,
+        "usage": {
+          "input_tokens": 6800,
+          "output_tokens": 183
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-19T07:56:04.752Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-1B492E7CEC77"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-49CDDAB88DF7"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-AF7B8A73C699"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-217679746C4B"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-3244AAFB184C"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-9E55E82BEDBF"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/google-callback",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-27DA591177E8"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-38AD508AAE7C"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide-1",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-208B2B06B954"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "3abc97f7bba069438de3214a345cf004a3f1e96977df73ba79dc7e5b446cd353",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "product_launch",
+            "confidence": 0.46,
+            "probabilities": {
+              "product_launch": 0.54,
+              "promotion": 0.11,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.33,
+              "routine_content_refresh": 0.01,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.3,
+            "probabilities": {
+              "not_launch_related": 0.42,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0.31,
+              "preorder": 0,
+              "on_sale": 0.24
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.05,
+            "confidence": 0.9,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.03,
+              "3": 0.88,
+              "4": 0.09
+            }
+          }
+        },
+        "latencyMs": 374,
+        "usage": {
+          "input_tokens": 5611,
+          "output_tokens": 184
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-19T07:55:58.308Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-3DEF2F5088CB"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -888,7 +1501,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-18T07:26:35.663Z",
+    "checkedAt": "2026-10-19T08:06:45.189Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -900,7 +1513,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-18T07:26:35.663Z",
+        "checkedAt": "2026-10-19T08:06:45.189Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -910,9 +1523,9 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 28,
+          "captured": 30,
           "total": 30,
-          "backfilled": 2
+          "backfilled": 0
         }
       },
       {
@@ -924,7 +1537,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-18T07:26:35.663Z",
+        "checkedAt": "2026-10-19T08:06:45.189Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -934,7 +1547,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 22,
+          "captured": 26,
           "total": 30,
           "backfilled": 2
         }
@@ -948,7 +1561,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-18T07:26:35.663Z",
+        "checkedAt": "2026-10-19T08:06:45.189Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -958,7 +1571,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 22,
+          "captured": 26,
           "total": 30,
           "backfilled": 2
         }
@@ -972,11 +1585,11 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-18T07:26:35.663Z",
+        "checkedAt": "2026-10-19T08:06:45.189Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-16T10:19:14+02:00",
+        "latestPublishedAt": "2026-10-19T09:25:11+02:00",
         "changeCounts": {
           "added": 0,
           "updated": 0
@@ -984,11 +1597,180 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 1
+          "backfilled": 0
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-DEE502682C4C",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+        "publishDate": "2026-10-16T03:29:52-07:00",
+        "updatedAt": "2026-10-18T19:30:14-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Learn how to get rid of weeds naturally with practical methods, homemade weed killer facts, and prevention tips. Find out what works and what to avoid. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
+          "afterHash": "4777b7604d2c14f4498b10d989c63a2fb28bcc80ba1798aac3bcca4a678c07aa",
+          "changedFields": [
+            "cta"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.35,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-F4AE1A8BA8F9",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-18T19:32:49-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
+          "afterHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
+          "changedFields": [
+            "headings",
+            "cta"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.06,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-6A9F9851EAE6",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+        "publishDate": "2026-10-12T23:37:31-07:00",
+        "updatedAt": "2026-10-18T19:33:47-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
+          "afterHash": "fa8e67a16f7276da04baffd36d529a4fd031641f9c4b9d5221d3801d0b13c59b",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . Lawn Care Can You Over Fertilize Your Lawn? Signs and How to Fix It. Oct 12, 2026 . By Keira Jones. . . . . . . Applying too much fertilizer can cause brown or yellow patches, damage grass roots, and, in severe",
+          "afterExcerpt": ". Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . . . . . . . . . . . . . . . . Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Beco"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.21,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2549192A5BB9",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-19T09:25:11+02:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.82,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-560390F8D2CE",
         "sourceId": "mammotion-us-blog",
@@ -1872,6 +2654,175 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-DEE502682C4C",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+        "publishDate": "2026-10-16T03:29:52-07:00",
+        "updatedAt": "2026-10-18T19:30:14-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Learn how to get rid of weeds naturally with practical methods, homemade weed killer facts, and prevention tips. Find out what works and what to avoid. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
+          "afterHash": "4777b7604d2c14f4498b10d989c63a2fb28bcc80ba1798aac3bcca4a678c07aa",
+          "changedFields": [
+            "cta"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.35,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-F4AE1A8BA8F9",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-18T19:32:49-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
+          "afterHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
+          "changedFields": [
+            "headings",
+            "cta"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.06,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-6A9F9851EAE6",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+        "publishDate": "2026-10-12T23:37:31-07:00",
+        "updatedAt": "2026-10-18T19:33:47-07:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
+          "afterHash": "fa8e67a16f7276da04baffd36d529a4fd031641f9c4b9d5221d3801d0b13c59b",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . Lawn Care Can You Over Fertilize Your Lawn? Signs and How to Fix It. Oct 12, 2026 . By Keira Jones. . . . . . . Applying too much fertilizer can cause brown or yellow patches, damage grass roots, and, in severe",
+          "afterExcerpt": ". Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . . . . . . . . . . . . . . . . Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Beco"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.21,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2549192A5BB9",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-19T09:25:11+02:00",
+        "discoveredAt": "2026-10-19T07:56:14.082Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.82,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-560390F8D2CE",
         "sourceId": "mammotion-us-blog",

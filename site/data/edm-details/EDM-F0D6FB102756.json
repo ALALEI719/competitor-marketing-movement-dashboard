@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-F0D6FB102756",
+  "actionId": "ACT-EDM-F0D6FB102756",
+  "brand": "Dreame",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-19T02:56:29.000Z",
+  "subject": "Dreame 德国站 Black Friday 预热：割草机器人亮相跨品类主视觉",
+  "contentSummary": "Dreame 德国站在 10 月 19 日邮件中预热 Black Friday，割草机器人出现在多品类主视觉。邮件预告 10 月 27 日至 11 月 30 日的活动，并称全站最高优惠 1,060 欧元；未给出割草机器人型号、专属价格或折扣，不能把全站优惠额归因于该品类。",
+  "bodyParagraphs": [
+    "主视觉将割草机器人与扫地机及其他清洁家电共同展示。邮件称 Black Friday 活动最高优惠 1,060 欧元、活动期为 10 月 27 日至 11 月 30 日，并列出 10 月 19 日至 26 日提前权益阶段。这些都是邮件当日宣称，未单列割草机器人优惠。",
+    "邮件另介绍抽奖转盘，宣称奖品价值最高 999 欧元；没有明确割草机器人奖项。",
+    "新品区主要展示 Aqua20 Pro Ultra Roller X complete 和 X60 Pro Ultra Matrix 两款室内清洁机器人及其价格。这部分保留为邮件原貌背景，不计为割草机器人产品动作。",
+    "可确认的割草机器人动作是出现在 Dreame 德国站 Black Friday 跨品类预热主视觉；邮件未注明该产品型号、单品价格、专属折扣或单独活动期限。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-F0D6FB102756/image-01.jpg",
+      "description": "Black Friday 主视觉展示多种产品，左下角可见割草机器人；画面宣称全站最高优惠 1,060 欧元及活动日期，但未注明割草机器人型号或专属优惠。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-F0D6FB102756/image-02.jpg",
+      "description": "转盘抽奖画面称奖品价值最高 999 欧元，展示优惠券和产品奖项，未明确割草机器人奖项。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-F0D6FB102756/image-03.png",
+      "description": "Aqua20 Pro Ultra Roller X complete 室内清洁机器人新品画面，属于跨品类背景。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-F0D6FB102756/image-04.jpg",
+      "description": "X60 Pro Ultra Matrix 室内清洁机器人新品和服务图标画面，属于跨品类背景。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-F0D6FB102756/image-10.png",
+      "description": "页脚 Pinterest 社交媒体图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

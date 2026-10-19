@@ -21,6 +21,17 @@
       "subject": "MOVA 德国秋季 EDM：三款 LiDAX 割草机优惠与加 1 欧元购机库",
       "summary": "MOVA 德国站 2026 年 10 月 15 日促销 EDM 宣称：LiDAX Ultra 1200 为 749 欧元（图示原价 1099 欧元），LiDAX Ultra 1600 AWD 为 1599 欧元（1899 欧元），LiDAX Ultra 1600 为 849 欧元（1499 欧元），均宣传加 1 欧元购对应机库。记录仅描述邮件当日内容，不代表当前官网价格；邮件未注明截止日期，部分素材带 Prime Day Sale 标记。",
       "detailRef": "./data/edm-details/EDM-7DBDD554AC85.json"
+    },
+    {
+      "actionId": "ACT-EDM-F0D6FB102756",
+      "recordId": "EDM-F0D6FB102756",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-19T02:56:29.000Z",
+      "subject": "Dreame 德国站 Black Friday 预热：割草机器人亮相跨品类主视觉",
+      "summary": "Dreame 德国站在 10 月 19 日 EDM 中预热 Black Friday，割草机器人出现在多品类主视觉。邮件称全站最高优惠 1,060 欧元，未注明割草机器人型号或专属优惠。",
+      "detailRef": "./data/edm-details/EDM-F0D6FB102756.json"
     }
   ]
 }

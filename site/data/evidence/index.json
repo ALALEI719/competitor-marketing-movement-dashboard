@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-12T09:28:02.881Z",
+  "generatedAt": "2026-10-19T07:57:53.980Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -210,6 +210,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-3a3d5a9ffd48971a-2026-09-28T08-48-59-808Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-10-19T07:57:01.120Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robots tondeuses – LUBA & YUKA | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-3a3d5a9ffd48971a-2026-10-19T07-57-01-120Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-fr-3a3d5a9ffd48971a-2026-09-28T08-48-59-808Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -322,6 +332,310 @@
           "title": "When to Fertilize Lawn: Seasonal & Regional Guide",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-809e9546cc216da7-2026-10-12T09-27-44-810Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6c93ad8644a2b4c0": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:24.810Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robot tondeuse tout terrain : chenilles ou 4x4 (AWD) ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-6c93ad8644a2b4c0-2026-10-19T07-56-24-810Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "95284e88c34737ee": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:32.269Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-95284e88c34737ee-2026-10-19T07-56-32-269Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "a6a7ff6fb527c298": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:36.641Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-a6a7ff6fb527c298-2026-10-19T07-56-36-641Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "cb20f55f7d2639ea": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:41.185Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robot tondeuse ou tondeuse thermique : lequel choisir ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-cb20f55f7d2639ea-2026-10-19T07-56-41-185Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b23f6c6a83b06288": {
+      "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:46.167Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Robot tondeuse pour terrain difficile, accidenté ou bosselé",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-b23f6c6a83b06288-2026-10-19T07-56-46-167Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c908371c6f2038e0": {
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:51.829Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Tondeuse débroussailleuse et robot tondeuse : faut-il vraiment choisir",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-c908371c6f2038e0-2026-10-19T07-56-51-829Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "8b85078c061af5c0": {
+      "url": "https://fr.mammotion.com/pages/guide-achat-robots-tondeuses",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:56:57.240Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:08.127Z",
+          "title": "Meilleur robot tondeuse : comment choisir | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-8b85078c061af5c0-2026-10-19T07-56-57-240Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b81730c2f8e7399a": {
+      "url": "https://de.mammotion.com/pages/maehroboter-kaufberatung",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:06.809Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:56:02.474Z",
+          "title": "Mähroboter Kaufberatung: Den passenden Modell finden | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-b81730c2f8e7399a-2026-10-19T07-57-06-809Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "cf821307d5e409c0": {
+      "url": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:11.390Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "Best Weed Killer for Lawns: 7 Picks for Different Weeds",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-cf821307d5e409c0-2026-10-19T07-57-11-390Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "f57542422a9a2093": {
+      "url": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:17.145Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "How Often Should You Fertilize Your Lawn?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-f57542422a9a2093-2026-10-19T07-57-17-145Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "10394bc8f3158398": {
+      "url": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:22.871Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "How to Get Rid of Weeds Naturally: 8 Methods That Work",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-10394bc8f3158398-2026-10-19T07-57-22-871Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "8253e2cedf4e4039": {
+      "url": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:28.637Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "Can You Over Fertilize Your Lawn? Signs & Fixes",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-8253e2cedf4e4039-2026-10-19T07-57-28-637Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "4f07b1778c6146c5": {
+      "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:34.595Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "When to Fertilize New Grass: Seed vs. Sod",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-4f07b1778c6146c5-2026-10-19T07-57-34-595Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "097188424af0e2f8": {
+      "url": "https://us.mammotion.com/pages/google-callback",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:40.322Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "Social Login",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-097188424af0e2f8-2026-10-19T07-57-40-322Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "74aea503371b7f40": {
+      "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:43.217Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "Robot Lawn Mower Buying Guide | Choose the Right Mower | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-74aea503371b7f40-2026-10-19T07-57-43-217Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c3873137a002d5b5": {
+      "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide-1",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-19T07:57:48.460Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-19T07:55:55.367Z",
+          "title": "Robot Lawn Mower Buying Guide | Choose the Right Mower | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c3873137a002d5b5-2026-10-19T07-57-48-460Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
