@@ -1,9 +1,63 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-13T03:01:02.954Z",
+  "generatedAt": "2026-10-19T09:21:20.412Z",
   "siteId": "ecovacs-us",
-  "totalCount": 4,
+  "totalCount": 7,
   "observations": [
+    {
+      "id": "OBS-63C4E137F5CD5BA1",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-19T09:21:20.412Z",
+      "previousCapturedAt": "2026-10-13T03:01:02.954Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-blade-kit-2sets",
+      "pageType": "bundle",
+      "title": "Official Exclusive - GOAT O1000 LiDAR PRO + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "992",
+          "after": "1543"
+        }
+      }
+    },
+    {
+      "id": "OBS-FFF36818D2400D17",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-19T09:21:20.412Z",
+      "previousCapturedAt": "2026-10-13T03:01:02.954Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-garage-blade-kit",
+      "pageType": "bundle",
+      "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower + Garage + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "1060",
+          "after": "1611"
+        }
+      }
+    },
+    {
+      "id": "OBS-36E97806606040A2",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-19T09:21:20.412Z",
+      "previousCapturedAt": "2026-10-13T03:01:02.954Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+      "pageType": "product",
+      "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "949",
+          "after": "1499.99"
+        }
+      }
+    },
     {
       "id": "OBS-3866D2CFEE9CEEAC",
       "siteId": "ecovacs-us",

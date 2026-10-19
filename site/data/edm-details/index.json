@@ -32,6 +32,17 @@
       "subject": "Dreame 德国站 Black Friday 预热：割草机器人亮相跨品类主视觉",
       "summary": "Dreame 德国站在 10 月 19 日 EDM 中预热 Black Friday，割草机器人出现在多品类主视觉。邮件称全站最高优惠 1,060 欧元，未注明割草机器人型号或专属优惠。",
       "detailRef": "./data/edm-details/EDM-F0D6FB102756.json"
+    },
+    {
+      "actionId": "ACT-EDM-D178991A0A2C",
+      "recordId": "EDM-D178991A0A2C",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-10-19T07:30:32.000Z",
+      "subject": "MOVA 法国：最高减 600 欧元，割草机器人搭配 1 欧元车库",
+      "summary": "10 月 19 日法国 EDM 推广 LiDAX Ultra 及 ViAX 割草机器人；LiDAX Ultra 2000 AWD 邮件宣称 1599 欧元、减 600 欧元，部分机型搭配 1 欧元车库。邮件当日价格，截止日期未注明。",
+      "detailRef": "./data/edm-details/EDM-D178991A0A2C.json"
     }
   ]
 }

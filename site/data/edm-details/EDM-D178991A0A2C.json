@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-D178991A0A2C",
+  "actionId": "ACT-EDM-D178991A0A2C",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "法国",
+  "sentAt": "2026-10-19T07:30:32.000Z",
+  "subject": "MOVA 法国：最高减 600 欧元，割草机器人搭配 1 欧元车库",
+  "contentSummary": "2026 年 10 月 19 日，MOVA 法国 EDM 以多品类优惠为主题，割草机器人重点展示 LiDAX Ultra 2000 AWD 1599 欧元、宣称减 600 欧元，并列出 LiDAX Ultra 1000 AWD、800、1200 与 ViAX 500 优惠，部分搭配 1 欧元车库。邮件同时含扫地机和洗地机促销；本项目动作仅统计割草机器人。价格为邮件当日宣称，活动截止日期未注明。",
+  "bodyParagraphs": [
+    "法语邮件以最高优惠 600 欧元及车库 1 欧元为主视觉。该最高减额对应割草机器人 LiDAX Ultra 2000 AWD；优惠价格均为 2026 年 10 月 19 日邮件当日宣称，邮件未标明活动截止日期。",
+    "割草机器人区列出 LiDAX Ultra 1000 AWD：1299 欧元，划线价 1599 欧元，宣称减 300 欧元；LiDAX Ultra 800：699 欧元，划线价 949 欧元，宣称减 250 欧元。两款分别搭配 MMGM30 和 MMGM10 车库 1 欧元优惠。",
+    "后续割草机器人卡片列出 LiDAX Ultra 2000 AWD：1599 欧元，划线价 2199 欧元，宣称减 600 欧元；ViAX 500：549 欧元，划线价 749 欧元，宣称减 200 欧元；LiDAX Ultra 1200：849 欧元，划线价 1099 欧元，宣称减 250 欧元。卡片均展示对应 1 欧元车库。",
+    "同一邮件还展示 S70、V70、MOBIUS 60、Z70、P70 等扫地机和 M50 洗地机的促销。它们保留为邮件原貌背景，不计为本项目割草机器人动作。邮件末尾另展示三年质保提示、30 天退货、5 至 7 个工作日送达、全年客服及 30 天价格保障；具体适用范围以品牌条款为准。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-01.png",
+      "description": "MOVA 品牌页眉，附 Powered by Dreame 字样。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-02.png",
+      "description": "法语秋季促销主视觉，宣称最高减 600 欧元和车库 1 欧元；画面并列割草机器人、扫地机及洗地机。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-03.png",
+      "description": "LiDAX Ultra 1000 AWD 割草机器人卡片：1299 欧元，对照 1599 欧元，减 300 欧元，并展示 MMGM30 车库加 1 欧元。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-04.png",
+      "description": "LiDAX Ultra 800 割草机器人卡片：699 欧元，对照 949 欧元，减 250 欧元，并展示 MMGM10 车库加 1 欧元。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-05.png",
+      "description": "S70 Ultra Roller 扫地机器人卡片，属于本封邮件的其他品类背景，不计入割草机器人动作。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-06.png",
+      "description": "V70 Ultra Complete 扫地机器人卡片，属于其他品类背景。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-07.png",
+      "description": "LiDAX Ultra 2000 AWD 割草机器人卡片：1599 欧元，对照 2199 欧元，减 600 欧元，并展示 MMGM30 车库加 1 欧元。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-08.png",
+      "description": "ViAX 500 割草机器人卡片：549 欧元，对照 749 欧元，减 200 欧元，并展示 MMGM10 车库加 1 欧元。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-09.png",
+      "description": "MOBIUS 60 扫地机器人卡片，属于其他品类背景。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-10.png",
+      "description": "Z70 Ultra Roller Complete 扫地机器人卡片，属于其他品类背景。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-11.png",
+      "description": "LiDAX Ultra 1200 割草机器人卡片：849 欧元，对照 1099 欧元，减 250 欧元，并展示 MMGM10 车库加 1 欧元。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-12.png",
+      "description": "P70 Pro Ultra 扫地机器人卡片，属于其他品类背景。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-13.png",
+      "description": "M50 洗地机卡片，属于其他品类背景。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-14.png",
+      "description": "查看所有优惠的法语按钮图，无独立产品信息。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-D178991A0A2C/image-15.png",
+      "description": "MOVA 服务与保障页脚，展示三年质保提示、30 天退货、配送、客服与价格保障，附适用范围提示。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
