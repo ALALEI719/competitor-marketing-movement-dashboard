@@ -43,6 +43,17 @@
       "subject": "MOVA 法国：最高减 600 欧元，割草机器人搭配 1 欧元车库",
       "summary": "10 月 19 日法国 EDM 推广 LiDAX Ultra 及 ViAX 割草机器人；LiDAX Ultra 2000 AWD 邮件宣称 1599 欧元、减 600 欧元，部分机型搭配 1 欧元车库。邮件当日价格，截止日期未注明。",
       "detailRef": "./data/edm-details/EDM-D178991A0A2C.json"
+    },
+    {
+      "actionId": "ACT-EDM-D183E8E1E284",
+      "recordId": "EDM-D183E8E1E284",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-19T07:30:19.000Z",
+      "subject": "MOVA 德国：黑五预热与割草机器人优惠",
+      "summary": "10月19日邮件以黑五最高减700欧元做全品类预热，并展示四款割草机器人价格及1欧元车库优惠；商品卡另标Prime Day Sale，活动归属和截止日期未明确。",
+      "detailRef": "./data/edm-details/EDM-D183E8E1E284.json"
     }
   ]
 }

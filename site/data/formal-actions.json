@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-19T14:06:18.895Z",
+  "updatedAt": "2026-10-19T20:05:53.732Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-D183E8E1E284",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "email_campaign",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-19T12:36:38.646Z",
+      "publishDate": "2026-10-19T07:30:19.000Z",
+      "title": "MOVA 德国黑五预热邮件展示四款割草机器人优惠",
+      "summary": "10月19日邮件以黑五最高减700欧元做全品类预热，并展示四款割草机器人价格及1欧元车库优惠；商品卡另标Prime Day Sale，活动归属和截止日期未明确。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-19T20:05:53.732Z",
+      "detailRef": "./data/edm-details/EDM-D183E8E1E284.json"
+    },
     {
       "actionId": "ACT-EDM-D178991A0A2C",
       "entityId": "",

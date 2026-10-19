@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-D183E8E1E284",
+  "actionId": "ACT-EDM-D183E8E1E284",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-19T07:30:19.000Z",
+  "subject": "MOVA 德国：黑五预热与割草机器人优惠",
+  "contentSummary": "MOVA 德国邮件以黑五最高减 700 欧元预热，并列展示多品类商品。割草机器人部分包括 LiDAX Ultra 800、LiDAX Ultra AWD 1000、ViAX 250 与 ViAX 500 四款带价格商品卡，分别标示减 250、300、50、150 欧元及 1 欧元车库赠购。商品卡另标 Prime Day Sale，不能确定这些价格属于黑五活动；活动期限未注明。",
+  "bodyParagraphs": [
+    "邮件于 2026 年 10 月 19 日发出。主视觉以 Black Friday 和最高 700 欧元优惠引导，但该数字是全品类口径，并非割草机器人专属优惠。",
+    "割草机器人商品卡分别展示 LiDAX Ultra 800：699 欧元、划线价 949 欧元；LiDAX Ultra AWD 1000：1299 欧元、划线价 1599 欧元；ViAX 250：479 欧元、划线价 529 欧元；ViAX 500：549 欧元、划线价 699 欧元。上述均为邮件当日宣称，且卡片标注 Prime Day Sale。",
+    "四款割草机器人卡片均展示 1 欧元车库相关优惠，其中 AWD 1000 为 Garage Max。邮件还展示抽奖、双倍积分和配件折扣，但未证明它们专门适用于割草机器人。",
+    "邮件同时陈列扫地机器人、擦窗机和手持吸尘器促销；此处保留完整邮件背景，正式营销动作仅概括割草机器人相关内容。末尾宣传退货、配送、客服与价格保障等服务，三年保修注明部分型号或部件可能不适用。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-01.png",
+      "description": "MOVA Powered by Dreame 品牌页眉。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-02.png",
+      "description": "黑五预热主视觉：宣传大促最高优惠 700 欧元；画面混合展示多个品类，右侧有割草机器人。该最高优惠未指定割草机器人。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-03.png",
+      "description": "抽奖转盘区宣传订阅、转盘与奖品，包含优惠券和其他产品；未给出割草机器人专属奖项。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-04.png",
+      "description": "黑五专属奖品区展示不同消费门槛及礼品，未明确对应割草机器人。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-05.png",
+      "description": "积分活动区宣传双倍 MOVA 积分，属于全品类配套促销。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-06.png",
+      "description": "配件区宣传最高 75% 折扣，未明确割草机器人配件范围。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-07.png",
+      "description": "V70 Ultra Complete 扫地机器人商品卡：949 欧元、原价 1399 欧元；非割草机器人。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-08.png",
+      "description": "LiDAX Ultra 800 割草机器人商品卡：699 欧元、划线价 949 欧元、标示减 250 欧元，另展示 1 欧元车库赠购；卡片标签为 Prime Day Sale。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-09.png",
+      "description": "S70 Ultra Roller 扫地机器人商品卡：599 欧元、划线价 999 欧元；非割草机器人。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-10.png",
+      "description": "Z60 Ultra Roller Complete 扫地机器人商品卡：649 欧元、划线价 1199 欧元；非割草机器人。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-11.png",
+      "description": "T1 Station 擦窗产品商品卡：429 欧元、划线价 499 欧元；非割草机器人。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-12.png",
+      "description": "LiDAX Ultra AWD 1000 割草机器人商品卡：1299 欧元、划线价 1599 欧元、标示减 300 欧元，另展示 1 欧元 Garage Max；卡片标签为 Prime Day Sale。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-13.png",
+      "description": "P50 Pro Ultra 扫地机器人商品卡：429 欧元、划线价 649 欧元；非割草机器人。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-14.png",
+      "description": "MOBIUS 60 扫地机器人商品卡：569 欧元、划线价 1199 欧元；非割草机器人。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-15.png",
+      "description": "ViAX 250 割草机器人商品卡：479 欧元、划线价 529 欧元、标示减 50 欧元，另展示 1 欧元车库赠购；卡片标签为 Prime Day Sale。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-16.png",
+      "description": "G70 Complete 手持吸尘器商品卡：199 欧元、划线价 299 欧元；非割草机器人。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-17.png",
+      "description": "ViAX 500 割草机器人商品卡：549 欧元、划线价 699 欧元、标示减 150 欧元，另展示 1 欧元车库赠购；卡片标签为 Prime Day Sale。"
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-18.png",
+      "description": "继续购物按钮，仅为导购入口；未点击。"
+    },
+    {
+      "index": 18,
+      "src": "./data/edm-assets/EDM-D183E8E1E284/image-19.png",
+      "description": "品牌服务区：宣传部分产品适用的三年保修、30 天退货、5–7 个工作日配送、全年客服和 30 天价格保障；保修有产品及部件除外提示。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
