@@ -8,9 +8,9 @@
   <title>营销动作监控与对照</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091423'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%235fe1be' stroke-width='4'/%3E%3Cpath d='M32 32 49 21' stroke='%23ffb454' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='white'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="./styles-rules.css?v=20261009-4">
-  <link rel="stylesheet" href="./styles-edm.css?v=20261009-4">
-  <script src="./app.js?v=20261009-4" defer></script>
+  <link rel="stylesheet" href="./styles-rules.css?v=20261020-1">
+  <link rel="stylesheet" href="./styles-edm.css?v=20261020-1">
+  <script src="./app.js?v=20261020-1" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -20,14 +20,15 @@
       <button class="nav-item" data-view="review">复核队列</button>
       <button class="nav-item" data-view="schedule">监控规则</button>
       <button class="nav-item" data-view="edm">EDM 邮件</button>
+      <button class="nav-item" data-view="ads">广告观察</button>
     </nav>
     <div class="run-state"><i></i>真实数据看板</div>
   </header>
 
   <main>
-    <div class="demo-banner" id="data-status-banner"><strong>数据状态</strong><span>本页展示真实采集结果、网页变化记录和已确认营销动作。</span><span id="data-updated-at">正在读取监控基线…</span></div>
+    <div class="demo-banner" id="data-status-banner"><strong>数据状态</strong><span>本页展示真实采集结果、网页变化记录和已确认营销动作。</span><span id="data-updated-at" aria-live="polite">正在读取数据时间…</span><button class="secondary compact" id="refresh-dashboard">刷新数据</button></div>
 
-    <section class="view active" id="overview">
+    <div id="global-filters">
       <div class="filter-row">
         <label>国家站点<select id="market-filter"><option value="全部">全部国家站点</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label>
         <label>品牌<select id="brand-filter"><option value="全部">全部品牌</option><option value="Navimow">Navimow（自有品牌）</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label>
@@ -35,28 +36,34 @@
         <button class="secondary" id="reset-filters">清除筛选</button>
       </div>
 
-      <article class="panel real-data-panel">
-        <div class="panel-head"><div><h2>Mammotion 四国真实监控基线</h2><p>来源为公开 Sitemap；首次运行仅建立基线，不生成营销动作</p></div><span class="badge green" id="baseline-status">读取中</span></div>
-        <div class="real-kpis"><div><span>健康站点</span><strong id="real-healthy">—</strong></div><div><span>纳入页面</span><strong id="real-pages">—</strong></div><div><span>待复核变化</span><strong id="real-pending">—</strong></div><div><span>运行模式</span><strong>每周全量</strong></div></div>
+      <p id="filter-scope" class="filter-scope" aria-live="polite">筛选适用于当前页面的来源、记录和统计。</p>
+    </div>
+
+    <section class="view active" id="overview">
+      <article class="panel freshness-panel"><div class="panel-head"><div><h2>各模块数据状态</h2><p>采集结果、内容收录与完整验收分别记录；没有新变化不代表没有运行。</p></div></div><div id="module-freshness" class="freshness-grid" aria-live="polite">正在读取…</div></article>
+      <div id="overview-filter-empty" class="timeline-empty" hidden>该渠道尚无公开的来源监控。已批准动作会显示在下方；广告试运行请查看“广告观察”。</div>
+      <article class="panel real-data-panel" data-dashboard-channel="官网">
+        <div class="panel-head"><div><h2>官网监控基线</h2><p>来源为公开 Sitemap；首次运行仅建立基线，不生成营销动作</p></div><span class="badge green" id="baseline-status">读取中</span></div>
+        <div class="real-kpis"><div><span>健康站点</span><strong id="real-healthy">—</strong></div><div><span>纳入页面</span><strong id="real-pages">—</strong></div><div><span>官网待审记录</span><strong id="real-pending">—</strong></div><div><span>运行模式</span><strong>每周全量</strong></div></div>
         <div class="coverage-grid" id="coverage-grid"><div class="coverage-loading">正在读取真实监控数据…</div></div>
       </article>
 
-      <article class="panel site-observation-panel">
+      <article class="panel site-observation-panel" data-dashboard-channel="官网">
         <div class="panel-head"><div><h2>网页变化记录</h2><p>只记录官网页面实测到的变化；价格变化不自动称为促销，链接消失不自动称为下架。<span id="site-observation-checked-at">正在读取检查时间…</span></p></div><span class="badge green" id="site-observation-count">读取中</span></div>
         <div class="table-wrap"><table><thead><tr><th>发现时间</th><th>品牌 / 市场</th><th>页面</th><th>观察到的变化</th><th>来源</th></tr></thead><tbody id="site-observation-table"><tr><td colspan="5" class="empty-cell">正在读取网页变化记录…</td></tr></tbody></table></div>
       </article>
 
-      <article class="panel channel-panel">
-        <div class="panel-head"><div><h2>四国 Blog 更新与内容判断</h2><p>任何新增或更新都会进入看板；系统先判断新品关联、营销主题与优先级，再由人工二次确认</p></div><span class="badge green" id="channel-source-status">读取中</span></div>
+      <article class="panel channel-panel" data-dashboard-channel="Blog">
+        <div class="panel-head"><div><h2>Blog 更新与内容判断</h2><p>任何新增或更新都会进入看板；系统先判断新品关联、营销主题与优先级，再由人工二次确认</p></div><span class="badge green" id="channel-source-status">读取中</span></div>
         <div class="channel-monitor-grid"><div id="channel-source-list" class="channel-source-list"><div class="coverage-loading">正在读取渠道源…</div></div><aside><strong>最新 Blog 变化</strong><div id="channel-record-list" class="channel-record-list"><div class="timeline-empty">正在读取…</div></div></aside></div>
       </article>
 
-      <article class="panel channel-panel">
+      <article class="panel channel-panel" data-dashboard-channel="PR">
         <div class="panel-head"><div><h2>PR 媒体报道</h2><p>从 Sitemap 差异发现新报道，复采正文并初筛主题；Newsroom 入口待确定。保留媒体市场、发布日期、原文 URL 和证据，经人工复核后进入正式动作</p></div><span class="badge green" id="pr-source-status">读取中</span></div>
         <div class="channel-monitor-grid"><div id="pr-source-list" class="channel-source-list"><div class="coverage-loading">正在读取 PR 来源…</div></div><aside><strong>最新 PR 变化</strong><div id="pr-record-list" class="channel-record-list"><div class="timeline-empty">正在读取…</div></div></aside></div>
       </article>
 
-      <article class="panel radar-panel">
+      <article class="panel radar-panel" data-dashboard-channel="官网">
         <div class="panel-head"><div><h2>未知新品雷达</h2><p>不依赖已知型号名；先保留临时实体，证据充分后再确认正式名称</p></div><span class="badge orange" id="radar-count">读取中</span></div>
         <div class="radar-flow" aria-label="新品候选确认流程"><span>弱信号</span><b>→</b><span>候选实体</span><b>→</b><span>多源确认</span><b>→</b><span>型号确认</span><b>→</b><span>正式动作</span></div>
         <div id="radar-list" class="radar-list"><div class="coverage-loading">正在读取新品候选…</div></div>
@@ -74,9 +81,10 @@
     </section>
 
     <section class="view" id="review">
-      <div class="section-intro"><div><span class="eyebrow">PRODUCT SIGNALS</span><h1>新品候选核实</h1><p>这里只核实“是否形成已确认新品营销动作”的结论。已接入的官网网页变化会直接进入“网页变化记录”，无需在这里确认。</p></div></div>
-      <article class="panel">
-        <div class="panel-head"><div><h2>候选状态</h2><p>展示已有候选及核实结果；待核实候选不会自动进入已确认动作时间线。</p></div><span class="badge orange" id="review-pending-count">0 个待复核</span></div>
+      <div class="section-intro"><div><span class="eyebrow">REVIEW INBOX</span><h1>统一复核队列</h1><p>官网、Blog、PR 与新品候选分别列出。一次发现或更新保留一条记录；同一页面的多次观察及跨渠道记录标注关联，不自动合并或批准。</p></div></div>
+      <article class="panel review-inbox"><div class="panel-head"><div><h2>当前筛选下的待审记录</h2><p>各渠道数量独立；同页关联不是重复判定。复制编号后进入对应复核流程，原有审批权限保持有效。</p></div><span class="badge orange" id="review-total-count">读取中</span></div><div class="review-counts" id="review-module-counts"></div><div id="review-record-groups"></div></article>
+      <article class="panel" data-review-candidates>
+        <div class="panel-head"><div><h2>新品候选与历史结论</h2><p>展示已有候选及核实结果；待核实候选不会自动进入已确认动作时间线。</p></div><span class="badge orange" id="review-pending-count">0 个待复核</span></div>
         <div class="table-wrap"><table><thead><tr><th>临时编号</th><th>品牌 / 国家</th><th>首次发现</th><th>信号分</th><th>状态</th><th>操作</th></tr></thead><tbody id="review-queue-body"><tr><td colspan="6">正在读取候选…</td></tr></tbody></table></div>
       </article>
       <p class="footnote">如需确认新品结论，项目管理员须登录有私有仓库权限的 GitHub 账号，在仓库 Actions 中运行 Review Product Candidate。未登录或没有权限时，GitHub 会显示 404。</p>
@@ -104,8 +112,10 @@
 
     <section class="view" id="edm">
       <div class="section-intro"><div><span class="eyebrow">REAL EDM ARCHIVE</span><h1>营销 EDM 内容库</h1><p>竞品与 Navimow 正式外发邮件使用同一复核口径；点击邮件可查看标题、正文和营销图片。验收测试不进入公开内容库。</p></div></div>
-      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>已确认 EDM 邮件内容与图片</h2><p>仅展示已复核的真实营销邮件；点击邮件卡片查看正文说明与按原顺序留存的营销图片。</p></div></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
+      <div class="filter-row edm-filters"><label>邮件品牌<select id="edm-brand-filter"><option value="全部">全部品牌</option><option value="Navimow">Navimow（自有品牌）</option><option>Mammotion</option><option>Mova</option><option>Dreame</option><option>Ecovacs</option><option>Eufy</option></select></label><label>邮件国家<select id="edm-market-filter"><option value="全部">全部国家</option><option>美国</option><option>德国</option><option>英国</option><option>法国</option></select></label><label>发信日期从<input type="date" id="edm-date-from"></label><label>至<input type="date" id="edm-date-to"></label><label class="search-field">搜索邮件<input type="search" id="edm-search" placeholder="标题、正文摘要、品牌"></label><button class="secondary" id="reset-edm-filters">清除邮件筛选</button></div><p class="filter-scope">按发信时间从新到旧排列；日期按北京时间。邮件宣称的价格与活动期限以详情记录为准。</p>
+      <article class="panel edm-library-panel"><div class="panel-head"><div><h2>已确认 EDM 邮件内容与图片</h2><p>仅展示已复核的真实营销邮件；点击邮件卡片查看正文说明与按原顺序留存的营销图片。</p></div><span class="badge" id="edm-result-count" aria-live="polite">读取中</span></div><div id="edm-content-list" class="edm-content-list"><div class="timeline-empty">正在读取邮件内容库…</div></div></article>
     </section>
+    <section class="view" id="ads"><div class="section-intro"><div><span class="eyebrow">SOCIAL ADS OBSERVATIONS</span><h1>广告观察</h1><p>当前存量、待核验线索与正式动作分别展示。试运行成功不等于全部品牌、国家及平台均已验收。</p></div></div><article class="panel" id="ads-access-note"><h2>认证内部看板提供试运行数据</h2><p>广告观察仍在本机内部试运行。请使用已授权的内部看板查看存量、补证进度、最近成功时间及验收状态；公开看板仅展示已批准的正式广告动作。</p><a href="#overview">返回监控总览</a></article><div id="ads-private-slot"></div></section>
   </main>
 
   <dialog id="detail-dialog"><div class="dialog-head"><h2 id="detail-title">动作详情</h2><button aria-label="关闭">×</button></div><div id="dialog-content"></div></dialog>

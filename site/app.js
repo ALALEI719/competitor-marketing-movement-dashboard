@@ -5,6 +5,40 @@ let evidenceIndex={entries:{}};
 let edmDetailIndex={items:[]};
 let formalActionState=[];
 let siteObservationState=[];
+let monitorSummaryState=null;
+let marketingEventState=[];
+let moduleTimes={};
+let currentView='overview';
+const workflowRoot='https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/';
+function displayTime(value){return value&&Number.isFinite(Date.parse(value))?new Date(value).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'}):'尚无记录';}
+function matchesScope(item,filters={market:market.value,brand:brand.value}){
+  const countries=item.countries||[item.country];
+  return (filters.market==='全部'||countries.includes(filters.market))&&(filters.brand==='全部'||item.brand===filters.brand);
+}
+function safePublicUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch{return '';}}
+function canonicalReviewUrl(value){const safe=safePublicUrl(value);if(!safe)return '';const u=new URL(safe);u.search='';u.hash='';return u.href.replace(/\/$/,'');}
+function uniquePending(items){const seen=new Set();return (items||[]).filter(item=>{if(item.reviewStatus!=='pending'||!item.recordId||seen.has(item.recordId))return false;seen.add(item.recordId);return true;});}
+function reviewGroups(summary){return [
+  {channel:'官网',workflow:'review-site-record.yml',records:uniquePending(summary?.pendingRecords)},
+  {channel:'Blog',workflow:'review-channel-record.yml',records:uniquePending(summary?.channelMonitoring?.pendingRecords)},
+  {channel:'PR',workflow:'review-pr-record.yml',records:uniquePending(summary?.prMonitoring?.pendingRecords||summary?.prMonitoring?.recentRecords)}
+];}
+function edmDay(value){return value&&Number.isFinite(Date.parse(value))?new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date(value)):'';}
+function selectEdmItems(items,filters){
+  const query=(filters.query||'').trim().toLocaleLowerCase();
+  return items.filter(item=>(filters.brand==='全部'||item.brand===filters.brand)&&(filters.market==='全部'||item.country===filters.market)
+    &&(!filters.from||(edmDay(item.sentAt)&&edmDay(item.sentAt)>=filters.from))&&(!filters.to||(edmDay(item.sentAt)&&edmDay(item.sentAt)<=filters.to))
+    &&(!query||[item.subject,item.summary,item.brand,item.country].join(' ').toLocaleLowerCase().includes(query)))
+    .sort((a,b)=>(Date.parse(b.sentAt)||0)-(Date.parse(a.sentAt)||0)||String(a.recordId||a.actionId).localeCompare(String(b.recordId||b.actionId)));
+}
+function renderCurrentEdm(){
+  const filters={brand:document.querySelector('#edm-brand-filter').value,market:document.querySelector('#edm-market-filter').value,from:document.querySelector('#edm-date-from').value,to:document.querySelector('#edm-date-to').value,query:document.querySelector('#edm-search').value};
+  const items=edmDetailIndex.items||[];
+  if(filters.from&&filters.to&&filters.from>filters.to){document.querySelector('#edm-content-list').innerHTML='<div class="timeline-empty">开始日期不能晚于结束日期。</div>';document.querySelector('#edm-result-count').textContent='日期范围需调整';return;}
+  const selected=selectEdmItems(items,filters);document.querySelector('#edm-result-count').textContent=`${selected.length} / ${items.length} 封`;
+  renderEdmLibrary(selected);
+  if(!selected.length&&items.length)document.querySelector('#edm-content-list').innerHTML='<div class="timeline-empty">当前筛选下没有邮件，请调整品牌、国家、日期或搜索词。</div>';
+}
 
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 function brandKind(item){return item.brandRole==='own'||item.brand==='Navimow'?'自有品牌':'竞品';}
@@ -52,11 +86,13 @@ function renderEdmLibrary(items){
 async function loadEdmLibrary(){
   edmDetailIndex=await loadEdmDetailIndex();
   if(edmDetailIndex.loadError){
+    document.querySelector('#edm-result-count').textContent='读取失败';
     document.querySelector('#edm-content-list').innerHTML='<div class="timeline-empty">邮件内容暂时读取失败。<button class="secondary compact" id="retry-edm-library">重新读取</button></div>';
     document.querySelector('#retry-edm-library').onclick=loadEdmLibrary;
     return;
   }
-  renderEdmLibrary(edmDetailIndex.items||[]);
+  renderCurrentEdm();
+  moduleTimes.edm=edmDetailIndex.updatedAt;renderFreshness();
 }
 
 function safeEdmDetailRef(value){return /^\.\/data\/edm-details\/EDM-[A-Z0-9]+\.json$/.test(value||'')?value:'';}
@@ -87,25 +123,27 @@ function reviewLabel(status){return ({pending:'待复核',approved:'已确认',r
 function newProductLabel(value){return ({related:'新品相关',not_related:'非新品',uncertain:'待判断'})[value]||'待判断';}
 function themeLabel(value){return ({product_launch:'新品发布',product_education:'产品教育',promotion:'促销',event_or_partnership:'活动/合作',reputation_or_proof:'口碑/背书',brand_or_corporate:'品牌/企业',other:'其他',unclassified:'待分类'})[value]||'待分类';}
 function renderChannelMonitoring(monitoring){
-  const sources=monitoring?.sources||[];
+  const sources=(monitoring?.sources||[]).filter(item=>matchesScope(item.source));
   const healthy=sources.filter(item=>item.status==='ok').length;
-  document.querySelector('#channel-source-status').textContent=sources.length?`${healthy}/${sources.length} 正常`:'暂无数据';
-  document.querySelector('#channel-source-status').className=`badge ${healthy===sources.length?'green':'orange'}`;
+  document.querySelector('#channel-source-status').textContent=sources.length?`${healthy}/${sources.length} 最近采集成功`:'当前筛选无已接入来源';
+  document.querySelector('#channel-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
   document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · ${escapeHtml(channelLabel(item.source.channel))}</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立渠道基线</div>';
-  const records=monitoring?.recentRecords||monitoring?.pendingRecords||[];
-  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前没有新增或更新的 Blog 内容；后续任何变化都会直接显示在这里。</div>';
+  const records=(monitoring?.recentRecords||monitoring?.pendingRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
+  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
 }
 function renderPrMonitoring(monitoring){
-  const sources=monitoring?.sources||[];
+  const sources=(monitoring?.sources||[]).filter(item=>matchesScope(item.source));
   const healthy=sources.filter(item=>item.status==='ok').length;
   const prThemeLabels={product_launch:'新品发布',review:'评测',promotion:'促销',event:'活动',award:'获奖',partnership:'合作',other:'待归类'};
-  document.querySelector('#pr-source-status').textContent=sources.length?`${healthy}/${sources.length} 正常`:'来源待核验';
-  document.querySelector('#pr-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
+  document.querySelector('#pr-source-status').textContent=sources.length?`${healthy}/${sources.length} 最近采集成功`:'当前筛选无已接入来源';
+  document.querySelector('#pr-source-status').className=`badge ${sources.length&&sources.length&&healthy===sources.length?'green':'orange'}`;
   document.querySelector('#pr-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.outlet||item.source.brand)} · ${escapeHtml(item.source.country)} · PR</strong><span>${item.status==='ok'?item.discoveredUrlCount?`${item.discoveredUrlCount} 个文章 URL · ${item.itemCount} 条相关内容`:`${item.itemCount} 条相关内容基线`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">媒体试点来源待核验；Newsroom 入口待确定。</div>';
-  const records=monitoring?.recentRecords||[];
-  document.querySelector('#pr-record-list').innerHTML=records.length?records.slice(0,12).map(item=>`<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.outlet||item.brand)} · ${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'内容更新':item.changeType==='new_coverage'?'新媒体报道':'新新闻稿'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em><em class="channel-tag">主题初筛：${escapeHtml((item.themeAssessment?.tags||['other']).map(tag=>prThemeLabels[tag]||'待归类').join('／'))}</em><em class="channel-tag">页面证据 ${escapeHtml(item.evidence?.contentHash?.slice(0,12)||'待补')}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-pr-record.yml" target="_blank" rel="noreferrer">人工复核入口</a></small></article>`).join(''):'<div class="timeline-empty">暂无 PR 变化；来源核验后首次运行只建基线。</div>';
+  const records=(monitoring?.recentRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
+  document.querySelector('#pr-record-list').innerHTML=records.length?records.slice(0,12).map(item=>`<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.outlet||item.brand)} · ${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'内容更新':item.changeType==='new_coverage'?'新媒体报道':'新新闻稿'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em><em class="channel-tag">主题初筛：${escapeHtml((item.themeAssessment?.tags||['other']).map(tag=>prThemeLabels[tag]||'待归类').join('／'))}</em><em class="channel-tag">页面证据 ${escapeHtml(item.evidence?.contentHash?.slice(0,12)||'待补')}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-pr-record.yml" target="_blank" rel="noreferrer">人工复核入口</a></small></article>`).join(''):'<div class="timeline-empty">当前筛选下暂无 PR 变化；来源首次采集只建基线。</div>';
 }
 function renderReviewQueue(candidates){
+  candidates=candidates.filter(item=>matchesScope(item));
+  document.querySelector('[data-review-candidates]').hidden=!['全部','官网'].includes(channel.value);
   const pending=candidates.filter(item=>item.reviewStatus==='pending').length;
   document.querySelector('#review-pending-count').textContent=`${pending} 个待复核`;
   document.querySelector('#review-queue-body').innerHTML=candidates.length?candidates.map(item=>`<tr><td><code>${escapeHtml(item.entityId)}</code></td><td>${escapeHtml(item.brand)} · ${escapeHtml((item.countries||[]).join(' / '))}</td><td>${escapeHtml(new Date(item.firstSeenAt).toLocaleString('zh-CN',{hour12:false}))}</td><td>${item.confidenceScore}</td><td><span class="review-status ${escapeHtml(item.reviewStatus)}">${reviewLabel(item.reviewStatus)}</span></td><td><button class="secondary compact" data-review-candidate="${escapeHtml(item.entityId)}">查看证据</button></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前没有新品候选</td></tr>';
@@ -143,7 +181,7 @@ function renderCurrentSiteObservations(){
   }).join(''):'<tr><td colspan="5" class="empty-cell">当前筛选下暂无网页变化记录。</td></tr>';
 }
 async function loadSiteObservations(){
-  try{const data=await fetchDashboardJson('./data/site-observations.json');siteObservationState=data.observations||[];document.querySelector('#site-observation-checked-at').textContent=`最近检查：${new Date(data.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;renderCurrentSiteObservations();}
+  try{const data=await fetchDashboardJson('./data/site-observations.json');siteObservationState=data.observations||[];moduleTimes.observations=data.generatedAt;document.querySelector('#site-observation-checked-at').textContent=`最近检查：${displayTime(data.generatedAt)}`;renderCurrentSiteObservations();renderFreshness();}
   catch{document.querySelector('#site-observation-count').textContent='暂不可用';document.querySelector('#site-observation-checked-at').textContent='最近检查时间不可用';document.querySelector('#site-observation-table').innerHTML='<tr><td colspan="5" class="empty-cell">网页变化记录暂时无法读取。</td></tr>';}
 }
 
@@ -171,8 +209,16 @@ function renderCurrentFormalActions(){
   renderFormalTimeline(actions);
 }
 
+function scopedEvents(events,actions,filters={market:market.value,brand:brand.value,channel:channel.value}){
+  const byId=new Map(actions.map(a=>[a.actionId,a]));
+  return events.map(event=>{
+    const visible=(event.actionIds||[]).map(id=>byId.get(id)).filter(a=>a&&matchesScope(a,filters)&&(filters.channel==='全部'||channelLabel(a.channel)===filters.channel));
+    return {...event,actionCount:visible.length,totalActionCount:event.actionCount,countries:[...new Set(visible.map(a=>a.country))],channels:[...new Set(visible.map(a=>a.channel))],stages:[...new Set(visible.map(a=>a.stage).filter(Boolean))]};
+  }).filter(event=>event.actionCount>0);
+}
 function renderEventClusters(events){
-  document.querySelector('#event-cluster-list').innerHTML=events.length?events.map(event=>`<article class="event-card"><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.countries.join(' / '))}</span><p>${event.actionCount} 个动作 · ${escapeHtml(event.channels.map(channelLabel).join(' + '))}</p><em>${escapeHtml(event.stages.map(stageLabel).join(' → '))}</em></article>`).join(''):'<div class="timeline-empty">当前没有可聚合的营销事件；独立 Blog 动作仍会显示在正式时间线中。</div>';
+  events=scopedEvents(events,formalActionState);
+  document.querySelector('#event-cluster-list').innerHTML=events.length?events.map(event=>`<article class="event-card"><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.countries.join(' / '))}</span><p>${event.actionCount} 个筛选内动作${event.actionCount!==event.totalActionCount?`（事件共 ${event.totalActionCount} 个）`:""} · ${escapeHtml(event.channels.map(channelLabel).join(' + '))}</p><em>${escapeHtml(event.stages.map(stageLabel).join(' → '))}</em></article>`).join(''):'<div class="timeline-empty">当前没有可聚合的营销事件；独立 Blog 动作仍会显示在正式时间线中。</div>';
 }
 
 async function loadActionData(){
@@ -184,8 +230,8 @@ async function loadActionData(){
     document.querySelector('#formal-action-table').innerHTML='<tr><td colspan="6">正式动作暂时读取失败。<button class="secondary compact retry-actions">重新读取</button></td></tr>';
     document.querySelectorAll('.retry-actions').forEach(button=>button.onclick=loadActionData);
   }else{
-    formalActionState=formalActions.actions||[];
-    renderCurrentFormalActions();
+    formalActionState=formalActions.actions||[];moduleTimes.actions=formalActions.updatedAt;
+    renderCurrentFormalActions();renderEventClusters(marketingEventState);renderFreshness();
   }
 }
 
@@ -194,35 +240,90 @@ async function loadEventData(){
   if(marketingEvents.loadError){
     document.querySelector('#event-cluster-list').innerHTML='<div class="timeline-empty">跨渠道事件暂时读取失败。<button class="secondary compact" id="retry-actions-events">重新读取</button></div>';
     document.querySelector('#retry-actions-events').onclick=loadEventData;
-  }else renderEventClusters(marketingEvents.events||[]);
+  }else {marketingEventState=marketingEvents.events||[];renderEventClusters(marketingEventState);}
 }
 
 async function loadMonitorSummary(){
   try{
     const [summary,evidence]=await Promise.all([fetchDashboardJson('./data/monitor-summary.json'),loadEvidenceIndex()]);
     evidenceIndex=evidence;
-    renderChannelMonitoring(summary.channelMonitoring);
-    renderPrMonitoring(summary.prMonitoring);
-    document.querySelector('#real-healthy').textContent=`${summary.totals.healthySites}/${summary.totals.sites}`;
-    document.querySelector('#real-pages').textContent=summary.totals.pages.toLocaleString('zh-CN');
-    document.querySelector('#real-pending').textContent=summary.totals.pendingChanges;
-    const candidates=summary.productRadar?.candidates||[];
-    const pendingCandidates=candidates.filter(item=>item.reviewStatus==='pending');
-    renderReviewQueue(candidates);
-    document.querySelector('#radar-count').textContent=pendingCandidates.length?`${pendingCandidates.length} 个待核实`:'暂无待核实候选';
-    document.querySelector('#radar-list').innerHTML=pendingCandidates.length?pendingCandidates.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><div><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml(item.countries.join(' / '))}</span></div><p>${escapeHtml(item.observedNames?.[0]||'官方型号尚未确认')}</p><em>${item.launchStage==='multi_source_candidate'?'多源候选':'弱信号'} · ${item.confidenceScore} 分</em></button>`).join(''):`<div class="radar-empty"><strong>当前没有待核实的新品候选</strong><span>已接入的官网网页变化会单独记录和展示；是否形成新品营销结论由后续证据决定。</span></div>`;
-    document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(pendingCandidates[Number(button.dataset.candidate)]));
-    document.querySelector('#baseline-status').textContent=summary.sites.every(site=>site.status==='ok')?'基线正常':'部分异常';
-    document.querySelector('#data-updated-at').textContent=`监控基线更新 ${new Date(summary.generatedAt).toLocaleString('zh-CN',{hour12:false})}`;
-    document.querySelector('#coverage-grid').innerHTML=summary.sites.map(site=>`<a class="coverage-card" href="${site.site.siteUrl}" target="_blank" rel="noreferrer"><span><b>${site.site.country}</b><small>${site.site.countryCode} · ${site.site.priority}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · Blog ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'基线已建立':'采集异常'}</em></a>`).join('');
+    monitorSummaryState=summary;
+    renderScopedDashboard();
   }catch(error){
     document.querySelector('#baseline-status').textContent='数据不可用';
     document.querySelector('#coverage-grid').innerHTML=`<div class="coverage-loading">真实基线暂时无法读取：${error.message}</div>`;
     document.querySelector('#data-updated-at').textContent='真实数据尚未加载';
     document.querySelector('#radar-count').textContent='数据不可用';
     document.querySelector('#radar-list').innerHTML='<div class="coverage-loading">新品雷达数据暂时无法读取</div>';
-    renderChannelMonitoring(null);
+    document.querySelector('#review-total-count').textContent='队列读取失败';
+    document.querySelector('#review-record-groups').textContent='复核数据暂不可用，请刷新重试。';
+    renderChannelMonitoring(null);renderPrMonitoring(null);
   }
+}
+
+function renderFreshness(){
+  const summary=monitorSummaryState;
+  const sourceNote=(sources)=>{const scoped=(sources||[]).filter(i=>matchesScope(i.source||i.site));const ok=scoped.filter(i=>i.status==='ok').length;return scoped.length?`${ok}/${scoped.length} 最近采集成功`:'当前筛选无已接入来源';};
+  const entries=[
+    {name:'官网',time:summary?.generatedAt,note:sourceNote(summary?.sites),channel:'官网'},
+    {name:'网页观察',time:moduleTimes.observations,note:'客观变化与正式动作分开',channel:'官网'},
+    {name:'Blog',time:summary?.channelMonitoring?.checkedAt,note:sourceNote(summary?.channelMonitoring?.sources),channel:'Blog'},
+    {name:'PR',time:summary?.prMonitoring?.checkedAt,note:sourceNote(summary?.prMonitoring?.sources),channel:'PR'},
+    {name:'正式动作',time:moduleTimes.actions,note:'最近复核数据更新；不是重新采集全部来源'},
+    {name:'EDM',time:moduleTimes.edm||moduleTimes.actions,note:`${(edmDetailIndex.items||[]).filter(item=>matchesScope(item)).length} 封已收录；发信时间见邮件卡片`,channel:'EDM'},
+    {name:'广告',note:'仅认证内部试运行，公开页无采集状态',channel:'社媒广告'}
+  ];
+  document.querySelector('#module-freshness').innerHTML=entries.filter(e=>!e.channel||channel.value==='全部'||e.channel===channel.value).map(e=>`<div class="freshness-card"><strong>${escapeHtml(e.name)}</strong><time>${escapeHtml(e.name==='广告'?'内部页面独立展示':displayTime(e.time))}</time><span>${escapeHtml(e.note)}</span></div>`).join('');
+  const times=[summary?.generatedAt,summary?.channelMonitoring?.checkedAt,summary?.prMonitoring?.checkedAt,...Object.values(moduleTimes)].map(v=>Date.parse(v)).filter(Number.isFinite);
+  if(times.length)document.querySelector('#data-updated-at').textContent=`最近数据更新 ${displayTime(new Date(Math.max(...times)).toISOString())}（北京时间）`;
+}
+function renderReviewInbox(){
+  const all=reviewGroups(monitorSummaryState),groups=all.filter(g=>channel.value==='全部'||channel.value===g.channel).map(g=>({...g,records:g.records.filter(item=>matchesScope(item))}));
+  const candidates=(monitorSummaryState?.productRadar?.candidates||[]).filter(c=>c.reviewStatus==='pending'&&matchesScope(c)&&['全部','官网'].includes(channel.value));
+  const total=groups.reduce((n,g)=>n+g.records.length,0)+candidates.length;
+  document.querySelector('#review-total-count').textContent=`${total} 条待审记录`;
+  document.querySelector('#review-module-counts').textContent=[...groups.map(g=>`${g.channel} ${g.records.length}`),...(['全部','官网'].includes(channel.value)?[`新品候选 ${candidates.length}`]:[])].join(' · ')+'；同页多次观察分别计数';
+  const related=new Map();for(const g of all)for(const item of g.records){const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|');related.set(key,(related.get(key)||0)+1);}
+  document.querySelector('#review-record-groups').innerHTML=groups.length?groups.map(g=>`<section class="review-group"><h3>${escapeHtml(g.channel)} · ${g.records.length} 条待审</h3>${g.records.length?`<div class="table-wrap"><table><thead><tr><th>编号 / 关联</th><th>品牌 / 国家</th><th>发现时间</th><th>记录</th><th>复核入口</th></tr></thead><tbody>${g.records.map((item,index)=>{
+    const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|'),count=related.get(key)||1;
+    return `<tr><td><code>${escapeHtml(item.recordId)}</code>${count>1?`<small>同页 ${count} 条观察</small>`:''}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(displayTime(item.discoveredAt))}</td><td><button class="review-record-button" data-review-channel="${g.channel}" data-review-index="${index}">${escapeHtml(item.title||item.url||item.summary||'查看记录')}</button></td><td><button class="secondary compact" data-copy-record="${escapeHtml(item.recordId)}">复制编号</button> <a href="${workflowRoot+g.workflow}" target="_blank" rel="noreferrer">进入复核</a></td></tr>`;
+  }).join('')}</tbody></table></div>`:'<p class="timeline-empty">当前筛选下没有待审记录。</p>'}</section>`).join(''):'<div class="timeline-empty">该渠道没有公开待审队列。广告待核验线索请在认证内部看板查看。</div>';
+  document.querySelectorAll('[data-review-channel]').forEach(button=>button.onclick=()=>{const group=groups.find(g=>g.channel===button.dataset.reviewChannel);showReviewRecord(group.records[Number(button.dataset.reviewIndex)],group.channel);});
+  document.querySelectorAll('[data-copy-record]').forEach(button=>button.onclick=async()=>{try{await navigator.clipboard.writeText(button.dataset.copyRecord);button.textContent='已复制';}catch{button.textContent='请选中编号复制';}});
+}
+function showReviewRecord(record,channelName){
+  const source=safePublicUrl(record.url||record.sourceUrl),evidence=record.contentEvidence||{};
+  document.querySelector('#detail-title').textContent=`${channelName} 待审记录`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>编号</dt><dd><code>${escapeHtml(record.recordId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(record.brand)} · ${escapeHtml(record.country)}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(record.discoveredAt))}</dd><dt>发布日期</dt><dd>${escapeHtml(displayTime(record.publishDate))}</dd><dt>变化类型</dt><dd>${escapeHtml(record.changeType||record.type||'待核对')}</dd><dt>摘要</dt><dd>${escapeHtml(record.summary||'请核读原始证据')}</dd><dt>证据状态</dt><dd>${escapeHtml(evidence.status||'见现有复核流程')}${evidence.changedFields?.length?' · '+escapeHtml(evidence.changedFields.map(observationFieldLabel).join('、')):''}</dd></dl>${source?`<p><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">查看原页面</a></p>`:''}<p class="evidence">系统初判与复核结论分别保存；查看本记录不会批准、驳回或合并其他观察。</p>`;
+  document.querySelector('#detail-dialog').showModal();
+}
+function renderScopedDashboard(){
+  const summary=monitorSummaryState;if(!summary)return;
+  document.querySelectorAll('[data-dashboard-channel]').forEach(panel=>panel.hidden=channel.value!=='全部'&&panel.dataset.dashboardChannel!==channel.value);
+  document.querySelector('#overview-filter-empty').hidden=['全部','官网','Blog','PR'].includes(channel.value);
+  document.querySelector('#filter-scope').textContent=`当前范围：${brand.value}品牌 · ${market.value}国家 · ${channel.value}渠道。来源、记录和统计采用同一筛选；正式动作与待审记录分别计数。`;
+  const sites=summary.sites.filter(item=>matchesScope(item.site));
+  document.querySelector('#real-healthy').textContent=sites.length?`${sites.filter(s=>s.status==='ok').length}/${sites.length}`:'0 个来源';
+  document.querySelector('#real-pages').textContent=sites.reduce((n,s)=>n+s.pageCount,0).toLocaleString('zh-CN');
+  document.querySelector('#real-pending').textContent=uniquePending(summary.pendingRecords).filter(item=>matchesScope(item)).length;
+  document.querySelector('#baseline-status').textContent=sites.length?(sites.every(s=>s.status==='ok')?'最近采集成功':'部分来源异常'):'当前筛选无已接入来源';
+  document.querySelector('#baseline-status').className=`badge ${sites.length&&sites.every(s=>s.status==='ok')?'green':'orange'}`;
+  document.querySelector('#coverage-grid').innerHTML=sites.length?sites.map(site=>`<a class="coverage-card" href="${escapeHtml(site.site.siteUrl)}" target="_blank" rel="noreferrer"><span><b>${escapeHtml(site.site.country)}</b><small>${escapeHtml(site.site.countryCode)} · ${escapeHtml(site.site.priority)}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · Blog ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'最近采集成功':'采集异常'} · ${escapeHtml(displayTime(site.checkedAt))}</em></a>`).join(''):'<div class="timeline-empty">当前筛选没有已接入的官网来源；其他品牌的隔离验收不计入正式覆盖。</div>';
+  renderChannelMonitoring(summary.channelMonitoring);renderPrMonitoring(summary.prMonitoring);
+  const candidates=summary.productRadar?.candidates||[],pending=candidates.filter(c=>c.reviewStatus==='pending'&&matchesScope(c));
+  renderReviewQueue(candidates);renderReviewInbox();
+  document.querySelector('#radar-count').textContent=pending.length?`${pending.length} 个待核实`:'当前筛选无待核实候选';
+  document.querySelector('#radar-list').innerHTML=pending.length?pending.slice(0,6).map((item,index)=>`<button class="radar-item" data-candidate="${index}"><strong>${escapeHtml(item.temporaryName)}</strong><span>${escapeHtml(item.entityId)} · ${escapeHtml((item.countries||[]).join(' / '))}</span></button>`).join(''):'<div class="radar-empty"><strong>当前筛选没有待核实的新品候选</strong><span>客观网页观察与新品营销结论分别处理。</span></div>';
+  document.querySelectorAll('[data-candidate]').forEach(button=>button.onclick=()=>showCandidate(pending[Number(button.dataset.candidate)]));
+  renderFreshness();renderCurrentFormalActions();renderCurrentSiteObservations();renderEventClusters(marketingEventState);
+}
+function adoptInternalAds(){
+  const panel=document.querySelector('#social-ads-monitor'),slot=document.querySelector('#ads-private-slot');
+  if(!panel||!slot)return false;
+  if(panel.parentElement!==slot)slot.append(panel);
+  document.querySelector('#ads-access-note').hidden=true;
+  if(!panel.querySelector('[data-ads-scope-note]')){const note=document.createElement('p');note.dataset.adsScopeNote='true';note.className='filter-scope';note.textContent='运行状态、存量总数和补证进度是试点整体状态；下方广告列表按所选品牌与国家筛选。';panel.querySelector('h2')?.after(note);}
+  return true;
 }
 
 function evidenceForUrl(url){return Object.values(evidenceIndex.entries||{}).find(entry=>entry.url===url);}
@@ -256,20 +357,27 @@ async function showFormalAction(action){
   }
 }
 
-[market,brand,channel].forEach(control=>control.addEventListener('change',()=>{renderCurrentFormalActions();renderCurrentSiteObservations();}));
-document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';renderCurrentFormalActions();renderCurrentSiteObservations();};
+// Dashboard startup.
+[market,brand,channel].forEach(control=>control.addEventListener('change',()=>{renderScopedDashboard();window.dispatchEvent(new Event('dashboard:filters-changed'));}));
+document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';for(const control of [market,brand,channel])control.dispatchEvent(new Event('change'));};
 function activateView(view){
-  const target=['overview','review','schedule','edm'].includes(view)?view:'overview';
-  document.querySelectorAll('.nav-item').forEach(item=>item.classList.toggle('active',item.dataset.view===target));
+  const aliases={'social-ads-monitor':'ads','ads-evidence-followups':'ads'};
+  const target=aliases[view]||(['overview','review','schedule','edm','ads'].includes(view)?view:'overview');currentView=target;
+  document.querySelectorAll('.nav-item').forEach(item=>{const active=item.dataset.view===target;item.classList.toggle('active',active);item.setAttribute('aria-current',active?'page':'false');});
   document.querySelectorAll('.view').forEach(item=>item.classList.toggle('active',item.id===target));
+  document.querySelector('#global-filters').hidden=['schedule','edm'].includes(target);
+  if(target==='ads'&&!['全部','社媒广告'].includes(channel.value)){channel.value='社媒广告';channel.dispatchEvent(new Event('change'));}
+  adoptInternalAds();
 }
 document.querySelectorAll('.nav-item').forEach(button=>button.onclick=()=>{window.location.hash=button.dataset.view;activateView(button.dataset.view);});
 window.addEventListener('hashchange',()=>activateView(window.location.hash.slice(1)));
 activateView(window.location.hash.slice(1));
+const adsObserver=new MutationObserver(()=>{if(adoptInternalAds())adsObserver.disconnect();});
+if(!adoptInternalAds())adsObserver.observe(document.querySelector('main'),{childList:true,subtree:true});
 document.querySelector('#detail-dialog .dialog-head button').onclick=()=>document.querySelector('#detail-dialog').close();
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
-loadMonitorSummary();
-loadSiteObservations();
-loadActionData();
-loadEventData();
-loadEdmLibrary();
+for(const id of ['edm-brand-filter','edm-market-filter','edm-date-from','edm-date-to','edm-search'])document.getElementById(id).addEventListener('input',renderCurrentEdm);
+document.querySelector('#reset-edm-filters').onclick=()=>{document.querySelector('#edm-brand-filter').value=document.querySelector('#edm-market-filter').value='全部';for(const id of ['edm-date-from','edm-date-to','edm-search'])document.getElementById(id).value='';renderCurrentEdm();};
+async function refreshDashboard(){const button=document.querySelector('#refresh-dashboard');button.disabled=true;button.textContent='刷新中…';try{await Promise.allSettled([loadMonitorSummary(),loadSiteObservations(),loadActionData(),loadEventData(),loadEdmLibrary()]);}finally{button.disabled=false;button.textContent='刷新数据';}}
+document.querySelector('#refresh-dashboard').onclick=refreshDashboard;
+refreshDashboard();

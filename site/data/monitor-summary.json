@@ -15,7 +15,11 @@
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 27,
-    "pendingChannelChanges": 22
+    "pendingChannelChanges": 22,
+    "prSources": 5,
+    "healthyPrSources": 5,
+    "prChanges": 0,
+    "pendingPrChanges": 0
   },
   "sites": [
     {
@@ -3525,5 +3529,121 @@
         "humanAssessment": null
       }
     ]
+  },
+  "prMonitoring": {
+    "checkedAt": "2026-10-20T06:51:45.441Z",
+    "sources": [
+      {
+        "source": {
+          "id": "pr-de-chip-mammotion",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.chip.de/sitemap-articles-index.xml"
+        },
+        "checkedAt": "2026-10-20T06:51:45.441Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 4113,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-computerbild-news-mammotion",
+          "sourceType": "media",
+          "outlet": "Computer Bild",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.computerbild.de/News-Garten-33394641.html"
+        },
+        "checkedAt": "2026-10-20T06:51:45.441Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 0,
+        "pendingArticleCount": 0,
+        "fetchedCount": 20,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-computerbild-reviews-mammotion",
+          "sourceType": "media",
+          "outlet": "Computer Bild — Garten Tests",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
+        },
+        "checkedAt": "2026-10-20T06:51:45.441Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 2,
+        "discoveredUrlCount": 0,
+        "pendingArticleCount": 0,
+        "fetchedCount": 17,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-us-popularmechanics-mammotion",
+          "sourceType": "media",
+          "outlet": "Popular Mechanics",
+          "brand": "Mammotion",
+          "country": "美国",
+          "countryCode": "US",
+          "channel": "pr",
+          "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
+        },
+        "checkedAt": "2026-10-20T06:51:45.441Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 345,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-t3-mammotion",
+          "sourceType": "media",
+          "outlet": "T3",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://www.t3.com/sitemap.xml"
+        },
+        "checkedAt": "2026-10-20T06:51:45.441Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 4,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      }
+    ],
+    "recentRecords": []
   }
 }
