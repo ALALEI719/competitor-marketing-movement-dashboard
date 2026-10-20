@@ -1,5 +1,46 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-19T20:05:53.732Z",
-  "events": []
+  "updatedAt": "2026-10-20T10:41:04.470Z",
+  "events": [
+    {
+      "eventId": "EVT-26F1953FA8CC",
+      "entityId": "",
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "actionPeriod": [
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "brand": "Mammotion",
+      "title": "Mammotion · IFA 2026",
+      "eventType": "product_launch",
+      "firstSeenAt": "2026-10-09T09:39:58.390Z",
+      "lastSeenAt": "2026-10-20T10:39:13.575Z",
+      "channels": [
+        "blog",
+        "pr",
+        "official_site"
+      ],
+      "countries": [
+        "德国",
+        "美国",
+        "全球"
+      ],
+      "stages": [
+        "announcement",
+        "reputation"
+      ],
+      "actionIds": [
+        "ACT-A2C9BC1E1380",
+        "ACT-6F7BCD48738D",
+        "ACT-F5847AA27C57",
+        "ACT-AF381A45496B"
+      ],
+      "actionCount": 4,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    }
+  ]
 }

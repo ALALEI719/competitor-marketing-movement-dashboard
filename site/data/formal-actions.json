@@ -1,7 +1,109 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-19T20:05:53.732Z",
+  "updatedAt": "2026-10-20T10:41:04.470Z",
   "actions": [
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-20T10:40:49.994Z",
+      "capturedAt": "2026-10-20T10:39:13.575Z",
+      "notificationEligible": false,
+      "actionId": "ACT-F5847AA27C57",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-chip-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-20T10:39:13.575Z",
+      "publishDate": "2026-09-09T10:15:00+02:00",
+      "title": "CHIP 将 LUBA 4 AWD 系列列入 IFA 2026 亮点",
+      "topicTags": [
+        "review",
+        "event",
+        "award"
+      ],
+      "summary": "CHIP 展后专题将 LUBA 4 AWD 系列列为 IFA 亮点，介绍 12000F 面向大面积草坪、360° LiDAR、NetRTK 与四摄像头定位。媒体入选报道，区别于官方新品发布或开售。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
+          "articleUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
+          "capturedAt": "2026-10-20T10:39:13.575Z",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-09T08:15:00.000Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-09T10:15:00+02:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-09T08:15:00.000Z"
+            }
+          ],
+          "contentHash": "5a1a725f19cca82b2a9318f7bbd4d1849be593c5b9b82f4ad3262e9f7d44d691",
+          "bodySource": "article",
+          "captureHash": "7bbfa6e826e38fcfe7e8a71890e3c18937df1c95143c1f482016ca986d652ebd"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-20T10:41:04.377Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "manual_record",
+      "importedAt": "2026-10-20T10:40:49.994Z",
+      "capturedAt": "2026-10-20T10:39:13.575Z",
+      "notificationEligible": false,
+      "actionId": "ACT-AF381A45496B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "全球",
+      "countryCode": "GLOBAL",
+      "siteId": "mammotion-global-manual-ifa",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "announcement",
+      "discoveredAt": "2026-10-20T10:39:13.575Z",
+      "publishDate": "2026-09-03",
+      "title": "LUBA 4 AWD 全球新品专题页（历史人工记录）",
+      "summary": "人工台账记录 9 月 3 日新品专题页上线，9 月 4 日发现；台账描述四摄像头、360° LiDAR、NetRTK、独立前轮转向、双向行驶及另购切边模块。日期与内容依据人工记录；未复原当日页面，原 URL 本次直连返回 404。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://mammotion.com/pages/luba-4-awd-robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-global-manual-ifa",
+          "url": "https://mammotion.com/pages/luba-4-awd-robot-lawn-mower",
+          "capturedAt": "2026-10-20T10:39:13.575Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-20T10:41:04.470Z"
+    },
     {
       "actionId": "ACT-EDM-D183E8E1E284",
       "entityId": "",
@@ -113,6 +215,80 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-16T06:14:39.439Z",
       "detailRef": "./data/edm-details/EDM-7DBDD554AC85.json"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-20T10:40:49.994Z",
+      "capturedAt": "2026-10-10T09:05:38.206Z",
+      "notificationEligible": false,
+      "actionId": "ACT-6F7BCD48738D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_launch",
+      "stage": "announcement",
+      "discoveredAt": "2026-10-10T09:05:38.206Z",
+      "publishDate": "2026-09-07T20:09:58-07:00",
+      "title": "LUBA 4 AWD：IFA 新品功能与上市信息（美国 Blog）",
+      "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/luba-4-awd"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/luba-4-awd",
+          "discoveredAt": "2026-10-10T09:05:38.206Z",
+          "publishDate": "2026-09-07T20:09:58-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-20T10:41:04.277Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-20T10:40:49.994Z",
+      "capturedAt": "2026-10-09T09:39:58.390Z",
+      "notificationEligible": false,
+      "actionId": "ACT-A2C9BC1E1380",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de-blog",
+      "channel": "blog",
+      "actionType": "product_launch",
+      "stage": "announcement",
+      "discoveredAt": "2026-10-09T09:39:58.390Z",
+      "publishDate": "2026-09-08T05:51:34+02:00",
+      "title": "LUBA 4 AWD：IFA 新品功能与上市信息（德国 Blog）",
+      "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/luba-4-awd"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-de-blog",
+          "url": "https://de.mammotion.com/blogs/news/luba-4-awd",
+          "discoveredAt": "2026-10-09T09:39:58.390Z",
+          "publishDate": "2026-09-08T05:51:34+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-20T10:41:04.116Z"
     },
     {
       "actionId": "ACT-EDM-FF18822D96A1",

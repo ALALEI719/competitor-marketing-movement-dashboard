@@ -1,6 +1,16 @@
+import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
 const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
 const channel=document.querySelector('#channel-filter');
+const actionFrom=document.querySelector('#action-date-from');
+const actionTo=document.querySelector('#action-date-to');
+const campaignFilter=document.querySelector('#campaign-filter');
+let campaignCalendar=[];
+function actionPeriod(){return {from:actionFrom.value,to:actionTo.value,campaign:campaignFilter.value};}
+async function loadCampaignCalendar(){
+  try { const data=await fetchDashboardJson('./data/campaign-calendar.json');campaignCalendar=data.events||[];const selected=campaignFilter.value;campaignFilter.innerHTML='<option value="">全部节点</option>'+campaignCalendar.map(event=>`<option value="${escapeHtml(event.id)}">${escapeHtml(event.title)}</option>`).join('');campaignFilter.value=selected;renderCurrentFormalActions(); }
+  catch {document.querySelector('#action-period-note').textContent='关键节点日历暂不可用；仍可直接选择动作日期。';}
+}
 let evidenceIndex={entries:{}};
 let edmDetailIndex={items:[]};
 let formalActionState=[];
@@ -129,7 +139,7 @@ function renderChannelMonitoring(monitoring){
   document.querySelector('#channel-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
   document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · ${escapeHtml(channelLabel(item.source.channel))}</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立渠道基线</div>';
   const records=(monitoring?.recentRecords||monitoring?.pendingRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
-  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
+  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史文章补录':item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?new Date(item.publishDate).toLocaleDateString('zh-CN'):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
 }
 function renderPrMonitoring(monitoring){
   const sources=(monitoring?.sources||[]).filter(item=>matchesScope(item.source));
@@ -139,7 +149,7 @@ function renderPrMonitoring(monitoring){
   document.querySelector('#pr-source-status').className=`badge ${sources.length&&sources.length&&healthy===sources.length?'green':'orange'}`;
   document.querySelector('#pr-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.outlet||item.source.brand)} · ${escapeHtml(item.source.country)} · PR</strong><span>${item.status==='ok'?item.discoveredUrlCount?`${item.discoveredUrlCount} 个文章 URL · ${item.itemCount} 条相关内容`:`${item.itemCount} 条相关内容基线`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">媒体试点来源待核验；Newsroom 入口待确定。</div>';
   const records=(monitoring?.recentRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
-  document.querySelector('#pr-record-list').innerHTML=records.length?records.slice(0,12).map(item=>`<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.outlet||item.brand)} · ${escapeHtml(item.country)} · ${item.changeType==='content_updated'?'内容更新':item.changeType==='new_coverage'?'新媒体报道':'新新闻稿'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em><em class="channel-tag">主题初筛：${escapeHtml((item.themeAssessment?.tags||['other']).map(tag=>prThemeLabels[tag]||'待归类').join('／'))}</em><em class="channel-tag">页面证据 ${escapeHtml(item.evidence?.contentHash?.slice(0,12)||'待补')}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-pr-record.yml" target="_blank" rel="noreferrer">人工复核入口</a></small></article>`).join(''):'<div class="timeline-empty">当前筛选下暂无 PR 变化；来源首次采集只建基线。</div>';
+  document.querySelector('#pr-record-list').innerHTML=records.length?records.slice(0,12).map(item=>`<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.outlet||item.brand)} · ${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史媒体报道补录':item.changeType==='content_updated'?'内容更新':item.changeType==='new_coverage'?'新媒体报道':'新新闻稿'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em><em class="channel-tag">主题初筛：${escapeHtml((item.themeAssessment?.tags||['other']).map(tag=>prThemeLabels[tag]||'待归类').join('／'))}</em><em class="channel-tag">页面证据 ${escapeHtml(item.evidence?.contentHash?.slice(0,12)||'待补')}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-pr-record.yml" target="_blank" rel="noreferrer">人工复核入口</a></small></article>`).join(''):'<div class="timeline-empty">当前筛选下暂无 PR 变化；来源首次采集只建基线。</div>';
 }
 function renderReviewQueue(candidates){
   candidates=candidates.filter(item=>matchesScope(item));
@@ -152,7 +162,7 @@ function renderReviewQueue(candidates){
 
 function renderFormalActions(actions){
   document.querySelector('#formal-action-count').textContent=`${actions.length} 条`;
-  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</td><td><span class="pill ${brandKind(action)==='自有品牌'?'own-brand':''}">${escapeHtml(action.brand)}${brandKind(action)==='自有品牌'?' · 自有品牌':''}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前筛选下没有已确认动作</td></tr>';
+  document.querySelector('#formal-action-table').innerHTML=actions.length?actions.map((action,index)=>`<tr data-formal-action="${index}"><td>${escapeHtml(actionDateLabel(action))}</td><td><span class="pill ${brandKind(action)==='自有品牌'?'own-brand':''}">${escapeHtml(action.brand)}${brandKind(action)==='自有品牌'?' · 自有品牌':''}</span>　${escapeHtml(action.country)}</td><td>${escapeHtml(channelLabel(action.channel))}</td><td>${escapeHtml(action.title)}</td><td>${escapeHtml(stageLabel(action.stage))}</td><td><span class="review-status approved">已复核</span></td></tr>`).join(''):'<tr><td colspan="6" class="empty-cell">当前筛选下没有已确认动作</td></tr>';
   document.querySelectorAll('[data-formal-action]').forEach(row=>row.onclick=()=>showFormalAction(actions[Number(row.dataset.formalAction)]));
 }
 
@@ -189,30 +199,45 @@ function renderFormalTimeline(actions){
   const container=document.querySelector('#formal-timeline');
   const axis=document.querySelector('#formal-timeline-axis');
   if(!actions.length){axis.innerHTML='';container.innerHTML='<div class="timeline-empty">当前筛选下没有已确认动作。</div>';return;}
-  const times=actions.map(action=>new Date(action.discoveredAt).getTime());
-  const min=Math.min(...times),max=Math.max(...times),span=Math.max(max-min,24*60*60*1000);
-  const format=value=>new Date(value).toLocaleDateString('zh-CN',{month:'2-digit',day:'2-digit'});
+  const dated=actions.filter(action=>actionDateInfo(action).day);
+  if(!dated.length){axis.innerHTML='';container.innerHTML='<div class="timeline-empty">这些动作的发生日期待确认，请查看下方表格。</div>';return;}
+  const timeOf=action=>Date.parse(`${actionDateInfo(action).day}T00:00:00Z`);
+  const times=dated.map(timeOf);
+  const min=actionFrom.value?Date.parse(`${actionFrom.value}T00:00:00Z`):Math.min(...times),max=actionTo.value?Date.parse(`${actionTo.value}T00:00:00Z`):Math.max(...times),span=Math.max(max-min,86400000);
+  const selected=campaignCalendar.find(event=>event.id===campaignFilter.value);
+  let band='';
+  if(selected){const start=Date.parse(`${selected.start}T00:00:00Z`),end=Date.parse(`${selected.end}T00:00:00Z`)+86400000;const clamp=value=>Math.max(0,Math.min(100,value));band=`background-image:linear-gradient(90deg,transparent ${clamp((start-min)/span*100)}%,rgba(255,180,84,.14) ${clamp((start-min)/span*100)}%,rgba(255,180,84,.14) ${clamp((end-min)/span*100)}%,transparent ${clamp((end-min)/span*100)}%)`;}
+  const format=value=>new Date(value).toISOString().slice(5,10);
   axis.innerHTML=`<span>${format(min)}</span><span>${format(min+span/2)}</span><span>${format(max)}</span>`;
-  container.innerHTML=actions.map((action,index)=>{const time=new Date(action.discoveredAt).getTime();const position=((time-min)/span)*100;const own=brandKind(action)==='自有品牌';return `<div class="lane formal-action-lane ${own?'own-brand':''}" data-action-id="${escapeHtml(action.actionId)}"><div class="lane-label"><strong>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}${own?' · 自有':''}</strong><span title="${escapeHtml(action.title)}">${escapeHtml(action.title)}</span></div><div class="track"><button class="formal-event ${escapeHtml(action.channel)}" data-formal-timeline="${index}" style="--point-position:${position}%" title="${escapeHtml(action.title)}"><span class="formal-event-date">${escapeHtml(format(time))}</span><span>${escapeHtml(stageLabel(action.stage))} · ${escapeHtml(channelLabel(action.channel))}</span></button></div></div>`;}).join('');
-  document.querySelectorAll('[data-formal-timeline]').forEach(button=>button.onclick=()=>showFormalAction(actions[Number(button.dataset.formalTimeline)]));
+  const shorten=text=>Array.from(text||'').slice(0,32).join('')+(Array.from(text||'').length>32?'…':'');
+  container.innerHTML=dated.map((action,index)=>{const time=timeOf(action);const position=((time-min)/span)*100;const own=brandKind(action)==='自有品牌';return `<div class="lane formal-action-lane ${own?'own-brand':''}" data-action-id="${escapeHtml(action.actionId)}"><div class="lane-label"><strong>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}${own?' · 自有':''}</strong><span title="${escapeHtml(action.title)}">${escapeHtml(action.title)}</span></div><div class="track" style="${band}"><button class="formal-event ${escapeHtml(action.channel)}" data-formal-timeline="${index}" style="--point-position:${position}%" title="${escapeHtml(actionDateLabel(action)+' · '+channelLabel(action.channel)+' '+action.country+'：'+action.summary)}"><span class="formal-event-date">${escapeHtml(format(time))} · ${escapeHtml(channelLabel(action.channel))} ${escapeHtml(action.country)}</span><span>${escapeHtml(shorten(action.summary||action.title))}</span></button></div></div>`;}).join('');
+  document.querySelectorAll('[data-formal-timeline]').forEach(button=>button.onclick=()=>showFormalAction(dated[Number(button.dataset.formalTimeline)]));
+
 }
 
 function filteredFormalActions(){
   return formalActionState.filter(action=>(market.value==='全部'||action.country===market.value)
     &&(brand.value==='全部'||action.brand===brand.value)
-    &&(channel.value==='全部'||channelLabel(action.channel)===channel.value));
+    &&(channel.value==='全部'||channelLabel(action.channel)===channel.value)
+    &&matchesActionPeriod(action,actionPeriod())).sort(actionDateOrder);
 }
 
 function renderCurrentFormalActions(){
-  const actions=filteredFormalActions();
+  const invalid=actionFrom.value&&actionTo.value&&actionFrom.value>actionTo.value;
+  document.querySelector('#action-period-note').textContent=invalid?'开始日期不能晚于结束日期。':'日期和关键节点筛选正式动作与事件；来源运行状态按品牌、国家及渠道显示。';
+  const actions=invalid?[]:filteredFormalActions();
+  const context=document.querySelector('#campaign-context');
+  const selected=campaignCalendar.find(event=>event.id===campaignFilter.value);
+  context.hidden=!selected;
+  if(selected){const all=formalActionState.filter(action=>action.campaignId===selected.id);const manual=all.filter(action=>action.dateBasis==='manual_record').length;context.innerHTML=`<strong>${escapeHtml(selected.title)} · 正式展期 ${escapeHtml(selected.start)} — ${escapeHtml(selected.end)}</strong><span>回溯窗口 ${escapeHtml(selected.monitoringWindow.start)} — ${escapeHtml(selected.monitoringWindow.end)}（含展前预热及展后复盘）</span><p>当前筛选 ${actions.length} 条；节点共收录 ${all.length} 条${manual?`，其中 ${manual} 条依据人工台账`:''}。${escapeHtml(selected.coverageNote||'尚未开展本节点回溯；没有已收录动作不代表没有营销活动。')}</p>`;}
   renderFormalActions(actions);
   renderFormalTimeline(actions);
 }
 
-function scopedEvents(events,actions,filters={market:market.value,brand:brand.value,channel:channel.value}){
+function scopedEvents(events,actions,filters={market:market.value,brand:brand.value,channel:channel.value,...actionPeriod()}){
   const byId=new Map(actions.map(a=>[a.actionId,a]));
   return events.map(event=>{
-    const visible=(event.actionIds||[]).map(id=>byId.get(id)).filter(a=>a&&matchesScope(a,filters)&&(filters.channel==='全部'||channelLabel(a.channel)===filters.channel));
+    const visible=(event.actionIds||[]).map(id=>byId.get(id)).filter(a=>a&&matchesScope(a,filters)&&(filters.channel==='全部'||channelLabel(a.channel)===filters.channel)&&matchesActionPeriod(a,filters));
     return {...event,actionCount:visible.length,totalActionCount:event.actionCount,countries:[...new Set(visible.map(a=>a.country))],channels:[...new Set(visible.map(a=>a.channel))],stages:[...new Set(visible.map(a=>a.stage).filter(Boolean))]};
   }).filter(event=>event.actionCount>0);
 }
@@ -261,6 +286,7 @@ async function loadMonitorSummary(){
   }
 }
 
+function latestEdmReviewTime(actions){return actions.filter(action=>action.channel==='edm'&&action.reviewStatus==='approved').map(action=>action.reviewedAt).filter(value=>Number.isFinite(Date.parse(value))).sort((a,b)=>Date.parse(a)-Date.parse(b)).at(-1)||'';}
 function renderFreshness(){
   const summary=monitorSummaryState;
   const sourceNote=(sources)=>{const scoped=(sources||[]).filter(i=>matchesScope(i.source||i.site));const ok=scoped.filter(i=>i.status==='ok').length;return scoped.length?`${ok}/${scoped.length} 最近采集成功`:'当前筛选无已接入来源';};
@@ -270,7 +296,7 @@ function renderFreshness(){
     {name:'Blog',time:summary?.channelMonitoring?.checkedAt,note:sourceNote(summary?.channelMonitoring?.sources),channel:'Blog'},
     {name:'PR',time:summary?.prMonitoring?.checkedAt,note:sourceNote(summary?.prMonitoring?.sources),channel:'PR'},
     {name:'正式动作',time:moduleTimes.actions,note:'最近复核数据更新；不是重新采集全部来源'},
-    {name:'EDM',time:moduleTimes.edm||moduleTimes.actions,note:`${(edmDetailIndex.items||[]).filter(item=>matchesScope(item)).length} 封已收录；发信时间见邮件卡片`,channel:'EDM'},
+    {name:'EDM',time:moduleTimes.edm||latestEdmReviewTime(formalActionState),note:`${(edmDetailIndex.items||[]).filter(item=>matchesScope(item)).length} 封已收录；此处为内容复核时间，发信时间见邮件卡片`,channel:'EDM'},
     {name:'广告',note:'仅认证内部试运行，公开页无采集状态',channel:'社媒广告'}
   ];
   document.querySelector('#module-freshness').innerHTML=entries.filter(e=>!e.channel||channel.value==='全部'||e.channel===channel.value).map(e=>`<div class="freshness-card"><strong>${escapeHtml(e.name)}</strong><time>${escapeHtml(e.name==='广告'?'内部页面独立展示':displayTime(e.time))}</time><span>${escapeHtml(e.note)}</span></div>`).join('');
@@ -349,7 +375,7 @@ async function showFormalAction(action){
     : action.channel==='edm'&&action.evidenceRefs?.some(ref=>ref.access==='private')
     ? '<div class="evidence">该 EDM 的完整内容尚未通过复核，暂不展示原件。</div>'
     : `<div class="source-links">${(action.sourceUrls||[]).map(url=>`<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">查看原始页面</a>`).join('')}</div><div class="evidence-compare">${evidenceFigure(latest?.previousViewportScreenshot,'变化前')}${evidenceFigure(latest?.keyRegionScreenshot||latest?.viewportScreenshot,'确认时证据')}</div>`;
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>动作编号</dt><dd><code>${escapeHtml(action.actionId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}（${brandKind(action)}）</dd><dt>渠道</dt><dd>${escapeHtml(channelLabel(action.channel))}</dd><dt>发现时间</dt><dd>${escapeHtml(new Date(action.discoveredAt).toLocaleString('zh-CN',{hour12:false}))}</dd><dt>营销阶段</dt><dd>${escapeHtml(stageLabel(action.stage))}</dd><dt>动作摘要</dt><dd>${escapeHtml(action.summary)}</dd><dt>状态</dt><dd>已复核</dd></dl>${evidenceDetail}`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>动作编号</dt><dd><code>${escapeHtml(action.actionId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(action.brand)} · ${escapeHtml(action.country)}（${brandKind(action)}）</dd><dt>渠道</dt><dd>${escapeHtml(channelLabel(action.channel))}</dd><dt>动作日期</dt><dd>${escapeHtml(actionDateLabel(action))}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(action.discoveredAt))}</dd>${action.historicalBackfill?`<dt>历史补录</dt><dd>${escapeHtml(displayTime(action.importedAt))}；证据留档时间 ${escapeHtml(displayTime(action.capturedAt))}。当前留存内容不代表当日页面的完整历史版本。</dd><dt>关键节点</dt><dd>${escapeHtml(action.campaignTitle)}</dd>`:''}<dt>营销阶段</dt><dd>${escapeHtml(stageLabel(action.stage))}</dd><dt>动作摘要</dt><dd>${escapeHtml(action.summary)}</dd><dt>状态</dt><dd>已复核</dd></dl>${evidenceDetail}`;
   document.querySelector('#detail-dialog').showModal();
   if(action.channel==='edm'&&action.detailRef){
     const target=document.querySelector('#edm-formal-detail');
@@ -358,8 +384,10 @@ async function showFormalAction(action){
 }
 
 // Dashboard startup.
+document.querySelector('#jump-to-actions').onclick=()=>{activateView('overview');document.querySelector('.verified-panel').scrollIntoView({behavior:'smooth',block:'start'});};
 [market,brand,channel].forEach(control=>control.addEventListener('change',()=>{renderScopedDashboard();window.dispatchEvent(new Event('dashboard:filters-changed'));}));
-document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';for(const control of [market,brand,channel])control.dispatchEvent(new Event('change'));};
+[actionFrom,actionTo,campaignFilter].forEach(control=>control.addEventListener('change',()=>{if(control===campaignFilter){const event=campaignCalendar.find(e=>e.id===control.value);actionFrom.value=event?.monitoringWindow.start||'';actionTo.value=event?.monitoringWindow.end||'';}renderCurrentFormalActions();renderEventClusters(marketingEventState);}));
+document.querySelector('#reset-filters').onclick=()=>{actionFrom.value=actionTo.value=campaignFilter.value='';market.value=brand.value=channel.value='全部';for(const control of [market,brand,channel])control.dispatchEvent(new Event('change'));};
 function activateView(view){
   const aliases={'social-ads-monitor':'ads','ads-evidence-followups':'ads'};
   const target=aliases[view]||(['overview','review','schedule','edm','ads'].includes(view)?view:'overview');currentView=target;
@@ -379,6 +407,6 @@ document.querySelector('#detail-dialog .dialog-head button').onclick=()=>documen
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
 for(const id of ['edm-brand-filter','edm-market-filter','edm-date-from','edm-date-to','edm-search'])document.getElementById(id).addEventListener('input',renderCurrentEdm);
 document.querySelector('#reset-edm-filters').onclick=()=>{document.querySelector('#edm-brand-filter').value=document.querySelector('#edm-market-filter').value='全部';for(const id of ['edm-date-from','edm-date-to','edm-search'])document.getElementById(id).value='';renderCurrentEdm();};
-async function refreshDashboard(){const button=document.querySelector('#refresh-dashboard');button.disabled=true;button.textContent='刷新中…';try{await Promise.allSettled([loadMonitorSummary(),loadSiteObservations(),loadActionData(),loadEventData(),loadEdmLibrary()]);}finally{button.disabled=false;button.textContent='刷新数据';}}
+async function refreshDashboard(){const button=document.querySelector('#refresh-dashboard');button.disabled=true;button.textContent='刷新中…';try{await Promise.allSettled([loadMonitorSummary(),loadSiteObservations(),loadActionData(),loadEventData(),loadEdmLibrary(),loadCampaignCalendar()]);}finally{button.disabled=false;button.textContent='刷新数据';}}
 document.querySelector('#refresh-dashboard').onclick=refreshDashboard;
 refreshDashboard();

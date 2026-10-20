@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "events": [
+    {
+      "id": "ifa-2026",
+      "title": "IFA 2026",
+      "start": "2026-09-04",
+      "end": "2026-09-08",
+      "location": "德国柏林",
+      "sourceUrl": "https://www.ifa-berlin.com/",
+      "dateBasis": "user_supplied_event_calendar",
+      "monitoringWindow": {
+        "start": "2026-08-28",
+        "end": "2026-09-15",
+        "leadDays": 7,
+        "tailDays": 7
+      },
+      "coverageNote": "首批仅 Mammotion：美德 Blog 与德国媒体报道已回溯，全球官网为人工台账记录（现址直连404）。广告历史尚未补齐；本机 EDM 归档未覆盖该时段。其余竞品仍待补证，不视为全品牌、全渠道完成。"
+    },
+    {
+      "id": "galabau-2026",
+      "title": "GaLaBau 2026",
+      "start": "2026-09-15",
+      "end": "2026-09-18",
+      "location": "德国纽伦堡",
+      "sourceUrl": "https://www.galabau-messe.com/en",
+      "dateBasis": "user_supplied_event_calendar",
+      "monitoringWindow": {
+        "start": "2026-09-08",
+        "end": "2026-09-25",
+        "leadDays": 7,
+        "tailDays": 7
+      }
+    },
+    {
+      "id": "equip-2026",
+      "title": "Equip 2026",
+      "start": "2026-10-20",
+      "end": "2026-10-23",
+      "location": "美国路易斯维尔",
+      "sourceUrl": "https://www.equipexposition.com/",
+      "dateBasis": "user_supplied_event_calendar",
+      "monitoringWindow": {
+        "start": "2026-10-13",
+        "end": "2026-10-30",
+        "leadDays": 7,
+        "tailDays": 7
+      }
+    },
+    {
+      "id": "ces-2027",
+      "title": "CES 2027",
+      "start": "2027-01-06",
+      "end": "2027-01-09",
+      "location": "美国拉斯维加斯",
+      "sourceUrl": "https://www.ces.tech/",
+      "dateBasis": "user_supplied_event_calendar",
+      "monitoringWindow": {
+        "start": "2026-12-15",
+        "end": "2027-01-20",
+        "leadDays": 22,
+        "tailDays": 11
+      }
+    }
+  ],
+  "windowNote": "正式展期与监控窗口分别记录。至少提前7天；默认展后7天用于复盘，已有更长窗口保留。此日历不安装或启用采集任务。"
+}

@@ -14,7 +14,7 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 31,
+    "blogChanges": 33,
     "pendingChannelChanges": 26,
     "prSources": 5,
     "healthyPrSources": 5,
@@ -1606,6 +1606,66 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-HIST-31FEF3C32C73",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（德国 Blog）",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/luba-4-awd",
+        "publishDate": "2026-09-08T05:51:34+02:00",
+        "updatedAt": "",
+        "discoveredAt": "2026-10-09T09:39:58.390Z",
+        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "contentFetch": null,
+        "contentEvidence": {
+          "url": "https://de.mammotion.com/blogs/news/luba-4-awd",
+          "capturedAt": "2026-10-09T09:39:58.390Z",
+          "contentHash": "d6037093ae83f4e6b95100df3fa15c86bc3d624eede7d42e19c2e59c51129e1c",
+          "dateSource": "official_feed.publishedAt",
+          "bodySource": "saved_article_snapshot",
+          "status": "historical_snapshot"
+        },
+        "systemAssessment": null,
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "reviewedAt": "2026-10-20T10:41:04.116Z"
+        }
+      },
+      {
+        "recordId": "CH-HIST-68EBFFA6BEC6",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（美国 Blog）",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/luba-4-awd",
+        "publishDate": "2026-09-07T20:09:58-07:00",
+        "updatedAt": "",
+        "discoveredAt": "2026-10-10T09:05:38.206Z",
+        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "contentFetch": null,
+        "contentEvidence": {
+          "url": "https://us.mammotion.com/blogs/news/luba-4-awd",
+          "capturedAt": "2026-10-10T09:05:38.206Z",
+          "contentHash": "c9767f8d4a10ac56783d19c6f5c7316fe283d38493ca94f560954fbd0f199dc4",
+          "dateSource": "official_feed.publishedAt",
+          "bodySource": "saved_article_snapshot",
+          "status": "historical_snapshot"
+        },
+        "systemAssessment": null,
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "reviewedAt": "2026-10-20T10:41:04.277Z"
+        }
+      },
       {
         "recordId": "CH-24FB595BB9F9",
         "sourceId": "mammotion-us-blog",
@@ -3988,6 +4048,62 @@
         "verifiedRedirects": []
       }
     ],
-    "recentRecords": []
+    "recentRecords": [
+      {
+        "recordId": "PR-HIST-A9B933181385",
+        "sourceId": "pr-de-chip-mammotion",
+        "sourceType": "media",
+        "outlet": "CHIP",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "CHIP 将 LUBA 4 AWD 系列列入 IFA 2026 亮点",
+        "sourceUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
+        "publishDate": "2026-09-09T10:15:00+02:00",
+        "discoveredAt": "2026-10-20T10:39:13.575Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "event",
+            "award"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
+          "articleUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
+          "capturedAt": "2026-10-20T10:39:13.575Z",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-09T08:15:00.000Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-09T10:15:00+02:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-09T08:15:00.000Z"
+            }
+          ],
+          "contentHash": "5a1a725f19cca82b2a9318f7bbd4d1849be593c5b9b82f4ad3262e9f7d44d691",
+          "bodySource": "article",
+          "captureHash": "7bbfa6e826e38fcfe7e8a71890e3c18937df1c95143c1f482016ca986d652ebd"
+        }
+      }
+    ]
   }
 }
