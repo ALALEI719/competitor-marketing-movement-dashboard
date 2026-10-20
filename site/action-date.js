@@ -9,18 +9,21 @@ export function calendarDay(value) {
 }
 
 export function actionDateInfo(action) {
-  for (const field of ['occurredAt', 'publishDate', 'sentAt']) {
+  const isChange=action.changeType === 'content_updated' || action.actionType === 'page_change';
+  // An update is a different action from the original publication. Without an
+  // explicitly confirmed occurrence date, retain its observation date/basis.
+  for (const field of isChange ? ['occurredAt'] : ['occurredAt', 'publishDate', 'sentAt']) {
     const day = calendarDay(action[field]);
     if (day) return { day: action.channel === 'edm' ? new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Shanghai' }).format(new Date(action[field])) : day,
       basis: action.dateBasis || (field === 'sentAt' || action.channel === 'edm' ? 'sent_date' : 'source_publication') };
   }
   const day = action.historicalBackfill ? '' : calendarDay(action.discoveredAt);
-  return { day, basis: day ? 'discovery_only' : 'unknown' };
+  return { day, basis: day ? (isChange ? 'change_observed' : 'discovery_only') : 'unknown' };
 }
 
 export function actionDateLabel(action) {
   const { day, basis } = actionDateInfo(action);
-  const label = { manual_record: '人工记录', discovery_only: '发现日期', source_publication: '来源发布日期', sent_date: '发信日期' }[basis] || '动作日期';
+  const label = { change_observed: '变化发现日期', manual_record: '人工记录', discovery_only: '发现日期', source_publication: '来源发布日期', sent_date: '发信日期' }[basis] || '动作日期';
   return day ? `${day} · ${label}` : '动作日期待确认';
 }
 
