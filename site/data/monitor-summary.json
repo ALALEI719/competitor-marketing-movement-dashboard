@@ -14,8 +14,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 27,
-    "pendingChannelChanges": 22,
+    "blogChanges": 31,
+    "pendingChannelChanges": 26,
     "prSources": 5,
     "healthyPrSources": 5,
     "prChanges": 0,
@@ -1505,7 +1505,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-19T08:06:45.189Z",
+    "checkedAt": "2026-10-20T07:56:42.359Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1517,14 +1517,14 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-19T08:06:45.189Z",
+        "checkedAt": "2026-10-20T07:56:42.359Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-16T03:29:52-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1541,17 +1541,17 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-19T08:06:45.189Z",
+        "checkedAt": "2026-10-20T07:56:42.359Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-09-08T05:51:34+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
-          "captured": 26,
+          "captured": 28,
           "total": 30,
           "backfilled": 2
         }
@@ -1565,7 +1565,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-19T08:06:45.189Z",
+        "checkedAt": "2026-10-20T07:56:42.359Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1575,7 +1575,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 26,
+          "captured": 28,
           "total": 30,
           "backfilled": 2
         }
@@ -1589,14 +1589,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-19T08:06:45.189Z",
+        "checkedAt": "2026-10-20T07:56:42.359Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-19T09:25:11+02:00",
+        "latestPublishedAt": "2026-10-19T11:55:28+02:00",
         "changeCounts": {
-          "added": 0,
-          "updated": 0
+          "added": 1,
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1606,6 +1606,178 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-24FB595BB9F9",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance",
+        "publishDate": "2026-08-02T23:00:41-07:00",
+        "updatedAt": "2026-10-19T19:05:02-07:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Learn how to maintain your robot lawn mower with expert tips on cleaning, blade replacement, battery care, firmware updates, winter storage, and troubleshooting to keep it performing at its best. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "46451555888b809045b535805526ec1643e25acdb1592680af76c416498da9a0",
+          "afterHash": "e52e9d3e9942014b75181ae06e3d5bff778a46857865e54994b80a2a53d59b00",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
+          "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.48,
+          "priorityConfidence": 0.57
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-155AE24D9C44",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/maehroboter-wartung",
+        "publishDate": "2026-08-03T09:22:04+02:00",
+        "updatedAt": "2026-10-20T04:27:59+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Erfahren Sie, wie Sie Ihren Mähroboter richtig warten – inklusive Reinigung, Messerwechsel, Akkupflege, Firmware-Updates, Winterpflege und praktischen Wartungstipps. Mehr ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d44719a8cf217df76115b8f9c30a67901b503c14873c518aa083189812356c96",
+          "afterHash": "763d6b9b07cfd60d123a61e97cd4d8f52ed26cebf98bb1e925668b10be9901ce",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
+          "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.53,
+          "priorityConfidence": 0.59
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-223C21A90529",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse à coussin d&apos;air : a-t-on encore besoin d&apos;un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T11:55:28+02:00",
+        "updatedAt": "2026-10-19T11:55:28+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Électrique, à batterie ou thermique, la tondeuse à coussin d'air a ses limites. Pente, bruit, entretien : quand passer au robot tondeuse ? Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.85,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E771F0306DBC",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-19T11:59:03+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
+          "afterHash": "a7c6feba035b25cf2125dcac92b5b33615d9353a60057173a4ae2ac9ff3ea625",
+          "changedFields": [
+            "headings"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.78,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-DEE502682C4C",
         "sourceId": "mammotion-us-blog",
@@ -2658,6 +2830,178 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-24FB595BB9F9",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance",
+        "publishDate": "2026-08-02T23:00:41-07:00",
+        "updatedAt": "2026-10-19T19:05:02-07:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Learn how to maintain your robot lawn mower with expert tips on cleaning, blade replacement, battery care, firmware updates, winter storage, and troubleshooting to keep it performing at its best. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "46451555888b809045b535805526ec1643e25acdb1592680af76c416498da9a0",
+          "afterHash": "e52e9d3e9942014b75181ae06e3d5bff778a46857865e54994b80a2a53d59b00",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
+          "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.48,
+          "priorityConfidence": 0.57
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-155AE24D9C44",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/maehroboter-wartung",
+        "publishDate": "2026-08-03T09:22:04+02:00",
+        "updatedAt": "2026-10-20T04:27:59+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Erfahren Sie, wie Sie Ihren Mähroboter richtig warten – inklusive Reinigung, Messerwechsel, Akkupflege, Firmware-Updates, Winterpflege und praktischen Wartungstipps. Mehr ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d44719a8cf217df76115b8f9c30a67901b503c14873c518aa083189812356c96",
+          "afterHash": "763d6b9b07cfd60d123a61e97cd4d8f52ed26cebf98bb1e925668b10be9901ce",
+          "changedFields": [
+            "headings",
+            "cta",
+            "offer",
+            "product_name",
+            "body"
+          ],
+          "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
+          "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.53,
+          "priorityConfidence": 0.59
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-223C21A90529",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse à coussin d&apos;air : a-t-on encore besoin d&apos;un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T11:55:28+02:00",
+        "updatedAt": "2026-10-19T11:55:28+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Électrique, à batterie ou thermique, la tondeuse à coussin d'air a ses limites. Pente, bruit, entretien : quand passer au robot tondeuse ? Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.85,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E771F0306DBC",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-19T11:59:03+02:00",
+        "discoveredAt": "2026-10-20T07:56:42.359Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
+          "afterHash": "a7c6feba035b25cf2125dcac92b5b33615d9353a60057173a4ae2ac9ff3ea625",
+          "changedFields": [
+            "headings"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.78,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-DEE502682C4C",
         "sourceId": "mammotion-us-blog",
