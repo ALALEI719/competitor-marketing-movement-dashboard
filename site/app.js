@@ -368,6 +368,7 @@ function activateView(view){
   document.querySelector('#global-filters').hidden=['schedule','edm'].includes(target);
   if(target==='ads'&&!['全部','社媒广告'].includes(channel.value)){channel.value='社媒广告';channel.dispatchEvent(new Event('change'));}
   adoptInternalAds();
+  window.scrollTo(0,0);
 }
 document.querySelectorAll('.nav-item').forEach(button=>button.onclick=()=>{window.location.hash=button.dataset.view;activateView(button.dataset.view);});
 window.addEventListener('hashchange',()=>activateView(window.location.hash.slice(1)));
