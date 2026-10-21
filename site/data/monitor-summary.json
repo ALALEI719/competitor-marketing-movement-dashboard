@@ -17,7 +17,11 @@
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 39,
-    "pendingChannelChanges": 28
+    "pendingChannelChanges": 28,
+    "prSources": 7,
+    "healthyPrSources": 7,
+    "prChanges": 4,
+    "pendingPrChanges": 0
   },
   "sites": [
     {
@@ -4823,6 +4827,385 @@
           "priorityConfidence": 0.85
         },
         "humanAssessment": null
+      }
+    ]
+  },
+  "prMonitoring": {
+    "checkedAt": "2026-10-21T08:51:32.101Z",
+    "sources": [
+      {
+        "source": {
+          "id": "pr-de-chip-mammotion",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.chip.de/sitemap-articles-index.xml"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 4198,
+        "pendingArticleCount": 0,
+        "fetchedCount": 13,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-computerbild-news-mammotion",
+          "sourceType": "media",
+          "outlet": "Computer Bild",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.computerbild.de/News-Garten-33394641.html"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 0,
+        "pendingArticleCount": 0,
+        "fetchedCount": 20,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-computerbild-reviews-mammotion",
+          "sourceType": "media",
+          "outlet": "Computer Bild — Garten Tests",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 2,
+        "discoveredUrlCount": 0,
+        "pendingArticleCount": 0,
+        "fetchedCount": 17,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-us-popularmechanics-mammotion",
+          "sourceType": "media",
+          "outlet": "Popular Mechanics",
+          "brand": "Mammotion",
+          "country": "美国",
+          "countryCode": "US",
+          "channel": "pr",
+          "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 345,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-t3-mammotion",
+          "sourceType": "media",
+          "outlet": "T3",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://www.t3.com/sitemap.xml"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 4,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-us-tomsguide-mammotion",
+          "sourceType": "media",
+          "outlet": "Tom's Guide",
+          "brand": "Mammotion",
+          "country": "美国",
+          "countryCode": "US",
+          "channel": "pr",
+          "url": "https://www.tomsguide.com/sitemap.xml"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 2,
+        "discoveredUrlCount": 14,
+        "pendingArticleCount": 0,
+        "fetchedCount": 2,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-techradar-mammotion",
+          "sourceType": "media",
+          "outlet": "TechRadar",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://www.techradar.com/uk/sitemap.xml"
+        },
+        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 145,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "discoveryScopesBootstrapped": [],
+        "verifiedRedirects": []
+      }
+    ],
+    "recentRecords": [
+      {
+        "recordId": "PR-HIST-8CA4AFA8B836",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 入选 T3 Best of IFA 2026",
+        "sourceUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
+        "publishDate": "2026-09-04T18:03:55+00:00",
+        "discoveredAt": "2026-10-21T03:43:36.808Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "review",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
+          "capturedAt": "2026-10-21T03:43:36.808Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-04T18:03:55+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-04T18:03:55Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-04T18:03:55Z"
+            }
+          ],
+          "contentHash": "6aa3ae33abf8d57f3069393d92dbff3d91d717bcfbdfe6d42b0c5003e535f31d",
+          "bodySource": "div.article-body",
+          "captureHash": "88bebb230ef7de60210494e6ab11541b79d1923ee22e4ac8d439067fc31f3491",
+          "discoveryMethod": "public_search_manual_historical_followup",
+          "discoveryUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
+          "listingMembershipVerified": false
+        }
+      },
+      {
+        "recordId": "PR-HIST-4C2A5F258CD7",
+        "sourceId": "pr-de-computerbild-news-mammotion",
+        "sourceType": "media",
+        "outlet": "Computer Bild",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "Computer Bild 将 LUBA 4 列入 IFA 展会亮点奖",
+        "sourceUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
+        "publishDate": "2026-09-02T14:11:00.000Z",
+        "discoveredAt": "2026-10-21T03:43:35.573Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "event",
+            "award"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.computerbild.de/News-Garten-33394641.html",
+          "articleUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
+          "capturedAt": "2026-10-21T03:43:35.573Z",
+          "sourceType": "media",
+          "outlet": "Computer Bild",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-02T14:11:00.000Z"
+            }
+          ],
+          "contentHash": "c86b7ec01836e344bb1a21c3ad9abe2ce1dd4411b70812d3044374a0e4541a38",
+          "bodySource": "jsonld.articleBody",
+          "captureHash": "b4543f9b8348147420ea7751113d9cf2eff138ce23e63ace0d94acaf3e93731e",
+          "discoveryMethod": "public_search_manual_historical_followup",
+          "discoveryUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
+          "listingMembershipVerified": false
+        }
+      },
+      {
+        "recordId": "PR-HIST-B7E3488D5F92",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "T3 报道 IFA LUBA 4 发布及 Maston 商用系列",
+        "sourceUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+        "publishDate": "2026-09-03T11:55:00+00:00",
+        "discoveredAt": "2026-10-21T03:43:01.478Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+          "capturedAt": "2026-10-21T03:43:01.478Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-03T11:55:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-03T11:55:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-03T11:55:00Z"
+            }
+          ],
+          "contentHash": "f360d6231290a7e18e4d7d6cc26daeb8722c4c62b02ffc9a556df850a76e24ea",
+          "bodySource": "div.article-body",
+          "captureHash": "4a828dfe1052a3799b28170ae45950af32ea4dc2864d710bf2c579e13221b495"
+        }
+      },
+      {
+        "recordId": "PR-HIST-A9B933181385",
+        "sourceId": "pr-de-chip-mammotion",
+        "sourceType": "media",
+        "outlet": "CHIP",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "CHIP 将 LUBA 4 AWD 系列列入 IFA 2026 亮点",
+        "sourceUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
+        "publishDate": "2026-09-09T10:15:00+02:00",
+        "discoveredAt": "2026-10-20T10:39:13.575Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "event",
+            "award"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
+          "articleUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
+          "capturedAt": "2026-10-20T10:39:13.575Z",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-09T08:15:00.000Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-09T10:15:00+02:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-09T08:15:00.000Z"
+            }
+          ],
+          "contentHash": "5a1a725f19cca82b2a9318f7bbd4d1849be593c5b9b82f4ad3262e9f7d44d691",
+          "bodySource": "article",
+          "captureHash": "7bbfa6e826e38fcfe7e8a71890e3c18937df1c95143c1f482016ca986d652ebd"
+        }
       }
     ]
   }
