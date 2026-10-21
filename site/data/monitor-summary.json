@@ -18,8 +18,8 @@
     "channelItems": 120,
     "blogChanges": 39,
     "pendingChannelChanges": 28,
-    "prSources": 7,
-    "healthyPrSources": 7,
+    "prSources": 8,
+    "healthyPrSources": 8,
     "prChanges": 4,
     "pendingPrChanges": 0
   },
@@ -4831,7 +4831,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-21T08:51:32.101Z",
+    "checkedAt": "2026-10-21T09:53:56.626Z",
     "sources": [
       {
         "source": {
@@ -4844,13 +4844,13 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4198,
+        "discoveredUrlCount": 4202,
         "pendingArticleCount": 0,
-        "fetchedCount": 13,
+        "fetchedCount": 1,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -4866,7 +4866,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4888,7 +4888,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -4910,7 +4910,7 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4932,7 +4932,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4954,7 +4954,7 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -4976,7 +4976,7 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T08:51:32.101Z",
+        "checkedAt": "2026-10-21T09:53:56.626Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4986,6 +4986,28 @@
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "discoveryScopesBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-fr-radins-mammotion",
+          "sourceType": "media",
+          "outlet": "Radins.com",
+          "brand": "Mammotion",
+          "country": "法国",
+          "countryCode": "FR",
+          "channel": "pr",
+          "url": "https://www.radins.com/sitemap.xml"
+        },
+        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 632,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
       }
     ],
