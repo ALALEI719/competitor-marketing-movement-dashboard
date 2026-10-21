@@ -1,7 +1,350 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-20T10:41:04.470Z",
+  "updatedAt": "2026-10-21T03:46:17.395Z",
   "actions": [
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:43:36.808Z",
+      "notificationEligible": false,
+      "actionId": "ACT-716774A6E103",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "pr-uk-t3-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-21T03:43:36.808Z",
+      "publishDate": "2026-09-04T18:03:55+00:00",
+      "title": "LUBA 4 入选 T3 Best of IFA 2026",
+      "topicTags": [
+        "product_launch",
+        "review",
+        "event"
+      ],
+      "summary": "T3 的 IFA 年度展会优选专题将 Mammotion LUBA 4 AWD 列为获选产品，设独立图文段落，重点介绍 LiDAR 与四摄像头导航、四驱和草坪保护设计。属于媒体奖项报道。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
+          "capturedAt": "2026-10-21T03:43:36.808Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-04T18:03:55+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-04T18:03:55Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-04T18:03:55Z"
+            }
+          ],
+          "contentHash": "6aa3ae33abf8d57f3069393d92dbff3d91d717bcfbdfe6d42b0c5003e535f31d",
+          "bodySource": "div.article-body",
+          "captureHash": "88bebb230ef7de60210494e6ab11541b79d1923ee22e4ac8d439067fc31f3491",
+          "discoveryMethod": "public_search_manual_historical_followup",
+          "discoveryUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
+          "listingMembershipVerified": false
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.395Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:43:35.573Z",
+      "notificationEligible": false,
+      "actionId": "ACT-8BD8B7FEEE16",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-computerbild-news-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-21T03:43:35.573Z",
+      "publishDate": "2026-09-02T14:11:00.000Z",
+      "title": "Computer Bild 将 LUBA 4 列入 IFA 展会亮点奖",
+      "topicTags": [
+        "review",
+        "event",
+        "award"
+      ],
+      "summary": "Computer Bild 的 IFA 获奖专题设有 Mammotion 独立段落和颁奖图片，介绍 LUBA 4 的可选切边、无边界线导航及双向行驶。按媒体 9 月 2 日的发稿日期记录，不推断为实际颁奖日期。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.computerbild.de/News-Garten-33394641.html",
+          "articleUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
+          "capturedAt": "2026-10-21T03:43:35.573Z",
+          "sourceType": "media",
+          "outlet": "Computer Bild",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-02T14:11:00.000Z"
+            }
+          ],
+          "contentHash": "c86b7ec01836e344bb1a21c3ad9abe2ce1dd4411b70812d3044374a0e4541a38",
+          "bodySource": "jsonld.articleBody",
+          "captureHash": "b4543f9b8348147420ea7751113d9cf2eff138ce23e63ace0d94acaf3e93731e",
+          "discoveryMethod": "public_search_manual_historical_followup",
+          "discoveryUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
+          "listingMembershipVerified": false
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.392Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:43:01.478Z",
+      "notificationEligible": false,
+      "actionId": "ACT-CDBF89F8F73D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "pr-uk-t3-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "announcement",
+      "discoveredAt": "2026-10-21T03:43:01.478Z",
+      "publishDate": "2026-09-03T11:55:00+00:00",
+      "title": "T3 报道 IFA LUBA 4 发布及 Maston 商用系列",
+      "topicTags": [
+        "product_launch",
+        "event"
+      ],
+      "summary": "T3 英国默认版报道 LUBA 4 在 IFA 亮相，介绍导航、草坪友好转向及可选切边配件，并另述 Maston 在欧洲、澳洲经销商渠道预购。LUBA 4 定价与供应时间待公布。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+          "capturedAt": "2026-10-21T03:43:01.478Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-03T11:55:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-03T11:55:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-03T11:55:00Z"
+            }
+          ],
+          "contentHash": "f360d6231290a7e18e4d7d6cc26daeb8722c4c62b02ffc9a556df850a76e24ea",
+          "bodySource": "div.article-body",
+          "captureHash": "4a828dfe1052a3799b28170ae45950af32ea4dc2864d710bf2c579e13221b495"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.381Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:42:26.339Z",
+      "notificationEligible": false,
+      "actionId": "ACT-F473A023723A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "content_followup",
+      "discoveredAt": "2026-10-21T03:42:26.339Z",
+      "publishDate": "2026-09-11T11:30:40+02:00",
+      "title": "LUBA 4 AWD 环视、四驱和切边功能解读",
+      "summary": "法国官方 Blog 深入说明 LUBA 4 四向感知、独立前轮转向、双向行驶与伸缩切边臂，并链接 IFA 新品总览；切边模块为选配，具体兼容型号需另行核对。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/luba-4-awd-fonctionnalites-principales"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/luba-4-awd-fonctionnalites-principales",
+          "discoveredAt": "2026-10-21T03:42:26.339Z",
+          "publishDate": "2026-09-11T11:30:40+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.362Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:42:25.429Z",
+      "notificationEligible": false,
+      "actionId": "ACT-4C1B4591FA5B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "content_followup",
+      "discoveredAt": "2026-10-21T03:42:25.429Z",
+      "publishDate": "2026-09-11T11:45:48+02:00",
+      "title": "IFA 新品 LUBA 4 AWD 法国站发布总览",
+      "summary": "法国官方 Blog 回顾 IFA 首秀、奖项及三款 LUBA 4 的规格差异，介绍四摄像头、LiDAR、NetRTK 和双向行驶。文章列出 Q4 预购计划，价格尚未公布，不能视为法国已开售。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
+          "discoveredAt": "2026-10-21T03:42:25.429Z",
+          "publishDate": "2026-09-11T11:45:48+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.321Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:42:25.294Z",
+      "notificationEligible": false,
+      "actionId": "ACT-CF770BAEE1FB",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "content_followup",
+      "discoveredAt": "2026-10-21T03:42:25.294Z",
+      "publishDate": "2026-09-11T10:01:56+01:00",
+      "title": "IFA 新品 LUBA 4 AWD 型号、规格与预购计划",
+      "summary": "英国官方 Blog 回顾 LUBA 4 在 IFA 亮相及奖项，比较 3000F、6000F、12000F，披露 Q4 预购计划、价格未公布；切边需另购且 12000F 不兼容。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+          "discoveredAt": "2026-10-21T03:42:25.294Z",
+          "publishDate": "2026-09-11T10:01:56+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.282Z"
+    },
+    {
+      "historicalBackfill": true,
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026",
+      "dateBasis": "source_publication",
+      "importedAt": "2026-10-21T03:45:50.216Z",
+      "capturedAt": "2026-10-21T03:42:24.409Z",
+      "notificationEligible": false,
+      "actionId": "ACT-FBE1A4E24571",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "content_followup",
+      "discoveredAt": "2026-10-21T03:42:24.409Z",
+      "publishDate": "2026-09-14T08:15:57+01:00",
+      "title": "LUBA 4 AWD 三大核心功能详解",
+      "summary": "英国官方 Blog 解读四摄像头环视、草坪友好四驱与自动切边，并链接 IFA 新品总览。切边为部分型号的可选配件；文章仍引导关注后续可用时间。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features",
+          "discoveredAt": "2026-10-21T03:42:24.409Z",
+          "publishDate": "2026-09-14T08:15:57+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T03:46:17.229Z"
+    },
     {
       "historicalBackfill": true,
       "campaignId": "ifa-2026",
