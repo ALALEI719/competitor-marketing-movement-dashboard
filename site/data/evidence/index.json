@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T07:57:53.980Z",
+  "generatedAt": "2026-10-21T08:02:45.659Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -636,6 +636,158 @@
           "title": "Robot Lawn Mower Buying Guide | Choose the Right Mower | Mammotion US",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c3873137a002d5b5-2026-10-19T07-57-48-460Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "934b8fe379da6fb1": {
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:01:55.611Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:34.368Z",
+          "title": "Tondeuse à coussin d'air : faut-il un robot tondeuse ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-934b8fe379da6fb1-2026-10-21T08-01-55-611Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6963fcd28307618a": {
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:05.095Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:34.368Z",
+          "title": "Tondeuse hélicoïdale ou robot tondeuse : que choisir ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-6963fcd28307618a-2026-10-21T08-02-05-095Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "a2bb3819cd7627b5": {
+      "url": "https://fr.mammotion.com/collections/luba-awd-series",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:10.401Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:34.368Z",
+          "title": "Série LUBA AWD",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-a2bb3819cd7627b5-2026-10-21T08-02-10-401Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "7ddeb218f7b6d747": {
+      "url": "https://fr.mammotion.com/collections/yuka-series",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:15.401Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:34.368Z",
+          "title": "Série YUKA",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-7ddeb218f7b6d747-2026-10-21T08-02-15-401Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6fa8d71f8095bc32": {
+      "url": "https://fr.mammotion.com/collections/serie-yuka",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:19.807Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-21T08:01:34.368Z",
+          "title": "Série YUKA",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-6fa8d71f8095bc32-2026-10-21T08-02-19-807Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "75dcc4e0b220468a": {
+      "url": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:25.227Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:23.998Z",
+          "title": "Best Time to Spray Weed Killer: When to Apply",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-75dcc4e0b220468a-2026-10-21T08-02-25-227Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6678954d38a50eb3": {
+      "url": "https://us.mammotion.com/pages/about-mammotion",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:30.562Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-21T08:01:23.998Z",
+          "title": "About Mammotion | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-6678954d38a50eb3-2026-10-21T08-02-30-562Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "fd90b27075b46283": {
+      "url": "https://us.mammotion.com/pages/about-us",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-21T08:02:37.723Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-21T08:01:23.998Z",
+          "title": "About Mammotion | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-fd90b27075b46283-2026-10-21T08-02-37-723Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

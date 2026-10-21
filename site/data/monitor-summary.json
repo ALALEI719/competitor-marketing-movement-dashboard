@@ -1,25 +1,23 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T07:56:13.949Z",
+  "generatedAt": "2026-10-21T08:01:39.760Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
-  "activeEvents": [],
+  "activeEvents": [
+    "Equip"
+  ],
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1138,
-    "pendingChanges": 29,
+    "pages": 1142,
+    "pendingChanges": 40,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 37,
-    "pendingChannelChanges": 26,
-    "prSources": 5,
-    "healthyPrSources": 5,
-    "prChanges": 0,
-    "pendingPrChanges": 0
+    "blogChanges": 39,
+    "pendingChannelChanges": 28
   },
   "sites": [
     {
@@ -32,28 +30,28 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-19T07:55:55.367Z",
+      "checkedAt": "2026-10-21T08:01:23.998Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 339,
+      "pageCount": 340,
       "breakdown": {
         "page": 64,
-        "blog": 205,
+        "blog": 206,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
-        "added": 8,
-        "removed": 0,
-        "lastmodChanged": 69
+        "added": 2,
+        "removed": 1,
+        "lastmodChanged": 74
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 69,
+        "lastmodPagesNeedingContentCheck": 74,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 9,
+        "inspectedPages": 3,
         "meaningfulChanges": 1,
         "errors": []
       }
@@ -68,7 +66,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-19T07:56:02.474Z",
+      "checkedAt": "2026-10-21T08:01:28.055Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 288,
@@ -79,17 +77,17 @@
         "product": 84
       },
       "changeCounts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
-        "lastmodChanged": 98
+        "lastmodChanged": 102
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 98,
+        "lastmodPagesNeedingContentCheck": 102,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 2,
+        "inspectedPages": 1,
         "meaningfulChanges": 1,
         "errors": []
       }
@@ -104,7 +102,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-19T07:56:05.306Z",
+      "checkedAt": "2026-10-21T08:01:31.608Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -117,16 +115,16 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 78
+        "lastmodChanged": 80
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 78,
+        "lastmodPagesNeedingContentCheck": 80,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
-        "meaningfulChanges": 1,
+        "meaningfulChanges": 0,
         "errors": []
       }
     },
@@ -140,34 +138,634 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-19T07:56:08.127Z",
+      "checkedAt": "2026-10-21T08:01:34.368Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 299,
+      "pageCount": 302,
       "breakdown": {
         "page": 38,
-        "blog": 157,
-        "collection": 18,
+        "blog": 159,
+        "collection": 19,
         "product": 86
       },
       "changeCounts": {
-        "added": 7,
+        "added": 4,
         "removed": 1,
-        "lastmodChanged": 100
+        "lastmodChanged": 102
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 100,
+        "lastmodPagesNeedingContentCheck": 102,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 8,
+        "inspectedPages": 5,
         "meaningfulChanges": 1,
         "errors": []
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-CB4C06BDBF1D"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-AAFA0AFC742D"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/luba-awd-series",
+      "pageType": "collection",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "e4cc0aa1bed40925dd6ddb4ab070b97c4880fc403f25bc7b76dec9e1485f6610",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.54
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.46,
+            "probabilities": {
+              "product_launch": 0.27,
+              "promotion": 0.54,
+              "price_change": 0,
+              "availability_change": 0.04,
+              "messaging_or_cta": 0.02,
+              "routine_content_refresh": 0.04,
+              "other": 0.09
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.57,
+            "probabilities": {
+              "not_launch_related": 0.64,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0.04,
+              "preorder": 0,
+              "on_sale": 0.29
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.81,
+            "confidence": 0.57,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.05,
+              "1": 0.03,
+              "2": 0.15,
+              "3": 0.61,
+              "4": 0.16
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.1,
+            "probabilities": {
+              "none": 0.45,
+              "event_1": 0.55
+            }
+          }
+        },
+        "latencyMs": 147,
+        "usage": {
+          "input_tokens": 3884,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-21T08:01:38.799Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-F07C14EE643F"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/yuka-series",
+      "pageType": "collection",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "2e01169abf9c82f752efb7d2b64694de8bf6378b0cb8dc64bc5c6b12db937e73",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.49
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.38,
+            "probabilities": {
+              "product_launch": 0.36,
+              "promotion": 0.47,
+              "price_change": 0,
+              "availability_change": 0.04,
+              "messaging_or_cta": 0.02,
+              "routine_content_refresh": 0.05,
+              "other": 0.06
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.45,
+            "probabilities": {
+              "not_launch_related": 0.54,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0.07,
+              "preorder": 0,
+              "on_sale": 0.36
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.69,
+            "confidence": 0.55,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.05,
+              "1": 0.04,
+              "2": 0.19,
+              "3": 0.6,
+              "4": 0.12
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.1,
+            "probabilities": {
+              "none": 0.45,
+              "event_1": 0.55
+            }
+          }
+        },
+        "latencyMs": 339,
+        "usage": {
+          "input_tokens": 3799,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-21T08:01:39.604Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-98FD69C78388"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/serie-yuka",
+      "pageType": "collection",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-D8F1352FF09E"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "product_name"
+      ],
+      "summary": "页面关键内容变化：headings、cta、product_name，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "6e9493e69b76352480557ca68f08be93bf8e3303293d4ea87cd903f1dba3d2d7",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.46
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "messaging_or_cta",
+            "confidence": 0.65,
+            "probabilities": {
+              "product_launch": 0.24,
+              "promotion": 0.01,
+              "price_change": 0,
+              "availability_change": 0.01,
+              "messaging_or_cta": 0.7,
+              "routine_content_refresh": 0.04,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.68,
+            "probabilities": {
+              "not_launch_related": 0.73,
+              "weak_signal": 0.13,
+              "teaser": 0.02,
+              "announcement": 0.08,
+              "preorder": 0,
+              "on_sale": 0.04
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.37,
+            "confidence": 0.44,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.02,
+              "1": 0.08,
+              "2": 0.43,
+              "3": 0.45,
+              "4": 0.02
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.4,
+            "probabilities": {
+              "none": 0.3,
+              "event_1": 0.7
+            }
+          }
+        },
+        "latencyMs": 139,
+        "usage": {
+          "input_tokens": 6705,
+          "output_tokens": 219
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-21T08:01:37.161Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-1D7B045F5EDE"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-21T08:01:28.055Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "offer",
+        "product_name",
+        "body"
+      ],
+      "summary": "页面关键内容变化：headings、cta、offer、product_name、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "4ec8a53d152f63d0b20d3b3aa7b38661a70c8be0644b4973cd4e2f2762c89a50",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.5
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "messaging_or_cta",
+            "confidence": 0.95,
+            "probabilities": {
+              "product_launch": 0.01,
+              "promotion": 0.01,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.96,
+              "routine_content_refresh": 0.02,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.95,
+            "probabilities": {
+              "not_launch_related": 0.96,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.01
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.69,
+            "confidence": 0.67,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.01,
+              "1": 0.04,
+              "2": 0.25,
+              "3": 0.66,
+              "4": 0.04
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.48,
+            "probabilities": {
+              "none": 0.26,
+              "event_1": 0.74
+            }
+          }
+        },
+        "latencyMs": 153,
+        "usage": {
+          "input_tokens": 7156,
+          "output_tokens": 219
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-21T08:01:31.455Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-267BC36A8550"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-21T08:01:23.998Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-41F16E0D3898"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-21T08:01:23.998Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/about-mammotion",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-BFFC045BACBC"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-21T08:01:23.998Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/about-us",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-75699DD8299A"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-21T08:01:23.998Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "product_name"
+      ],
+      "summary": "页面关键内容变化：headings、cta、product_name，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.13.0",
+        "modelVersion": "jev-1.13.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "a563edb6300b6817c630d655080ee850ccacf9641c136a630b6a8dd53a5a8294",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.24
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "messaging_or_cta",
+            "confidence": 0.91,
+            "probabilities": {
+              "product_launch": 0.01,
+              "promotion": 0,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.92,
+              "routine_content_refresh": 0.06,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.96,
+            "probabilities": {
+              "not_launch_related": 0.97,
+              "weak_signal": 0.03,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.17,
+            "confidence": 0.54,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.02,
+              "1": 0.15,
+              "2": 0.49,
+              "3": 0.32,
+              "4": 0.02
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.16,
+            "probabilities": {
+              "none": 0.42,
+              "event_1": 0.58
+            }
+          }
+        },
+        "latencyMs": 200,
+        "usage": {
+          "input_tokens": 5873,
+          "output_tokens": 219
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-21T08:01:26.951Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-7C84CCB569E2"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -1505,7 +2103,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-20T07:56:42.359Z",
+    "checkedAt": "2026-10-21T08:01:39.892Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1517,13 +2115,13 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-20T07:56:42.359Z",
+        "checkedAt": "2026-10-21T08:01:39.892Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-16T03:29:52-07:00",
+        "latestPublishedAt": "2026-10-20T02:29:42-07:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 1
         },
         "snapshotCoverage": {
@@ -1541,17 +2139,17 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-20T07:56:42.359Z",
+        "checkedAt": "2026-10-21T08:01:39.892Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-09-08T05:51:34+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 1
+          "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 28,
+          "captured": 30,
           "total": 30,
           "backfilled": 2
         }
@@ -1565,7 +2163,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-20T07:56:42.359Z",
+        "checkedAt": "2026-10-21T08:01:39.892Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1575,7 +2173,7 @@
           "updated": 0
         },
         "snapshotCoverage": {
-          "captured": 28,
+          "captured": 30,
           "total": 30,
           "backfilled": 2
         }
@@ -1589,14 +2187,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-20T07:56:42.359Z",
+        "checkedAt": "2026-10-21T08:01:39.892Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-19T11:55:28+02:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1607,101 +2205,86 @@
     ],
     "recentRecords": [
       {
-        "recordId": "CH-HIST-0696A37A5EF6",
-        "sourceId": "mammotion-uk-blog",
+        "recordId": "CH-A42BCB630A6B",
+        "sourceId": "mammotion-us-blog",
         "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
+        "country": "美国",
+        "countryCode": "US",
         "channel": "blog",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "LUBA 4 AWD 三大核心功能详解",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features",
-        "publishDate": "2026-09-14T08:15:57+01:00",
-        "updatedAt": "",
-        "discoveredAt": "2026-10-21T03:42:24.409Z",
-        "summary": "英国官方 Blog 解读四摄像头环视、草坪友好四驱与自动切边，并链接 IFA 新品总览。切边为部分型号的可选配件；文章仍引导关注后续可用时间。",
-        "contentFetch": null,
-        "contentEvidence": {
-          "contentHash": "ad9cd0b5ec21ac99ee9a4ebf2825ed394da88f573d5dfa0fd69e03481f2aec26",
-          "captureHash": "3151d3d86023f2273dad7c5410b93e7ad2e7c6ddef87c9983c2336afbf44dc87",
-          "capturedAt": "2026-10-21T03:42:24.409Z",
-          "articleUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features",
-          "listingUrl": "https://uk.mammotion.com/blogs/news.atom",
-          "dateSource": "atom.published",
-          "bodySource": "blog-article-v1",
-          "campaignCorroboratingUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
-          "status": "historical_snapshot"
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Best Time to Spray Weed Killer: A Complete Lawn Care Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
+        "publishDate": "2026-10-20T02:29:42-07:00",
+        "updatedAt": "2026-10-20T02:29:43-07:00",
+        "discoveredAt": "2026-10-21T08:01:39.892Z",
+        "summary": "Discover the best time to spray weed killer by time of day, season, and weather. Learn when to apply it and how to avoid common lawn care mistakes. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
         },
-        "systemAssessment": null,
-        "humanAssessment": {
-          "newProductRelation": "related",
-          "reviewedAt": "2026-10-21T03:46:17.229Z"
-        }
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "5c81ae3dc1c1d40cb619286fb7b0d7433dfd5a2f3e446e9c7940584bf5632259",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.14,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
       },
       {
-        "recordId": "CH-HIST-0D0139ACCB33",
-        "sourceId": "mammotion-uk-blog",
+        "recordId": "CH-B8033B2AF6A1",
+        "sourceId": "mammotion-us-blog",
         "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
+        "country": "美国",
+        "countryCode": "US",
         "channel": "blog",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "IFA 新品 LUBA 4 AWD 型号、规格与预购计划",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
-        "publishDate": "2026-09-11T10:01:56+01:00",
-        "updatedAt": "",
-        "discoveredAt": "2026-10-21T03:42:25.294Z",
-        "summary": "英国官方 Blog 回顾 LUBA 4 在 IFA 亮相及奖项，比较 3000F、6000F、12000F，披露 Q4 预购计划、价格未公布；切边需另购且 12000F 不兼容。",
-        "contentFetch": null,
-        "contentEvidence": {
-          "contentHash": "7b074eef4cd173f0cff28f7c7a874b149f0d949fe6fce6ab934902182178689c",
-          "captureHash": "030dd2c0f14ca775175b902f7d407e8e212fa5f2c4d12b77b3c3527a41442c15",
-          "capturedAt": "2026-10-21T03:42:25.294Z",
-          "articleUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
-          "listingUrl": "https://uk.mammotion.com/blogs/news.atom",
-          "dateSource": "atom.published",
-          "bodySource": "blog-article-v1",
-          "status": "historical_snapshot"
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-20T02:38:38-07:00",
+        "discoveredAt": "2026-10-21T08:01:39.892Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
         },
-        "systemAssessment": null,
-        "humanAssessment": {
-          "newProductRelation": "related",
-          "reviewedAt": "2026-10-21T03:46:17.282Z"
-        }
-      },
-      {
-        "recordId": "CH-HIST-3DAFF1FC9C07",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "IFA 新品 LUBA 4 AWD 法国站发布总览",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
-        "publishDate": "2026-09-11T11:45:48+02:00",
-        "updatedAt": "",
-        "discoveredAt": "2026-10-21T03:42:25.429Z",
-        "summary": "法国官方 Blog 回顾 IFA 首秀、奖项及三款 LUBA 4 的规格差异，介绍四摄像头、LiDAR、NetRTK 和双向行驶。文章列出 Q4 预购计划，价格尚未公布，不能视为法国已开售。",
-        "contentFetch": null,
         "contentEvidence": {
-          "contentHash": "bdbb9b4a84d24d4fbc4caf4969334252dca5575ee9b6dd6ef71b10d8e9ee3fc8",
-          "captureHash": "349de0cf89d883721022044929d7ac3286e76a4c4ffea79a34f8069ca93e4cb2",
-          "capturedAt": "2026-10-21T03:42:25.429Z",
-          "articleUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
-          "listingUrl": "https://fr.mammotion.com/blogs/news.atom",
-          "dateSource": "atom.published",
-          "bodySource": "blog-article-v1",
-          "status": "historical_snapshot"
+          "status": "changed_content",
+          "beforeHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
+          "afterHash": "6b61dc6c51b0bf3d859de76f80edd06a908408e1089f9b0beb8d958430391a2e",
+          "changedFields": [
+            "headings",
+            "cta",
+            "product_name"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
         },
-        "systemAssessment": null,
-        "humanAssessment": {
-          "newProductRelation": "related",
-          "reviewedAt": "2026-10-21T03:46:17.321Z"
-        }
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.13,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
       },
       {
         "recordId": "CH-HIST-F2D647B0066C",
@@ -1737,63 +2320,100 @@
         }
       },
       {
-        "recordId": "CH-HIST-31FEF3C32C73",
-        "sourceId": "mammotion-de-blog",
+        "recordId": "CH-HIST-3DAFF1FC9C07",
+        "sourceId": "mammotion-fr-blog",
         "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
+        "country": "法国",
+        "countryCode": "FR",
         "channel": "blog",
         "changeType": "historical_publication",
         "reviewStatus": "approved",
-        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（德国 Blog）",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/luba-4-awd",
-        "publishDate": "2026-09-08T05:51:34+02:00",
+        "title": "IFA 新品 LUBA 4 AWD 法国站发布总览",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
+        "publishDate": "2026-09-11T11:45:48+02:00",
         "updatedAt": "",
-        "discoveredAt": "2026-10-09T09:39:58.390Z",
-        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "discoveredAt": "2026-10-21T03:42:25.429Z",
+        "summary": "法国官方 Blog 回顾 IFA 首秀、奖项及三款 LUBA 4 的规格差异，介绍四摄像头、LiDAR、NetRTK 和双向行驶。文章列出 Q4 预购计划，价格尚未公布，不能视为法国已开售。",
         "contentFetch": null,
         "contentEvidence": {
-          "url": "https://de.mammotion.com/blogs/news/luba-4-awd",
-          "capturedAt": "2026-10-09T09:39:58.390Z",
-          "contentHash": "d6037093ae83f4e6b95100df3fa15c86bc3d624eede7d42e19c2e59c51129e1c",
-          "dateSource": "official_feed.publishedAt",
-          "bodySource": "saved_article_snapshot",
+          "contentHash": "bdbb9b4a84d24d4fbc4caf4969334252dca5575ee9b6dd6ef71b10d8e9ee3fc8",
+          "captureHash": "349de0cf89d883721022044929d7ac3286e76a4c4ffea79a34f8069ca93e4cb2",
+          "capturedAt": "2026-10-21T03:42:25.429Z",
+          "articleUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
+          "listingUrl": "https://fr.mammotion.com/blogs/news.atom",
+          "dateSource": "atom.published",
+          "bodySource": "blog-article-v1",
           "status": "historical_snapshot"
         },
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
-          "reviewedAt": "2026-10-20T10:41:04.116Z"
+          "reviewedAt": "2026-10-21T03:46:17.321Z"
         }
       },
       {
-        "recordId": "CH-HIST-68EBFFA6BEC6",
-        "sourceId": "mammotion-us-blog",
+        "recordId": "CH-HIST-0D0139ACCB33",
+        "sourceId": "mammotion-uk-blog",
         "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
+        "country": "英国",
+        "countryCode": "UK",
         "channel": "blog",
         "changeType": "historical_publication",
         "reviewStatus": "approved",
-        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（美国 Blog）",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/luba-4-awd",
-        "publishDate": "2026-09-07T20:09:58-07:00",
+        "title": "IFA 新品 LUBA 4 AWD 型号、规格与预购计划",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+        "publishDate": "2026-09-11T10:01:56+01:00",
         "updatedAt": "",
-        "discoveredAt": "2026-10-10T09:05:38.206Z",
-        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "discoveredAt": "2026-10-21T03:42:25.294Z",
+        "summary": "英国官方 Blog 回顾 LUBA 4 在 IFA 亮相及奖项，比较 3000F、6000F、12000F，披露 Q4 预购计划、价格未公布；切边需另购且 12000F 不兼容。",
         "contentFetch": null,
         "contentEvidence": {
-          "url": "https://us.mammotion.com/blogs/news/luba-4-awd",
-          "capturedAt": "2026-10-10T09:05:38.206Z",
-          "contentHash": "c9767f8d4a10ac56783d19c6f5c7316fe283d38493ca94f560954fbd0f199dc4",
-          "dateSource": "official_feed.publishedAt",
-          "bodySource": "saved_article_snapshot",
+          "contentHash": "7b074eef4cd173f0cff28f7c7a874b149f0d949fe6fce6ab934902182178689c",
+          "captureHash": "030dd2c0f14ca775175b902f7d407e8e212fa5f2c4d12b77b3c3527a41442c15",
+          "capturedAt": "2026-10-21T03:42:25.294Z",
+          "articleUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+          "listingUrl": "https://uk.mammotion.com/blogs/news.atom",
+          "dateSource": "atom.published",
+          "bodySource": "blog-article-v1",
           "status": "historical_snapshot"
         },
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
-          "reviewedAt": "2026-10-20T10:41:04.277Z"
+          "reviewedAt": "2026-10-21T03:46:17.282Z"
+        }
+      },
+      {
+        "recordId": "CH-HIST-0696A37A5EF6",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 AWD 三大核心功能详解",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features",
+        "publishDate": "2026-09-14T08:15:57+01:00",
+        "updatedAt": "",
+        "discoveredAt": "2026-10-21T03:42:24.409Z",
+        "summary": "英国官方 Blog 解读四摄像头环视、草坪友好四驱与自动切边，并链接 IFA 新品总览。切边为部分型号的可选配件；文章仍引导关注后续可用时间。",
+        "contentFetch": null,
+        "contentEvidence": {
+          "contentHash": "ad9cd0b5ec21ac99ee9a4ebf2825ed394da88f573d5dfa0fd69e03481f2aec26",
+          "captureHash": "3151d3d86023f2273dad7c5410b93e7ad2e7c6ddef87c9983c2336afbf44dc87",
+          "capturedAt": "2026-10-21T03:42:24.409Z",
+          "articleUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-core-features",
+          "listingUrl": "https://uk.mammotion.com/blogs/news.atom",
+          "dateSource": "atom.published",
+          "bodySource": "blog-article-v1",
+          "campaignCorroboratingUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+          "status": "historical_snapshot"
+        },
+        "systemAssessment": null,
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "reviewedAt": "2026-10-21T03:46:17.229Z"
         }
       },
       {
@@ -2801,6 +3421,36 @@
         "humanAssessment": null
       },
       {
+        "recordId": "CH-HIST-68EBFFA6BEC6",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（美国 Blog）",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/luba-4-awd",
+        "publishDate": "2026-09-07T20:09:58-07:00",
+        "updatedAt": "",
+        "discoveredAt": "2026-10-10T09:05:38.206Z",
+        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "contentFetch": null,
+        "contentEvidence": {
+          "url": "https://us.mammotion.com/blogs/news/luba-4-awd",
+          "capturedAt": "2026-10-10T09:05:38.206Z",
+          "contentHash": "c9767f8d4a10ac56783d19c6f5c7316fe283d38493ca94f560954fbd0f199dc4",
+          "dateSource": "official_feed.publishedAt",
+          "bodySource": "saved_article_snapshot",
+          "status": "historical_snapshot"
+        },
+        "systemAssessment": null,
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "reviewedAt": "2026-10-20T10:41:04.277Z"
+        }
+      },
+      {
         "recordId": "CH-9AFB68DBC0CD",
         "sourceId": "mammotion-fr-blog",
         "brand": "Mammotion",
@@ -2837,6 +3487,36 @@
           "priorityConfidence": 0.85
         },
         "humanAssessment": null
+      },
+      {
+        "recordId": "CH-HIST-31FEF3C32C73",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "historical_publication",
+        "reviewStatus": "approved",
+        "title": "LUBA 4 AWD：IFA 新品功能与上市信息（德国 Blog）",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/luba-4-awd",
+        "publishDate": "2026-09-08T05:51:34+02:00",
+        "updatedAt": "",
+        "discoveredAt": "2026-10-09T09:39:58.390Z",
+        "summary": "官方 Blog 介绍 IFA 亮相的 LUBA 4 AWD，突出四摄像头、360° LiDAR 与 NetRTK 融合定位、独立前轮转向及双向行驶；切边模块需另购，12000F 不兼容。不据此认定已开售。",
+        "contentFetch": null,
+        "contentEvidence": {
+          "url": "https://de.mammotion.com/blogs/news/luba-4-awd",
+          "capturedAt": "2026-10-09T09:39:58.390Z",
+          "contentHash": "d6037093ae83f4e6b95100df3fa15c86bc3d624eede7d42e19c2e59c51129e1c",
+          "dateSource": "official_feed.publishedAt",
+          "bodySource": "saved_article_snapshot",
+          "status": "historical_snapshot"
+        },
+        "systemAssessment": null,
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "reviewedAt": "2026-10-20T10:41:04.116Z"
+        }
       },
       {
         "recordId": "CH-599250CA14FE",
@@ -3021,6 +3701,88 @@
     ],
     "pendingRecords": [
       {
+        "recordId": "CH-A42BCB630A6B",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Best Time to Spray Weed Killer: A Complete Lawn Care Guide",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
+        "publishDate": "2026-10-20T02:29:42-07:00",
+        "updatedAt": "2026-10-20T02:29:43-07:00",
+        "discoveredAt": "2026-10-21T08:01:39.892Z",
+        "summary": "Discover the best time to spray weed killer by time of day, season, and weather. Learn when to apply it and how to avoid common lawn care mistakes. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "5c81ae3dc1c1d40cb619286fb7b0d7433dfd5a2f3e446e9c7940584bf5632259",
+          "changedFields": []
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.14,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-B8033B2AF6A1",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+        "publishDate": "2026-10-14T00:37:32-07:00",
+        "updatedAt": "2026-10-20T02:38:38-07:00",
+        "discoveredAt": "2026-10-21T08:01:39.892Z",
+        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
+          "afterHash": "6b61dc6c51b0bf3d859de76f80edd06a908408e1089f9b0beb8d958430391a2e",
+          "changedFields": [
+            "headings",
+            "cta",
+            "product_name"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": ""
+        },
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.13,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
+      {
         "recordId": "CH-24FB595BB9F9",
         "sourceId": "mammotion-us-blog",
         "brand": "Mammotion",
@@ -4061,340 +4823,6 @@
           "priorityConfidence": 0.85
         },
         "humanAssessment": null
-      }
-    ]
-  },
-  "prMonitoring": {
-    "checkedAt": "2026-10-20T06:51:45.441Z",
-    "sources": [
-      {
-        "source": {
-          "id": "pr-de-chip-mammotion",
-          "sourceType": "media",
-          "outlet": "CHIP",
-          "brand": "Mammotion",
-          "country": "德国",
-          "countryCode": "DE",
-          "channel": "pr",
-          "url": "https://www.chip.de/sitemap-articles-index.xml"
-        },
-        "checkedAt": "2026-10-20T06:51:45.441Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 4113,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
-      },
-      {
-        "source": {
-          "id": "pr-de-computerbild-news-mammotion",
-          "sourceType": "media",
-          "outlet": "Computer Bild",
-          "brand": "Mammotion",
-          "country": "德国",
-          "countryCode": "DE",
-          "channel": "pr",
-          "url": "https://www.computerbild.de/News-Garten-33394641.html"
-        },
-        "checkedAt": "2026-10-20T06:51:45.441Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 0,
-        "pendingArticleCount": 0,
-        "fetchedCount": 20,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
-      },
-      {
-        "source": {
-          "id": "pr-de-computerbild-reviews-mammotion",
-          "sourceType": "media",
-          "outlet": "Computer Bild — Garten Tests",
-          "brand": "Mammotion",
-          "country": "德国",
-          "countryCode": "DE",
-          "channel": "pr",
-          "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
-        },
-        "checkedAt": "2026-10-20T06:51:45.441Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 2,
-        "discoveredUrlCount": 0,
-        "pendingArticleCount": 0,
-        "fetchedCount": 17,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
-      },
-      {
-        "source": {
-          "id": "pr-us-popularmechanics-mammotion",
-          "sourceType": "media",
-          "outlet": "Popular Mechanics",
-          "brand": "Mammotion",
-          "country": "美国",
-          "countryCode": "US",
-          "channel": "pr",
-          "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
-        },
-        "checkedAt": "2026-10-20T06:51:45.441Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 345,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
-      },
-      {
-        "source": {
-          "id": "pr-uk-t3-mammotion",
-          "sourceType": "media",
-          "outlet": "T3",
-          "brand": "Mammotion",
-          "country": "英国",
-          "countryCode": "UK",
-          "channel": "pr",
-          "url": "https://www.t3.com/sitemap.xml"
-        },
-        "checkedAt": "2026-10-20T06:51:45.441Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 4,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
-      }
-    ],
-    "recentRecords": [
-      {
-        "recordId": "PR-HIST-B7E3488D5F92",
-        "sourceId": "pr-uk-t3-mammotion",
-        "sourceType": "media",
-        "outlet": "T3",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "pr",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "T3 报道 IFA LUBA 4 发布及 Maston 商用系列",
-        "sourceUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
-        "publishDate": "2026-09-03T11:55:00+00:00",
-        "discoveredAt": "2026-10-21T03:43:01.478Z",
-        "themeAssessment": {
-          "tags": [
-            "product_launch",
-            "event"
-          ],
-          "method": "keyword_v1",
-          "reviewRequired": true
-        },
-        "evidence": {
-          "listingUrl": "https://www.t3.com/sitemap.xml",
-          "articleUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
-          "capturedAt": "2026-10-21T03:43:01.478Z",
-          "sourceType": "media",
-          "outlet": "T3",
-          "countryBasis": "publisher_market",
-          "matchedBrandTerms": [
-            "Mammotion"
-          ],
-          "titleSource": "jsonld.headline",
-          "dateSource": "jsonld.datePublished",
-          "dateCandidates": [
-            {
-              "source": "jsonld.datePublished",
-              "value": "2026-09-03T11:55:00+00:00"
-            },
-            {
-              "source": "meta.published_time",
-              "value": "2026-09-03T11:55:00Z"
-            },
-            {
-              "source": "time.datetime",
-              "value": "2026-09-03T11:55:00Z"
-            }
-          ],
-          "contentHash": "f360d6231290a7e18e4d7d6cc26daeb8722c4c62b02ffc9a556df850a76e24ea",
-          "bodySource": "div.article-body",
-          "captureHash": "4a828dfe1052a3799b28170ae45950af32ea4dc2864d710bf2c579e13221b495"
-        }
-      },
-      {
-        "recordId": "PR-HIST-4C2A5F258CD7",
-        "sourceId": "pr-de-computerbild-news-mammotion",
-        "sourceType": "media",
-        "outlet": "Computer Bild",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "pr",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "Computer Bild 将 LUBA 4 列入 IFA 展会亮点奖",
-        "sourceUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
-        "publishDate": "2026-09-02T14:11:00.000Z",
-        "discoveredAt": "2026-10-21T03:43:35.573Z",
-        "themeAssessment": {
-          "tags": [
-            "review",
-            "event",
-            "award"
-          ],
-          "method": "keyword_v1",
-          "reviewRequired": true
-        },
-        "evidence": {
-          "listingUrl": "https://www.computerbild.de/News-Garten-33394641.html",
-          "articleUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
-          "capturedAt": "2026-10-21T03:43:35.573Z",
-          "sourceType": "media",
-          "outlet": "Computer Bild",
-          "countryBasis": "publisher_market",
-          "matchedBrandTerms": [
-            "Mammotion"
-          ],
-          "titleSource": "jsonld.headline",
-          "dateSource": "jsonld.datePublished",
-          "dateCandidates": [
-            {
-              "source": "jsonld.datePublished",
-              "value": "2026-09-02T14:11:00.000Z"
-            }
-          ],
-          "contentHash": "c86b7ec01836e344bb1a21c3ad9abe2ce1dd4411b70812d3044374a0e4541a38",
-          "bodySource": "jsonld.articleBody",
-          "captureHash": "b4543f9b8348147420ea7751113d9cf2eff138ce23e63ace0d94acaf3e93731e",
-          "discoveryMethod": "public_search_manual_historical_followup",
-          "discoveryUrl": "https://www.computerbild.de/artikel/Messe-IFA-Beitraege-IFA-Award-Highlights-Die-besten-Neuheiten-fuer-Haus-Garten-und-Alltag-41198003.html",
-          "listingMembershipVerified": false
-        }
-      },
-      {
-        "recordId": "PR-HIST-8CA4AFA8B836",
-        "sourceId": "pr-uk-t3-mammotion",
-        "sourceType": "media",
-        "outlet": "T3",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "pr",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "LUBA 4 入选 T3 Best of IFA 2026",
-        "sourceUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
-        "publishDate": "2026-09-04T18:03:55+00:00",
-        "discoveredAt": "2026-10-21T03:43:36.808Z",
-        "themeAssessment": {
-          "tags": [
-            "product_launch",
-            "review",
-            "event"
-          ],
-          "method": "keyword_v1",
-          "reviewRequired": true
-        },
-        "evidence": {
-          "listingUrl": "https://www.t3.com/sitemap.xml",
-          "articleUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
-          "capturedAt": "2026-10-21T03:43:36.808Z",
-          "sourceType": "media",
-          "outlet": "T3",
-          "countryBasis": "publisher_market",
-          "matchedBrandTerms": [
-            "Mammotion"
-          ],
-          "titleSource": "jsonld.headline",
-          "dateSource": "jsonld.datePublished",
-          "dateCandidates": [
-            {
-              "source": "jsonld.datePublished",
-              "value": "2026-09-04T18:03:55+00:00"
-            },
-            {
-              "source": "meta.published_time",
-              "value": "2026-09-04T18:03:55Z"
-            },
-            {
-              "source": "time.datetime",
-              "value": "2026-09-04T18:03:55Z"
-            }
-          ],
-          "contentHash": "6aa3ae33abf8d57f3069393d92dbff3d91d717bcfbdfe6d42b0c5003e535f31d",
-          "bodySource": "div.article-body",
-          "captureHash": "88bebb230ef7de60210494e6ab11541b79d1923ee22e4ac8d439067fc31f3491",
-          "discoveryMethod": "public_search_manual_historical_followup",
-          "discoveryUrl": "https://www.t3.com/tech-events/best-of-ifa-2026-t3-awards",
-          "listingMembershipVerified": false
-        }
-      },
-      {
-        "recordId": "PR-HIST-A9B933181385",
-        "sourceId": "pr-de-chip-mammotion",
-        "sourceType": "media",
-        "outlet": "CHIP",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "pr",
-        "changeType": "historical_publication",
-        "reviewStatus": "approved",
-        "title": "CHIP 将 LUBA 4 AWD 系列列入 IFA 2026 亮点",
-        "sourceUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
-        "publishDate": "2026-09-09T10:15:00+02:00",
-        "discoveredAt": "2026-10-20T10:39:13.575Z",
-        "themeAssessment": {
-          "tags": [
-            "review",
-            "event",
-            "award"
-          ],
-          "method": "keyword_v1",
-          "reviewRequired": true
-        },
-        "evidence": {
-          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
-          "articleUrl": "https://www.chip.de/news/messen-events/chip-highlights-der-ifa-2026-diese-produktneuheiten-haben-uns-beeindruckt_7c77e52c-f292-4752-8ecc-01c328503f02.html",
-          "capturedAt": "2026-10-20T10:39:13.575Z",
-          "sourceType": "media",
-          "outlet": "CHIP",
-          "countryBasis": "publisher_market",
-          "matchedBrandTerms": [
-            "Mammotion"
-          ],
-          "titleSource": "jsonld.headline",
-          "dateSource": "jsonld.datePublished",
-          "dateCandidates": [
-            {
-              "source": "jsonld.datePublished",
-              "value": "2026-09-09T08:15:00.000Z"
-            },
-            {
-              "source": "meta.published_time",
-              "value": "2026-09-09T10:15:00+02:00"
-            },
-            {
-              "source": "time.datetime",
-              "value": "2026-09-09T08:15:00.000Z"
-            }
-          ],
-          "contentHash": "5a1a725f19cca82b2a9318f7bbd4d1849be593c5b9b82f4ad3262e9f7d44d691",
-          "bodySource": "article",
-          "captureHash": "7bbfa6e826e38fcfe7e8a71890e3c18937df1c95143c1f482016ca986d652ebd"
-        }
       }
     ]
   }
