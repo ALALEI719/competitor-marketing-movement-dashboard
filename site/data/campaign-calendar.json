@@ -15,7 +15,7 @@
         "leadDays": 7,
         "tailDays": 7
       },
-      "coverageNote": "首批仅 Mammotion：美德 Blog 与德国媒体报道已回溯，全球官网为人工台账记录（现址直连404）。广告历史尚未补齐；本机 EDM 归档未覆盖该时段。其余竞品仍待补证，不视为全品牌、全渠道完成。"
+      "coverageNote": "首批仅 Mammotion：美德 Blog 与德国媒体报道已回溯，全球官网为人工台账记录（现址直连404）。广告历史尚未补齐；本机 EDM 归档未覆盖该时段。其余竞品仍待补证，不视为全品牌、全渠道完成。 上轮两条媒体线索仍待补证；名单外品牌不纳入本次竞品回溯。"
     },
     {
       "id": "galabau-2026",
@@ -60,6 +60,21 @@
         "end": "2027-01-20",
         "leadDays": 22,
         "tailDays": 11
+      }
+    },
+    {
+      "id": "bfcm-2026",
+      "title": "Black Friday / Cyber Monday 2026",
+      "start": "2026-11-27",
+      "end": "2026-11-30",
+      "sourceUrl": "https://www.shopify.com/blog/bfcm-promotion-ideas",
+      "additionalSourceUrl": "https://www.shopify.com/uk/blog/cyber-monday",
+      "dateBasis": "published_retail_calendar",
+      "monitoringWindow": {
+        "start": "2026-11-01",
+        "end": "2026-12-05",
+        "leadDays": 26,
+        "tailDays": 5
       }
     }
   ],
