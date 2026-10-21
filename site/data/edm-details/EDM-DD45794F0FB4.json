@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-DD45794F0FB4",
+  "actionId": "ACT-EDM-DD45794F0FB4",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "法国",
+  "sentAt": "2026-10-21T07:30:20.000Z",
+  "subject": "MOVA 法国秋季割草机优惠：最高减 600 欧元",
+  "contentSummary": "MOVA 法国站邮件推广六款割草机器人，宣称最高减 600 欧元，并在多张商品卡宣传加 1 欧元购车库。价格为 2026 年 10 月 21 日邮件当日宣称，截止日期未注明；部分卡片另带 Prime Day Sale 标签，活动归属不明。擦窗机器人仅为混合邮件背景。",
+  "bodyParagraphs": [
+    "法文邮件以秋季精选优惠为主题，主视觉展示三台割草机器人，并宣称庭院产品最高减 600 欧元。",
+    "主要割草机卡片显示：LiDAX Ultra 1000 AWD 1299 欧元，划线价 1599 欧元、减 300 欧元；LiDAX Ultra 800 699 欧元，划线价 949 欧元、减 250 欧元。两者均宣传加 1 欧元购车库，并附产品功能宣传。",
+    "后续卡片显示 LiDAX Ultra 1600 AWD 1499 欧元，划线价 1899 欧元、减 400 欧元；LiDAX Ultra 1200 849 欧元，划线价 1099 欧元、减 250 欧元；ViAX 500 549 欧元，划线价 749 欧元、减 200 欧元；LiDAX Ultra 2000 AWD 1599 欧元，划线价 2199 欧元、减 600 欧元。各卡片均宣传加 1 欧元购车库。",
+    "邮件还包含 T1 Station 擦窗机器人卡片，仅作混合品类背景。尾部展示退货、配送、客服、保修及价格保障主张。多张割草机卡片带 Prime Day Sale 标签，与秋季主题并存；邮件未注明活动截止日期。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-01.png",
+      "description": "MOVA 品牌横幅，副标 Powered by Dreame。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-02.png",
+      "description": "秋季庭院主视觉展示三台割草机器人，宣称最高减 600 欧元。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-03.png",
+      "description": "LiDAX Ultra 1000 AWD 图示 1299 欧元、划线价 1599 欧元、减 300 欧元；加 1 欧元购车库，并展示功能宣传。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-04.png",
+      "description": "LiDAX Ultra 800 图示 699 欧元、划线价 949 欧元、减 250 欧元；加 1 欧元购车库，并展示功能宣传。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-05.png",
+      "description": "T1 Station 擦窗机器人卡片，标新产品及 429 欧元；属非割草机背景。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-06.png",
+      "description": "LiDAX Ultra 1600 AWD 带 Prime Day Sale 标签，1499 欧元、划线价 1899 欧元、减 400 欧元，另有 1 欧元车库。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-07.png",
+      "description": "LiDAX Ultra 1200 带 Prime Day Sale 标签，849 欧元、划线价 1099 欧元、减 250 欧元，另有 1 欧元车库。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-08.png",
+      "description": "ViAX 500 带 Prime Day Sale 标签，549 欧元、划线价 749 欧元、减 200 欧元，另有 1 欧元车库。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-09.png",
+      "description": "LiDAX Ultra 2000 AWD 带 Prime Day Sale 标签，1599 欧元、划线价 2199 欧元、减 600 欧元，另有 1 欧元车库。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-10.png",
+      "description": "法文按钮图引导查看所有优惠，未给出截止日期。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-DD45794F0FB4/image-11.png",
+      "description": "MOVA 购买保障图展示保修条件、退货、配送、客服及价格保障等主张。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

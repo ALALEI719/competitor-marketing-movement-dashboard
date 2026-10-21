@@ -65,6 +65,17 @@
       "subject": "Mammotion 英国以用户评价展示 LUBA 割草机器人",
       "summary": "英国站以客户评价推广 LUBA 3 AWD、LUBA mini 2 AWD 1500 与 1000，强调复杂地形、坡地割草和节省人工时间；邮件未注明价格或活动期限。",
       "detailRef": "./data/edm-details/EDM-8902A6B2A754.json"
+    },
+    {
+      "actionId": "ACT-EDM-DD45794F0FB4",
+      "recordId": "EDM-DD45794F0FB4",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-10-21T07:30:20.000Z",
+      "subject": "MOVA 法国秋季割草机优惠：最高减 600 欧元",
+      "summary": "法国站邮件推广六款割草机器人，宣称最高减 600 欧元，并在多张商品卡宣传加 1 欧元购车库。价格为 2026 年 10 月 21 日邮件当日宣称，截止日期未注明；部分卡片带 Prime Day Sale 标签，活动归属不明。",
+      "detailRef": "./data/edm-details/EDM-DD45794F0FB4.json"
     }
   ]
 }

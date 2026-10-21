@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-21T14:18:25.240Z",
+  "updatedAt": "2026-10-21T20:14:27.630Z",
   "actions": [
     {
       "actionId": "ACT-EDM-8902A6B2A754",
@@ -29,6 +29,34 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-21T14:18:25.240Z",
       "detailRef": "./data/edm-details/EDM-8902A6B2A754.json"
+    },
+    {
+      "actionId": "ACT-EDM-DD45794F0FB4",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-21T13:07:37.101Z",
+      "publishDate": "2026-10-21T07:30:20.000Z",
+      "title": "MOVA 法国秋季割草机优惠：最高减 600 欧元",
+      "summary": "法国站邮件推广六款割草机器人，宣称最高减 600 欧元，并在多张商品卡宣传加 1 欧元购车库。价格为 2026 年 10 月 21 日邮件当日宣称，截止日期未注明；部分卡片带 Prime Day Sale 标签，活动归属不明。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T20:14:27.630Z",
+      "detailRef": "./data/edm-details/EDM-DD45794F0FB4.json"
     },
     {
       "historicalBackfill": true,
