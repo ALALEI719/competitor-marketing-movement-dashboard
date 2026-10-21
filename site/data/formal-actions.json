@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-21T03:46:17.395Z",
+  "updatedAt": "2026-10-21T14:18:25.240Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-8902A6B2A754",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-21T13:07:38.804Z",
+      "publishDate": "2026-10-21T10:00:52.000Z",
+      "title": "Mammotion 英国以用户评价展示 LUBA 割草机器人",
+      "summary": "英国站以客户评价推广 LUBA 3 AWD、LUBA mini 2 AWD 1500 与 1000，强调复杂地形、坡地割草和节省人工时间；邮件未注明价格或活动期限。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-21T14:18:25.240Z",
+      "detailRef": "./data/edm-details/EDM-8902A6B2A754.json"
+    },
     {
       "historicalBackfill": true,
       "campaignId": "ifa-2026",

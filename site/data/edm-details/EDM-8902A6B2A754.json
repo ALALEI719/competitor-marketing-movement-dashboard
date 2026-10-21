@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-8902A6B2A754",
+  "actionId": "ACT-EDM-8902A6B2A754",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "英国",
+  "sentAt": "2026-10-21T10:00:52.000Z",
+  "subject": "Mammotion 英国以用户评价展示 LUBA 割草机器人",
+  "contentSummary": "Mammotion 英国站以客户评价推广 LUBA 3 AWD、LUBA mini 2 AWD 1500 与 1000，强调复杂地形、坡地割草和节省人工时间；同时附带 SPINO E1 泳池清洁机内容，但割草机是本次监测重点。邮件未注明价格或活动期限。",
+  "bodyParagraphs": [
+    "这封英国站客户评价专题邮件，主视觉同时出现割草机器人与泳池清洁机。正文称汇集近期客户反馈，让读者了解 Mammotion 割草机的使用体验。",
+    "LUBA 3 AWD 板块引述用户对复杂地形适应和替代有线割草机的体验；LUBA mini 2 AWD 1500 板块引述一致割草效果、角落覆盖、超过 30 度坡地及可调设置；1000 板块引述节省人工割草时间。这些均为邮件中的用户主张，非独立测试结论。",
+    "邮件还包含 SPINO E1 泳池清洁机评价，仅作混合品类背景；末尾引导比较割草机，并列出英国站配送、退款、保修和客服信息。未注明促销价格或限期优惠。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-01.png",
+      "description": "Mammotion 主视觉并列展示草坪上的割草机器人和水中的泳池清洁机，标明客户评价专题。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-02.png",
+      "description": "文字图说明汇集近期客户反馈，展示 Mammotion 割草机使用体验。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-03.png",
+      "description": "LUBA 3 AWD 复杂大草坪评价卡，配草地与机器实拍，用户称其应对不平地形并替代有线割草机。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-04.png",
+      "description": "LUBA mini 2 AWD 1500 评价卡，用户提及一致切割、角落覆盖、超过 30 度坡地及多项可调设置。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-05.png",
+      "description": "LUBA mini 2 AWD 1000 评价卡，展示草地上的机器；用户称节省约三小时人工时间。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-06.png",
+      "description": "SPINO E1 泳池清洁机及用户评价，属于混合品类背景，不作为割草机动作依据。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-07.png",
+      "description": "引导比较不同割草机型号的文字按钮图，不含价格或期限。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-08.png",
+      "description": "页脚配送服务卡车图标。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-09.png",
+      "description": "页脚退款或退货服务图标。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-10.png",
+      "description": "页脚保修服务盾牌图标。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-8902A6B2A754/image-11.png",
+      "description": "页脚客服服务耳机图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

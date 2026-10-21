@@ -1,58 +1,56 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-21T03:46:17.395Z",
+  "updatedAt": "2026-10-21T14:18:25.240Z",
   "events": [
     {
-      "eventId": "EVT-26F1953FA8CC",
+      "eventId": "EVT-73F45FE37233",
       "entityId": "",
-      "campaignId": "ifa-2026",
-      "campaignTitle": "IFA 2026",
-      "actionPeriod": [
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-07",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-11",
-        "2026-09-14"
-      ],
       "brand": "Mammotion",
-      "title": "Mammotion · IFA 2026",
-      "eventType": "product_launch",
-      "firstSeenAt": "2026-10-09T09:39:58.390Z",
-      "lastSeenAt": "2026-10-21T03:43:36.808Z",
+      "title": "Mammotion 营销事件",
+      "eventType": "marketing_movement",
+      "firstSeenAt": "2026-10-21T03:42:25.294Z",
+      "lastSeenAt": "2026-10-21T03:42:25.429Z",
       "channels": [
-        "blog",
-        "pr",
-        "official_site"
+        "blog"
       ],
       "countries": [
-        "德国",
-        "美国",
-        "全球",
         "英国",
         "法国"
       ],
       "stages": [
-        "announcement",
-        "reputation",
         "content_followup"
       ],
       "actionIds": [
-        "ACT-A2C9BC1E1380",
-        "ACT-6F7BCD48738D",
-        "ACT-F5847AA27C57",
-        "ACT-AF381A45496B",
-        "ACT-FBE1A4E24571",
         "ACT-CF770BAEE1FB",
-        "ACT-4C1B4591FA5B",
-        "ACT-F473A023723A",
-        "ACT-CDBF89F8F73D",
-        "ACT-8BD8B7FEEE16",
-        "ACT-716774A6E103"
+        "ACT-4C1B4591FA5B"
       ],
-      "actionCount": 11,
+      "actionCount": 2,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    },
+    {
+      "eventId": "EVT-BE928CBA8BCF",
+      "entityId": "",
+      "brand": "Mammotion",
+      "title": "Mammotion 营销事件",
+      "eventType": "product_launch",
+      "firstSeenAt": "2026-10-09T09:39:58.390Z",
+      "lastSeenAt": "2026-10-10T09:05:38.206Z",
+      "channels": [
+        "blog"
+      ],
+      "countries": [
+        "德国",
+        "美国"
+      ],
+      "stages": [
+        "announcement"
+      ],
+      "actionIds": [
+        "ACT-A2C9BC1E1380",
+        "ACT-6F7BCD48738D"
+      ],
+      "actionCount": 2,
       "confidenceScore": 0,
       "status": "confirmed"
     }

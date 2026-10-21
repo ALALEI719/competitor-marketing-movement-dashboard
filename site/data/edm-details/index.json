@@ -54,6 +54,17 @@
       "subject": "MOVA 德国：黑五预热与割草机器人优惠",
       "summary": "10月19日邮件以黑五最高减700欧元做全品类预热，并展示四款割草机器人价格及1欧元车库优惠；商品卡另标Prime Day Sale，活动归属和截止日期未明确。",
       "detailRef": "./data/edm-details/EDM-D183E8E1E284.json"
+    },
+    {
+      "actionId": "ACT-EDM-8902A6B2A754",
+      "recordId": "EDM-8902A6B2A754",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "sentAt": "2026-10-21T10:00:52.000Z",
+      "subject": "Mammotion 英国以用户评价展示 LUBA 割草机器人",
+      "summary": "英国站以客户评价推广 LUBA 3 AWD、LUBA mini 2 AWD 1500 与 1000，强调复杂地形、坡地割草和节省人工时间；邮件未注明价格或活动期限。",
+      "detailRef": "./data/edm-details/EDM-8902A6B2A754.json"
     }
   ]
 }
