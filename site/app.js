@@ -1,4 +1,5 @@
 import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions } from './dashboard-v3.js';
+import { websiteReviewQueue } from './website-review.js';
 import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
 const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
@@ -43,11 +44,15 @@ function matchesScope(item,filters={market:market.value,brand:brand.value}){
 function safePublicUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch{return '';}}
 function canonicalReviewUrl(value){const safe=safePublicUrl(value);if(!safe)return '';const u=new URL(safe);u.search='';u.hash='';return u.href.replace(/\/$/,'');}
 function uniquePending(items){const seen=new Set();return (items||[]).filter(item=>{if(item.reviewStatus!=='pending'||!item.recordId||seen.has(item.recordId))return false;seen.add(item.recordId);return true;});}
-function reviewGroups(summary){return [
-  {channel:'官网',workflow:'review-site-record.yml',records:uniquePending(summary?.pendingRecords)},
-  {channel:'Blog',workflow:'review-channel-record.yml',records:uniquePending(summary?.channelMonitoring?.pendingRecords)},
-  {channel:'PR',workflow:'review-pr-record.yml',records:uniquePending(summary?.prMonitoring?.pendingRecords||summary?.prMonitoring?.recentRecords)}
-];}
+function reviewGroups(summary){
+  const blog=[...new Map([...(summary?.channelMonitoring?.recentRecords||[]),...(summary?.channelMonitoring?.pendingRecords||[])].map(record=>[record.recordId,record])).values()];
+  const queue=websiteReviewQueue(uniquePending(summary?.pendingRecords),blog);
+  return [
+    {channel:'官网',title:'官网与 Blog',channels:['官网','Blog'],workflow:'review-website-record.yml',linked:queue.linked,
+      records:[...queue.site.map(record=>({...record,reviewType:'官网'})),...queue.blog.map(record=>({...record,reviewType:'Blog'}))].sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt))},
+    {channel:'PR',workflow:'review-pr-record.yml',records:uniquePending(summary?.prMonitoring?.pendingRecords||summary?.prMonitoring?.recentRecords)}
+  ];
+}
 function edmDay(value){return value&&Number.isFinite(Date.parse(value))?new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date(value)):'';}
 function selectEdmItems(items,filters){
   const query=(filters.query||'').trim().toLocaleLowerCase();
@@ -170,7 +175,7 @@ function renderChannelMonitoring(monitoring){
   document.querySelector('#channel-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
   document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · ${escapeHtml(channelLabel(item.source.channel))}</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立渠道基线</div>';
   const records=(monitoring?.recentRecords||monitoring?.pendingRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
-  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史文章补录':item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-channel-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
+  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史文章补录':item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(human?.marketingTheme||system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-website-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
 }
 function renderPrMonitoring(monitoring){
   const sources=(monitoring?.sources||[]).filter(item=>matchesScope(item.source));
@@ -245,7 +250,7 @@ function renderContentView(){
   document.querySelector('#channel-edm').hidden=contentCategory!=='edm';
   document.querySelector('#channel-ads').hidden=contentCategory!=='ads';
   if(actionLoadStatus!=='ready'){document.querySelector('#channel-content-list').innerHTML='<div class="timeline-empty">'+(actionLoadStatus==='error'?'正式动作读取失败，请在总览重试。':'正在读取已确认内容…')+'</div>';renderCurrentEdm();return;}
-  renderCardsV3({container:document.querySelector('#channel-content-list'),actions:channelSelection(filteredFormalActions(),contentCategory),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
+  renderCardsV3({container:document.querySelector('#channel-content-list'),actions:channelSelection(filteredFormalActions(),contentCategory).filter(action=>contentCategory!=='web'||!document.querySelector('#website-content-type')?.value||document.querySelector('#website-content-type').value===action.channel),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
   renderCardsV3({container:document.querySelector('#ads-formal-list'),actions:channelSelection(filteredFormalActions(),'ads'),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
   renderCurrentEdm();
 }
@@ -374,23 +379,24 @@ function renderFreshness(){
   if(times.length)document.querySelector('#data-updated-at').textContent=`最近数据更新 ${displayTime(new Date(Math.max(...times)).toISOString())}（北京时间）`;
 }
 function renderReviewInbox(){
-  const all=reviewGroups(monitorSummaryState),groups=all.filter(g=>channel.value==='全部'||channel.value===g.channel).map(g=>({...g,records:g.records.filter(item=>matchesScope(item))}));
+  const all=reviewGroups(monitorSummaryState),type=document.querySelector('#website-review-type').value,groups=all.filter(g=>channel.value==='全部'||(g.channels||[g.channel]).includes(channel.value)).map(g=>({...g,linked:(g.linked||[]).filter(item=>matchesScope(item)),records:g.records.filter(item=>matchesScope(item)&&(channel.value==='全部'||(item.reviewType||g.channel)===channel.value)&&(!item.reviewType||!type||item.reviewType===type))}));
   const candidates=(monitorSummaryState?.productRadar?.candidates||[]).filter(c=>c.reviewStatus==='pending'&&matchesScope(c)&&['全部','官网'].includes(channel.value));
   const total=groups.reduce((n,g)=>n+g.records.length,0)+candidates.length;
   document.querySelector('#review-total-count').textContent=`${total} 条待审记录`;
-  document.querySelector('#review-module-counts').textContent=[...groups.map(g=>`${g.channel} ${g.records.length}`),...(['全部','官网'].includes(channel.value)?[`新品候选 ${candidates.length}`]:[])].join(' · ')+'；同页多次观察分别计数';
+  document.querySelector('#review-module-counts').textContent=[...groups.map(g=>`${g.title||g.channel} ${g.records.length}`),...(['全部','官网'].includes(channel.value)?[`新品候选 ${candidates.length}`]:[])].join(' · ')+'；已核对的同次发现共用一条复核，后续更新分别保留';
   const related=new Map();for(const g of all)for(const item of g.records){const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|');related.set(key,(related.get(key)||0)+1);}
-  document.querySelector('#review-record-groups').innerHTML=groups.length?groups.map(g=>`<section class="review-group"><h3>${escapeHtml(g.channel)} · ${g.records.length} 条待审</h3>${g.records.length?`<div class="table-wrap"><table><thead><tr><th>编号 / 关联</th><th>品牌 / 国家</th><th>发现时间</th><th>记录</th><th>复核入口</th></tr></thead><tbody>${g.records.map((item,index)=>{
+  document.querySelector('#review-record-groups').innerHTML=groups.length?groups.map(g=>`<section class="review-group"><h3>${escapeHtml(g.title||g.channel)} · ${g.records.length} 条待审</h3>${g.linked?.length?`<p>另有 ${g.linked.length} 条官网发现已关联到同次 Blog 记录，原始编号保留。</p>`:''}${g.records.length?`<div class="table-wrap"><table><thead><tr><th>编号 / 关联</th><th>品牌 / 国家</th><th>发现时间</th><th>记录</th><th>复核入口</th></tr></thead><tbody>${g.records.map((item,index)=>{
     const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|'),count=related.get(key)||1;
-    return `<tr><td><code>${escapeHtml(item.recordId)}</code>${count>1?`<small>同页 ${count} 条观察</small>`:''}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(displayTime(item.discoveredAt))}</td><td><button class="review-record-button" data-review-channel="${g.channel}" data-review-index="${index}">${escapeHtml(item.title||item.url||item.summary||'查看记录')}</button></td><td><button class="secondary compact" data-copy-record="${escapeHtml(item.recordId)}">复制编号</button> <a href="${workflowRoot+g.workflow}" target="_blank" rel="noreferrer">进入复核</a></td></tr>`;
+    return `<tr><td><code>${escapeHtml(item.recordId)}</code><small>${escapeHtml(item.reviewType||g.channel)}</small>${item.discoveryRecordIds?.length?`<small>同次官网发现：${item.discoveryRecordIds.map(escapeHtml).join('、')}</small>`:''}${count>1?`<small>同页 ${count} 次变化，分别复核</small>`:''}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(displayTime(item.discoveredAt))}</td><td><button class="review-record-button" data-review-channel="${g.channel}" data-review-index="${index}">${escapeHtml(item.title||item.url||item.summary||'查看记录')}</button></td><td><button class="secondary compact" data-copy-record="${escapeHtml(item.recordId)}">复制编号</button> <a href="${workflowRoot+g.workflow}" target="_blank" rel="noreferrer">进入复核</a></td></tr>`;
   }).join('')}</tbody></table></div>`:'<p class="timeline-empty">当前筛选下没有待审记录。</p>'}</section>`).join(''):'<div class="timeline-empty">该渠道没有公开待审队列。广告待核验线索请在认证内部看板查看。</div>';
   document.querySelectorAll('[data-review-channel]').forEach(button=>button.onclick=()=>{const group=groups.find(g=>g.channel===button.dataset.reviewChannel);showReviewRecord(group.records[Number(button.dataset.reviewIndex)],group.channel);});
   document.querySelectorAll('[data-copy-record]').forEach(button=>button.onclick=async()=>{try{await navigator.clipboard.writeText(button.dataset.copyRecord);button.textContent='已复制';}catch{button.textContent='请选中编号复制';}});
 }
 function showReviewRecord(record,channelName){
-  const source=safePublicUrl(record.url||record.sourceUrl),evidence=record.contentEvidence||{};
-  document.querySelector('#detail-title').textContent=`${channelName} 待审记录`;
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>编号</dt><dd><code>${escapeHtml(record.recordId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(record.brand)} · ${escapeHtml(record.country)}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(record.discoveredAt))}</dd><dt>发布日期</dt><dd>${escapeHtml(displayTime(record.publishDate))}</dd><dt>变化类型</dt><dd>${escapeHtml(record.changeType||record.type||'待核对')}</dd><dt>摘要</dt><dd>${escapeHtml(record.summary||'请核读原始证据')}</dd><dt>证据状态</dt><dd>${escapeHtml(evidence.status||'见现有复核流程')}${evidence.changedFields?.length?' · '+escapeHtml(evidence.changedFields.map(observationFieldLabel).join('、')):''}</dd></dl>${source?`<p><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">查看原页面</a></p>`:''}<p class="evidence">系统初判与复核结论分别保存；查看本记录不会批准、驳回或合并其他观察。</p>`;
+  const source=safePublicUrl(record.url||record.sourceUrl),evidence=record.contentEvidence||{},system=record.systemAssessment,human=record.humanAssessment;
+  const evidenceStatus=evidence.reason==='extraction_migration'?'正文提取升级，旧快照不可直接比较':({changed_content:'已存变化证据，需核对正文范围',unchanged_content:'正文未变，仅来源信息变化',missing_previous:'缺少可比前文',new_content:'新文章正文',fetch_error:'正文读取失败'})[evidence.status]||'见现有复核流程';
+  document.querySelector('#detail-title').textContent=`${record.reviewType||channelName} 待审记录`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>编号</dt><dd><code>${escapeHtml(record.recordId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(record.brand)} · ${escapeHtml(record.country)}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(record.discoveredAt))}</dd><dt>发布日期</dt><dd>${escapeHtml(displayTime(record.publishDate))}</dd><dt>变化类型</dt><dd>${escapeHtml(({new_content:'新文章',historical_publication:'历史文章补录',content_updated:'文章更新',new_page:'新页面',removed_page:'页面移除',content_change:'页面内容变化'})[record.changeType||record.type]||'待核对')}</dd><dt>摘要</dt><dd>${escapeHtml((record.summary||'请核读原始证据').replace(/&apos;/g,"'").replace(/\s*(?:More|Plus|Mehr)\s*\]\]>\s*$/i,''))}</dd><dt>证据状态</dt><dd>${escapeHtml(evidenceStatus)}${evidence.changedFields?.length?' · '+escapeHtml(evidence.changedFields.map(observationFieldLabel).join('、')):''}</dd>${system?`<dt>系统初判</dt><dd>${escapeHtml(themeLabel(system.marketingTheme))} · ${escapeHtml(newProductLabel(system.newProductRelation))}</dd>`:''}<dt>人工判断</dt><dd>${human?escapeHtml(themeLabel(human.marketingTheme)+' · '+newProductLabel(human.newProductRelation)):'待二次确认'}</dd>${record.discoveryRecordIds?.length?`<dt>同次官网发现</dt><dd>${record.discoveryRecordIds.map(escapeHtml).join('、')}</dd>`:''}</dl>${evidence.beforeExcerpt||evidence.afterExcerpt?`<div class="evidence-compare"><section><strong>变化前片段</strong><p>${escapeHtml(evidence.beforeExcerpt||'无可比片段')}</p></section><section><strong>变化后片段</strong><p>${escapeHtml(evidence.afterExcerpt||'无可比片段')}</p></section></div>`:''}${record.productExposure?.length?`<p class="evidence">文章产品露出：${record.productExposure.map(item=>escapeHtml(item.name)).join('、')}</p>`:''}${source?`<p><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">查看原页面</a></p>`:''}<p class="evidence">系统初判与复核结论分别保存；查看本记录不会批准、驳回或合并其他观察。</p>`;
   document.querySelector('#detail-dialog').showModal();
 }
 function renderScopedDashboard(){
@@ -454,6 +460,8 @@ async function showFormalAction(action){
 }
 
 // Dashboard startup.
+document.querySelector('#website-content-type').onchange=renderContentView;
+document.querySelector('#website-review-type').onchange=renderReviewInbox;
 [market,brand,channel].forEach(control=>control.addEventListener('change',()=>{
   timelineState.scroll=0;
   if(control===channel&&currentView==='content')contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','视频'].includes(channel.value)?'ads':contentCategory==='edm'||contentCategory==='pr'||contentCategory==='ads'?'web':contentCategory;
