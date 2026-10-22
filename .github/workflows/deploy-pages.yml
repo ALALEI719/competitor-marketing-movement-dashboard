@@ -47,6 +47,7 @@ jobs:
           }
           fetch_file "index.html" "site/index.html"
           fetch_file "app.js" "site/app.js"
+          fetch_file "website-review.js" "site/website-review.js"
           fetch_file "action-date.js" "site/action-date.js"
           fetch_file "dashboard-v3.js" "site/dashboard-v3.js"
           fetch_file "dashboard-v3.css" "site/dashboard-v3.css"
