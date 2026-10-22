@@ -18,10 +18,10 @@
     "channelItems": 120,
     "blogChanges": 39,
     "pendingChannelChanges": 28,
-    "prSources": 8,
-    "healthyPrSources": 8,
-    "prChanges": 4,
-    "pendingPrChanges": 0
+    "prSources": 9,
+    "healthyPrSources": 9,
+    "prChanges": 5,
+    "pendingPrChanges": 1
   },
   "sites": [
     {
@@ -4831,7 +4831,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-21T09:53:56.626Z",
+    "checkedAt": "2026-10-22T06:10:43.643Z",
     "sources": [
       {
         "source": {
@@ -4844,11 +4844,11 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4202,
+        "discoveredUrlCount": 4236,
         "pendingArticleCount": 0,
         "fetchedCount": 1,
         "bulkLastmodIgnored": false,
@@ -4866,7 +4866,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4875,7 +4875,13 @@
         "fetchedCount": 20,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "verifiedRedirects": [
+          {
+            "from": "https://www.computerbild.de/artikel/News-Haus-Garten-Neuer-Maehroboter-loest-ein-grosses-Problem-im-Garten-endlich-selbst-bf4cb64-41197519.html",
+            "to": "https://www.computerbild.de/artikel/News-Haus-Garten-Neuer-Maehroboter-loest-ein-grosses-Problem-im-Garten-endlich-selbst-a08ab0f-41197519.html",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -4888,16 +4894,22 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 2,
+        "itemCount": 1,
         "discoveredUrlCount": 0,
         "pendingArticleCount": 0,
-        "fetchedCount": 17,
+        "fetchedCount": 16,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "verifiedRedirects": [
+          {
+            "from": "https://www.computerbild.de/artikel/Tests-Garten-Guenstige-Akku-Heckenschere-schlaegt-Bosch-und-Gardena-1d84529-41154441.html",
+            "to": "https://www.computerbild.de/artikel/Tests-Garten-Guenstige-Akku-Heckenschere-schlaegt-Bosch-und-Gardena-25146bf-41154441.html",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -4910,13 +4922,13 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 345,
+        "itemCount": 2,
+        "discoveredUrlCount": 346,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -4932,7 +4944,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -4954,7 +4966,7 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -4976,11 +4988,11 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 145,
+        "discoveredUrlCount": 147,
         "pendingArticleCount": 0,
         "fetchedCount": 1,
         "bulkLastmodIgnored": false,
@@ -4999,7 +5011,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-21T09:53:56.626Z",
+        "checkedAt": "2026-10-22T06:10:43.643Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5009,9 +5021,80 @@
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-fr-20minutes-mammotion",
+          "sourceType": "media",
+          "outlet": "20 Minutes",
+          "brand": "Mammotion",
+          "country": "法国",
+          "countryCode": "FR",
+          "channel": "pr",
+          "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
+        },
+        "checkedAt": "2026-10-22T06:10:43.643Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 31,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-BD2A4DE116AE",
+        "sourceId": "pr-us-popularmechanics-mammotion",
+        "sourceType": "media",
+        "outlet": "Popular Mechanics",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "pending",
+        "title": "The 8 Best Robot Lawn Mowers That Make Yardwork Easy and Automated",
+        "sourceUrl": "https://www.popularmechanics.com/home/lawn-garden/a30460131/best-robot-lawn-mowers/",
+        "publishDate": "2020-01-17T20:37:16.932312Z",
+        "discoveredAt": "2026-10-22T05:54:05.853Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz",
+          "articleUrl": "https://www.popularmechanics.com/home/lawn-garden/a30460131/best-robot-lawn-mowers/",
+          "capturedAt": "2026-10-22T05:54:05.853Z",
+          "sourceType": "media",
+          "outlet": "Popular Mechanics",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2020-01-17T20:37:16.932312Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2020-01-17T20:37:16Z"
+            }
+          ],
+          "contentHash": "12039d64d2adc54bd271eb7fdbfba5a6b79b69f4ac50b9f77fb2a503edd2c429",
+          "bodySource": "jsonld.articleBody"
+        }
+      },
       {
         "recordId": "PR-HIST-8CA4AFA8B836",
         "sourceId": "pr-uk-t3-mammotion",
