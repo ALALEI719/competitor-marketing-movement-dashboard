@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-21T08:01:39.760Z",
+  "generatedAt": "2026-10-22T07:59:30.469Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -10,8 +10,8 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1142,
-    "pendingChanges": 40,
+    "pages": 1141,
+    "pendingChanges": 42,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-21T08:01:23.998Z",
+      "checkedAt": "2026-10-22T07:59:19.771Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 340,
@@ -45,18 +45,18 @@
         "product": 48
       },
       "changeCounts": {
-        "added": 2,
-        "removed": 1,
-        "lastmodChanged": 74
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 65
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 74,
+        "lastmodPagesNeedingContentCheck": 65,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
         "errors": []
       }
     },
@@ -70,24 +70,24 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-21T08:01:28.055Z",
+      "checkedAt": "2026-10-22T07:59:22.430Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 288,
+      "pageCount": 287,
       "breakdown": {
-        "page": 37,
+        "page": 36,
         "blog": 152,
         "collection": 15,
         "product": 84
       },
       "changeCounts": {
         "added": 0,
-        "removed": 0,
-        "lastmodChanged": 102
+        "removed": 1,
+        "lastmodChanged": 97
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 102,
+        "lastmodPagesNeedingContentCheck": 97,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -106,7 +106,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-21T08:01:31.608Z",
+      "checkedAt": "2026-10-22T07:59:25.303Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -119,11 +119,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 80
+        "lastmodChanged": 78
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 80,
+        "lastmodPagesNeedingContentCheck": 78,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -142,7 +142,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-21T08:01:34.368Z",
+      "checkedAt": "2026-10-22T07:59:27.755Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
@@ -153,23 +153,141 @@
         "product": 86
       },
       "changeCounts": {
-        "added": 4,
-        "removed": 1,
-        "lastmodChanged": 102
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 101
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 102,
+        "lastmodPagesNeedingContentCheck": 101,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 5,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
         "errors": []
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-22T07:59:22.430Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/pages/contact-us",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-F8D80DCC95B5"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-22T07:59:22.430Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "offer"
+      ],
+      "summary": "页面关键内容变化：headings、offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "8a24be7c24c45fc79392a92be93df074a86754a3ff3a4c742c4300050780eead",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "product_launch",
+            "confidence": 0.72,
+            "probabilities": {
+              "product_launch": 0.76,
+              "promotion": 0.1,
+              "price_change": 0.13,
+              "availability_change": 0.01,
+              "messaging_or_cta": 0,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "on_sale",
+            "confidence": 0.74,
+            "probabilities": {
+              "not_launch_related": 0.03,
+              "weak_signal": 0.02,
+              "teaser": 0,
+              "announcement": 0.17,
+              "preorder": 0,
+              "on_sale": 0.78
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3.16,
+            "confidence": 0.75,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0.01,
+              "2": 0.05,
+              "3": 0.71,
+              "4": 0.23
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.68,
+            "probabilities": {
+              "none": 0.16,
+              "event_1": 0.84
+            }
+          }
+        },
+        "latencyMs": 175,
+        "usage": {
+          "input_tokens": 7172,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-10-22T07:59:25.124Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-FFF2F78CA791"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -2107,7 +2225,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-21T08:01:39.892Z",
+    "checkedAt": "2026-10-22T07:59:30.647Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2119,14 +2237,14 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-21T08:01:39.892Z",
+        "checkedAt": "2026-10-22T07:59:30.647Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-20T02:29:42-07:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -2143,7 +2261,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-21T08:01:39.892Z",
+        "checkedAt": "2026-10-22T07:59:30.647Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2155,7 +2273,7 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 2
+          "backfilled": 0
         }
       },
       {
@@ -2167,7 +2285,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-21T08:01:39.892Z",
+        "checkedAt": "2026-10-22T07:59:30.647Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2179,7 +2297,7 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 2
+          "backfilled": 0
         }
       },
       {
@@ -2191,7 +2309,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-21T08:01:39.892Z",
+        "checkedAt": "2026-10-22T07:59:30.647Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,

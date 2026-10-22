@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-21T08:02:45.659Z",
+  "generatedAt": "2026-10-22T07:59:40.530Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -788,6 +788,25 @@
           "title": "About Mammotion | Mammotion US",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-fd90b27075b46283-2026-10-21T08-02-37-723Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "47674c124f04bd98": {
+      "url": "https://de.mammotion.com/pages/contact-us",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-22T07:59:33.069Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-22T07:59:22.430Z",
+          "title": "404 Nicht gefunden",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-47674c124f04bd98-2026-10-22T07-59-33-069Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
