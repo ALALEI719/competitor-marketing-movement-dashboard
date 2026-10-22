@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-EE9AC90632B9",
+  "actionId": "ACT-EDM-EE9AC90632B9",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-21T08:01:41.000Z",
+  "subject": "Mammotion 德国：客户评价展示 LUBA、YUKA 割草机器人",
+  "contentSummary": "Mammotion 德国邮件以客户评价介绍 LUBA 3 AWD、LUBA mini 2 AWD 1500/1000 和 YUKA mini 2 1000，按草坪大小与复杂程度组织案例，并引导比较割草机型号。邮件亦展示 SPINO E1 泳池清洁机评价，但割草机监测重点为 LUBA 与 YUKA。",
+  "bodyParagraphs": [
+    "这封邮件以客户故事和现场照片呈现割草机器人使用场景，没有宣布新品、折扣价格或活动截止日。展示的客户评价是营销素材，不应当作独立性能测试。",
+    "LUBA 3 AWD 被放在大面积或复杂草坪场景；邮件展示用户对不平整地形适应性和替代有线边界机器人的评价。LUBA mini 2 AWD 1500 与 1000 被放在中大型草坪场景，评价提及修剪覆盖、坡地能力和节省时间。",
+    "YUKA mini 2 1000 被放在小型平坦草坪场景，邮件展示用户关于安静运行、边界识别与路径规划的评价，并在末尾引导比较割草机型号。SPINO E1 泳池清洁机有独立评价版块，仅作为同封邮件的背景。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-01.png",
+      "description": "主视觉将割草机器人与泳池清洁机器人并列，德文标题强调客户体验。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-02.png",
+      "description": "德文引言说明邮件汇集近期客户评价，用于介绍日常使用体验。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-03.png",
+      "description": "LUBA 3 AWD 客户评价：大面积或复杂草坪、不平地形与替代有线边界机器人，附现场照片。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-04.png",
+      "description": "LUBA mini 2 AWD 1500 客户评价：均匀修剪、覆盖角落与坡地使用场景。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-05.png",
+      "description": "LUBA mini 2 AWD 1000 客户评价：割草机器人草坪现场照片和节省时间的反馈。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-06.png",
+      "description": "YUKA mini 2 1000 客户评价：小型草坪、安静运行、边界识别和路径规划。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-07.png",
+      "description": "SPINO E1 泳池清洁机评价版块，属于同封邮件的非割草机内容。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-08.png",
+      "description": "邮件末尾的割草机型号比较引导图片。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-09.png",
+      "description": "页脚配送图标，装饰元素。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-10.png",
+      "description": "页脚退货图标，装饰元素。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-11.png",
+      "description": "页脚保修图标，装饰元素。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-EE9AC90632B9/image-12.png",
+      "description": "页脚客服图标，装饰元素。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

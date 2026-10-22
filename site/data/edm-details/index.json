@@ -76,6 +76,17 @@
       "subject": "MOVA 法国秋季割草机优惠：最高减 600 欧元",
       "summary": "法国站邮件推广六款割草机器人，宣称最高减 600 欧元，并在多张商品卡宣传加 1 欧元购车库。价格为 2026 年 10 月 21 日邮件当日宣称，截止日期未注明；部分卡片带 Prime Day Sale 标签，活动归属不明。",
       "detailRef": "./data/edm-details/EDM-DD45794F0FB4.json"
+    },
+    {
+      "actionId": "ACT-EDM-EE9AC90632B9",
+      "recordId": "EDM-EE9AC90632B9",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-21T08:01:41.000Z",
+      "subject": "Mammotion 德国：客户评价展示 LUBA、YUKA 割草机器人",
+      "summary": "Mammotion 德国邮件以客户评价介绍 LUBA 3 AWD、LUBA mini 2 AWD 和 YUKA mini 2 割草机器人，按草坪场景组织使用案例并引导型号比较；性能说法为邮件展示的用户反馈。",
+      "detailRef": "./data/edm-details/EDM-EE9AC90632B9.json"
     }
   ]
 }

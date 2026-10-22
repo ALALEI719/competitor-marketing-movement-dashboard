@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-21T20:14:27.630Z",
+  "updatedAt": "2026-10-22T02:20:43.370Z",
   "actions": [
     {
       "actionId": "ACT-EDM-8902A6B2A754",
@@ -57,6 +57,34 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-21T20:14:27.630Z",
       "detailRef": "./data/edm-details/EDM-DD45794F0FB4.json"
+    },
+    {
+      "actionId": "ACT-EDM-EE9AC90632B9",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-21T13:07:34.709Z",
+      "publishDate": "2026-10-21T08:01:41.000Z",
+      "title": "Mammotion 德国：客户评价展示 LUBA、YUKA 割草机器人",
+      "summary": "Mammotion 德国邮件以客户评价介绍 LUBA 3 AWD、LUBA mini 2 AWD 和 YUKA mini 2 割草机器人，按草坪场景组织使用案例并引导型号比较；性能说法为邮件展示的用户反馈。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-22T02:20:43.370Z",
+      "detailRef": "./data/edm-details/EDM-EE9AC90632B9.json"
     },
     {
       "historicalBackfill": true,
