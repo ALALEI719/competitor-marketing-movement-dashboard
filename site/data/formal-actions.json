@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-22T08:21:23.765Z",
+  "updatedAt": "2026-10-23T14:21:44.947Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-8F8C5096991E",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-23T12:59:19.429Z",
+      "publishDate": "2026-10-23T09:05:10.000Z",
+      "title": "MOVA 法国 Black Friday 预热：四款 LiDAX 割草机器人优惠",
+      "summary": "MOVA 法国邮件展示四款 LiDAX 割草机器人 Black Friday 优惠，邮件当日宣称降幅为 250 至 600 欧元；部分机型展示加价 1 欧元车库选项。优惠截止时间未注明。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-23T14:21:44.947Z",
+      "detailRef": "./data/edm-details/EDM-8F8C5096991E.json"
+    },
     {
       "actionId": "ACT-EDM-E6163C71D907",
       "entityId": "",

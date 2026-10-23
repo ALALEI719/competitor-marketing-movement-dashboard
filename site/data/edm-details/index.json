@@ -98,6 +98,17 @@
       "subject": "MOVA 德国：割草机社群招募与园艺设备抽奖",
       "summary": "MOVA 德文邮件邀请读者加入德国官方割草机器人社群，参与同时覆盖德国、法国社群的电动园艺设备抽奖；邮件宣称共 50 个中奖名额，参与期为 2026 年 10 月 25 日至 11 月 16 日。奖品不是割草机器人，本次记录为社群活动，不是割草机降价。",
       "detailRef": "./data/edm-details/EDM-E6163C71D907.json"
+    },
+    {
+      "actionId": "ACT-EDM-8F8C5096991E",
+      "recordId": "EDM-8F8C5096991E",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-10-23T09:05:10.000Z",
+      "subject": "MOVA 法国 Black Friday 预热：四款 LiDAX 割草机器人优惠",
+      "summary": "MOVA 法国邮件展示四款 LiDAX 割草机器人 Black Friday 优惠，邮件当日宣称降幅为 250 至 600 欧元；部分机型展示加价 1 欧元车库选项。优惠截止时间未注明。",
+      "detailRef": "./data/edm-details/EDM-8F8C5096991E.json"
     }
   ]
 }

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-8F8C5096991E",
+  "actionId": "ACT-EDM-8F8C5096991E",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "法国",
+  "sentAt": "2026-10-23T09:05:10.000Z",
+  "subject": "MOVA 法国 Black Friday 预热：四款 LiDAX 割草机器人优惠",
+  "contentSummary": "MOVA 法国邮件预热 Black Friday，并展示四款 LiDAX 割草机器人的邮件当日宣称价格及降幅：Ultra 1000 AWD 1299 欧元、Ultra 800 699 欧元、Ultra 2000 AWD 1599 欧元、Ultra 1600 899 欧元；部分机型搭配加价 1 欧元的车库选项。邮件未注明优惠结束时间。",
+  "bodyParagraphs": [
+    "这封法语邮件以 Black Friday 即将到来为主题，主视觉展示多品类商品，并宣称最高优惠 700 欧元；该最高值是跨品类主视觉宣称，不等同于割草机器人折扣。",
+    "与割草机器人相关的卡片包括：LiDAX Ultra 1000 AWD 从 1599 欧元标至 1299 欧元，宣称减 300 欧元；LiDAX Ultra 800 从 949 欧元标至 699 欧元，宣称减 250 欧元；LiDAX Ultra 2000 AWD 从 2199 欧元标至 1599 欧元，宣称减 600 欧元；LiDAX Ultra 1600 从 1499 欧元标至 899 欧元，宣称减 600 欧元。",
+    "邮件还展示扫地机器人、洗地机及配件优惠、会员抽奖和积分加倍等跨品类内容。割草机器人动作仅以上述 LiDAX 产品及其价格呈现为准；邮件没有明确给出该优惠的截止日期。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-01.png",
+      "description": "MOVA 品牌标识，下面印有 Powered by Dreame。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-02.png",
+      "description": "法语 Black Friday 预热主视觉：多品类商品陈列，其中有割草机器人；横幅宣称最高 700 欧元折扣，但未特指割草机器人。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-03.png",
+      "description": "黑底金字的独家活动分节标题。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-04.png",
+      "description": "会员转盘活动图，提示订阅并转动转盘，奖项含配件折扣券、积分及其他家电奖品；不是割草机器人专属优惠。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-05.png",
+      "description": "多买多得板块展示洗地机、吸尘器与厨房电器的门槛礼品，属于跨品类背景。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-06.png",
+      "description": "MOVA 积分加倍视觉，属于会员权益背景。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-07.png",
+      "description": "配件板块宣称最高 75% 折扣，图中主要为吸尘器耗材与清洁配件，不能归为割草机器人优惠。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-08.png",
+      "description": "LiDAX Ultra 1000 AWD 割草机器人卡片：邮件标价 1299 欧元、划线价 1599 欧元，宣称减 300 欧元，另展示加价 1 欧元车库选项。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-09.png",
+      "description": "V70 Ultra Complete 扫地机器人卡片，标价 949 欧元，非割草机器人。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-10.png",
+      "description": "LiDAX Ultra 800 割草机器人卡片：邮件标价 699 欧元、划线价 949 欧元，宣称减 250 欧元，另展示加价 1 欧元车库选项。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-11.png",
+      "description": "LiDAX Ultra 2000 AWD 割草机器人卡片：邮件标价 1599 欧元、划线价 2199 欧元，宣称减 600 欧元，另展示加价 1 欧元车库选项。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-12.png",
+      "description": "S70 Ultra Roller 扫地机器人卡片，标价 599 欧元，非割草机器人。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-13.png",
+      "description": "Z60 Ultra Roller Complete 扫地机器人卡片，标价 699 欧元，非割草机器人。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-14.png",
+      "description": "LiDAX Ultra 1600 割草机器人卡片：邮件标价 899 欧元、划线价 1499 欧元，宣称减 600 欧元，另展示加价 1 欧元车库选项。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-15.png",
+      "description": "M10 Air Kit 洗地机卡片，标价 159 欧元，非割草机器人。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-16.png",
+      "description": "E50 Ultra 扫地机器人卡片，标价 379 欧元，非割草机器人。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-17.png",
+      "description": "查看全部优惠的图形按钮。"
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-8F8C5096991E/image-18.png",
+      "description": "MOVA 服务说明图，宣称部分商品享三年保修、30 天无痕退货、5 至 7 个工作日配送、全年客服和 30 天保价；保修细则提示以官网为准。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
