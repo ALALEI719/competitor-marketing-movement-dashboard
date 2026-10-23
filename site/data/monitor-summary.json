@@ -18,10 +18,10 @@
     "channelItems": 120,
     "blogChanges": 39,
     "pendingChannelChanges": 28,
-    "prSources": 13,
-    "healthyPrSources": 13,
-    "prChanges": 7,
-    "pendingPrChanges": 1
+    "prSources": 14,
+    "healthyPrSources": 14,
+    "prChanges": 11,
+    "pendingPrChanges": 3
   },
   "sites": [
     {
@@ -4949,7 +4949,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-22T11:07:54.109Z",
+    "checkedAt": "2026-10-23T07:03:04.225Z",
     "sources": [
       {
         "source": {
@@ -4962,11 +4962,11 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4255,
+        "discoveredUrlCount": 4317,
         "pendingArticleCount": 0,
         "fetchedCount": 1,
         "bulkLastmodIgnored": false,
@@ -4984,7 +4984,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5006,10 +5006,10 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 1,
+        "itemCount": 0,
         "discoveredUrlCount": 0,
         "pendingArticleCount": 0,
         "fetchedCount": 16,
@@ -5028,7 +5028,7 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -5050,7 +5050,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5072,7 +5072,7 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -5094,11 +5094,11 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 147,
+        "discoveredUrlCount": 149,
         "pendingArticleCount": 0,
         "fetchedCount": 1,
         "bulkLastmodIgnored": false,
@@ -5117,7 +5117,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5139,7 +5139,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5161,13 +5161,13 @@
           "channel": "pr",
           "url": "https://www.appgefahren.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1682,
+        "discoveredUrlCount": 1692,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5183,13 +5183,13 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 2,
-        "discoveredUrlCount": 1152,
+        "itemCount": 4,
+        "discoveredUrlCount": 1155,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 5,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5205,13 +5205,13 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 101,
+        "discoveredUrlCount": 103,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5227,11 +5227,33 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-22T11:07:54.109Z",
+        "checkedAt": "2026-10-23T07:03:04.225Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1180,
+        "discoveredUrlCount": 1188,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-caschy-mammotion",
+          "sourceType": "media",
+          "outlet": "Caschy's Blog",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
+        },
+        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 3226,
         "pendingArticleCount": 0,
         "fetchedCount": 2,
         "bulkLastmodIgnored": false,
@@ -5240,6 +5262,198 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-8EB63273A2C2",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "pending",
+        "title": "Kind, Hund, Igel: So sicher sind Mähroboter wirklich",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322",
+        "publishDate": "2026-10-22T14:21:16+00:00",
+        "discoveredAt": "2026-10-23T06:34:19.673Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-22T14:21:16+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-22T16:21:16+02:00"
+            }
+          ],
+          "contentHash": "b377e5f88b0dd01509de54c34bc8561c1d8701550925cc8f1b48f4dfad125470",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-2DED08B92D55",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "pending",
+        "title": "Mähroboter-Garage 2026: Diese Modelle halten Regen & Sonne ab",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608",
+        "publishDate": "2026-10-22T16:16:38+00:00",
+        "discoveredAt": "2026-10-23T06:34:19.673Z",
+        "themeAssessment": {
+          "tags": [
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-22T16:16:38+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-22T18:16:38+02:00"
+            }
+          ],
+          "contentHash": "b9e6f743aa4f34268a9ffc9289ae62bfb6c1b085d91d76a245a74d1179105d6b",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-9870CAD301E4",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "MAMMOTION LUBA Mini 800 Test: Wie gut ist er?",
+        "sourceUrl": "https://www.homeandsmart.de/mammotion-luba-mini-800-test-161519",
+        "publishDate": "2025-05-21T13:01:00+00:00",
+        "discoveredAt": "2026-10-23T06:34:19.673Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/mammotion-luba-mini-800-test-161519",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2025-05-21T13:01:00+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2025-05-21T15:01:00+02:00"
+            }
+          ],
+          "contentHash": "65125fca271b75830785e97b4bb3b154a3989689e13c86be5f504c86ba6e6e2a",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-4CCCCAF942F2",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "Mähroboter nachts verboten: Diese Regeln gelten jetzt für Gartenbesitzer",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-nachts-verboten-0041-140018",
+        "publishDate": "2026-10-22T09:16:59+00:00",
+        "discoveredAt": "2026-10-23T06:34:19.673Z",
+        "themeAssessment": {
+          "tags": [
+            "other"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-nachts-verboten-0041-140018",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-22T09:16:59+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-22T11:16:59+02:00"
+            }
+          ],
+          "contentHash": "5d1192a5bb0253ba33a7a5ad944111dfaa509c31ed4a3c7c325dc4048eaea226",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
       {
         "recordId": "PR-F44BB978A80D",
         "sourceId": "pr-de-homeandsmart-mammotion",
