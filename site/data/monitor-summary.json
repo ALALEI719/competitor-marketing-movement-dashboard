@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-22T07:59:30.469Z",
+  "generatedAt": "2026-10-23T07:57:53.478Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -10,14 +10,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1141,
-    "pendingChanges": 42,
+    "pages": 1140,
+    "pendingChanges": 45,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 39,
-    "pendingChannelChanges": 28,
+    "blogChanges": 40,
+    "pendingChannelChanges": 29,
     "prSources": 14,
     "healthyPrSources": 14,
     "prChanges": 11,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-22T07:59:19.771Z",
+      "checkedAt": "2026-10-23T07:57:43.441Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 340,
@@ -47,11 +47,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 65
+        "lastmodChanged": 71
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 65,
+        "lastmodPagesNeedingContentCheck": 71,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -70,7 +70,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-22T07:59:22.430Z",
+      "checkedAt": "2026-10-23T07:57:45.810Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 287,
@@ -82,17 +82,17 @@
       },
       "changeCounts": {
         "added": 0,
-        "removed": 1,
-        "lastmodChanged": 97
+        "removed": 0,
+        "lastmodChanged": 98
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 97,
+        "lastmodPagesNeedingContentCheck": 98,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
-        "meaningfulChanges": 1,
+        "meaningfulChanges": 0,
         "errors": []
       }
     },
@@ -106,7 +106,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-22T07:59:25.303Z",
+      "checkedAt": "2026-10-23T07:57:48.166Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -142,19 +142,19 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-22T07:59:27.755Z",
+      "checkedAt": "2026-10-23T07:57:50.344Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 302,
+      "pageCount": 301,
       "breakdown": {
         "page": 38,
-        "blog": 159,
-        "collection": 19,
+        "blog": 160,
+        "collection": 17,
         "product": 86
       },
       "changeCounts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 2,
         "lastmodChanged": 101
       },
       "auditSignals": {
@@ -163,13 +163,52 @@
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-23T07:57:50.344Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-D0CFAFCF0DF5"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-23T07:57:50.344Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/luba-awd-series",
+      "pageType": "collection",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-3E34C89177B9"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-23T07:57:50.344Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/collections/yuka-series",
+      "pageType": "collection",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-4101EC25BD33"
+    },
     {
       "type": "removed_page",
       "reviewStatus": "pending",
@@ -2225,7 +2264,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-22T07:59:30.647Z",
+    "checkedAt": "2026-10-23T07:57:53.638Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2237,7 +2276,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-22T07:59:30.647Z",
+        "checkedAt": "2026-10-23T07:57:53.638Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2249,7 +2288,8 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 0
+          "backfilled": 0,
+          "rechecked": 2
         }
       },
       {
@@ -2261,7 +2301,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-22T07:59:30.647Z",
+        "checkedAt": "2026-10-23T07:57:53.638Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2273,7 +2313,8 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 0
+          "backfilled": 0,
+          "rechecked": 2
         }
       },
       {
@@ -2285,7 +2326,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-22T07:59:30.647Z",
+        "checkedAt": "2026-10-23T07:57:53.638Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2297,7 +2338,8 @@
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 0
+          "backfilled": 0,
+          "rechecked": 2
         }
       },
       {
@@ -2309,23 +2351,74 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-22T07:59:30.647Z",
+        "checkedAt": "2026-10-23T07:57:53.638Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-19T11:55:28+02:00",
+        "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
-          "backfilled": 0
+          "backfilled": 0,
+          "rechecked": 2
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-48427844A1BA",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-10-22T11:32:06+02:00",
+        "updatedAt": "2026-10-22T11:32:06+02:00",
+        "discoveredAt": "2026-10-23T07:57:53.638Z",
+        "summary": "Un robot tondeuse coupe-t-il aussi bien qu’une tondeuse électrique filaire ?",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "91492dc8b30d0ed14e7eeecae12d5b21f5e47a23b981151c76eb3f938dc6a442",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "ez les robots tondeuses Mammotion , dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-A42BCB630A6B",
         "sourceId": "mammotion-us-blog",
@@ -2351,6 +2444,8 @@
           "afterHash": "5c81ae3dc1c1d40cb619286fb7b0d7433dfd5a2f3e446e9c7940584bf5632259",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2395,6 +2490,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2435,6 +2532,8 @@
           "campaignCorroboratingUrl": "https://fr.mammotion.com/blogs/news/luba-4-awd-tout-savoir",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -2467,6 +2566,8 @@
           "bodySource": "blog-article-v1",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -2499,6 +2600,8 @@
           "bodySource": "blog-article-v1",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -2532,6 +2635,8 @@
           "campaignCorroboratingUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -2571,6 +2676,8 @@
           "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
           "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2617,6 +2724,8 @@
           "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
           "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2655,6 +2764,8 @@
           "afterHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2697,6 +2808,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2739,6 +2852,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2782,6 +2897,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2828,6 +2945,8 @@
           "beforeExcerpt": "0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . Lawn Care Can You Over Fertilize Your Lawn? Signs and How to Fix It. Oct 12, 2026 . By Keira Jones. . . . . . . Applying too much fertilizer can cause brown or yellow patches, damage grass roots, and, in severe",
           "afterExcerpt": ". Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . . . . . . . . . . . . . . . . Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Beco"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2866,6 +2985,8 @@
           "afterHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2904,6 +3025,8 @@
           "afterHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2942,6 +3065,8 @@
           "afterHash": "2bc5fee695c554769498f4804880cec833f757dcaf997c97d19ef613ff37e701",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -2980,6 +3105,8 @@
           "afterHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3026,6 +3153,8 @@
           "beforeExcerpt": "Lawn Care How Often to Fertilize Your Lawn: A Practical Guide. Oct 11, 2026 . By Keira Jones. . . . . . . How often you should fertilize your lawn depends on your grass type, soil conditions, local climate, and maintenance goals. Some established lawns can stay healthy with one or two applications p",
           "afterExcerpt": ". Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Become a Member & Unlock Exclusive Perks. Join Now Log In . . . . Reward Program . . . Cart. 0 . . . . Have questi"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3064,6 +3193,8 @@
           "afterHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3102,6 +3233,8 @@
           "afterHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3140,6 +3273,8 @@
           "afterHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3178,6 +3313,8 @@
           "afterHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3216,6 +3353,8 @@
           "afterHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3254,6 +3393,8 @@
           "afterHash": "75f085c221d1c9e5f43873fa1fdb3b494510cb398fd1d83a6a8d3e870fb233fd",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3292,6 +3433,8 @@
           "afterHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3335,6 +3478,8 @@
           "beforeExcerpt": "0, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi",
           "afterExcerpt": "1, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3377,6 +3522,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3415,6 +3562,8 @@
           "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3453,6 +3602,8 @@
           "afterHash": "42643c080b6c99458df8085f229507d2e442e90ea35af0b9317f69a5750f948f",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3491,6 +3642,8 @@
           "afterHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3529,6 +3682,8 @@
           "afterHash": "e5c8ec73d9ad2e2bfb130716a3c1e83a305790c3a3526a546b3a56c63464f0eb",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3566,6 +3721,8 @@
           "bodySource": "saved_article_snapshot",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -3597,6 +3754,8 @@
           "afterHash": "b8a858bf900de8f9a5defb53175153aa45c83b8ada562194c3ceb78e5a8f8cc5",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3634,6 +3793,8 @@
           "bodySource": "saved_article_snapshot",
           "status": "historical_snapshot"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": null,
         "humanAssessment": {
           "newProductRelation": "related",
@@ -3660,6 +3821,8 @@
           "error": null
         },
         "contentEvidence": null,
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3696,6 +3859,8 @@
           "error": null
         },
         "contentEvidence": null,
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3732,6 +3897,8 @@
           "error": null
         },
         "contentEvidence": null,
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3768,6 +3935,8 @@
           "error": null
         },
         "contentEvidence": null,
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3804,6 +3973,8 @@
           "error": null
         },
         "contentEvidence": null,
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3822,6 +3993,56 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-48427844A1BA",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-10-22T11:32:06+02:00",
+        "updatedAt": "2026-10-22T11:32:06+02:00",
+        "discoveredAt": "2026-10-23T07:57:53.638Z",
+        "summary": "Un robot tondeuse coupe-t-il aussi bien qu’une tondeuse électrique filaire ?",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "91492dc8b30d0ed14e7eeecae12d5b21f5e47a23b981151c76eb3f938dc6a442",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "ez les robots tondeuses Mammotion , dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-A42BCB630A6B",
         "sourceId": "mammotion-us-blog",
@@ -3847,6 +4068,8 @@
           "afterHash": "5c81ae3dc1c1d40cb619286fb7b0d7433dfd5a2f3e446e9c7940584bf5632259",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3891,6 +4114,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3937,6 +4162,8 @@
           "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
           "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -3983,6 +4210,8 @@
           "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
           "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4021,6 +4250,8 @@
           "afterHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4063,6 +4294,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4105,6 +4338,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4148,6 +4383,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4194,6 +4431,8 @@
           "beforeExcerpt": "0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . Lawn Care Can You Over Fertilize Your Lawn? Signs and How to Fix It. Oct 12, 2026 . By Keira Jones. . . . . . . Applying too much fertilizer can cause brown or yellow patches, damage grass roots, and, in severe",
           "afterExcerpt": ". Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . . . . . . . . . . . . . . . . Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Beco"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4232,6 +4471,8 @@
           "afterHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4270,6 +4511,8 @@
           "afterHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4308,6 +4551,8 @@
           "afterHash": "2bc5fee695c554769498f4804880cec833f757dcaf997c97d19ef613ff37e701",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4346,6 +4591,8 @@
           "afterHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4392,6 +4639,8 @@
           "beforeExcerpt": "Lawn Care How Often to Fertilize Your Lawn: A Practical Guide. Oct 11, 2026 . By Keira Jones. . . . . . . How often you should fertilize your lawn depends on your grass type, soil conditions, local climate, and maintenance goals. Some established lawns can stay healthy with one or two applications p",
           "afterExcerpt": ". Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Become a Member & Unlock Exclusive Perks. Join Now Log In . . . . Reward Program . . . Cart. 0 . . . . Have questi"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4430,6 +4679,8 @@
           "afterHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4468,6 +4719,8 @@
           "afterHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4506,6 +4759,8 @@
           "afterHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4544,6 +4799,8 @@
           "afterHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4582,6 +4839,8 @@
           "afterHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4620,6 +4879,8 @@
           "afterHash": "75f085c221d1c9e5f43873fa1fdb3b494510cb398fd1d83a6a8d3e870fb233fd",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4658,6 +4919,8 @@
           "afterHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4701,6 +4964,8 @@
           "beforeExcerpt": "0, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi",
           "afterExcerpt": "1, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi"
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4743,6 +5008,8 @@
           "beforeExcerpt": "",
           "afterExcerpt": ""
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4781,6 +5048,8 @@
           "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4819,6 +5088,8 @@
           "afterHash": "42643c080b6c99458df8085f229507d2e442e90ea35af0b9317f69a5750f948f",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4857,6 +5128,8 @@
           "afterHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4895,6 +5168,8 @@
           "afterHash": "e5c8ec73d9ad2e2bfb130716a3c1e83a305790c3a3526a546b3a56c63464f0eb",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
@@ -4933,6 +5208,8 @@
           "afterHash": "b8a858bf900de8f9a5defb53175153aa45c83b8ada562194c3ceb78e5a8f8cc5",
           "changedFields": []
         },
+        "feedEvidence": null,
+        "productExposure": [],
         "systemAssessment": {
           "status": "completed",
           "questionSetVersion": "blog-content-v1",
