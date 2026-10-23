@@ -18,8 +18,8 @@
     "channelItems": 120,
     "blogChanges": 40,
     "pendingChannelChanges": 29,
-    "prSources": 14,
-    "healthyPrSources": 14,
+    "prSources": 15,
+    "healthyPrSources": 15,
     "prChanges": 11,
     "pendingPrChanges": 3
   },
@@ -5226,7 +5226,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-23T07:03:04.225Z",
+    "checkedAt": "2026-10-23T10:13:35.525Z",
     "sources": [
       {
         "source": {
@@ -5239,16 +5239,22 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4317,
+        "discoveredUrlCount": 4331,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 40,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "verifiedRedirects": [
+          {
+            "from": "https://www.chip.de/news/business/deutscher-traditions-maschinenbauer-mit-450-mitarbeitern-meldet-insolvenz-an_3608e196-dcc3-460b-9607-a25f46b49aff.html",
+            "to": "https://www.chip.de/news/business/100-jahre-alter-traditions-maschinenbauer-aus-sueddeutschland-mit-450-mitarbeitern-ist-insolvent_3608e196-dcc3-460b-9607-a25f46b49aff.html",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -5261,7 +5267,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5283,7 +5289,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -5305,7 +5311,7 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -5327,7 +5333,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5349,13 +5355,13 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 14,
+        "discoveredUrlCount": 15,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 3,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5371,7 +5377,7 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5394,7 +5400,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5416,7 +5422,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5438,13 +5444,13 @@
           "channel": "pr",
           "url": "https://www.appgefahren.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1692,
+        "discoveredUrlCount": 1694,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 4,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5460,13 +5466,13 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
-        "discoveredUrlCount": 1155,
+        "discoveredUrlCount": 1157,
         "pendingArticleCount": 0,
-        "fetchedCount": 5,
+        "fetchedCount": 33,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5482,13 +5488,13 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 103,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 1,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5504,13 +5510,13 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1188,
+        "discoveredUrlCount": 1196,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 9,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5526,13 +5532,35 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-10-23T07:03:04.225Z",
+        "checkedAt": "2026-10-23T10:13:35.525Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 3226,
+        "discoveredUrlCount": 3233,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 8,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-ifun-mammotion",
+          "sourceType": "media",
+          "outlet": "ifun.de",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.ifun.de/sitemap.xml"
+        },
+        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 1998,
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
