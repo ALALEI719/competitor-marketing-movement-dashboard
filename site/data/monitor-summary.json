@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-23T07:57:53.478Z",
+  "generatedAt": "2026-10-24T07:37:28.308Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-23T07:57:43.441Z",
+      "checkedAt": "2026-10-24T07:37:17.744Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 340,
@@ -47,11 +47,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 71
+        "lastmodChanged": 65
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 71,
+        "lastmodPagesNeedingContentCheck": 65,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -70,7 +70,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-23T07:57:45.810Z",
+      "checkedAt": "2026-10-24T07:37:20.364Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 287,
@@ -83,11 +83,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 98
+        "lastmodChanged": 97
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 98,
+        "lastmodPagesNeedingContentCheck": 97,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -106,7 +106,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-23T07:57:48.166Z",
+      "checkedAt": "2026-10-24T07:37:23.141Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -142,7 +142,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-23T07:57:50.344Z",
+      "checkedAt": "2026-10-24T07:37:25.766Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 301,
@@ -153,17 +153,17 @@
         "product": 86
       },
       "changeCounts": {
-        "added": 1,
-        "removed": 2,
-        "lastmodChanged": 101
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 100
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 101,
+        "lastmodPagesNeedingContentCheck": 100,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 2,
+        "inspectedPages": 1,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -2264,7 +2264,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-23T07:57:53.638Z",
+    "checkedAt": "2026-10-24T07:37:28.474Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2276,7 +2276,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-23T07:57:53.638Z",
+        "checkedAt": "2026-10-24T07:37:28.474Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2301,7 +2301,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-23T07:57:53.638Z",
+        "checkedAt": "2026-10-24T07:37:28.474Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2326,7 +2326,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-23T07:57:53.638Z",
+        "checkedAt": "2026-10-24T07:37:28.474Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2351,13 +2351,13 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-23T07:57:53.638Z",
+        "checkedAt": "2026-10-24T07:37:28.474Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
-          "added": 1,
+          "added": 0,
           "updated": 0
         },
         "snapshotCoverage": {
