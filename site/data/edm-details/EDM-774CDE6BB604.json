@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-774CDE6BB604",
+  "actionId": "ACT-EDM-774CDE6BB604",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "英国",
+  "sentAt": "2026-10-24T10:00:34.000Z",
+  "subject": "Mammotion 英国：秋季自动割草省时宣传与首单减 50 英镑",
+  "contentSummary": "Mammotion 英国邮件借秋季白昼缩短，宣传割草机器人自动维护草坪、节省户外时间，并在邮件当日宣称割草机器人首单减 50 英镑；未注明优惠截止日期。",
+  "bodyParagraphs": [
+    "这封英国站英文邮件以秋季日照与 10 月 25 日时钟回拨为内容切入点，对比人工割草与机器人自主维护草坪，鼓励用户把有限的户外时间用于休息和日常活动。10 月 25 日是邮件描述的换时背景，不是优惠截止日。",
+    "主视觉和产品组合图展示 Mammotion 割草机器人在草坪工作，并宣称精准导航、智能排程和自主割草。画面没有可核实的具体机型名称，不据此指定单一型号。",
+    "产品画面宣称割草机器人首单减 50 英镑，这是邮件当日口径，邮件未注明优惠截止日期。页脚另宣称订单满 99 英镑免运费、30 天退款保障、最长三年保修及全天候客服；这些属于邮件所述服务背景，具体适用条件未在本邮件中核实。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-01.png",
+      "description": "Mammotion 秋季草坪主视觉：割草机器人工作、用户在户外阅读，英文文案强调保留秋季阳光与休闲时间。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-02.png",
+      "description": "长幅英文内容图以 10 月 25 日时钟回拨、下午变短为背景，对比人工割草与自动割草，强调把日照时间留给散步、园中休息等活动。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-03.png",
+      "description": "四款 Mammotion 割草机器人组合图，宣称精准导航、智能排程、自主割草，并以英镑标示割草机器人首单减 50 英镑；未说明具体机型和优惠期限。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-04.png",
+      "description": "配送车辆装饰性图标；页脚文案另宣称订单满 99 英镑免运费。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-05.png",
+      "description": "退货箱装饰性图标；页脚文案另宣称 30 天退款保障。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-06.png",
+      "description": "保障盾牌装饰性图标；页脚文案另宣称最长三年保修。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-774CDE6BB604/image-07.png",
+      "description": "客服耳机装饰性图标；页脚文案另宣称全天候客服。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-24T14:20:24.279Z",
+  "updatedAt": "2026-10-24T20:20:42.157Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-774CDE6BB604",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-24T12:59:30.328Z",
+      "publishDate": "2026-10-24T10:00:34.000Z",
+      "title": "Mammotion 英国：秋季自动割草省时宣传与首单减 50 英镑",
+      "summary": "Mammotion 英国邮件借秋季白昼缩短，宣传割草机器人自动维护草坪、节省户外时间，并在邮件当日宣称割草机器人首单减 50 英镑；未注明优惠截止日期。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-24T20:20:42.157Z",
+      "detailRef": "./data/edm-details/EDM-774CDE6BB604.json"
+    },
     {
       "actionId": "ACT-EDM-7A9E94A37DB9",
       "entityId": "",
