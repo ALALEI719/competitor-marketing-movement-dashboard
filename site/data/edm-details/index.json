@@ -109,6 +109,17 @@
       "subject": "MOVA 法国 Black Friday 预热：四款 LiDAX 割草机器人优惠",
       "summary": "MOVA 法国邮件展示四款 LiDAX 割草机器人 Black Friday 优惠，邮件当日宣称降幅为 250 至 600 欧元；部分机型展示加价 1 欧元车库选项。优惠截止时间未注明。",
       "detailRef": "./data/edm-details/EDM-8F8C5096991E.json"
+    },
+    {
+      "actionId": "ACT-EDM-7A9E94A37DB9",
+      "recordId": "EDM-7A9E94A37DB9",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-24T08:01:02.000Z",
+      "subject": "Mammotion 德国：秋季自动割草省时宣传与最高 269 欧元优惠",
+      "summary": "Mammotion 德国邮件借秋季白昼缩短，宣传割草机器人自动维护草坪、节省户外时间，并在邮件当日宣称割草机器人最高可省 269 欧元；未注明优惠截止日期。",
+      "detailRef": "./data/edm-details/EDM-7A9E94A37DB9.json"
     }
   ]
 }
