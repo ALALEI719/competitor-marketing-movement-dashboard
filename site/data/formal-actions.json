@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-25T02:26:16.508Z",
+  "updatedAt": "2026-10-25T20:23:30.918Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-703F69538A26",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-25T18:59:47.786Z",
+      "publishDate": "2026-10-25T13:06:10.000Z",
+      "title": "MOVA 法国割草机器人社群园艺工具抽奖",
+      "summary": "MOVA 借园艺工具抽奖邀请法国用户加入官方割草机器人社群；法德各 25 名获奖者，奖品并非割草机器人，参与期为 2026 年 10 月 21 日至 11 月 16 日（CET）。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-25T20:23:30.918Z",
+      "detailRef": "./data/edm-details/EDM-703F69538A26.json"
+    },
     {
       "actionId": "ACT-EDM-B5F8F3F3462E",
       "entityId": "",

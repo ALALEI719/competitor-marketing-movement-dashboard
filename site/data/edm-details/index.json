@@ -142,6 +142,17 @@
       "subject": "Mammotion 美国：把周末留给生活的自动割草宣传",
       "summary": "Mammotion 美国邮件以周末休闲为主题，对比人工割草与机器人定时自主割草，宣传割草机器人节省时间、适应复杂草地及低噪便利；未注明割草机器人价格或活动期限。",
       "detailRef": "./data/edm-details/EDM-B5F8F3F3462E.json"
+    },
+    {
+      "actionId": "ACT-EDM-703F69538A26",
+      "recordId": "EDM-703F69538A26",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-10-25T13:06:10.000Z",
+      "subject": "MOVA 法国割草机器人社群园艺工具抽奖",
+      "summary": "MOVA 借园艺工具抽奖邀请法国用户加入官方割草机器人社群；法德各 25 名获奖者，奖品并非割草机器人，参与期为 2026 年 10 月 21 日至 11 月 16 日（CET）。",
+      "detailRef": "./data/edm-details/EDM-703F69538A26.json"
     }
   ]
 }

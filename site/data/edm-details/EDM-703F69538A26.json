@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-703F69538A26",
+  "actionId": "ACT-EDM-703F69538A26",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "法国",
+  "sentAt": "2026-10-25T13:06:10.000Z",
+  "subject": "MOVA 法国割草机器人社群园艺工具抽奖",
+  "contentSummary": "MOVA 借 50 份园艺工具抽奖邀请法国用户加入官方割草机器人社群；奖品并非割草机器人。",
+  "bodyParagraphs": [
+    "MOVA 法语邮件以“Les Journées Jardin MOVA”为主题，向法国和德国社群成员合计抽出 50 份园艺工具。图片展示 MDV001、MSD008、MSD002，标示每份价值 79.99 欧元（邮件当日宣称，未独立核价）；并未展示割草机器人作为奖品。",
+    "邮件明确要求法国参与者加入 MOVA 官方法国割草机器人社群。图片写明法国与德国社群各有 25 名获奖者，获奖工具型号随机分配；这一动作主要是借园艺抽奖吸引和扩展割草机器人社群。",
+    "图片注明参与期为 2026 年 10 月 21 日至 11 月 16 日（CET），获奖者于 11 月 16 日公布。参与者须年满 18 岁、合法居住在法国或德国，每人限参加一次；完整条件以本地社群公告为准，未打开外部链接核实。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-01.png",
+      "description": "MOVA 品牌标识及 Powered by Dreame 字样。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-02.png",
+      "description": "园艺工具抽奖主视觉：50 份奖品、每份标示 79.99 欧元，展示 MDV001、MSD008 和 MSD002。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-03.png",
+      "description": "参与说明：加入 MOVA 官方法国割草机器人社群；法德各 25 名获奖者，参与期 10 月 21 日至 11 月 16 日（CET），11 月 16 日公布结果。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-04.png",
+      "description": "加入社群并参与园艺工具抽奖的号召区域。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-05.png",
+      "description": "资格说明：年满 18 岁，合法居住法国或德国，每人限一次，奖品型号随机；完整规则在当地社群公告。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-703F69538A26/image-06.png",
+      "description": "查看完整活动条款的提示文字；未打开外部链接。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
