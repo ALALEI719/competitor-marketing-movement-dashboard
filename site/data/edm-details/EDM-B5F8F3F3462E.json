@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-B5F8F3F3462E",
+  "actionId": "ACT-EDM-B5F8F3F3462E",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-10-24T14:31:01.000Z",
+  "subject": "Mammotion 美国：把周末留给生活的自动割草宣传",
+  "contentSummary": "Mammotion 美国邮件以“把周末留给生活”为主题，对比人工割草与机器人定时自主割草，宣传割草机器人节省时间、适应复杂草地及低噪便利；邮件未提出割草机器人价格或活动期限。",
+  "bodyParagraphs": [
+    "这封美国站英文邮件以周末户外休闲为主线：主视觉展示亲友在庭院用餐，割草机器人在背景草坪工作，强调减少人工割草，把周末时间留给户外活动。邮件未给出割草机器人折扣、价格或活动期限。",
+    "对比图将传统人工割草的准备、推行和收尾，与通过手机设置排程后由 Mammotion 割草机器人自主维护草坪进行对照；另宣传应对坡地、不平地、厚草和多片草坪，以及较安静地后台工作。图中出现 80% 与 38.6° 坡度标识，但没有可核实的具体机型或适用条件，不把该画面推广为全系列规格。",
+    "邮件还展示 SPINO E1 泳池清洁机，作为“把周末时间还给用户”的跨品类品牌背景；本条动作概括仅针对割草机器人。页脚另宣称订单满 99 美元免运费、30 天退款保障、最长三年保修和全天候客服，具体适用条件未在邮件中核实。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-01.png",
+      "description": "Mammotion 庭院聚会主视觉：亲友在户外用餐，割草机器人在草坪工作；英文文案强调少花时间割草、多享受户外周末。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-02.png",
+      "description": "英文文字图提出周末应留给生活而非割草，引导了解 Mammotion 的自动割草方式。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-03.png",
+      "description": "长幅对比图对照人工割草与 Mammotion 机器人：定时自主割草、应对坡地及不平地、较低噪音；坡地画面标注 80% 和 38.6°，未说明具体机型或适用条件。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-04.png",
+      "description": "跨品类背景图展示 SPINO E1 泳池清洁机，主张减少泳池清理时间；不是本条割草机器人动作的产品规格或优惠。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-05.png",
+      "description": "收尾视觉展示 Mammotion 割草机器人在草坪工作，延续“让品牌承担庭院工作、把周末留给用户”的主张。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-06.png",
+      "description": "配送车辆装饰性图标；页脚另宣称订单满 99 美元免运费。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-07.png",
+      "description": "退货箱装饰性图标；页脚另宣称 30 天退款保障。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-08.png",
+      "description": "保障盾牌装饰性图标；页脚另宣称最长三年保修。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-B5F8F3F3462E/image-09.png",
+      "description": "客服耳机装饰性图标；页脚另宣称全天候客服。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

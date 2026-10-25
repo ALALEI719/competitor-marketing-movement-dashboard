@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-24T20:20:42.157Z",
+  "updatedAt": "2026-10-25T02:26:16.508Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-B5F8F3F3462E",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-24T18:59:33.867Z",
+      "publishDate": "2026-10-24T14:31:01.000Z",
+      "title": "Mammotion 美国：把周末留给生活的自动割草宣传",
+      "summary": "Mammotion 美国邮件以周末休闲为主题，对比人工割草与机器人定时自主割草，宣传割草机器人节省时间、适应复杂草地及低噪便利；未注明割草机器人价格或活动期限。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-25T02:26:16.508Z",
+      "detailRef": "./data/edm-details/EDM-B5F8F3F3462E.json"
+    },
     {
       "actionId": "ACT-EDM-774CDE6BB604",
       "entityId": "",

@@ -131,6 +131,17 @@
       "subject": "Mammotion 英国：秋季自动割草省时宣传与首单减 50 英镑",
       "summary": "Mammotion 英国邮件借秋季白昼缩短，宣传割草机器人自动维护草坪、节省户外时间，并在邮件当日宣称割草机器人首单减 50 英镑；未注明优惠截止日期。",
       "detailRef": "./data/edm-details/EDM-774CDE6BB604.json"
+    },
+    {
+      "actionId": "ACT-EDM-B5F8F3F3462E",
+      "recordId": "EDM-B5F8F3F3462E",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-10-24T14:31:01.000Z",
+      "subject": "Mammotion 美国：把周末留给生活的自动割草宣传",
+      "summary": "Mammotion 美国邮件以周末休闲为主题，对比人工割草与机器人定时自主割草，宣传割草机器人节省时间、适应复杂草地及低噪便利；未注明割草机器人价格或活动期限。",
+      "detailRef": "./data/edm-details/EDM-B5F8F3F3462E.json"
     }
   ]
 }
