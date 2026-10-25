@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-24T07:37:28.308Z",
+  "generatedAt": "2026-10-25T07:50:11.165Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-24T07:37:17.744Z",
+      "checkedAt": "2026-10-25T07:49:58.270Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 340,
@@ -47,11 +47,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 65
+        "lastmodChanged": 63
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 65,
+        "lastmodPagesNeedingContentCheck": 63,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -70,7 +70,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-24T07:37:20.364Z",
+      "checkedAt": "2026-10-25T07:50:01.706Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 287,
@@ -106,7 +106,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-24T07:37:23.141Z",
+      "checkedAt": "2026-10-25T07:50:04.862Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -119,11 +119,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 78
+        "lastmodChanged": 79
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 78,
+        "lastmodPagesNeedingContentCheck": 79,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -142,7 +142,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-24T07:37:25.766Z",
+      "checkedAt": "2026-10-25T07:50:07.612Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 301,
@@ -155,11 +155,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 100
+        "lastmodChanged": 97
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 100,
+        "lastmodPagesNeedingContentCheck": 97,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -2264,7 +2264,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-24T07:37:28.474Z",
+    "checkedAt": "2026-10-25T07:50:11.329Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2276,7 +2276,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-24T07:37:28.474Z",
+        "checkedAt": "2026-10-25T07:50:11.329Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2301,7 +2301,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-24T07:37:28.474Z",
+        "checkedAt": "2026-10-25T07:50:11.329Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2326,7 +2326,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-24T07:37:28.474Z",
+        "checkedAt": "2026-10-25T07:50:11.329Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2351,7 +2351,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-24T07:37:28.474Z",
+        "checkedAt": "2026-10-25T07:50:11.329Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
