@@ -18,9 +18,9 @@
     "channelItems": 120,
     "blogChanges": 40,
     "pendingChannelChanges": 29,
-    "prSources": 15,
-    "healthyPrSources": 15,
-    "prChanges": 11,
+    "prSources": 16,
+    "healthyPrSources": 16,
+    "prChanges": 15,
     "pendingPrChanges": 3
   },
   "sites": [
@@ -5226,7 +5226,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-23T10:13:35.525Z",
+    "checkedAt": "2026-10-26T02:29:58.845Z",
     "sources": [
       {
         "source": {
@@ -5239,22 +5239,16 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4331,
-        "pendingArticleCount": 0,
-        "fetchedCount": 40,
-        "bulkLastmodIgnored": false,
+        "discoveredUrlCount": 4438,
+        "pendingArticleCount": 8,
+        "fetchedCount": 100,
+        "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": [
-          {
-            "from": "https://www.chip.de/news/business/deutscher-traditions-maschinenbauer-mit-450-mitarbeitern-meldet-insolvenz-an_3608e196-dcc3-460b-9607-a25f46b49aff.html",
-            "to": "https://www.chip.de/news/business/100-jahre-alter-traditions-maschinenbauer-aus-sueddeutschland-mit-450-mitarbeitern-ist-insolvent_3608e196-dcc3-460b-9607-a25f46b49aff.html",
-            "httpStatus": 301
-          }
-        ]
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -5267,7 +5261,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5289,7 +5283,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -5311,13 +5305,13 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 346,
         "pendingArticleCount": 0,
-        "fetchedCount": 2,
+        "fetchedCount": 5,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5333,7 +5327,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5355,13 +5349,13 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 15,
+        "discoveredUrlCount": 18,
         "pendingArticleCount": 0,
-        "fetchedCount": 3,
+        "fetchedCount": 5,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5377,13 +5371,13 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 149,
+        "discoveredUrlCount": 150,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "discoveryScopesBootstrapped": [],
@@ -5400,7 +5394,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5422,7 +5416,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -5444,13 +5438,13 @@
           "channel": "pr",
           "url": "https://www.appgefahren.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1694,
+        "discoveredUrlCount": 1703,
         "pendingArticleCount": 0,
-        "fetchedCount": 4,
+        "fetchedCount": 12,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5466,16 +5460,27 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
-        "discoveredUrlCount": 1157,
+        "discoveredUrlCount": 1163,
         "pendingArticleCount": 0,
-        "fetchedCount": 33,
-        "bulkLastmodIgnored": false,
+        "fetchedCount": 39,
+        "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "verifiedRedirects": [
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322",
+            "to": "https://www.homeandsmart.de/maehroboter-kinder-und-tierschutz-0005-426322",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608",
+            "to": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -5488,13 +5493,13 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 103,
+        "discoveredUrlCount": 105,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 3,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5510,13 +5515,13 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1196,
+        "discoveredUrlCount": 1201,
         "pendingArticleCount": 0,
-        "fetchedCount": 9,
+        "fetchedCount": 7,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5532,13 +5537,13 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 3233,
+        "itemCount": 2,
+        "discoveredUrlCount": 3277,
         "pendingArticleCount": 0,
-        "fetchedCount": 8,
+        "fetchedCount": 45,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -5554,19 +5559,243 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-10-23T10:13:35.525Z",
+        "checkedAt": "2026-10-26T02:29:58.845Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 1998,
         "pendingArticleCount": 0,
-        "fetchedCount": 1,
+        "fetchedCount": 5,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-homesandgardens-mammotion",
+          "sourceType": "media",
+          "outlet": "Homes & Gardens",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://www.homesandgardens.com/uk/sitemap.xml"
+        },
+        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 151,
+        "pendingArticleCount": 0,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-055BAEF25777",
+        "sourceId": "pr-us-tomsguide-mammotion",
+        "sourceType": "media",
+        "outlet": "Tom's Guide",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "Best robot lawnmowers of CES",
+        "sourceUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
+        "publishDate": "2026-01-08T12:30:00+00:00",
+        "discoveredAt": "2026-10-26T02:29:58.845Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "promotion",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.tomsguide.com/sitemap.xml",
+          "articleUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
+          "capturedAt": "2026-10-26T02:29:58.845Z",
+          "sourceType": "media",
+          "outlet": "Tom's Guide",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-01-08T12:30:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-01-08T12:30:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-01-08T12:30:00Z"
+            }
+          ],
+          "contentHash": "8f01c5b712465dca2732e38fc66e97a9f9d8ef709846922859b29b816ad6e6d3",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-B29EB59E2CD2",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "Mähroboter & Kinder: Wie sicher sind sie wirklich?",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-kinder-und-tierschutz-0005-426322",
+        "publishDate": "2026-10-25T15:27:21+00:00",
+        "discoveredAt": "2026-10-26T02:29:58.845Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-kinder-und-tierschutz-0005-426322",
+          "capturedAt": "2026-10-26T02:29:58.845Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-25T15:27:21+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-25T16:27:21+01:00"
+            }
+          ],
+          "contentHash": "7153e5bc6f2a31310c56cd9880148e4cbcbddc5a7b6738a5d1fade10265aaa98",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-022B579DA73F",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "Mähroboter-Garage 2026: Worauf es beim Kauf wirklich ankommt",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+        "publishDate": "2026-10-25T17:21:56+00:00",
+        "discoveredAt": "2026-10-26T02:29:58.845Z",
+        "themeAssessment": {
+          "tags": [
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+          "capturedAt": "2026-10-26T02:29:58.845Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-25T17:21:56+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-25T18:21:56+01:00"
+            }
+          ],
+          "contentHash": "565569357bdf2717e0983c76e028d3db2d0012095d933c18cb8efe557cc49950",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-73708C710CB8",
+        "sourceId": "pr-de-caschy-mammotion",
+        "sourceType": "media",
+        "outlet": "Caschy's Blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "rejected",
+        "title": "Anthbot N8 im Test: Guter Mäher mit sperrigem Heck",
+        "sourceUrl": "https://stadt-bremerhaven.de/anthbot-n8-im-test-guter-maeher-mit-sperrigem-heck/",
+        "publishDate": "2026-10-24T15:30:07+02:00",
+        "discoveredAt": "2026-10-26T02:29:58.845Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://stadt-bremerhaven.de/wp-sitemap.xml",
+          "articleUrl": "https://stadt-bremerhaven.de/anthbot-n8-im-test-guter-maeher-mit-sperrigem-heck/",
+          "capturedAt": "2026-10-26T02:29:58.845Z",
+          "sourceType": "media",
+          "outlet": "Caschy's Blog",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-24T15:30:07+02:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-24 15:30"
+            },
+            {
+              "source": "caschy.visible_dateline",
+              "value": "2026-10-24"
+            }
+          ],
+          "contentHash": "3cedf74b3fa1700342e4b9d0d43b8116ca75978cf5955125922bac7269b7adcb",
+          "bodySource": "caschy_article_v1"
+        }
+      },
       {
         "recordId": "PR-8EB63273A2C2",
         "sourceId": "pr-de-homeandsmart-mammotion",
