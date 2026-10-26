@@ -1,9 +1,81 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T09:21:20.412Z",
+  "generatedAt": "2026-10-26T09:25:23.168Z",
   "siteId": "ecovacs-us",
-  "totalCount": 7,
+  "totalCount": 11,
   "observations": [
+    {
+      "id": "OBS-6544BE5F17A37E35",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-26T09:25:23.168Z",
+      "previousCapturedAt": "2026-10-19T09:21:20.412Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-blade-kit",
+      "pageType": "bundle",
+      "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "2042.99",
+          "after": "2043"
+        }
+      }
+    },
+    {
+      "id": "OBS-4D1B7F5E58C935C9",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-26T09:25:23.168Z",
+      "previousCapturedAt": "2026-10-19T09:21:20.412Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-garage",
+      "pageType": "bundle",
+      "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Garage - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "2079.99",
+          "after": "2080"
+        }
+      }
+    },
+    {
+      "id": "OBS-5FC116848610B59E",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-26T09:25:23.168Z",
+      "previousCapturedAt": "2026-10-19T09:21:20.412Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-garage-blade-kit",
+      "pageType": "bundle",
+      "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Garage + Blade Kit*2 Sets - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "2110.99",
+          "after": "2111"
+        }
+      }
+    },
+    {
+      "id": "OBS-24995079FAEA3931",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "observedAt": "2026-10-26T09:25:23.168Z",
+      "previousCapturedAt": "2026-10-19T09:21:20.412Z",
+      "type": "content_changed",
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-rtk-accessories",
+      "pageType": "bundle",
+      "title": "Official Exclusive - ECOVACS GOAT O1000 RTK Care Kit + Wall Mount - ECOVACS US",
+      "fields": {
+        "price": {
+          "before": "1020.99",
+          "after": "1021"
+        }
+      }
+    },
     {
       "id": "OBS-63C4E137F5CD5BA1",
       "siteId": "ecovacs-us",
