@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
   "targetId": "meta-mammotion-us",
-  "generatedAt": "2026-10-26T15:15:43.361Z",
+  "generatedAt": "2026-10-26T15:30:52.236Z",
   "lastSuccessAt": "2026-10-26T15:15:37.414Z",
-  "lastAttemptAt": "2026-10-26T15:15:28.015Z",
-  "status": "success",
+  "lastAttemptAt": "2026-10-26T15:29:55.370Z",
+  "status": "failed",
   "records": [
     {
       "sourceRecordId": "1031369396582196",
