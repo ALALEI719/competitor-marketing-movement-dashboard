@@ -20,8 +20,8 @@
     "pendingChannelChanges": 4,
     "prSources": 16,
     "healthyPrSources": 16,
-    "prChanges": 15,
-    "pendingPrChanges": 3
+    "prChanges": 17,
+    "pendingPrChanges": 4
   },
   "sites": [
     {
@@ -4492,7 +4492,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-26T02:29:58.845Z",
+    "checkedAt": "2026-10-26T09:19:50.355Z",
     "sources": [
       {
         "source": {
@@ -4505,16 +4505,12 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4438,
-        "pendingArticleCount": 8,
-        "fetchedCount": 100,
-        "bulkLastmodIgnored": true,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "discoveredUrlCount": 4450,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4527,16 +4523,12 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 0,
-        "pendingArticleCount": 0,
-        "fetchedCount": 20,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4549,16 +4541,12 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
         "discoveredUrlCount": 0,
-        "pendingArticleCount": 0,
-        "fetchedCount": 16,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4571,16 +4559,12 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 346,
-        "pendingArticleCount": 0,
-        "fetchedCount": 5,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4593,16 +4577,12 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 4,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "itemCount": 2,
+        "discoveredUrlCount": 5,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4615,16 +4595,12 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 18,
-        "pendingArticleCount": 0,
-        "fetchedCount": 5,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4637,17 +4613,12 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 150,
-        "pendingArticleCount": 0,
-        "fetchedCount": 2,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "discoveryScopesBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4660,16 +4631,12 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 632,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4682,16 +4649,12 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 31,
-        "pendingArticleCount": 0,
-        "fetchedCount": 1,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4704,16 +4667,12 @@
           "channel": "pr",
           "url": "https://www.appgefahren.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1703,
-        "pendingArticleCount": 0,
-        "fetchedCount": 12,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "discoveredUrlCount": 1708,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4726,27 +4685,12 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
         "discoveredUrlCount": 1163,
-        "pendingArticleCount": 0,
-        "fetchedCount": 39,
-        "bulkLastmodIgnored": true,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": [
-          {
-            "from": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322",
-            "to": "https://www.homeandsmart.de/maehroboter-kinder-und-tierschutz-0005-426322",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608",
-            "to": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
-            "httpStatus": 301
-          }
-        ]
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4759,16 +4703,12 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 105,
-        "pendingArticleCount": 0,
-        "fetchedCount": 3,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "discoveredUrlCount": 106,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4781,16 +4721,12 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1201,
-        "pendingArticleCount": 0,
-        "fetchedCount": 7,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "discoveredUrlCount": 1207,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4803,16 +4739,12 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 3277,
-        "pendingArticleCount": 0,
-        "fetchedCount": 45,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "discoveredUrlCount": 3285,
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4825,16 +4757,12 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 1998,
-        "pendingArticleCount": 0,
-        "fetchedCount": 5,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       },
       {
         "source": {
@@ -4847,19 +4775,112 @@
           "channel": "pr",
           "url": "https://www.homesandgardens.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T02:29:58.845Z",
+        "checkedAt": "2026-10-26T09:19:50.355Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 151,
-        "pendingArticleCount": 0,
-        "fetchedCount": 2,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "pendingArticleCount": 0
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-FEFDEA69F308",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "pending",
+        "title": "Anthbot N8 robot lawn mower review: Arguably the most versatile wireless robot mower on the market right now",
+        "sourceUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+        "publishDate": "2026-10-26T08:00:00Z",
+        "discoveredAt": "2026-10-26T09:19:50.355Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+          "capturedAt": "2026-10-26T09:19:50.355Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "h1",
+          "dateSource": "meta.published_time",
+          "dateCandidates": [
+            {
+              "source": "meta.published_time",
+              "value": "2026-10-26T08:00:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-26T08:00:00Z"
+            }
+          ],
+          "contentHash": "05b53e230acd74bf1b801444ba04922bc85743dfa8ee75f56c89dceda1a48905",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-CB3C631277DD",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "rejected",
+        "title": "Mähroboter-Garage 2026: Worauf es beim Kauf wirklich ankommt",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+        "publishDate": "2026-10-25T17:21:56+00:00",
+        "discoveredAt": "2026-10-26T09:19:50.355Z",
+        "themeAssessment": {
+          "tags": [
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+          "capturedAt": "2026-10-26T09:19:50.355Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-25T17:21:56+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-25T18:21:56+01:00"
+            }
+          ],
+          "contentHash": "dca64ba7ed30229d5c741be6ec384fd7c8dd9608bc75d1a2a525e648bcd42d29",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
       {
         "recordId": "PR-055BAEF25777",
         "sourceId": "pr-us-tomsguide-mammotion",
