@@ -1,7 +1,62 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T07:54:34.994Z",
+  "updatedAt": "2026-10-26T09:48:36.144Z",
   "actions": [
+    {
+      "actionId": "ACT-DC5DC408321C",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-26T09:22:03.015Z",
+      "publishDate": "2026-10-26",
+      "title": "Mammotion 美国 Meta：LUBA mini 2 外观选择互动广告",
+      "summary": "文案邀请用户给外观打分并选择偏好；画面展示草坪上的LUBA mini 2割草机器人及四种外观选项。两个编号平台均显示10月26日开始，首次留存17:22:03（北京时间）。卡片和详情均未见CTA或落地外链；不认定新品发布、限量发售、优惠或市场效果。",
+      "creative": "可见视频画面为草坪上的四轮割草机器人及四种外观选择；两编号各保留独立公开素材标识，未归档完整视频。",
+      "copy": "Rate this look 1–10 🔥\nWhich version is your favourite? 👇\n#Mammotion #LUBAmini2AWD1500 #RobotMower",
+      "offer": "",
+      "cta": "",
+      "landingUrl": "",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=1647331480275944",
+        "https://www.facebook.com/ads/library/?id=4655966294677715"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1647331480275944",
+          "publishDate": "2026-10-26",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-26T09:22:03.015Z",
+          "lastCapturedAt": "2026-10-26T09:37:28.694Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=4655966294677715",
+          "publishDate": "2026-10-26",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-26T09:22:03.015Z",
+          "lastCapturedAt": "2026-10-26T09:37:28.694Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T09:48:36.144Z",
+      "reviewedGroup": true,
+      "dateBasis": "platform_ad_start",
+      "firstObservedAt": "2026-10-26T09:22:03.015Z",
+      "lastCapturedAt": "2026-10-26T09:37:28.694Z",
+      "sourceRecordIds": [
+        "1647331480275944",
+        "4655966294677715"
+      ],
+      "landingDisclosure": "卡片及广告详情均未见CTA或官网落地外链；仅提供两个原始广告库来源，不补造落地页。"
+    },
     {
       "actionId": "ACT-EDM-703F69538A26",
       "entityId": "",
