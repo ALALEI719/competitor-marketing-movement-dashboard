@@ -1,7 +1,36 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T06:05:19.927Z",
+  "updatedAt": "2026-10-26T07:54:34.994Z",
   "events": [
+    {
+      "eventId": "EVT-86E25E5B4984",
+      "entityId": "",
+      "actionPeriod": [
+        "2026-10-10"
+      ],
+      "brand": "Mammotion",
+      "title": "Mammotion 营销事件",
+      "eventType": "product_launch",
+      "firstSeenAt": "2026-10-16T07:50:17.631Z",
+      "lastSeenAt": "2026-10-16T07:50:17.631Z",
+      "channels": [
+        "social_ads"
+      ],
+      "countries": [
+        "美国"
+      ],
+      "stages": [
+        "not_launch_related",
+        "promotion"
+      ],
+      "actionIds": [
+        "ACT-BCFA94DB382F",
+        "ACT-44E09ECE88AA"
+      ],
+      "actionCount": 2,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    },
     {
       "eventId": "EVT-26F1953FA8CC",
       "entityId": "",
@@ -24,6 +53,7 @@
       "lastSeenAt": "2026-10-21T03:43:36.808Z",
       "channels": [
         "blog",
+        "social_ads",
         "pr",
         "official_site"
       ],
@@ -36,12 +66,14 @@
       ],
       "stages": [
         "announcement",
+        "not_launch_related",
         "reputation",
         "content_followup"
       ],
       "actionIds": [
         "ACT-A2C9BC1E1380",
         "ACT-6F7BCD48738D",
+        "ACT-DADB6E9A76DA",
         "ACT-F5847AA27C57",
         "ACT-AF381A45496B",
         "ACT-FBE1A4E24571",
@@ -52,7 +84,7 @@
         "ACT-8BD8B7FEEE16",
         "ACT-716774A6E103"
       ],
-      "actionCount": 11,
+      "actionCount": 12,
       "confidenceScore": 0,
       "status": "confirmed"
     }

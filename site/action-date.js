@@ -23,7 +23,7 @@ export function actionDateInfo(action) {
 
 export function actionDateLabel(action) {
   const { day, basis } = actionDateInfo(action);
-  const label = { change_observed: '变化发现日期', manual_record: '人工记录', discovery_only: '发现日期', source_publication: '来源发布日期', sent_date: '发信日期' }[basis] || '动作日期';
+  const label = { first_observed_ad: '广告内容首次留存日（非投放开始）', platform_ad_start: '平台显示广告起始日（非创意版本日期）', change_observed: '变化发现日期', manual_record: '人工记录', discovery_only: '发现日期', source_publication: '来源发布日期', sent_date: '发信日期' }[basis] || '动作日期';
   return day ? `${day} · ${label}` : '动作日期待确认';
 }
 

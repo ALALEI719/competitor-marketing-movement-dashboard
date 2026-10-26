@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-25T07:50:11.165Z",
+  "generatedAt": "2026-10-26T07:56:27.833Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 40,
-    "pendingChannelChanges": 1,
+    "blogChanges": 43,
+    "pendingChannelChanges": 4,
     "prSources": 16,
     "healthyPrSources": 16,
     "prChanges": 15,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-25T07:49:58.270Z",
+      "checkedAt": "2026-10-26T07:56:16.742Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 340,
@@ -47,11 +47,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 63
+        "lastmodChanged": 65
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 63,
+        "lastmodPagesNeedingContentCheck": 65,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -70,7 +70,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-25T07:50:01.706Z",
+      "checkedAt": "2026-10-26T07:56:19.531Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 287,
@@ -106,7 +106,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-25T07:50:04.862Z",
+      "checkedAt": "2026-10-26T07:56:22.126Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
@@ -119,11 +119,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 79
+        "lastmodChanged": 77
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 79,
+        "lastmodPagesNeedingContentCheck": 77,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -142,7 +142,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-25T07:50:07.612Z",
+      "checkedAt": "2026-10-26T07:56:25.056Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 301,
@@ -155,11 +155,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 97
+        "lastmodChanged": 103
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 97,
+        "lastmodPagesNeedingContentCheck": 103,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -2264,7 +2264,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-25T07:50:11.329Z",
+    "checkedAt": "2026-10-26T07:56:28.000Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2276,7 +2276,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-25T07:50:11.329Z",
+        "checkedAt": "2026-10-26T07:56:28.000Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2289,7 +2289,9 @@
           "captured": 30,
           "total": 30,
           "backfilled": 0,
-          "rechecked": 2
+          "rechecked": 2,
+          "comparable": 8,
+          "backfillErrors": []
         }
       },
       {
@@ -2301,7 +2303,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-25T07:50:11.329Z",
+        "checkedAt": "2026-10-26T07:56:28.000Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2314,7 +2316,9 @@
           "captured": 30,
           "total": 30,
           "backfilled": 0,
-          "rechecked": 2
+          "rechecked": 2,
+          "comparable": 8,
+          "backfillErrors": []
         }
       },
       {
@@ -2326,7 +2330,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-25T07:50:11.329Z",
+        "checkedAt": "2026-10-26T07:56:28.000Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2339,7 +2343,9 @@
           "captured": 30,
           "total": 30,
           "backfilled": 0,
-          "rechecked": 2
+          "rechecked": 2,
+          "comparable": 8,
+          "backfillErrors": []
         }
       },
       {
@@ -2351,24 +2357,172 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-25T07:50:11.329Z",
+        "checkedAt": "2026-10-26T07:56:28.000Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 3
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
-          "rechecked": 2
+          "rechecked": 2,
+          "comparable": 12,
+          "backfillErrors": []
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-4B5021B06C42",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+        "publishDate": "2026-10-16T05:03:02+02:00",
+        "updatedAt": "2026-10-26T08:54:38+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse autoportée ? Comparatif du robot tondeuse avec le tracteur tondeuse, la tondeuse autoportée rider et la tondeuse autoportée zero-turn. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
+          "afterHash": "2783145f70781985d5106720fa9eea15f45f246fb9269c167c6f552e1cd256e7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "on RTK gèrent ainsi de très grandes pelouses : le LUBA 4 AWD de Mammotion, par exemple, est conçu pour des sur"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "70 kg, conducteur non compris environ 15 à 30 kg (LUBA AWD) Les manuels d’utilisation des tondeuses autoport"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.75,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-5A7CAC68E414",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+        "publishDate": "2026-10-14T10:19:22+02:00",
+        "updatedAt": "2026-10-26T08:56:24+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse électrique sans fil ? Autonomie, temps de tonte, qualité de la pelouse, prix : notre comparatif pour choisir selon son jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
+          "afterHash": "4ea1cd8524f8059c3dc4de296128960f172775256fedfbb63ee7d8faa43e4026",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-55050EC24DD4",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+        "publishDate": "2026-10-14T05:34:04+02:00",
+        "updatedAt": "2026-10-26T07:30:43+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse thermique ? Temps, coût sur 5 ans, entretien, bruit, pentes : notre comparatif pour choisir la solution adaptée à son jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
+          "afterHash": "8dfe2c770849e507b77455d43eef6a51128ad8556323af2b9e299eed8b723ede",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.77,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-48427844A1BA",
         "sourceId": "mammotion-fr-blog",
@@ -4149,6 +4303,152 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-4B5021B06C42",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+        "publishDate": "2026-10-16T05:03:02+02:00",
+        "updatedAt": "2026-10-26T08:54:38+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse autoportée ? Comparatif du robot tondeuse avec le tracteur tondeuse, la tondeuse autoportée rider et la tondeuse autoportée zero-turn. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
+          "afterHash": "2783145f70781985d5106720fa9eea15f45f246fb9269c167c6f552e1cd256e7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "on RTK gèrent ainsi de très grandes pelouses : le LUBA 4 AWD de Mammotion, par exemple, est conçu pour des sur"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "70 kg, conducteur non compris environ 15 à 30 kg (LUBA AWD) Les manuels d’utilisation des tondeuses autoport"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.75,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-5A7CAC68E414",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+        "publishDate": "2026-10-14T10:19:22+02:00",
+        "updatedAt": "2026-10-26T08:56:24+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse électrique sans fil ? Autonomie, temps de tonte, qualité de la pelouse, prix : notre comparatif pour choisir selon son jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
+          "afterHash": "4ea1cd8524f8059c3dc4de296128960f172775256fedfbb63ee7d8faa43e4026",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-55050EC24DD4",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+        "publishDate": "2026-10-14T05:34:04+02:00",
+        "updatedAt": "2026-10-26T07:30:43+01:00",
+        "discoveredAt": "2026-10-26T07:56:28.000Z",
+        "summary": "Robot tondeuse ou tondeuse thermique ? Temps, coût sur 5 ans, entretien, bruit, pentes : notre comparatif pour choisir la solution adaptée à son jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
+          "afterHash": "8dfe2c770849e507b77455d43eef6a51128ad8556323af2b9e299eed8b723ede",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.77,
+          "priorityConfidence": 0.78
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-CEA994D4CA25",
         "sourceId": "mammotion-fr-blog",

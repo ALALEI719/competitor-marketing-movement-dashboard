@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T06:05:19.927Z",
+  "updatedAt": "2026-10-26T07:54:34.994Z",
   "actions": [
     {
       "actionId": "ACT-EDM-703F69538A26",
@@ -1120,6 +1120,400 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:17.236Z"
+    },
+    {
+      "actionId": "ACT-DADB6E9A76DA",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-16T07:50:17.631Z",
+      "publishDate": "2026-09-11",
+      "title": "Mammotion 美国 Meta：IFA展台探访割草机器人广告",
+      "summary": "公开文案称探访柏林IFA的Mammotion割草机器人展示，留存封面可见展台机器。平台显示9月11日开始；本项目10月16日才首次留存该版本，不能倒推创意在9月11日已存在，也不改写为9月4—8日现场发布。",
+      "creative": "1 个有独立图片文件的展示变体；IFA展台探访视频的留存封面，画面有割草机器人展示；未取得完整视频",
+      "copy": "MAMMOTION at IFA 2026! 🤖🔥\n\nWe visited MAMMOTION at IFA 2026 in Berlin and checked out their latest robotic lawn mower technology! 🤯\n\nSo many cool innovations in one place — and this is only the beginning. 🚀\n\n🔗 Link in bio!\n\n#mammotion #ifa2026 #robotmower #smartgarden #tech",
+      "offer": "",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=1808549713658499"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1808549713658499",
+          "publishDate": "2026-09-11",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T07:54:34.994Z",
+      "historicalBackfill": true,
+      "changeType": "historical_observation",
+      "dateBasis": "platform_ad_start",
+      "importedAt": "2026-10-26T07:54:34.994Z",
+      "capturedAt": "2026-10-16T07:50:17.631Z",
+      "firstObservedAt": "2026-10-16T07:50:17.631Z",
+      "lastCapturedAt": "2026-10-26T06:26:14.989Z",
+      "sourceRecordIds": [
+        "1808549713658499"
+      ],
+      "platformStartDates": [
+        "2026-09-11"
+      ],
+      "campaignId": "ifa-2026",
+      "campaignTitle": "IFA 2026"
+    },
+    {
+      "actionId": "ACT-BCFA94DB382F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-16T07:50:17.631Z",
+      "publishDate": "2026-10-10",
+      "title": "Mammotion 美国 Meta：LUBA mini 2越野、坡度与导航卖点宣传",
+      "summary": "同一LUBA mini 2卖点文案配3张不同素材，分别强调坡度、0.37英亩覆盖和LiDAR/AI Vision导航，关联为一组产品教育广告。平台显示10月10日开始；当前版本10月16日首次留存，不认定新品上市。",
+      "creative": "3 个有独立图片文件的展示变体；草坡上的LUBA mini 2割草机，80%坡度画面；白底LUBA mini 2产品图，Mow Up To 0.37 Acre；白底LUBA mini 2导航主题图，360° LiDAR / Dual-Camera AI Vision",
+      "copy": "🌿 Say Goodbye to Yard Chaos. Achieve a Flawless Lawn with the MAMMOTION LUBA mini 2 AWD Robotic Lawn Mower.\n\n🤖 360° LiDAR + AI Vision\n💪 AWD All Terrain Capability\n✨ Mow Up To 0.37 Acre\n✂️ Ultra-Close Edge Cutting\n🟩 AI-Powered Precision Mapping\n🏔️ Climb Up To 80%(38°) Slope\n\n#MAMMOTION #LUBAmini2AWD #RoboticLawnMower",
+      "offer": "$50 Off First Order\nEarn 1 Point for Every $1 Spent",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower?variant=51222244819242",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=1050224611323017",
+        "https://www.facebook.com/ads/library/?id=1675384193923496",
+        "https://www.facebook.com/ads/library/?id=2292216388228585"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1050224611323017",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1675384193923496",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=2292216388228585",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T07:54:34.994Z",
+      "historicalBackfill": true,
+      "changeType": "historical_observation",
+      "dateBasis": "platform_ad_start",
+      "importedAt": "2026-10-26T07:54:34.994Z",
+      "capturedAt": "2026-10-16T07:50:17.631Z",
+      "firstObservedAt": "2026-10-16T07:50:17.631Z",
+      "lastCapturedAt": "2026-10-26T06:26:14.989Z",
+      "sourceRecordIds": [
+        "1050224611323017",
+        "1675384193923496",
+        "2292216388228585"
+      ],
+      "platformStartDates": [
+        "2026-10-10"
+      ]
+    },
+    {
+      "actionId": "ACT-44E09ECE88AA",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-16T07:50:17.631Z",
+      "publishDate": "2026-10-10",
+      "title": "Mammotion 美国 Meta：LUBA mini 2最高250美元优惠宣传",
+      "summary": "4张不同庆典/草地素材共用同一优惠文案：最高250美元、200美元即时优惠及50美元注册奖励，另列保修及4G赠送。作为一组产品促销广告关联，不把4个编号计作4场活动；未验证当前成交价、有效期或可叠加条件。",
+      "creative": "4 个有独立图片文件的展示变体；蓝色庆典背景，LUBA mini 2与Save Up To $250；草地礼盒背景，LUBA mini 2与Save Up To $250；红色庆典背景，LUBA mini 2与Save Up To $250；紫色庆典背景，LUBA mini 2与Save Up To $250",
+      "copy": "🎉 Mammotion Exclusive Sale\n💰 Save Up To $250 On LUBA mini 2 AWD 1500H\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$200 Instant Savings.\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $250 On LUBA mini 2 AWD 1500H\n🔹$200 Instant Savings.\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $250",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=1141866681708302",
+        "https://www.facebook.com/ads/library/?id=1031369396582196",
+        "https://www.facebook.com/ads/library/?id=1587309689812204",
+        "https://www.facebook.com/ads/library/?id=1867183677782957"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1141866681708302",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1031369396582196",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1587309689812204",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1867183677782957",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T07:54:34.994Z",
+      "historicalBackfill": true,
+      "changeType": "historical_observation",
+      "dateBasis": "platform_ad_start",
+      "importedAt": "2026-10-26T07:54:34.994Z",
+      "capturedAt": "2026-10-16T07:50:17.631Z",
+      "firstObservedAt": "2026-10-16T07:50:17.631Z",
+      "lastCapturedAt": "2026-10-26T06:26:14.989Z",
+      "sourceRecordIds": [
+        "1141866681708302",
+        "1031369396582196",
+        "1587309689812204",
+        "1867183677782957"
+      ],
+      "platformStartDates": [
+        "2026-10-10"
+      ]
+    },
+    {
+      "actionId": "ACT-0C7F248391D0",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-16T07:50:17.631Z",
+      "publishDate": "2026-10-10",
+      "title": "Mammotion 美国 Meta：LUBA 3最高129美元及清洁支架赠品宣传",
+      "summary": "4张不同素材共用LUBA 3优惠文案：最高129美元，由79美元清洁支架赠品与50美元注册奖励组成。关联为一组产品促销广告，不解读为129美元现金降价；未验证活动有效期或实际成交条件。",
+      "creative": "4 个有独立图片文件的展示变体；蓝色弧线背景，LUBA 3与Save Up To $129及清洁支架赠品；紫蓝庆典背景，LUBA 3与Save Up To $129及清洁支架赠品；红色庆典背景，LUBA 3与Save Up To $129及清洁支架赠品；草地礼盒背景，LUBA 3与Save Up To $129及清洁支架赠品",
+      "copy": "🎉 Mammotion Exclusive Sale\n💰 Save Up To $129 On LUBA 3 AWD 3000(H)\n🌳 LUBA 3 AWD: Mammotion Tri-Fusion Flagship, Master Mid-to-Large Lawns.\n\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $129 On LUBA 3 AWD 3000(H)\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $129",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985073410346",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=1117435484001551",
+        "https://www.facebook.com/ads/library/?id=1109942984751241",
+        "https://www.facebook.com/ads/library/?id=1632034255094717",
+        "https://www.facebook.com/ads/library/?id=28515795678043662"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1117435484001551",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1109942984751241",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1632034255094717",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=28515795678043662",
+          "publishDate": "2026-10-10",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T07:54:34.994Z",
+      "historicalBackfill": true,
+      "changeType": "historical_observation",
+      "dateBasis": "platform_ad_start",
+      "importedAt": "2026-10-26T07:54:34.994Z",
+      "capturedAt": "2026-10-16T07:50:17.631Z",
+      "firstObservedAt": "2026-10-16T07:50:17.631Z",
+      "lastCapturedAt": "2026-10-26T06:26:14.989Z",
+      "sourceRecordIds": [
+        "1117435484001551",
+        "1109942984751241",
+        "1632034255094717",
+        "28515795678043662"
+      ],
+      "platformStartDates": [
+        "2026-10-10"
+      ]
+    },
+    {
+      "actionId": "ACT-874F00BFBEF5",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-16T07:50:17.631Z",
+      "publishDate": "",
+      "title": "Mammotion 美国 Meta：LUBA 3坡度、导航与避障卖点宣传（10月留存）",
+      "summary": "10月16日留存的7张独立LUBA 3素材分别宣传坡度、切割高度、避障和导航等卖点，同文案关联为一组产品教育广告。平台分别显示8月13/14日开始，早于本批回溯起点；按首次留存日期入板，不能推断9月已使用这些创意，也不归入IFA或新品发布。",
+      "creative": "7 个有独立图片文件的展示变体；白底割草机产品图，文字 Cutting Height Up To 4.0 inches；草地与障碍物画面，Smart Obstacle Avoidance；草坡割草机画面，Climb Up To 80% (38°) Slope；白底产品图，Defining the New Era of Lawn Mastery；暗色产品图，360° LiDAR / NetRTK / AI Vision；白底导航主题图，360° LiDAR / NetRTK / AI Vision；白底坡度主题产品图，Climb Up To 80% (38°) Slope",
+      "copy": "🍃 Steep Slopes? Rough Terrain? Let MAMMOTION LUBA 3 AWD Series Make Your Lawn Perfect—No Sweat!\n\n🤖 Mammotion Tri-Fusion NavTech\n👀 360° LiDAR • NetRTK • AI Vision\n🟩 Mow Up To 1.25 Acres\n⚡️ Up to 5400 sq.ft/h\n🏔️ Climb Up To 80%(38°) Slope\n✂️ Cutting Height Up To 4.0\"\n \n#MAMMOTION #LUBA3AWD #RoboticLawnMower\n\n❗ NetRTK is suitable for lawn mower models of 0.75 Acre and above.",
+      "offer": "$50 Off First Order\nEarn 1 Point for Every $1 Spent",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=953700237753538",
+        "https://www.facebook.com/ads/library/?id=1054353483733735",
+        "https://www.facebook.com/ads/library/?id=37957395430542878",
+        "https://www.facebook.com/ads/library/?id=821406057669374",
+        "https://www.facebook.com/ads/library/?id=919229904556934",
+        "https://www.facebook.com/ads/library/?id=1789496838708780",
+        "https://www.facebook.com/ads/library/?id=2127614067818136"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=953700237753538",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1054353483733735",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=37957395430542878",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=821406057669374",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=919229904556934",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=1789496838708780",
+          "publishDate": "2026-08-13",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        },
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=2127614067818136",
+          "publishDate": "2026-08-14",
+          "dateBasis": "platform_ad_start",
+          "discoveredAt": "2026-10-16T07:50:17.631Z",
+          "lastCapturedAt": "2026-10-26T06:26:14.989Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T07:54:34.994Z",
+      "historicalBackfill": true,
+      "changeType": "historical_observation",
+      "dateBasis": "first_observed_ad",
+      "importedAt": "2026-10-26T07:54:34.994Z",
+      "capturedAt": "2026-10-16T07:50:17.631Z",
+      "firstObservedAt": "2026-10-16T07:50:17.631Z",
+      "lastCapturedAt": "2026-10-26T06:26:14.989Z",
+      "sourceRecordIds": [
+        "953700237753538",
+        "1054353483733735",
+        "37957395430542878",
+        "821406057669374",
+        "919229904556934",
+        "1789496838708780",
+        "2127614067818136"
+      ],
+      "platformStartDates": [
+        "2026-08-13",
+        "2026-08-14"
+      ],
+      "occurredAt": "2026-10-16T07:50:17.631Z"
     },
     {
       "actionId": "ACT-B510F5DC47E4",
