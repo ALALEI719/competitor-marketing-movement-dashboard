@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-25T20:23:30.918Z",
+  "updatedAt": "2026-10-26T06:05:19.927Z",
   "actions": [
     {
       "actionId": "ACT-EDM-703F69538A26",
@@ -143,6 +143,44 @@
       "detailRef": "./data/edm-details/EDM-8F8C5096991E.json"
     },
     {
+      "actionId": "ACT-A932640C000B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-23T07:57:53.638Z",
+      "publishDate": "2026-10-22T11:32:06+02:00",
+      "title": "小庭院：有线电动与机器人割草机比较",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "YUKA",
+          "source": "article_body",
+          "excerpt": "ez les robots tondeuses Mammotion , dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
+        }
+      ],
+      "summary": "面向小庭院比较有线电动与机器人割草机的剪切效果、持续维护及操作投入，正文提及 YUKA 系列。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+          "discoveredAt": "2026-10-23T07:57:53.638Z",
+          "publishDate": "2026-10-22T11:32:06+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:15.353Z"
+    },
+    {
       "actionId": "ACT-EDM-E6163C71D907",
       "entityId": "",
       "brand": "Mova",
@@ -253,6 +291,38 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-22T02:20:43.370Z",
       "detailRef": "./data/edm-details/EDM-EE9AC90632B9.json"
+    },
+    {
+      "actionId": "ACT-9FDD78B1513B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-21T08:01:39.892Z",
+      "publishDate": "2026-10-20T02:29:42-07:00",
+      "title": "草坪除草剂的施用时机指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "说明除草剂施用时机与天气、草坪状态等因素的关系，强调按产品标签使用，属于草坪养护教育。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
+          "discoveredAt": "2026-10-21T08:01:39.892Z",
+          "publishDate": "2026-10-20T02:29:42-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:15.485Z"
     },
     {
       "historicalBackfill": true,
@@ -700,6 +770,134 @@
       "reviewedAt": "2026-10-20T10:41:04.470Z"
     },
     {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-19T19:05:02-07:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "46451555888b809045b535805526ec1643e25acdb1592680af76c416498da9a0",
+        "afterHash": "e52e9d3e9942014b75181ae06e3d5bff778a46857865e54994b80a2a53d59b00",
+        "changedFields": [
+          "headings",
+          "cta",
+          "offer",
+          "product_name",
+          "body"
+        ],
+        "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
+        "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
+      },
+      "actionId": "ACT-EC0985386171",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T07:56:42.359Z",
+      "publishDate": "2026-08-02T23:00:41-07:00",
+      "title": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "美国维护指南补充清洗注意事项及官方清洁指导链接，属于既有文章的产品教育更新。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance",
+          "discoveredAt": "2026-10-20T07:56:42.359Z",
+          "publishDate": "2026-08-02T23:00:41-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:15.787Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-20T04:27:59+02:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d44719a8cf217df76115b8f9c30a67901b503c14873c518aa083189812356c96",
+        "afterHash": "763d6b9b07cfd60d123a61e97cd4d8f52ed26cebf98bb1e925668b10be9901ce",
+        "changedFields": [
+          "headings",
+          "cta",
+          "offer",
+          "product_name",
+          "body"
+        ],
+        "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
+        "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
+      },
+      "actionId": "ACT-ECD6281585AD",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T07:56:42.359Z",
+      "publishDate": "2026-08-03T09:22:04+02:00",
+      "title": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "德国维护指南补充清洗注意事项及官方清洁指导链接，属于既有文章的产品教育更新。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/maehroboter-wartung"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-de-blog",
+          "url": "https://de.mammotion.com/blogs/news/maehroboter-wartung",
+          "discoveredAt": "2026-10-20T07:56:42.359Z",
+          "publishDate": "2026-08-03T09:22:04+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:15.884Z"
+    },
+    {
+      "actionId": "ACT-DEF066CD0021",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T07:56:42.359Z",
+      "publishDate": "2026-10-19T11:55:28+02:00",
+      "title": "气垫割草机与机器人割草机选型比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "比较气垫割草机与机器人在地形、操控及持续维护方面的差异，介绍各自适用的庭院条件。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+          "discoveredAt": "2026-10-20T07:56:42.359Z",
+          "publishDate": "2026-10-19T11:55:28+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:16.060Z"
+    },
+    {
       "actionId": "ACT-EDM-D183E8E1E284",
       "entityId": "",
       "brand": "Mova",
@@ -756,6 +954,82 @@
       "detailRef": "./data/edm-details/EDM-D178991A0A2C.json"
     },
     {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-18T19:30:14-07:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
+        "afterHash": "4777b7604d2c14f4498b10d989c63a2fb28bcc80ba1798aac3bcca4a678c07aa",
+        "changedFields": [
+          "cta"
+        ],
+        "beforeExcerpt": "",
+        "afterExcerpt": ""
+      },
+      "actionId": "ACT-C80767CB2C9C",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:14.082Z",
+      "publishDate": "2026-10-16T03:29:52-07:00",
+      "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "自然除草指南新增 Mammotion 割草机器人介绍与引导链接，形成额外品牌产品露出。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+          "discoveredAt": "2026-10-19T07:56:14.082Z",
+          "publishDate": "2026-10-16T03:29:52-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:16.398Z"
+    },
+    {
+      "actionId": "ACT-C23D66D706F1",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:14.082Z",
+      "publishDate": "2026-10-19T09:25:11+02:00",
+      "title": "手推滚刀与机器人割草机选型比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "从剪切效果、使用投入与维护频次比较手推滚刀割草机和机器人，提供庭院选型思路。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+          "discoveredAt": "2026-10-19T07:56:14.082Z",
+          "publishDate": "2026-10-19T09:25:11+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:16.901Z"
+    },
+    {
       "actionId": "ACT-EDM-F0D6FB102756",
       "entityId": "",
       "brand": "Dreame",
@@ -784,6 +1058,102 @@
       "detailRef": "./data/edm-details/EDM-F0D6FB102756.json"
     },
     {
+      "actionId": "ACT-2BB6313B3087",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-17T07:12:42.852Z",
+      "publishDate": "2026-10-16T03:29:52-07:00",
+      "title": "自然除草方法与草坪养护指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "讲解自然除草方式及其适用限制，以草坪健康与日常养护为主题。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
+          "discoveredAt": "2026-10-17T07:12:42.852Z",
+          "publishDate": "2026-10-16T03:29:52-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:17.092Z"
+    },
+    {
+      "actionId": "ACT-EA528E19A30C",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-17T07:12:42.852Z",
+      "publishDate": "2026-10-16T10:19:14+02:00",
+      "title": "割灌机与机器人割草机的互补使用",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "讨论割灌机的杂草和边角处理与机器人的常规割草职责，说明不同工具的互补关系。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
+          "discoveredAt": "2026-10-17T07:12:42.852Z",
+          "publishDate": "2026-10-16T10:19:14+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:17.236Z"
+    },
+    {
+      "actionId": "ACT-B510F5DC47E4",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-16T07:32:50.782Z",
+      "publishDate": "2026-10-16T05:03:02+02:00",
+      "title": "大面积庭院：骑乘式与机器人割草机比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "围绕大面积草坪比较骑乘式与机器人割草机的工作量、场地条件及维护方式。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
+          "discoveredAt": "2026-10-16T07:32:50.782Z",
+          "publishDate": "2026-10-16T05:03:02+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:17.425Z"
+    },
+    {
       "actionId": "ACT-EDM-7DBDD554AC85",
       "entityId": "",
       "brand": "Mova",
@@ -810,6 +1180,370 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-16T06:14:39.439Z",
       "detailRef": "./data/edm-details/EDM-7DBDD554AC85.json"
+    },
+    {
+      "actionId": "ACT-CD2DC5876E53",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-15T07:44:49.872Z",
+      "publishDate": "2026-10-14T10:19:22+02:00",
+      "title": "电动与机器人割草机选购比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "对比电动与机器人割草机的操作方式、时间投入、适用庭院与维护需求。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
+          "discoveredAt": "2026-10-15T07:44:49.872Z",
+          "publishDate": "2026-10-14T10:19:22+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:17.719Z"
+    },
+    {
+      "actionId": "ACT-8562D667AD4D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-14T08:03:13.501Z",
+      "publishDate": "2026-10-14T00:37:32-07:00",
+      "title": "草坪除草剂类型与选购指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "按杂草类型、草种和使用场景梳理草坪除草产品，并说明选择与使用限制。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
+          "discoveredAt": "2026-10-14T08:03:13.501Z",
+          "publishDate": "2026-10-14T00:37:32-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:17.902Z"
+    },
+    {
+      "actionId": "ACT-A651401B913B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-14T08:03:13.501Z",
+      "publishDate": "2026-10-14T05:34:04+02:00",
+      "title": "汽油与机器人割草机比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "按地形、草坪规模及日常维护需求比较汽油割草机和机器人，呈现不同选购场景。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
+          "discoveredAt": "2026-10-14T08:03:13.501Z",
+          "publishDate": "2026-10-14T05:34:04+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:18.049Z"
+    },
+    {
+      "actionId": "ACT-38C9A703C55A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-13T09:45:59.157Z",
+      "publishDate": "2026-10-12T23:37:31-07:00",
+      "title": "草坪过度施肥的识别与修复",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "说明草坪过度施肥的迹象、成因及修复思路，以常规养护问题解决为主。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/over-fertilized-lawn"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
+          "discoveredAt": "2026-10-13T09:45:59.157Z",
+          "publishDate": "2026-10-12T23:37:31-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:18.208Z"
+    },
+    {
+      "actionId": "ACT-FFDEAF23E39B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-13T09:45:59.157Z",
+      "publishDate": "2026-10-13T05:50:29+02:00",
+      "title": "复杂地形：履带与四轮驱动机器人比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "围绕坡地、湿滑地面与草坪保护比较履带和四轮驱动机器人，正文提及 LUBA 4 AWD。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+          "discoveredAt": "2026-10-13T09:45:59.157Z",
+          "publishDate": "2026-10-13T05:50:29+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:18.423Z"
+    },
+    {
+      "actionId": "ACT-57B310AB2CA5",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:49.072Z",
+      "publishDate": "2026-10-12T01:29:38-07:00",
+      "title": "新播种草坪与铺设草皮的施肥指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "区分播种与铺设草皮后的施肥时机，结合生长状态解释不同养护思路。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
+          "discoveredAt": "2026-10-12T09:26:49.072Z",
+          "publishDate": "2026-10-12T01:29:38-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:18.570Z"
+    },
+    {
+      "actionId": "ACT-08DD44BCE077",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:49.072Z",
+      "publishDate": "2026-10-11T23:32:46-07:00",
+      "title": "草坪施肥频率指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "按草种、养护目标与土壤条件说明草坪施肥频率，强调避免过量。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
+          "discoveredAt": "2026-10-12T09:26:49.072Z",
+          "publishDate": "2026-10-11T23:32:46-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:18.728Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-12T03:49:55+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "4011a6e35f4720ac05ac2fd4fd1b26fb538babf286b62f2fafd8390771841288",
+        "afterHash": "bbd38be9f807f8825149c56a73a0e7a3fe5c1c18ce6b7d547245504d8f51f719",
+        "changedFields": [
+          "offer"
+        ],
+        "beforeExcerpt": "",
+        "afterExcerpt": ""
+      },
+      "actionId": "ACT-B501A1D05ACC",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:49.072Z",
+      "publishDate": "2026-09-11T10:01:56+01:00",
+      "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "英国 LUBA 4 AWD 文章将 3000F/6000F 切割高度上限从 100 mm 更正为 95 mm；确认参数更新，不推进新的发布阶段。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
+          "discoveredAt": "2026-10-12T09:26:49.072Z",
+          "publishDate": "2026-09-11T10:01:56+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:19.020Z"
+    },
+    {
+      "actionId": "ACT-978D8CA88C76",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:49.072Z",
+      "publishDate": "2026-10-12T09:43:34+02:00",
+      "title": "复杂地形机器人割草机选型指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "梳理复杂地形选机需要关注的坡度、起伏、边界与易打滑条件，包含 LUBA 系列产品露出。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+          "discoveredAt": "2026-10-12T09:26:49.072Z",
+          "publishDate": "2026-10-12T09:43:34+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:19.176Z"
+    },
+    {
+      "actionId": "ACT-14E06F5E7901",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-11T09:19:48.810Z",
+      "publishDate": "2026-10-10T03:22:09-07:00",
+      "title": "按季节与草种安排草坪施肥",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "按草种、地区和季节解释草坪施肥时机，作为常规草坪养护指南收录。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
+          "discoveredAt": "2026-10-11T09:19:48.810Z",
+          "publishDate": "2026-10-10T03:22:09-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:19.407Z"
+    },
+    {
+      "actionId": "ACT-2A63F6FEFA1A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-11T09:19:48.810Z",
+      "publishDate": "2026-10-10T12:31:16+02:00",
+      "title": "GPS 机器人割草机工作原理与选型",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "解释 GPS 机器人割草机的定位与工作方式，并说明选择设备时需关注的庭院条件。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+          "discoveredAt": "2026-10-11T09:19:48.810Z",
+          "publishDate": "2026-10-10T12:31:16+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:19.658Z"
     },
     {
       "historicalBackfill": true,
@@ -847,6 +1581,38 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-20T10:41:04.277Z"
+    },
+    {
+      "actionId": "ACT-AFDC07EDC5BC",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-10T09:05:38.206Z",
+      "publishDate": "2026-10-10T10:40:23+02:00",
+      "title": "四驱割草机器人与草坪保护比较",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "比较四驱割草机器人的转向、抓地与草坪保护差异，展示 LUBA 系列产品的适用思路。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+          "discoveredAt": "2026-10-10T09:05:38.206Z",
+          "publishDate": "2026-10-10T10:40:23+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-26T06:05:19.927Z"
     },
     {
       "historicalBackfill": true,

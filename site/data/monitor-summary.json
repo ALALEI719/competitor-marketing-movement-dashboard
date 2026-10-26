@@ -17,7 +17,7 @@
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 40,
-    "pendingChannelChanges": 29,
+    "pendingChannelChanges": 1,
     "prSources": 16,
     "healthyPrSources": 16,
     "prChanges": 15,
@@ -2377,7 +2377,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
         "publishDate": "2026-10-22T11:32:06+02:00",
@@ -2417,7 +2417,13 @@
           "monitoringPriority": 1.71,
           "priorityConfidence": 0.75
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:15.353Z",
+          "publicTitle": "小庭院：有线电动与机器人割草机比较",
+          "publicSummary": "面向小庭院比较有线电动与机器人割草机的剪切效果、持续维护及操作投入，正文提及 YUKA 系列。"
+        }
       },
       {
         "recordId": "CH-A42BCB630A6B",
@@ -2427,7 +2433,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Best Time to Spray Weed Killer: A Complete Lawn Care Guide",
         "sourceUrl": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
         "publishDate": "2026-10-20T02:29:42-07:00",
@@ -2457,7 +2463,13 @@
           "monitoringPriority": 1.14,
           "priorityConfidence": 0.8
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:15.485Z",
+          "publicTitle": "草坪除草剂的施用时机指南",
+          "publicSummary": "说明除草剂施用时机与天气、草坪状态等因素的关系，强调按产品标签使用，属于草坪养护教育。"
+        }
       },
       {
         "recordId": "CH-B8033B2AF6A1",
@@ -2467,7 +2479,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
         "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
         "publishDate": "2026-10-14T00:37:32-07:00",
@@ -2503,7 +2515,11 @@
           "monitoringPriority": 1.13,
           "priorityConfidence": 0.78
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:15.623Z"
+        }
       },
       {
         "recordId": "CH-HIST-F2D647B0066C",
@@ -2651,7 +2667,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
         "sourceUrl": "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance",
         "publishDate": "2026-08-02T23:00:41-07:00",
@@ -2689,7 +2705,13 @@
           "monitoringPriority": 1.48,
           "priorityConfidence": 0.57
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:15.787Z",
+          "publicTitle": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
+          "publicSummary": "美国维护指南补充清洗注意事项及官方清洁指导链接，属于既有文章的产品教育更新。"
+        }
       },
       {
         "recordId": "CH-155AE24D9C44",
@@ -2699,7 +2721,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
         "sourceUrl": "https://de.mammotion.com/blogs/news/maehroboter-wartung",
         "publishDate": "2026-08-03T09:22:04+02:00",
@@ -2737,7 +2759,13 @@
           "monitoringPriority": 1.53,
           "priorityConfidence": 0.59
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:15.884Z",
+          "publicTitle": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
+          "publicSummary": "德国维护指南补充清洗注意事项及官方清洁指导链接，属于既有文章的产品教育更新。"
+        }
       },
       {
         "recordId": "CH-223C21A90529",
@@ -2747,7 +2775,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Tondeuse à coussin d&apos;air : a-t-on encore besoin d&apos;un robot tondeuse ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
         "publishDate": "2026-10-19T11:55:28+02:00",
@@ -2777,7 +2805,13 @@
           "monitoringPriority": 1.85,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.060Z",
+          "publicTitle": "气垫割草机与机器人割草机选型比较",
+          "publicSummary": "比较气垫割草机与机器人在地形、操控及持续维护方面的差异，介绍各自适用的庭院条件。"
+        }
       },
       {
         "recordId": "CH-E771F0306DBC",
@@ -2787,7 +2821,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
         "publishDate": "2026-10-19T09:25:11+02:00",
@@ -2821,7 +2855,11 @@
           "monitoringPriority": 1.78,
           "priorityConfidence": 0.74
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.259Z"
+        }
       },
       {
         "recordId": "CH-DEE502682C4C",
@@ -2831,7 +2869,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
         "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
         "publishDate": "2026-10-16T03:29:52-07:00",
@@ -2865,7 +2903,13 @@
           "monitoringPriority": 1.35,
           "priorityConfidence": 0.68
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.398Z",
+          "publicTitle": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
+          "publicSummary": "自然除草指南新增 Mammotion 割草机器人介绍与引导链接，形成额外品牌产品露出。"
+        }
       },
       {
         "recordId": "CH-F4AE1A8BA8F9",
@@ -2875,7 +2919,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
         "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
         "publishDate": "2026-10-14T00:37:32-07:00",
@@ -2910,7 +2954,11 @@
           "monitoringPriority": 1.06,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.547Z"
+        }
       },
       {
         "recordId": "CH-6A9F9851EAE6",
@@ -2920,7 +2968,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
         "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
         "publishDate": "2026-10-12T23:37:31-07:00",
@@ -2958,7 +3006,11 @@
           "monitoringPriority": 1.21,
           "priorityConfidence": 0.75
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.722Z"
+        }
       },
       {
         "recordId": "CH-2549192A5BB9",
@@ -2968,7 +3020,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
         "publishDate": "2026-10-19T09:25:11+02:00",
@@ -2998,7 +3050,13 @@
           "monitoringPriority": 1.82,
           "priorityConfidence": 0.78
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:16.901Z",
+          "publicTitle": "手推滚刀与机器人割草机选型比较",
+          "publicSummary": "从剪切效果、使用投入与维护频次比较手推滚刀割草机和机器人，提供庭院选型思路。"
+        }
       },
       {
         "recordId": "CH-560390F8D2CE",
@@ -3008,7 +3066,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
         "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
         "publishDate": "2026-10-16T03:29:52-07:00",
@@ -3038,7 +3096,13 @@
           "monitoringPriority": 1.11,
           "priorityConfidence": 0.82
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.092Z",
+          "publicTitle": "自然除草方法与草坪养护指南",
+          "publicSummary": "讲解自然除草方式及其适用限制，以草坪健康与日常养护为主题。"
+        }
       },
       {
         "recordId": "CH-C1404BA6520B",
@@ -3048,7 +3112,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Tondeuse débroussailleuse et robot tondeuse : faut-il vraiment choisir ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
         "publishDate": "2026-10-16T10:19:14+02:00",
@@ -3078,7 +3142,13 @@
           "monitoringPriority": 1.84,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.236Z",
+          "publicTitle": "割灌机与机器人割草机的互补使用",
+          "publicSummary": "讨论割灌机的杂草和边角处理与机器人的常规割草职责，说明不同工具的互补关系。"
+        }
       },
       {
         "recordId": "CH-F8E337006D98",
@@ -3088,7 +3158,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
         "publishDate": "2026-10-16T05:03:02+02:00",
@@ -3118,7 +3188,13 @@
           "monitoringPriority": 1.83,
           "priorityConfidence": 0.8
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.425Z",
+          "publicTitle": "大面积庭院：骑乘式与机器人割草机比较",
+          "publicSummary": "围绕大面积草坪比较骑乘式与机器人割草机的工作量、场地条件及维护方式。"
+        }
       },
       {
         "recordId": "CH-9DBCE3BBB2B8",
@@ -3128,7 +3204,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "How Often to Fertilize Your Lawn: A Practical Guide",
         "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
         "publishDate": "2026-10-11T23:32:46-07:00",
@@ -3166,7 +3242,11 @@
           "monitoringPriority": 1.17,
           "priorityConfidence": 0.78
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.595Z"
+        }
       },
       {
         "recordId": "CH-0A69681FFF5D",
@@ -3176,7 +3256,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
         "publishDate": "2026-10-14T10:19:22+02:00",
@@ -3206,7 +3286,13 @@
           "monitoringPriority": 1.84,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.719Z",
+          "publicTitle": "电动与机器人割草机选购比较",
+          "publicSummary": "对比电动与机器人割草机的操作方式、时间投入、适用庭院与维护需求。"
+        }
       },
       {
         "recordId": "CH-EF444673C908",
@@ -3216,7 +3302,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
         "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
         "publishDate": "2026-10-14T00:37:32-07:00",
@@ -3246,7 +3332,13 @@
           "monitoringPriority": 1.09,
           "priorityConfidence": 0.79
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:17.902Z",
+          "publicTitle": "草坪除草剂类型与选购指南",
+          "publicSummary": "按杂草类型、草种和使用场景梳理草坪除草产品，并说明选择与使用限制。"
+        }
       },
       {
         "recordId": "CH-22AE8FDF074A",
@@ -3256,7 +3348,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
         "publishDate": "2026-10-14T05:34:04+02:00",
@@ -3286,7 +3378,13 @@
           "monitoringPriority": 1.84,
           "priorityConfidence": 0.84
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.049Z",
+          "publicTitle": "汽油与机器人割草机比较",
+          "publicSummary": "按地形、草坪规模及日常维护需求比较汽油割草机和机器人，呈现不同选购场景。"
+        }
       },
       {
         "recordId": "CH-3AF591415C52",
@@ -3296,7 +3394,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
         "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
         "publishDate": "2026-10-12T23:37:31-07:00",
@@ -3326,7 +3424,13 @@
           "monitoringPriority": 1.14,
           "priorityConfidence": 0.79
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.208Z",
+          "publicTitle": "草坪过度施肥的识别与修复",
+          "publicSummary": "说明草坪过度施肥的迹象、成因及修复思路，以常规养护问题解决为主。"
+        }
       },
       {
         "recordId": "CH-C5C8E2C56102",
@@ -3336,7 +3440,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
         "publishDate": "2026-10-13T05:50:29+02:00",
@@ -3366,7 +3470,13 @@
           "monitoringPriority": 1.97,
           "priorityConfidence": 0.88
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.423Z",
+          "publicTitle": "复杂地形：履带与四轮驱动机器人比较",
+          "publicSummary": "围绕坡地、湿滑地面与草坪保护比较履带和四轮驱动机器人，正文提及 LUBA 4 AWD。"
+        }
       },
       {
         "recordId": "CH-FEDDE9BADF76",
@@ -3376,7 +3486,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "When to Fertilize New Grass: Seed vs. Sod",
         "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
         "publishDate": "2026-10-12T01:29:38-07:00",
@@ -3406,7 +3516,13 @@
           "monitoringPriority": 1.08,
           "priorityConfidence": 0.8
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.570Z",
+          "publicTitle": "新播种草坪与铺设草皮的施肥指南",
+          "publicSummary": "区分播种与铺设草皮后的施肥时机，结合生长状态解释不同养护思路。"
+        }
       },
       {
         "recordId": "CH-61B17656F9B1",
@@ -3416,7 +3532,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "How Often to Fertilize Your Lawn: A Practical Guide",
         "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
         "publishDate": "2026-10-11T23:32:46-07:00",
@@ -3446,7 +3562,13 @@
           "monitoringPriority": 1.06,
           "priorityConfidence": 0.84
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.728Z",
+          "publicTitle": "草坪施肥频率指南",
+          "publicSummary": "按草种、养护目标与土壤条件说明草坪施肥频率，强调避免过量。"
+        }
       },
       {
         "recordId": "CH-A0D2BA5CAF20",
@@ -3456,7 +3578,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
         "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
         "publishDate": "2026-10-10T03:22:09-07:00",
@@ -3491,7 +3613,11 @@
           "monitoringPriority": 1.09,
           "priorityConfidence": 0.84
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:18.896Z"
+        }
       },
       {
         "recordId": "CH-F3D81040A1B0",
@@ -3501,7 +3627,7 @@
         "countryCode": "UK",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
         "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
         "publishDate": "2026-09-11T10:01:56+01:00",
@@ -3535,7 +3661,13 @@
           "monitoringPriority": 3.97,
           "priorityConfidence": 0.98
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:19.020Z",
+          "publicTitle": "LUBA 4 AWD Unveiled: Everything You Need to Know",
+          "publicSummary": "英国 LUBA 4 AWD 文章将 3000F/6000F 切割高度上限从 100 mm 更正为 95 mm；确认参数更新，不推进新的发布阶段。"
+        }
       },
       {
         "recordId": "CH-DB60F9B7ED78",
@@ -3545,7 +3677,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
         "publishDate": "2026-10-12T09:43:34+02:00",
@@ -3575,7 +3707,13 @@
           "monitoringPriority": 1.86,
           "priorityConfidence": 0.82
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:19.176Z",
+          "publicTitle": "复杂地形机器人割草机选型指南",
+          "publicSummary": "梳理复杂地形选机需要关注的坡度、起伏、边界与易打滑条件，包含 LUBA 系列产品露出。"
+        }
       },
       {
         "recordId": "CH-CEA994D4CA25",
@@ -3625,7 +3763,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
         "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
         "publishDate": "2026-10-10T03:22:09-07:00",
@@ -3655,7 +3793,13 @@
           "monitoringPriority": 1.1,
           "priorityConfidence": 0.82
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:19.407Z",
+          "publicTitle": "按季节与草种安排草坪施肥",
+          "publicSummary": "按草种、地区和季节解释草坪施肥时机，作为常规草坪养护指南收录。"
+        }
       },
       {
         "recordId": "CH-911252D74E75",
@@ -3665,7 +3809,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
         "publishDate": "2026-10-10T12:31:16+02:00",
@@ -3695,7 +3839,13 @@
           "monitoringPriority": 1.73,
           "priorityConfidence": 0.73
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:19.658Z",
+          "publicTitle": "GPS 机器人割草机工作原理与选型",
+          "publicSummary": "解释 GPS 机器人割草机的定位与工作方式，并说明选择设备时需关注的庭院条件。"
+        }
       },
       {
         "recordId": "CH-HIST-68EBFFA6BEC6",
@@ -3737,7 +3887,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
         "publishDate": "2026-10-10T10:40:23+02:00",
@@ -3767,7 +3917,13 @@
           "monitoringPriority": 1.96,
           "priorityConfidence": 0.85
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-10-26T06:05:19.927Z",
+          "publicTitle": "四驱割草机器人与草坪保护比较",
+          "publicSummary": "比较四驱割草机器人的转向、抓地与草坪保护差异，展示 LUBA 系列产品的适用思路。"
+        }
       },
       {
         "recordId": "CH-HIST-31FEF3C32C73",
@@ -3994,1076 +4150,6 @@
     ],
     "pendingRecords": [
       {
-        "recordId": "CH-48427844A1BA",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
-        "publishDate": "2026-10-22T11:32:06+02:00",
-        "updatedAt": "2026-10-22T11:32:06+02:00",
-        "discoveredAt": "2026-10-23T07:57:53.638Z",
-        "summary": "Un robot tondeuse coupe-t-il aussi bien qu’une tondeuse électrique filaire ?",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "91492dc8b30d0ed14e7eeecae12d5b21f5e47a23b981151c76eb3f938dc6a442",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "YUKA",
-            "source": "article_body",
-            "excerpt": "ez les robots tondeuses Mammotion , dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.71,
-          "priorityConfidence": 0.75
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-A42BCB630A6B",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Best Time to Spray Weed Killer: A Complete Lawn Care Guide",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/best-time-to-spray-weed-killer",
-        "publishDate": "2026-10-20T02:29:42-07:00",
-        "updatedAt": "2026-10-20T02:29:43-07:00",
-        "discoveredAt": "2026-10-21T08:01:39.892Z",
-        "summary": "Discover the best time to spray weed killer by time of day, season, and weather. Learn when to apply it and how to avoid common lawn care mistakes. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "5c81ae3dc1c1d40cb619286fb7b0d7433dfd5a2f3e446e9c7940584bf5632259",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.14,
-          "priorityConfidence": 0.8
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-B8033B2AF6A1",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
-        "publishDate": "2026-10-14T00:37:32-07:00",
-        "updatedAt": "2026-10-20T02:38:38-07:00",
-        "discoveredAt": "2026-10-21T08:01:39.892Z",
-        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
-          "afterHash": "6b61dc6c51b0bf3d859de76f80edd06a908408e1089f9b0beb8d958430391a2e",
-          "changedFields": [
-            "headings",
-            "cta",
-            "product_name"
-          ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.13,
-          "priorityConfidence": 0.78
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-24FB595BB9F9",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026)",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/robot-lawn-mower-maintenance",
-        "publishDate": "2026-08-02T23:00:41-07:00",
-        "updatedAt": "2026-10-19T19:05:02-07:00",
-        "discoveredAt": "2026-10-20T07:56:42.359Z",
-        "summary": "Learn how to maintain your robot lawn mower with expert tips on cleaning, blade replacement, battery care, firmware updates, winter storage, and troubleshooting to keep it performing at its best. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "46451555888b809045b535805526ec1643e25acdb1592680af76c416498da9a0",
-          "afterHash": "e52e9d3e9942014b75181ae06e3d5bff778a46857865e54994b80a2a53d59b00",
-          "changedFields": [
-            "headings",
-            "cta",
-            "offer",
-            "product_name",
-            "body"
-          ],
-          "beforeExcerpt": "World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . 0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . How-To's How to Maintain a Robot Lawn Mower: Complete Maintenance Guide (2026). Aug 2, 2026 . B",
-          "afterExcerpt": "NO.1 World's NO.1 Wire-free Robot Lawnmower Brand* . Free Shipping on Orders Over $99 (to continental U.S.) . . . . . . . Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . Popular Searches. LUBA 3 AWD . LUBA mini 2 AWD . SPINO E1 . Accessories . . . . . . . . . . . . . "
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.48,
-          "priorityConfidence": 0.57
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-155AE24D9C44",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Mähroboter Wartung: Reinigung, Messerwechsel, Akku & Winterpflege (2026)",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/maehroboter-wartung",
-        "publishDate": "2026-08-03T09:22:04+02:00",
-        "updatedAt": "2026-10-20T04:27:59+02:00",
-        "discoveredAt": "2026-10-20T07:56:42.359Z",
-        "summary": "Erfahren Sie, wie Sie Ihren Mähroboter richtig warten – inklusive Reinigung, Messerwechsel, Akkupflege, Firmware-Updates, Winterpflege und praktischen Wartungstipps. Mehr ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "d44719a8cf217df76115b8f9c30a67901b503c14873c518aa083189812356c96",
-          "afterHash": "763d6b9b07cfd60d123a61e97cd4d8f52ed26cebf98bb1e925668b10be9901ce",
-          "changedFields": [
-            "headings",
-            "cta",
-            "offer",
-            "product_name",
-            "body"
-          ],
-          "beforeExcerpt": "Weltweit führende Marke für kabellose Mähroboter* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . 0 . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen Schließen . . . . . . . . . . . . . . . . Anleitungen & Tipps Mähroboter Wartung: Reinigung, Messerwechsel, Akku &",
-          "afterExcerpt": "Nr. 1 Weltweite Nr. 1 bei kabellosen Mährobotern* . 0 % Finanzierung – bis zu 12 Monate (DE) / 6 Monate (AT) . . . . . . . Warenkorb. 0 . Schließen . . Dein Warenkorb ist leer. Weiter einkaufen . . . Zurücksetzen . Schließen . . . . . . . . . . . . . . . . Prämienprogramm . Werden Sie Mitglied, samm"
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.53,
-          "priorityConfidence": 0.59
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-223C21A90529",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Tondeuse à coussin d&apos;air : a-t-on encore besoin d&apos;un robot tondeuse ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
-        "publishDate": "2026-10-19T11:55:28+02:00",
-        "updatedAt": "2026-10-19T11:55:28+02:00",
-        "discoveredAt": "2026-10-20T07:56:42.359Z",
-        "summary": "Électrique, à batterie ou thermique, la tondeuse à coussin d'air a ses limites. Pente, bruit, entretien : quand passer au robot tondeuse ? Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.85,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-E771F0306DBC",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
-        "publishDate": "2026-10-19T09:25:11+02:00",
-        "updatedAt": "2026-10-19T11:59:03+02:00",
-        "discoveredAt": "2026-10-20T07:56:42.359Z",
-        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
-          "afterHash": "a7c6feba035b25cf2125dcac92b5b33615d9353a60057173a4ae2ac9ff3ea625",
-          "changedFields": [
-            "headings"
-          ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.78,
-          "priorityConfidence": 0.74
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-DEE502682C4C",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
-        "publishDate": "2026-10-16T03:29:52-07:00",
-        "updatedAt": "2026-10-18T19:30:14-07:00",
-        "discoveredAt": "2026-10-19T07:56:14.082Z",
-        "summary": "Learn how to get rid of weeds naturally with practical methods, homemade weed killer facts, and prevention tips. Find out what works and what to avoid. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
-          "afterHash": "4777b7604d2c14f4498b10d989c63a2fb28bcc80ba1798aac3bcca4a678c07aa",
-          "changedFields": [
-            "cta"
-          ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.35,
-          "priorityConfidence": 0.68
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-F4AE1A8BA8F9",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
-        "publishDate": "2026-10-14T00:37:32-07:00",
-        "updatedAt": "2026-10-18T19:32:49-07:00",
-        "discoveredAt": "2026-10-19T07:56:14.082Z",
-        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
-          "afterHash": "c150abc40c5e0dd4e7bfd7f02027eb4f2e2ca8dc7ec41eb0014798122202c937",
-          "changedFields": [
-            "headings",
-            "cta"
-          ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.06,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-6A9F9851EAE6",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
-        "publishDate": "2026-10-12T23:37:31-07:00",
-        "updatedAt": "2026-10-18T19:33:47-07:00",
-        "discoveredAt": "2026-10-19T07:56:14.082Z",
-        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
-          "afterHash": "fa8e67a16f7276da04baffd36d529a4fd031641f9c4b9d5221d3801d0b13c59b",
-          "changedFields": [
-            "headings",
-            "cta",
-            "offer",
-            "product_name",
-            "body"
-          ],
-          "beforeExcerpt": "0 . Your cart is empty. Continue shopping . . . Clear Close . . . . . . . . . . . . . . . Lawn Care Can You Over Fertilize Your Lawn? Signs and How to Fix It. Oct 12, 2026 . By Keira Jones. . . . . . . Applying too much fertilizer can cause brown or yellow patches, damage grass roots, and, in severe",
-          "afterExcerpt": ". Cart. 0 . Close . . Your cart is empty. Continue shopping . . . Clear . Close . . . . . . . . . . . . . . . . Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Beco"
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.21,
-          "priorityConfidence": 0.75
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-2549192A5BB9",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
-        "publishDate": "2026-10-19T09:25:11+02:00",
-        "updatedAt": "2026-10-19T09:25:11+02:00",
-        "discoveredAt": "2026-10-19T07:56:14.082Z",
-        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "04760cc89ce79828455f6e97338c452156124fb25230289b2a513248c5e8962c",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.82,
-          "priorityConfidence": 0.78
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-560390F8D2CE",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "How to Get Rid of Weeds Naturally: A Practical Guide to Natural Weed Control",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/how-to-get-rid-of-weeds-naturally",
-        "publishDate": "2026-10-16T03:29:52-07:00",
-        "updatedAt": "2026-10-16T03:29:52-07:00",
-        "discoveredAt": "2026-10-17T07:12:42.852Z",
-        "summary": "Learn how to get rid of weeds naturally with practical methods, homemade weed killer facts, and prevention tips. Find out what works and what to avoid. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "d8a0d2340f4cb87d7abe7d21cb1a89c47652ef0c673cb3aae0d39f3779876945",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.11,
-          "priorityConfidence": 0.82
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-C1404BA6520B",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Tondeuse débroussailleuse et robot tondeuse : faut-il vraiment choisir ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
-        "publishDate": "2026-10-16T10:19:14+02:00",
-        "updatedAt": "2026-10-16T10:19:14+02:00",
-        "discoveredAt": "2026-10-17T07:12:42.852Z",
-        "summary": "Après la tonteuse-débroussailleus, l'herbe repousse vite. Pourquoi le robot tondeuse est son complément idéal : comparatif et conseils pour les associer. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "2bc5fee695c554769498f4804880cec833f757dcaf997c97d19ef613ff37e701",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.84,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-F8E337006D98",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse ou tondeuse autoportée : quelle solution pour un grand terrain ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-autoportee",
-        "publishDate": "2026-10-16T05:03:02+02:00",
-        "updatedAt": "2026-10-16T05:03:02+02:00",
-        "discoveredAt": "2026-10-16T07:32:50.782Z",
-        "summary": "Robot tondeuse ou tondeuse autoportée ? Comparatif du robot tondeuse avec le tracteur tondeuse, la tondeuse autoportée rider et la tondeuse autoportée zero-turn. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "02c2427d888f1b7810c5d6ad74277c8f51d1b72638b449b0fb734ccedce18886",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.83,
-          "priorityConfidence": 0.8
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-9DBCE3BBB2B8",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
-        "publishDate": "2026-10-11T23:32:46-07:00",
-        "updatedAt": "2026-10-14T18:56:55-07:00",
-        "discoveredAt": "2026-10-15T07:44:49.872Z",
-        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
-          "afterHash": "ec99c350c655e63d07bbfa8c3a529bc39c4069501c86893de070ebee144681e6",
-          "changedFields": [
-            "headings",
-            "cta",
-            "offer",
-            "product_name",
-            "body"
-          ],
-          "beforeExcerpt": "Lawn Care How Often to Fertilize Your Lawn: A Practical Guide. Oct 11, 2026 . By Keira Jones. . . . . . . How often you should fertilize your lawn depends on your grass type, soil conditions, local climate, and maintenance goals. Some established lawns can stay healthy with one or two applications p",
-          "afterExcerpt": ". Reward Program . Become a member to earn points on every purchase and enjoy exclusive rewards. . . Refer A Friend. Earn 2,500 Points. plus a limited-time free washing stand. Refer now Become a Member & Unlock Exclusive Perks. Join Now Log In . . . . Reward Program . . . Cart. 0 . . . . Have questi"
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.17,
-          "priorityConfidence": 0.78
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-0A69681FFF5D",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse ou tondeuse électrique : lequel choisir ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-electrique",
-        "publishDate": "2026-10-14T10:19:22+02:00",
-        "updatedAt": "2026-10-14T10:19:39+02:00",
-        "discoveredAt": "2026-10-15T07:44:49.872Z",
-        "summary": "Robot tondeuse ou tondeuse électrique sans fil ? Autonomie, temps de tonte, qualité de la pelouse, prix : notre comparatif pour choisir selon son jardin. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "036464b0d25d41219b6ad90d62e4483d1bf65aabe85ef8ed0104e911796063ce",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.84,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-EF444673C908",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Best Weed Killer for Lawns: Top Picks for Different Weeds and Grass Types",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/best-weed-killer-for-lawns",
-        "publishDate": "2026-10-14T00:37:32-07:00",
-        "updatedAt": "2026-10-14T00:37:33-07:00",
-        "discoveredAt": "2026-10-14T08:03:13.501Z",
-        "summary": "Find the best weed killer for lawns by weed type and grass species. Compare 7 lawn weed killers, learn when to use them, and apply them safely. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "4bd7347462a486dcfa1731bcf4219497235588e2fc6045e56edfcdb4607f8130",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.09,
-          "priorityConfidence": 0.79
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-22AE8FDF074A",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse ou tondeuse thermique : lequel choisir pour votre jardin ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-ou-tondeuse-thermique",
-        "publishDate": "2026-10-14T05:34:04+02:00",
-        "updatedAt": "2026-10-14T05:34:04+02:00",
-        "discoveredAt": "2026-10-14T08:03:13.501Z",
-        "summary": "Robot tondeuse ou tondeuse thermique ? Temps, coût sur 5 ans, entretien, bruit, pentes : notre comparatif pour choisir la solution adaptée à son jardin. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "2b7a4179d56d593449a6eae75a4bc9e0c602d71d21d51568c4df3363cfea5d54",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.84,
-          "priorityConfidence": 0.84
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-3AF591415C52",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Can You Over Fertilize Your Lawn? Signs and How to Fix It",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/over-fertilized-lawn",
-        "publishDate": "2026-10-12T23:37:31-07:00",
-        "updatedAt": "2026-10-12T23:51:28-07:00",
-        "discoveredAt": "2026-10-13T09:45:59.157Z",
-        "summary": "Learn how to spot an over-fertilized lawn, understand what causes fertilizer burn, and find out how to help damaged grass recover. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "ac30fcc5ff2abeed1c7402a30069e4b6acf7762f5de8e658c86564970ec4583b",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.14,
-          "priorityConfidence": 0.79
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-C5C8E2C56102",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
-        "publishDate": "2026-10-13T05:50:29+02:00",
-        "updatedAt": "2026-10-13T05:50:30+02:00",
-        "discoveredAt": "2026-10-13T09:45:59.157Z",
-        "summary": "Robot tondeuse tout-terrain : chenilles ou 4 roues motrices ? Pente, sol humide, pelouse, bordures : notre comparatif pour bien choisir selon votre jardin. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.97,
-          "priorityConfidence": 0.88
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-FEDDE9BADF76",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "When to Fertilize New Grass: Seed vs. Sod",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-new-grass",
-        "publishDate": "2026-10-12T01:29:38-07:00",
-        "updatedAt": "2026-10-12T01:29:40-07:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Learn when to fertilize new grass seed and sod, when to apply starter fertilizer, and how to choose the right fertilizer for healthy lawn establishment. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "75f085c221d1c9e5f43873fa1fdb3b494510cb398fd1d83a6a8d3e870fb233fd",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.08,
-          "priorityConfidence": 0.8
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-61B17656F9B1",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "How Often to Fertilize Your Lawn: A Practical Guide",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/how-often-to-fertilize-lawn",
-        "publishDate": "2026-10-11T23:32:46-07:00",
-        "updatedAt": "2026-10-11T23:32:47-07:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Learn how often to fertilize your lawn based on grass type, maintenance goals, and soil conditions. Find practical tips to avoid overfertilizing. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "e10fb3c4fbd7d4a483e927e92cb3520ec9cd88104177a5b134db753b027ca733",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.06,
-          "priorityConfidence": 0.84
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-A0D2BA5CAF20",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
-        "publishDate": "2026-10-10T03:22:09-07:00",
-        "updatedAt": "2026-10-11T23:38:02-07:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
-          "afterHash": "5ab1f60a78b02b57773afee91165f480ed9b23627cb829ad8cf23a6feb5f0e1b",
-          "changedFields": [
-            "headings",
-            "body"
-          ],
-          "beforeExcerpt": "0, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi",
-          "afterExcerpt": "1, 2026 . By Keira Jones. . . . . . . Knowing when to fertilize lawn helps you maintain healthy growth, improve lawn color, and prepare your grass for changing weather. The best time to apply fertilizer depends on your grass type, local climate, and the season. . Cool-season grasses generally benefi"
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.09,
-          "priorityConfidence": 0.84
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-F3D81040A1B0",
-        "sourceId": "mammotion-uk-blog",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
-        "publishDate": "2026-09-11T10:01:56+01:00",
-        "updatedAt": "2026-10-12T03:49:55+01:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Explore all LUBA 4 AWD models, their full specs, launch dates, and who each model is best suited for. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "4011a6e35f4720ac05ac2fd4fd1b26fb538babf286b62f2fafd8390771841288",
-          "afterHash": "bbd38be9f807f8825149c56a73a0e7a3fe5c1c18ce6b7d547245504d8f51f719",
-          "changedFields": [
-            "offer"
-          ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "related",
-          "newProductProbability": 1,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_launch",
-          "themeConfidence": 1,
-          "monitoringPriority": 3.97,
-          "priorityConfidence": 0.98
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-DB60F9B7ED78",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
-        "publishDate": "2026-10-12T09:43:34+02:00",
-        "updatedAt": "2026-10-12T09:43:34+02:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.86,
-          "priorityConfidence": 0.82
-        },
-        "humanAssessment": null
-      },
-      {
         "recordId": "CH-CEA994D4CA25",
         "sourceId": "mammotion-fr-blog",
         "brand": "Mammotion",
@@ -5100,126 +4186,6 @@
           "themeConfidence": 0.99,
           "monitoringPriority": 3.95,
           "priorityConfidence": 0.97
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-1FC9123C43E7",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "When to Fertilize Your Lawn: A Seasonal Guide by Grass Type and Region",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/when-to-fertilize-lawn",
-        "publishDate": "2026-10-10T03:22:09-07:00",
-        "updatedAt": "2026-10-10T03:29:57-07:00",
-        "discoveredAt": "2026-10-11T09:19:48.810Z",
-        "summary": "Learn when to fertilize your lawn in spring, summer, and fall. Find the best timing for cool- and warm-season grass, with tips by region. More ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "a0778570e2eac941945cc4da3ea1402a52e4272ca5ea204aacab428a20ca4e43",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.1,
-          "priorityConfidence": 0.82
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-911252D74E75",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
-        "publishDate": "2026-10-10T12:31:16+02:00",
-        "updatedAt": "2026-10-10T12:31:16+02:00",
-        "discoveredAt": "2026-10-11T09:19:48.810Z",
-        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "e5c8ec73d9ad2e2bfb130716a3c1e83a305790c3a3526a546b3a56c63464f0eb",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.73,
-          "priorityConfidence": 0.73
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-9AFB68DBC0CD",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
-        "publishDate": "2026-10-10T10:40:23+02:00",
-        "updatedAt": "2026-10-10T10:48:15+02:00",
-        "discoveredAt": "2026-10-10T09:05:38.206Z",
-        "summary": "Roue omnidirectionnelle, pivotante ou directrice : comparatif des robots tondeuses 4x4 pour savoir lequel respecte le mieux la pelouse en virage. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "b8a858bf900de8f9a5defb53175153aa45c83b8ada562194c3ceb78e5a8f8cc5",
-          "changedFields": []
-        },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0.03,
-          "newProductConfidence": 0.95,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.96,
-          "priorityConfidence": 0.85
         },
         "humanAssessment": null
       }
