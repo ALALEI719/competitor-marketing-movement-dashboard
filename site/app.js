@@ -275,7 +275,7 @@ function syncDateUI(){
   document.querySelector('#date-range-brief').textContent=`${range.from.slice(5).replace('-','/')} — ${range.to.slice(5).replace('-','/')}`;
   document.querySelectorAll('[data-date-preset]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.datePreset===datePreset)));
   const selected=campaignCalendar.find(e=>e.id===campaignFilter.value);
-  document.querySelector('#filter-scope').textContent=['review','status'].includes(currentView)?`当前范围：${brand.value} · ${market.value} · ${channel.value}；待审与运行状态不按动作日期过滤。`:`${brand.value} · ${market.value} · ${channel.value}${selected?' · '+selected.title:''} · 已确认内容`;
+  document.querySelector('#filter-scope').textContent=currentView==='content'&&contentCategory==='ads'?`${brand.value} · ${market.value} · 广告观察库存（未经动作复核）与已确认动作分开展示`:['review','status'].includes(currentView)?`当前范围：${brand.value} · ${market.value} · ${channel.value}；待审与运行状态不按动作日期过滤。`:`${brand.value} · ${market.value} · ${channel.value}${selected?' · '+selected.title:''} · 已确认内容`;
 }
 function updateCampaignUrl(id){const url=new URL(window.location.href);if(id)url.searchParams.set('campaign',id);else url.searchParams.delete('campaign');window.history.replaceState(null,'',url);}
 function selectCampaign(id){
