@@ -1,6 +1,7 @@
 import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions } from './dashboard-v3.js';
 import { websiteReviewQueue } from './website-review.js';
 import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
+import {validatePublicAdObservations,adObservationFreshness} from './ads-observations.js';
 const market=document.querySelector('#market-filter');
 const brand=document.querySelector('#brand-filter');
 const channel=document.querySelector('#channel-filter');
@@ -34,6 +35,8 @@ let siteObservationState=[];
 let monitorSummaryState=null;
 let marketingEventState=[];
 let moduleTimes={};
+let publicAds=null;
+let publicAdsError=false;
 let currentView='overview';
 const workflowRoot='https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/';
 function displayTime(value){return value&&Number.isFinite(Date.parse(value))?new Date(value).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'}):'尚无记录';}
@@ -42,6 +45,17 @@ function matchesScope(item,filters={market:market.value,brand:brand.value}){
   return (filters.market==='全部'||countries.includes(filters.market))&&(filters.brand==='全部'||item.brand===filters.brand);
 }
 function safePublicUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:'';}catch{return '';}}
+async function loadPublicAds(){
+  try {publicAds=validatePublicAdObservations(await fetchDashboardJson('./data/ads-observations.json'));publicAdsError=false;moduleTimes.ads=publicAds.lastSuccessAt;}
+  catch {publicAdsError=true;}
+  renderPublicAds();renderFreshness();
+}
+function renderPublicAds(){
+  const info=document.querySelector('#ads-observation-status'),list=document.querySelector('#ads-observation-list');if(!info||!list)return;
+  info.textContent=(publicAdsError?'公开数据读取失败，保留已加载观察；可点击“刷新数据”重试。':adObservationFreshness(publicAds))+' · '+(publicAds?.records.length||0)+' 条观察库存 · 最近成功采集：'+displayTime(publicAds?.lastSuccessAt)+' · 最近尝试：'+displayTime(publicAds?.lastAttemptAt)+' · 公开导出：'+displayTime(publicAds?.generatedAt)+'（北京时间）';
+  const rows=(publicAds?.records||[]).filter(r=>matchesScope({...r,country:'美国'}));
+  list.innerHTML=rows.length?rows.map(r=>`<article class="panel ads-observation"><small>观察库存 · Mammotion · 美国 · Meta · 编号 ${escapeHtml(r.sourceRecordId)}</small><h3>广告库当前展示版本</h3><p class="ads-copy">${escapeHtml(r.copy)}</p><dl><dt>公开优惠原文</dt><dd>${escapeHtml(r.offer||'未显示')}</dd><dt>CTA</dt><dd>${escapeHtml(r.cta||'未显示')}</dd><dt>落地页</dt><dd><a href="${escapeHtml(r.landingUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.landingUrl)}</a></dd><dt>平台显示开始日期</dt><dd>${escapeHtml(r.publishDate||'未知')}</dd><dt>首次留存观察</dt><dd>${escapeHtml(displayTime(r.firstSeenAt))}</dd><dt>最近采集</dt><dd>${escapeHtml(displayTime(r.lastCapturedAt))}</dd></dl><p>素材见原始广告库。本站未公开素材文件，完整视频未验收；多版本只取得当前展示版本。</p><a href="${escapeHtml(r.libraryUrl)}" target="_blank" rel="noopener noreferrer">查看原始广告库</a></article>`).join(''):'<p class="timeline-empty">当前范围暂无公开广告观察。没有记录不代表没有投放。</p>';
+}
 function canonicalReviewUrl(value){const safe=safePublicUrl(value);if(!safe)return '';const u=new URL(safe);u.search='';u.hash='';return u.href.replace(/\/$/,'');}
 function uniquePending(items){const seen=new Set();return (items||[]).filter(item=>{if(item.reviewStatus!=='pending'||!item.recordId||seen.has(item.recordId))return false;seen.add(item.recordId);return true;});}
 function reviewGroups(summary){
@@ -245,6 +259,7 @@ function openContentChannel(code){
   activateView('content');renderScopedDashboard();renderContentView();window.dispatchEvent(new Event('dashboard:filters-changed'));
 }
 function renderContentView(){
+  renderPublicAds();
   document.querySelectorAll('[data-content-tab]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.contentTab===contentCategory)));
   document.querySelector('#channel-web').hidden=['edm','ads'].includes(contentCategory);
   document.querySelector('#channel-edm').hidden=contentCategory!=='edm';
@@ -372,7 +387,7 @@ function renderFreshness(){
     {name:'PR',time:summary?.prMonitoring?.checkedAt,note:sourceNote(summary?.prMonitoring?.sources),channel:'PR'},
     {name:'正式动作',time:moduleTimes.actions,note:'最近复核数据更新；不是重新采集全部来源'},
     {name:'EDM',time:moduleTimes.edm||latestEdmReviewTime(formalActionState),note:`${(edmDetailIndex.items||[]).filter(item=>matchesScope(item)).length} 封已收录；此处为内容复核时间，发信时间见邮件卡片`,channel:'EDM'},
-    {name:'广告',note:'仅认证内部试运行，公开页无采集状态',channel:'社媒广告'}
+    {name:'广告观察',time:publicAds?.lastSuccessAt,note:publicAdsError?'公开数据读取失败；查看广告观察中的最近成功时间':adObservationFreshness(publicAds)+' · 仅 Mammotion US Meta，本机浏览器试运行',channel:'社媒广告'}
   ];
   document.querySelector('#module-freshness').innerHTML=entries.filter(e=>!e.channel||channel.value==='全部'||e.channel===channel.value).map(e=>`<div class="freshness-card"><strong>${escapeHtml(e.name)}</strong><time>${escapeHtml(e.name==='广告'?'内部页面独立展示':displayTime(e.time))}</time><span>${escapeHtml(e.note)}</span></div>`).join('');
   const times=[summary?.generatedAt,summary?.channelMonitoring?.checkedAt,summary?.prMonitoring?.checkedAt,...Object.values(moduleTimes)].map(v=>Date.parse(v)).filter(Number.isFinite);
@@ -513,6 +528,8 @@ document.querySelector('#detail-dialog .dialog-head button').onclick=()=>documen
 document.querySelector('#detail-dialog').onclick=event=>{if(event.target===event.currentTarget)event.currentTarget.close();};
 document.querySelector('#edm-search').addEventListener('input',renderCurrentEdm);
 document.querySelector('#reset-edm-filters').onclick=()=>{document.querySelector('#edm-search').value='';setDateRange('all');market.value=brand.value='全部';channel.value='EDM';renderCurrentFormalActions();};
-async function refreshDashboard(){const button=document.querySelector('#refresh-dashboard');button.disabled=true;button.textContent='刷新中…';try{await Promise.allSettled([loadMonitorSummary(),loadSiteObservations(),loadActionData(),loadEventData(),loadEdmLibrary(),loadCampaignCalendar()]);}finally{button.disabled=false;button.textContent='刷新数据';}}
+async function refreshDashboard(){const button=document.querySelector('#refresh-dashboard');button.disabled=true;button.textContent='刷新中…';try{await Promise.allSettled([loadMonitorSummary(),loadSiteObservations(),loadActionData(),loadEventData(),loadEdmLibrary(),loadCampaignCalendar(),loadPublicAds()]);}finally{button.disabled=false;button.textContent='刷新数据';}}
+// Reads the deployed export only; this never launches a collector or a browser.
+setInterval(()=>{loadPublicAds();},60000);
 document.querySelector('#refresh-dashboard').onclick=refreshDashboard;
 refreshDashboard();
