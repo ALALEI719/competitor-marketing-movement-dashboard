@@ -49,6 +49,7 @@ jobs:
           fetch_file "app.js" "site/app.js"
           fetch_file "website-review.js" "site/website-review.js"
           fetch_file "action-date.js" "site/action-date.js"
+          fetch_file "ads-observations.js" "site/ads-observations.js"
           fetch_file "dashboard-v3.js" "site/dashboard-v3.js"
           fetch_file "dashboard-v3.css" "site/dashboard-v3.css"
           fetch_file "data/campaign-calendar.json" "site/data/campaign-calendar.json"
@@ -57,6 +58,16 @@ jobs:
           fetch_file "styles-edm.css" "site/styles-edm.css"
           fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
           fetch_file "data/site-observations.json" "site/data/site-observations.json"
+          # A heartbeat can publish mirror data before Vercel finishes deploying it.
+          # Keep the newer validated export instead of overwriting it with an older primary.
+          if curl --fail --silent --show-error --max-time 30 "${base}/data/ads-observations.json" --output site/data/ads-observations.download; then
+            incoming=$(jq -r '.generatedAt // ""' site/data/ads-observations.download)
+            existing=$(jq -r '.generatedAt // ""' site/data/ads-observations.json 2>/dev/null || true)
+            if jq -e '.targetId == "meta-mammotion-us" and .schemaVersion == "1.0" and (.records | type == "array")' site/data/ads-observations.download >/dev/null && [[ -n "$incoming" && ( "$incoming" > "$existing" || "$incoming" == "$existing" ) ]]; then
+              mv site/data/ads-observations.download site/data/ads-observations.json
+            fi
+          fi
+          rm -f site/data/ads-observations.download
           fetch_file "data/formal-actions.json" "site/data/formal-actions.json"
           fetch_file "data/marketing-events.json" "site/data/marketing-events.json"
           fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
