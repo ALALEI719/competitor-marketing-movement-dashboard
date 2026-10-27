@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "targetId": "meta-mammotion-us",
-  "generatedAt": "2026-10-27T20:03:48.106Z",
-  "lastSuccessAt": "2026-10-27T20:03:44.753Z",
-  "lastAttemptAt": "2026-10-27T20:03:15.839Z",
+  "generatedAt": "2026-10-27T20:18:56.528Z",
+  "lastSuccessAt": "2026-10-27T20:18:51.481Z",
+  "lastAttemptAt": "2026-10-27T20:18:43.802Z",
   "status": "success",
   "records": [
     {
@@ -18,7 +18,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1031369396582196",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -33,7 +33,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1050224611323017",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -48,7 +48,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1054353483733735",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -63,7 +63,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1109942984751241",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -78,7 +78,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1117435484001551",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -93,7 +93,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1141866681708302",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -108,7 +108,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1587309689812204",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -123,7 +123,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1632034255094717",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -138,7 +138,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1675384193923496",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -153,7 +153,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1789496838708780",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -168,22 +168,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1808549713658499",
       "publishDate": "2026-09-11",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
-      "mediaStatus": "source_only"
-    },
-    {
-      "sourceRecordId": "1867183677782957",
-      "brand": "Mammotion",
-      "platform": "meta",
-      "countryCode": "US",
-      "copy": "🎉 Mammotion Exclusive Sale\n💰 Save Up To $250 On LUBA mini 2 AWD 1500H\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$200 Instant Savings.\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
-      "offer": "💰 Save Up To $250 On LUBA mini 2 AWD 1500H\n🔹$200 Instant Savings.\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $250",
-      "cta": "去逛逛",
-      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
-      "libraryUrl": "https://www.facebook.com/ads/library/?id=1867183677782957",
-      "publishDate": "2026-10-10",
-      "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -198,7 +183,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=2127614067818136",
       "publishDate": "2026-08-14",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -213,7 +198,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=2292216388228585",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -228,7 +213,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=28515795678043662",
       "publishDate": "2026-10-10",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -243,7 +228,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=37957395430542878",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -258,7 +243,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=821406057669374",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -273,7 +258,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=919229904556934",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     },
     {
@@ -288,7 +273,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=953700237753538",
       "publishDate": "2026-08-13",
       "firstSeenAt": "2026-10-16T07:50:17.631Z",
-      "lastCapturedAt": "2026-10-27T20:03:44.753Z",
+      "lastCapturedAt": "2026-10-27T20:18:51.481Z",
       "mediaStatus": "source_only"
     }
   ]
