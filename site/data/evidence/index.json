@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-23T07:58:17.829Z",
+  "generatedAt": "2026-10-27T08:25:22.851Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -826,6 +826,63 @@
           "title": "Tondeuse électrique filaire ou robot pour un petit jardin ?",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-07ba00ec1e4f7d9a-2026-10-23T07-58-06-963Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "22b20e7c3ee34624": {
+      "url": "https://uk.mammotion.com/pages/sakura-tes-sdhdd3kjsd3k",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-27T08:25:03.295Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-27T08:24:43.003Z",
+          "title": "404 Not Found",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-22b20e7c3ee34624-2026-10-27T08-25-03-295Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "1215ba020e2a1293": {
+      "url": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-27T08:25:09.882Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-27T08:24:39.725Z",
+          "title": "Wann ist Black Friday 2026? Datum & Black Week",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-1215ba020e2a1293-2026-10-27T08-25-09-882Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "9e64e96723c5a8af": {
+      "url": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-27T08:25:16.679Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-27T08:24:36.582Z",
+          "title": "When Is Black Friday 2026? Date & Shopping Calendar",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-9e64e96723c5a8af-2026-10-27T08-25-16-679Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

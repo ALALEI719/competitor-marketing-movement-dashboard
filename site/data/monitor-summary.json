@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-26T07:56:27.833Z",
+  "generatedAt": "2026-10-27T08:24:48.264Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -10,14 +10,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1140,
-    "pendingChanges": 45,
+    "pages": 1141,
+    "pendingChanges": 48,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 43,
-    "pendingChannelChanges": 4,
+    "blogChanges": 53,
+    "pendingChannelChanges": 14,
     "prSources": 16,
     "healthyPrSources": 16,
     "prChanges": 17,
@@ -34,28 +34,28 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-26T07:56:16.742Z",
+      "checkedAt": "2026-10-27T08:24:36.582Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 340,
+      "pageCount": 341,
       "breakdown": {
         "page": 64,
-        "blog": 206,
+        "blog": 207,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 65
+        "lastmodChanged": 67
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 65,
+        "lastmodPagesNeedingContentCheck": 67,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -70,28 +70,28 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-26T07:56:19.531Z",
+      "checkedAt": "2026-10-27T08:24:39.725Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 287,
+      "pageCount": 288,
       "breakdown": {
         "page": 36,
-        "blog": 152,
+        "blog": 153,
         "collection": 15,
         "product": 84
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 97
+        "lastmodChanged": 98
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 97,
+        "lastmodPagesNeedingContentCheck": 98,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -106,19 +106,19 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-26T07:56:22.126Z",
+      "checkedAt": "2026-10-27T08:24:43.003Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 212,
+      "pageCount": 211,
       "breakdown": {
-        "page": 40,
+        "page": 39,
         "blog": 89,
         "collection": 16,
         "product": 67
       },
       "changeCounts": {
         "added": 0,
-        "removed": 0,
+        "removed": 1,
         "lastmodChanged": 77
       },
       "auditSignals": {
@@ -142,7 +142,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-26T07:56:25.056Z",
+      "checkedAt": "2026-10-27T08:24:45.616Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 301,
@@ -155,11 +155,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 103
+        "lastmodChanged": 115
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 103,
+        "lastmodPagesNeedingContentCheck": 115,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -170,6 +170,45 @@
     }
   ],
   "pendingRecords": [
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-10-27T08:24:43.003Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/pages/sakura-tes-sdhdd3kjsd3k",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-FF2E757A3DCD"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-10-27T08:24:39.725Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-76A80C93346D"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-27T08:24:36.582Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-104534814B78"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -2264,7 +2303,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-26T07:56:28.000Z",
+    "checkedAt": "2026-10-27T08:24:48.416Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2276,13 +2315,13 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-26T07:56:28.000Z",
+        "checkedAt": "2026-10-27T08:24:48.416Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-20T02:29:42-07:00",
+        "latestPublishedAt": "2026-10-26T01:23:22-07:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2290,7 +2329,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 8,
+          "comparable": 11,
           "backfillErrors": []
         }
       },
@@ -2303,13 +2342,13 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-26T07:56:28.000Z",
+        "checkedAt": "2026-10-27T08:24:48.416Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-08T05:51:34+02:00",
+        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2317,7 +2356,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 8,
+          "comparable": 11,
           "backfillErrors": []
         }
       },
@@ -2330,7 +2369,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-26T07:56:28.000Z",
+        "checkedAt": "2026-10-27T08:24:48.416Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2344,7 +2383,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 8,
+          "comparable": 10,
           "backfillErrors": []
         }
       },
@@ -2357,26 +2396,592 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-26T07:56:28.000Z",
+        "checkedAt": "2026-10-27T08:24:48.416Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 3
+          "updated": 8
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 12,
+          "comparable": 19,
           "backfillErrors": []
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-DD45C46A3EEE",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday 2026?",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+        "publishDate": "2026-10-26T01:23:22-07:00",
+        "updatedAt": "2026-10-26T01:23:23-07:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Find out when Black Friday 2026 falls, when Thanksgiving and Cyber Monday take place, and when Black Friday sales typically begin. Plan your holiday shopping with this quick guide. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "d758cc65d0274ac3f69195a2450b7eacb883cc0c914d887d6d60fd37fa6a5c1e",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.78,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.56
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-94C699FD2F46",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Wann ist Black Friday 2026?",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+        "publishDate": "2026-10-26T09:51:41+01:00",
+        "updatedAt": "2026-10-26T09:51:41+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Wann ist Black Friday 2026? Erfahre das Datum, wann die Black Week stattfindet und wann Cyber Monday ist. Hier findest du alle wichtigen Termine im Überblick. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "18ab3edd5494be07fb6f7eb223155c13de3b0d4146e0d824d00501a235864504",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.82,
+          "monitoringPriority": 2,
+          "priorityConfidence": 0.61
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9C6D5555CF9C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-10-22T11:32:06+02:00",
+        "updatedAt": "2026-10-26T09:38:13+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Un robot tondeuse coupe-t-il aussi bien qu’une tondeuse électrique filaire ?",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "91492dc8b30d0ed14e7eeecae12d5b21f5e47a23b981151c76eb3f938dc6a442",
+          "afterHash": "1aee5773ab43215ce7c85ff1e3b0f5376e9609f2d8c0a4799f03bdbbe16678d8",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": ". Légèreté : elle se manœuvre sans effort, un vrai atout quand on enchaîne les demi-tours. Puissance constante : branchée sur le secteur, elle ne faiblit pas en cours de tonte. Finition des bordures : guidée à la main, elle passe au plus près des murets et des bordures de terrasse. Herbe haute : ell",
+          "afterExcerpt": " . Légèreté : elle se manœuvre sans effort, un vrai atout quand on enchaîne les demi-tours. Puissance constante : branchée sur le secteur, elle ne faiblit pas en cours de tonte. Finition des bordures : guidée à la main, elle passe au plus près des murets et des bordures de terrasse. Herbe haute : el"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "rez les robots tondeuses Mammotion, dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.63,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9443D5AE09AA",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse à coussin d'air : a-t-on encore besoin d'un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T11:55:28+02:00",
+        "updatedAt": "2026-10-26T09:30:18+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Électrique, à batterie ou thermique, la tondeuse à coussin d'air a ses limites. Pente, bruit, entretien : quand passer au robot tondeuse ? Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
+          "afterHash": "46a04074cd6afe6aa36437f7fcd375ef07cc5e91f1c4cbf2b28aab5c5c20e172",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "obot tondeuse 4 roues motrices comme le Mammotion LUBA 4 AWD franchit jusqu’à 80 % (38,6°), bien au-delà des c"
+          },
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "ain, découvrez les robots tondeuses Mammotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les ter"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "mmotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les terrains les plus exigeants."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2B5EAB4762B3",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-26T09:22:57+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "a7c6feba035b25cf2125dcac92b5b33615d9353a60057173a4ae2ac9ff3ea625",
+          "afterHash": "cce87fc15f9e8d95d4c05b5901d8a227ed67a40e11349481944703a3b3d98fb1",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ux petits jardins bien plats. Chez Mammotion, les LUBA 4 AWD à quatre roues motrices gravissent des pentes jus"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "oïdale, mais certains modèles, comme le Mammotion LUBA mini AWD, tracent des motifs de tonte choisis dans l’appli"
+          },
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "nte, découvrez les robots tondeuses Mammotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les ter"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "mmotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les terrains les plus exigeants."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.77,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7EFB9F8F9815",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse débroussailleuse et robot tondeuse : faut-il vraiment choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
+        "publishDate": "2026-10-16T10:19:14+02:00",
+        "updatedAt": "2026-10-26T09:16:44+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Après la tonteuse-débroussailleus, l'herbe repousse vite. Pourquoi le robot tondeuse est son complément idéal : comparatif et conseils pour les associer. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2bc5fee695c554769498f4804880cec833f757dcaf997c97d19ef613ff37e701",
+          "afterHash": "1223ec099b5ebb97d6903a9fec826e1ba0b3565f8fecccf3f67c470f1724df72",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": ", mais certains modèles Mammotion, comme la gamme LUBA 4 AWD, peuvent recevoir un module de coupe des bordures"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.68,
+          "priorityConfidence": 0.72
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-369FEA5C0310",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+        "publishDate": "2026-10-12T09:43:34+02:00",
+        "updatedAt": "2026-10-27T09:24:37+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
+          "afterHash": "e6e6bc8ec9b8e26c5f8ba4e412723216ba034e41a4c41bc94ed405ecc3049315",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "r un sol détrempé. Les robots tondeuses Mammotion LUBA AWD, à quatre roues motrices , gravissent des pentes "
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "s contourne au lieu de buter dessus. La Mammotion LUBA 4 AWD franchit des obstacles verticaux jusqu’à 60 mm. S"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.78,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-92C1CD5DD54E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+        "publishDate": "2026-10-10T10:40:23+02:00",
+        "updatedAt": "2026-10-27T09:15:31+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Roue omnidirectionnelle, pivotante ou directrice : comparatif des robots tondeuses 4x4 pour savoir lequel respecte le mieux la pelouse en virage. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "c33e41af9947fe77f28bf7db20f6880635e152031bd74398fd53a793b291965b",
+          "afterHash": "c00f612ed5bcb9c61d295bbd45bfce9d2125ee774f730d1dc1fcc8953cfd7c59",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": " ) et pourtant produire des résultats très différents sur la pelouse. La différence ne tient pas au nombre de roues motrices, mais au mécanisme de direction : certains robots ne braquent pas leurs roues et laissent des rouleaux absorber le déplacement latéral, d’autres plient leur châssis, d’autres ",
+          "afterExcerpt": ") et pourtant produire des résultats très différents sur la pelouse. La différence ne tient pas au nombre de roues motrices, mais au mécanisme de direction : certains robots ne braquent pas leurs roues et laissent des rouleaux absorber le déplacement latéral, d’autres plient leur châssis, d’autres e"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "retrace ensuite l’évolution des roues de la gamme LUBA AWD, compare les principaux robots 4x4 du marché, pui"
+          },
+          {
+            "name": "LUBA 2 AWD",
+            "source": "article_body",
+            "excerpt": "ù le robot pivote souvent, surtout sur sol humide LUBA 2 AWD / LUBA 3 AWD, Dreame A3 AWD Pro, MOVA LiDAX Ultra"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "vote souvent, surtout sur sol humide LUBA 2 AWD / LUBA 3 AWD, Dreame A3 AWD Pro, MOVA LiDAX Ultra AWD 4 roues "
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "e nécessaire à chaque bout de passage Navimow X4, LUBA 4 AWD (voir aussi la ligne suivante) 4 roues motrices +"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "2 : les roues omnidirectionnelles Les LUBA 2 AWD, LUBA mini AWD et LUBA 3 AWD sont équipées de roues avant omnidi"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.08,
+          "newProductConfidence": 0.86,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-733EE6F6337E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Choisir un robot tondeuse pour petite surface",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-09-29T11:30:35+02:00",
+        "updatedAt": "2026-10-27T07:40:27+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "ed2d2fd22cbe3878d2f4ceab992bcf5a389150df92088ae9db445bdf156fdeec",
+          "afterHash": "08331a9efd83a0878178fc4491535c8e8cc3ace15105ba1a999d06d9be4fdc16",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "Un petit jardin a-t-il réellement besoin d’un robot tondeuse ? Oui, un robot tondeuse est tout à fait justifié pour un petit jardin. Loin d'être une gadget inutile pour les petits espaces, le robot tondeuse apporte une réponse très concrète aux contraintes des jardins de ville et de lotissement :. U",
+          "afterExcerpt": "1. Un petit jardin a-t-il réellement besoin d’un robot tondeuse ? Oui, un robot tondeuse est tout à fait justifié pour un petit jardin . Loin d'être un gadget inutile pour les petits espaces, le robot tondeuse apporte une réponse très concrète aux contraintes des jardins de ville et de lotissement :"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "tuent le choix idéal pour votre terrain. La série YUKA mini a été spécialement conçue pour répondre aux exige"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-814BFC519C29",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir selon la surface de son jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/quel-robot-tondeuse-choisir-selon-surface-jardin",
+        "publishDate": "2026-08-25T10:06:31+02:00",
+        "updatedAt": "2026-10-27T07:12:16+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Choisissez votre robot tondeuse selon la surface réelle de votre pelouse, puis ajustez votre choix au terrain, à sa complexité et au temps de tonte. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2ce53b4b383dbd6aad48b2f6da441adaaa9bb96196af536e30e68df76ca8e5a8",
+          "afterHash": "2ba2b2ee0ed54963f7f8dac023d234454809d20d7b573d31f2dfdbfb0eafe043",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "t être organisé autour de deux grandes familles : YUKA et LUBA. Série Mammotion Surface de pelouse indic"
+          },
+          {
+            "name": "LUBA",
+            "source": "article_body",
+            "excerpt": "rganisé autour de deux grandes familles : YUKA et LUBA. Série Mammotion Surface de pelouse indicative Te"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "ct, précision de navigation et entretien régulier LUBA AWD Series Environ 1 000 à 10 000 m², selon le modèle"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.63,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-4B5021B06C42",
         "sourceId": "mammotion-fr-blog",
@@ -4303,6 +4908,572 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-DD45C46A3EEE",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday 2026?",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+        "publishDate": "2026-10-26T01:23:22-07:00",
+        "updatedAt": "2026-10-26T01:23:23-07:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Find out when Black Friday 2026 falls, when Thanksgiving and Cyber Monday take place, and when Black Friday sales typically begin. Plan your holiday shopping with this quick guide. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "d758cc65d0274ac3f69195a2450b7eacb883cc0c914d887d6d60fd37fa6a5c1e",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.78,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.56
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-94C699FD2F46",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Wann ist Black Friday 2026?",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+        "publishDate": "2026-10-26T09:51:41+01:00",
+        "updatedAt": "2026-10-26T09:51:41+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Wann ist Black Friday 2026? Erfahre das Datum, wann die Black Week stattfindet und wann Cyber Monday ist. Hier findest du alle wichtigen Termine im Überblick. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "18ab3edd5494be07fb6f7eb223155c13de3b0d4146e0d824d00501a235864504",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.82,
+          "monitoringPriority": 2,
+          "priorityConfidence": 0.61
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9C6D5555CF9C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse électrique filaire ou robot tondeuse : que choisir pour un petit jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/faut-il-un-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-10-22T11:32:06+02:00",
+        "updatedAt": "2026-10-26T09:38:13+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Un robot tondeuse coupe-t-il aussi bien qu’une tondeuse électrique filaire ?",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "91492dc8b30d0ed14e7eeecae12d5b21f5e47a23b981151c76eb3f938dc6a442",
+          "afterHash": "1aee5773ab43215ce7c85ff1e3b0f5376e9609f2d8c0a4799f03bdbbe16678d8",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": ". Légèreté : elle se manœuvre sans effort, un vrai atout quand on enchaîne les demi-tours. Puissance constante : branchée sur le secteur, elle ne faiblit pas en cours de tonte. Finition des bordures : guidée à la main, elle passe au plus près des murets et des bordures de terrasse. Herbe haute : ell",
+          "afterExcerpt": " . Légèreté : elle se manœuvre sans effort, un vrai atout quand on enchaîne les demi-tours. Puissance constante : branchée sur le secteur, elle ne faiblit pas en cours de tonte. Finition des bordures : guidée à la main, elle passe au plus près des murets et des bordures de terrasse. Herbe haute : el"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "rez les robots tondeuses Mammotion, dont la gamme YUKA est pensée pour les petites et moyennes surfaces."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.63,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9443D5AE09AA",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse à coussin d'air : a-t-on encore besoin d'un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-coussin-d-air-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T11:55:28+02:00",
+        "updatedAt": "2026-10-26T09:30:18+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Électrique, à batterie ou thermique, la tondeuse à coussin d'air a ses limites. Pente, bruit, entretien : quand passer au robot tondeuse ? Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "e20b51b9598764d6086f0f2ffba3d6798a32e0c7330f95e776d6bf34a63924d1",
+          "afterHash": "46a04074cd6afe6aa36437f7fcd375ef07cc5e91f1c4cbf2b28aab5c5c20e172",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "obot tondeuse 4 roues motrices comme le Mammotion LUBA 4 AWD franchit jusqu’à 80 % (38,6°), bien au-delà des c"
+          },
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "ain, découvrez les robots tondeuses Mammotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les ter"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "mmotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les terrains les plus exigeants."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.75
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2B5EAB4762B3",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse hélicoïdale ou robot tondeuse : laquelle choisir pour votre pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-helicoidale-ou-robot-tondeuse",
+        "publishDate": "2026-10-19T09:25:11+02:00",
+        "updatedAt": "2026-10-26T09:22:57+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Tondeuse hélicoïdale manuelle, électrique ou thermique, ou robot tondeuse ? Coupe, prix, surface, entretien : comparez et choisissez selon votre jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "a7c6feba035b25cf2125dcac92b5b33615d9353a60057173a4ae2ac9ff3ea625",
+          "afterHash": "cce87fc15f9e8d95d4c05b5901d8a227ed67a40e11349481944703a3b3d98fb1",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ux petits jardins bien plats. Chez Mammotion, les LUBA 4 AWD à quatre roues motrices gravissent des pentes jus"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "oïdale, mais certains modèles, comme le Mammotion LUBA mini AWD, tracent des motifs de tonte choisis dans l’appli"
+          },
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "nte, découvrez les robots tondeuses Mammotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les ter"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "mmotion, du YUKA mini pour les petits jardins aux LUBA AWD pour les terrains les plus exigeants."
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.77,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7EFB9F8F9815",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Tondeuse débroussailleuse et robot tondeuse : faut-il vraiment choisir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tondeuse-debroussailleuse-et-robot-tondeuse",
+        "publishDate": "2026-10-16T10:19:14+02:00",
+        "updatedAt": "2026-10-26T09:16:44+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Après la tonteuse-débroussailleus, l'herbe repousse vite. Pourquoi le robot tondeuse est son complément idéal : comparatif et conseils pour les associer. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2bc5fee695c554769498f4804880cec833f757dcaf997c97d19ef613ff37e701",
+          "afterHash": "1223ec099b5ebb97d6903a9fec826e1ba0b3565f8fecccf3f67c470f1724df72",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": ", mais certains modèles Mammotion, comme la gamme LUBA 4 AWD, peuvent recevoir un module de coupe des bordures"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.68,
+          "priorityConfidence": 0.72
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-369FEA5C0310",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+        "publishDate": "2026-10-12T09:43:34+02:00",
+        "updatedAt": "2026-10-27T09:24:37+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
+          "afterHash": "e6e6bc8ec9b8e26c5f8ba4e412723216ba034e41a4c41bc94ed405ecc3049315",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "r un sol détrempé. Les robots tondeuses Mammotion LUBA AWD, à quatre roues motrices , gravissent des pentes "
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "s contourne au lieu de buter dessus. La Mammotion LUBA 4 AWD franchit des obstacles verticaux jusqu’à 60 mm. S"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.78,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-92C1CD5DD54E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse 4x4 : quelles roues abîment le moins la pelouse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-4x4-respectueux-pelouse-comparatif",
+        "publishDate": "2026-10-10T10:40:23+02:00",
+        "updatedAt": "2026-10-27T09:15:31+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Roue omnidirectionnelle, pivotante ou directrice : comparatif des robots tondeuses 4x4 pour savoir lequel respecte le mieux la pelouse en virage. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "c33e41af9947fe77f28bf7db20f6880635e152031bd74398fd53a793b291965b",
+          "afterHash": "c00f612ed5bcb9c61d295bbd45bfce9d2125ee774f730d1dc1fcc8953cfd7c59",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": " ) et pourtant produire des résultats très différents sur la pelouse. La différence ne tient pas au nombre de roues motrices, mais au mécanisme de direction : certains robots ne braquent pas leurs roues et laissent des rouleaux absorber le déplacement latéral, d’autres plient leur châssis, d’autres ",
+          "afterExcerpt": ") et pourtant produire des résultats très différents sur la pelouse. La différence ne tient pas au nombre de roues motrices, mais au mécanisme de direction : certains robots ne braquent pas leurs roues et laissent des rouleaux absorber le déplacement latéral, d’autres plient leur châssis, d’autres e"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "retrace ensuite l’évolution des roues de la gamme LUBA AWD, compare les principaux robots 4x4 du marché, pui"
+          },
+          {
+            "name": "LUBA 2 AWD",
+            "source": "article_body",
+            "excerpt": "ù le robot pivote souvent, surtout sur sol humide LUBA 2 AWD / LUBA 3 AWD, Dreame A3 AWD Pro, MOVA LiDAX Ultra"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "vote souvent, surtout sur sol humide LUBA 2 AWD / LUBA 3 AWD, Dreame A3 AWD Pro, MOVA LiDAX Ultra AWD 4 roues "
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "e nécessaire à chaque bout de passage Navimow X4, LUBA 4 AWD (voir aussi la ligne suivante) 4 roues motrices +"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "2 : les roues omnidirectionnelles Les LUBA 2 AWD, LUBA mini AWD et LUBA 3 AWD sont équipées de roues avant omnidi"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.08,
+          "newProductConfidence": 0.86,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.95,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-733EE6F6337E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Choisir un robot tondeuse pour petite surface",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse-petit-jardin",
+        "publishDate": "2026-09-29T11:30:35+02:00",
+        "updatedAt": "2026-10-27T07:40:27+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Découvrez comment choisir le robot tondeuse idéal pour petit jardin urbain : passages étroits, pentes et sécurité enfants/animaux. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "ed2d2fd22cbe3878d2f4ceab992bcf5a389150df92088ae9db445bdf156fdeec",
+          "afterHash": "08331a9efd83a0878178fc4491535c8e8cc3ace15105ba1a999d06d9be4fdc16",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "Un petit jardin a-t-il réellement besoin d’un robot tondeuse ? Oui, un robot tondeuse est tout à fait justifié pour un petit jardin. Loin d'être une gadget inutile pour les petits espaces, le robot tondeuse apporte une réponse très concrète aux contraintes des jardins de ville et de lotissement :. U",
+          "afterExcerpt": "1. Un petit jardin a-t-il réellement besoin d’un robot tondeuse ? Oui, un robot tondeuse est tout à fait justifié pour un petit jardin . Loin d'être un gadget inutile pour les petits espaces, le robot tondeuse apporte une réponse très concrète aux contraintes des jardins de ville et de lotissement :"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "tuent le choix idéal pour votre terrain. La série YUKA mini a été spécialement conçue pour répondre aux exige"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.73,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-814BFC519C29",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Quel robot tondeuse choisir selon la surface de son jardin ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/quel-robot-tondeuse-choisir-selon-surface-jardin",
+        "publishDate": "2026-08-25T10:06:31+02:00",
+        "updatedAt": "2026-10-27T07:12:16+01:00",
+        "discoveredAt": "2026-10-27T08:24:48.416Z",
+        "summary": "Choisissez votre robot tondeuse selon la surface réelle de votre pelouse, puis ajustez votre choix au terrain, à sa complexité et au temps de tonte. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "2ce53b4b383dbd6aad48b2f6da441adaaa9bb96196af536e30e68df76ca8e5a8",
+          "afterHash": "2ba2b2ee0ed54963f7f8dac023d234454809d20d7b573d31f2dfdbfb0eafe043",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "t être organisé autour de deux grandes familles : YUKA et LUBA. Série Mammotion Surface de pelouse indic"
+          },
+          {
+            "name": "LUBA",
+            "source": "article_body",
+            "excerpt": "rganisé autour de deux grandes familles : YUKA et LUBA. Série Mammotion Surface de pelouse indicative Te"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "ct, précision de navigation et entretien régulier LUBA AWD Series Environ 1 000 à 10 000 m², selon le modèle"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.63,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-4B5021B06C42",
         "sourceId": "mammotion-fr-blog",
