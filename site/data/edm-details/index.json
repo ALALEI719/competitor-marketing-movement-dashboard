@@ -153,6 +153,17 @@
       "subject": "MOVA 法国割草机器人社群园艺工具抽奖",
       "summary": "MOVA 借园艺工具抽奖邀请法国用户加入官方割草机器人社群；法德各 25 名获奖者，奖品并非割草机器人，参与期为 2026 年 10 月 21 日至 11 月 16 日（CET）。",
       "detailRef": "./data/edm-details/EDM-703F69538A26.json"
+    },
+    {
+      "actionId": "ACT-EDM-39541F049E99",
+      "recordId": "EDM-39541F049E99",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-27T08:03:37.000Z",
+      "subject": "Dreame 德国黑五邮件：A3 AWD Pro 3500 割草机器人优惠 600 欧元",
+      "summary": "邮件当日宣称 A3 AWD Pro 3500 割草机器人优惠 600 欧元，标价 1,999 欧元（划线原价 2,599 欧元），产品卡标示 10 月 27 日至 11 月 12 日；整体黑五活动另覆盖多种家电，非该单品专属。",
+      "detailRef": "./data/edm-details/EDM-39541F049E99.json"
     }
   ]
 }

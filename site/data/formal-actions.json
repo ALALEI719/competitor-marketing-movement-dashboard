@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T09:48:36.144Z",
+  "updatedAt": "2026-10-27T09:23:28.483Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-39541F049E99",
+      "entityId": "",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-27T08:39:07.442Z",
+      "publishDate": "2026-10-27T08:03:37.000Z",
+      "title": "Dreame 德国黑五邮件推广 A3 AWD Pro 3500 割草机器人",
+      "summary": "邮件当日宣称 A3 AWD Pro 3500 割草机器人优惠 600 欧元，标价 1,999 欧元（划线原价 2,599 欧元），产品卡标示 10 月 27 日至 11 月 12 日；整体黑五活动另覆盖多种家电，非该单品专属。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-27T09:23:28.483Z",
+      "detailRef": "./data/edm-details/EDM-39541F049E99.json"
+    },
     {
       "actionId": "ACT-DC5DC408321C",
       "entityId": "",

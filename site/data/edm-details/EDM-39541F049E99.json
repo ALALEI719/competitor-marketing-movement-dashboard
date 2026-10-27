@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-39541F049E99",
+  "actionId": "ACT-EDM-39541F049E99",
+  "brand": "Dreame",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-27T08:03:37.000Z",
+  "subject": "Dreame 德国黑五邮件：A3 AWD Pro 3500 割草机器人优惠 600 欧元",
+  "contentSummary": "Dreame 德国黑色星期五营销邮件覆盖多个家电品类；其中 A3 AWD Pro 3500 割草机器人产品卡标示减 600 欧元，现价 1,999 欧元、划线原价 2,599 欧元，单品标示档期为 10 月 27 日至 11 月 12 日。整体活动主视觉另宣称最高优惠 1,060 欧元及 10 月 27 日至 11 月 30 日档期，不能等同于割草机器人优惠。所有价格与期限均为邮件当日宣称。",
+  "bodyParagraphs": [
+    "邮件以黑色星期五活动为主题，主视觉展示家电与户外产品，其中包含割草机器人。主视觉宣称全场最高优惠 1,060 欧元，整体档期标示为 10 月 27 日至 11 月 30 日；该最高优惠不是割草机器人专属。",
+    "与割草机器人直接相关的产品卡为 A3 AWD Pro 3500，画面标示减 600 欧元、价格 1,999 欧元和划线原价 2,599 欧元，产品卡单独写明 10 月 27 日至 11 月 12 日。上述价格和期限仅代表邮件当日宣称，不代表持续有效或最终结算价。",
+    "邮件其余产品卡横跨扫地机器人、洗地机、个人护理、空气及厨房家电、大家电、泳池清洁机器人和智能门锁；这些作为活动背景保留，不将其误称为割草机器人。",
+    "邮件另展示购物门槛赠品、购物车活动、组合购买折扣和通用服务信息，但未明确这些项目均适用于该割草机器人，因此不纳入割草机器人动作概括。",
+    "割草机器人卡片旁的附加配件图片及 5 欧元字样未说明完整适用条件，不推断为无条件赠送或产品最终套餐价格。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-01.png",
+      "description": "黑色星期五主视觉展示多种 Dreame 产品，含前景的割草机器人；画面宣称整体活动最高优惠 1,060 欧元，并标示 10 月 27 日至 11 月 30 日的活动档期。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-02.png",
+      "description": "购物金额分档赠品说明：画面列出 599、999 和 1,599 欧元门槛及库存有限提示；未标示割草机器人专属赠品。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-03.png",
+      "description": "黑色星期五购物车活动画面，宣称可为下一件 Dreame 产品争取最高 500 欧元优惠；非割草机器人专属。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-04.png",
+      "description": "扫地机器人产品卡，属于邮件多品类促销背景，并非割草机器人。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-05.png",
+      "description": "另一款扫地机器人产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-06.png",
+      "description": "扫地机器人产品卡及促销标价，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-07.png",
+      "description": "扫地机器人产品卡及促销标价，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-08.png",
+      "description": "洗地机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-09.png",
+      "description": "洗地机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-10.png",
+      "description": "洗地机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-11.png",
+      "description": "吸尘器产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-12.png",
+      "description": "吸尘器产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-13.png",
+      "description": "吹风机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-14.png",
+      "description": "美发造型器产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-15.png",
+      "description": "美容面罩产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-16.png",
+      "description": "风扇产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-17.png",
+      "description": "宠物空气净化器产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-18.png",
+      "description": "加湿器产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 18,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-19.png",
+      "description": "厨房搅拌机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 19,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-20.png",
+      "description": "厨余处理设备产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 20,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-21.png",
+      "description": "厨房料理机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 21,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-22.png",
+      "description": "洗衣机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 22,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-23.png",
+      "description": "烘干机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 23,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-24.png",
+      "description": "冰箱产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 24,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-25.png",
+      "description": "泳池清洁机器人产品卡，并非割草机器人。"
+    },
+    {
+      "index": 25,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-26.png",
+      "description": "智能门锁产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 26,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-27.png",
+      "description": "A3 AWD Pro 3500 割草机器人产品卡标示优惠 600 欧元、现价 1,999 欧元及划线原价 2,599 欧元；优惠档期为 10 月 27 日至 11 月 12 日。旁边附加配件图及 5 欧元字样的适用条件未明。"
+    },
+    {
+      "index": 27,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-28.png",
+      "description": "取暖设备产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 28,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-29.png",
+      "description": "洗地机产品卡，属于邮件多品类促销背景。"
+    },
+    {
+      "index": 29,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-30.png",
+      "description": "页面尾部展示两件及三件指定商品的组合折扣，以及保价、退货、保修等通用服务信息；未证明适用于割草机器人。"
+    },
+    {
+      "index": 35,
+      "src": "./data/edm-assets/EDM-39541F049E99/image-36.png",
+      "description": "页脚 Pinterest 社交图标，为装饰性导航元素，不提供促销事实。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
