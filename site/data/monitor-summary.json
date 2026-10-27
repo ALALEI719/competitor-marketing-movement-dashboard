@@ -18,8 +18,8 @@
     "channelItems": 120,
     "blogChanges": 53,
     "pendingChannelChanges": 14,
-    "prSources": 16,
-    "healthyPrSources": 16,
+    "prSources": 17,
+    "healthyPrSources": 17,
     "prChanges": 17,
     "pendingPrChanges": 4
   },
@@ -5663,7 +5663,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-26T09:19:50.355Z",
+    "checkedAt": "2026-10-27T09:15:41.363Z",
     "sources": [
       {
         "source": {
@@ -5952,6 +5952,35 @@
         "itemCount": 1,
         "discoveredUrlCount": 151,
         "pendingArticleCount": 0
+      },
+      {
+        "source": {
+          "id": "pr-us-androidcentral-media",
+          "sourceType": "media",
+          "outlet": "Android Central",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "美国",
+          "countryCode": "US",
+          "channel": "pr",
+          "url": "https://www.androidcentral.com/sitemap.xml"
+        },
+        "checkedAt": "2026-10-27T09:15:41.363Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 0,
+        "discoveredUrlCount": 328,
+        "pendingArticleCount": 0,
+        "fetchedCount": 0,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       }
     ],
     "recentRecords": [
