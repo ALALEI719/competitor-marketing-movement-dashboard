@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-27T08:24:48.264Z",
+  "generatedAt": "2026-10-28T09:01:25.015Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
@@ -10,14 +10,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1141,
-    "pendingChanges": 48,
+    "pages": 1126,
+    "pendingChanges": 69,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 53,
-    "pendingChannelChanges": 14,
+    "blogChanges": 66,
+    "pendingChannelChanges": 27,
     "prSources": 17,
     "healthyPrSources": 17,
     "prChanges": 17,
@@ -34,19 +34,19 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-27T08:24:36.582Z",
+      "checkedAt": "2026-10-28T09:01:09.806Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 341,
+      "pageCount": 324,
       "breakdown": {
         "page": 64,
-        "blog": 207,
+        "blog": 190,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
         "added": 1,
-        "removed": 0,
+        "removed": 18,
         "lastmodChanged": 67
       },
       "auditSignals": {
@@ -70,7 +70,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-27T08:24:39.725Z",
+      "checkedAt": "2026-10-28T09:01:13.984Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 288,
@@ -81,17 +81,17 @@
         "product": 84
       },
       "changeCounts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
-        "lastmodChanged": 98
+        "lastmodChanged": 97
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 98,
+        "lastmodPagesNeedingContentCheck": 97,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 2,
+        "inspectedPages": 1,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -106,19 +106,19 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-27T08:24:43.003Z",
+      "checkedAt": "2026-10-28T09:01:17.381Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 211,
+      "pageCount": 212,
       "breakdown": {
-        "page": 39,
+        "page": 40,
         "blog": 89,
         "collection": 16,
         "product": 67
       },
       "changeCounts": {
-        "added": 0,
-        "removed": 1,
+        "added": 1,
+        "removed": 0,
         "lastmodChanged": 77
       },
       "auditSignals": {
@@ -127,7 +127,7 @@
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
@@ -142,34 +142,307 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-27T08:24:45.616Z",
+      "checkedAt": "2026-10-28T09:01:21.254Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 301,
+      "pageCount": 302,
       "breakdown": {
-        "page": 38,
+        "page": 39,
         "blog": 160,
         "collection": 17,
         "product": 86
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 115
+        "lastmodChanged": 114
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 115,
+        "lastmodPagesNeedingContentCheck": 114,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 2,
         "meaningfulChanges": 0,
         "errors": []
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-10-28T09:01:21.254Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/pages/testiiinggg15489956",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-2650214962FC"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-10-28T09:01:17.381Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/pages/jhhj3jkjhl",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-BCF8AFA8DD62"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-D4D7624EED57"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/aeration-for-winter-lawn",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-5D05D35CC88F"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/black-friday-2025-mammotion-robotic-mower",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-2A5B40F82823"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/can-i-mow-wet-grass",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-BC9375EDFB4A"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/can-you-mow-wet-grass-guide",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-20424D199D95"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/cutting-wet-grass-guide",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-3936583FDA97"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/essential-winter-lawn-care-tips",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-DEB163EAAC45"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/fall-lawn-care-tips",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-93F054643B78"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/how-often-should-you-cut-your-lawn",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-6DF57BE832B0"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/how-often-to-mow-lawn",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-6501964ED596"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/how-to-mow-your-lawn-correctly",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-A5D64446DA44"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/is-the-luba-mini-awd-robotic-lawn-mower-worth-buying",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-7831885D67E8"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/luba-mini-awd-effortless-lawn-care-for-your-yard",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-490644BEF0D0"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/mammotion-2025-new-product-launch",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-01F9703D9A41"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/mammotion-luba-2-can-it-replace-my-lawn-guy",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-6BD7CFB0AF7A"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/mammotion-luba-2-robot-mower-for-your-lawn",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-D14C5DF0402A"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/six-common-mistakes-in-winter-lawn-care",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-97430C17CCBB"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/transform-your-lawn-care-with-the-luba-2-robot-mower",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-4EB5B7D76C5D"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-10-28T09:01:09.806Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/what-are-the-new-robotic-mowers",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-2F4CDE3BC0A9"
+    },
     {
       "type": "removed_page",
       "reviewStatus": "pending",
@@ -2303,7 +2576,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-27T08:24:48.416Z",
+    "checkedAt": "2026-10-28T09:01:25.173Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2315,21 +2588,21 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-27T08:24:48.416Z",
+        "checkedAt": "2026-10-28T09:01:25.173Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-26T01:23:22-07:00",
+        "latestPublishedAt": "2026-10-27T23:25:26-07:00",
         "changeCounts": {
           "added": 1,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 11,
+          "comparable": 14,
           "backfillErrors": []
         }
       },
@@ -2342,13 +2615,13 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-27T08:24:48.416Z",
+        "checkedAt": "2026-10-28T09:01:25.173Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-26T09:51:41+01:00",
         "changeCounts": {
-          "added": 1,
+          "added": 0,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2356,7 +2629,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 11,
+          "comparable": 13,
           "backfillErrors": []
         }
       },
@@ -2369,7 +2642,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-27T08:24:48.416Z",
+        "checkedAt": "2026-10-28T09:01:25.173Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2383,7 +2656,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 10,
+          "comparable": 12,
           "backfillErrors": []
         }
       },
@@ -2396,26 +2669,714 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-27T08:24:48.416Z",
+        "checkedAt": "2026-10-28T09:01:25.173Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 8
+          "updated": 11
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 19,
+          "comparable": 26,
           "backfillErrors": []
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-BC9D18A74F3F",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-10-27T23:25:26-07:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Explore Mammotion Black Friday 2026 updates, discover featured robotic lawn mowers and pool cleaners, and check the official site for upcoming offers. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "b94f0c0523e5e1c01e8f5535b160cdc2e46ea20a8a748d84b5a418d4e9fb796a",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.98,
+          "monitoringPriority": 2.77,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2D8C9C32E94C",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday 2026?",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+        "publishDate": "2026-10-26T01:23:22-07:00",
+        "updatedAt": "2026-10-28T02:00:00-07:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Find out when Black Friday 2026 falls, when Thanksgiving and Cyber Monday take place, and when Black Friday sales typically begin. Plan your holiday shopping with this quick guide. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d758cc65d0274ac3f69195a2450b7eacb883cc0c914d887d6d60fd37fa6a5c1e",
+          "afterHash": "26fa09c6c326b685499eadd474a76103b3cdd5ddc08ed578372838285e707005",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": ". Promotion dates, product eligibility, and terms may vary. Check the official offer details before purchasing. How Long Do Black Friday Deals Last? Although Black Friday itself lasts one day, related promotions may run for a longer period. Depending on the retailer, sales may begin before Thanksgiv",
+          "afterExcerpt": "For more info, see our guide Mammotion Black Friday Deals 2026 | Official Sale . . . Promotion dates, product eligibility, and terms may vary. Check the official offer details before purchasing. How Long Do Black Friday Deals Last? Although Black Friday itself lasts one day, related promotions may r"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.84,
+          "monitoringPriority": 2.1,
+          "priorityConfidence": 0.5
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-19BFFC3D0672",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+        "publishDate": "2026-10-13T05:50:29+02:00",
+        "updatedAt": "2026-10-27T09:30:31+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Robot tondeuse tout-terrain : chenilles ou 4 roues motrices ? Pente, sol humide, pelouse, bordures : notre comparatif pour bien choisir selon votre jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
+          "afterHash": "c27bf5386e6c33a7524909406673f221953e499a5013bc734f12a3ec0cacc47e",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "es ou à l’aide de roues directrices, comme sur le LUBA 4 AWD. Point fort : l’équilibre entre motricité, maniab"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.91,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2041AB879A1D",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+        "publishDate": "2026-09-29T08:58:57+02:00",
+        "updatedAt": "2026-10-28T08:00:26+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "40a03ce17ced5fbda2260924d255d90ac1d5f544accf2b23841f4dab0f6a263f",
+          "afterHash": "2b15337608c6ca5f4d4542be7e8bc6d92d8c543080f99dcee801b22e549e3481",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "nte fraîche et humide en raison d'une évaporation très limitée. Paramètre Zone Ensoleillée (Plein Sud) Zone Ombragée (Sous-bois / Mur) Ensoleillement direct > 6 heures / jour < 3 heures / jour Vitesse de pousse Rapide (jusqu'à 3-4 cm / semaine au printemps) Lente (moins de 1 cm / semaine) Humidité d",
+          "afterExcerpt": "mment fraîche et humide en raison d'une évaporation très limitée. Paramètre Zone Ensoleillée (Plein Sud) Zone Ombragée (Sous-bois / Mur) Ensoleillement direct > 6 heures / jour < 3 heures / jour Vitesse de pousse Rapide (jusqu'à 3-4 cm / semaine au printemps) Lente (moins de 1 cm / semaine) Humidité"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.85,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-DA0280452773",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+        "publishDate": "2026-09-28T10:41:48+02:00",
+        "updatedAt": "2026-10-28T07:42:50+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "2c2d0ac3451756725154125698694e38a044abb4228248bc95fb5984bc00f4fb",
+          "afterHash": "54f85e9eeac434688bf8f1b5fda9343d5088279fc4383487f098cd57fd003709",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "à centre de gravité bas et à structure stable, afin de limiter le transfert de charge sur une seule roue. 2. Mode de direction et protection du gazon : réduire l’arrachement des racines. Limiter les rotations sur place : sur une pelouse humide, une rotation brutale peut frotter les pneus contre le s",
+          "afterExcerpt": "tondeuse à centre de gravité bas et à structure stable, afin de limiter le transfert de charge sur une seule roue. 2. Mode de direction et protection du gazon : réduire l’arrachement des racines. Limiter les rotations sur place : sur une pelouse humide, une rotation brutale peut frotter les pneus co"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "ie et des zones virtuelles modifiables. Mammotion LUBA 3 AWD – Le choix du 4x4 pour les terrains complexes ① T"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.94,
+          "marketingTheme": "product_education",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 1.86,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-93104FA41627",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Herbe épaisse et robot tondeuse : que faire quand il peine ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-herbe-epaisse",
+        "publishDate": "2026-09-20T12:29:51+02:00",
+        "updatedAt": "2026-10-28T07:26:52+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Herbe haute, dense ou feutrée ? Repérez votre cas en trois contrôles, remettez la pelouse à niveau dans le bon ordre et choisissez un robot adapté. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "55552b2bfb1bb8cdc11ed0f73e141becade2dceda5b96225d5149cbf6949f001",
+          "afterHash": "f5d32d9739e74320eb71729a432bca2bb986cc680016b51aa4742a16d7319201",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ". Deux hauteurs à ne pas confondre . La hauteur de l'herbe : la hauteur réelle des brins, que vous mesurez avec une règle. La hauteur de coupe : le réglage du robot, c'est-à-dire la distance entre les lames et le sol. Les confondre est l'erreur la plus fréquente. La règle du tiers, présentée plus ba",
+          "afterExcerpt": "Deux hauteurs à ne pas confondre . La hauteur de l'herbe : la hauteur réelle des brins, que vous mesurez avec une règle. La hauteur de coupe : le réglage du robot, c'est-à-dire la distance entre les lames et le sol. Les confondre est l'erreur la plus fréquente. La règle du tiers, présentée plus bas,"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "pe devient moins franche et le robot ralentit. Le LUBA 3 AWD est équipé de deux disques de coupe. Le moteur de"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "de, les roues peuvent patiner plus facilement. Le LUBA AWD est un robot à transmission intégrale (AWD) : ell"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.62,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7174FDB77A9C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Obstacles Cachés : Ce Qu'il Faut Vérifier Avant d'Acheter",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-obstacles-caches",
+        "publishDate": "2026-09-18T12:27:15+02:00",
+        "updatedAt": "2026-10-28T07:19:14+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pierres, racines, têtes d'arrosage enterrées : pourquoi certains obstacles échappent aux capteurs d'un robot tondeuse, comment classer les obstacles de votre jardin, et ce qu'il faut vérifier avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a2471da3052067cd5c2dbd25af93c489dbe0cf243190bec669753aecc978e025",
+          "afterHash": "7bc54e4712fcc8468b77dd02453d7dbd0db7f2102127506709d46459f4d2e5dc",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ", elle peut être semée d'embûches — pierres, racines, têtes d'arrosage. Une mauvaise vérification a un coût, à plusieurs niveaux :. Type de coût Conséquences concrètes Coût de réparation Usure des pièces, frais de remplacement Coût d'usage au quotidien Interruptions de tonte, blocages nécessitant un",
+          "afterExcerpt": " , elle peut être semée d'embûches — pierres, racines, têtes d'arrosage. Une mauvaise vérification a un coût, à plusieurs niveaux :. Type de coût Conséquences concrètes Coût de réparation Usure des pièces, frais de remplacement Coût d'usage au quotidien Interruptions de tonte, blocages nécessitant u"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3",
+            "source": "article_body",
+            "excerpt": "nt Tri-Fusion (RTK + LiDAR + vision) Sur la gamme LUBA 3 et LUBA 4 AWD, cette approche combine trois sourc"
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ion (RTK + LiDAR + vision) Sur la gamme LUBA 3 et LUBA 4 AWD, cette approche combine trois sources d'informati"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "tolérance, pas un outil de détection Sur la série LUBA 3 AWD , la capacité de franchissement vertical permet d"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.79,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-420E7A295ADF",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Jardin avec Nombreux Parterres et Arbres : Comment Planifier les Limites",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-jardin-arbustes-massifs",
+        "publishDate": "2026-09-18T04:13:38+02:00",
+        "updatedAt": "2026-10-28T06:59:54+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Comment planifier les zones interdites d'un robot tondeuse dans un jardin avec plusieurs massifs et arbres, avec un ajustement saisonnier et les critères à vérifier avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "db231f11707d88935c8ca7a716bc40ba45d84e853541681ae21ca6c412a9bfe0",
+          "afterHash": "5e646141963d23281db81d759273423a40761d097273fa91d51d267e40e5366e",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "doit constamment slalomer sans jamais couvrir la zone d'un seul tenant. Dans ce cas, découpez ce coin en une zone de travail distincte, reliée à la zone principale par un couloir, avec sa propre tâche (hauteur de coupe et planning réglés indépendamment). Si aucune séparation naturelle n'existe et qu",
+          "afterExcerpt": "tondeuse doit constamment slalomer sans jamais couvrir la zone d'un seul tenant. Dans ce cas, découpez ce coin en une zone de travail distincte , reliée à la zone principale par un couloir, avec sa propre tâche (hauteur de coupe et planning réglés indépendamment). Si aucune séparation naturelle n'ex"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.7,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-70D85CB1C099",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Passage Étroit : Quelle Largeur Minimale Prévoir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-passage-etroit-largeur",
+        "publishDate": "2026-09-17T08:38:12+02:00",
+        "updatedAt": "2026-10-28T06:42:56+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Quelle largeur minimale un robot tondeuse a-t-il besoin pour passer un couloir étroit, pourquoi le signal satellite peut y être perturbé, et comment vérifier son jardin avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a0daf95f214ab9eb8c7ed9903df71b4454a552cb6c6e9159c8f53e3d609470bc",
+          "afterHash": "4e654ec29e4dc38ece498cb5acf5fba96853a4959c37a904cb93c794e178cb9d",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ":. Catégorie Largeur de passage généralement praticable Modèles grand public standards 60 à 80 cm Modèles compacts ou à châssis étroit 45 à 60 cm Modèles conçus pour les passages étroits 35 à 40 cm (souvent pensé pour un portillon de jardin standard) . Notre LUBA 3 AWD (navigation Tri-Fusion : RTK, ",
+          "afterExcerpt": "de robots tondeuses :. Catégorie Largeur de passage généralement praticable Modèles grand public standards 60 à 80 cm Modèles compacts ou à châssis étroit 45 à 60 cm Modèles conçus pour les passages étroits 35 à 40 cm (souvent pensé pour un portillon de jardin standard) . Notre LUBA 3 AWD ( navigati"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "pensé pour un portillon de jardin standard) Notre LUBA 3 AWD ( navigation Tri-Fusion : RTK, LiDAR, vision) se "
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "ard, avec un passage d'environ 70 cm. Notre gamme YUKA mini 2, plus compacte, permet de franchir environ 55 cm "
+          },
+          {
+            "name": "LUBA",
+            "source": "article_body",
+            "excerpt": " à choisir la navigation Tri-Fusion pour la gamme LUBA. RTK seul : précis dans l'absolu, mais dans un pa"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.83,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7C78C31AE2A5",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Piscine : Quelle Distance de Sécurité Respecter ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-piscine-distance-securite",
+        "publishDate": "2026-09-17T08:30:49+02:00",
+        "updatedAt": "2026-10-28T04:39:22+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Quelle marge de sécurité respecter entre un robot tondeuse et une piscine, comment tracer une zone interdite précise, et quelles protections matérielles privilégier. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "42201ccdf886214327268016c629882f95318206e80a475be1ea363b77e5e198",
+          "afterHash": "7c94b98f5f4726f8402138d13dfe5139f77648d2f92daeb4beb17a84e5375595",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.7,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-3AFA8C8962A7",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse, Trampolines et Balançoires : Pourquoi les Pieds Posent Problème",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-structures-jeux",
+        "publishDate": "2026-09-15T10:35:02+02:00",
+        "updatedAt": "2026-10-28T04:27:46+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pourquoi les pieds de trampoline ou de balançoire échappent aux capteurs d'un robot tondeuse, et comment créer une zone interdite pour éviter tout risque de choc. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "b4af219d039ddbd742971da1c73de3f4d35a107a92de0579544de9653ad87c46",
+          "afterHash": "816f71cd7a3ae2955ef7b42616d9f72f98a61b84d27d053086ab6b402f8023ea",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.76,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-4F58F6473B02",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Jardin de Forme Irrégulière : Pourquoi Certains Coins Ne Sont Jamais Tondus",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-jardin-forme-irreguliere",
+        "publishDate": "2026-09-09T11:49:14+02:00",
+        "updatedAt": "2026-10-27T11:24:41+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pourquoi un robot tondeuse laisse toujours le même coin non tondu sur un jardin en L ou en U, et quelles solutions techniques permettent d'éviter ce problème. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "d02d1f5ce2a47d8cc6ce8b02f7fdad41ccada778117c28920965247dba1813ad",
+          "afterHash": "9d548d77a5c4a6e2f8462276a1a9dba6dc6baa64425d402d88ffc1767253aa54",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.61,
+          "priorityConfidence": 0.67
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A9D13E964C4E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Le robot tondeuse pour particulier : l’incontournable du jardin moderne",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-particulier",
+        "publishDate": "2026-09-09T11:08:42+02:00",
+        "updatedAt": "2026-10-27T10:20:53+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Choisissez un robot tondeuse pour particulier selon la surface, la pente, les zones, la navigation et votre budget. Guide pratique 2026. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "b8ca4d61afa3c02bd49f4d338b74b1b8b802ad103283fd6543835988ca174a43",
+          "afterHash": "16133e391dd1cda047e07775ea80e04f48345dad8ea23084dab05757e9264860",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.64,
+          "priorityConfidence": 0.7
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-DD45C46A3EEE",
         "sourceId": "mammotion-us-blog",
@@ -4908,6 +5869,694 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-BC9D18A74F3F",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-10-27T23:25:26-07:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Explore Mammotion Black Friday 2026 updates, discover featured robotic lawn mowers and pool cleaners, and check the official site for upcoming offers. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "b94f0c0523e5e1c01e8f5535b160cdc2e46ea20a8a748d84b5a418d4e9fb796a",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.98,
+          "monitoringPriority": 2.77,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2D8C9C32E94C",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday 2026?",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+        "publishDate": "2026-10-26T01:23:22-07:00",
+        "updatedAt": "2026-10-28T02:00:00-07:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Find out when Black Friday 2026 falls, when Thanksgiving and Cyber Monday take place, and when Black Friday sales typically begin. Plan your holiday shopping with this quick guide. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "d758cc65d0274ac3f69195a2450b7eacb883cc0c914d887d6d60fd37fa6a5c1e",
+          "afterHash": "26fa09c6c326b685499eadd474a76103b3cdd5ddc08ed578372838285e707005",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": ". Promotion dates, product eligibility, and terms may vary. Check the official offer details before purchasing. How Long Do Black Friday Deals Last? Although Black Friday itself lasts one day, related promotions may run for a longer period. Depending on the retailer, sales may begin before Thanksgiv",
+          "afterExcerpt": "For more info, see our guide Mammotion Black Friday Deals 2026 | Official Sale . . . Promotion dates, product eligibility, and terms may vary. Check the official offer details before purchasing. How Long Do Black Friday Deals Last? Although Black Friday itself lasts one day, related promotions may r"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.84,
+          "monitoringPriority": 2.1,
+          "priorityConfidence": 0.5
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-19BFFC3D0672",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse tout terrain : à chenilles ou 4 roues motrices (4x4 / AWD) ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+        "publishDate": "2026-10-13T05:50:29+02:00",
+        "updatedAt": "2026-10-27T09:30:31+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Robot tondeuse tout-terrain : chenilles ou 4 roues motrices ? Pente, sol humide, pelouse, bordures : notre comparatif pour bien choisir selon votre jardin. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "68c259b3f23d0f92103411a81c27fe431f28ebb2098576bdae493cec7ba17bf7",
+          "afterHash": "c27bf5386e6c33a7524909406673f221953e499a5013bc734f12a3ec0cacc47e",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "es ou à l’aide de roues directrices, comme sur le LUBA 4 AWD. Point fort : l’équilibre entre motricité, maniab"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.91,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2041AB879A1D",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Pelouse mi-ombre mi-soleil : comment ajuster la fréquence et la hauteur de tonte ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+        "publishDate": "2026-09-29T08:58:57+02:00",
+        "updatedAt": "2026-10-28T08:00:26+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Comment tondre un jardin entre ombre et soleil ? Hauteur de coupe, fréquence idéale et conseils d'experts pour éviter la mousse et le scalpage du gazon. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "40a03ce17ced5fbda2260924d255d90ac1d5f544accf2b23841f4dab0f6a263f",
+          "afterHash": "2b15337608c6ca5f4d4542be7e8bc6d92d8c543080f99dcee801b22e549e3481",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "nte fraîche et humide en raison d'une évaporation très limitée. Paramètre Zone Ensoleillée (Plein Sud) Zone Ombragée (Sous-bois / Mur) Ensoleillement direct > 6 heures / jour < 3 heures / jour Vitesse de pousse Rapide (jusqu'à 3-4 cm / semaine au printemps) Lente (moins de 1 cm / semaine) Humidité d",
+          "afterExcerpt": "mment fraîche et humide en raison d'une évaporation très limitée. Paramètre Zone Ensoleillée (Plein Sud) Zone Ombragée (Sous-bois / Mur) Ensoleillement direct > 6 heures / jour < 3 heures / jour Vitesse de pousse Rapide (jusqu'à 3-4 cm / semaine au printemps) Lente (moins de 1 cm / semaine) Humidité"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.85,
+          "priorityConfidence": 0.85
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-DA0280452773",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse sur pelouse humide ou mal drainée : guide d’achat, anti-patinage et entretien",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+        "publishDate": "2026-09-28T10:41:48+02:00",
+        "updatedAt": "2026-10-28T07:42:50+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Découvrez quand utiliser un robot tondeuse sur une pelouse humide, comment éviter le patinage, protéger le gazon et entretenir votre appareil. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "2c2d0ac3451756725154125698694e38a044abb4228248bc95fb5984bc00f4fb",
+          "afterHash": "54f85e9eeac434688bf8f1b5fda9343d5088279fc4383487f098cd57fd003709",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "à centre de gravité bas et à structure stable, afin de limiter le transfert de charge sur une seule roue. 2. Mode de direction et protection du gazon : réduire l’arrachement des racines. Limiter les rotations sur place : sur une pelouse humide, une rotation brutale peut frotter les pneus contre le s",
+          "afterExcerpt": "tondeuse à centre de gravité bas et à structure stable, afin de limiter le transfert de charge sur une seule roue. 2. Mode de direction et protection du gazon : réduire l’arrachement des racines. Limiter les rotations sur place : sur une pelouse humide, une rotation brutale peut frotter les pneus co"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "ie et des zones virtuelles modifiables. Mammotion LUBA 3 AWD – Le choix du 4x4 pour les terrains complexes ① T"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.94,
+          "marketingTheme": "product_education",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 1.86,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-93104FA41627",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Herbe épaisse et robot tondeuse : que faire quand il peine ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-herbe-epaisse",
+        "publishDate": "2026-09-20T12:29:51+02:00",
+        "updatedAt": "2026-10-28T07:26:52+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Herbe haute, dense ou feutrée ? Repérez votre cas en trois contrôles, remettez la pelouse à niveau dans le bon ordre et choisissez un robot adapté. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "55552b2bfb1bb8cdc11ed0f73e141becade2dceda5b96225d5149cbf6949f001",
+          "afterHash": "f5d32d9739e74320eb71729a432bca2bb986cc680016b51aa4742a16d7319201",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ". Deux hauteurs à ne pas confondre . La hauteur de l'herbe : la hauteur réelle des brins, que vous mesurez avec une règle. La hauteur de coupe : le réglage du robot, c'est-à-dire la distance entre les lames et le sol. Les confondre est l'erreur la plus fréquente. La règle du tiers, présentée plus ba",
+          "afterExcerpt": "Deux hauteurs à ne pas confondre . La hauteur de l'herbe : la hauteur réelle des brins, que vous mesurez avec une règle. La hauteur de coupe : le réglage du robot, c'est-à-dire la distance entre les lames et le sol. Les confondre est l'erreur la plus fréquente. La règle du tiers, présentée plus bas,"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "pe devient moins franche et le robot ralentit. Le LUBA 3 AWD est équipé de deux disques de coupe. Le moteur de"
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "de, les roues peuvent patiner plus facilement. Le LUBA AWD est un robot à transmission intégrale (AWD) : ell"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.62,
+          "priorityConfidence": 0.68
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7174FDB77A9C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Obstacles Cachés : Ce Qu'il Faut Vérifier Avant d'Acheter",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-obstacles-caches",
+        "publishDate": "2026-09-18T12:27:15+02:00",
+        "updatedAt": "2026-10-28T07:19:14+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pierres, racines, têtes d'arrosage enterrées : pourquoi certains obstacles échappent aux capteurs d'un robot tondeuse, comment classer les obstacles de votre jardin, et ce qu'il faut vérifier avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a2471da3052067cd5c2dbd25af93c489dbe0cf243190bec669753aecc978e025",
+          "afterHash": "7bc54e4712fcc8468b77dd02453d7dbd0db7f2102127506709d46459f4d2e5dc",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ", elle peut être semée d'embûches — pierres, racines, têtes d'arrosage. Une mauvaise vérification a un coût, à plusieurs niveaux :. Type de coût Conséquences concrètes Coût de réparation Usure des pièces, frais de remplacement Coût d'usage au quotidien Interruptions de tonte, blocages nécessitant un",
+          "afterExcerpt": " , elle peut être semée d'embûches — pierres, racines, têtes d'arrosage. Une mauvaise vérification a un coût, à plusieurs niveaux :. Type de coût Conséquences concrètes Coût de réparation Usure des pièces, frais de remplacement Coût d'usage au quotidien Interruptions de tonte, blocages nécessitant u"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3",
+            "source": "article_body",
+            "excerpt": "nt Tri-Fusion (RTK + LiDAR + vision) Sur la gamme LUBA 3 et LUBA 4 AWD, cette approche combine trois sourc"
+          },
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ion (RTK + LiDAR + vision) Sur la gamme LUBA 3 et LUBA 4 AWD, cette approche combine trois sources d'informati"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "tolérance, pas un outil de détection Sur la série LUBA 3 AWD , la capacité de franchissement vertical permet d"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.79,
+          "priorityConfidence": 0.8
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-420E7A295ADF",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Jardin avec Nombreux Parterres et Arbres : Comment Planifier les Limites",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-jardin-arbustes-massifs",
+        "publishDate": "2026-09-18T04:13:38+02:00",
+        "updatedAt": "2026-10-28T06:59:54+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Comment planifier les zones interdites d'un robot tondeuse dans un jardin avec plusieurs massifs et arbres, avec un ajustement saisonnier et les critères à vérifier avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "db231f11707d88935c8ca7a716bc40ba45d84e853541681ae21ca6c412a9bfe0",
+          "afterHash": "5e646141963d23281db81d759273423a40761d097273fa91d51d267e40e5366e",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": "doit constamment slalomer sans jamais couvrir la zone d'un seul tenant. Dans ce cas, découpez ce coin en une zone de travail distincte, reliée à la zone principale par un couloir, avec sa propre tâche (hauteur de coupe et planning réglés indépendamment). Si aucune séparation naturelle n'existe et qu",
+          "afterExcerpt": "tondeuse doit constamment slalomer sans jamais couvrir la zone d'un seul tenant. Dans ce cas, découpez ce coin en une zone de travail distincte , reliée à la zone principale par un couloir, avec sa propre tâche (hauteur de coupe et planning réglés indépendamment). Si aucune séparation naturelle n'ex"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.7,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-70D85CB1C099",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Passage Étroit : Quelle Largeur Minimale Prévoir ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-passage-etroit-largeur",
+        "publishDate": "2026-09-17T08:38:12+02:00",
+        "updatedAt": "2026-10-28T06:42:56+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Quelle largeur minimale un robot tondeuse a-t-il besoin pour passer un couloir étroit, pourquoi le signal satellite peut y être perturbé, et comment vérifier son jardin avant l'achat. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "a0daf95f214ab9eb8c7ed9903df71b4454a552cb6c6e9159c8f53e3d609470bc",
+          "afterHash": "4e654ec29e4dc38ece498cb5acf5fba96853a4959c37a904cb93c794e178cb9d",
+          "changedFields": [
+            "headings",
+            "body"
+          ],
+          "beforeExcerpt": ":. Catégorie Largeur de passage généralement praticable Modèles grand public standards 60 à 80 cm Modèles compacts ou à châssis étroit 45 à 60 cm Modèles conçus pour les passages étroits 35 à 40 cm (souvent pensé pour un portillon de jardin standard) . Notre LUBA 3 AWD (navigation Tri-Fusion : RTK, ",
+          "afterExcerpt": "de robots tondeuses :. Catégorie Largeur de passage généralement praticable Modèles grand public standards 60 à 80 cm Modèles compacts ou à châssis étroit 45 à 60 cm Modèles conçus pour les passages étroits 35 à 40 cm (souvent pensé pour un portillon de jardin standard) . Notre LUBA 3 AWD ( navigati"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "pensé pour un portillon de jardin standard) Notre LUBA 3 AWD ( navigation Tri-Fusion : RTK, LiDAR, vision) se "
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "ard, avec un passage d'environ 70 cm. Notre gamme YUKA mini 2, plus compacte, permet de franchir environ 55 cm "
+          },
+          {
+            "name": "LUBA",
+            "source": "article_body",
+            "excerpt": " à choisir la navigation Tri-Fusion pour la gamme LUBA. RTK seul : précis dans l'absolu, mais dans un pa"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.83,
+          "priorityConfidence": 0.82
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7C78C31AE2A5",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Piscine : Quelle Distance de Sécurité Respecter ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-piscine-distance-securite",
+        "publishDate": "2026-09-17T08:30:49+02:00",
+        "updatedAt": "2026-10-28T04:39:22+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Quelle marge de sécurité respecter entre un robot tondeuse et une piscine, comment tracer une zone interdite précise, et quelles protections matérielles privilégier. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "42201ccdf886214327268016c629882f95318206e80a475be1ea363b77e5e198",
+          "afterHash": "7c94b98f5f4726f8402138d13dfe5139f77648d2f92daeb4beb17a84e5375595",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.7,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-3AFA8C8962A7",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse, Trampolines et Balançoires : Pourquoi les Pieds Posent Problème",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-structures-jeux",
+        "publishDate": "2026-09-15T10:35:02+02:00",
+        "updatedAt": "2026-10-28T04:27:46+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pourquoi les pieds de trampoline ou de balançoire échappent aux capteurs d'un robot tondeuse, et comment créer une zone interdite pour éviter tout risque de choc. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "b4af219d039ddbd742971da1c73de3f4d35a107a92de0579544de9653ad87c46",
+          "afterHash": "816f71cd7a3ae2955ef7b42616d9f72f98a61b84d27d053086ab6b402f8023ea",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.76,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-4F58F6473B02",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot Tondeuse et Jardin de Forme Irrégulière : Pourquoi Certains Coins Ne Sont Jamais Tondus",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-jardin-forme-irreguliere",
+        "publishDate": "2026-09-09T11:49:14+02:00",
+        "updatedAt": "2026-10-27T11:24:41+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Pourquoi un robot tondeuse laisse toujours le même coin non tondu sur un jardin en L ou en U, et quelles solutions techniques permettent d'éviter ce problème. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "d02d1f5ce2a47d8cc6ce8b02f7fdad41ccada778117c28920965247dba1813ad",
+          "afterHash": "9d548d77a5c4a6e2f8462276a1a9dba6dc6baa64425d402d88ffc1767253aa54",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.61,
+          "priorityConfidence": 0.67
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A9D13E964C4E",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Le robot tondeuse pour particulier : l’incontournable du jardin moderne",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-particulier",
+        "publishDate": "2026-09-09T11:08:42+02:00",
+        "updatedAt": "2026-10-27T10:20:53+01:00",
+        "discoveredAt": "2026-10-28T09:01:25.173Z",
+        "summary": "Choisissez un robot tondeuse pour particulier selon la surface, la pente, les zones, la navigation et votre budget. Guide pratique 2026. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "b8ca4d61afa3c02bd49f4d338b74b1b8b802ad103283fd6543835988ca174a43",
+          "afterHash": "16133e391dd1cda047e07775ea80e04f48345dad8ea23084dab05757e9264860",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.64,
+          "priorityConfidence": 0.7
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-DD45C46A3EEE",
         "sourceId": "mammotion-us-blog",

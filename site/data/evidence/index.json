@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-27T08:25:22.851Z",
+  "generatedAt": "2026-10-28T09:04:07.087Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -883,6 +883,405 @@
           "title": "When Is Black Friday 2026? Date & Shopping Calendar",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-9e64e96723c5a8af-2026-10-27T08-25-16-679Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "cf649cfdab138dae": {
+      "url": "https://fr.mammotion.com/pages/testiiinggg15489956",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:01:40.072Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-28T09:01:21.254Z",
+          "title": "Robot Tondeuse Professionnel Maston | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-cf649cfdab138dae-2026-10-28T09-01-40-072Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "3e15cb59189bc098": {
+      "url": "https://uk.mammotion.com/pages/jhhj3jkjhl",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:01:49.355Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-28T09:01:17.381Z",
+          "title": "JHHJ3jkjhl",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-3e15cb59189bc098-2026-10-28T09-01-49-355Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "1d4f1d4f81bd4c1b": {
+      "url": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:01:54.923Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-1d4f1d4f81bd4c1b-2026-10-28T09-01-54-923Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2ba6b10385be36cc": {
+      "url": "https://us.mammotion.com/blogs/news/aeration-for-winter-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:02.166Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "All Secret about Lawn Aeration in 2025",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-2ba6b10385be36cc-2026-10-28T09-02-02-166Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "3db05a752520f19b": {
+      "url": "https://us.mammotion.com/blogs/news/black-friday-2025-mammotion-robotic-mower",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:09.615Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-3db05a752520f19b-2026-10-28T09-02-09-615Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "aa9f636d14ae2f83": {
+      "url": "https://us.mammotion.com/blogs/news/can-i-mow-wet-grass",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:16.855Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Can You Mow Wet Grass? When to Wait and When It’s Safe",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-aa9f636d14ae2f83-2026-10-28T09-02-16-855Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "17d2c59ed4a450f5": {
+      "url": "https://us.mammotion.com/blogs/news/can-you-mow-wet-grass-guide",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:24.315Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Can You Mow Wet Grass? When to Wait and When It’s Safe",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-17d2c59ed4a450f5-2026-10-28T09-02-24-315Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "5e67e370e11c4ae3": {
+      "url": "https://us.mammotion.com/blogs/news/cutting-wet-grass-guide",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:31.535Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Can You Mow the Lawn When the Grass is Wet?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-5e67e370e11c4ae3-2026-10-28T09-02-31-535Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "65e024886231a2d8": {
+      "url": "https://us.mammotion.com/blogs/news/essential-winter-lawn-care-tips",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:38.929Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "The Ultimate Guide: Lawn Maintenance in Winter for Optimal Growth",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-65e024886231a2d8-2026-10-28T09-02-38-929Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2f6be59f6dedd14f": {
+      "url": "https://us.mammotion.com/blogs/news/fall-lawn-care-tips",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:45.867Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Fall Lawn Care Guide: How to Prepare Your Lawn for Winter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-2f6be59f6dedd14f-2026-10-28T09-02-45-867Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c2932427fcff6ebe": {
+      "url": "https://us.mammotion.com/blogs/news/how-often-should-you-cut-your-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:02:53.053Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "How Often Should You Mow Your Lawn? Expert Guide by Grass Type, Season & Tools",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c2932427fcff6ebe-2026-10-28T09-02-53-053Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2c846fe7fa2c3e48": {
+      "url": "https://us.mammotion.com/blogs/news/how-often-to-mow-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:00.407Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "How Often Should You Mow Your Lawn? Expert Guide by Grass Type, Season & Tools",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-2c846fe7fa2c3e48-2026-10-28T09-03-00-407Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d589cae68f4013f9": {
+      "url": "https://us.mammotion.com/blogs/news/how-to-mow-your-lawn-correctly",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:07.818Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "How to Mow a Lawn: Step-by-Step Guide for a Healthy Cut",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-d589cae68f4013f9-2026-10-28T09-03-07-818Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "440cdcd8bbb0a46c": {
+      "url": "https://us.mammotion.com/blogs/news/is-the-luba-mini-awd-robotic-lawn-mower-worth-buying",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:15.155Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion LUBA Robot Lawn Mowers | Wire-Free AWD Mower",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-440cdcd8bbb0a46c-2026-10-28T09-03-15-155Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6a29ce20f8d32f57": {
+      "url": "https://us.mammotion.com/blogs/news/luba-mini-awd-effortless-lawn-care-for-your-yard",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:22.194Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion LUBA Robot Lawn Mowers | Wire-Free AWD Mower",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-6a29ce20f8d32f57-2026-10-28T09-03-22-194Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "532609fdad431768": {
+      "url": "https://us.mammotion.com/blogs/news/mammotion-2025-new-product-launch",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:28.837Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Robot Lawn Mowers | Wire-Free Robotic Mowers | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-532609fdad431768-2026-10-28T09-03-28-837Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "5abc51bc24e0c7ad": {
+      "url": "https://us.mammotion.com/blogs/news/mammotion-luba-2-can-it-replace-my-lawn-guy",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:35.461Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion LUBA 2 AWD Robotic Mowers: Features & Specs",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-5abc51bc24e0c7ad-2026-10-28T09-03-35-461Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "f5bea7eaff29f5cb": {
+      "url": "https://us.mammotion.com/blogs/news/mammotion-luba-2-robot-mower-for-your-lawn",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:42.177Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion LUBA 2 AWD Robotic Mowers: Features & Specs",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-f5bea7eaff29f5cb-2026-10-28T09-03-42-177Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "80bd2559c5ba0003": {
+      "url": "https://us.mammotion.com/blogs/news/six-common-mistakes-in-winter-lawn-care",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:48.133Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "The Ultimate Guide: Lawn Maintenance in Winter for Optimal Growth",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-80bd2559c5ba0003-2026-10-28T09-03-48-133Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "ff1f2737d8849960": {
+      "url": "https://us.mammotion.com/blogs/news/transform-your-lawn-care-with-the-luba-2-robot-mower",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:03:54.576Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Mammotion LUBA 2 AWD Robotic Mowers: Features & Specs",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-ff1f2737d8849960-2026-10-28T09-03-54-576Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c38748dcadb2f8e0": {
+      "url": "https://us.mammotion.com/blogs/news/what-are-the-new-robotic-mowers",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-10-28T09:04:00.904Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-10-28T09:01:09.806Z",
+          "title": "Robot Lawn Mowers | Wire-Free Robotic Mowers | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c38748dcadb2f8e0-2026-10-28T09-04-00-904Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
