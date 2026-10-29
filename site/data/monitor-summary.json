@@ -18,8 +18,8 @@
     "channelItems": 120,
     "blogChanges": 66,
     "pendingChannelChanges": 27,
-    "prSources": 17,
-    "healthyPrSources": 17,
+    "prSources": 19,
+    "healthyPrSources": 19,
     "prChanges": 17,
     "pendingPrChanges": 4
   },
@@ -7312,7 +7312,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-27T09:15:41.363Z",
+    "checkedAt": "2026-10-28T05:44:38.041Z",
     "sources": [
       {
         "source": {
@@ -7625,6 +7625,73 @@
         "baseline": true,
         "itemCount": 0,
         "discoveredUrlCount": 328,
+        "pendingArticleCount": 0,
+        "fetchedCount": 0,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-fr-capital-media",
+          "sourceType": "media",
+          "outlet": "Capital",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "法国",
+          "countryCode": "FR",
+          "channel": "pr",
+          "url": "https://www.capital.fr/sitemap/articles.xml"
+        },
+        "checkedAt": "2026-10-28T05:44:34.841Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 0,
+        "discoveredUrlCount": 31,
+        "pendingArticleCount": 0,
+        "fetchedCount": 0,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "discoveryCheckpoint": {
+          "version": "capital_numbered_v1",
+          "scope": "FR_conso_public_articles",
+          "cursorPage": 552,
+          "highestSeenPage": 552,
+          "pendingShardCount": 0,
+          "discoveryWindowStartPage": 551,
+          "discoveryWindowEndPage": 552
+        },
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-de-mein-schoener-garten-media",
+          "sourceType": "media",
+          "outlet": "Mein Schöner Garten",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "pr",
+          "url": "https://www.mein-schoener-garten.de/article/sitemap.xml"
+        },
+        "checkedAt": "2026-10-28T05:44:38.041Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 0,
+        "discoveredUrlCount": 1941,
         "pendingArticleCount": 0,
         "fetchedCount": 0,
         "bulkLastmodIgnored": false,
