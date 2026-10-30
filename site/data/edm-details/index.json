@@ -164,6 +164,17 @@
       "subject": "Dreame 德国黑五邮件：A3 AWD Pro 3500 割草机器人优惠 600 欧元",
       "summary": "邮件当日宣称 A3 AWD Pro 3500 割草机器人优惠 600 欧元，标价 1,999 欧元（划线原价 2,599 欧元），产品卡标示 10 月 27 日至 11 月 12 日；整体黑五活动另覆盖多种家电，非该单品专属。",
       "detailRef": "./data/edm-details/EDM-39541F049E99.json"
+    },
+    {
+      "actionId": "ACT-EDM-2A86132CA6A3",
+      "recordId": "EDM-2A86132CA6A3",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-10-30T08:02:50.000Z",
+      "subject": "Dreame 法国 Black Friday：A3 AWD Pro 3500 与 A1 Pro 割草机优惠",
+      "summary": "Dreame 法国邮件展示 A3 AWD Pro 3500 割草机器人 1 999 欧元（标示减 600 欧元）及 A1 Pro 799 欧元（标示减 300 欧元）；两款型号的活动日期以各自邮件图片为准。",
+      "detailRef": "./data/edm-details/EDM-2A86132CA6A3.json"
     }
   ]
 }

@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-30T10:41:04.873Z",
+  "updatedAt": "2026-10-30T14:16:50.472Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-2A86132CA6A3",
+      "entityId": "",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-30T13:58:11.811Z",
+      "publishDate": "2026-10-30T08:02:50.000Z",
+      "title": "Dreame 法国 Black Friday：两款割草机器人优惠",
+      "summary": "Dreame 法国邮件展示 A3 AWD Pro 3500 割草机器人 1 999 欧元（标示减 600 欧元）及 A1 Pro 799 欧元（标示减 300 欧元）；两款型号的活动日期以各自邮件图片为准。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-30T14:16:50.472Z",
+      "detailRef": "./data/edm-details/EDM-2A86132CA6A3.json"
+    },
     {
       "actionId": "ACT-F19AF0252D4F",
       "entityId": "",

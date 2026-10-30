@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-2A86132CA6A3",
+  "actionId": "ACT-EDM-2A86132CA6A3",
+  "brand": "Dreame",
+  "brandRole": "competitor",
+  "country": "法国",
+  "sentAt": "2026-10-30T08:02:50.000Z",
+  "subject": "Dreame 法国 Black Friday：A3 AWD Pro 3500 与 A1 Pro 割草机优惠",
+  "contentSummary": "Dreame 法国在 Black Friday 多品类邮件中展示两款割草机器人：A3 AWD Pro 3500 标价 1 999 欧元，较所示原价低 600 欧元；A1 Pro 标价 799 欧元，较所示原价低 300 欧元。各型号活动日期以邮件图片标注为准。",
+  "bodyParagraphs": [
+    "L’email français daté du 30 octobre 2026 annonce une campagne Black Friday multigamme allant jusqu’à 1 060 € de réduction, avec une période générale annoncée du 30 octobre au 30 novembre. Il présente aussi des aspirateurs, nettoyeurs, appareils de cuisine et gros électroménager.",
+    "Pour les tondeuses robots, le visuel A3 AWD Pro 3500 affiche 1 999 € au lieu de 2 599 €, soit 600 € de remise, avec un badge du 8 au 31 octobre. Le visuel A1 Pro affiche 799 € au lieu de 1 099 €, soit 300 € de remise, avec un badge du 27 octobre au 12 novembre.",
+    "La campagne mentionne également des avantages de panier et des offres multi achats sur des produits sélectionnés. Le message ne précise pas si ces avantages s’appliquent aux deux tondeuses, qui sont donc rapportées uniquement avec leurs prix et périodes propres."
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-01.jpg",
+      "description": "Bannière Black Friday Dreame, jusqu’à 1 060 € de réduction, période générale annoncée du 30 octobre au 30 novembre, gamme incluant les tondeuses."
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-02.jpg",
+      "description": "Avantages de panier et cadeaux à partir de différents seuils d’achat, visuel transversal à la gamme."
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-03.jpg",
+      "description": "Défi de partage du panier Black Friday, chance de gagner jusqu’à 500 € d’achat Dreame."
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-04.jpg",
+      "description": "Aqua10 Ultra Roller Complete, robot aspirateur affiché à 649 € au lieu de 1 099 €."
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-05.jpg",
+      "description": "X50 Ultra Complete, robot aspirateur affiché à 599 € au lieu de 999 €."
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-06.jpg",
+      "description": "Matrix10 Ultra, robot aspirateur affiché à 649 € au lieu de 1 199 €."
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-07.jpg",
+      "description": "L10s Ultra Gen 2, robot aspirateur affiché à 329 € au lieu de 349 €."
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-08.jpg",
+      "description": "H12 Pro Ultra, nettoyeur de sols affiché à 259 € au lieu de 299 €."
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-09.jpg",
+      "description": "H15 Pro Heat, nettoyeur de sols affiché à 399 € au lieu de 599 €."
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-10.jpg",
+      "description": "G12 Pro Flex, nettoyeur de sols affiché à 169 € au lieu de 249 €."
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-11.jpg",
+      "description": "Z30 Pro Aqua-A, aspirateur affiché à 499 € au lieu de 599 €."
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-12.jpg",
+      "description": "V20 Pro-A, aspirateur affiché à 349 € au lieu de 399 €."
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-13.jpg",
+      "description": "Pocket Pro, sèche cheveux affiché à 119 € au lieu de 169 €."
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-14.jpg",
+      "description": "Nova, appareil IPL affiché à 299 € au lieu de 349 €."
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-15.jpg",
+      "description": "Tondeuse robot Dreame A3 AWD Pro 3500 affichée à 1 999 € au lieu de 2 599 €, réduction de 600 €, badge daté du 8 au 31 octobre."
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-16.jpg",
+      "description": "Tondeuse robot Dreame A1 Pro affichée à 799 € au lieu de 1 099 €, réduction de 300 €, badge daté du 27 octobre au 12 novembre."
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-17.jpg",
+      "description": "Ventilateur MF10 affiché à 229 € au lieu de 299 €."
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-18.jpg",
+      "description": "Purificateur d’air AP10 affiché à 199 € au lieu de 399 €."
+    },
+    {
+      "index": 18,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-19.jpg",
+      "description": "Chauffage W20 affiché à 179 € au lieu de 199 €."
+    },
+    {
+      "index": 19,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-20.jpg",
+      "description": "Mixeur Blendlogic affiché à 139 € au lieu de 199 €."
+    },
+    {
+      "index": 20,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-21.jpg",
+      "description": "Mixeur portable affiché à 69 € au lieu de 89 €."
+    },
+    {
+      "index": 21,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-22.jpg",
+      "description": "Lave linge L9 affiché à 749 € au lieu de 999 €."
+    },
+    {
+      "index": 22,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-23.jpg",
+      "description": "Lave vaisselle DZ60 Pro affiché à 799 € au lieu de 999 €."
+    },
+    {
+      "index": 23,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-24.jpg",
+      "description": "Téléviseur S100 65 affiché à 849 € au lieu de 1 599 €."
+    },
+    {
+      "index": 24,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-25.jpg",
+      "description": "Réfrigérateur FizzFresh Multi Door affiché à 1 099 € au lieu de 1 699 €."
+    },
+    {
+      "index": 25,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-26.jpg",
+      "description": "Bannière d’offres complémentaires pour achats éligibles, avec divers petits appareils sans rapport direct avec les tondeuses."
+    },
+    {
+      "index": 26,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-27.jpg",
+      "description": "Offre de multi achats sur produits sélectionnés : 5 % pour deux produits, 10 % pour trois, avec garanties et programme de points."
+    },
+    {
+      "index": 32,
+      "src": "./data/edm-assets/EDM-2A86132CA6A3/image-33.png",
+      "description": "Icône Pinterest décorative sans argument produit."
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
