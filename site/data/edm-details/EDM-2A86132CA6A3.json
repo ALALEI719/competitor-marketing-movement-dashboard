@@ -9,150 +9,150 @@
   "subject": "Dreame 法国 Black Friday：A3 AWD Pro 3500 与 A1 Pro 割草机优惠",
   "contentSummary": "Dreame 法国在 Black Friday 多品类邮件中展示两款割草机器人：A3 AWD Pro 3500 标价 1 999 欧元，较所示原价低 600 欧元；A1 Pro 标价 799 欧元，较所示原价低 300 欧元。各型号活动日期以邮件图片标注为准。",
   "bodyParagraphs": [
-    "L’email français daté du 30 octobre 2026 annonce une campagne Black Friday multigamme allant jusqu’à 1 060 € de réduction, avec une période générale annoncée du 30 octobre au 30 novembre. Il présente aussi des aspirateurs, nettoyeurs, appareils de cuisine et gros électroménager.",
-    "Pour les tondeuses robots, le visuel A3 AWD Pro 3500 affiche 1 999 € au lieu de 2 599 €, soit 600 € de remise, avec un badge du 8 au 31 octobre. Le visuel A1 Pro affiche 799 € au lieu de 1 099 €, soit 300 € de remise, avec un badge du 27 octobre au 12 novembre.",
-    "La campagne mentionne également des avantages de panier et des offres multi achats sur des produits sélectionnés. Le message ne précise pas si ces avantages s’appliquent aux deux tondeuses, qui sont donc rapportées uniquement avec leurs prix et périodes propres."
+    "这封 2026 年 10 月 30 日发出的法国邮件以黑色星期五为主题，称跨品类活动最高优惠 1,060 欧元，主视觉标示整体档期为 10 月 30 日至 11 月 30 日。邮件同时展示清洁电器、厨房电器和大型家电；最高优惠并非割草机器人专属。",
+    "割草机器人产品卡中，A3 AWD Pro 3500 标价 1,999 欧元，划线价 2,599 欧元，标示优惠 600 欧元，卡片单独标注 10 月 8 日至 31 日。A1 Pro 标价 799 欧元，划线价 1,099 欧元，标示优惠 300 欧元，卡片单独标注 10 月 27 日至 11 月 12 日。上述价格及日期均为邮件当日宣称，不代表持续有效或最终结算价。",
+    "邮件另提及购物车奖励和多件购买优惠，但没有明确说明这两项是否适用于割草机器人，因此不把它们计入割草机专属优惠。"
   ],
   "images": [
     {
       "index": 0,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-01.jpg",
-      "description": "Bannière Black Friday Dreame, jusqu’à 1 060 € de réduction, période générale annoncée du 30 octobre au 30 novembre, gamme incluant les tondeuses."
+      "description": "黑五主视觉，宣称跨品类最高减 1,060 欧元、整体档期 10 月 30 日至 11 月 30 日；画面包含割草机器人。"
     },
     {
       "index": 1,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-02.jpg",
-      "description": "Avantages de panier et cadeaux à partir de différents seuils d’achat, visuel transversal à la gamme."
+      "description": "购物车门槛礼品与积分展示，属于多品类通用活动，未明确覆盖割草机器人。"
     },
     {
       "index": 2,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-03.jpg",
-      "description": "Défi de partage du panier Black Friday, chance de gagner jusqu’à 500 € d’achat Dreame."
+      "description": "分享黑五购物车参与最高 500 欧元奖项的活动画面，未证明割草机器人专属权益。"
     },
     {
       "index": 3,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-04.jpg",
-      "description": "Aqua10 Ultra Roller Complete, robot aspirateur affiché à 649 € au lieu de 1 099 €."
+      "description": "Aqua10 Ultra Roller Complete 扫地机器人，标价 649 欧元、划线价 1,099 欧元。"
     },
     {
       "index": 4,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-05.jpg",
-      "description": "X50 Ultra Complete, robot aspirateur affiché à 599 € au lieu de 999 €."
+      "description": "X50 Ultra Complete 扫地机器人，标价 599 欧元、划线价 999 欧元。"
     },
     {
       "index": 5,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-06.jpg",
-      "description": "Matrix10 Ultra, robot aspirateur affiché à 649 € au lieu de 1 199 €."
+      "description": "Matrix10 Ultra 扫地机器人，标价 649 欧元、划线价 1,199 欧元。"
     },
     {
       "index": 6,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-07.jpg",
-      "description": "L10s Ultra Gen 2, robot aspirateur affiché à 329 € au lieu de 349 €."
+      "description": "L10s Ultra Gen 2 扫地机器人，标价 329 欧元、划线价 349 欧元。"
     },
     {
       "index": 7,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-08.jpg",
-      "description": "H12 Pro Ultra, nettoyeur de sols affiché à 259 € au lieu de 299 €."
+      "description": "H12 Pro Ultra 洗地机，标价 259 欧元、划线价 299 欧元。"
     },
     {
       "index": 8,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-09.jpg",
-      "description": "H15 Pro Heat, nettoyeur de sols affiché à 399 € au lieu de 599 €."
+      "description": "H15 Pro Heat 洗地机，标价 399 欧元、划线价 599 欧元。"
     },
     {
       "index": 9,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-10.jpg",
-      "description": "G12 Pro Flex, nettoyeur de sols affiché à 169 € au lieu de 249 €."
+      "description": "G12 Pro Flex 洗地机，标价 169 欧元、划线价 249 欧元。"
     },
     {
       "index": 10,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-11.jpg",
-      "description": "Z30 Pro Aqua-A, aspirateur affiché à 499 € au lieu de 599 €."
+      "description": "Z30 Pro Aqua-A 吸尘器，标价 499 欧元、划线价 599 欧元。"
     },
     {
       "index": 11,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-12.jpg",
-      "description": "V20 Pro-A, aspirateur affiché à 349 € au lieu de 399 €."
+      "description": "V20 Pro-A 吸尘器，标价 349 欧元、划线价 399 欧元。"
     },
     {
       "index": 12,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-13.jpg",
-      "description": "Pocket Pro, sèche cheveux affiché à 119 € au lieu de 169 €."
+      "description": "Pocket Pro 吹风机，标价 119 欧元、划线价 169 欧元。"
     },
     {
       "index": 13,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-14.jpg",
-      "description": "Nova, appareil IPL affiché à 299 € au lieu de 349 €."
+      "description": "Nova 脱毛仪，标价 299 欧元、划线价 349 欧元。"
     },
     {
       "index": 14,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-15.jpg",
-      "description": "Tondeuse robot Dreame A3 AWD Pro 3500 affichée à 1 999 € au lieu de 2 599 €, réduction de 600 €, badge daté du 8 au 31 octobre."
+      "description": "A3 AWD Pro 3500 割草机器人产品卡：1,999 欧元、划线价 2,599 欧元、标示减 600 欧元，独立日期为 10 月 8 日至 31 日。"
     },
     {
       "index": 15,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-16.jpg",
-      "description": "Tondeuse robot Dreame A1 Pro affichée à 799 € au lieu de 1 099 €, réduction de 300 €, badge daté du 27 octobre au 12 novembre."
+      "description": "A1 Pro 割草机器人产品卡：799 欧元、划线价 1,099 欧元、标示减 300 欧元，独立日期为 10 月 27 日至 11 月 12 日。"
     },
     {
       "index": 16,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-17.jpg",
-      "description": "Ventilateur MF10 affiché à 229 € au lieu de 299 €."
+      "description": "MF10 风扇，标价 229 欧元、划线价 299 欧元。"
     },
     {
       "index": 17,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-18.jpg",
-      "description": "Purificateur d’air AP10 affiché à 199 € au lieu de 399 €."
+      "description": "AP10 空气净化器，标价 199 欧元、划线价 399 欧元。"
     },
     {
       "index": 18,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-19.jpg",
-      "description": "Chauffage W20 affiché à 179 € au lieu de 199 €."
+      "description": "W20 取暖设备，标价 179 欧元、划线价 199 欧元。"
     },
     {
       "index": 19,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-20.jpg",
-      "description": "Mixeur Blendlogic affiché à 139 € au lieu de 199 €."
+      "description": "Blendlogic 搅拌机，标价 139 欧元、划线价 199 欧元。"
     },
     {
       "index": 20,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-21.jpg",
-      "description": "Mixeur portable affiché à 69 € au lieu de 89 €."
+      "description": "便携搅拌机，标价 69 欧元、划线价 89 欧元。"
     },
     {
       "index": 21,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-22.jpg",
-      "description": "Lave linge L9 affiché à 749 € au lieu de 999 €."
+      "description": "L9 洗衣机，标价 749 欧元、划线价 999 欧元。"
     },
     {
       "index": 22,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-23.jpg",
-      "description": "Lave vaisselle DZ60 Pro affiché à 799 € au lieu de 999 €."
+      "description": "DZ60 Pro 洗碗机，标价 799 欧元、划线价 999 欧元。"
     },
     {
       "index": 23,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-24.jpg",
-      "description": "Téléviseur S100 65 affiché à 849 € au lieu de 1 599 €."
+      "description": "S100 65 电视，标价 849 欧元、划线价 1,599 欧元。"
     },
     {
       "index": 24,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-25.jpg",
-      "description": "Réfrigérateur FizzFresh Multi Door affiché à 1 099 € au lieu de 1 699 €."
+      "description": "FizzFresh Multi Door 冰箱，标价 1,099 欧元、划线价 1,699 欧元。"
     },
     {
       "index": 25,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-26.jpg",
-      "description": "Bannière d’offres complémentaires pour achats éligibles, avec divers petits appareils sans rapport direct avec les tondeuses."
+      "description": "符合条件购买可享附加商品价格的多品类活动画面，未明确关联割草机器人。"
     },
     {
       "index": 26,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-27.jpg",
-      "description": "Offre de multi achats sur produits sélectionnés : 5 % pour deux produits, 10 % pour trois, avec garanties et programme de points."
+      "description": "选购两件指定产品减 5%、三件减 10% 的多件购买活动，以及积分和保修说明；未证实适用于割草机器人。"
     },
     {
       "index": 32,
       "src": "./data/edm-assets/EDM-2A86132CA6A3/image-33.png",
-      "description": "Icône Pinterest décorative sans argument produit."
+      "description": "Pinterest 装饰性小图标，不提供产品或优惠事实。"
     }
   ],
   "recipientDetailsIncluded": false,
