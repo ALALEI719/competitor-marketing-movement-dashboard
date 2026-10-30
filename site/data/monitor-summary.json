@@ -17,7 +17,7 @@
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 66,
-    "pendingChannelChanges": 27,
+    "pendingChannelChanges": 23,
     "prSources": 19,
     "healthyPrSources": 19,
     "prChanges": 17,
@@ -2697,7 +2697,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Mammotion Black Friday Deals 2026 | Official Sale",
         "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
         "publishDate": "2026-10-27T23:25:26-07:00",
@@ -2752,7 +2752,13 @@
           "monitoringPriority": 2.77,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-10-30T10:41:04.679Z",
+          "publicTitle": "美国：黑五预热内容与割草机产品导读",
+          "publicSummary": "Mammotion美国官方发布黑五主题内容，介绍LUBA 3 AWD、LUBA mini 2 AWD等割草机并引导关注官方活动信息。本文尚未公布确定的黑五优惠幅度、起止时间或资格，不表示促销已开售。"
+        }
       },
       {
         "recordId": "CH-2D8C9C32E94C",
@@ -3385,7 +3391,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "When Is Black Friday 2026?",
         "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
         "publishDate": "2026-10-26T01:23:22-07:00",
@@ -3419,7 +3425,13 @@
           "monitoringPriority": 1.95,
           "priorityConfidence": 0.56
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-10-30T10:41:04.754Z",
+          "publicTitle": "美国：黑五购物日历与选购准备指南",
+          "publicSummary": "美国官方博客解释黑五、感恩节与网一等购物日历，提供选购准备建议，并提示以Mammotion美国官方公告核对具体活动。通用日历不等于品牌已公布促销日程。"
+        }
       },
       {
         "recordId": "CH-94C699FD2F46",
@@ -3429,7 +3441,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Wann ist Black Friday 2026?",
         "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
         "publishDate": "2026-10-26T09:51:41+01:00",
@@ -3463,7 +3475,13 @@
           "monitoringPriority": 2,
           "priorityConfidence": 0.61
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-10-30T10:41:04.813Z",
+          "publicTitle": "德国：Black Week与网一购物指南",
+          "publicSummary": "德国官方博客介绍Black Week、Black Weekend及Cyber Monday，说明各商家活动时间可能不同，并引导到德国官方商店核对。未公布Mammotion德国确定折扣或起止时间，不借用美国活动信息。"
+        }
       },
       {
         "recordId": "CH-9C6D5555CF9C",
@@ -3705,7 +3723,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
         "publishDate": "2026-10-12T09:43:34+02:00",
@@ -3717,11 +3735,12 @@
           "error": null
         },
         "contentEvidence": {
-          "status": "missing_previous",
-          "reason": "extraction_migration",
-          "beforeHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
+          "status": "changed_content",
+          "beforeHash": "bd88f4ca66a0bfa52767a25ee90cf307ef5454864638eea46925da0bb8778770",
           "afterHash": "e6e6bc8ec9b8e26c5f8ba4e412723216ba034e41a4c41bc94ed405ecc3049315",
-          "changedFields": []
+          "changedFields": [
+            "body"
+          ]
         },
         "feedEvidence": {
           "changedFields": [
@@ -3740,18 +3759,14 @@
             "excerpt": "s contourne au lieu de buter dessus. La Mammotion LUBA 4 AWD franchit des obstacles verticaux jusqu’à 60 mm. S"
           }
         ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
+        "systemAssessment": null,
+        "humanAssessment": {
           "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
           "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.78,
-          "priorityConfidence": 0.77
-        },
-        "humanAssessment": null
+          "reviewedAt": "2026-10-30T10:41:04.873Z",
+          "publicTitle": "法国：教育文章移除LUBA 3 AWD割草高度表述",
+          "publicSummary": "10月26日至27日的存档比较显示，复杂地形选购文章删除了LUBA 3 AWD“25—70毫米割草高度”一句，并补充低矮障碍物相关说明。仅确认文章主张调整，不能据此判断机器降配、停售或换代；确切编辑时刻未核。"
+        }
       },
       {
         "recordId": "CH-92C1CD5DD54E",
@@ -5870,71 +5885,6 @@
     ],
     "pendingRecords": [
       {
-        "recordId": "CH-BC9D18A74F3F",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
-        "publishDate": "2026-10-27T23:25:26-07:00",
-        "updatedAt": "2026-10-27T23:25:26-07:00",
-        "discoveredAt": "2026-10-28T09:01:25.173Z",
-        "summary": "Explore Mammotion Black Friday 2026 updates, discover featured robotic lawn mowers and pool cleaners, and check the official site for upcoming offers. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "b94f0c0523e5e1c01e8f5535b160cdc2e46ea20a8a748d84b5a418d4e9fb796a",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "LUBA 3 AWD 3000",
-            "source": "article_body",
-            "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
-          },
-          {
-            "name": "LUBA 3 AWD",
-            "source": "article_body",
-            "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
-          },
-          {
-            "name": "LUBA mini 2 AWD",
-            "source": "article_body",
-            "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
-          },
-          {
-            "name": "SPINO E1",
-            "source": "article_body",
-            "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0.01,
-          "newProductConfidence": 0.98,
-          "marketingTheme": "promotion",
-          "themeConfidence": 0.98,
-          "monitoringPriority": 2.77,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
         "recordId": "CH-2D8C9C32E94C",
         "sourceId": "mammotion-us-blog",
         "brand": "Mammotion",
@@ -6558,94 +6508,6 @@
         "humanAssessment": null
       },
       {
-        "recordId": "CH-DD45C46A3EEE",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "When Is Black Friday 2026?",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/when-is-black-friday",
-        "publishDate": "2026-10-26T01:23:22-07:00",
-        "updatedAt": "2026-10-26T01:23:23-07:00",
-        "discoveredAt": "2026-10-27T08:24:48.416Z",
-        "summary": "Find out when Black Friday 2026 falls, when Thanksgiving and Cyber Monday take place, and when Black Friday sales typically begin. Plan your holiday shopping with this quick guide. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "d758cc65d0274ac3f69195a2450b7eacb883cc0c914d887d6d60fd37fa6a5c1e",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "promotion",
-          "themeConfidence": 0.78,
-          "monitoringPriority": 1.95,
-          "priorityConfidence": 0.56
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-94C699FD2F46",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Wann ist Black Friday 2026?",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
-        "publishDate": "2026-10-26T09:51:41+01:00",
-        "updatedAt": "2026-10-26T09:51:41+01:00",
-        "discoveredAt": "2026-10-27T08:24:48.416Z",
-        "summary": "Wann ist Black Friday 2026? Erfahre das Datum, wann die Black Week stattfindet und wann Cyber Monday ist. Hier findest du alle wichtigen Termine im Überblick. Mehr",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "18ab3edd5494be07fb6f7eb223155c13de3b0d4146e0d824d00501a235864504",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "promotion",
-          "themeConfidence": 0.82,
-          "monitoringPriority": 2,
-          "priorityConfidence": 0.61
-        },
-        "humanAssessment": null
-      },
-      {
         "recordId": "CH-9C6D5555CF9C",
         "sourceId": "mammotion-fr-blog",
         "brand": "Mammotion",
@@ -6874,62 +6736,6 @@
           "themeConfidence": 1,
           "monitoringPriority": 1.68,
           "priorityConfidence": 0.72
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-369FEA5C0310",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
-        "publishDate": "2026-10-12T09:43:34+02:00",
-        "updatedAt": "2026-10-27T09:24:37+01:00",
-        "discoveredAt": "2026-10-27T08:24:48.416Z",
-        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "missing_previous",
-          "reason": "extraction_migration",
-          "beforeHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
-          "afterHash": "e6e6bc8ec9b8e26c5f8ba4e412723216ba034e41a4c41bc94ed405ecc3049315",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "LUBA AWD",
-            "source": "article_body",
-            "excerpt": "r un sol détrempé. Les robots tondeuses Mammotion LUBA AWD, à quatre roues motrices , gravissent des pentes "
-          },
-          {
-            "name": "LUBA 4 AWD",
-            "source": "article_body",
-            "excerpt": "s contourne au lieu de buter dessus. La Mammotion LUBA 4 AWD franchit des obstacles verticaux jusqu’à 60 mm. S"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.78,
-          "priorityConfidence": 0.77
         },
         "humanAssessment": null
       },

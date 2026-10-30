@@ -56,7 +56,7 @@ jobs:
           fetch_file "styles.css" "site/styles.css"
           fetch_file "styles-rules.css" "site/styles-rules.css"
           fetch_file "styles-edm.css" "site/styles-edm.css"
-          fetch_file "data/monitor-summary.json" "site/data/monitor-summary.json"
+          # The three review files are refreshed as one freshness-checked snapshot below.
           fetch_file "data/site-observations.json" "site/data/site-observations.json"
           # A heartbeat can publish mirror data before Vercel finishes deploying it.
           # Keep the newer validated export instead of overwriting it with an older primary.
@@ -68,8 +68,19 @@ jobs:
             fi
           fi
           rm -f site/data/ads-observations.download
-          fetch_file "data/formal-actions.json" "site/data/formal-actions.json"
-          fetch_file "data/marketing-events.json" "site/data/marketing-events.json"
+          mirror_snapshot_directory="$(mktemp -d)"
+          mirror_snapshot_ready=true
+          for mirror_snapshot_name in formal-actions marketing-events monitor-summary; do
+            if ! curl --fail --silent --show-error --max-time 30 "${base}/data/${mirror_snapshot_name}.json" --output "${mirror_snapshot_directory}/${mirror_snapshot_name}.json"; then
+              mirror_snapshot_ready=false
+            fi
+          done
+          if [ "$mirror_snapshot_ready" = true ]; then
+            python3 ops/refresh-review-snapshot.py "$mirror_snapshot_directory" site/data
+          else
+            echo "Keeping validated committed review snapshot; primary is unreachable."
+          fi
+          rm -rf "$mirror_snapshot_directory"
           fetch_file "data/evidence/index.json" "site/data/evidence/index.json"
           fetch_file "data/edm-details/index.json" "site/data/edm-details/index.json"
           if [ -f site/data/evidence/index.json ]; then

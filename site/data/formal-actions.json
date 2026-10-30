@@ -1,7 +1,60 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-27T09:23:28.483Z",
+  "updatedAt": "2026-10-30T10:41:04.873Z",
   "actions": [
+    {
+      "actionId": "ACT-F19AF0252D4F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-28T09:01:25.173Z",
+      "publishDate": "2026-10-27T23:25:26-07:00",
+      "title": "美国：黑五预热内容与割草机产品导读",
+      "marketingTheme": "promotion",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD 3000",
+          "source": "article_body",
+          "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
+        },
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
+        },
+        {
+          "name": "LUBA mini 2 AWD",
+          "source": "article_body",
+          "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
+        },
+        {
+          "name": "SPINO E1",
+          "source": "article_body",
+          "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
+        }
+      ],
+      "summary": "Mammotion美国官方发布黑五主题内容，介绍LUBA 3 AWD、LUBA mini 2 AWD等割草机并引导关注官方活动信息。本文尚未公布确定的黑五优惠幅度、起止时间或资格，不表示促销已开售。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+          "discoveredAt": "2026-10-28T09:01:25.173Z",
+          "publishDate": "2026-10-27T23:25:26-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-30T10:41:04.679Z"
+    },
     {
       "actionId": "ACT-EDM-39541F049E99",
       "entityId": "",
@@ -29,6 +82,123 @@
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-27T09:23:28.483Z",
       "detailRef": "./data/edm-details/EDM-39541F049E99.json"
+    },
+    {
+      "actionId": "ACT-9AA6D230DDB0",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-27T08:24:48.416Z",
+      "publishDate": "2026-10-26T01:23:22-07:00",
+      "title": "美国：黑五购物日历与选购准备指南",
+      "marketingTheme": "promotion",
+      "productExposure": [],
+      "summary": "美国官方博客解释黑五、感恩节与网一等购物日历，提供选购准备建议，并提示以Mammotion美国官方公告核对具体活动。通用日历不等于品牌已公布促销日程。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/when-is-black-friday"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/when-is-black-friday",
+          "discoveredAt": "2026-10-27T08:24:48.416Z",
+          "publishDate": "2026-10-26T01:23:22-07:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-30T10:41:04.754Z"
+    },
+    {
+      "actionId": "ACT-4F0EE56C287C",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-27T08:24:48.416Z",
+      "publishDate": "2026-10-26T09:51:41+01:00",
+      "title": "德国：Black Week与网一购物指南",
+      "marketingTheme": "promotion",
+      "productExposure": [],
+      "summary": "德国官方博客介绍Black Week、Black Weekend及Cyber Monday，说明各商家活动时间可能不同，并引导到德国官方商店核对。未公布Mammotion德国确定折扣或起止时间，不借用美国活动信息。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/wann-ist-black-friday"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-de-blog",
+          "url": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+          "discoveredAt": "2026-10-27T08:24:48.416Z",
+          "publishDate": "2026-10-26T09:51:41+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-30T10:41:04.813Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-27T09:24:37+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "bd88f4ca66a0bfa52767a25ee90cf307ef5454864638eea46925da0bb8778770",
+        "afterHash": "e6e6bc8ec9b8e26c5f8ba4e412723216ba034e41a4c41bc94ed405ecc3049315",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "actionId": "ACT-048FFCC7CE0B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-27T08:24:48.416Z",
+      "publishDate": "2026-10-12T09:43:34+02:00",
+      "title": "法国：教育文章移除LUBA 3 AWD割草高度表述",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "LUBA AWD",
+          "source": "article_body",
+          "excerpt": "r un sol détrempé. Les robots tondeuses Mammotion LUBA AWD, à quatre roues motrices , gravissent des pentes "
+        },
+        {
+          "name": "LUBA 4 AWD",
+          "source": "article_body",
+          "excerpt": "s contourne au lieu de buter dessus. La Mammotion LUBA 4 AWD franchit des obstacles verticaux jusqu’à 60 mm. S"
+        }
+      ],
+      "summary": "10月26日至27日的存档比较显示，复杂地形选购文章删除了LUBA 3 AWD“25—70毫米割草高度”一句，并补充低矮障碍物相关说明。仅确认文章主张调整，不能据此判断机器降配、停售或换代；确切编辑时刻未核。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
+          "discoveredAt": "2026-10-27T08:24:48.416Z",
+          "publishDate": "2026-10-12T09:43:34+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-30T10:41:04.873Z"
     },
     {
       "actionId": "ACT-DC5DC408321C",
