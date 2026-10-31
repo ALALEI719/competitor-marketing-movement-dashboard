@@ -208,6 +208,17 @@
       "subject": "Mammotion 美国万圣节割草机产品竞猜",
       "summary": "以两道万圣节谜题介绍割草机器人坡度、定位与贴边能力，并引导比较机型；规格为邮件当日宣称。",
       "detailRef": "./data/edm-details/EDM-446274381246.json"
+    },
+    {
+      "actionId": "ACT-EDM-F501F4B7CAD1",
+      "recordId": "EDM-F501F4B7CAD1",
+      "brand": "Ecovacs",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-10-31T18:50:56.000Z",
+      "subject": "ECOVACS 美国万圣节：GOAT 割草机器人套装 26% 优惠",
+      "summary": "ECOVACS 美国万圣节邮件以 GOAT LiDAR PRO 割草机器人与两套刀片配件为相关品类主促销，图示 26% OFF、1,892 美元；图内型号与 HTML 替代文本不一致，活动称至 11 月 2 日但未注明时区。",
+      "detailRef": "./data/edm-details/EDM-F501F4B7CAD1.json"
     }
   ]
 }

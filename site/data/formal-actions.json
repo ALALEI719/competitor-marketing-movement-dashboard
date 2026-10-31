@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-31T16:20:48.551Z",
+  "updatedAt": "2026-10-31T20:20:43.573Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-F501F4B7CAD1",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-10-31T19:59:41.434Z",
+      "publishDate": "2026-10-31T18:50:56.000Z",
+      "title": "ECOVACS 美国万圣节：GOAT 割草机器人套装 26% 优惠",
+      "summary": "ECOVACS 美国万圣节邮件以 GOAT LiDAR PRO 割草机器人与两套刀片配件为相关品类主促销，图示 26% OFF、1,892 美元；图内型号与 HTML 替代文本不一致，活动称至 11 月 2 日但未注明时区。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-31T20:20:43.573Z",
+      "detailRef": "./data/edm-details/EDM-F501F4B7CAD1.json"
+    },
     {
       "actionId": "ACT-EDM-B1D6BACF8412",
       "entityId": "",

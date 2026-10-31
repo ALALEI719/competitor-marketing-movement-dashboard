@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-F501F4B7CAD1",
+  "actionId": "ACT-EDM-F501F4B7CAD1",
+  "brand": "Ecovacs",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-10-31T18:50:56.000Z",
+  "subject": "ECOVACS 美国万圣节：GOAT 割草机器人套装 26% 优惠",
+  "contentSummary": "ECOVACS 美国万圣节邮件以 GOAT LiDAR PRO 割草机器人与两套刀片配件为相关品类主促销，图示 26% OFF、1,892 美元；图内型号与 HTML 替代文本不一致，活动称至 11 月 2 日但未注明时区。",
+  "bodyParagraphs": [
+    "ECOVACS 美国站万圣节邮件以多品类组合优惠为主线，展示 DEEBOT、WINBOT 与 GOAT 产品，并在主视觉写明活动至 11 月 2 日；结束时区未注明。",
+    "与割草机器人直接相关的主促销图展示 GOAT LiDAR PRO 机器与两套刀片配件，标示 26% OFF、1,892 美元及划线原价 2,560 美元，另显示促销码。图中文字为 A3000，HTML 替代文本为 A300；本记录不独立确认精确型号，也未核实结算条件。",
+    "邮件还列出扫地机、擦窗机组合折扣及积分、推荐好友宣传，作为跨品类背景保留。价格、折扣和服务条款均为邮件当日宣称，未打开购买或活动链接。"
+  ],
+  "images": [
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-02.png",
+      "description": "ECOVACS 横向品牌标识；与下一处相同素材，重复引用。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-02.png",
+      "description": "ECOVACS 横向品牌标识；与上一处为同一图片文件。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-04.jpg",
+      "description": "万圣节活动主视觉写有 Halloween Sale、Ends Nov 2 和 Spooky Savings。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-05.jpg",
+      "description": "DEEBOT X12S OmniCyclone 清洁套装标示 23% OFF、1,043 美元，为非割草机背景。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-06.jpg",
+      "description": "DEEBOT T90 MAX PLUS OMNI 与配件标示 21% OFF、596 美元，为非割草机背景。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-07.jpg",
+      "description": "WINBOT W3 OMNI 套装标示 24% OFF、624 美元，为非割草机背景。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-08.jpg",
+      "description": "GOAT 割草机器人及两套刀片配件的主促销图：图内写 A3000 LiDAR PRO、26% OFF、1,892 美元，另有促销码；HTML 替代文本写 A300，型号存在冲突。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-09.jpg",
+      "description": "推荐好友宣传图称好友最多减 10%，推荐人最多得 100 美元礼品卡；属跨品类附加活动。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-10.png",
+      "description": "DEEBOT 导航小图标。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-11.png",
+      "description": "WINBOT 导航小图标。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-12.png",
+      "description": "GOAT 导航小图标，属于栏目导航。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-13.png",
+      "description": "配件导航小图标。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-14.png",
+      "description": "ECOVACS Rewards 横幅标识。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-15.png",
+      "description": "积分区域称注册得 3000 积分、100 积分抵 1 美元；非本次割草机套装优惠条件。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-16.png",
+      "description": "推荐好友区域称好友最多减 10%、推荐人最多得 100 美元礼品卡。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-F501F4B7CAD1/image-17.png",
+      "description": "页脚服务条展示满 49.99 美元免运费、30 天退货、积分与一年保修等邮件当日宣称。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
