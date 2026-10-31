@@ -175,6 +175,39 @@
       "subject": "Dreame 法国 Black Friday：A3 AWD Pro 3500 与 A1 Pro 割草机优惠",
       "summary": "Dreame 法国邮件展示 A3 AWD Pro 3500 割草机器人 1 999 欧元（标示减 600 欧元）及 A1 Pro 799 欧元（标示减 300 欧元）；两款型号的活动日期以各自邮件图片为准。",
       "detailRef": "./data/edm-details/EDM-2A86132CA6A3.json"
+    },
+    {
+      "actionId": "ACT-EDM-0F32DC9138B0",
+      "recordId": "EDM-0F32DC9138B0",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-10-31T09:04:24.000Z",
+      "subject": "Mammotion 德国万圣节割草机产品竞猜",
+      "summary": "以四道万圣节谜题介绍割草机器人坡度、定位、视觉避障与适用面积能力，并引导比较机型；规格为邮件当日宣称。",
+      "detailRef": "./data/edm-details/EDM-0F32DC9138B0.json"
+    },
+    {
+      "actionId": "ACT-EDM-B1D6BACF8412",
+      "recordId": "EDM-B1D6BACF8412",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "sentAt": "2026-10-31T11:03:42.000Z",
+      "subject": "Mammotion 英国万圣节割草机产品竞猜",
+      "summary": "以三道万圣节谜题介绍割草机器人坡度、定位与视觉避障能力，并引导比较机型；规格为邮件当日宣称。",
+      "detailRef": "./data/edm-details/EDM-B1D6BACF8412.json"
+    },
+    {
+      "actionId": "ACT-EDM-446274381246",
+      "recordId": "EDM-446274381246",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-10-31T14:31:24.000Z",
+      "subject": "Mammotion 美国万圣节割草机产品竞猜",
+      "summary": "以两道万圣节谜题介绍割草机器人坡度、定位与贴边能力，并引导比较机型；规格为邮件当日宣称。",
+      "detailRef": "./data/edm-details/EDM-446274381246.json"
     }
   ]
 }

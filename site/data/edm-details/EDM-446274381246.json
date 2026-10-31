@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-446274381246",
+  "actionId": "ACT-EDM-446274381246",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-10-31T14:31:24.000Z",
+  "subject": "Mammotion 美国万圣节割草机产品竞猜",
+  "contentSummary": "Mammotion 美国站以万圣节猜谜介绍机器人割草机的坡度、定位和贴边能力，引导比较型号。",
+  "bodyParagraphs": [
+    "邮件以万圣节“午夜怪物”猜谜展示机器人割草机，主视觉为披幽灵布的割草机器人，随后设置两道产品能力谜题。",
+    "第一道谜题宣称最高 80% 坡度、Tri-Fusion 定位及最高 5,000 平方米覆盖；第二道宣称 360° LiDAR、双摄像头 AI 视觉、约 5 厘米贴边及最高 1,500 平方米。谜题版位未直接写明具体型号，能力数据均为邮件图片中的品牌宣称。",
+    "结尾引导比较机型并寻找适合花园的产品。邮件未写出专属折扣或明确活动截止日期；页脚另有美国站订单超过 99 美元免运、30 天退款、最长 3 年保修和全天候客服的常规服务说明。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-446274381246/image-01.png",
+      "description": "万圣节主视觉：Mammotion 品牌、幽灵布覆盖的割草机器人和“午夜怪物”猜谜活动。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-446274381246/image-02.png",
+      "description": "谜题一：宣称最高 80% 坡度、Tri-Fusion 定位、最高 5,000 平方米覆盖。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-446274381246/image-03.png",
+      "description": "谜题二：宣称 360° LiDAR、双摄像头 AI 视觉、约 5 厘米贴边、最高 1,500 平方米。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-446274381246/image-04.png",
+      "description": "结尾产品比较引导图，邀请读者选择适合花园的机型。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-446274381246/image-05.png",
+      "description": "页脚卡车图标，对应配送服务说明。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-446274381246/image-06.png",
+      "description": "页脚退货箱图标，对应退款政策说明。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-446274381246/image-07.png",
+      "description": "页脚盾牌图标，对应保修说明。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-446274381246/image-08.png",
+      "description": "页脚耳机图标，对应客服说明。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}

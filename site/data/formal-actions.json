@@ -1,7 +1,91 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-30T14:16:50.472Z",
+  "updatedAt": "2026-10-31T16:20:48.551Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-B1D6BACF8412",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-31T15:59:28.881Z",
+      "publishDate": "2026-10-31T11:03:42.000Z",
+      "title": "Mammotion 英国万圣节割草机产品竞猜",
+      "summary": "以三道万圣节谜题介绍割草机器人坡度、定位与视觉避障能力，并引导比较机型；规格为邮件当日宣称。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-31T16:20:29.882Z",
+      "detailRef": "./data/edm-details/EDM-B1D6BACF8412.json"
+    },
+    {
+      "actionId": "ACT-EDM-446274381246",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-31T15:59:28.874Z",
+      "publishDate": "2026-10-31T14:31:24.000Z",
+      "title": "Mammotion 美国万圣节割草机产品竞猜",
+      "summary": "以两道万圣节谜题介绍割草机器人坡度、定位与贴边能力，并引导比较机型；规格为邮件当日宣称。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-31T16:20:48.551Z",
+      "detailRef": "./data/edm-details/EDM-446274381246.json"
+    },
+    {
+      "actionId": "ACT-EDM-0F32DC9138B0",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "product_education",
+      "stage": "reputation",
+      "discoveredAt": "2026-10-31T15:59:28.864Z",
+      "publishDate": "2026-10-31T09:04:24.000Z",
+      "title": "Mammotion 德国万圣节割草机产品竞猜",
+      "summary": "以四道万圣节谜题介绍割草机器人坡度、定位、视觉避障与适用面积能力，并引导比较机型；规格为邮件当日宣称。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-31T16:20:01.814Z",
+      "detailRef": "./data/edm-details/EDM-0F32DC9138B0.json"
+    },
     {
       "actionId": "ACT-EDM-2A86132CA6A3",
       "entityId": "",

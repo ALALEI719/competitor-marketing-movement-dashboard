@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-0F32DC9138B0",
+  "actionId": "ACT-EDM-0F32DC9138B0",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-10-31T09:04:24.000Z",
+  "subject": "Mammotion 德国万圣节割草机产品竞猜",
+  "contentSummary": "Mammotion 德国站以万圣节猜谜展示多款机器人割草机的坡度、定位、视觉避障和适用面积能力，引导读者揭晓答案及比较型号。",
+  "bodyParagraphs": [
+    "邮件以万圣节“午夜怪物”猜谜包装机器人割草机产品教育，主视觉展示披着幽灵布的割草机器人，随后设置四道产品能力谜题。",
+    "四道谜题依次宣称：最高 80% 坡度、Tri-Fusion 定位和最高 5,000 平方米覆盖；360° LiDAR、双摄像头 AI 视觉、可贴近墙面或草坪边缘至约 5 厘米及最高 1,500 平方米；三摄像头 AI 视觉避障、最高 1,000 平方米及整齐边缘；紧凑机型最高 1,000 平方米、最高 45% 坡度。以上为邮件图片中的品牌宣称，谜题版位未直接写出各款型号。",
+    "结尾引导读者比较产品并选择适合花园的机型。邮件未写出专属折扣或明确活动截止日期；页脚另有德国站超过 99 欧元免运、30 天退款、最长 3 年保修及全天候客服的常规服务说明。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-01.png",
+      "description": "万圣节主视觉：Mammotion 品牌、幽灵布覆盖的割草机器人和“午夜怪物”猜谜活动。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-02.png",
+      "description": "谜题一：宣称最高 80% 坡度、Tri-Fusion 定位、最高 5,000 平方米覆盖，配机器人夜景。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-03.png",
+      "description": "谜题二：宣称 360° LiDAR、双摄像头 AI 视觉、约 5 厘米贴边、最高 1,500 平方米。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-04.png",
+      "description": "谜题三：宣称三摄像头 AI 视觉避障、最高 1,000 平方米及整齐边缘。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-05.png",
+      "description": "谜题四：宣称紧凑机型最高 1,000 平方米、最高 45% 坡度。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-06.png",
+      "description": "结尾比较产品引导图，邀请读者选择适合花园的机型。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-07.png",
+      "description": "页脚卡车图标，对应配送服务说明。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-08.png",
+      "description": "页脚退货箱图标，对应退款政策说明。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-09.png",
+      "description": "页脚盾牌图标，对应保修说明。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-0F32DC9138B0/image-10.png",
+      "description": "页脚耳机图标，对应客服说明。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false
+}
