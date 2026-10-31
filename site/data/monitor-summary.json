@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 66,
-    "pendingChannelChanges": 23,
+    "blogChanges": 68,
+    "pendingChannelChanges": 25,
     "prSources": 19,
     "healthyPrSources": 19,
     "prChanges": 17,
@@ -2576,7 +2576,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-10-28T09:01:25.173Z",
+    "checkedAt": "2026-10-31T08:57:23.574Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2588,21 +2588,21 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-28T09:01:25.173Z",
+        "checkedAt": "2026-10-31T08:57:23.574Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 14,
+          "comparable": 16,
           "backfillErrors": []
         }
       },
@@ -2615,21 +2615,21 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-28T09:01:25.173Z",
+        "checkedAt": "2026-10-31T08:57:23.574Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-26T09:51:41+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 13,
+          "comparable": 15,
           "backfillErrors": []
         }
       },
@@ -2642,7 +2642,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-28T09:01:25.173Z",
+        "checkedAt": "2026-10-31T08:57:23.574Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2656,7 +2656,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 12,
+          "comparable": 14,
           "backfillErrors": []
         }
       },
@@ -2669,26 +2669,119 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-10-28T09:01:25.173Z",
+        "checkedAt": "2026-10-31T08:57:23.574Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-22T11:32:06+02:00",
         "changeCounts": {
           "added": 0,
-          "updated": 11
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 26,
+          "comparable": 29,
           "backfillErrors": []
         }
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-28B099FC050A",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Wann ist Black Friday 2026?",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+        "publishDate": "2026-10-26T09:51:41+01:00",
+        "updatedAt": "2026-10-29T10:31:54+01:00",
+        "discoveredAt": "2026-10-31T08:57:23.574Z",
+        "summary": "Wann ist Black Friday 2026? Erfahre das Datum, wann die Black Week stattfindet und wann Cyber Monday ist. Hier findest du alle wichtigen Termine im Überblick. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "18ab3edd5494be07fb6f7eb223155c13de3b0d4146e0d824d00501a235864504",
+          "afterHash": "e98ebc061016a103cef868b282584b14b42f8bc007a138af2e9f1c263a33b65d",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": "Möchten Sie mehr über den Mammotion Black Friday erfahren? Lesen Sie unseren aktuellen Leitfaden „ Mammotion Black Friday-Angebote 2026 “. "
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.87,
+          "monitoringPriority": 2.29,
+          "priorityConfidence": 0.53
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E51629ECF19C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Comment choisir un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse",
+        "publishDate": "2026-08-20T11:57:21+02:00",
+        "updatedAt": "2026-10-29T06:53:03+01:00",
+        "discoveredAt": "2026-10-31T08:57:23.574Z",
+        "summary": "Quel robot tondeuse choisir ? Découvrez tous les critères essentiels pour faire le bon choix. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "fd5eb7d7a0f3d902d89f226f828ce11750c67ea7a44f0f6fc733a453a67181f7",
+          "afterHash": "6e5d85e269cb51073707fa944e37574ca70b24bdf7b859ccc5cbac0534627deb",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.46,
+          "priorityConfidence": 0.6
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-BC9D18A74F3F",
         "sourceId": "mammotion-us-blog",
@@ -5884,6 +5977,99 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-28B099FC050A",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Wann ist Black Friday 2026?",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-black-friday",
+        "publishDate": "2026-10-26T09:51:41+01:00",
+        "updatedAt": "2026-10-29T10:31:54+01:00",
+        "discoveredAt": "2026-10-31T08:57:23.574Z",
+        "summary": "Wann ist Black Friday 2026? Erfahre das Datum, wann die Black Week stattfindet und wann Cyber Monday ist. Hier findest du alle wichtigen Termine im Überblick. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "18ab3edd5494be07fb6f7eb223155c13de3b0d4146e0d824d00501a235864504",
+          "afterHash": "e98ebc061016a103cef868b282584b14b42f8bc007a138af2e9f1c263a33b65d",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": "",
+          "afterExcerpt": "Möchten Sie mehr über den Mammotion Black Friday erfahren? Lesen Sie unseren aktuellen Leitfaden „ Mammotion Black Friday-Angebote 2026 “. "
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.87,
+          "monitoringPriority": 2.29,
+          "priorityConfidence": 0.53
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E51629ECF19C",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Comment choisir un robot tondeuse ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse",
+        "publishDate": "2026-08-20T11:57:21+02:00",
+        "updatedAt": "2026-10-29T06:53:03+01:00",
+        "discoveredAt": "2026-10-31T08:57:23.574Z",
+        "summary": "Quel robot tondeuse choisir ? Découvrez tous les critères essentiels pour faire le bon choix. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "missing_previous",
+          "reason": "extraction_migration",
+          "beforeHash": "fd5eb7d7a0f3d902d89f226f828ce11750c67ea7a44f0f6fc733a453a67181f7",
+          "afterHash": "6e5d85e269cb51073707fa944e37574ca70b24bdf7b859ccc5cbac0534627deb",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.46,
+          "priorityConfidence": 0.6
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-2D8C9C32E94C",
         "sourceId": "mammotion-us-blog",
