@@ -2956,7 +2956,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-02T09:41:35.055Z",
+    "checkedAt": "2026-11-02T10:03:11.616Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2968,11 +2968,65 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T09:41:35.055Z",
+        "checkedAt": "2026-11-02T10:03:11.616Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        },
+        "snapshotCoverage": {
+          "captured": 30,
+          "total": 30,
+          "backfilled": 0,
+          "rechecked": 2,
+          "comparable": 22,
+          "backfillErrors": []
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-de-blog",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "blog",
+          "url": "https://de.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        },
+        "snapshotCoverage": {
+          "captured": 30,
+          "total": 30,
+          "backfilled": 0,
+          "rechecked": 2,
+          "comparable": 21,
+          "backfillErrors": []
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-uk-blog",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "blog",
+          "url": "https://uk.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
         "changeCounts": {
           "added": 0,
           "updated": 0
@@ -2988,60 +3042,6 @@
       },
       {
         "source": {
-          "id": "mammotion-de-blog",
-          "brand": "Mammotion",
-          "country": "德国",
-          "countryCode": "DE",
-          "channel": "blog",
-          "url": "https://de.mammotion.com/blogs/news.atom"
-        },
-        "checkedAt": "2026-11-02T09:41:35.055Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 30,
-        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
-        "changeCounts": {
-          "added": 0,
-          "updated": 0
-        },
-        "snapshotCoverage": {
-          "captured": 30,
-          "total": 30,
-          "backfilled": 0,
-          "rechecked": 2,
-          "comparable": 19,
-          "backfillErrors": []
-        }
-      },
-      {
-        "source": {
-          "id": "mammotion-uk-blog",
-          "brand": "Mammotion",
-          "country": "英国",
-          "countryCode": "UK",
-          "channel": "blog",
-          "url": "https://uk.mammotion.com/blogs/news.atom"
-        },
-        "checkedAt": "2026-11-02T09:41:35.055Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 30,
-        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
-        "changeCounts": {
-          "added": 0,
-          "updated": 0
-        },
-        "snapshotCoverage": {
-          "captured": 30,
-          "total": 30,
-          "backfilled": 0,
-          "rechecked": 2,
-          "comparable": 18,
-          "backfillErrors": []
-        }
-      },
-      {
-        "source": {
           "id": "mammotion-fr-blog",
           "brand": "Mammotion",
           "country": "法国",
@@ -3049,7 +3049,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T09:41:35.055Z",
+        "checkedAt": "2026-11-02T10:03:11.616Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
