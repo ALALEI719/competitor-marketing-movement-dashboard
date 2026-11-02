@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-02T03:57:00.892Z",
+  "updatedAt": "2026-11-02T05:42:43.826Z",
   "actions": [
     {
       "actionId": "ACT-EDM-F501F4B7CAD1",
@@ -1289,6 +1289,846 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:16.060Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725423Z",
+      "capturedAt": "2026-10-20T02:46:22.837Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "56f5d901bb29cfa8b51b7d59132ff4047856030a1e0d0466905898af3b0a1ebd",
+        "afterHash": "d712e2405c4a0bbc0c80bb94f6225bdb74ee9c4b736bb262a8bcd8ee90b26496",
+        "capturedAt": "2026-10-20T02:46:22.837Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-0E0EE144C606",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:46:22.837Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15 Deluxe割草机配件套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增333.98欧元优惠解锁/代码文字（WS24T282E0V0）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t292e041-1-t290v011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t292e041-1-t290v011-1",
+          "capturedAt": "2026-10-20T02:46:22.837Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.826Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725395Z",
+      "capturedAt": "2026-10-20T02:46:18.632Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "82f2ea433b301afc5e4bda6b912f8d40ca9fd83450cf2b047d5cbb26b09bce7c",
+        "afterHash": "99da3a6d9c595e3bb35b08ca0fd0faa1137e328723dd3ca204621adf16223878",
+        "capturedAt": "2026-10-20T02:46:18.632Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-9025EEA2D54A",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:46:18.632Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15＋替换刀片盒套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增230.99欧元优惠解锁/代码文字（WS24T2880041）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t290x041-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t290x041-1",
+          "capturedAt": "2026-10-20T02:46:18.632Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.769Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725368Z",
+      "capturedAt": "2026-10-20T02:46:13.824Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "57eb665d9ac4805aed6f41270de84a14cbc8fa72a382cc58d097e9f0b2fcded8",
+        "afterHash": "cd666bc7fd490cd7ab20e29f6c9c7f775064e724e7337c928140bcaf8fcd51d7",
+        "capturedAt": "2026-10-20T02:46:13.824Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-AC7847D00F03",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:46:13.824Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15＋充电站套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增350.0欧元优惠解锁/代码文字（WS24T2880W311）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t290w311-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t290w311-1",
+          "capturedAt": "2026-10-20T02:46:13.824Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.715Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725339Z",
+      "capturedAt": "2026-10-20T02:46:09.711Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "75910dfaf8cbcdaf9e38f5235ea2a43f890f3d5356bc69e47305f3c08e91b4af",
+        "afterHash": "2146316db906ead7cc1b6fc3ce30be1c639b76f485269fd4c51d99a6114c8e8d",
+        "capturedAt": "2026-10-20T02:46:09.711Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-280EEE1E1C04",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:46:09.711Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15＋EU电源适配器套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增140.0欧元优惠解锁/代码文字（WS24T2880311）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t290u311-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t290u311-1",
+          "capturedAt": "2026-10-20T02:46:09.711Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.661Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725310Z",
+      "capturedAt": "2026-10-20T02:46:04.861Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d3c21bc4535aaeb252673826b5d02c1f2edf3c300d1e97127ac2eeebb9cf9ec7",
+        "afterHash": "9a6f47015e0ac8c4089c74f481ae2f8b688182b8c1aa9c6ff44eb2be3dae797a",
+        "capturedAt": "2026-10-20T02:46:04.861Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-D9E5AEF7FDF1",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:46:04.861Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15＋刀盘组件套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增115.0欧元优惠解锁/代码文字（WS24T2880011）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t290t011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t290t011-1",
+          "capturedAt": "2026-10-20T02:46:04.861Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.607Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725278Z",
+      "capturedAt": "2026-10-20T02:45:59.898Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "3f721a9bf749ebe1cfb268b83570fef417eb798a1a97395f01d9b61d55f3f809",
+        "afterHash": "f3a59974f452ecaaa448e6d88f4b97961285a9bfe9e9649876e98ee5434b879a",
+        "capturedAt": "2026-10-20T02:45:59.898Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-C2E097871C88",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:59.898Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E15＋X10 Pro Omni混合套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增400.0欧元优惠解锁/代码文字（WS24T28802351）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2880ga1-1-t2351g11-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2880ga1-1-t2351g11-1",
+          "capturedAt": "2026-10-20T02:45:59.898Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.553Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725246Z",
+      "capturedAt": "2026-10-20T02:45:55.927Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "4caadf2640fa0c3843189a3a469196db9ef4f3a2ff5df2c99fd8437301f4f245",
+        "afterHash": "09736c68dc0d6e5e7061a07a31651399f757def47fba63b77fe5b9749333785b",
+        "capturedAt": "2026-10-20T02:45:55.927Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-DB327DC6C3E9",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:55.927Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15＋HydroJet S2混合套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增400.0欧元优惠解锁/代码文字（WS24TB3A2C011）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a2-1-t292c011-1-t2081g11-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a2-1-t292c011-1-t2081g11-1",
+          "capturedAt": "2026-10-20T02:45:55.927Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.499Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725214Z",
+      "capturedAt": "2026-10-20T02:45:51.366Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "304b53e789fa4419e71c38b5d5c91c90eb890e9cc223c0964638ff04dce3b9a6",
+        "afterHash": "0c13f25ee5c7b6be03fcf46e2a3536d77b763253cc29ea523b2f8ce0a6e74f2a",
+        "capturedAt": "2026-10-20T02:45:51.366Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-B496920C73C9",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:51.366Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15 Standard＋车库套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增100.0欧元优惠解锁/代码文字（WS24T2B28031）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a2-1-t292c011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a2-1-t292c011-1",
+          "capturedAt": "2026-10-20T02:45:51.366Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.440Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725182Z",
+      "capturedAt": "2026-10-20T02:45:46.437Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "6a9086752c7049e85529acf4fba994c8c9f7fbee73a6a4f39fef52e1b2f5b1cf",
+        "afterHash": "d348e09fccd6a08c11a0b56aadd876146abefbfbb93c4a8ef595ad0fe3c04371",
+        "capturedAt": "2026-10-20T02:45:46.437Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-990D9D6FA097",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:46.437Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15＋车库＋替换刀片套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增230.99欧元优惠解锁/代码文字（WS24041B3A3）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a1-1-t292e041-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a1-1-t292e041-1",
+          "capturedAt": "2026-10-20T02:45:46.437Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.382Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725150Z",
+      "capturedAt": "2026-10-20T02:45:42.645Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "6f7d1662f5021085b94b2aee717c0a2a393909718b54b250769e8b918161d43e",
+        "afterHash": "bc3f129f268596ba885da4374a946e4fbca8076e0cea9b65a9039516557172cf",
+        "capturedAt": "2026-10-20T02:45:42.645Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-19D0102B753F",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:42.645Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15 Deluxe套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增“382,98€解锁”及优惠代码说明。自身变体原有WS24T280A3E4配置前后不变，币种明示EUR；此记录仅反映保存来源文字变化，不代表新券创建、常规降价或优惠生效，未验证实网页面可见性、个人资格、结束条件及成交价。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a1-1-t292a311-1-t292e041-1-t290v011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a1-1-t292a311-1-t292e041-1-t290v011-1",
+          "capturedAt": "2026-10-20T02:45:42.645Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.327Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725119Z",
+      "capturedAt": "2026-10-20T02:45:38.496Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "2727f8da46edf6a9cca732016a286b93654875f835fe80d72200a52b52db7e80",
+        "afterHash": "7e17e10cd8fd9f384e87e3e724936cc82ba06eb68a0f5b145e0ded2c48eb4c0b",
+        "capturedAt": "2026-10-20T02:45:38.496Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-9098FB42FDAF",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:38.496Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15车库＋4G套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增“299,00€解锁”及优惠代码说明。自身变体原有WS24TB292280配置前后不变，币种明示EUR；此记录仅反映保存来源文字变化，不代表新券创建、常规降价或优惠生效，未验证实网页面可见性、个人资格、结束条件及成交价。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a1-1-t292a311-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a1-1-t292a311-1",
+          "capturedAt": "2026-10-20T02:45:38.496Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.269Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725087Z",
+      "capturedAt": "2026-10-20T02:45:30.590Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d8ef4c29b811f44b7a4968034b4b9645c94c265b312a6f8fcb2e57cc997f650a",
+        "afterHash": "ab516dd0c49d733d1c7964258f8ac3862d8508e65c61c9a9e47d574407e2324a",
+        "capturedAt": "2026-10-20T02:45:30.590Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-BC04C071E1C1",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:30.590Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15＋车库/延长线＋Boom Go音箱混合套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增40.99欧元优惠解锁/代码文字（WS24103010）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a1-1-t290v011-1-1-d5103010-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a1-1-t290v011-1-1-d5103010-1",
+          "capturedAt": "2026-10-20T02:45:30.590Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.215Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725055Z",
+      "capturedAt": "2026-10-20T02:45:26.093Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "6553d646b33eb611d3ddd3e0cfffb6927f9130e503219995905df36ef672678b",
+        "afterHash": "50094b89e345502af4506d92d20491c9f52d41a640684736a4060207bfb67c67",
+        "capturedAt": "2026-10-20T02:45:26.093Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-EF0B3437BE77",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:26.093Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增C15＋车库＋延长线套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增100.0欧元优惠解锁/代码文字（WS24B3A4041）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t280b3a1-1-t290v011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t280b3a1-1-t290v011-1",
+          "capturedAt": "2026-10-20T02:45:26.093Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.157Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.725023Z",
+      "capturedAt": "2026-10-20T02:45:21.279Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "7b314424c51f11ac6aedea6111dd45767e5db73109ff87e8914c62ade7e2a3b2",
+        "afterHash": "bbe2a1285b77a78246aa41d0b07b31964a32076a8919f8b1326f6b3e808c4b3d",
+        "capturedAt": "2026-10-20T02:45:21.279Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-C11276ADAD41",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:21.279Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18 Deluxe割草机配件套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增383.98欧元优惠解锁/代码文字（WS24T2E0290V）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t292e041-1-t290v011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t292e041-1-t290v011-1",
+          "capturedAt": "2026-10-20T02:45:21.279Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.101Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724991Z",
+      "capturedAt": "2026-10-20T02:45:17.194Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "9f7ffeec9631ec81dc632ea67bd03da2eabc8419ee04bc02cf3e4f8ca32cd0bd",
+        "afterHash": "ae987393894199c2b39f2fb48d2304635f264fae081f7863f96c9c30c1e2d0bc",
+        "capturedAt": "2026-10-20T02:45:17.194Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-E890AD065C78",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:17.194Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋替换刀片盒套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增330.99欧元优惠解锁/代码文字（WS24T2801041）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t290x041-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t290x041-1",
+          "capturedAt": "2026-10-20T02:45:17.194Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:43.047Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724959Z",
+      "capturedAt": "2026-10-20T02:45:12.498Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "9b64ebb0a45d3fef9aa10cc35b7903571c10312897e71d0be5b90aaf7693786e",
+        "afterHash": "fe41bf79829332c8f53d8bf323c55c411543c0b75254ef6f3cbeead8c808f5d3",
+        "capturedAt": "2026-10-20T02:45:12.498Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-A5264883D896",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:12.498Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋充电站套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增450.0欧元优惠解锁/代码文字（WS24T2801W311）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t290w311-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t290w311-1",
+          "capturedAt": "2026-10-20T02:45:12.498Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:42.994Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724926Z",
+      "capturedAt": "2026-10-20T02:45:07.646Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "55c7c179acfaf57cbaf923d293968f9b0e13954b3cd93f35bb3e86d1ba40eeff",
+        "afterHash": "85c87e331f4c41acafaa9eb6d995a6492849ba47bab5d63fac7dcba263e06583",
+        "capturedAt": "2026-10-20T02:45:07.646Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-4FC794BCBFA7",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:07.646Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋EU电源适配器套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增240.0欧元优惠解锁/代码文字（WS24T2801311）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t290u311-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t290u311-1",
+          "capturedAt": "2026-10-20T02:45:07.646Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:42.941Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724891Z",
+      "capturedAt": "2026-10-20T02:45:02.173Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "1dbb7a40202413a91f7163bb442d34e24745a89dc0d764c248de25a3ecba9451",
+        "afterHash": "ed65486e08676b8b76bac357f396ace21af957647f92314a317c7aeeeb3bc496",
+        "capturedAt": "2026-10-20T02:45:02.173Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-064204E183D8",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:45:02.173Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋刀盘组件套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增215.0欧元优惠解锁/代码文字（WS24T2801011）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t290t011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t290t011-1",
+          "capturedAt": "2026-10-20T02:45:02.173Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:42.888Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724853Z",
+      "capturedAt": "2026-10-20T02:44:58.292Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "4e29cbba279b01461fa7378131d289a77e84e51c9b63831cf59f172e642fb393",
+        "afterHash": "bcf93f8a37c696aabb7966006d1043cc287d00e9caf8c8cb1b0c87d16882a31b",
+        "capturedAt": "2026-10-20T02:44:58.292Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-048D728967A3",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:44:58.292Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋X10 Pro Omni混合套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增500.0欧元优惠解锁/代码文字（WS24T28012351）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t2351g11-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t2351g11-1",
+          "capturedAt": "2026-10-20T02:44:58.292Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:42.834Z"
+    },
+    {
+      "historicalBackfill": true,
+      "dateBasis": "original_capture_not_publication",
+      "importedAt": "2026-11-02T05:42:42.724604Z",
+      "capturedAt": "2026-10-20T02:44:54.530Z",
+      "notificationEligible": false,
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "95e0805ecf3d5d15d9d74c8ab2556c52e7d8808664195617852aaad825483b41",
+        "afterHash": "5063ba2b5c06ac405029b171cfcbe26546aba1449c5343b8ed2305c72e40ca72",
+        "capturedAt": "2026-10-20T02:44:54.530Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-30E3620C36AF",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "eufy-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-20T02:44:54.530Z",
+      "publishDate": "",
+      "title": "Eufy德国官网存档新增E18＋HydroJet S2混合套装优惠提示",
+      "summary": "2026年10月19日至20日保存的德国官方商品页源正文新增1099.0欧元优惠解锁/代码文字（WS24G2108T11）。自身EUR配置原已存在且未改；此项只记录来源文字变化，不证明新券/标价下降、当前生效、实网可见或实际成交，资格与结束条件未核。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t2801ga1-1-t2081g11-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de",
+          "url": "https://www.anker.com/de/products/bundle-t2801ga1-1-t2081g11-1",
+          "capturedAt": "2026-10-20T02:44:54.530Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-02T05:42:42.773Z"
     },
     {
       "actionId": "ACT-EDM-D183E8E1E284",
