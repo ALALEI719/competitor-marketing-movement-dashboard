@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-28T09:04:07.087Z",
+  "generatedAt": "2026-11-02T09:43:23.875Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -1282,6 +1282,215 @@
           "title": "Robot Lawn Mowers | Wire-Free Robotic Mowers | Mammotion US",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c38748dcadb2f8e0-2026-10-28T09-04-00-904Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "92c35a701926b073": {
+      "url": "https://fr.mammotion.com/pages/maston-robot-tondeuse-professionnel",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:41:48.132Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-02T09:41:31.678Z",
+          "title": "Robot Tondeuse Professionnel Maston | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-92c35a701926b073-2026-11-02T09-41-48-132Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "dbbf470801caa55d": {
+      "url": "https://fr.mammotion.com/products/pack-support-de-nettoyage-de-tondeuse-garage-mini",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:41:58.900Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:31.678Z",
+          "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-dbbf470801caa55d-2026-11-02T09-41-58-900Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "a4f5066656befab9": {
+      "url": "https://fr.mammotion.com/products/support-de-nettoyage-de-tondeuse-garage-standard-pack",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:07.412Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:31.678Z",
+          "title": "Jardins Intelligents Commencent Ici | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-a4f5066656befab9-2026-11-02T09-42-07-412Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "fc9c9b10896f54ee": {
+      "url": "https://uk.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:18.123Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-02T09:41:28.408Z",
+          "title": "Maston Commercial Robotic Lawn Mower | Mammotion UK",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-fc9c9b10896f54ee-2026-11-02T09-42-18-123Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "0c7cb0fba2b49b3d": {
+      "url": "https://uk.mammotion.com/blogs/news/mammotion-black-friday-buying-guide",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:26.271Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:28.408Z",
+          "title": "404 Not Found",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-0c7cb0fba2b49b3d-2026-11-02T09-42-26-271Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "98e32c8ff8bd6af0": {
+      "url": "https://de.mammotion.com/blogs/news/black-friday-angebote",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:32.250Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-02T09:41:24.636Z",
+          "title": "Mammotion Black Friday Angebote 2026 | Mäh- & Poolroboter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-98e32c8ff8bd6af0-2026-11-02T09-42-32-250Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6787f7210b44076f": {
+      "url": "https://de.mammotion.com/pages/maston-commercial-robot-mowers",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:40.029Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-02T09:41:24.636Z",
+          "title": "Maston Profi-Mähroboter | Gewerblicher Einsatz | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-6787f7210b44076f-2026-11-02T09-42-40-029Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c67321f771839a9e": {
+      "url": "https://de.mammotion.com/blogs/news/black-friday-2025-mammotion-maehroboter",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:49.436Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:24.636Z",
+          "title": "Mammotion Black Friday Angebote 2026 | Mäh- & Poolroboter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-c67321f771839a9e-2026-11-02T09-42-49-436Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "fdd4cd3e23a78cc0": {
+      "url": "https://us.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:42:58.572Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-02T09:41:21.264Z",
+          "title": "Maston Commercial Robotic Lawn Mowers | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-fdd4cd3e23a78cc0-2026-11-02T09-42-58-572Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "49ee4588dd3cd1c2": {
+      "url": "https://us.mammotion.com/blogs/news/best-time-to-buy-lawn-mower",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:43:07.846Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:21.264Z",
+          "title": "Best Time to Buy a Lawn Mower: Seasonal Buying Guide",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-49ee4588dd3cd1c2-2026-11-02T09-43-07-846Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "16b050ecb903c10d": {
+      "url": "https://us.mammotion.com/pages/beginners-guide-robot-lawn-mowers",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-02T09:43:15.906Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:21.264Z",
+          "title": "Robot Lawn Mower Buying Guide | Choose the Right Mower | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-16b050ecb903c10d-2026-11-02T09-43-15-906Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

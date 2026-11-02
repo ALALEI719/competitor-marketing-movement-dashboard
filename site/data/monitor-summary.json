@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-28T09:01:25.015Z",
+  "generatedAt": "2026-11-02T09:41:34.867Z",
   "dataMode": "real_sitemap",
   "brand": "Mammotion",
   "activeEvents": [
-    "Equip"
+    "Black Friday / Cyber Monday"
   ],
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1126,
-    "pendingChanges": 69,
+    "pages": 1123,
+    "pendingChanges": 84,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -34,24 +34,24 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-28T09:01:09.806Z",
+      "checkedAt": "2026-11-02T09:41:21.264Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 324,
+      "pageCount": 322,
       "breakdown": {
-        "page": 64,
-        "blog": 190,
+        "page": 63,
+        "blog": 189,
         "collection": 22,
         "product": 48
       },
       "changeCounts": {
         "added": 1,
-        "removed": 18,
-        "lastmodChanged": 67
+        "removed": 3,
+        "lastmodChanged": 69
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 67,
+        "lastmodPagesNeedingContentCheck": 69,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -70,29 +70,29 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-28T09:01:13.984Z",
+      "checkedAt": "2026-11-02T09:41:24.636Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 288,
+      "pageCount": 289,
       "breakdown": {
-        "page": 36,
+        "page": 37,
         "blog": 153,
         "collection": 15,
         "product": 84
       },
       "changeCounts": {
-        "added": 0,
-        "removed": 0,
-        "lastmodChanged": 97
+        "added": 2,
+        "removed": 1,
+        "lastmodChanged": 101
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 97,
+        "lastmodPagesNeedingContentCheck": 101,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 0,
+        "inspectedPages": 3,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -106,29 +106,29 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-28T09:01:17.381Z",
+      "checkedAt": "2026-11-02T09:41:28.408Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 212,
       "breakdown": {
-        "page": 40,
-        "blog": 89,
+        "page": 41,
+        "blog": 88,
         "collection": 16,
         "product": 67
       },
       "changeCounts": {
         "added": 1,
-        "removed": 0,
-        "lastmodChanged": 77
+        "removed": 1,
+        "lastmodChanged": 82
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 77,
+        "lastmodPagesNeedingContentCheck": 82,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 2,
-        "meaningfulChanges": 0,
+        "meaningfulChanges": 1,
         "errors": []
       }
     },
@@ -142,24 +142,24 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-10-28T09:01:21.254Z",
+      "checkedAt": "2026-11-02T09:41:31.678Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 302,
+      "pageCount": 300,
       "breakdown": {
         "page": 39,
         "blog": 160,
         "collection": 17,
-        "product": 86
+        "product": 84
       },
       "changeCounts": {
         "added": 1,
-        "removed": 0,
-        "lastmodChanged": 114
+        "removed": 3,
+        "lastmodChanged": 118
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 114,
+        "lastmodPagesNeedingContentCheck": 118,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -170,6 +170,386 @@
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-02T09:41:31.678Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/pages/maston-robot-tondeuse-professionnel",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-A398EA182CE6"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-02T09:41:31.678Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/pages/testiiinggg15489956",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-3ACBC4167792"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-02T09:41:31.678Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/products/pack-support-de-nettoyage-de-tondeuse-garage-mini",
+      "pageType": "product",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-D0640E57A0E1"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-02T09:41:31.678Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/products/support-de-nettoyage-de-tondeuse-garage-standard-pack",
+      "pageType": "product",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-F23B5C315E4E"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-02T09:41:28.408Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-B65A244F0769"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-02T09:41:28.408Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/blogs/news/mammotion-black-friday-buying-guide",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-D1DD30D4DB2A"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-02T09:41:28.408Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "cta",
+        "product_name"
+      ],
+      "summary": "页面关键内容变化：headings、cta、product_name，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "e39c6d60267ade1a7d2d197a004baee1364084d0bcc05db59dedaeb1bf882324",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.21
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "messaging_or_cta",
+            "confidence": 0.71,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.03,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.75,
+              "routine_content_refresh": 0.2,
+              "other": 0.02
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.98,
+            "probabilities": {
+              "not_launch_related": 0.98,
+              "weak_signal": 0.02,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.79,
+            "confidence": 0.51,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.06,
+              "1": 0.28,
+              "2": 0.48,
+              "3": 0.17,
+              "4": 0.01
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.04,
+            "probabilities": {
+              "none": 0.48,
+              "event_1": 0.52
+            }
+          }
+        },
+        "latencyMs": 87,
+        "usage": {
+          "input_tokens": 6235,
+          "output_tokens": 219
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-02T09:41:30.973Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-1F8B555DB475"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/blogs/news/black-friday-angebote",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-660E01B0727C"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/pages/maston-commercial-robot-mowers",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-46A5E2B293C8"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/blogs/news/black-friday-2025-mammotion-maehroboter",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-F1F0DC8F2F59"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "headings",
+        "offer"
+      ],
+      "summary": "页面关键内容变化：headings、offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "8fe7677b6c1ec60df3eadc953155eb9b0aabfa6bb2c33a1faa30719c35e91ffe",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.81
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.54,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.61,
+              "price_change": 0.29,
+              "availability_change": 0.02,
+              "messaging_or_cta": 0.03,
+              "routine_content_refresh": 0.05,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.93,
+            "probabilities": {
+              "not_launch_related": 0.94,
+              "weak_signal": 0.02,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.04
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.6,
+            "confidence": 0.63,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.02,
+              "1": 0.07,
+              "2": 0.23,
+              "3": 0.67,
+              "4": 0.01
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.62,
+            "probabilities": {
+              "none": 0.19,
+              "event_1": 0.81
+            }
+          }
+        },
+        "latencyMs": 147,
+        "usage": {
+          "input_tokens": 7266,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-02T09:41:27.211Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-9AD2A212544D"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-02T09:41:21.264Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+      "pageType": "page",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "recordId": "SITE-76CAB3191C4D"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-02T09:41:21.264Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/blogs/news/best-time-to-buy-lawn-mower",
+      "pageType": "blog",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-9F19C1595BF5"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-02T09:41:21.264Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/beginners-guide-robot-lawn-mowers",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-4E3CC0412316"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-02T09:41:21.264Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide-1",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-F2E9F08CF382"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -2576,7 +2956,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-01T09:48:41.850Z",
+    "checkedAt": "2026-11-02T09:41:35.055Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2588,11 +2968,65 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-01T09:48:41.850Z",
+        "checkedAt": "2026-11-02T09:41:35.055Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        },
+        "snapshotCoverage": {
+          "captured": 30,
+          "total": 30,
+          "backfilled": 0,
+          "rechecked": 2,
+          "comparable": 20,
+          "backfillErrors": []
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-de-blog",
+          "brand": "Mammotion",
+          "country": "德国",
+          "countryCode": "DE",
+          "channel": "blog",
+          "url": "https://de.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-11-02T09:41:35.055Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
+        "changeCounts": {
+          "added": 0,
+          "updated": 0
+        },
+        "snapshotCoverage": {
+          "captured": 30,
+          "total": 30,
+          "backfilled": 0,
+          "rechecked": 2,
+          "comparable": 19,
+          "backfillErrors": []
+        }
+      },
+      {
+        "source": {
+          "id": "mammotion-uk-blog",
+          "brand": "Mammotion",
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "blog",
+          "url": "https://uk.mammotion.com/blogs/news.atom"
+        },
+        "checkedAt": "2026-11-02T09:41:35.055Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 30,
+        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
         "changeCounts": {
           "added": 0,
           "updated": 0
@@ -2608,60 +3042,6 @@
       },
       {
         "source": {
-          "id": "mammotion-de-blog",
-          "brand": "Mammotion",
-          "country": "德国",
-          "countryCode": "DE",
-          "channel": "blog",
-          "url": "https://de.mammotion.com/blogs/news.atom"
-        },
-        "checkedAt": "2026-11-01T09:48:41.850Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 30,
-        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
-        "changeCounts": {
-          "added": 0,
-          "updated": 0
-        },
-        "snapshotCoverage": {
-          "captured": 30,
-          "total": 30,
-          "backfilled": 0,
-          "rechecked": 2,
-          "comparable": 17,
-          "backfillErrors": []
-        }
-      },
-      {
-        "source": {
-          "id": "mammotion-uk-blog",
-          "brand": "Mammotion",
-          "country": "英国",
-          "countryCode": "UK",
-          "channel": "blog",
-          "url": "https://uk.mammotion.com/blogs/news.atom"
-        },
-        "checkedAt": "2026-11-01T09:48:41.850Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 30,
-        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
-        "changeCounts": {
-          "added": 0,
-          "updated": 0
-        },
-        "snapshotCoverage": {
-          "captured": 30,
-          "total": 30,
-          "backfilled": 0,
-          "rechecked": 2,
-          "comparable": 16,
-          "backfillErrors": []
-        }
-      },
-      {
-        "source": {
           "id": "mammotion-fr-blog",
           "brand": "Mammotion",
           "country": "法国",
@@ -2669,7 +3049,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-01T09:48:41.850Z",
+        "checkedAt": "2026-11-02T09:41:35.055Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
