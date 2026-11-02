@@ -19,9 +19,9 @@
     "blogChanges": 68,
     "pendingChannelChanges": 7,
     "prSources": 19,
-    "healthyPrSources": 19,
-    "prChanges": 17,
-    "pendingPrChanges": 4
+    "healthyPrSources": 15,
+    "prChanges": 23,
+    "pendingPrChanges": 10
   },
   "sites": [
     {
@@ -6758,7 +6758,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-10-28T05:44:38.041Z",
+    "checkedAt": "2026-11-02T11:39:11.487Z",
     "sources": [
       {
         "source": {
@@ -6771,12 +6771,37 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 4450,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 2787,
+        "pendingArticleCount": 374,
+        "fetchedCount": 100,
+        "bulkLastmodIgnored": true,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": [
+          {
+            "from": "https://www.chip.de/deals/schnaeppchen/ikea-am-black-friday-der-freuvember-bringt-schon-jetzt-rabatte-fuer-ihr-zuhause_70cc7aca-89bc-4a8e-bc18-ffc9bb92aa0b.html",
+            "to": "https://www.chip.de/deals/schnaeppchen/ikea-am-black-friday-2026-der-freuvember-bringt-schon-jetzt-rabatte-fuer-ihr-zuhause_70cc7aca-89bc-4a8e-bc18-ffc9bb92aa0b.html",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/nach-stopp-vor-2-jahren-amazon-nimmt-lieferung-von-frischen-lebensmitteln-in-3-staedten-wieder-auf_f4dfec8d-b209-4ecf-ad96-d9ce909e5e42.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/nach-stopp-vor-2-jahren-amazon-bringt-alten-lieferservice-wieder-zurueck_f4dfec8d-b209-4ecf-ad96-d9ce909e5e42.html",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.chip.de/news/cyber-security/ein-hallo-genuegt-so-funktioniert-der-telefonbetrug_0c24a240-f144-4bc8-922b-3f8aae5a1e34.html",
+            "to": "https://www.chip.de/news/cyber-security/ein-hallo-genuegt-so-funktioniert-aktueller-telefonbetrug_0c24a240-f144-4bc8-922b-3f8aae5a1e34.html",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.chip.de/news/business/platz-1-fuer-die-sparkasse-beliebteste-bank-bei-gen-z-und-boomern_4afca4e7-9766-49a8-8f5f-433f7b39949d.html",
+            "to": "https://www.chip.de/news/business/top-10-liste-sparkasse-am-beliebtesten-bei-gen-z-und-boomern_4afca4e7-9766-49a8-8f5f-433f7b39949d.html",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -6789,12 +6814,16 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 0,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 20,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6807,12 +6836,22 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
         "discoveredUrlCount": 0,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 16,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": [
+          {
+            "from": "https://www.computerbild.de/artikel/Tests-Garten-Dieser-Akku-Rasentrimmer-schneidet-im-Test-am-besten-ab-f4710cd-41229883.html",
+            "to": "https://www.computerbild.de/artikel/Tests-Garten-Dieser-Akku-Rasentrimmer-schneidet-im-Test-am-besten-ab-5f897ec-41229883.html",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -6825,12 +6864,16 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 346,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 5,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6843,12 +6886,16 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 5,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 3,
+        "pendingArticleCount": 0,
+        "fetchedCount": 3,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6861,12 +6908,16 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 18,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 14,
+        "pendingArticleCount": 0,
+        "fetchedCount": 4,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6879,12 +6930,17 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 150,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 90,
+        "pendingArticleCount": 0,
+        "fetchedCount": 17,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "discoveryScopesBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6897,12 +6953,16 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 632,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 1,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6915,12 +6975,16 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 31,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 2,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -6931,14 +6995,16 @@
           "country": "德国",
           "countryCode": "DE",
           "channel": "pr",
-          "url": "https://www.appgefahren.de/sitemap_index.xml"
+          "url": "https://www.appgefahren.de/wp-json/wp/v2/posts"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 1708,
-        "pendingArticleCount": 0
+        "checkedAt": "2026-11-02T11:39:11.487Z",
+        "status": "error",
+        "error": "This operation was aborted",
+        "requestUrl": "https://www.appgefahren.de/macbook-pro-mit-touchscreen-soll-ueber-3-000-euro-kosten-407590.html",
+        "httpStatus": null,
+        "redirectTarget": null,
+        "failurePhase": "request",
+        "itemCount": 1
       },
       {
         "source": {
@@ -6951,12 +7017,32 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
-        "discoveredUrlCount": 1163,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 1180,
+        "pendingArticleCount": 0,
+        "fetchedCount": 62,
+        "bulkLastmodIgnored": true,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": [
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-nachts-verboten-0041-140018",
+            "to": "https://www.homeandsmart.de/maehroboter-nachtfahrverbot-igelschutz-0043-140018",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-kinder-und-tierschutz-0005-426322",
+            "to": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0012-426322",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-garage-kaufen-worauf-achten-0008-973608",
+            "to": "https://www.homeandsmart.de/maehroboter-garage-gps-roboter-0016-973608",
+            "httpStatus": 301
+          }
+        ]
       },
       {
         "source": {
@@ -6969,12 +7055,13 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
-        "status": "ok",
-        "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 106,
-        "pendingArticleCount": 0
+        "checkedAt": "2026-11-02T11:39:11.487Z",
+        "status": "error",
+        "error": "PR expansion article identity or editorial body mismatch",
+        "requestUrl": "https://www.idealhome.co.uk/garden/garden-tools/greenworks-24v-cordless-lawn-mower-review",
+        "httpStatus": null,
+        "redirectTarget": null,
+        "itemCount": 1
       },
       {
         "source": {
@@ -6987,12 +7074,16 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1207,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 1277,
+        "pendingArticleCount": 0,
+        "fetchedCount": 74,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -7005,12 +7096,16 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 3285,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 3493,
+        "pendingArticleCount": 110,
+        "fetchedCount": 100,
+        "bulkLastmodIgnored": true,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -7023,12 +7118,16 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 1998,
-        "pendingArticleCount": 0
+        "pendingArticleCount": 0,
+        "fetchedCount": 39,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -7041,12 +7140,16 @@
           "channel": "pr",
           "url": "https://www.homesandgardens.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-10-26T09:19:50.355Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 151,
-        "pendingArticleCount": 0
+        "discoveredUrlCount": 93,
+        "pendingArticleCount": 0,
+        "fetchedCount": 24,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -7066,13 +7169,13 @@
           "channel": "pr",
           "url": "https://www.androidcentral.com/sitemap.xml"
         },
-        "checkedAt": "2026-10-27T09:15:41.363Z",
+        "checkedAt": "2026-11-02T11:39:11.487Z",
         "status": "ok",
-        "baseline": true,
+        "baseline": false,
         "itemCount": 0,
-        "discoveredUrlCount": 328,
+        "discoveredUrlCount": 119,
         "pendingArticleCount": 0,
-        "fetchedCount": 0,
+        "fetchedCount": 17,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -7095,25 +7198,13 @@
           "channel": "pr",
           "url": "https://www.capital.fr/sitemap/articles.xml"
         },
-        "checkedAt": "2026-10-28T05:44:34.841Z",
-        "status": "ok",
-        "baseline": true,
-        "itemCount": 0,
-        "discoveredUrlCount": 31,
-        "pendingArticleCount": 0,
-        "fetchedCount": 0,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "discoveryCheckpoint": {
-          "version": "capital_numbered_v1",
-          "scope": "FR_conso_public_articles",
-          "cursorPage": 552,
-          "highestSeenPage": 552,
-          "pendingShardCount": 0,
-          "discoveryWindowStartPage": 551,
-          "discoveryWindowEndPage": 552
-        },
-        "verifiedRedirects": []
+        "checkedAt": "2026-11-02T11:39:11.487Z",
+        "status": "error",
+        "error": "Capital visible and structured full editorial bodies disagree",
+        "requestUrl": "",
+        "httpStatus": null,
+        "redirectTarget": null,
+        "itemCount": 0
       },
       {
         "source": {
@@ -7133,19 +7224,315 @@
           "channel": "pr",
           "url": "https://www.mein-schoener-garten.de/article/sitemap.xml"
         },
-        "checkedAt": "2026-10-28T05:44:38.041Z",
-        "status": "ok",
-        "baseline": true,
-        "itemCount": 0,
-        "discoveredUrlCount": 1941,
-        "pendingArticleCount": 0,
-        "fetchedCount": 0,
-        "bulkLastmodIgnored": false,
-        "historicalSeedsBootstrapped": [],
-        "verifiedRedirects": []
+        "checkedAt": "2026-11-02T11:39:11.487Z",
+        "status": "error",
+        "error": "Garten editorial template changed; verify unsupported content before collection: ParagraphDownload",
+        "requestUrl": "https://www.mein-schoener-garten.de/gartenpraxis/ziergaerten/stauden-teilen-so-gehts-richtig-6931",
+        "httpStatus": null,
+        "redirectTarget": null,
+        "itemCount": 0
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-188568D36954",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion unveils its latest LUBA robot mower – and it's coming for those missed edges",
+        "sourceUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+        "publishDate": "2026-09-03T11:55:00+00:00",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-03T11:55:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-03T11:55:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-03T11:55:00Z"
+            }
+          ],
+          "contentHash": "bed57e19e5fd4eb718158680cebbde12e9ec9f21af55273588483bc8385b549b",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-55563690449A",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Anthbot N8 robot lawn mower review: Arguably the most versatile wireless robot mower on the market right now",
+        "sourceUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+        "publishDate": "2026-10-26T08:00:00Z",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "h1",
+          "dateSource": "meta.published_time",
+          "dateCandidates": [
+            {
+              "source": "meta.published_time",
+              "value": "2026-10-26T08:00:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-26T08:00:00Z"
+            }
+          ],
+          "contentHash": "67ffd79e5ef526461688023f0994238a99bb9e14c427bf6c68e33a31b9d0d3ef",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-C5CA5A5B20D8",
+        "sourceId": "pr-us-tomsguide-mammotion",
+        "sourceType": "media",
+        "outlet": "Tom's Guide",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Best robot lawnmowers of CES",
+        "sourceUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
+        "publishDate": "2026-01-08T12:30:00+00:00",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.tomsguide.com/sitemap.xml",
+          "articleUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "Tom's Guide",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-01-08T12:30:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-01-08T12:30:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-01-08T12:30:00Z"
+            }
+          ],
+          "contentHash": "f5413b9cc0a3094145a48146775803bd1ffaaa9ebddf5aabfe8e5200df4c68e2",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-D14865710429",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Nachtfahrverbot für Mähroboter: Wo es gilt und welche Zeiten wichtig sind",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-nachtfahrverbot-igelschutz-0043-140018",
+        "publishDate": "2026-10-30T11:21:59+00:00",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "other"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-nachtfahrverbot-igelschutz-0043-140018",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-30T11:21:59+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-30T12:21:59+01:00"
+            }
+          ],
+          "contentHash": "3843822ce7a5b284369595aced4407a0c14a8dcbcff7789bb28b05e21fec20ae",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-B25CCAE616A1",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Kind, Hund, Igel: So sicher sind Mähroboter wirklich",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0012-426322",
+        "publishDate": "2026-11-01T15:22:20+00:00",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0012-426322",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-11-01T15:22:20+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-01T16:22:20+01:00"
+            }
+          ],
+          "contentHash": "3945a22dc211e11970a5f18f1d10f0edc68ff182ffeb28b53aa0300d37fae6d9",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-4008ECDA3B8F",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mähroboter-Garage: Die besten Modelle – auch für GPS-Roboter",
+        "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-gps-roboter-0016-973608",
+        "publishDate": "2026-11-01T17:17:02+00:00",
+        "discoveredAt": "2026-11-02T11:39:11.487Z",
+        "themeAssessment": {
+          "tags": [
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-garage-gps-roboter-0016-973608",
+          "capturedAt": "2026-11-02T11:39:11.487Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-11-01T17:17:02+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-01T18:17:02+01:00"
+            }
+          ],
+          "contentHash": "743e3b2ab2cad71eb039e4d56eab3a42a5870754d1ba93865b5d02c17fc902eb",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
       {
         "recordId": "PR-FEFDEA69F308",
         "sourceId": "pr-uk-t3-mammotion",
