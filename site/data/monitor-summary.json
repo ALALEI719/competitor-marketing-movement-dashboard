@@ -21,7 +21,7 @@
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 23,
-    "pendingPrChanges": 8
+    "pendingPrChanges": 4
   },
   "sites": [
     {
@@ -7008,7 +7008,7 @@
         "countryCode": "UK",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Anthbot N8 robot lawn mower review: Arguably the most versatile wireless robot mower on the market right now",
         "sourceUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
         "publishDate": "2026-10-26T08:00:00Z",
@@ -7110,7 +7110,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Nachtfahrverbot für Mähroboter: Wo es gilt und welche Zeiten wichtig sind",
         "sourceUrl": "https://www.homeandsmart.de/maehroboter-nachtfahrverbot-igelschutz-0043-140018",
         "publishDate": "2026-10-30T11:21:59+00:00",
@@ -7158,7 +7158,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Kind, Hund, Igel: So sicher sind Mähroboter wirklich",
         "sourceUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0012-426322",
         "publishDate": "2026-11-01T15:22:20+00:00",
@@ -7206,7 +7206,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Mähroboter-Garage: Die besten Modelle – auch für GPS-Roboter",
         "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-gps-roboter-0016-973608",
         "publishDate": "2026-11-01T17:17:02+00:00",
