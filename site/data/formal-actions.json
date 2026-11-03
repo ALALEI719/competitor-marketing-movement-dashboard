@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-03T09:44:54.639Z",
+  "updatedAt": "2026-11-03T10:27:55.083Z",
   "actions": [
     {
       "changeType": "new_page",
@@ -427,6 +427,46 @@
       "reviewedAt": "2026-11-03T02:15:26.124Z"
     },
     {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "bce70df4763271021cb955d30e911cbe884f2e92d0f61498258ac32df5ea60a9",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-28T09:01:17.381Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-BFA77A4E9A7B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-28T09:01:17.381Z",
+      "publishDate": "",
+      "title": "英国官网保存载有9月17日至10月7日条款的秋促页面",
+      "summary": "10/28自身保存正文包含秋促及产品卡，条款明确September17–October7,2026、各官网local time，新客最高50英镑券按品类且不得与其他码叠加（除明确说明），积分需登录与同邮箱且退款会扣回。观察日在该文字期间之后；只记录历史来源内容，不称10/28新促销/仍有效。GBP与德语EUR、Add to cart/Sold out等多套DOM并存，不能据此确认实际可用价/币种/库存；September6更新只属推荐奖励模块。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/pages/jhhj3jkjhl"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/pages/jhhj3jkjhl",
+          "capturedAt": "2026-10-28T09:01:17.381Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:18.298Z"
+    },
+    {
       "actionId": "ACT-EDM-39541F049E99",
       "entityId": "",
       "brand": "Dreame",
@@ -805,6 +845,46 @@
       "reviewedAt": "2026-10-26T06:05:15.353Z"
     },
     {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d86122c431bd7297401076814edaee36e381e66bb10cea5819b4a8dbfb61feef",
+        "afterHash": "c094125e9de079fdcdd6f212b1dd9f5bb9499000c631f78fb71ac3ba0eac63df",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-21T08:01:28.055Z",
+        "capturedAt": "2026-10-22T07:59:22.430Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-FD1398049608",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-22T07:59:22.430Z",
+      "publishDate": "",
+      "title": "德国首页LUBA 3 AWD起价展示下调并出现YUKA mini 2 800价卡",
+      "summary": "保存的10/21→10/22德国首页同名LUBA 3 AWD卡由2299欧元起改为2099欧元起，出现2299参考价；另有YUKA mini 2 800的899/999价卡。仅核来源展示，不认同SKU结算降价、新上市或实际库存。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-10-22T07:59:22.430Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:19.334Z"
+    },
+    {
       "actionId": "ACT-EDM-E6163C71D907",
       "entityId": "",
       "brand": "Mova",
@@ -947,6 +1027,126 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:15.485Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "a701806c964d8b824b7321040f89e5f5817ba442223a6ec3449eb9a0943e95d9",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-21T08:01:34.368Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-35775B7D979A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "title": "法国官网保存LUBA系列产品集合与选购说明",
+      "summary": "10/21自身完整结构化正文已保存LUBA3、mini2 AWD 1000/1500三款集合、导航/面积筛选及无边界线FAQ；卡内分别可见2299/1399/1699欧元起等源数字。只核当时集合陈列，不认三个新品首售或新促销；10/26的301/落点200不倒填10/21重定向。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/collections/luba-awd-series"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/collections/luba-awd-series",
+          "capturedAt": "2026-10-21T08:01:34.368Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:18.503Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "6ab57a14c5499ec5dba0e3a453e11f093a9793cf790e3e7119d4d805ade9d5e3",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-21T08:01:34.368Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-23BF957597E7",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-21T08:01:34.368Z",
+      "publishDate": "",
+      "title": "法国官网保存YUKA系列集合及功能问答",
+      "summary": "10/21自身正文列YUKA mini 2 1000/800两款、RWD及导航筛选、选择LUBA/YUKA的FAQ；源显示1099/1299与899/999欧元并在800项有Rupture de stock文字。只记录来源陈列，不核实际仓储/结算可售、新优惠或新上市；后来301另记。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/collections/yuka-series"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/collections/yuka-series",
+          "capturedAt": "2026-10-21T08:01:34.368Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:18.701Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "5f5dbe752878fbe827218fa616d5872ff021d1e6a2ad17e7684799022843aa46",
+        "afterHash": "d86122c431bd7297401076814edaee36e381e66bb10cea5819b4a8dbfb61feef",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-19T07:56:02.474Z",
+        "capturedAt": "2026-10-21T08:01:28.055Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-85BCC0EAC009",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-21T08:01:28.055Z",
+      "publishDate": "",
+      "title": "德国首页已存正文不再列出YUKA 2000㎡价卡",
+      "summary": "10/19→10/21保存正文中原YUKA 2000㎡899/999价卡不再出现，另有德语导航/文案修订。只记录来源陈列变化，不认下架停售、缺货或与次日YUKA mini 2 800为同SKU。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-10-21T08:01:28.055Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:19.495Z"
     },
     {
       "changeType": "new_page",
@@ -2537,6 +2737,126 @@
       "contentEvidence": {
         "status": "new_content",
         "beforeHash": "",
+        "afterHash": "63035b45728b479f71142515664f0512238bd279140377ec4036f2b043b85b7d",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-19T07:56:08.127Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-B621541EC45D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "title": "法国官网保存法语割草机选购问卷入口",
+      "summary": "10/19保存自身正文邀请按草坪面积需求使用问卷或比较机型，含1/5及Retour/Suivant模板。只确认选购辅助来源收录；10/26首题截图另时点，未回答/提交，不证明10/19全流程可用或具体推荐SKU。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/pages/guide-achat-robots-tondeuses"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/pages/guide-achat-robots-tondeuses",
+          "capturedAt": "2026-10-19T07:56:08.127Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:18.892Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "a39677f17e9a4330df606c24efd32919f4bbe880cc173d4e386526fe7e56e687",
+        "afterHash": "00e6f11098e7610822e9f9d922b3eea5db0b96eb355e6a1ae66c0f0abd47c0de",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-12T09:26:42.710Z",
+        "capturedAt": "2026-10-19T07:56:08.127Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-37AF5FB542BD",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:08.127Z",
+      "publishDate": "",
+      "title": "法国首页调整YUKA与SPINO展示及商城说明",
+      "summary": "10/12→10/19保存正文中YUKA mini 2 800卡不再出现，SPINO E1卡出现499/799欧元，已有同名割草机卡金额未变。会员/iNavi/售后文字属来源陈列，不认本轮新品首售、优惠资格或YUKA缺货。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/",
+          "capturedAt": "2026-10-19T07:56:08.127Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:19.763Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "65bec6b916ba8462b622b190a302f6bc7b015095839e68ff0d282096abb23295",
+        "afterHash": "538f8dfcc46b3567f7f81881b597f99e2f6be76052efdd57d3fdbb0fc204a552",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-12T09:26:39.555Z",
+        "capturedAt": "2026-10-19T07:56:05.306Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-AE0BD37C09E3",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:05.306Z",
+      "publishDate": "",
+      "title": "英国首页YUKA mini 2 1000展示由1199变为999英镑",
+      "summary": "10/12→10/19已存首页同名YUKA mini 2 1000卡金额1199→999英镑，后文带1199参考价；其他同名割草机金额未变。只记价卡展示，不能把共享Join & Save £50叠加进实付价。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/",
+          "capturedAt": "2026-10-19T07:56:05.306Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:20.047Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
         "afterHash": "28ba2eed42c44f2b5c5dc3cacfc7cbc69f16df7bfbce9375367eab28fc93db73",
         "hashBasis": "saved_page_snapshot_bodyText_sha256",
         "comparisonVersion": "legacy_page_snapshot_v1.2_bodyText_initial_observation",
@@ -2570,6 +2890,126 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-03T09:44:54.579Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "adbaf3be8ca7d186624fc256184b9ebdea1b19eb45805bed4329e3cc04e5750a",
+        "afterHash": "5f5dbe752878fbe827218fa616d5872ff021d1e6a2ad17e7684799022843aa46",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-12T09:26:34.345Z",
+        "capturedAt": "2026-10-19T07:56:02.474Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-B814F117581D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:02.474Z",
+      "publishDate": "",
+      "title": "德国首页补出YUKA价卡数字及调整卡片名单",
+      "summary": "10/12→10/19同名YUKA mini 2 1000从只有Angebot、无数值变为1099/1299欧元；另见YUKA 2000㎡899/999及SPINO E1卡，原无数字800卡不再见。未知数字不是0，不能据此推价格降幅、新SKU或首售。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-10-19T07:56:02.474Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:20.311Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "2637348b515eafbb7323e69a2a1a19dc9b7c50015b374c13cab2586a69a47ef0",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-19T07:55:55.367Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-748229E96FF3",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "title": "美国官网保存英语割草机选购指南问卷",
+      "summary": "10/19自身正文含Which Mower is Right For You、1/5问卷、Measure Now与商城支持说明。仅保存选购辅助内容，不认全流程、首次上线或共享50美元实际资格；同国同观察时刻的-1地址核心正文按新增有限比较相同，择本原ID为该核心内容归属。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/pages/robot-lawn-mower-buying-guide",
+          "capturedAt": "2026-10-19T07:55:55.367Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:19.044Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "b6358daa2dec31dbfb87c86b40dd3623bdb999b2bdaa325016e02ecd0b4870fc",
+        "afterHash": "f623e32494a8a811447daa0a57e57c1267434e44d28e3b3a36302bdfef145ddf",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-12T09:26:29.828Z",
+        "capturedAt": "2026-10-19T07:55:55.367Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-57045EE6F692",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:55:55.367Z",
+      "publishDate": "",
+      "title": "美国首页改见LUBA mini 2 AWD 1500H标签并补SPINO价卡",
+      "summary": "10/12→10/19保存正文由通称LUBA mini 2 AWD改见1500H标签，两者同为1799美元起但不足证明同SKU；另出现SPINO E1的499/799美元卡。只记来源陈列，不认换代、新上市或共享券实际生效。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/",
+          "capturedAt": "2026-10-19T07:55:55.367Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:20.500Z"
     },
     {
       "actionId": "ACT-EDM-F0D6FB102756",
@@ -3416,6 +3856,206 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:19.176Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "b5208c1dda95c455926096066a796fb1cc48a5f96a434af6136e87a8fd5fbf28",
+        "afterHash": "a39677f17e9a4330df606c24efd32919f4bbe880cc173d4e386526fe7e56e687",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-05T09:15:13.425Z",
+        "capturedAt": "2026-10-12T09:26:42.710Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-19FCA1698414",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:42.710Z",
+      "publishDate": "",
+      "title": "法国首页三组同名价卡金额上调及秋促横幅不再出现",
+      "summary": "保存的前后正文中LUBA3起价1999→2299、mini1500起价1599→1699、mini1000起价1299→1399欧元，另见YUKA mini800的899/999卡；原369欧元/礼品秋促横幅不再出现。只记展示变化，不反推活动精确结束或结算常规价。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/",
+          "capturedAt": "2026-10-12T09:26:42.710Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:20.759Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "ac487311ae86ad819ff71c43aece51d9eaffb476028f9a35b300bb8af0a70385",
+        "afterHash": "65bec6b916ba8462b622b190a302f6bc7b015095839e68ff0d282096abb23295",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-05T09:15:11.012Z",
+        "capturedAt": "2026-10-12T09:26:39.555Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-7C263017AF9F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:39.555Z",
+      "publishDate": "",
+      "title": "英国首页四组同名价卡展示金额上调",
+      "summary": "保存的前后正文中LUBA3 1999→2099、mini1000 1249→1399、mini1500 1499→1699、YUKA mini1000 999→1199英镑；主秋促横幅/倒计时消失但仍有Autumn Sale片段，不能宣布整场活动结束。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/",
+          "capturedAt": "2026-10-12T09:26:39.555Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:21.026Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "37eb7083028918a25f1b5f1292ab13ebe69f7b1d3da2adc0c45cdcbfac05bb2f",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": null,
+        "capturedAt": "2026-10-12T09:26:34.345Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-2F3C6F6D292A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:34.345Z",
+      "publishDate": "",
+      "title": "德国官网保存无边界线割草机集合与功能FAQ",
+      "summary": "10/12自身正文包含八款产品集合、导航/传动/覆盖面积筛选、卡片源价格与缺货字样，以及无边界线/信号/多区等FAQ。copy路径不证明测试页；只核当时集合介绍，不认新上市、真实库存、优惠资格或与别国集合合并。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/collections/mahroboter-ohne-begrenzungskabel-copy"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/collections/mahroboter-ohne-begrenzungskabel-copy",
+          "capturedAt": "2026-10-12T09:26:34.345Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:19.194Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "bee7abfa6181d6e5fccd6afe879a312491874f41d9b527b5c10ade8f2a90337f",
+        "afterHash": "adbaf3be8ca7d186624fc256184b9ebdea1b19eb45805bed4329e3cc04e5750a",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-05T09:15:08.459Z",
+        "capturedAt": "2026-10-12T09:26:34.345Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-6CE53D975972",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:34.345Z",
+      "publishDate": "",
+      "title": "德国首页三组同名价卡展示金额上调",
+      "summary": "保存的前后正文中LUBA3起价1999→2299、mini1500 1599→1699、mini1000 1299→1399欧元；另见无数字的YUKA mini800 Angebot，原秋促礼品横幅消失。只记源展示，融资文字不证明首售或实际资格。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-10-12T09:26:34.345Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:21.190Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "7c31005b80b97fdc6304e7876e0a61b187583570313f7ace990437c80530115e",
+        "afterHash": "b6358daa2dec31dbfb87c86b40dd3623bdb999b2bdaa325016e02ecd0b4870fc",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_v1.2_complete_source_body",
+        "beforeCapturedAt": "2026-10-05T09:15:06.265Z",
+        "capturedAt": "2026-10-12T09:26:29.828Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-56B748A6ED5A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-12T09:26:29.828Z",
+      "publishDate": "",
+      "title": "美国首页两组起价展示上调且秋促横幅不再出现",
+      "summary": "保存的前后正文中LUBA3起价2109→2399、mini2 AWD起价1699→1799美元，原Sep17–Oct7/最高740美元礼品横幅不再出现。来源未明示该段年份时区，不借后来英国条款补美国期间，也不认当前新活动。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/",
+          "capturedAt": "2026-10-12T09:26:29.828Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T10:09:21.321Z"
     },
     {
       "actionId": "ACT-14E06F5E7901",
