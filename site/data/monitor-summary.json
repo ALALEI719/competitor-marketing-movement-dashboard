@@ -21,7 +21,7 @@
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 23,
-    "pendingPrChanges": 10
+    "pendingPrChanges": 8
   },
   "sites": [
     {
@@ -6955,7 +6955,7 @@
         "countryCode": "UK",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Mammotion unveils its latest LUBA robot mower – and it's coming for those missed edges",
         "sourceUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
         "publishDate": "2026-09-03T11:55:00+00:00",
@@ -7057,7 +7057,7 @@
         "countryCode": "US",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Best robot lawnmowers of CES",
         "sourceUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
         "publishDate": "2026-01-08T12:30:00+00:00",
