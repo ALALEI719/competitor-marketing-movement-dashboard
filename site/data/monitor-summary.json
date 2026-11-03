@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 68,
-    "pendingChannelChanges": 7,
+    "blogChanges": 73,
+    "pendingChannelChanges": 12,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 23,
@@ -2641,7 +2641,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-02T10:03:11.616Z",
+    "checkedAt": "2026-11-03T10:08:56.236Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2653,21 +2653,21 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "checkedAt": "2026-11-03T10:08:56.236Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 22,
+          "comparable": 24,
           "backfillErrors": []
         }
       },
@@ -2680,21 +2680,21 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "checkedAt": "2026-11-03T10:08:56.236Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-26T09:51:41+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 21,
+          "comparable": 23,
           "backfillErrors": []
         }
       },
@@ -2707,13 +2707,13 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "checkedAt": "2026-11-03T10:08:56.236Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-09-14T08:15:57+01:00",
+        "latestPublishedAt": "2026-11-03T06:27:21+00:00",
         "changeCounts": {
-          "added": 0,
+          "added": 2,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2721,7 +2721,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 20,
+          "comparable": 24,
           "backfillErrors": []
         }
       },
@@ -2734,13 +2734,13 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-02T10:03:11.616Z",
+        "checkedAt": "2026-11-03T10:08:56.236Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-22T11:32:06+02:00",
+        "latestPublishedAt": "2026-11-03T07:20:58+01:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2754,6 +2754,352 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-7D4001C0B787",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-11-03T01:11:03-08:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Explore Mammotion Black Friday 2026 deals from Nov 10–30. Discover the biggest offers on robotic mowers, plus exclusive rewards. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "b94f0c0523e5e1c01e8f5535b160cdc2e46ea20a8a748d84b5a418d4e9fb796a",
+          "afterHash": "2c0d24c637875925da79c1b29855d9604e3f9b762301b93445af339cf7d8c96e",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "This page is your destination for updates on Mammotion's Black Friday offers, featured robotic lawn mowers, and pool cleaning solutions. Whether you're looking for a smarter way to maintain your lawn or an easier way to care for your pool, exploring the right product now can help you make a more inf",
+          "afterExcerpt": "Explore our featured robotic lawn mowers and pool cleaning solutions, along with the latest updates on official Mammotion Black Friday offers. Whether you're looking for a smarter way to maintain your lawn or an easier way to care for your pool, this page will help you compare products and find the "
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at",
+            "summary"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 1,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.95
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7DDA0995EDA1",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Wann ist Amazon Prime Day 2026? Erwartete Termine, Trends & Tipps",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-amazon-prime-day",
+        "publishDate": "2026-05-29T09:53:18+02:00",
+        "updatedAt": "2026-11-03T07:47:32+01:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Der Amazon Prime Day 2026 wird voraussichtlich im Juni stattfinden. Erfahren Sie die erwarteten Termine, warum sich der Zeitpunkt verändert hat und welche Produktkategorien besonders gefragt sind. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "bfa02d9b0fc52f6a28abc5199281c17488fed8cf4baee74e19c2eeb386e9df71",
+          "afterHash": "3abfff54f20fbe6c9e68d969a9c3eab06076ecf1a6f4fbbc54ba4cf1147b6bba",
+          "changedFields": [
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "Prime Day im Angebot – mit Preisnachlässen. Schauen Sie doch mal, ob etwas für Sie dabei ist. . Erfahren Sie mehr über Mammotion Prime Sales🏷️ - Sommerverkauf . . . . Amazon Prime Day Historie: Termine der letzten Jahre . Der Amazon Prime Day hat sich in den letzten Jahren sowohl in Bezug auf den Z",
+          "afterExcerpt": "Black Friday 2026 im Angebot – mit Preisnachlässen. Schauen Sie doch mal, ob etwas für Sie dabei ist. . Erfahren Sie mehr über Mammotion Black Friday Sales 2026🏷️ - Black Friday . . . . Amazon Prime Day Historie: Termine der letzten Jahre . Der Amazon Prime Day hat sich in den letzten Jahren sowohl"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.4,
+          "monitoringPriority": 2.13,
+          "priorityConfidence": 0.53
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-26CD0C8F736A",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday 2026 Buying Guide",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/mammotion-black-friday-buying-guide",
+        "publishDate": "2026-11-03T06:27:21+00:00",
+        "updatedAt": "2026-11-03T06:27:22+00:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Discover Mammotion UK’s Black Friday campaign from 3–30 November 2026. Explore member activities, prize draws, referral rewards—plus Our Biggest Savings of the Year on selected products from 10–30 November. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a655ff63353457f6f08eeb97e66a9e0f9bbe2bd46123b82c9cfed22756f17ef6",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "00㎡) work best with compact models like Mammotion YUKA mini series. Larger gardens need stronger, long-range "
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "eed stronger, long-range models such as Mammotion LUBA AWD series . 2. Slope Capability Check if your garden"
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "odel Ideal For Models Small and Medium Flat Lawns YUKA mini 2 Series Standard suburban and urban residential ga"
+          },
+          {
+            "name": "YUKA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "ntial gardens with flat terrain and low inclines. YUKA mini 2 1000 Medium Uneven / Hilly Gardens LUBA mini 2 AWD Ser"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "s. YUKA mini 2 1000 Medium Uneven / Hilly Gardens LUBA mini 2 AWD Series Mid-sized sloping gardens with bumpy groun"
+          },
+          {
+            "name": "LUBA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "y traction and precise edge-cutting capabilities. LUBA mini 2 1000/1500 Uneven / Hilly Large Lawns LUBA 3 AWD Series"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": " LUBA mini 2 1000/1500 Uneven / Hilly Large Lawns LUBA 3 AWD Series Expansive properties and challenging terra"
+          },
+          {
+            "name": "LUBA 3 AWD 1500",
+            "source": "article_body",
+            "excerpt": "ep slopes, rough ground, or multi-level contours. LUBA 3 AWD 1500/3000/5000 1. For Small and Medium Flat Lawns Reco"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.93,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-AFB43D56D61C",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Cleaning a Robot Lawn Mower: A Step-by-Step Guide",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/how-to-clean-robot-lawn-mower",
+        "publishDate": "2026-11-02T10:23:34+00:00",
+        "updatedAt": "2026-11-02T10:23:34+00:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Learn how to clean Mammotion robot lawn mower safely, from the cutting disc and wheels to the sensors and charging contacts, with a practical cleaning schedule. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "02250e38b0e79d95e48c3684f20b12ef82273795d2e8c527a107a827877550ed",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "enough. 💡 Guidance for specific Mammotion models LUBA 3 AWD: you can remove the cutting disc and blade guard "
+          },
+          {
+            "name": "LUBA 2 AWD",
+            "source": "article_body",
+            "excerpt": "ng, taking care not to press on the LiDAR module. LUBA 2 AWD / LUBA 2 AWD X: do not remove the protective brac"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.53,
+          "priorityConfidence": 0.6
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A35E1C2BC5A2",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Guide d’achat Black Friday Mammotion 2026",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/guide-achat-black-friday",
+        "publishDate": "2026-11-03T07:20:58+01:00",
+        "updatedAt": "2026-11-03T07:27:33+01:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Découvrez la campagne Black Friday de Mammotion FR du 3 au 30 novembre 2026. Profitez des activités membres, tirages au sort, parrainages et événements de présence—ainsi que de Nos plus grandes économies de l’année sur une sélection de produits du 10 au 30 novembre. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "911b4b284c633c954f0f16c24319a3c1b52b0a9d8d71b9671273ca29fa6f0b20",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "ent aux modèles compacts comme la série Mammotion YUKA mini. Les grands jardins nécessitent des modèles plus "
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "à plus grande portée, tels que la série Mammotion LUBA AWD. 2. Capacité de pente Vérifiez si votre jardin co"
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "Modèles Petites et moyennes pelouses plates Série YUKA mini 2 Jardins résidentiels urbains et périurbains stand"
+          },
+          {
+            "name": "YUKA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "rbains standards, terrain plat et faibles pentes. YUKA mini 2 1000 Jardins moyens irréguliers/en pente Série LUBA mi"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": " 2 1000 Jardins moyens irréguliers/en pente Série LUBA mini 2 AWD Jardins de taille moyenne en pente, avec un sol b"
+          },
+          {
+            "name": "LUBA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "orte motricité et une coupe des bordures précise. LUBA mini 2 1000/1500 Grandes pelouses irrégulières/en pente Série"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "1500 Grandes pelouses irrégulières/en pente Série LUBA 3 AWD Grandes propriétés et terrains exigeants avec pen"
+          },
+          {
+            "name": "LUBA 3 AWD 1500",
+            "source": "article_body",
+            "excerpt": "tes raides, sol accidenté ou dénivelés multiples. LUBA 3 AWD 1500/3000/5000 1. Pour les petites et moyennes pelouse"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.96,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.96,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.98
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-28B099FC050A",
         "sourceId": "mammotion-de-blog",
@@ -6114,6 +6460,352 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-7D4001C0B787",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-11-03T01:11:03-08:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Explore Mammotion Black Friday 2026 deals from Nov 10–30. Discover the biggest offers on robotic mowers, plus exclusive rewards. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "b94f0c0523e5e1c01e8f5535b160cdc2e46ea20a8a748d84b5a418d4e9fb796a",
+          "afterHash": "2c0d24c637875925da79c1b29855d9604e3f9b762301b93445af339cf7d8c96e",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "This page is your destination for updates on Mammotion's Black Friday offers, featured robotic lawn mowers, and pool cleaning solutions. Whether you're looking for a smarter way to maintain your lawn or an easier way to care for your pool, exploring the right product now can help you make a more inf",
+          "afterExcerpt": "Explore our featured robotic lawn mowers and pool cleaning solutions, along with the latest updates on official Mammotion Black Friday offers. Whether you're looking for a smarter way to maintain your lawn or an easier way to care for your pool, this page will help you compare products and find the "
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at",
+            "summary"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": " robotic lawn mowing and automatic pool cleaning. LUBA 3 AWD 3000: Advanced Robotic Lawn Care The Mammotion LUBA 3 "
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "l to explore ahead of the Black Friday sale. MEET LUBA 3 AWD Smarter Lawn Care Starts Here Explore wire-free r"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "heel Drive Smart App Control Explore LUBA 3 AWD → LUBA mini 2 AWD 1500H: Compact Power for Smaller Lawns The Mammot"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": "ose-to-Edge Mowing Explore LUBA mini 2 AWD 1500 → SPINO E1: Automated Pool Cleaning The Mammotion SPINO E1 i"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 1,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.95
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-7DDA0995EDA1",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Wann ist Amazon Prime Day 2026? Erwartete Termine, Trends & Tipps",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/wann-ist-amazon-prime-day",
+        "publishDate": "2026-05-29T09:53:18+02:00",
+        "updatedAt": "2026-11-03T07:47:32+01:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Der Amazon Prime Day 2026 wird voraussichtlich im Juni stattfinden. Erfahren Sie die erwarteten Termine, warum sich der Zeitpunkt verändert hat und welche Produktkategorien besonders gefragt sind. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "bfa02d9b0fc52f6a28abc5199281c17488fed8cf4baee74e19c2eeb386e9df71",
+          "afterHash": "3abfff54f20fbe6c9e68d969a9c3eab06076ecf1a6f4fbbc54ba4cf1147b6bba",
+          "changedFields": [
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "Prime Day im Angebot – mit Preisnachlässen. Schauen Sie doch mal, ob etwas für Sie dabei ist. . Erfahren Sie mehr über Mammotion Prime Sales🏷️ - Sommerverkauf . . . . Amazon Prime Day Historie: Termine der letzten Jahre . Der Amazon Prime Day hat sich in den letzten Jahren sowohl in Bezug auf den Z",
+          "afterExcerpt": "Black Friday 2026 im Angebot – mit Preisnachlässen. Schauen Sie doch mal, ob etwas für Sie dabei ist. . Erfahren Sie mehr über Mammotion Black Friday Sales 2026🏷️ - Black Friday . . . . Amazon Prime Day Historie: Termine der letzten Jahre . Der Amazon Prime Day hat sich in den letzten Jahren sowohl"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.4,
+          "monitoringPriority": 2.13,
+          "priorityConfidence": 0.53
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-26CD0C8F736A",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday 2026 Buying Guide",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/mammotion-black-friday-buying-guide",
+        "publishDate": "2026-11-03T06:27:21+00:00",
+        "updatedAt": "2026-11-03T06:27:22+00:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Discover Mammotion UK’s Black Friday campaign from 3–30 November 2026. Explore member activities, prize draws, referral rewards—plus Our Biggest Savings of the Year on selected products from 10–30 November. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a655ff63353457f6f08eeb97e66a9e0f9bbe2bd46123b82c9cfed22756f17ef6",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "00㎡) work best with compact models like Mammotion YUKA mini series. Larger gardens need stronger, long-range "
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "eed stronger, long-range models such as Mammotion LUBA AWD series . 2. Slope Capability Check if your garden"
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "odel Ideal For Models Small and Medium Flat Lawns YUKA mini 2 Series Standard suburban and urban residential ga"
+          },
+          {
+            "name": "YUKA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "ntial gardens with flat terrain and low inclines. YUKA mini 2 1000 Medium Uneven / Hilly Gardens LUBA mini 2 AWD Ser"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "s. YUKA mini 2 1000 Medium Uneven / Hilly Gardens LUBA mini 2 AWD Series Mid-sized sloping gardens with bumpy groun"
+          },
+          {
+            "name": "LUBA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "y traction and precise edge-cutting capabilities. LUBA mini 2 1000/1500 Uneven / Hilly Large Lawns LUBA 3 AWD Series"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": " LUBA mini 2 1000/1500 Uneven / Hilly Large Lawns LUBA 3 AWD Series Expansive properties and challenging terra"
+          },
+          {
+            "name": "LUBA 3 AWD 1500",
+            "source": "article_body",
+            "excerpt": "ep slopes, rough ground, or multi-level contours. LUBA 3 AWD 1500/3000/5000 1. For Small and Medium Flat Lawns Reco"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.01,
+          "newProductConfidence": 0.98,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.93,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-AFB43D56D61C",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Cleaning a Robot Lawn Mower: A Step-by-Step Guide",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/how-to-clean-robot-lawn-mower",
+        "publishDate": "2026-11-02T10:23:34+00:00",
+        "updatedAt": "2026-11-02T10:23:34+00:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Learn how to clean Mammotion robot lawn mower safely, from the cutting disc and wheels to the sensors and charging contacts, with a practical cleaning schedule. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "02250e38b0e79d95e48c3684f20b12ef82273795d2e8c527a107a827877550ed",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "enough. 💡 Guidance for specific Mammotion models LUBA 3 AWD: you can remove the cutting disc and blade guard "
+          },
+          {
+            "name": "LUBA 2 AWD",
+            "source": "article_body",
+            "excerpt": "ng, taking care not to press on the LiDAR module. LUBA 2 AWD / LUBA 2 AWD X: do not remove the protective brac"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.53,
+          "priorityConfidence": 0.6
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-A35E1C2BC5A2",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Guide d’achat Black Friday Mammotion 2026",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/guide-achat-black-friday",
+        "publishDate": "2026-11-03T07:20:58+01:00",
+        "updatedAt": "2026-11-03T07:27:33+01:00",
+        "discoveredAt": "2026-11-03T10:08:56.236Z",
+        "summary": "Découvrez la campagne Black Friday de Mammotion FR du 3 au 30 novembre 2026. Profitez des activités membres, tirages au sort, parrainages et événements de présence—ainsi que de Nos plus grandes économies de l’année sur une sélection de produits du 10 au 30 novembre. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "911b4b284c633c954f0f16c24319a3c1b52b0a9d8d71b9671273ca29fa6f0b20",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA mini",
+            "source": "article_body",
+            "excerpt": "ent aux modèles compacts comme la série Mammotion YUKA mini. Les grands jardins nécessitent des modèles plus "
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "à plus grande portée, tels que la série Mammotion LUBA AWD. 2. Capacité de pente Vérifiez si votre jardin co"
+          },
+          {
+            "name": "YUKA mini 2",
+            "source": "article_body",
+            "excerpt": "Modèles Petites et moyennes pelouses plates Série YUKA mini 2 Jardins résidentiels urbains et périurbains stand"
+          },
+          {
+            "name": "YUKA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "rbains standards, terrain plat et faibles pentes. YUKA mini 2 1000 Jardins moyens irréguliers/en pente Série LUBA mi"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": " 2 1000 Jardins moyens irréguliers/en pente Série LUBA mini 2 AWD Jardins de taille moyenne en pente, avec un sol b"
+          },
+          {
+            "name": "LUBA mini 2 1000",
+            "source": "article_body",
+            "excerpt": "orte motricité et une coupe des bordures précise. LUBA mini 2 1000/1500 Grandes pelouses irrégulières/en pente Série"
+          },
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "1500 Grandes pelouses irrégulières/en pente Série LUBA 3 AWD Grandes propriétés et terrains exigeants avec pen"
+          },
+          {
+            "name": "LUBA 3 AWD 1500",
+            "source": "article_body",
+            "excerpt": "tes raides, sol accidenté ou dénivelés multiples. LUBA 3 AWD 1500/3000/5000 1. Pour les petites et moyennes pelouse"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.03,
+          "newProductConfidence": 0.96,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.96,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.98
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-E51629ECF19C",
         "sourceId": "mammotion-fr-blog",

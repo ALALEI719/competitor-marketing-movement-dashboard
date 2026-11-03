@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-02T09:43:23.875Z",
+  "generatedAt": "2026-11-03T10:09:13.649Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -904,6 +904,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-cf649cfdab138dae-2026-10-28T09-01-40-072Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-03T10:09:04.287Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:31.678Z",
+          "title": "Robot Tondeuse Professionnel Maston | Mammotion FR",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-cf649cfdab138dae-2026-11-03T10-09-04-287Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-fr-cf649cfdab138dae-2026-10-28T09-01-40-072Z-viewport.jpg"
         }
       ],
       "entityId": ""
