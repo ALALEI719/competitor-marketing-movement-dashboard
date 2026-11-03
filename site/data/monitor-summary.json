@@ -11,7 +11,7 @@
     "sites": 4,
     "healthySites": 4,
     "pages": 1123,
-    "pendingChanges": 76,
+    "pendingChanges": 74,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -1199,19 +1199,6 @@
       "recordId": "SITE-41F16E0D3898"
     },
     {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-us",
-      "brand": "Mammotion",
-      "country": "美国",
-      "discoveredAt": "2026-10-21T08:01:23.998Z",
-      "publishDate": "",
-      "url": "https://us.mammotion.com/pages/about-mammotion",
-      "pageType": "page",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-BFFC045BACBC"
-    },
-    {
       "type": "removed_page",
       "reviewStatus": "pending",
       "siteId": "mammotion-us",
@@ -1629,19 +1616,6 @@
         "reason": "TypeSafe result recorded for calibration only."
       },
       "recordId": "SITE-E499EF2AFC83"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-de",
-      "brand": "Mammotion",
-      "country": "德国",
-      "discoveredAt": "2026-10-19T07:56:02.474Z",
-      "publishDate": "",
-      "url": "https://de.mammotion.com/pages/maehroboter-kaufberatung",
-      "pageType": "page",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-C023BAFB4FA0"
     },
     {
       "type": "content_change",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-03T06:36:51.230Z",
+  "updatedAt": "2026-11-03T09:44:54.639Z",
   "actions": [
     {
       "changeType": "new_page",
@@ -947,6 +947,45 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:15.485Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "5209b1c0e04427623f9c4c1a6eb29d7ed977c6055995cfa1239307bf6d70bc86",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_page_snapshot_v1.2_bodyText_initial_observation",
+        "capturedAt": "2026-10-21T08:01:23.998Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-906307135B63",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-21T08:01:23.998Z",
+      "publishDate": "",
+      "title": "美国官网保存Mammotion品牌介绍与发展里程碑",
+      "summary": "10月21日保存的美国官网自身正文介绍Mammotion的愿景使命、发展里程碑和品牌承诺，并列出历史产品技术及全球业务自述。仅记录当时来源中的品牌介绍，不认定本页首次发布、10月新品上市、市场排名真实性或任何优惠生效。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/pages/about-mammotion"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/pages/about-mammotion",
+          "capturedAt": "2026-10-21T08:01:23.998Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T09:44:54.639Z"
     },
     {
       "historicalBackfill": true,
@@ -2492,6 +2531,45 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-26T06:05:16.901Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "28ba2eed42c44f2b5c5dc3cacfc7cbc69f16df7bfbce9375367eab28fc93db73",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "comparisonVersion": "legacy_page_snapshot_v1.2_bodyText_initial_observation",
+        "capturedAt": "2026-10-19T07:56:02.474Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-7D2A4BEBF195",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-19T07:56:02.474Z",
+      "publishDate": "",
+      "title": "德国官网保存德语割草机选购问卷入口",
+      "summary": "10月19日保存的德国官网自身正文邀请用户按草坪面积和需求使用简短问卷或比较机型，并含1/4与返回、下一步等模板文字。仅记录当时收录的选购辅助内容，未确认首次上线、完整问卷可用、新型号、价格或优惠生效。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/pages/maehroboter-kaufberatung"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/pages/maehroboter-kaufberatung",
+          "capturedAt": "2026-10-19T07:56:02.474Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T09:44:54.579Z"
     },
     {
       "actionId": "ACT-EDM-F0D6FB102756",
