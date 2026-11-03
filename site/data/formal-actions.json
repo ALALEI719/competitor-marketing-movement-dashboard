@@ -1,7 +1,200 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-02T05:42:43.826Z",
+  "updatedAt": "2026-11-03T02:15:26.124Z",
   "actions": [
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "3b73298670a1ab4ec286b8bbac1f15a60f2fa191e18908dbb04701919a9b540e",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "capturedAt": "2026-11-02T09:41:28.408Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-6AC31208DBF0",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-02T09:41:28.408Z",
+      "publishDate": "",
+      "title": "英国官网收录Maston商用自主割草方案及演示入口",
+      "summary": "11月2日保存的英国官网Maston页面介绍高尔夫球场、园区和大型物业的自主割草方案，展示Tri-Fusion 2.0、模块化维护及Book a Demo文字。仅确认本次页面收录和内容传播，不代表首次发布、预售或开卖；未核价格、型号SKU、交付或演示提交。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/pages/maston-commercial-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+          "capturedAt": "2026-11-02T09:41:28.408Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:25.883Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "a7d365468c177ecd32f517318ed7ae711b38677fce777f6f2972c050a7bff361",
+        "afterHash": "76513613a4107f1a767eb1ccaefc471b1921fd0229ffa0fb92d15a8578b7755a",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "beforeSnapshotHash": "ad9eecc9afdbac0ab1f346a10139b038a8d66ee7362a0eb19142616ba6a564ef",
+        "afterSnapshotHash": "aa80c11ebd2bd6bfe161a06575e551011917dd17ceac621c5c41a83ab1c8698b",
+        "beforeCapturedAt": "2026-10-28T09:01:13.984Z",
+        "capturedAt": "2026-11-02T09:41:24.636Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-F7CE51EADA2B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "title": "德国官网YUKA mini 2 800首页展示由899欧元变为999欧元",
+      "summary": "10月28日与11月2日保存首页的同名YUKA mini 2 800卡片，Angebot 899,00€／Regulärer Preis 999,00€变为Angebot 999,00€。仅确认展示文字变化，不据此认定SKU成交价、促销结束、库存或新品上市。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-11-02T09:41:24.636Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:25.698Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "95ef47a667f9f746c8bafe12325a04b63df0cea7b0d12013abe93c80c15800a1",
+        "hashBasis": "saved_full_document_page_snapshot_not_article_v1",
+        "capturedAt": "2026-11-02T09:41:24.636Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-D9DDD9CBBD8D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "2026-10-29",
+      "title": "德国官网收录Mammotion黑五2026选购预备文章",
+      "summary": "11月2日保存正文和截图显示官方黑五选购文章，页面展示日期为10月29日；品牌活动期间、参与产品及具体折扣仍待公布。已有型号与通用首单/配送利益不等于新品或黑五专属优惠。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/black-friday-angebote"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/blogs/news/black-friday-angebote",
+          "capturedAt": "2026-11-02T09:41:24.636Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:25.939Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "3fc51edb0beccfb7763f034f6ab67e2d15475e05b7fe3fd06585217b0ec45734",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "capturedAt": "2026-11-02T09:41:24.636Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-35BF401835F4",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-02T09:41:24.636Z",
+      "publishDate": "",
+      "title": "德国官网收录Maston商用自主割草方案及演示入口",
+      "summary": "11月2日保存的德国官网Maston页面介绍高尔夫球场、园区和大型物业的自主割草方案，展示Tri-Fusion 2.0、模块化维护及Demo buchen文字。仅确认本次页面收录和内容传播，不代表首次发布、预售或开卖；未核价格、型号SKU、交付或演示提交。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/pages/maston-commercial-robot-mowers"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/pages/maston-commercial-robot-mowers",
+          "capturedAt": "2026-11-02T09:41:24.636Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:25.996Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "d4b275c7cbdbb6c4e2a8864b915a6d2903286304019b4fff698f6db49d3840d4",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "capturedAt": "2026-11-02T09:41:21.264Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-604B0AEC04FA",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-02T09:41:21.264Z",
+      "publishDate": "",
+      "title": "美国官网收录Maston商用自主割草方案及演示入口",
+      "summary": "11月2日保存的美国官网Maston页面介绍高尔夫球场、园区和大型物业的自主割草方案，展示Tri-Fusion 2.0、模块化维护及Book a Demo文字。仅确认本次页面收录和内容传播，不代表首次发布、预售或开卖；未核价格、型号SKU、交付或演示提交。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/pages/maston-commercial-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/pages/maston-commercial-robotic-lawn-mower",
+          "capturedAt": "2026-11-02T09:41:21.264Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:26.059Z"
+    },
     {
       "actionId": "ACT-EDM-F501F4B7CAD1",
       "entityId": "",
@@ -194,6 +387,44 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-10-30T10:41:04.679Z"
+    },
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "cb4ae34261be083b2eab13b160394f9e36c4e193c826c3ff7b401b720aaea5e8",
+        "hashBasis": "saved_page_snapshot_bodyText_sha256",
+        "capturedAt": "2026-10-28T09:01:21.254Z"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-BF6B7308D7EF",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-28T09:01:21.254Z",
+      "publishDate": "",
+      "title": "法国官网历史页面收录Maston商用自主割草方案及演示入口",
+      "summary": "10月28日保存的法国官网页面已介绍Maston商用自主割草方案、Tri-Fusion 2.0、维护能力及Réserver une démo入口。11月2日新网址的核心内容与其一致，仅确认此前已保存的官方介绍，不认定首次产品发布、预售、开卖、价格或网址重定向。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/pages/testiiinggg15489956"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/pages/testiiinggg15489956",
+          "capturedAt": "2026-10-28T09:01:21.254Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-03T02:15:26.124Z"
     },
     {
       "actionId": "ACT-EDM-39541F049E99",
