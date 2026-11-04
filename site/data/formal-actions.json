@@ -1,7 +1,45 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-03T11:10:30.185Z",
+  "updatedAt": "2026-11-04T03:20:53.217Z",
   "actions": [
+    {
+      "actionId": "ACT-133B2D3C8263",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "meta-ad-library",
+      "channel": "social_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-04T02:40:10.630Z",
+      "publishDate": "",
+      "title": "Mammotion 黑五新会员与推荐积分广告文案",
+      "summary": "同编号详情局部图可见黑五奖励、3 Nov.–30 Nov.字样与轮式割草设备前部；下部未完整留存。 · 美国筛选留存的广告文案宣称：新会员注册获1,000积分（原500），邀请朋友购买可获3,500积分（原2,500）。平台显示11月3日开始；本条完整文案与局部图于11月4日留存。旧编号11月3日已被观察，但不能证明当时创意版本相同。积分资格、兑换到账、实际投放地域、完整素材及落地页内容未核实。 · Offer: 仅记录广告自述的注册与推荐积分宣传；不确认实际优惠资格、兑换价值、成交或新品。 · CTA: 查看详情（已存外链，未访问落地页）",
+      "creative": "同编号详情局部图可见黑五奖励、3 Nov.–30 Nov.字样与轮式割草设备前部；下部未完整留存。",
+      "copy": "美国筛选留存的广告文案宣称：新会员注册获1,000积分（原500），邀请朋友购买可获3,500积分（原2,500）。平台显示11月3日开始；本条完整文案与局部图于11月4日留存。旧编号11月3日已被观察，但不能证明当时创意版本相同。积分资格、兑换到账、实际投放地域、完整素材及落地页内容未核实。",
+      "offer": "仅记录广告自述的注册与推荐积分宣传；不确认实际优惠资格、兑换价值、成交或新品。",
+      "cta": "查看详情（已存外链，未访问落地页）",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower?variant=51222244819242",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.facebook.com/ads/library/?id=960454650094358"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "meta-ad-library",
+          "url": "https://www.facebook.com/ads/library/?id=960454650094358",
+          "directAdUrl": "https://www.facebook.com/ads/library/?id=960454650094358",
+          "screenshotRef": "",
+          "screenshotSha256": "63671f8c3489c51cf32e0204470901f617cbb8d0cffc5d97ba2c28280aa97594",
+          "discoveredAt": "2026-11-04T02:40:10.630Z",
+          "publishDate": ""
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-04T03:20:53.217Z"
+    },
     {
       "changeType": "content_updated",
       "updatedAt": "2026-11-03T01:11:03-08:00",
