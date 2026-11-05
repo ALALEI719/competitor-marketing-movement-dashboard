@@ -160,7 +160,10 @@ export function renderTimelineV3({container,actions,calendar,period,brand,state,
   container.querySelectorAll('[data-v3-group]').forEach(b=>b.onclick=()=>onGroup(b.dataset.v3Group.split(',').map(id=>actions.find(a=>a.actionId===id)).filter(Boolean)));
   container.querySelectorAll('[data-v3-expand]').forEach(b=>b.onclick=()=>onExpand(b.dataset.v3Expand));
   const unknownBox=document.querySelector('#undated-actions');unknownBox.hidden=!unknown.length;
-  unknownBox.innerHTML=unknown.length?`<strong>${unknown.length} 条动作日期待确认</strong>${unknown.map(a=>`<button data-undated="${escape(a.actionId)}">${escape(a.brand+' · '+headline(a))}</button>`).join('')}`:'';
+  const scopes=[...new Set(unknown.map(a=>[a.brand,a.country].filter(Boolean).join(' · ')))];
+  const scope=scopes.length===1?scopes[0]+' · ':'';
+  const historyLabel=unknown.every(a=>a.historicalBackfill&&a.channel==='official_site')?'历史官网文案变更':'日期待确认记录';
+  unknownBox.innerHTML=unknown.length?`<details class="undated-history"><summary>${escape(scope+historyLabel)} · ${unknown.length} 条</summary><p>以下记录已复核，动作发生日期待确认。留存时间与证据可在详情中查看。</p><div class="undated-history-list">${unknown.map(a=>`<button data-undated="${escape(a.actionId)}">${escape(a.brand+' · '+headline(a))}</button>`).join('')}</div></details>`:'';
   unknownBox.querySelectorAll('[data-undated]').forEach(b=>b.onclick=()=>onAction(unknown.find(a=>a.actionId===b.dataset.undated)));
 }
 

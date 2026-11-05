@@ -353,9 +353,6 @@ function renderCurrentFormalActions(){
     const observedNote=observed?`<p>已收录营销传播 ${escapeHtml(observed.start)} — ${escapeHtml(observed.end)} · 起点为当前已收录的最早相关内容，后续持续补齐。</p>`:'';
     context.innerHTML=`<strong>${escapeHtml(selected.title)} · 日历参考日期 ${escapeHtml(selected.start)} — ${escapeHtml(selected.end)}</strong>${observedNote}<span>查看窗口 ${escapeHtml(selected.monitoringWindow.start)} — ${escapeHtml(selected.monitoringWindow.end)} · 当前筛选 ${actions.length} 条 / 节点共 ${all.length} 条${manual?`（${manual} 条人工台账）`:''}</span><p>${escapeHtml(selected.coverageNote||'此节点尚未完成历史补齐；营销日历不代表竞品已参加。')}</p>`;
   }
-  const ifa=campaignCalendar.find(e=>e.id==='ifa-2026'),allIfa=formalActionState.filter(a=>a.campaignId==='ifa-2026');
-  const entry=document.querySelector('#ifa-entry');entry.hidden=!ifa;
-  if(ifa){entry.innerHTML=`<div><strong>全站专题 · IFA 2026 · ${allIfa.length} 条已收录</strong><small>${allIfa.filter(a=>a.dateBasis!=='manual_record').length} 条来源证据＋${allIfa.filter(a=>a.dateBasis==='manual_record').length} 条人工台账 · 独立于当前筛选，进入时查看全站专题 · 其他竞品、广告及 EDM 历史待补齐</small></div><button id="open-ifa">${selected?.id==='ifa-2026'?'正在查看 IFA':'查看 IFA →'}</button>`;document.querySelector('#open-ifa').onclick=()=>{market.value=brand.value=channel.value='全部';queryText='';document.querySelector('#action-search').value='';selectCampaign('ifa-2026');renderScopedDashboard();};}
   document.querySelector('#timeline-action-count').textContent=`${actions.length} 条已确认动作`;
   renderFormalActions(actions);renderFormalTimeline(actions);renderRecentSummary(actions);renderTimelineList(actions);renderCoverage(actions);
   renderCardsV3({container:document.querySelector('#channel-highlights'),actions,artworks,onAction:showFormalAction,onChannel:openContentChannel});
