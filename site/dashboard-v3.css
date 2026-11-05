@@ -31,3 +31,12 @@ html,body.dashboard-v3{overflow-anchor:none}
 
 /* Preserve the newly integrated public ad observations on the dark dashboard. */
 .ads-observation dt,.ads-observation small,.ads-observation>p:last-of-type{color:var(--muted)}.ads-observation h3{font-size:16px}.ads-observation .ads-copy{color:#c5d3e3;font-size:13px}.ads-observation a{overflow-wrap:anywhere}@media(max-width:680px){.ads-observation dl{grid-template-columns:90px minmax(0,1fr);font-size:12px}}
+
+.gantt-band.observed {
+  background: #72c9bd12;
+  border-left: 1px dashed #72c9bd88;
+  border-right: 1px dashed #72c9bd88;
+}
+.gantt-node.observed { color: var(--green); }
+.gantt-calendar:has(.gantt-node.observed) { height: 84px; }
+.gantt-node.observed { top: 24px; }

@@ -57,6 +57,28 @@ export function selectDashboardActions(actions,{brand='全部',market='全部',c
     &&matchesActionPeriod(a,period)&&matchesQuery(a,query)).sort(actionDateOrder);
 }
 
+export function describeCampaign(event, actions) {
+  if (!event) return null;
+  const isBlackFriday = /^bfcm-\d{4}$/.test(event.id);
+  const year = event.start.slice(0, 4);
+  const related = actions.filter(action => {
+    if (action.reviewStatus !== 'approved') return false;
+    if (action.campaignId === event.id) return true;
+    const day = actionDateInfo(action).day;
+    return isBlackFriday && day.startsWith(year + '-')
+      && /black[\s-]*(?:friday|week)|cyber[\s-]*monday|黑五|网一/i.test(action.title || '');
+  });
+  const days = related.map(action => actionDateInfo(action).day).filter(Boolean).sort();
+  const observedWindow = isBlackFriday && days.length
+    ? { start: days[0], end: days.at(-1) } : null;
+  const monitoringWindow = { ...event.monitoringWindow };
+  if (observedWindow && observedWindow.start < monitoringWindow.start) {
+    monitoringWindow.start = observedWindow.start;
+  }
+  return { ...event, monitoringWindow, observedWindow,
+    actionIds: related.map(action => action.actionId) };
+}
+
 export function dateRange(preset,actions,today=todayDay()){
   if(preset==='30'||preset==='90')return {from:shiftDay(today,1-Number(preset)),to:today};
   const dates=actions.map(a=>actionDateInfo(a).day).filter(Boolean).sort();
@@ -93,9 +115,14 @@ export function channelSelection(actions,category){
 }
 
 function bands(calendar,g,today,labels=false){
-  let html=calendar.filter(e=>e.end>=g.from&&e.start<=g.to).map(e=>{
+  const periods = calendar.flatMap(event => {
+    const reference = { ...event, phase: 'reference' };
+    return event.observedWindow ? [reference, { ...event.observedWindow,
+      title: '黑五相关传播（已收录）', phase: 'observed' }] : [reference];
+  });
+  let html=periods.filter(e=>e.end>=g.from&&e.start<=g.to).map(e=>{
     const start=Math.max(0,g.x(e.start)-12),end=Math.min(g.width,g.x(shiftDay(e.end,1))-12);
-    return `<span class="gantt-band" style="left:${start}px;width:${Math.max(4,end-start)}px"></span>${labels?`<span class="gantt-node" style="left:${Math.max(10,start+5)}px">${escape(e.title)} · ${escape(e.start.slice(5))}${e.end!==e.start?'–'+escape(e.end.slice(5)):''}</span>`:''}`;
+    return `<span class="gantt-band ${e.phase}" data-campaign-phase="${e.phase}" style="left:${start}px;width:${Math.max(4,end-start)}px"></span>${labels?`<span class="gantt-node ${e.phase}" style="left:${Math.max(10,start+5)}px">${escape(e.title)} · ${escape(e.start.slice(5))}${e.end!==e.start?'–'+escape(e.end.slice(5)):''}</span>`:''}`;
   }).join('');
   if(today>=g.from&&today<=g.to)html+=`<span class="gantt-today" style="left:${g.x(today)}px"></span>${labels?`<span class="gantt-today-label" style="left:${g.x(today)+5}px">今天</span>`:''}`;
   return html;

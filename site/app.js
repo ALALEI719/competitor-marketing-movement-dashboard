@@ -1,4 +1,4 @@
-import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut } from './dashboard-v3.js';
+import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut, describeCampaign } from './dashboard-v3.js';
 import { websiteReviewQueue } from './website-review.js';
 import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
 import {validatePublicAdObservations,adObservationFreshness} from './ads-observations.js';
@@ -17,7 +17,10 @@ let contentCategory='web';
 let initialCampaignApplied=false;
 const timelineState={expanded:new Set(),scroll:0,focus:false,grain:'week',autoposition:true};
 const artworks=new Map();
-function actionPeriod(){return {...activePeriod,campaign:campaignFilter.value};}
+function actionPeriod(){
+  const selected=describeCampaign(campaignCalendar.find(event=>event.id===campaignFilter.value),formalActionState);
+  return {...activePeriod,campaign:campaignFilter.value,campaignActionIds:selected?.actionIds||[]};
+}
 async function loadCampaignCalendar(){
   try{
     const data=await fetchDashboardJson('./data/campaign-calendar.json');campaignCalendar=data.events||[];
@@ -262,7 +265,7 @@ async function loadSiteObservations(){
 }
 
 function renderFormalTimeline(actions){
-  renderTimelineV3({container:document.querySelector('#formal-timeline'),actions,calendar:campaignCalendar,period:activePeriod,brand:brand.value,state:timelineState,onAction:showFormalAction,onGroup:showActionGroup,onExpand:name=>{timelineState.expanded.has(name)?timelineState.expanded.delete(name):timelineState.expanded.add(name);renderCurrentFormalActions();}});
+  renderTimelineV3({container:document.querySelector('#formal-timeline'),actions,calendar:campaignCalendar.map(event=>describeCampaign(event,formalActionState)),period:activePeriod,brand:brand.value,state:timelineState,onAction:showFormalAction,onGroup:showActionGroup,onExpand:name=>{timelineState.expanded.has(name)?timelineState.expanded.delete(name):timelineState.expanded.add(name);renderCurrentFormalActions();}});
 }
 function showActionGroup(actions){
   detailSequence=sortedActions(actions);detailActionId='';
@@ -302,7 +305,7 @@ function syncDateUI(){
 function updateCampaignUrl(id){const url=new URL(window.location.href);if(id)url.searchParams.set('campaign',id);else url.searchParams.delete('campaign');window.history.replaceState(null,'',url);}
 function selectCampaign(id){
   requestedCampaign='';
-  const event=campaignCalendar.find(e=>e.id===id);
+  const event=describeCampaign(campaignCalendar.find(e=>e.id===id),formalActionState);
   campaignFilter.value=event?.id||'';updateCampaignUrl(campaignFilter.value);activePeriod=event?{from:event.monitoringWindow.start,to:event.monitoringWindow.end}:{from:'',to:''};
   datePreset=event?'campaign':'all';actionFrom.value=activePeriod.from;actionTo.value=activePeriod.to;timelineState.scroll=0;timelineState.autoposition=true;
   renderCurrentFormalActions();renderEventClusters(marketingEventState);
@@ -335,10 +338,21 @@ function renderCurrentFormalActions(){
     document.querySelector('#formal-action-table').innerHTML=`<tr><td colspan="6">${markup}</td></tr>`;
     document.querySelector('#recent-summary').innerHTML=markup;document.querySelector('#library-mobile-list').innerHTML=markup;document.querySelector('#timeline-date-list').innerHTML=markup;document.querySelectorAll('.retry-actions').forEach(button=>button.onclick=loadActionData);return;
   }
+  const selected=describeCampaign(campaignCalendar.find(event=>event.id===campaignFilter.value),formalActionState);
+  if(selected&&datePreset==='campaign'){
+    activePeriod={from:selected.monitoringWindow.start,to:selected.monitoringWindow.end};
+    actionFrom.value=activePeriod.from;actionTo.value=activePeriod.to;
+  }
   const actions=filteredFormalActions();
-  const context=document.querySelector('#campaign-context'),selected=campaignCalendar.find(event=>event.id===campaignFilter.value);
+  const context=document.querySelector('#campaign-context');
   context.hidden=!selected;
-  if(selected){const all=formalActionState.filter(action=>action.campaignId===selected.id);const manual=all.filter(action=>action.dateBasis==='manual_record').length;context.innerHTML=`<strong>${escapeHtml(selected.title)} · 正式日期 ${escapeHtml(selected.start)} — ${escapeHtml(selected.end)}</strong><span>回溯窗口 ${escapeHtml(selected.monitoringWindow.start)} — ${escapeHtml(selected.monitoringWindow.end)} · 当前筛选 ${actions.length} 条 / 节点共 ${all.length} 条${manual?`（${manual} 条人工台账）`:''}</span><p>${escapeHtml(selected.coverageNote||'此节点尚未完成历史补齐；营销日历不代表竞品已参加。')}</p>`;}
+  if(selected){
+    const all=formalActionState.filter(action=>selected.actionIds.includes(action.actionId));
+    const manual=all.filter(action=>action.dateBasis==='manual_record').length;
+    const observed=selected.observedWindow;
+    const observedNote=observed?`<p>已收录营销传播 ${escapeHtml(observed.start)} — ${escapeHtml(observed.end)} · 起点为当前已收录的最早相关内容，后续持续补齐。</p>`:'';
+    context.innerHTML=`<strong>${escapeHtml(selected.title)} · 日历参考日期 ${escapeHtml(selected.start)} — ${escapeHtml(selected.end)}</strong>${observedNote}<span>查看窗口 ${escapeHtml(selected.monitoringWindow.start)} — ${escapeHtml(selected.monitoringWindow.end)} · 当前筛选 ${actions.length} 条 / 节点共 ${all.length} 条${manual?`（${manual} 条人工台账）`:''}</span><p>${escapeHtml(selected.coverageNote||'此节点尚未完成历史补齐；营销日历不代表竞品已参加。')}</p>`;
+  }
   const ifa=campaignCalendar.find(e=>e.id==='ifa-2026'),allIfa=formalActionState.filter(a=>a.campaignId==='ifa-2026');
   const entry=document.querySelector('#ifa-entry');entry.hidden=!ifa;
   if(ifa){entry.innerHTML=`<div><strong>全站专题 · IFA 2026 · ${allIfa.length} 条已收录</strong><small>${allIfa.filter(a=>a.dateBasis!=='manual_record').length} 条来源证据＋${allIfa.filter(a=>a.dateBasis==='manual_record').length} 条人工台账 · 独立于当前筛选，进入时查看全站专题 · 其他竞品、广告及 EDM 历史待补齐</small></div><button id="open-ifa">${selected?.id==='ifa-2026'?'正在查看 IFA':'查看 IFA →'}</button>`;document.querySelector('#open-ifa').onclick=()=>{market.value=brand.value=channel.value='全部';queryText='';document.querySelector('#action-search').value='';selectCampaign('ifa-2026');renderScopedDashboard();};}

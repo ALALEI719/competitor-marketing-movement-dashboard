@@ -27,9 +27,9 @@ export function actionDateLabel(action) {
   return day ? `${day} · ${label}` : '动作日期待确认';
 }
 
-export function matchesActionPeriod(action, { from = '', to = '', campaign = '' } = {}) {
+export function matchesActionPeriod(action, { from = '', to = '', campaign = '', campaignActionIds = [] } = {}) {
   const { day } = actionDateInfo(action);
-  return (!campaign || action.campaignId === campaign)
+  return (!campaign || action.campaignId === campaign || campaignActionIds.includes(action.actionId))
     && ((!from && !to) || Boolean(day && (!from || day >= from) && (!to || day <= to)));
 }
 
