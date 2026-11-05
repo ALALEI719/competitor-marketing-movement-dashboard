@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-03T10:09:13.649Z",
+  "generatedAt": "2026-11-05T09:54:08.519Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -638,6 +638,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c3873137a002d5b5-2026-10-19T07-57-48-460Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-05T09:53:59.300Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-02T09:41:21.264Z",
+          "title": "404 Not Found",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-c3873137a002d5b5-2026-11-05T09-53-59-300Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-c3873137a002d5b5-2026-10-19T07-57-48-460Z-viewport.jpg"
         }
       ],
       "entityId": ""
