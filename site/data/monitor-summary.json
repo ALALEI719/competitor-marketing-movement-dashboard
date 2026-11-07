@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 73,
-    "pendingChannelChanges": 7,
+    "blogChanges": 75,
+    "pendingChannelChanges": 9,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 23,
@@ -762,7 +762,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-06T09:57:13.682Z",
+    "checkedAt": "2026-11-07T09:18:54.457Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -774,7 +774,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-06T09:57:13.682Z",
+        "checkedAt": "2026-11-07T09:18:54.457Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -788,7 +788,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 28,
+          "comparable": 30,
           "backfillErrors": []
         }
       },
@@ -801,13 +801,13 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-06T09:57:13.682Z",
+        "checkedAt": "2026-11-07T09:18:54.457Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-10-26T09:51:41+01:00",
+        "latestPublishedAt": "2026-11-06T10:57:20+01:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -815,7 +815,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 27,
+          "comparable": 30,
           "backfillErrors": []
         }
       },
@@ -828,7 +828,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-06T09:57:13.682Z",
+        "checkedAt": "2026-11-07T09:18:54.457Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -842,7 +842,7 @@
           "total": 30,
           "backfilled": 0,
           "rechecked": 2,
-          "comparable": 28,
+          "comparable": 30,
           "backfillErrors": []
         }
       },
@@ -855,14 +855,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-06T09:57:13.682Z",
+        "checkedAt": "2026-11-07T09:18:54.457Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-03T07:20:58+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -875,6 +875,116 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-D0AC51222D5A",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Rasenpflege im Frühjahr: Die richtige Reihenfolge für einen gesunden Rasen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
+        "publishDate": "2026-11-06T10:57:20+01:00",
+        "updatedAt": "2026-11-06T11:09:46+01:00",
+        "discoveredAt": "2026-11-07T09:18:54.457Z",
+        "summary": "Wie gelingt die Rasenpflege im Frühjahr? Erfahren Sie, wann Sie mähen, düngen, vertikutieren und kahle Stellen nachsäen sollten. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "69647bd4176d404fe2bba368f4a8d379db18c1575a6ee9b4072a74beacc83c67",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.58,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9C87833EF3C8",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
+        "publishDate": "2026-08-24T11:49:53+02:00",
+        "updatedAt": "2026-11-06T11:08:50+01:00",
+        "discoveredAt": "2026-11-07T09:18:54.457Z",
+        "summary": "Quel robot tondeuse choisir ? Comparez les technologies de navigation, les prix et les usages, puis maîtrisez l’installation, l’entretien et le dépannage. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "45bfdb3c5ffb46439040480fd9b60c54ca759df4c332d0df7525ffb544fbec45",
+          "afterHash": "34b5db6652f54df5dad3a2c4d4b43d2d0e5889b341d58aa30c1bed4d5afd3d88",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "Et si votre pelouse restait nette sans que vous ayez à la tondre chaque semaine ? Alimenté par batterie, un robot tondeuse travaille de manière autonome : une fois sa zone définie, il coupe régulièrement une petite quantité d’herbe, puis retourne seul à sa station de charge. Grâce au mulching, les r",
+          "afterExcerpt": "Un gazon impeccable toute l’année sans lever le petit doigt ? C’est la promesse du robot tondeuse. Pourtant, entre la surface du terrain, les pentes escarpées et la configuration du jardin, tous les modèles ne se valent pas. Fonctionnement, critères d'achat indispensables, installation étape par éta"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "pact à propulsion arrière, comme ceux de la gamme YUKA, peut généralement répondre aux besoins courants."
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "s, un modèle à transmission intégrale de la gamme LUBA AWD offrira davantage de motricité et de stabilité. L"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "vantage de motricité et de stabilité. Les modèles LUBA mini AWD associent quant à eux un format plus compact à un"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.57,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-7D4001C0B787",
         "sourceId": "mammotion-us-blog",
@@ -4611,6 +4721,116 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-D0AC51222D5A",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Rasenpflege im Frühjahr: Die richtige Reihenfolge für einen gesunden Rasen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
+        "publishDate": "2026-11-06T10:57:20+01:00",
+        "updatedAt": "2026-11-06T11:09:46+01:00",
+        "discoveredAt": "2026-11-07T09:18:54.457Z",
+        "summary": "Wie gelingt die Rasenpflege im Frühjahr? Erfahren Sie, wann Sie mähen, düngen, vertikutieren und kahle Stellen nachsäen sollten. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "69647bd4176d404fe2bba368f4a8d379db18c1575a6ee9b4072a74beacc83c67",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.58,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9C87833EF3C8",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
+        "publishDate": "2026-08-24T11:49:53+02:00",
+        "updatedAt": "2026-11-06T11:08:50+01:00",
+        "discoveredAt": "2026-11-07T09:18:54.457Z",
+        "summary": "Quel robot tondeuse choisir ? Comparez les technologies de navigation, les prix et les usages, puis maîtrisez l’installation, l’entretien et le dépannage. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "45bfdb3c5ffb46439040480fd9b60c54ca759df4c332d0df7525ffb544fbec45",
+          "afterHash": "34b5db6652f54df5dad3a2c4d4b43d2d0e5889b341d58aa30c1bed4d5afd3d88",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "Et si votre pelouse restait nette sans que vous ayez à la tondre chaque semaine ? Alimenté par batterie, un robot tondeuse travaille de manière autonome : une fois sa zone définie, il coupe régulièrement une petite quantité d’herbe, puis retourne seul à sa station de charge. Grâce au mulching, les r",
+          "afterExcerpt": "Un gazon impeccable toute l’année sans lever le petit doigt ? C’est la promesse du robot tondeuse. Pourtant, entre la surface du terrain, les pentes escarpées et la configuration du jardin, tous les modèles ne se valent pas. Fonctionnement, critères d'achat indispensables, installation étape par éta"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "YUKA",
+            "source": "article_body",
+            "excerpt": "pact à propulsion arrière, comme ceux de la gamme YUKA, peut généralement répondre aux besoins courants."
+          },
+          {
+            "name": "LUBA AWD",
+            "source": "article_body",
+            "excerpt": "s, un modèle à transmission intégrale de la gamme LUBA AWD offrira davantage de motricité et de stabilité. L"
+          },
+          {
+            "name": "LUBA mini AWD",
+            "source": "article_body",
+            "excerpt": "vantage de motricité et de stabilité. Les modèles LUBA mini AWD associent quant à eux un format plus compact à un"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.57,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-E51629ECF19C",
         "sourceId": "mammotion-fr-blog",
