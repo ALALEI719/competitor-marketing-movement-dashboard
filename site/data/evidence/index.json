@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-05T09:54:08.519Z",
+  "generatedAt": "2026-11-09T09:59:54.885Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -37,6 +37,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-10-12T09-27-52-869Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-09-28T08-48-36-974Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-09T09:59:46.340Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-09T09:58:17.214Z",
+          "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-11-09T09-59-46-340Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-10-12T09-27-52-869Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -66,6 +76,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-10-12T09-27-34-526Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-09-21T09-26-53-285Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-09T09:59:18.020Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-09T09:58:20.608Z",
+          "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-09T09-59-18-020Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-10-12T09-27-34-526Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -95,6 +115,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-10-12T09-27-18-822Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-09-21T09-27-24-021Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-09T09:59:05.000Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-09T09:58:23.279Z",
+          "title": "Smart Yards Start Here | Mammotion UK",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-11-09T09-59-05-000Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-10-12T09-27-18-822Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -1516,6 +1546,139 @@
         }
       ],
       "entityId": ""
+    },
+    "e3e679854b778b8c": {
+      "url": "https://fr.mammotion.com/blogs/news/guide-achat-black-friday",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:58:37.906Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-09T09:58:26.447Z",
+          "title": "Guide d’achat Black Friday Mammotion 2026",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-e3e679854b778b8c-2026-11-09T09-58-37-906Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "1e875cc926a2865e": {
+      "url": "https://fr.mammotion.com/pages/bf77854693",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:58:47.037Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-09T09:58:26.447Z",
+          "title": "bf",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-1e875cc926a2865e-2026-11-09T09-58-47-037Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6e8b6a971d1e55bf": {
+      "url": "https://uk.mammotion.com/blogs/news/how-to-clean-robot-lawn-mower",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:58:55.853Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-09T09:58:23.279Z",
+          "title": "Cleaning a Robot Lawn Mower: A Step-by-Step Guide",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-6e8b6a971d1e55bf-2026-11-09T09-58-55-853Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6083c5c2a84aaa99": {
+      "url": "https://uk.mammotion.com/pages/black-friday",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:59:00.921Z",
+          "reason": "removed_page",
+          "sourceObservedAt": "2026-11-09T09:58:23.279Z",
+          "title": "404 Not Found",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-6083c5c2a84aaa99-2026-11-09T09-59-00-921Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d2a6bb3e26b09ec9": {
+      "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:59:10.147Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-09T09:58:20.608Z",
+          "title": "Rasenpflege im Frühjahr: Die richtige Reihenfolge",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-d2a6bb3e26b09ec9-2026-11-09T09-59-10-147Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "58b968dc0a9ba846": {
+      "url": "https://us.mammotion.com/pages/g8oj3oqjz",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:59:26.151Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-09T09:58:17.214Z",
+          "title": "fgs54gsgftrw",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-58b968dc0a9ba846-2026-11-09T09-59-26-151Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d38f443e3c1967f2": {
+      "url": "https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-09T09:59:34.099Z",
+          "reason": "product_candidate:MAM-UNKNOWN-504F5625",
+          "sourceObservedAt": "2026-11-09T09:58:17.214Z",
+          "title": "LUBA 2 AWD Robot Lawn Mower – 2025 Model | Upgraded to 2026 LUBA 3",
+          "matchedTerm": "notify me",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-d38f443e3c1967f2-2026-11-09T09-59-34-099Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-us-d38f443e3c1967f2-2026-11-09T09-59-34-099Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-504F5625"
     }
   }
 }
