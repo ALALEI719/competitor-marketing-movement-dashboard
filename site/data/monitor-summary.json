@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 77,
-    "pendingChannelChanges": 11,
+    "blogChanges": 78,
+    "pendingChannelChanges": 12,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 28,
@@ -1419,7 +1419,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-10T10:29:45.190Z",
+    "checkedAt": "2026-11-11T09:53:39.436Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1431,14 +1431,14 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-10T10:29:45.190Z",
+        "checkedAt": "2026-11-11T09:53:39.436Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 0
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1458,7 +1458,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-10T10:29:45.190Z",
+        "checkedAt": "2026-11-11T09:53:39.436Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1485,7 +1485,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-10T10:29:45.190Z",
+        "checkedAt": "2026-11-11T09:53:39.436Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1512,14 +1512,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-10T10:29:45.190Z",
+        "checkedAt": "2026-11-11T09:53:39.436Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-03T07:20:58+01:00",
         "changeCounts": {
           "added": 0,
-          "updated": 1
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1532,6 +1532,77 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-59CD5576EFB7",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-11-10T19:55:29-08:00",
+        "discoveredAt": "2026-11-11T09:53:39.436Z",
+        "summary": "Explore Mammotion Black Friday 2026 deals from Nov 10–30. Discover the biggest offers on robotic mowers, plus exclusive rewards. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "2c0d24c637875925da79c1b29855d9604e3f9b762301b93445af339cf7d8c96e",
+          "afterHash": "5fd7497db322cfe360fcc304dda94d5ec913febcc1adede80695bbe4b80e0c45",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "3–9, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 1,000 points; you get 2,500 points + a FREE Mower Cleaning Stand . . 1. Spin & W",
+          "afterExcerpt": "10–30, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 2,000 points; you get 3,500 points + a FREE Mower Cleaning Stand . . 1. Spin &"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "s, first come, first served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "t served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTIO"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": " on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTION Black Friday Spin "
+          },
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": "amount Discounted price Free gift Free gift value LUBA 3 AWD 3000 $2,799 28.58% $800 $1,999 Mower Cleaning Stand $7"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 1,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-4611D36FC92D",
         "sourceId": "mammotion-fr-blog",
@@ -5486,6 +5557,77 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-59CD5576EFB7",
+        "sourceId": "mammotion-us-blog",
+        "brand": "Mammotion",
+        "country": "美国",
+        "countryCode": "US",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
+        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
+        "publishDate": "2026-10-27T23:25:26-07:00",
+        "updatedAt": "2026-11-10T19:55:29-08:00",
+        "discoveredAt": "2026-11-11T09:53:39.436Z",
+        "summary": "Explore Mammotion Black Friday 2026 deals from Nov 10–30. Discover the biggest offers on robotic mowers, plus exclusive rewards. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "2c0d24c637875925da79c1b29855d9604e3f9b762301b93445af339cf7d8c96e",
+          "afterHash": "5fd7497db322cfe360fcc304dda94d5ec913febcc1adede80695bbe4b80e0c45",
+          "changedFields": [
+            "headings",
+            "offer",
+            "body"
+          ],
+          "beforeExcerpt": "3–9, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 1,000 points; you get 2,500 points + a FREE Mower Cleaning Stand . . 1. Spin & W",
+          "afterExcerpt": "10–30, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 2,000 points; you get 3,500 points + a FREE Mower Cleaning Stand . . 1. Spin &"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 3 AWD",
+            "source": "article_body",
+            "excerpt": "s, first come, first served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin"
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "t served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTIO"
+          },
+          {
+            "name": "SPINO E1",
+            "source": "article_body",
+            "excerpt": " on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTION Black Friday Spin "
+          },
+          {
+            "name": "LUBA 3 AWD 3000",
+            "source": "article_body",
+            "excerpt": "amount Discounted price Free gift Free gift value LUBA 3 AWD 3000 $2,799 28.58% $800 $1,999 Mower Cleaning Stand $7"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 1,
+          "monitoringPriority": 2.98,
+          "priorityConfidence": 0.97
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-4611D36FC92D",
         "sourceId": "mammotion-fr-blog",
