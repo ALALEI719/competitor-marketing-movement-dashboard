@@ -1,7 +1,52 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-04T03:20:53.217Z",
+  "updatedAt": "2026-11-12T07:27:43.002Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "previousBodyTextHash": "a64c50ea9809e598157fb7b1fb7ac960f73be02ba5b1eb498d8ffe702d0bd524",
+        "previousRawSha256": "f7f647b7ece37dd8691e059336a149cde7a7842988abe9cb024792ecee47ab8b",
+        "previousContentHash": "6c7ac06a8d6baa36c784151d68a6512767f5cd94b47ad541e5a7251d7dcc561f",
+        "currentContentHash": "0e37a57662504f6af0dd4d5c916e6200c9c2ab70ae5bfb961241ea8e7e721388",
+        "canonicalUrl": "https://fr.mova.tech/collections/robot-lawn-mower",
+        "offerText": "LiDAX Ultra 800 : 250 € de remise + garage offert !",
+        "model": "LiDAX Ultra 800",
+        "ctaText": "En profiter",
+        "ctaUrl": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra?variant=47458938880220",
+        "currentBodyTextHash": "d067218a8f079a4fba5021567332b5f1d3ef831eb4bfe08e13494f6d7adb7352",
+        "currentRawSha256": "b3aa8e2c7a66b9a96cc9539e9aeec46e95d0d0b4a321158c58b86691b655676d",
+        "productScopeEvidenceSha256": "f386adb0e524e62eb6e2a6b8cdb5f97c533876034bf7db1a792b10ef35f3753b"
+      },
+      "updatedAt": "",
+      "actionId": "ACT-D9A4987CB96E",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-12T07:11:42.504Z",
+      "publishDate": "",
+      "title": "MOVA 法国官网：LiDAX Ultra 800 优惠文案（11/12采集）",
+      "summary": "11/12抓取时法国官网集合页展示 LiDAX Ultra 800 减250€＋赠车库文案，CTA 指向法国站产品变体；优惠期限、资格及结算未证。",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/collections/robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/collections/robot-lawn-mower",
+          "capturedAt": "2026-11-12T07:11:42.504Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-12T07:27:43.002Z"
+    },
     {
       "actionId": "ACT-133B2D3C8263",
       "entityId": "",
