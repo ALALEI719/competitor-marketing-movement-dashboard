@@ -195,7 +195,7 @@ async function showEdmDetail(item){
   document.querySelector('#dialog-content').innerHTML=await edmMailMarkup(item.detailRef);
 }
 
-function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'Blog',social_ads:'社媒广告',video:'视频',edm:'EDM'})[channel]||channel;}
+function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'Blog',social_ads:'社媒广告',google_search_ads:'Google 搜索广告',video:'视频',edm:'EDM'})[channel]||channel;}
 function stageLabel(stage){return stageText(stage);}
 
 function reviewLabel(status){return ({pending:'待复核',approved:'已确认',rejected:'已驳回'})[status]||status;}
@@ -312,7 +312,7 @@ function showActionGroup(actions){
 }
 
 function openContentChannel(code){
-  channel.value=channelLabel(code);contentCategory=code==='edm'?'edm':code==='pr'?'pr':['social_ads','video'].includes(code)?'ads':'web';
+  channel.value=channelLabel(code);contentCategory=code==='edm'?'edm':code==='pr'?'pr':['social_ads','google_search_ads','video'].includes(code)?'ads':'web';
   activateView('content');renderScopedDashboard();renderContentView();window.dispatchEvent(new Event('dashboard:filters-changed'));
 }
 function renderContentView(){
@@ -580,7 +580,7 @@ function syncTimelineView(){
   if(!list){if(timelineState.autoposition&&document.querySelector('#formal-timeline').clientWidth){const scroller=document.querySelector('#formal-timeline');scroller.scrollLeft=Math.max(0,timelineState.latestX-(scroller.clientWidth-(scroller.querySelector('.gantt-sticky')?.offsetWidth||154))*.55);timelineState.autoposition=false;}timelineState.updateRange?.();}
 }
 function renderCoverage(actions){
-  const codes=Object.keys({official_site:1,blog:1,pr:1,edm:1,social_ads:1,video:1}).filter(c=>channel.value==='全部'||channelLabel(c)===channel.value);
+  const codes=Object.keys({official_site:1,blog:1,pr:1,edm:1,social_ads:1,google_search_ads:1,video:1}).filter(c=>channel.value==='全部'||channelLabel(c)===channel.value);
   const names=brand.value==='全部'?['Mammotion','Mova','Dreame','Ecovacs','Eufy','Navimow']:[brand.value];
   const rows=names.map(name=>`<tr><th scope="row">${escapeHtml(name)}<small>${escapeHtml(market.value==='全部'?'全部国家':market.value)}</small></th>${codes.map(code=>{
     const cell=coverageCell({brand:name,market:market.value,channel:code,actions,allActions:formalActionState,summary:monitorSummaryState,ads:publicAds});
@@ -612,7 +612,7 @@ function restoreRoute(){
   if(datePreset==='season'){const year=todayDay().slice(0,4);activePeriod={from:`${year}-08-28`,to:`${Number(year)+1}-01-20`};}
   if(params.has('from')||params.has('to')||['custom','campaign'].includes(datePreset)){try{const from=params.get('from'),to=params.get('to');if(!from||!to)throw Error();timelineGeometry([],{from,to});activePeriod={from,to};}catch{activePeriod=dateRange('30',formalActionState);datePreset='30';}}
   const selected=campaignCalendar.find(e=>e.id===params.get('campaign'));campaignFilter.value=selected?.id||'';if(selected){campaignFilter.value=selected.id;activePeriod={from:selected.monitoringWindow.start,to:selected.monitoringWindow.end};datePreset='campaign';}
-  contentCategory=['web','pr','edm','ads'].includes(params.get('category'))?params.get('category'):channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','视频'].includes(channel.value)?'ads':'web';
+  contentCategory=['web','pr','edm','ads'].includes(params.get('category'))?params.get('category'):channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','Google 搜索广告','视频'].includes(channel.value)?'ads':'web';
   actionSort=['oldest','brand'].includes(params.get('sort'))?params.get('sort'):'newest';document.querySelector('#action-sort').value=actionSort;
   contentDensity=params.get('density')==='compact'?'compact':'cards';timelineState.grain=params.get('grain')==='day'?'day':'week';document.querySelector('#timeline-grain').value=timelineState.grain;
   timelineState.typeFocus=timelineActionTypes.some(type=>type.key===params.get('focusType'))?params.get('focusType'):'';
@@ -627,7 +627,7 @@ function restoreRoute(){
 }
 function filtersChanged(){
   timelineState.autoposition=true;
-  if(currentView==='content'){contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','视频'].includes(channel.value)?'ads':'web';}
+  if(currentView==='content'){contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','Google 搜索广告','视频'].includes(channel.value)?'ads':'web';}
   document.querySelector('#website-content-type').value=channel.value==='Blog'?'blog':channel.value==='官网'?'official_site':'';
   renderScopedDashboard();renderCurrentFormalActions();window.dispatchEvent(new Event('dashboard:filters-changed'));
 }
@@ -723,8 +723,11 @@ function activateView(view){
   document.querySelector('.date-control').hidden=['review','status'].includes(target);document.querySelector('#global-filters').classList.toggle('operational-scope',['review','status'].includes(target));
   if(target!=='overview')setTimelineFocus(false);
   if(view==='edm'){channel.value='EDM';renderCurrentFormalActions();}
-  if(['ads','social-ads-monitor','ads-evidence-followups'].includes(view)){channel.value='社媒广告';renderCurrentFormalActions();}
-  if(target==='content'){contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','视频'].includes(channel.value)?'ads':'web';renderContentView();}
+  if(['ads','social-ads-monitor','ads-evidence-followups'].includes(view)){
+    if(channel.value!=='Google 搜索广告')channel.value='社媒广告';
+    renderCurrentFormalActions();
+  }
+  if(target==='content'){contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','Google 搜索广告','视频'].includes(channel.value)?'ads':'web';renderContentView();}
   document.querySelector('.management-menu').open=false;
   syncDateUI();adoptInternalAds();window.scrollTo(0,0);
 }
@@ -732,7 +735,13 @@ document.querySelectorAll('.nav-item').forEach(button=>button.onclick=()=>naviga
 window.addEventListener('popstate',restoreRoute);
 window.addEventListener('hashchange',()=>{const view=location.hash.slice(1);if(view!==currentView){activateView(view);persistRoute();}});
 document.querySelectorAll('[data-content-tab]').forEach(button=>button.onclick=()=>{
-  document.querySelector('#website-content-type').value='';contentCategory=button.dataset.contentTab;channel.value=contentCategory==='edm'?'EDM':contentCategory==='pr'?'PR':contentCategory==='ads'?'社媒广告':['官网','Blog'].includes(channel.value)?channel.value:'全部';
+  document.querySelector('#website-content-type').value='';
+  contentCategory=button.dataset.contentTab;
+  if(contentCategory==='ads'){
+    if(channel.value!=='Google 搜索广告')channel.value='社媒广告';
+  }else{
+    channel.value=contentCategory==='edm'?'EDM':contentCategory==='pr'?'PR':['官网','Blog'].includes(channel.value)?channel.value:'全部';
+  }
   renderScopedDashboard();renderCurrentFormalActions();renderContentView();window.dispatchEvent(new Event('dashboard:filters-changed'));
 });
 function closeDates(){const wasOpen=!document.querySelector('#date-panel').hidden;document.querySelector('#date-panel').hidden=true;document.querySelector('#date-toggle').setAttribute('aria-expanded','false');if(wasOpen&&document.querySelector('#date-panel').contains(document.activeElement))document.querySelector('#date-toggle').focus({preventScroll:true});}

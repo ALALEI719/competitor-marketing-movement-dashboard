@@ -13,11 +13,21 @@ export function websiteChangeKey(record) {
   if (!record || (record.channel && !['blog', 'official_site'].includes(record.channel))) return '';
   const url = canonicalWebsiteUrl(record.sourceUrl || record.url || record.sourceUrls?.[0]);
   // Official sites use several article collections (news, guides, technology,
-  // and localized sections). Keep collection index pages outside this key.
-  if (!url || !/^\/(?:blogs\/[^/]+\/[^/]+|blog\/[^/]+)$/.test(new URL(url).pathname) || !record.brand) return '';
+  // and localized sections). Country paths are part of Eufy/Anker's official URLs.
+  // Keep collection index pages outside this key.
+  if (!url || !/^\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?(?:blogs\/[^/]+\/[^/]+|blog\/[^/]+)$/.test(new URL(url).pathname) || !record.brand) return '';
   const country = record.countryCode || ({ '美国': 'US', '德国': 'DE', '英国': 'UK', '法国': 'FR' })[record.country] || record.country;
   if (!country) return '';
-  const prefix = JSON.stringify([record.brand.toLowerCase(), country, url]);
+  let identityUrl = url;
+  // Only a verified same-article Eufy DE 301 may bridge to Anker DE. A product
+  // redirect, such as C-series to E-series, never enters article identity.
+  const verified = canonicalWebsiteUrl(record.verifiedCanonicalUrl);
+  const source = new URL(url);
+  if (verified && record.redirectStatus === 301 && record.brand.toLowerCase() === 'eufy' && country === 'DE' &&
+      source.hostname === 'www.eufy.com' && source.pathname.startsWith('/eu-de/blogs/') &&
+      new URL(verified).hostname === 'www.anker.com' &&
+      new URL(verified).pathname === source.pathname.replace(/^\/eu-de\//, '/de/')) identityUrl = verified;
+  const prefix = JSON.stringify([record.brand.toLowerCase(), country, identityUrl]);
   const type = record.changeType || record.type;
   if (['new_content', 'new_page', 'historical_publication'].includes(type) ||
       (!type && record.channel === 'blog' && record.actionId)) return `${prefix}|publication`;

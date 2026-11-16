@@ -11,13 +11,13 @@
     "sites": 5,
     "healthySites": 5,
     "pages": 1151,
-    "pendingChanges": 49,
+    "pendingChanges": 44,
     "productCandidates": 1,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 85,
-    "pendingChannelChanges": 17,
+    "pendingChannelChanges": 7,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 28,
@@ -214,32 +214,6 @@
   ],
   "pendingRecords": [
     {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-fr",
-      "brand": "Mammotion",
-      "country": "法国",
-      "discoveredAt": "2026-11-16T09:02:46.375Z",
-      "publishDate": "",
-      "url": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "9822cf56f55b262c83d05b08c354cc0ea64649a6b0363475efa2110e096d40a7",
-        "changedFields": []
-      },
-      "recordId": "SITE-B3A8F09CCBE8"
-    },
-    {
       "type": "removed_page",
       "reviewStatus": "pending",
       "siteId": "mammotion-fr",
@@ -358,84 +332,6 @@
       "recordId": "SITE-D306091A74FE"
     },
     {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-16T09:02:40.208Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "22b1be9de60e9ffce3a99ed82f79420b41a0ae2b798e473b7eb46552e321e604",
-        "changedFields": []
-      },
-      "recordId": "SITE-5D2AC51A4D54"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-16T09:02:40.208Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "What is a GPS robot lawn mower?",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "9f2a3c2c8ce1536870794ed105772ef3145f5dbd6681ab4fa1c35cf1e6ad5e01",
-        "changedFields": []
-      },
-      "recordId": "SITE-65D06B7FE37A"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-16T09:02:40.208Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "4f43acf1bfc046110f2db164ac2b4c03c678a8934c8c48ac36e67b4f1b5e24a7",
-        "changedFields": []
-      },
-      "recordId": "SITE-651C73421F90"
-    },
-    {
       "type": "content_change",
       "reviewStatus": "pending",
       "siteId": "mammotion-uk",
@@ -540,32 +436,6 @@
         "reason": "TypeSafe result recorded for calibration only."
       },
       "recordId": "SITE-14AEE15CF7E2"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-de",
-      "brand": "Mammotion",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T09:02:36.643Z",
-      "publishDate": "",
-      "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und der richtige Zeitpunkt",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "bd998f399d88254aba79778722f8ae9fc3195fcfacacb4736e3b5670af980764",
-        "changedFields": []
-      },
-      "recordId": "SITE-ADF9FC2DA33F"
     },
     {
       "type": "content_change",
@@ -1988,7 +1858,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-16T09:57:09.869Z",
+    "checkedAt": "2026-11-16T10:13:15.633Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2000,7 +1870,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:57:09.869Z",
+        "checkedAt": "2026-11-16T10:13:15.633Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2027,7 +1897,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:57:09.869Z",
+        "checkedAt": "2026-11-16T10:13:15.633Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2054,7 +1924,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:57:09.869Z",
+        "checkedAt": "2026-11-16T10:13:15.633Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2081,7 +1951,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:57:09.869Z",
+        "checkedAt": "2026-11-16T10:13:15.633Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2109,7 +1979,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
         "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
         "publishDate": "2026-11-16T09:17:19+01:00",
@@ -2143,7 +2013,13 @@
           "monitoringPriority": 1.25,
           "priorityConfidence": 0.74
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:21.828Z",
+          "publicTitle": "Mammotion 德国发布草坪杂草识别与养护指南",
+          "publicSummary": "德国官网11月16日发布草坪杂草识别、清理与预防指南，介绍通过割草、补播和按需养护维持草坪，并在正文引导了解Mammotion无边界割草机。属于品牌产品教育内容。"
+        }
       },
       {
         "recordId": "CH-62A3CA671063",
@@ -2153,7 +2029,7 @@
         "countryCode": "UK",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot Lawn Mower Edge Cutting: How It Works and What to Look For",
         "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-edge-cutting",
         "publishDate": "2026-11-16T08:36:03+00:00",
@@ -2198,7 +2074,13 @@
           "monitoringPriority": 1.89,
           "priorityConfidence": 0.84
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:21.910Z",
+          "publicTitle": "Mammotion 英国发布边缘割草系统与兼容型号指南",
+          "publicSummary": "英国官网11月16日发布机器人割草机边缘修剪指南，比较伸缩臂修边模块、副刀盘与偏置刀盘，介绍LUBA 4 AWD选配模块的型号兼容范围及LUBA mini 2 AWD侧刀盘，并提示墙边、台阶和内角仍可能需要人工补剪。"
+        }
       },
       {
         "recordId": "CH-E7989E461BD8",
@@ -2208,7 +2090,7 @@
         "countryCode": "UK",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
         "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
         "publishDate": "2026-11-13T09:33:43+00:00",
@@ -2248,7 +2130,13 @@
           "monitoringPriority": 1.74,
           "priorityConfidence": 0.76
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:22.011Z",
+          "publicTitle": "Mammotion 英国发布异形草坪路径规划与选型指南",
+          "publicSummary": "英国官网11月13日发布L形、U形及多内角草坪的割草机选型指南，解释路径规划、周界巡割与地面起伏的区别，并介绍Mammotion应用中的割草路线和边缘设置。"
+        }
       },
       {
         "recordId": "CH-01C382B7C853",
@@ -2258,7 +2146,7 @@
         "countryCode": "UK",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
         "sourceUrl": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
         "publishDate": "2026-11-13T05:34:55+00:00",
@@ -2292,7 +2180,13 @@
           "monitoringPriority": 2.84,
           "priorityConfidence": 0.87
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-11-16T09:59:22.086Z",
+          "publicTitle": "Mammotion 英国发布黑五与网一时间及割草机优惠指南",
+          "publicSummary": "英国官网11月13日发布黑五与网一时间指南，介绍11月10–30日英国精选割草机活动、合格订单赠品和优惠券机会，并提示产品、市场、库存及活动条款限制。"
+        }
       },
       {
         "recordId": "CH-CD2EAD7B07F0",
@@ -2302,7 +2196,7 @@
         "countryCode": "UK",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "What is a GPS robot lawn mower?",
         "sourceUrl": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
         "publishDate": "2026-11-12T06:40:13+00:00",
@@ -2336,7 +2230,13 @@
           "monitoringPriority": 1.71,
           "priorityConfidence": 0.73
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:22.156Z",
+          "publicTitle": "Mammotion 英国发布GPS割草机原理与适用场景指南",
+          "publicSummary": "英国官网11月12日发布GPS机器人割草机指南，说明本地RTK与网络RTK、摄像头和LiDAR组合的差别，以及卫星视野、网络覆盖、多区域和初次地图配置等使用条件。"
+        }
       },
       {
         "recordId": "CH-9F8A649F2AD0",
@@ -2346,7 +2246,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
         "publishDate": "2026-11-13T07:04:02+01:00",
@@ -2380,7 +2280,13 @@
           "monitoringPriority": 2.76,
           "priorityConfidence": 0.81
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-11-16T09:59:22.224Z",
+          "publicTitle": "Mammotion 法国发布黑五与网一时间及割草机优惠指南",
+          "publicSummary": "法国官网11月13日发布黑五与网一时间指南，宣传11月10–30日法国精选割草机活动，并介绍合格订单赠品和优惠券机会，适用产品、库存与活动条款分别受限。"
+        }
       },
       {
         "recordId": "CH-8FDE13666B74",
@@ -2390,7 +2296,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
         "publishDate": "2026-10-10T12:31:16+02:00",
@@ -2428,7 +2334,11 @@
           "monitoringPriority": 1.57,
           "priorityConfidence": 0.64
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:22.299Z"
+        }
       },
       {
         "recordId": "CH-59CD5576EFB7",
@@ -2438,7 +2348,7 @@
         "countryCode": "US",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Mammotion Black Friday Deals 2026 | Official Sale",
         "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
         "publishDate": "2026-10-27T23:25:26-07:00",
@@ -2499,7 +2409,13 @@
           "monitoringPriority": 2.98,
           "priorityConfidence": 0.97
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "promotion",
+          "reviewedAt": "2026-11-16T09:59:22.367Z",
+          "publicTitle": "Mammotion 美国更新黑五割草机报价与奖励规则",
+          "publicSummary": "美国官网11月10日更新黑五文章，列示LUBA 3 AWD 3000优惠价1999美元、LUBA mini 2 AWD 1500H优惠价1599美元，指定优惠附清洁支架赠品；报价有效期为11月10–30日，赠品及叠加优惠受库存和官方条款限制，并调整会员抽奖与推荐奖励。"
+        }
       },
       {
         "recordId": "CH-4611D36FC92D",
@@ -2509,7 +2425,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
         "publishDate": "2026-08-24T11:49:53+02:00",
@@ -2563,7 +2479,11 @@
           "monitoringPriority": 1.55,
           "priorityConfidence": 0.62
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:22.450Z"
+        }
       },
       {
         "recordId": "CH-4EBFF50B32D9",
@@ -2673,7 +2593,7 @@
         "countryCode": "FR",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
         "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
         "publishDate": "2026-08-24T11:49:53+02:00",
@@ -2729,7 +2649,13 @@
           "monitoringPriority": 1.57,
           "priorityConfidence": 0.64
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T09:59:22.528Z",
+          "publicTitle": "Mammotion 法国改写机器人割草机选购与使用指南",
+          "publicSummary": "法国官网11月6日更新机器人割草机综合指南，重构有线与无线导航技术、预算和选型比较，扩展安装、维护及常见问题说明。内容属于既有产品的选购和使用教育。"
+        }
       },
       {
         "recordId": "CH-7D4001C0B787",
@@ -6467,536 +6393,6 @@
       }
     ],
     "pendingRecords": [
-      {
-        "recordId": "CH-878638C71753",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
-        "publishDate": "2026-11-16T09:17:19+01:00",
-        "updatedAt": "2026-11-16T09:21:54+01:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "Unkraut im Rasen erkennen und richtig behandeln: Erfahren Sie, warum Löwenzahn, Klee & Co. wachsen und wie Sie Unkraut vorbeugen. Mehr",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "90c613f128d08e111d60ad21e4be2db7ba3d2ca2de3bf890101302b458d40cbb",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.25,
-          "priorityConfidence": 0.74
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-62A3CA671063",
-        "sourceId": "mammotion-uk-blog",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Robot Lawn Mower Edge Cutting: How It Works and What to Look For",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-edge-cutting",
-        "publishDate": "2026-11-16T08:36:03+00:00",
-        "updatedAt": "2026-11-16T08:37:28+00:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "Does a robot lawn mower cut to edge? Compare designs for walls, fences and paths to find one that leaves less grass to trim by hand. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "a4ce2d1dfb2d6c8071cb35a064757febfa1bd9578636a311222ef27dd5907aca",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "LUBA 4 AWD",
-            "source": "article_body",
-            "excerpt": "ing height is independently adjustable. Mammotion LUBA 4 AWD (compatible models) Can substantially narrow the "
-          },
-          {
-            "name": "LUBA mini 2 AWD",
-            "source": "article_body",
-            "excerpt": "dge of the chassis trims the perimeter. Mammotion LUBA mini 2 AWD 1000 and LUBA mini 2 AWD 1500 ; selected Husqvarn"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0.02,
-          "newProductConfidence": 0.96,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.89,
-          "priorityConfidence": 0.84
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-E7989E461BD8",
-        "sourceId": "mammotion-uk-blog",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
-        "publishDate": "2026-11-13T09:33:43+00:00",
-        "updatedAt": "2026-11-13T09:36:39+00:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "Find out why robot lawn mowers miss corners on L- and U-shaped lawns, and what to check for when choose a robot lawn mower for an irregularly shaped lawn. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "22b1be9de60e9ffce3a99ed82f79420b41a0ae2b798e473b7eb46552e321e604",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "LUBA 4 AWD",
-            "source": "article_body",
-            "excerpt": "n optional edge-trimming attachment for supported LUBA 4 AWD models can help reach grass beyond the main cutti"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.74,
-          "priorityConfidence": 0.76
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-01C382B7C853",
-        "sourceId": "mammotion-uk-blog",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
-        "publishDate": "2026-11-13T05:34:55+00:00",
-        "updatedAt": "2026-11-13T06:02:32+00:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "When is Black Friday and Cyber Monday 2026 in the UK? Compare tech deals, find gift ideas and explore Mammotion’s robot lawn mower sale. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "4f43acf1bfc046110f2db164ac2b4c03c678a8934c8c48ac36e67b4f1b5e24a7",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "promotion",
-          "themeConfidence": 0.99,
-          "monitoringPriority": 2.84,
-          "priorityConfidence": 0.87
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-CD2EAD7B07F0",
-        "sourceId": "mammotion-uk-blog",
-        "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "What is a GPS robot lawn mower?",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
-        "publishDate": "2026-11-12T06:40:13+00:00",
-        "updatedAt": "2026-11-12T06:40:13+00:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "See how a GPS robot lawn mower works without perimeter wire, compare four navigation set-ups and find out which one suits your garden. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "9f2a3c2c8ce1536870794ed105772ef3145f5dbd6681ab4fa1c35cf1e6ad5e01",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.71,
-          "priorityConfidence": 0.73
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-9F8A649F2AD0",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
-        "publishDate": "2026-11-13T07:04:02+01:00",
-        "updatedAt": "2026-11-13T07:05:39+01:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "Découvrez les dates du Black Friday et du Cyber Monday 2026 en France. Comparez les offres high-tech, trouvez des idées cadeaux et découvrez les promos sur les robots tondeuses Mammotion. Plus",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "9822cf56f55b262c83d05b08c354cc0ea64649a6b0363475efa2110e096d40a7",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "promotion",
-          "themeConfidence": 0.99,
-          "monitoringPriority": 2.76,
-          "priorityConfidence": 0.81
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-8FDE13666B74",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
-        "publishDate": "2026-10-10T12:31:16+02:00",
-        "updatedAt": "2026-11-12T07:05:37+01:00",
-        "discoveredAt": "2026-11-16T09:02:51.701Z",
-        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "8caed8f089537ccb949764cd8712fe2e9993a650b366cabd3ba575afce6bf1ee",
-          "afterHash": "43a614d31865e98191ef5d3a2348e17f61b0352ff1ce6b38ab576d06a2a99b7e",
-          "changedFields": [
-            "body"
-          ],
-          "beforeExcerpt": "Plusieurs appareils sont présentés comme « GPS » sans être de véritables robots de ce type. Type d’appareil Rôle du GPS Fil périphérique Robot avec GPS antivol Localiser le robot en cas de vol Oui Robot avec navigation assistée par GPS Mémoriser les zones déjà tondues Oui Robot à caméra uniquement A",
-          "afterExcerpt": "Il convient toutefois de noter que certains robots équipés d'un GPS sur le marché n'utilisent cette fonction que pour le suivi antivol ou l'assistance à la navigation, tout en restant dépendants d'un fil périphérique. Ils ne doivent donc pas être confondus avec de véritables robots tondeuses GPS (sa"
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.57,
-          "priorityConfidence": 0.64
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-59CD5576EFB7",
-        "sourceId": "mammotion-us-blog",
-        "brand": "Mammotion",
-        "country": "美国",
-        "countryCode": "US",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Mammotion Black Friday Deals 2026 | Official Sale",
-        "sourceUrl": "https://us.mammotion.com/blogs/news/mammotion-black-friday-deals",
-        "publishDate": "2026-10-27T23:25:26-07:00",
-        "updatedAt": "2026-11-10T19:55:29-08:00",
-        "discoveredAt": "2026-11-11T09:53:39.436Z",
-        "summary": "Explore Mammotion Black Friday 2026 deals from Nov 10–30. Discover the biggest offers on robotic mowers, plus exclusive rewards. More",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "2c0d24c637875925da79c1b29855d9604e3f9b762301b93445af339cf7d8c96e",
-          "afterHash": "5fd7497db322cfe360fcc304dda94d5ec913febcc1adede80695bbe4b80e0c45",
-          "changedFields": [
-            "headings",
-            "offer",
-            "body"
-          ],
-          "beforeExcerpt": "3–9, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 1,000 points; you get 2,500 points + a FREE Mower Cleaning Stand . . 1. Spin & W",
-          "afterExcerpt": "10–30, 2026 . Points, accessories, and exclusive coupons . Join Membership & Earn Double Points . Nov 3–30, 2026 . Earn double Mammotion Points . Black Friday Exclusive Referral Rewards . Nov 3–30, 2026 . Your friend gets 2,000 points; you get 3,500 points + a FREE Mower Cleaning Stand . . 1. Spin &"
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "LUBA 3 AWD",
-            "source": "article_body",
-            "excerpt": "s, first come, first served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin"
-          },
-          {
-            "name": "LUBA mini 2 AWD",
-            "source": "article_body",
-            "excerpt": "t served. Valid for 30 days on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTIO"
-          },
-          {
-            "name": "SPINO E1",
-            "source": "article_body",
-            "excerpt": " on LUBA 3 AWD Series, LUBA mini 2 AWD 1500H, and SPINO E1. Spin Rules Join the MAMMOTION Black Friday Spin "
-          },
-          {
-            "name": "LUBA 3 AWD 3000",
-            "source": "article_body",
-            "excerpt": "amount Discounted price Free gift Free gift value LUBA 3 AWD 3000 $2,799 28.58% $800 $1,999 Mower Cleaning Stand $7"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "promotion",
-          "themeConfidence": 1,
-          "monitoringPriority": 2.98,
-          "priorityConfidence": 0.97
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-4611D36FC92D",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
-        "publishDate": "2026-08-24T11:49:53+02:00",
-        "updatedAt": "2026-11-10T04:24:55+01:00",
-        "discoveredAt": "2026-11-10T10:29:45.190Z",
-        "summary": "Quel robot tondeuse choisir ? Comparez les technologies de navigation, les prix et les usages, puis maîtrisez l’installation, l’entretien et le dépannage. Plus",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "34b5db6652f54df5dad3a2c4d4b43d2d0e5889b341d58aa30c1bed4d5afd3d88",
-          "afterHash": "716f55428632a2956e07a9c2f5d142d6a52fa8c73b035c4c9d4831af251743a0",
-          "changedFields": [
-            "body"
-          ],
-          "beforeExcerpt": "Un robot tondeuse est une tondeuse autonome et électrique, aussi appelée tondeuse automatique, capable d’entretenir la pelouse sans avoir besoin d’être conduite à la main. Il fonctionne avec une batterie rechargeable et utilise différents capteurs pour se déplacer dans le jardin et rester dans la zo",
-          "afterExcerpt": ". Un robot tondeuse est une tondeuse autonome et électrique, aussi appelée tondeuse automatique, capable d’entretenir la pelouse sans avoir besoin d’être conduite à la main. Il fonctionne avec une batterie rechargeable et utilise différents capteurs pour se déplacer dans le jardin et rester dans la "
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "YUKA",
-            "source": "article_body",
-            "excerpt": "pact à propulsion arrière, comme ceux de la gamme YUKA, peut généralement répondre aux besoins courants."
-          },
-          {
-            "name": "LUBA AWD",
-            "source": "article_body",
-            "excerpt": "s, un modèle à transmission intégrale de la gamme LUBA AWD offrira davantage de motricité et de stabilité. L"
-          },
-          {
-            "name": "LUBA mini AWD",
-            "source": "article_body",
-            "excerpt": "vantage de motricité et de stabilité. Les modèles LUBA mini AWD associent quant à eux un format plus compact à un"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.55,
-          "priorityConfidence": 0.62
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-9C87833EF3C8",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Robot tondeuse : le guide complet pour choisir, utiliser et entretenir son appareil",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-guide-complet",
-        "publishDate": "2026-08-24T11:49:53+02:00",
-        "updatedAt": "2026-11-06T11:08:50+01:00",
-        "discoveredAt": "2026-11-07T09:18:54.457Z",
-        "summary": "Quel robot tondeuse choisir ? Comparez les technologies de navigation, les prix et les usages, puis maîtrisez l’installation, l’entretien et le dépannage. Plus",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "45bfdb3c5ffb46439040480fd9b60c54ca759df4c332d0df7525ffb544fbec45",
-          "afterHash": "34b5db6652f54df5dad3a2c4d4b43d2d0e5889b341d58aa30c1bed4d5afd3d88",
-          "changedFields": [
-            "headings",
-            "offer",
-            "body"
-          ],
-          "beforeExcerpt": "Et si votre pelouse restait nette sans que vous ayez à la tondre chaque semaine ? Alimenté par batterie, un robot tondeuse travaille de manière autonome : une fois sa zone définie, il coupe régulièrement une petite quantité d’herbe, puis retourne seul à sa station de charge. Grâce au mulching, les r",
-          "afterExcerpt": "Un gazon impeccable toute l’année sans lever le petit doigt ? C’est la promesse du robot tondeuse. Pourtant, entre la surface du terrain, les pentes escarpées et la configuration du jardin, tous les modèles ne se valent pas. Fonctionnement, critères d'achat indispensables, installation étape par éta"
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ]
-        },
-        "productExposure": [
-          {
-            "name": "YUKA",
-            "source": "article_body",
-            "excerpt": "pact à propulsion arrière, comme ceux de la gamme YUKA, peut généralement répondre aux besoins courants."
-          },
-          {
-            "name": "LUBA AWD",
-            "source": "article_body",
-            "excerpt": "s, un modèle à transmission intégrale de la gamme LUBA AWD offrira davantage de motricité et de stabilité. L"
-          },
-          {
-            "name": "LUBA mini AWD",
-            "source": "article_body",
-            "excerpt": "vantage de motricité et de stabilité. Les modèles LUBA mini AWD associent quant à eux un format plus compact à un"
-          }
-        ],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.57,
-          "priorityConfidence": 0.64
-        },
-        "humanAssessment": null
-      },
       {
         "recordId": "CH-E51629ECF19C",
         "sourceId": "mammotion-fr-blog",
