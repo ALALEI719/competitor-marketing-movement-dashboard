@@ -1,7 +1,17 @@
 import { actionDateInfo, actionDateOrder, actionDateLabel, calendarDay, matchesActionPeriod } from './action-date.js';
 
 const DAY=86400000;
-export const channelNames={official_site:'官网',blog:'Blog',pr:'PR',social_ads:'社媒广告',google_search_ads:'Google 搜索广告',edm:'EDM',video:'视频'};
+export const channelNames={official_site:'官网',blog:'官网',pr:'PR',social_ads:'社媒广告',google_search_ads:'Google 搜索广告',edm:'EDM',video:'视频'};
+export function matchesChannel(code, selected) {
+  if (!selected || selected === '全部') return true;
+  if (selected === '官网') return ['official_site', 'blog'].includes(code);
+  if (selected === 'Blog') return code === 'blog';
+  return channelNames[code] === selected;
+}
+export function websiteContentType(action) {
+  if (action.channel === 'official_site' && action.contentType === 'article') return 'blog';
+  return action.channel;
+}
 export const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const shiftDay=(day,n)=>new Date(Date.parse(`${day}T00:00:00Z`)+n*DAY).toISOString().slice(0,10);
 export const todayDay=()=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());
@@ -51,9 +61,8 @@ export function sortedActions(actions,sort='newest'){
 }
 
 export function selectDashboardActions(actions,{brand='全部',market='全部',channel='全部',query='',...period}={}){
-  const labels={...channelNames,social_ads:'社媒广告'};
   return actions.filter(a=>a.reviewStatus==='approved'&&(brand==='全部'||a.brand===brand)
-    &&(market==='全部'||a.country===market)&&(channel==='全部'||labels[a.channel]===channel)
+    &&(market==='全部'||a.country===market)&&matchesChannel(a.channel,channel)
     &&matchesActionPeriod(a,period)&&matchesQuery(a,query)).sort(actionDateOrder);
 }
 
@@ -250,7 +259,7 @@ export function renderTimelineV3({container,actions,calendar,period,brand,state,
 
 function actionButton(a){return `<button class="brief-action" data-card-action="${escape(a.actionId)}"><time>${escape(actionDateInfo(a).day.slice(5)||'日期待确认')}</time><span>${escape(headline(a))}<small>${escape(a.brand+' · '+a.country)}</small></span></button>`;}
 export function renderCardsV3({container,actions,artworks,onAction,onChannel,all=false}){
-  const groups=all?[{code:'all',records:actions}]:['edm','blog','pr','official_site','social_ads','google_search_ads','video'].map(code=>({code,records:actions.filter(a=>a.channel===code)})).filter(g=>g.records.length);
+  const groups=all?[{code:'all',records:actions}]:['edm','official_site','pr','social_ads','google_search_ads','video'].map(code=>({code,records:actions.filter(a=>code==='official_site'?['official_site','blog'].includes(a.channel):a.channel===code)})).filter(g=>g.records.length);
   container.innerHTML=groups.length?groups.map(group=>{
     const records=[...group.records].sort(actionDateOrder),featured=all?records:records.slice(0,1);
     return featured.map(a=>{const image=safeArtwork(artworks.get(a.actionId));return `<article class="feature-card ${escape(a.channel)} ${image?'with-cover':'text-only'}"><div class="feature-kicker">${escape(a.brand+' · '+a.country)}<time>${escape(actionDateInfo(a).day||'日期待确认')}</time></div><h3><button data-card-action="${escape(a.actionId)}">${escape(headline(a))}</button></h3><div class="feature-body"><p>${escape(actionReading(a).lead)}</p><div class="action-tags"><span>${escape(channelNames[a.channel])}</span>${a.stage&&a.stage!=='not_launch_related'?`<span>${escape(stageText(a.stage))}</span>`:''}${a.dateBasis==='manual_record'?'<span class="manual-note">人工台账</span>':''}</div>${image?`<button class="feature-visual has-image" data-card-action="${escape(a.actionId)}" aria-label="查看 ${escape(headline(a))}"><img src="${escape(image)}" alt="${escape(a.brand+' 已留存的营销素材')}" loading="lazy"></button>`:''}${!all?records.slice(1,3).map(actionButton).join(''):''}<button class="card-footer" ${all?`data-card-action="${escape(a.actionId)}"`:`data-card-channel="${escape(a.channel)}"`}>${all?'查看详情与证据':`查看该渠道 ${records.length} 条动作`} <span>→</span></button></div></article>`;}).join('');
@@ -263,14 +272,17 @@ export function renderCardsV3({container,actions,artworks,onAction,onChannel,all
 // Coverage is a per-brand, per-market view of sources and records, never a global status.
 export function coverageCell({brand,market='全部',channel,actions=[],allActions=[],summary,ads}) {
   const scope=r=>matchesDashboardScope(r,{brand,market});
-  const approved=allActions.filter(a=>a.reviewStatus==='approved'&&a.channel===channel&&scope(a));
-  const selected=actions.filter(a=>a.channel===channel&&scope(a));
+  const included=channel==='official_site'?['official_site','blog']:[channel];
+  const approved=allActions.filter(a=>a.reviewStatus==='approved'&&included.includes(a.channel)&&scope(a));
+  const selected=actions.filter(a=>included.includes(a.channel)&&scope(a));
   const sourceList=channel==='official_site'?summary?.sites:channel==='blog'?summary?.channelMonitoring?.sources:channel==='pr'?summary?.prMonitoring?.sources:undefined;
   const sources=scopedSources(sourceList,{brand,market});
+  const articleSources=channel==='official_site'?scopedSources(summary?.channelMonitoring?.sources,{brand,market}):[];
   const observations=channel==='social_ads'?(ads?.records||[]).filter(scope):[];
   const unknown=approved.filter(a=>!actionDateInfo(a).day).length;
   return {count:selected.length,archived:approved.length,unknown,observations:observations.length,
-    source:sourceList?sources.length?`已接入 ${sources.length} 个来源`:'尚未接入来源':
+    source:channel==='official_site'&&summary?(sources.length||articleSources.length?`已接入 ${sources.length} 个站点 · ${articleSources.length} 个文章源`:'尚未接入来源'):
+      sourceList?sources.length?`已接入 ${sources.length} 个来源`:'尚未接入来源':
       ['official_site','blog','pr'].includes(channel)&&!summary?'来源状态未加载':
       observations.length?`美国 Meta · ${observations.length} 条观察库存`:
       channel==='edm'?(approved.length?'已有邮件收录 · 覆盖不完整':'尚未收录邮件'):
@@ -315,13 +327,16 @@ export function scopedSources(sources=[],filters={}){
 export function freshnessEntries({summary,actions=[],edmItems=[],ads,filters={}}){
   const latest=values=>values.filter(v=>Number.isFinite(Date.parse(v))).sort((a,b)=>Date.parse(a)-Date.parse(b)).at(-1)||'';
   const records=actions.filter(a=>a.reviewStatus==='approved'&&matchesDashboardScope(a,filters));
-  const sources=[['官网',summary?.sites,'官网 · 计划每周全量'],['Blog',summary?.channelMonitoring?.sources,'Blog'],['PR',summary?.prMonitoring?.sources,'PR']].map(([name,list,note])=>{
+  const websiteSites=scopedSources(summary?.sites,filters),websiteArticles=scopedSources(summary?.channelMonitoring?.sources,filters);
+  const websiteSources=[...websiteSites,...websiteArticles];
+  const website={name:'官网',channel:'官网',label:'最近采集检查',time:latest(websiteSources.map(i=>i.checkedAt)),note:websiteSources.length?`${websiteSites.filter(i=>i.status==='ok').length}/${websiteSites.length} 站点、${websiteArticles.filter(i=>i.status==='ok').length}/${websiteArticles.length} 文章源上次采集成功；不代表持续实时`:'当前筛选尚无已接入来源'};
+  const sources=[['PR',summary?.prMonitoring?.sources,'PR']].map(([name,list,note])=>{
     const scoped=scopedSources(list,filters),ok=scoped.filter(i=>i.status==='ok').length;
     return {name,channel:name,label:'最近采集检查',time:latest(scoped.map(i=>i.checkedAt)),note:scoped.length?`${ok}/${scoped.length} 来源上次采集成功 · ${note}；不代表持续实时`:'当前筛选尚无已接入来源'};
   });
   const edm=records.filter(a=>a.channel==='edm'),ids=new Set(edm.map(a=>a.actionId));
   const adScope=Boolean(ads&&matchesDashboardScope({brand:'Mammotion',country:'美国',countryCode:'US'},filters));
-  return [...sources,{name:'已确认动作',label:'最近复核',time:latest(records.filter(a=>!filters.channel||filters.channel==='全部'||channelNames[a.channel]===filters.channel).map(a=>a.reviewedAt)),note:'当前品牌 / 国家 / 渠道的复核记录；不代表来源重新采集'},
+  return [website,...sources,{name:'已确认动作',label:'最近复核',time:latest(records.filter(a=>matchesChannel(a.channel,filters.channel)).map(a=>a.reviewedAt)),note:'当前品牌 / 国家 / 渠道的复核记录；不代表来源重新采集'},
     {name:'EDM',channel:'EDM',label:'最近内容复核',time:latest(edm.map(a=>a.reviewedAt)),note:`${edmItems.filter(i=>ids.has(i.actionId)&&matchesDashboardScope(i,filters)).length} 封已收录；发信时间见邮件，收信运行状态未在此导出`},
     {name:'广告观察',channel:'社媒广告',label:'最近成功采集',time:adScope?ads.lastSuccessAt:'',note:adScope?(ads.status==='failed'||ads.status==='needs_attention'?'Mammotion 美国 Meta · 最近检查未完成，保留上次成功观察':'Mammotion 美国 Meta · 上次采集结果，不代表当前实时'):'当前品牌 / 国家尚无已接入广告观察'}];
 }

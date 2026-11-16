@@ -1,4 +1,4 @@
-import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut, describeCampaign, coverageCell, selectAdInventory, actionReading, recordLink, timelineModeForWidth, matchesDashboardScope, freshnessEntries, timelineActionTypes, timelineActionType, timelineTypeIcon } from './dashboard-v3.js';
+import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut, describeCampaign, coverageCell, selectAdInventory, actionReading, recordLink, timelineModeForWidth, matchesDashboardScope, matchesChannel, websiteContentType, freshnessEntries, timelineActionTypes, timelineActionType, timelineTypeIcon } from './dashboard-v3.js';
 import { websiteReviewQueue } from './website-review.js';
 import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
 import {validatePublicAdObservations,adObservationFreshness} from './ads-observations.js';
@@ -79,7 +79,7 @@ function reviewGroups(summary){
   const blog=[...new Map([...(summary?.channelMonitoring?.recentRecords||[]),...(summary?.channelMonitoring?.pendingRecords||[])].map(record=>[record.recordId,record])).values()];
   const queue=websiteReviewQueue(uniquePending(summary?.pendingRecords),blog);
   return [
-    {channel:'官网',title:'官网与 Blog',channels:['官网','Blog'],workflow:'review-website-record.yml',linked:queue.linked,
+    {channel:'官网',title:'官网',channels:['官网'],workflow:'review-website-record.yml',linked:queue.linked,
       records:[...queue.site.map(record=>({...record,reviewType:'官网'})),...queue.blog.map(record=>({...record,reviewType:'Blog'}))].sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt))},
     {channel:'PR',workflow:'review-pr-record.yml',records:uniquePending(summary?.prMonitoring?.pendingRecords||summary?.prMonitoring?.recentRecords)}
   ];
@@ -195,7 +195,7 @@ async function showEdmDetail(item){
   document.querySelector('#dialog-content').innerHTML=await edmMailMarkup(item.detailRef);
 }
 
-function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'Blog',social_ads:'社媒广告',google_search_ads:'Google 搜索广告',video:'视频',edm:'EDM'})[channel]||channel;}
+function channelLabel(channel){return ({official_site:'官网',pr:'PR',blog:'官网',social_ads:'社媒广告',google_search_ads:'Google 搜索广告',video:'视频',edm:'EDM'})[channel]||channel;}
 function stageLabel(stage){return stageText(stage);}
 
 function reviewLabel(status){return ({pending:'待复核',approved:'已确认',rejected:'已驳回'})[status]||status;}
@@ -206,9 +206,9 @@ function renderChannelMonitoring(monitoring){
   const healthy=sources.filter(item=>item.status==='ok').length;
   document.querySelector('#channel-source-status').textContent=sources.length?`${healthy}/${sources.length} 最近采集成功`:'当前筛选无已接入来源';
   document.querySelector('#channel-source-status').className=`badge ${sources.length&&healthy===sources.length?'green':'orange'}`;
-  document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · ${escapeHtml(channelLabel(item.source.channel))}</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立渠道基线</div>';
+  document.querySelector('#channel-source-list').innerHTML=sources.length?sources.map(item=>`<a class="channel-source-card ${item.status==='ok'?'healthy':'error'}" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer"><div><strong>${escapeHtml(item.source.country)} · 官网文章</strong><span>${item.status==='ok'?`${item.itemCount} 条基线内容`:`采集异常：${escapeHtml(item.error||'未知错误')}`}</span></div><em>${item.status==='ok'?'正常':'需排查'}</em></a>`).join(''):'<div class="coverage-loading">尚未建立文章来源基线</div>';
   const records=(monitoring?.recentRecords||monitoring?.pendingRecords||[]).filter(item=>matchesScope(item)).sort((a,b)=>Date.parse(b.discoveredAt)-Date.parse(a.discoveredAt));
-  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const human=item.humanAssessment;const relation=human?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史文章补录':item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(human?.marketingTheme||system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${human?'已完成二次判断':'待二次判断'}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-website-record.yml" target="_blank" rel="noreferrer">${human?'查看复核入口':'进行二次判断'}</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有 Blog 变化记录。</div>';
+  document.querySelector('#channel-record-list').innerHTML=records.length?records.slice(0,12).map(item=>{const system=item.systemAssessment||{};const assessment=item.humanAssessment;const relation=assessment?.newProductRelation||system.newProductRelation||'uncertain';const priority=system.monitoringPriority===null||system.monitoringPriority===undefined?'':` · 优先级 ${Number(system.monitoringPriority).toFixed(1)}/4`;return `<article><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.country)} · ${item.changeType==='historical_publication'?'历史文章补录':item.changeType==='content_updated'?'文章更新':'新文章'} · ${item.publishDate?escapeHtml(item.publishDate.slice(0,10)):'发布日期待确认'}</span></a><div class="channel-tags"><em class="channel-tag ${escapeHtml(relation)}">${escapeHtml(newProductLabel(relation))}</em><em class="channel-tag">${escapeHtml(themeLabel(assessment?.marketingTheme||system.marketingTheme))}${escapeHtml(priority)}</em><em class="channel-tag ${escapeHtml(item.reviewStatus)}">${escapeHtml(reviewLabel(item.reviewStatus))}</em></div><small><code>${escapeHtml(item.recordId)}</code> · <a href="https://github.com/ALALEI719/competitor-marketing-movement-tracking/actions/workflows/review-website-record.yml" target="_blank" rel="noreferrer">查看原生复核入口</a></small></article>`;}).join(''):'<div class="timeline-empty">当前筛选下没有官网文章变化记录。</div>';
 }
 function renderPrMonitoring(monitoring){
   const sources=(monitoring?.sources||[]).filter(item=>matchesScope(item.source));
@@ -313,6 +313,7 @@ function showActionGroup(actions){
 
 function openContentChannel(code){
   channel.value=channelLabel(code);contentCategory=code==='edm'?'edm':code==='pr'?'pr':['social_ads','google_search_ads','video'].includes(code)?'ads':'web';
+  document.querySelector('#website-content-type').value='';
   activateView('content');renderScopedDashboard();renderContentView();window.dispatchEvent(new Event('dashboard:filters-changed'));
 }
 function renderContentView(){
@@ -320,10 +321,11 @@ function renderContentView(){
   document.querySelector('#content').classList.toggle('compact-content',contentDensity==='compact');
   document.querySelectorAll('[data-content-tab]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.contentTab===contentCategory)));
   document.querySelector('#channel-web').hidden=['edm','ads'].includes(contentCategory);
+  document.querySelector('#website-content-type').closest('label').hidden=contentCategory!=='web';
   document.querySelector('#channel-edm').hidden=contentCategory!=='edm';
   document.querySelector('#channel-ads').hidden=contentCategory!=='ads';
   if(actionLoadStatus!=='ready'){document.querySelector('#channel-content-list').innerHTML='<div class="timeline-empty">'+(actionLoadStatus==='error'?'正式动作读取失败，请在总览重试。':'正在读取已确认内容…')+'</div>';renderCurrentEdm();return;}
-  renderCardsV3({container:document.querySelector('#channel-content-list'),actions:channelSelection(filteredFormalActions(),contentCategory).filter(action=>contentCategory!=='web'||!document.querySelector('#website-content-type')?.value||document.querySelector('#website-content-type').value===action.channel),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
+  renderCardsV3({container:document.querySelector('#channel-content-list'),actions:channelSelection(filteredFormalActions(),contentCategory),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
   renderCardsV3({container:document.querySelector('#ads-formal-list'),actions:channelSelection(filteredFormalActions(),'ads'),artworks,onAction:showFormalAction,onChannel:openContentChannel,all:true});
   renderCurrentEdm();
 }
@@ -366,7 +368,11 @@ function setTimelineFocus(focus){
 }
 
 function filteredFormalActions(){
-  return selectDashboardActions(formalActionState,{brand:brand.value,market:market.value,channel:channel.value,...actionPeriod(),query:queryText});
+  const actions=selectDashboardActions(formalActionState,{brand:brand.value,market:market.value,channel:channel.value,...actionPeriod(),query:queryText});
+  if(currentView!=='content'||contentCategory!=='web')return actions;
+  const websiteActions=channelSelection(actions,'web');
+  const type=document.querySelector('#website-content-type').value;
+  return type?websiteActions.filter(action=>websiteContentType(action)===type):websiteActions;
 }
 
 function renderCurrentFormalActions(){
@@ -403,13 +409,13 @@ function renderCurrentFormalActions(){
 function scopedEvents(events,actions,filters={market:market.value,brand:brand.value,channel:channel.value,...actionPeriod()}){
   const byId=new Map(actions.map(a=>[a.actionId,a]));
   return events.map(event=>{
-    const visible=(event.actionIds||[]).map(id=>byId.get(id)).filter(a=>a&&matchesScope(a,filters)&&(filters.channel==='全部'||channelLabel(a.channel)===filters.channel)&&matchesActionPeriod(a,filters));
+    const visible=(event.actionIds||[]).map(id=>byId.get(id)).filter(a=>a&&matchesScope(a,filters)&&matchesChannel(a.channel,filters.channel)&&matchesActionPeriod(a,filters));
     return {...event,actionCount:visible.length,totalActionCount:event.actionCount,countries:[...new Set(visible.map(a=>a.country))],channels:[...new Set(visible.map(a=>a.channel))],stages:[...new Set(visible.map(a=>a.stage).filter(Boolean))]};
   }).filter(event=>event.actionCount>0);
 }
 function renderEventClusters(events){
   events=scopedEvents(events,formalActionState);
-  document.querySelector('#event-cluster-list').innerHTML=events.length?events.map(event=>`<article class="event-card"><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.countries.join(' / '))}</span><p>${event.actionCount} 个筛选内动作${event.actionCount!==event.totalActionCount?`（事件共 ${event.totalActionCount} 个）`:""} · ${escapeHtml(event.channels.map(channelLabel).join(' + '))}</p><em>${escapeHtml(event.stages.map(stageLabel).join(' → '))}</em></article>`).join(''):'<div class="timeline-empty">当前没有可聚合的营销事件；独立 Blog 动作仍会显示在正式时间线中。</div>';
+  document.querySelector('#event-cluster-list').innerHTML=events.length?events.map(event=>`<article class="event-card"><strong>${escapeHtml(event.title)}</strong><span>${escapeHtml(event.countries.join(' / '))}</span><p>${event.actionCount} 个筛选内动作${event.actionCount!==event.totalActionCount?`（事件共 ${event.totalActionCount} 个）`:""} · ${escapeHtml([...new Set(event.channels.map(channelLabel))].join(' + '))}</p><em>${escapeHtml(event.stages.map(stageLabel).join(' → '))}</em></article>`).join(''):'<div class="timeline-empty">当前没有可聚合的营销事件；已确认动作仍会显示在正式时间线中。</div>';
 }
 
 async function loadActionData(){
@@ -466,18 +472,18 @@ function renderFreshness(){
   renderCoverage(filteredFormalActions());
 }
 function renderReviewInbox(){
-  document.querySelector('#website-review-type').closest('label').hidden=!['全部','官网','Blog'].includes(channel.value);
+  document.querySelector('#website-review-type').closest('label').hidden=!['全部','官网'].includes(channel.value);
   const candidateScope=['全部','官网'].includes(channel.value);document.querySelector('#review [data-review-candidates]').hidden=!candidateScope;document.querySelector('#review .footnote').hidden=!candidateScope;
-  document.querySelector('#review > .section-intro p').textContent=channel.value==='EDM'?'EDM 当前没有公开待审队列；这不代表没有收信或所有邮件都已完成复核。已确认邮件与留存素材请在渠道内容中查看。':channel.value==='社媒广告'?'广告观察库存与已复核正式动作分别展示；当前公开观察的覆盖和最近采集状态见渠道内容，待核验线索不自动进入正式动作。':channel.value==='PR'?'当前仅查看 PR 待审记录；原始报道、来源日期及人工复核结论分别保存。':'官网、Blog、PR 与新品候选按所选渠道列出。每次发现和后续更新分别保留，关联记录不会自动合并或批准。';
-  const all=reviewGroups(monitorSummaryState),type=document.querySelector('#website-review-type').value,groups=all.filter(g=>channel.value==='全部'||(g.channels||[g.channel]).includes(channel.value)).map(g=>({...g,linked:(g.linked||[]).filter(item=>matchesScope(item)),records:g.records.filter(item=>matchesScope(item)&&(channel.value==='全部'||(item.reviewType||g.channel)===channel.value)&&(!item.reviewType||!type||item.reviewType===type))}));
+  document.querySelector('#review > .section-intro p').textContent=channel.value==='EDM'?'EDM 当前没有公开待审队列；这不代表没有收信或所有邮件都已完成复核。已确认邮件与留存素材请在渠道内容中查看。':channel.value==='社媒广告'?'广告观察库存与已复核正式动作分别展示；当前公开观察的覆盖和最近采集状态见渠道内容，待核验线索不自动进入正式动作。':channel.value==='PR'?'当前仅查看 PR 待审记录；原始报道、来源日期及复核结论分别保存。':'官网（含文章）、PR 与新品候选按所选渠道列出。每次发现和后续更新分别保留，关联记录不会自动合并或批准。';
+  const all=reviewGroups(monitorSummaryState),type=document.querySelector('#website-review-type').value,groups=all.filter(g=>channel.value==='全部'||(g.channels||[g.channel]).includes(channel.value)).map(g=>({...g,linked:(g.linked||[]).filter(item=>matchesScope(item)),records:g.records.filter(item=>matchesScope(item)&&(!item.reviewType||!type||item.reviewType===type))}));
   const candidates=(monitorSummaryState?.productRadar?.candidates||[]).filter(c=>c.reviewStatus==='pending'&&matchesScope(c)&&['全部','官网'].includes(channel.value));
   const total=groups.reduce((n,g)=>n+g.records.length,0)+candidates.length;
   document.querySelector('#review-total-count').textContent=groups.length||candidateScope?`${total} 条待审记录`:'暂无公开队列';
   document.querySelector('#review-module-counts').textContent=[...groups.map(g=>`${g.title||g.channel} ${g.records.length}`),...(['全部','官网'].includes(channel.value)?[`新品候选 ${candidates.length}`]:[])].join(' · ')+(groups.length?'；已核对的同次发现共用一条复核，后续更新分别保留':'该渠道暂无公开待审队列；未收录不代表没有营销活动。');
   const related=new Map();for(const g of all)for(const item of g.records){const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|');related.set(key,(related.get(key)||0)+1);}
-  document.querySelector('#review-record-groups').innerHTML=groups.length?groups.map(g=>`<section class="review-group"><h3>${escapeHtml(g.title||g.channel)} · ${g.records.length} 条待审</h3>${g.linked?.length?`<p>另有 ${g.linked.length} 条官网发现已关联到同次 Blog 记录，原始编号保留。</p>`:''}${g.records.length?`<div class="table-wrap"><table><thead><tr><th>编号 / 关联</th><th>品牌 / 国家</th><th>发现时间</th><th>记录</th><th>复核入口</th></tr></thead><tbody>${g.records.map((item,index)=>{
+  document.querySelector('#review-record-groups').innerHTML=groups.length?groups.map(g=>`<section class="review-group"><h3>${escapeHtml(g.title||g.channel)} · ${g.records.length} 条待审</h3>${g.linked?.length?`<p>另有 ${g.linked.length} 条官网发现已关联到同次文章记录，原始编号保留。</p>`:''}${g.records.length?`<div class="table-wrap"><table><thead><tr><th>编号 / 关联</th><th>品牌 / 国家</th><th>发现时间</th><th>记录</th><th>复核入口</th></tr></thead><tbody>${g.records.map((item,index)=>{
     const key=[item.brand,item.country,canonicalReviewUrl(item.url||item.sourceUrl)].join('|'),count=related.get(key)||1;
-    return `<tr><td><code>${escapeHtml(item.recordId)}</code><small>${escapeHtml(item.reviewType||g.channel)}</small>${item.discoveryRecordIds?.length?`<small>同次官网发现：${item.discoveryRecordIds.map(escapeHtml).join('、')}</small>`:''}${count>1?`<small>同页 ${count} 次变化，分别复核</small>`:''}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(displayTime(item.discoveredAt))}</td><td><button class="review-record-button" data-review-channel="${g.channel}" data-review-index="${index}">${escapeHtml(item.title||item.url||item.summary||'查看记录')}</button></td><td><button class="secondary compact" data-copy-record="${escapeHtml(item.recordId)}">复制编号</button> <a href="${workflowRoot+g.workflow}" target="_blank" rel="noreferrer">进入复核</a></td></tr>`;
+    return `<tr><td><code>${escapeHtml(item.recordId)}</code><small>${escapeHtml(item.reviewType==='Blog'?'官网文章':item.reviewType||g.channel)}</small>${item.discoveryRecordIds?.length?`<small>同次官网发现：${item.discoveryRecordIds.map(escapeHtml).join('、')}</small>`:''}${count>1?`<small>同页 ${count} 次变化，分别复核</small>`:''}</td><td>${escapeHtml(item.brand)} · ${escapeHtml(item.country)}</td><td>${escapeHtml(displayTime(item.discoveredAt))}</td><td><button class="review-record-button" data-review-channel="${g.channel}" data-review-index="${index}">${escapeHtml(item.title||item.url||item.summary||'查看记录')}</button></td><td><button class="secondary compact" data-copy-record="${escapeHtml(item.recordId)}">复制编号</button> <a href="${workflowRoot+g.workflow}" target="_blank" rel="noreferrer">进入复核</a></td></tr>`;
   }).join('')}</tbody></table></div>`:'<p class="timeline-empty">当前筛选下没有待审记录。</p>'}</section>`).join(''):`<div class="timeline-empty">该渠道没有公开待审队列。${channel.value==='EDM'?'此处不代表邮件是否收取，已确认邮件请查看渠道内容。':channel.value==='社媒广告'?'广告观察及其来源状态请在渠道内容查看，观察库存不计入正式动作。':'未收录不代表没有营销活动。'}</div>`;
   document.querySelectorAll('[data-review-channel]').forEach(button=>button.onclick=()=>{const group=groups.find(g=>g.channel===button.dataset.reviewChannel);showReviewRecord(group.records[Number(button.dataset.reviewIndex)],group.channel);});
   document.querySelectorAll('[data-copy-record]').forEach(button=>button.onclick=async()=>{try{await navigator.clipboard.writeText(button.dataset.copyRecord);button.textContent='已复制';}catch{button.textContent='请选中编号复制';}});
@@ -485,22 +491,25 @@ function renderReviewInbox(){
 function showReviewRecord(record,channelName){
   const source=safePublicUrl(record.url||record.sourceUrl),evidence=record.contentEvidence||{},system=record.systemAssessment,human=record.humanAssessment;
   const evidenceStatus=evidence.reason==='extraction_migration'?'正文提取升级，旧快照不可直接比较':({changed_content:'已存变化证据，需核对正文范围',unchanged_content:'正文未变，仅来源信息变化',missing_previous:'缺少可比前文',new_content:'新文章正文',fetch_error:'正文读取失败'})[evidence.status]||'见现有复核流程';
-  document.querySelector('#detail-title').textContent=`${record.reviewType||channelName} 待审记录`;
-  document.querySelector('#dialog-content').innerHTML=`<dl><dt>编号</dt><dd><code>${escapeHtml(record.recordId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(record.brand)} · ${escapeHtml(record.country)}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(record.discoveredAt))}</dd><dt>发布日期</dt><dd>${escapeHtml(displayTime(record.publishDate))}</dd><dt>变化类型</dt><dd>${escapeHtml(({new_content:'新文章',historical_publication:'历史文章补录',content_updated:'文章更新',new_page:'新页面',removed_page:'页面移除',content_change:'页面内容变化'})[record.changeType||record.type]||'待核对')}</dd><dt>摘要</dt><dd>${escapeHtml((record.summary||'请核读原始证据').replace(/&apos;/g,"'").replace(/\s*(?:More|Plus|Mehr)\s*\]\]>\s*$/i,''))}</dd><dt>证据状态</dt><dd>${escapeHtml(evidenceStatus)}${evidence.changedFields?.length?' · '+escapeHtml(evidence.changedFields.map(observationFieldLabel).join('、')):''}</dd>${system?`<dt>系统初判</dt><dd>${escapeHtml(themeLabel(system.marketingTheme))} · ${escapeHtml(newProductLabel(system.newProductRelation))}</dd>`:''}<dt>人工判断</dt><dd>${human?escapeHtml(themeLabel(human.marketingTheme)+' · '+newProductLabel(human.newProductRelation)):'待二次确认'}</dd>${record.discoveryRecordIds?.length?`<dt>同次官网发现</dt><dd>${record.discoveryRecordIds.map(escapeHtml).join('、')}</dd>`:''}</dl>${evidence.beforeExcerpt||evidence.afterExcerpt?`<div class="evidence-compare"><section><strong>变化前片段</strong><p>${escapeHtml(evidence.beforeExcerpt||'无可比片段')}</p></section><section><strong>变化后片段</strong><p>${escapeHtml(evidence.afterExcerpt||'无可比片段')}</p></section></div>`:''}${record.productExposure?.length?`<p class="evidence">文章产品露出：${record.productExposure.map(item=>escapeHtml(item.name)).join('、')}</p>`:''}${source?`<p><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">查看原页面</a></p>`:''}<p class="evidence">系统初判与复核结论分别保存；查看本记录不会批准、驳回或合并其他观察。</p>`;
+  document.querySelector('#detail-title').textContent=`${record.reviewType==='Blog'?'官网文章':record.reviewType||channelName} 待审记录`;
+  document.querySelector('#dialog-content').innerHTML=`<dl><dt>编号</dt><dd><code>${escapeHtml(record.recordId)}</code></dd><dt>品牌 / 国家</dt><dd>${escapeHtml(record.brand)} · ${escapeHtml(record.country)}</dd><dt>发现时间</dt><dd>${escapeHtml(displayTime(record.discoveredAt))}</dd><dt>发布日期</dt><dd>${escapeHtml(displayTime(record.publishDate))}</dd><dt>变化类型</dt><dd>${escapeHtml(({new_content:'新文章',historical_publication:'历史文章补录',content_updated:'文章更新',new_page:'新页面',removed_page:'页面移除',content_change:'页面内容变化'})[record.changeType||record.type]||'待核对')}</dd><dt>摘要</dt><dd>${escapeHtml((record.summary||'请核读原始证据').replace(/&apos;/g,"'").replace(/\s*(?:More|Plus|Mehr)\s*\]\]>\s*$/i,''))}</dd><dt>证据状态</dt><dd>${escapeHtml(evidenceStatus)}${evidence.changedFields?.length?' · '+escapeHtml(evidence.changedFields.map(observationFieldLabel).join('、')):''}</dd>${system?`<dt>系统初判</dt><dd>${escapeHtml(themeLabel(system.marketingTheme))} · ${escapeHtml(newProductLabel(system.newProductRelation))}</dd>`:''}<dt>原生复核结论</dt><dd>${human?escapeHtml(themeLabel(human.marketingTheme)+' · '+newProductLabel(human.newProductRelation)):'待复核'}</dd>${record.discoveryRecordIds?.length?`<dt>同次官网发现</dt><dd>${record.discoveryRecordIds.map(escapeHtml).join('、')}</dd>`:''}</dl>${evidence.beforeExcerpt||evidence.afterExcerpt?`<div class="evidence-compare"><section><strong>变化前片段</strong><p>${escapeHtml(evidence.beforeExcerpt||'无可比片段')}</p></section><section><strong>变化后片段</strong><p>${escapeHtml(evidence.afterExcerpt||'无可比片段')}</p></section></div>`:''}${record.productExposure?.length?`<p class="evidence">文章产品露出：${record.productExposure.map(item=>escapeHtml(item.name)).join('、')}</p>`:''}${source?`<p><a href="${escapeHtml(source)}" target="_blank" rel="noreferrer">查看原页面</a></p>`:''}<p class="evidence">系统初判与复核结论分别保存；查看本记录不会批准、驳回或合并其他观察。</p>`;
   openDetail();
 }
 function renderScopedDashboard(){
   const summary=monitorSummaryState;if(!summary)return;
   document.querySelectorAll('[data-dashboard-channel]').forEach(panel=>panel.hidden=channel.value!=='全部'&&panel.dataset.dashboardChannel!==channel.value);
-  document.querySelector('#overview-filter-empty').hidden=['全部','官网','Blog','PR'].includes(channel.value);document.querySelector('#overview-filter-empty').textContent=channel.value==='EDM'?'EDM 此处展示内容复核状态；收录数量不代表完整收信覆盖。':channel.value==='社媒广告'?'广告渠道提供 Mammotion 美国 Meta 公开观察；观察库存与正式动作分开展示。':'所选渠道尚无公开来源状态；未收录不代表没有营销活动。';
+  document.querySelector('#overview-filter-empty').hidden=['全部','官网','PR'].includes(channel.value);document.querySelector('#overview-filter-empty').textContent=channel.value==='EDM'?'EDM 此处展示内容复核状态；收录数量不代表完整收信覆盖。':channel.value==='社媒广告'?'广告渠道提供 Mammotion 美国 Meta 公开观察；观察库存与正式动作分开展示。':'所选渠道尚无公开来源状态；未收录不代表没有营销活动。';
   syncDateUI();
   const sites=summary.sites.filter(item=>matchesScope(item.site));
-  document.querySelector('#real-healthy').textContent=sites.length?`${sites.filter(s=>s.status==='ok').length}/${sites.length}`:'0 个来源';
+  const articleSources=(summary.channelMonitoring?.sources||[]).filter(item=>matchesScope(item.source));
+  const websiteSources=[...sites,...articleSources];
+  const websiteHealthy=websiteSources.length>0&&websiteSources.every(source=>source.status==='ok');
+  document.querySelector('#real-healthy').textContent=sites.length?`${sites.filter(s=>s.status==='ok').length}/${sites.length}`:'0 个站点';
   document.querySelector('#real-pages').textContent=sites.reduce((n,s)=>n+s.pageCount,0).toLocaleString('zh-CN');
-  document.querySelector('#real-pending').textContent=uniquePending(summary.pendingRecords).filter(item=>matchesScope(item)).length;
-  document.querySelector('#baseline-status').textContent=sites.length?(sites.every(s=>s.status==='ok')?'最近采集成功':'部分来源异常'):'当前筛选无已接入来源';
-  document.querySelector('#baseline-status').className=`badge ${sites.length&&sites.every(s=>s.status==='ok')?'green':'orange'}`;
-  document.querySelector('#coverage-grid').innerHTML=sites.length?sites.map(site=>`<a class="coverage-card" href="${escapeHtml(site.site.siteUrl)}" target="_blank" rel="noreferrer"><span><b>${escapeHtml(site.site.country)}</b><small>${escapeHtml(site.site.countryCode)} · ${escapeHtml(site.site.priority)}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · Blog ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'最近采集成功':'采集异常'} · ${escapeHtml(displayTime(site.checkedAt))}</em></a>`).join(''):'<div class="timeline-empty">当前筛选没有已接入的官网来源；其他品牌的隔离验收不计入正式覆盖。</div>';
+  document.querySelector('#real-pending').textContent=reviewGroups(summary)[0].records.filter(item=>matchesScope(item)).length;
+  document.querySelector('#baseline-status').textContent=websiteSources.length?(websiteHealthy?'最近采集成功':'部分来源异常'):'当前筛选无已接入来源';
+  document.querySelector('#baseline-status').className=`badge ${websiteHealthy?'green':'orange'}`;
+  document.querySelector('#coverage-grid').innerHTML=sites.length?sites.map(site=>`<a class="coverage-card" href="${escapeHtml(site.site.siteUrl)}" target="_blank" rel="noreferrer"><span><b>${escapeHtml(site.site.country)}</b><small>${escapeHtml(site.site.countryCode)} · ${escapeHtml(site.site.priority)}</small></span><strong>${site.pageCount}</strong><p>产品 ${site.breakdown.product||0} · 文章 ${site.breakdown.blog||0} · 集合页 ${site.breakdown.collection||0}</p><em>${site.status==='ok'?'最近采集成功':'采集异常'} · ${escapeHtml(displayTime(site.checkedAt))}</em></a>`).join(''):'<div class="timeline-empty">当前筛选没有已接入的官网来源；其他品牌的隔离验收不计入正式覆盖。</div>';
   renderChannelMonitoring(summary.channelMonitoring);renderPrMonitoring(summary.prMonitoring);
   const candidates=summary.productRadar?.candidates||[],pending=candidates.filter(c=>c.reviewStatus==='pending'&&matchesScope(c));
   renderReviewQueue(candidates);renderReviewInbox();
@@ -580,7 +589,7 @@ function syncTimelineView(){
   if(!list){if(timelineState.autoposition&&document.querySelector('#formal-timeline').clientWidth){const scroller=document.querySelector('#formal-timeline');scroller.scrollLeft=Math.max(0,timelineState.latestX-(scroller.clientWidth-(scroller.querySelector('.gantt-sticky')?.offsetWidth||154))*.55);timelineState.autoposition=false;}timelineState.updateRange?.();}
 }
 function renderCoverage(actions){
-  const codes=Object.keys({official_site:1,blog:1,pr:1,edm:1,social_ads:1,google_search_ads:1,video:1}).filter(c=>channel.value==='全部'||channelLabel(c)===channel.value);
+  const codes=Object.keys({official_site:1,pr:1,edm:1,social_ads:1,google_search_ads:1,video:1}).filter(c=>channel.value==='全部'||channelLabel(c)===channel.value);
   const names=brand.value==='全部'?['Mammotion','Mova','Dreame','Ecovacs','Eufy','Navimow']:[brand.value];
   const rows=names.map(name=>`<tr><th scope="row">${escapeHtml(name)}<small>${escapeHtml(market.value==='全部'?'全部国家':market.value)}</small></th>${codes.map(code=>{
     const cell=coverageCell({brand:name,market:market.value,channel:code,actions,allActions:formalActionState,summary:monitorSummaryState,ads:publicAds});
@@ -605,7 +614,7 @@ function persistRoute(){
 }
 function restoreRoute(){
   restoringRoute=true;const params=new URL(location.href).searchParams;requestedCampaign=params.get('campaign')||'';routeActionId=params.get('action')||'';routeDetailPending=Boolean(routeActionId);
-  for(const [key,control] of [['brand',brand],['market',market],['channel',channel]])control.value=[...control.options].some(o=>o.value===params.get(key))?params.get(key):'全部';
+  for(const [key,control] of [['brand',brand],['market',market],['channel',channel]])control.value=[...control.options].some(o=>o.value===params.get(key))?params.get(key):params.get(key)==='Blog'&&key==='channel'?'官网':'全部';
   queryText=(params.get('q')||'').slice(0,300);document.querySelector('#action-search').value=queryText;
   datePreset=['30','90','all','season','custom','campaign'].includes(params.get('preset'))?params.get('preset'):params.has('campaign')?'campaign':'30';
   activePeriod=datePreset==='all'?{from:'',to:''}:dateRange(datePreset,formalActionState);
@@ -617,7 +626,7 @@ function restoreRoute(){
   contentDensity=params.get('density')==='compact'?'compact':'cards';timelineState.grain=params.get('grain')==='day'?'day':'week';document.querySelector('#timeline-grain').value=timelineState.grain;
   timelineState.typeFocus=timelineActionTypes.some(type=>type.key===params.get('focusType'))?params.get('focusType'):'';
   timelineModeExplicit=['list','timeline'].includes(params.get('mode'));timelineView=timelineModeForWidth(window.innerWidth,params.get('mode'));
-  document.querySelector('#website-content-type').value=['official_site','blog'].includes(params.get('type'))?params.get('type'):'';
+  document.querySelector('#website-content-type').value=['official_site','blog'].includes(params.get('type'))?params.get('type'):params.get('channel')==='Blog'?'blog':'';
   adsMode=params.get('adsMode')==='inventory'?'inventory':'formal';inventoryQuery=(params.get('iq')||'').slice(0,300);inventoryFrom=/^\d{4}-\d\d-\d\d$/.test(params.get('ifrom'))?params.get('ifrom'):'';inventoryTo=/^\d{4}-\d\d-\d\d$/.test(params.get('ito'))?params.get('ito'):'';
   document.querySelector('#inventory-search').value=inventoryQuery;document.querySelector('#inventory-from').value=inventoryFrom;document.querySelector('#inventory-to').value=inventoryTo;document.querySelector('#inventory-error').textContent=inventoryFrom&&inventoryTo&&inventoryFrom>inventoryTo?'开始日期不能晚于结束日期；当前无结果。':'';
   if(!routeActionId&&document.querySelector('#detail-dialog').open){closingFromRoute=true;document.querySelector('#detail-dialog').close();}
@@ -628,7 +637,7 @@ function restoreRoute(){
 function filtersChanged(){
   timelineState.autoposition=true;
   if(currentView==='content'){contentCategory=channel.value==='EDM'?'edm':channel.value==='PR'?'pr':['社媒广告','Google 搜索广告','视频'].includes(channel.value)?'ads':'web';}
-  document.querySelector('#website-content-type').value=channel.value==='Blog'?'blog':channel.value==='官网'?'official_site':'';
+  if(channel.value!=='官网')document.querySelector('#website-content-type').value='';
   renderScopedDashboard();renderCurrentFormalActions();window.dispatchEvent(new Event('dashboard:filters-changed'));
 }
 function navigateView(view){history.pushState(null,'','#'+view);activateView(view);persistRoute();}
@@ -706,9 +715,10 @@ document.querySelector('#inventory-reset').onclick=()=>{inventoryQuery=inventory
 history.scrollRestoration='manual';
 // Normalize the browser's initial fragment positioning after the first load.
 window.addEventListener('load',()=>requestAnimationFrame(()=>window.scrollTo({top:0,behavior:'instant'})),{once:true});
-document.querySelector('#website-content-type').onchange=()=>{const value=document.querySelector('#website-content-type').value;channel.value=value?channelLabel(value):'全部';filtersChanged();};
+document.querySelector('#website-content-type').onchange=()=>{channel.value='官网';filtersChanged();};
 document.querySelector('#website-review-type').onchange=renderReviewInbox;
-[market,brand,channel].forEach(control=>control.addEventListener('change',filtersChanged));
+[market,brand].forEach(control=>control.addEventListener('change',filtersChanged));
+channel.addEventListener('change',()=>{document.querySelector('#website-content-type').value='';document.querySelector('#website-review-type').value='';filtersChanged();});
 campaignFilter.onchange=()=>selectCampaign(campaignFilter.value);
 document.querySelector('#reset-filters').onclick=()=>{market.value=brand.value=channel.value='全部';queryText='';document.querySelector('#action-search').value='';document.querySelector('#website-content-type').value='';setDateRange('all');renderScopedDashboard();window.dispatchEvent(new Event('dashboard:filters-changed'));};
 function activateView(view){
@@ -718,7 +728,7 @@ function activateView(view){
   if(view==='edm')contentCategory='edm';
   document.querySelectorAll('.nav-item').forEach(item=>{const active=item.dataset.view===target;item.classList.toggle('active',active);item.setAttribute('aria-current',active?'page':'false');});
   document.querySelectorAll('.view').forEach(item=>item.classList.toggle('active',item.id===target));
-  const titles={overview:['竞品营销节奏','营销动作 · 已确认内容'],library:['动作库','完整记录 · 内容与证据'],content:['渠道内容','官网与 Blog / PR / EDM / 广告'],review:['复核中心','待处理线索 · 原始证据'],status:['运行状态','来源覆盖 · 实际采集结果']};
+  const titles={overview:['竞品营销节奏','营销动作 · 已确认内容'],library:['动作库','完整记录 · 内容与证据'],content:['渠道内容','官网 / PR / EDM / 广告'],review:['复核中心','待处理线索 · 原始证据'],status:['运行状态','来源覆盖 · 实际采集结果']};
   document.querySelector('#page-title').textContent=titles[target][0];document.querySelector('#page-subtitle').textContent=titles[target][1];
   document.querySelector('.date-control').hidden=['review','status'].includes(target);document.querySelector('#global-filters').classList.toggle('operational-scope',['review','status'].includes(target));
   if(target!=='overview')setTimelineFocus(false);
@@ -740,7 +750,7 @@ document.querySelectorAll('[data-content-tab]').forEach(button=>button.onclick=(
   if(contentCategory==='ads'){
     if(channel.value!=='Google 搜索广告')channel.value='社媒广告';
   }else{
-    channel.value=contentCategory==='edm'?'EDM':contentCategory==='pr'?'PR':['官网','Blog'].includes(channel.value)?channel.value:'全部';
+    channel.value=contentCategory==='edm'?'EDM':contentCategory==='pr'?'PR':channel.value==='官网'?'官网':'全部';
   }
   renderScopedDashboard();renderCurrentFormalActions();renderContentView();window.dispatchEvent(new Event('dashboard:filters-changed'));
 });

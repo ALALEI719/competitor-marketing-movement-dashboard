@@ -1,7 +1,46 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-16T12:52:38.127Z",
+  "updatedAt": "2026-11-16T15:11:10.125Z",
   "actions": [
+    {
+      "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "54fb67be79b03822bfcce20a18b087ce5a5937402e757b746e2fbfaab1aa138a",
+        "changedFields": []
+      },
+      "updatedAt": "",
+      "actionId": "ACT-62996AE92D84",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T14:47:10.190Z",
+      "publishDate": "2026-11-16",
+      "title": "MOVA 法国发布机器人割草机边缘修剪技术与选型指南",
+      "summary": "法国官网11月16日文章比较移动刀盘、外展刀盘与平齐边缘跨压，介绍LiDAX Ultra和LiDAX Ultra AWD的UltraTrim 1.0/2.0及UltraView 2.0/3.0，并按边缘与地形提供选型和首次运行建议。属于产品教育内容，性能参数为品牌声明。源文发布时间相差1小时，按日记录。",
+      "marketingTheme": "product_education",
+      "contentType": "article",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/blogs/guides-d-achat/robot-tondeuse-avec-coupe-bordure"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/blogs/guides-d-achat/robot-tondeuse-avec-coupe-bordure",
+          "capturedAt": "2026-11-16T14:47:10.190Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T15:11:10.125Z"
+    },
     {
       "changeType": "new_page",
       "actionId": "ACT-CA6E3A5CA6F9",
