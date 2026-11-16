@@ -12,7 +12,9 @@ export function canonicalWebsiteUrl(value) {
 export function websiteChangeKey(record) {
   if (!record || (record.channel && !['blog', 'official_site'].includes(record.channel))) return '';
   const url = canonicalWebsiteUrl(record.sourceUrl || record.url || record.sourceUrls?.[0]);
-  if (!url || !/^\/blogs\/news\/[^/]+$/.test(new URL(url).pathname) || !record.brand) return '';
+  // Official sites use several article collections (news, guides, technology,
+  // and localized sections). Keep collection index pages outside this key.
+  if (!url || !/^\/(?:blogs\/[^/]+\/[^/]+|blog\/[^/]+)$/.test(new URL(url).pathname) || !record.brand) return '';
   const country = record.countryCode || ({ '美国': 'US', '德国': 'DE', '英国': 'UK', '法国': 'FR' })[record.country] || record.country;
   if (!country) return '';
   const prefix = JSON.stringify([record.brand.toLowerCase(), country, url]);
