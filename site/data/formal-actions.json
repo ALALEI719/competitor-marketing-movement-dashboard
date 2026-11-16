@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-16T10:05:37.436Z",
+  "updatedAt": "2026-11-16T11:17:38.116Z",
   "actions": [
     {
       "actionId": "ACT-0E7E697B8C8E",
@@ -210,6 +210,130 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-16T09:59:22.224Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-59D277F9EBE2",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T09:02:46.375Z",
+      "publishDate": "",
+      "title": "Mammotion 法国首页进入黑五正式优惠阶段",
+      "summary": "法国首页将预热切换为11月10日至30日黑五优惠。LUBA 3 AWD起价由2,099降至1,899欧元，mini 2 AWD 1500由1,699降至1,399欧元，mini 2 AWD 1000由1,399降至1,199欧元，并加入六期免息提示。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/",
+          "capturedAt": "2026-11-16T09:02:46.375Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.067Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-9537F170E967",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T09:02:40.208Z",
+      "publishDate": "",
+      "title": "Mammotion 英国首页更新黑五折扣与赠品推广",
+      "summary": "英国首页改为11月10日至30日黑五促销，宣传最高减450英镑及赠品。LUBA 3 AWD起价由2,099降至1,999英镑，mini 2 AWD 1500由1,699降至1,399英镑，mini 2 AWD 1000由1,399降至1,199英镑。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/",
+          "capturedAt": "2026-11-16T09:02:40.208Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.135Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-418967B31F14",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T09:02:36.643Z",
+      "publishDate": "",
+      "title": "Mammotion 德国首页更新黑五折扣与赠品推广",
+      "summary": "德国首页切换为11月10日至30日黑五优惠，宣传最高减650欧元及赠品。LUBA 3 AWD起价由2,099降至1,899欧元，mini 2 AWD 1500由1,699降至1,399欧元，mini 2 AWD 1000由1,399降至1,199欧元。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-11-16T09:02:36.643Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.211Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-9575FA94B1CD",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T09:02:33.572Z",
+      "publishDate": "",
+      "title": "Mammotion 美国首页切换黑五正式优惠",
+      "summary": "美国首页改为11月10日至30日黑五促销，宣传最高减850美元及赠品。LUBA 3 AWD起价由2,399降至1,999美元，mini 2 AWD 1500H由1,799降至1,599美元。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/",
+          "capturedAt": "2026-11-16T09:02:33.572Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.357Z"
     },
     {
       "changeType": "new_page",
@@ -800,6 +924,192 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-16T07:57:05.213Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-5C884DA988B2",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:26.447Z",
+      "publishDate": "",
+      "title": "Mammotion 法国官网活动页展示黑五优惠与奖励条款",
+      "summary": "法国官方活动页列出11月10日至30日黑五优惠，宣传最高减650欧元及赠品，并说明割草机型号、双倍积分、抽奖和推荐奖励。各项奖励受账户资格、库存及兑换条件限制。原文首发日期未知。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/pages/bf77854693"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/pages/bf77854693",
+          "capturedAt": "2026-11-09T09:58:26.447Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.434Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-21C11F919403",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:26.447Z",
+      "publishDate": "",
+      "title": "Mammotion 法国首页切换黑五预热推广",
+      "summary": "法国首页新增11月3日至9日黑五预热横幅、双倍积分及奖励导流，推荐奖励提示由2,500积分变为3,500积分。割草机型号及主要标价保持此前内容，属于既有产品的促销预热。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/",
+          "capturedAt": "2026-11-09T09:58:26.447Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.557Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-4B471B2A58BA",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "",
+      "siteId": "mammotion-uk",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:23.279Z",
+      "publishDate": "",
+      "title": "Mammotion 英国首页由秋促切换黑五预热",
+      "summary": "英国首页将秋季最高减350英镑横幅切换为11月3日至9日黑五预热，新增双倍积分及转盘奖励入口。主要割草机商品卡价格保持前版。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-uk",
+          "url": "https://uk.mammotion.com/",
+          "capturedAt": "2026-11-09T09:58:23.279Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.758Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-87DE27234832",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:20.608Z",
+      "publishDate": "",
+      "title": "Mammotion 德国首页增加黑五预热与积分奖励",
+      "summary": "德国首页加入11月3日至9日黑五预热、双倍积分和专属奖励横幅，推荐奖励提示升至3,500积分。主要割草机标价保持前版。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-11-09T09:58:20.608Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.827Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-FBD5A8C6FB46",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:17.214Z",
+      "publishDate": "",
+      "title": "Mammotion 美国官网活动页展示黑五优惠与奖励条款",
+      "summary": "美国官方活动页列出11月10日至30日黑五优惠，宣传最高减850美元及赠品，并说明割草机型号、双倍积分、抽奖和推荐奖励。各项奖励受账户资格、库存及兑换条件限制。原文首发日期未知。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/pages/g8oj3oqjz"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/pages/g8oj3oqjz",
+          "capturedAt": "2026-11-09T09:58:17.214Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:34.941Z"
+    },
+    {
+      "changeType": "content_change",
+      "actionId": "ACT-59BADCC85EA2",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "mammotion-us",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:17.214Z",
+      "publishDate": "",
+      "title": "Mammotion 美国首页增加黑五预热入口",
+      "summary": "美国首页加入11月3日至9日黑五预热横幅及双倍积分、转盘奖励入口，保留既有LUBA系列产品和此前商品卡价格。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-us",
+          "url": "https://us.mammotion.com/",
+          "capturedAt": "2026-11-09T09:58:17.214Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:35.115Z"
     },
     {
       "actionId": "ACT-6A9F14C48659",
@@ -1540,6 +1850,48 @@
       "detailRef": "./data/edm-details/EDM-0F32DC9138B0.json"
     },
     {
+      "changeType": "content_updated",
+      "updatedAt": "2026-10-29T06:53:03+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "fd5eb7d7a0f3d902d89f226f828ce11750c67ea7a44f0f6fc733a453a67181f7",
+        "afterHash": "6e5d85e269cb51073707fa944e37574ca70b24bdf7b859ccc5cbac0534627deb",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "actionId": "ACT-D6D49B00B655",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-31T08:57:23.574Z",
+      "publishDate": "2026-08-20T11:57:21+02:00",
+      "title": "Mammotion 法国扩充机器人割草机选购指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "法国官网选购指南补充iNavi及4G服务期限说明、导航与安装描述和选型FAQ，并加入相关文章导流。保留原始首发及10月29日Feed更新时间。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/comment-choisir-robot-tondeuse",
+          "discoveredAt": "2026-10-31T08:57:23.574Z",
+          "publishDate": "2026-08-20T11:57:21+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:37.598Z"
+    },
+    {
       "actionId": "ACT-EDM-2A86132CA6A3",
       "entityId": "",
       "brand": "Dreame",
@@ -2077,6 +2429,110 @@
       "reviewedAt": "2026-10-26T06:05:15.353Z"
     },
     {
+      "actionId": "ACT-2364AFE3449F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-homeandsmart-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-23T06:34:19.673Z",
+      "publishDate": "2026-10-22T14:21:16+00:00",
+      "title": "Kind, Hund, Igel: So sicher sind Mähroboter wirklich",
+      "topicTags": [
+        "review"
+      ],
+      "summary": "Mammotion 媒体报道（Home and Smart）：Kind, Hund, Igel: So sicher sind Mähroboter wirklich",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-kind-hund-igel-sicherheit-0002-426322",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-22T14:21:16+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-22T16:21:16+02:00"
+            }
+          ],
+          "contentHash": "b377e5f88b0dd01509de54c34bc8561c1d8701550925cc8f1b48f4dfad125470",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:33.449Z"
+    },
+    {
+      "actionId": "ACT-2AA0826B72A8",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-homeandsmart-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-23T06:34:19.673Z",
+      "publishDate": "2026-10-22T16:16:38+00:00",
+      "title": "Mähroboter-Garage 2026: Diese Modelle halten Regen & Sonne ab",
+      "topicTags": [
+        "promotion"
+      ],
+      "summary": "Mammotion 媒体报道（Home and Smart）：Mähroboter-Garage 2026: Diese Modelle halten Regen & Sonne ab",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0005-973608",
+          "capturedAt": "2026-10-23T06:34:19.673Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-10-22T16:16:38+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-22T18:16:38+02:00"
+            }
+          ],
+          "contentHash": "b9e6f743aa4f34268a9ffc9289ae62bfb6c1b085d91d76a245a74d1179105d6b",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:33.495Z"
+    },
+    {
       "changeType": "content_change",
       "contentEvidence": {
         "status": "changed_content",
@@ -2115,6 +2571,59 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-03T10:09:19.334Z"
+    },
+    {
+      "actionId": "ACT-EC1C76946319",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "pr-us-popularmechanics-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-10-22T05:54:05.853Z",
+      "publishDate": "2020-01-17T20:37:16.932312Z",
+      "title": "The 8 Best Robot Lawn Mowers That Make Yardwork Easy and Automated",
+      "topicTags": [
+        "review",
+        "promotion"
+      ],
+      "summary": "Mammotion 媒体报道（Popular Mechanics）：The 8 Best Robot Lawn Mowers That Make Yardwork Easy and Automated",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.popularmechanics.com/home/lawn-garden/a30460131/best-robot-lawn-mowers/"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz",
+          "articleUrl": "https://www.popularmechanics.com/home/lawn-garden/a30460131/best-robot-lawn-mowers/",
+          "capturedAt": "2026-10-22T05:54:05.853Z",
+          "sourceType": "media",
+          "outlet": "Popular Mechanics",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2020-01-17T20:37:16.932312Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2020-01-17T20:37:16Z"
+            }
+          ],
+          "contentHash": "12039d64d2adc54bd271eb7fdbfba5a6b79b69f4ac50b9f77fb2a503edd2c429",
+          "bodySource": "jsonld.articleBody"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T11:17:33.540Z"
     },
     {
       "actionId": "ACT-EDM-E6163C71D907",
