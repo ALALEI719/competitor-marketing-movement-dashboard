@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T11:17:38.116Z",
+  "generatedAt": "2026-11-16T11:37:38.432Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -8,10 +8,10 @@
   ],
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
-    "sites": 7,
+    "sites": 10,
     "healthySites": 5,
-    "pages": 1994,
-    "pendingChanges": 7,
+    "pages": 4576,
+    "pendingChanges": 0,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:10:18.747Z",
+      "checkedAt": "2026-11-16T11:35:13.451Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 323,
@@ -71,7 +71,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:10:21.603Z",
+      "checkedAt": "2026-11-16T11:35:16.433Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 291,
@@ -108,7 +108,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:10:24.208Z",
+      "checkedAt": "2026-11-16T11:35:18.974Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 216,
@@ -145,7 +145,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:10:26.791Z",
+      "checkedAt": "2026-11-16T11:35:22.122Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
@@ -182,7 +182,7 @@
         "siteUrl": "https://us.mova.tech/collections/robotic-lawn-mower",
         "sitemapUrl": "https://us.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:10:29.739Z",
+      "checkedAt": "2026-11-16T11:35:24.949Z",
       "status": "partial_content_pending",
       "baseline": false,
       "pageCount": 443,
@@ -195,11 +195,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 441
+        "lastmodChanged": 159
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 441,
+        "lastmodPagesNeedingContentCheck": 159,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "xmlDocuments": [
@@ -217,9 +217,9 @@
           },
           {
             "url": "https://us.mova.tech/sitemap_products_1.xml?from=8611732324588&to=15551888031980",
-            "sha256": "eb70ca3d8626bea4e0932f7096a96ed1837d4a4cefa9fe8a1912d51007adbf5c",
+            "sha256": "2ee37deef306a0f82d9d84e8ac896e63b62a3180ebd583a770116e55fe8b6042",
             "bytes": 73728,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-us/eb70ca3d8626bea4e0932f7096a96ed1837d4a4cefa9fe8a1912d51007adbf5c.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-us/2ee37deef306a0f82d9d84e8ac896e63b62a3180ebd583a770116e55fe8b6042.xml"
           },
           {
             "url": "https://us.mova.tech/sitemap_pages_1.xml?from=112017932524&to=164550967532",
@@ -249,334 +249,335 @@
         "changedPageDispositions": [
           {
             "disposition": "held",
-            "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-carpet-robot-vacuum-2026-mova",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "4ea8e9663bc183ac08f459ca4c8ad683a0eb28e3a50e858bedfd72a72066abf5",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/4ea8e9663bc183ac08f459ca4c8ad683a0eb28e3a50e858bedfd72a72066abf5.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "93e826acade6736277b233113a40ccf88fd4cfd631c3fefdcdd0692b08697966",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/93e826acade6736277b233113a40ccf88fd4cfd631c3fefdcdd0692b08697966.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower-for-steep-slopes",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-cordless-robotic-pool-cleaner-inground-2026",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "55e7ddeb5e44d21c4e7324f630debe0771e7ad2a1889c3952ed6f169b86f3cd4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/55e7ddeb5e44d21c4e7324f630debe0771e7ad2a1889c3952ed6f169b86f3cd4.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "61b99bebdc6268b52638ae468af16c3eefd2ee19911c4cb0a6a289a53182aaa4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/61b99bebdc6268b52638ae468af16c3eefd2ee19911c4cb0a6a289a53182aaa4.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower-half-acre-2026",
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-household-vacuum",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "14044efbcc771ef9b1cd5d15b93608d5837a4b9f5f2ed88c6bfb902e525c65ac",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/14044efbcc771ef9b1cd5d15b93608d5837a4b9f5f2ed88c6bfb902e525c65ac.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "45e67f17ac94e4677f7a27dd445ac63ac756f9d064da744fab1f2b70c8a2d5b7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/45e67f17ac94e4677f7a27dd445ac63ac756f9d064da744fab1f2b70c8a2d5b7.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower-mova-lidax-ultra-review",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "11b976c2ef302b695868ad11f1a98726e59dd47e0624a36698dedd3280cebf60",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/11b976c2ef302b695868ad11f1a98726e59dd47e0624a36698dedd3280cebf60.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower-price-mova-lidax-ultra-1000",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "edb05765f4fe6f8666d7d5305df45a52784e7b8d9c9443a80c0c0d87f6f477f4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/edb05765f4fe6f8666d7d5305df45a52784e7b8d9c9443a80c0c0d87f6f477f4.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mower-without-perimeter",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "606a8ec2b456ba6692d212cc639a6113bfe3c98f75a1b27f212f826c87498ad4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/606a8ec2b456ba6692d212cc639a6113bfe3c98f75a1b27f212f826c87498ad4.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-lawn-mowers-for-hills-slopes-and-complex-terrain",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-housewarming-gifts",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "3ad8476b1e9e7d7066427280a8b81853a333a68516fafb25b1d10eeaef162d28",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/3ad8476b1e9e7d7066427280a8b81853a333a68516fafb25b1d10eeaef162d28.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "e7a024bb09f4a970555ee20c708501b48fa4fb347d540a46a3c9b7117f85cc39",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/e7a024bb09f4a970555ee20c708501b48fa4fb347d540a46a3c9b7117f85cc39.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-inground-pool-vacuum-robot-mova-diver-a10",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "3b1074fa10722c5980b123e41a5370e60ae983cbb9b06c223d630ca1ef5051a3",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/3b1074fa10722c5980b123e41a5370e60ae983cbb9b06c223d630ca1ef5051a3.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-lidar-robot-vacuum-2025",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "0fa2959dece1a64a9cd4b733f521557e099e252fd7df14038b91544ebd2c1b9e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/0fa2959dece1a64a9cd4b733f521557e099e252fd7df14038b91544ebd2c1b9e.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-pool-cleaner-fine-sand-algae-spores-mova-diver-a10-2026",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "014b800a90a5f7998d66dc0e9c2824d74e1e7f2c2b93b9f0df93961dd574a37b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/014b800a90a5f7998d66dc0e9c2824d74e1e7f2c2b93b9f0df93961dd574a37b.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-pool-robot-vacuum-cleaner-for-steps-and-corners",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "38df1029d3c0f1f3e4aa0d26925b29e389c03412edb73a3a572b1fdef4b39f05",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/38df1029d3c0f1f3e4aa0d26925b29e389c03412edb73a3a572b1fdef4b39f05.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-pool-vacuum-robot-mova-diver-a10",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "1fba9c142206434ea0a2d0392d86a94317d6efb2e685c5a5097e0a17464e659d",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/1fba9c142206434ea0a2d0392d86a94317d6efb2e685c5a5097e0a17464e659d.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-prime-day-robot-vacuum-amp-outdoor-smart-tech-deals-2026-why-wait",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "25b58e73b881b27a977e72e7a54f966f70932b579b3ede731733fdc462b608a7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/25b58e73b881b27a977e72e7a54f966f70932b579b3ede731733fdc462b608a7.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
             }
           },
           {
             "disposition": "baseline_only",
             "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/best-time-to-buy-a-robotic-lawn-mower-a-smart-buyer-s-guide-for-2026",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-mowers-for-2-acres",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "5039ef5bede683c7744c08210e1d36b77c7fde5e9d5024b8356f8b05b8749fd4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/5039ef5bede683c7744c08210e1d36b77c7fde5e9d5024b8356f8b05b8749fd4.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "44c5d368096cd72fca61a93ba465ed5c2ee3e3168dd20524b0b2dac61ddc0213",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/44c5d368096cd72fca61a93ba465ed5c2ee3e3168dd20524b0b2dac61ddc0213.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-and-mop-cleaner-for-small-apartments",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "06de18f4d5a9a84b717bbfd3fdce84969a494fa5f091f8ef2eb4992da3f00ffb",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/06de18f4d5a9a84b717bbfd3fdce84969a494fa5f091f8ef2eb4992da3f00ffb.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-for-carpet",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "ddef6dd8f43a5e5f339cf66fd20d7b97f3944f61764feedbb9582f6288a531a3",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/ddef6dd8f43a5e5f339cf66fd20d7b97f3944f61764feedbb9582f6288a531a3.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-for-pet-hair",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "79ec436e08c149d1b65fc4f1cbb04c8c597aee70d1b8c15448bf7a1d23c38e64",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/79ec436e08c149d1b65fc4f1cbb04c8c597aee70d1b8c15448bf7a1d23c38e64.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-mop-hardwood-floors-2026",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "d469a98bb1243e009ba97ec81fe692c57194d7250dee59bcc35f3fdb7abc56b5",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/d469a98bb1243e009ba97ec81fe692c57194d7250dee59bcc35f3fdb7abc56b5.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-pet-hair-under-500-2026",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "e5262bacc9ce3b8ba68a2315e4609c9a4c8c519b4338b8b332673913852abe4e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/e5262bacc9ce3b8ba68a2315e4609c9a4c8c519b4338b8b332673913852abe4e.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-robot-vacuum-vinyl-plank-floors-2026",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "f2aaea0dd1e6e5992a5d9d0d3215b689e95ac7feb33fa3be2f9b2d0df4067ea0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/f2aaea0dd1e6e5992a5d9d0d3215b689e95ac7feb33fa3be2f9b2d0df4067ea0.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-self-emptying-robot-vacuum-for-pet-hair-2026",
+            "pageType": "blog",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "d53e1c0bc99f55bdf76ca31077e2b4e2806a0b17745f5b9da6197b927928b85a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/d53e1c0bc99f55bdf76ca31077e2b4e2806a0b17745f5b9da6197b927928b85a.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
             }
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/electric-lawn-mower-vs-gas-lawn-mower",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-time-to-plant-grass-seed",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "58ba227ff5a6c332992c938462ff6c876b086f378e02cbcb578d42e0b8b8b22d",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/58ba227ff5a6c332992c938462ff6c876b086f378e02cbcb578d42e0b8b8b22d.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "3014aae32478dd81586ade3475d104b2b026060a0f1411d50f102c67dc41e6e6",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/3014aae32478dd81586ade3475d104b2b026060a0f1411d50f102c67dc41e6e6.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/how-does-a-robotic-lawn-mower-work",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "f47549db5fd3a33f191071d5ba87b24940cee4672755c4924549092eb4940c89",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/f47549db5fd3a33f191071d5ba87b24940cee4672755c4924549092eb4940c89.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
             "disposition": "held",
-            "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/how-much-should-you-pay-for-a-lawn-mower",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/blogs/cleaning-tips/best-vacuum-cleaner-for-home-in-2026",
             "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "12c4a92648f4806248270b63881d2f00e6def8c0896fa188f4987818d724c270",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/12c4a92648f4806248270b63881d2f00e6def8c0896fa188f4987818d724c270.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "568893e0077ea6a72837f6b7bec7b3cff19f7d1e84de57850b7dba37ce0cdc00",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/568893e0077ea6a72837f6b7bec7b3cff19f7d1e84de57850b7dba37ce0cdc00.html",
+            "checkedAt": "2026-11-16T11:35:24.949Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "held",
-            "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/how-to-choose-robot-lawn-mower-for-small-yard",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "9ec159552ccec948ae356b4d4eb3c308ad1e59d40eeeb55595effa436df6c68e",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/9ec159552ccec948ae356b4d4eb3c308ad1e59d40eeeb55595effa436df6c68e.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/lidax-pro-800-vs-ultra-2000-awd-robot-lawn-mower-comparison",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "38177abb0d1dba1779a3be1c23a882cd2e45beced3705a1261136f8aa9a564ac",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/38177abb0d1dba1779a3be1c23a882cd2e45beced3705a1261136f8aa9a564ac.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/mova-lidax-3000-awd-best-robotic-lawn-mower-large-lawns",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "1d53b751edc47ae8620847d829675c33f4bb671a36c34b22585b3d9791defea5",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/1d53b751edc47ae8620847d829675c33f4bb671a36c34b22585b3d9791defea5.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/mova-lidax-ultra-1000-vs-2000-vs-3000-awd-robot-mower",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "6c45759c21dec20c8b354c3c7da756f4b9db4d070a955c7317b208fb5f391b8d",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/6c45759c21dec20c8b354c3c7da756f4b9db4d070a955c7317b208fb5f391b8d.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/mova-lidax-ultra-1000-vs-lidax-ultra-2000-smart-lawn-care-simplified",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "7bda8fa5b8103f6d26a8d105b7ad67fbec2455b85de9f38a1855f82287c0ac4f",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/7bda8fa5b8103f6d26a8d105b7ad67fbec2455b85de9f38a1855f82287c0ac4f.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/mova-lidax-ultra-3000-awd-dual-map-comparison",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "a56edff22484cf99dabe5a345698414a50758464fd25edc619b5640e0ff97fc9",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a56edff22484cf99dabe5a345698414a50758464fd25edc619b5640e0ff97fc9.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "held",
-            "reason": "mower_only_in_unattributed_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/mova-vs-traditional-robotic-lawn-mowers",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "a000581e515eefd9fb6d985416214513e953db7c3d62d2dbaf7bdd299981eb56",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a000581e515eefd9fb6d985416214513e953db7c3d62d2dbaf7bdd299981eb56.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/robot-lawn-mower-bermuda-grass-2026",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "9a380117ae659f9656f08dde26b05ac0b225b1ba7fed7d61ad2cdbea8dd38fe8",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/9a380117ae659f9656f08dde26b05ac0b225b1ba7fed7d61ad2cdbea8dd38fe8.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
-            }
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/blogs/cleaning-tips/robot-lawn-mower-sloped-yard-no-boundary-wire-2026",
-            "pageType": "blog",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "03cdd1ee7d4138ff5b202b485337314abaa6d986118d3d0a7a50a25f59ad354f",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/03cdd1ee7d4138ff5b202b485337314abaa6d986118d3d0a7a50a25f59ad354f.html",
-            "checkedAt": "2026-11-16T11:10:29.739Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
-              "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           }
         ],
-        "pendingContentCount": 421,
+        "pendingContentCount": 367,
         "pendingRemovedCount": 0,
-        "heldContentCount": 6,
+        "heldContentCount": 24,
         "removedUrlChecks": [],
+        "bulkLastmodSampleCount": 0,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
+          "runId": "43858836950",
           "attempt": "1",
-          "name": "site-private-43855160619-1"
+          "name": "site-private-43858836950-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
@@ -584,7 +585,7 @@
         "inspectedPages": 20,
         "meaningfulChanges": 0,
         "errors": [],
-        "deferredPages": 421
+        "deferredPages": 367
       }
     },
     {
@@ -597,7 +598,7 @@
         "siteUrl": "https://de.mova.tech/collections/robot-lawn-mower",
         "sitemapUrl": "https://de.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:11:02.378Z",
+      "checkedAt": "2026-11-16T11:35:57.974Z",
       "status": "partial_content_pending",
       "baseline": false,
       "pageCount": 400,
@@ -632,9 +633,9 @@
           },
           {
             "url": "https://de.mova.tech/sitemap_products_1.xml?from=8243156910278&to=9149681205446",
-            "sha256": "bf1199f27fe3435ad86d4a63cd0a40c6e175a48eb09f998d4ca1d5f7aa237c86",
+            "sha256": "7f5cf18855273e1a045150bf13c9fe7e56735bca7adb62e46585890ab1052956",
             "bytes": 102543,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/bf1199f27fe3435ad86d4a63cd0a40c6e175a48eb09f998d4ca1d5f7aa237c86.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/7f5cf18855273e1a045150bf13c9fe7e56735bca7adb62e46585890ab1052956.xml"
           },
           {
             "url": "https://de.mova.tech/sitemap_pages_1.xml?from=95892078790&to=125118677190",
@@ -664,342 +665,476 @@
         "changedPageDispositions": [
           {
             "disposition": "held",
-            "reason": "mixed_mower_and_other_primary_context",
-            "url": "https://de.mova.tech/collections/mahroboter-saugroboter-nass-und-trockensauger",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/collections/z60-v50-exclusif-offer",
             "pageType": "collection",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "3709cd7c7a3470f87591f667d533a2bedac50a7f355a437b5c790734c664d803",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/3709cd7c7a3470f87591f667d533a2bedac50a7f355a437b5c790734c664d803.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "1bc835ee22ffb776568f5f76b4cb048992be6c3e179500cd8d3244421c529d90",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/1bc835ee22ffb776568f5f76b4cb048992be6c3e179500cd8d3244421c529d90.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://de.mova.tech/products/mova-600-rlm-spring-special",
+            "url": "https://de.mova.tech/products/1l-losungsmittel-gegen-haustiergeruch-fur-mova-v50ultra",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "1025ab10ddb6f3162d387b9ad85c6f16ddc20c248f34997e23d6af433d982fa6",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/1025ab10ddb6f3162d387b9ad85c6f16ddc20c248f34997e23d6af433d982fa6.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "2a2f59cf233b17e5d7142a7986b7f3204e156d62a3c6675e8ddf68f35d6d9026",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/2a2f59cf233b17e5d7142a7986b7f3204e156d62a3c6675e8ddf68f35d6d9026.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mahrobotergarage-a1pro-a3-awd-pro-3500-a3-awd-pro-5000",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/1l-reinigungslosung-fur-mova-p50proultra-p50ultra-v50ultra-p50sultra",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "79d818bde5f10d6d624f77e5cffe492f2f2b03b44e7a414bcdc9ab2ddd4c2371",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/79d818bde5f10d6d624f77e5cffe492f2f2b03b44e7a414bcdc9ab2ddd4c2371.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "858b5532bf6ea643ca4d762370844da2295dac1f54cbe3c549f91880d8361fa7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/858b5532bf6ea643ca4d762370844da2295dac1f54cbe3c549f91880d8361fa7.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-3a-ladestation-fur-lidax-ultra-800-1200-1600",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.mova.tech/products/1l-reinigungslosung-saugroboter-staubboxfilter-fur-mova-s70-roller-s70-ultra-roller",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "e8c4dd8d33727baf68f5458fd2139d0cddfc80d7c1cf786bc518f5b0357da492",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e8c4dd8d33727baf68f5458fd2139d0cddfc80d7c1cf786bc518f5b0357da492.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "f99032270cce5340e5612b38aa15b51e992ff59ae255365e9d3294d4204357aa",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f99032270cce5340e5612b38aa15b51e992ff59ae255365e9d3294d4204357aa.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-3a-ladestation-fur-mova-viax-250",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.mova.tech/products/1l-reinigungslosung-saugroboter-wischpad-fur-mova-v50-ultra-complete",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "11cd553369b21d10700e2a236e86b4a74d84b6d183754e1518fe327f89b31e37",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/11cd553369b21d10700e2a236e86b4a74d84b6d183754e1518fe327f89b31e37.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "7b98213dd6480530e2eaf8220fbd145edec715c320069727876f394dad7d4ee0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/7b98213dd6480530e2eaf8220fbd145edec715c320069727876f394dad7d4ee0.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-600-and-1000-robot-lawn-mower",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/1l-reinigungslosung-seitenburste-fur-mova-p50-p70-pro-ultra",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "8352264f608d7e5cacf42681ed050560aaa4a2f56b8ebd87d4da9e2244eac003",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8352264f608d7e5cacf42681ed050560aaa4a2f56b8ebd87d4da9e2244eac003.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "4d995601119c918c804520c9b96a516ef5662f746683254593721bec826d3506",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/4d995601119c918c804520c9b96a516ef5662f746683254593721bec826d3506.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-600-kit-rlm-spring-special",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.mova.tech/products/1l-reinigungslosung-staubbeutel-fur-mova-saugroboter",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "153d1c8c45c97308fe1f581ddfe5c902474a2253160a25460b2bc6aa156aa3e8",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/153d1c8c45c97308fe1f581ddfe5c902474a2253160a25460b2bc6aa156aa3e8.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "6d8b64dff8a82b0861b681ba35240dc4dd998f413742d1e1ca6cd21738265df2",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/6d8b64dff8a82b0861b681ba35240dc4dd998f413742d1e1ca6cd21738265df2.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-garage-2026-das-neue-sonnendach-fur-mahroboter",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.mova.tech/products/4-liter-staubbeutel-fur-z70-ultra-roller-saugroboter",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "111d031bb7d2f5de7001cc45cc64f6dc0cc717a943f7ac535d67f975b7a90bab",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/111d031bb7d2f5de7001cc45cc64f6dc0cc717a943f7ac535d67f975b7a90bab.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "b8c00015488bc49b5ea3fb4463dab170ace3d8219fd1f14086522c86d482259e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/b8c00015488bc49b5ea3fb4463dab170ace3d8219fd1f14086522c86d482259e.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-garage-max-fur-mahroboter-der-lidax-ultra-awd-serie",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/a10-poolreiniger",
             "pageType": "product",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "b6d437ac8d1f43357eda21eb8c68d57cfaf9122e0fab80b91d9e32fddeeafb10",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/b6d437ac8d1f43357eda21eb8c68d57cfaf9122e0fab80b91d9e32fddeeafb10.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "htmlSha256": "3e422df794ed4001e4a8a7dad241dcf85fad5eac8675e3e2f5b052e7eb36197d",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/3e422df794ed4001e4a8a7dad241dcf85fad5eac8675e3e2f5b052e7eb36197d.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/a2",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "b200a490d10ecc0b48fc94818f4a38dfacfbd3241066adf2416982271d73681b",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/b200a490d10ecc0b48fc94818f4a38dfacfbd3241066adf2416982271d73681b.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "e03019af75707af62b71dbb7fb7605badfe203d7172891a5cdeeffaa07affe0f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e03019af75707af62b71dbb7fb7605badfe203d7172891a5cdeeffaa07affe0f.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/abfallbeutel-fur-lr10-prime",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "d9d4b1cc4e64df41c739da4a8fcb1a8def5c37e61f9d54df724e6b0d0bed65db",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/d9d4b1cc4e64df41c739da4a8fcb1a8def5c37e61f9d54df724e6b0d0bed65db.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "45ccdb0a1d5326158a6d84e6f968d83fa7af8e324af40b619c9b02354e7ab8d4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/45ccdb0a1d5326158a6d84e6f968d83fa7af8e324af40b619c9b02354e7ab8d4.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/exklusives-geschenk-zur-lidax-ultra-awd-serie",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/aero-c-haartrockner",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "e78efaa0a31d2b142c276734b729431fa60f7e6fe4c9a598bdc6df0de8ce1a5f",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e78efaa0a31d2b142c276734b729431fa60f7e6fe4c9a598bdc6df0de8ce1a5f.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "f299dfd98ac92b40e34eb3365a95ac9971ecbcf0d8c96ddeda3a83c1e102938f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f299dfd98ac92b40e34eb3365a95ac9971ecbcf0d8c96ddeda3a83c1e102938f.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/kleine-mahrobotergarage-a1pro-a3-awd-2000",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/anti-verwicklungs-seitenburste-fur-e40-ultra",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "d2d5743098286ab38669e097187ddfa87b18c5c5a0581b2c6544f54c3e237285",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/d2d5743098286ab38669e097187ddfa87b18c5c5a0581b2c6544f54c3e237285.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "4c005091cbfdc91f12851abaf1390388ca16ce31d1e8eafb8e333a0c9ad96e15",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/4c005091cbfdc91f12851abaf1390388ca16ce31d1e8eafb8e333a0c9ad96e15.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/lidax-ultra-awd-maehroboter",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/antikalk-filtermodul-1-stuck-kompatibel-mit-p50s-ultra-v50-ultra-z50-ultra-mobius-60-z60-s70-serie",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "abd9f8bf8f12b53967bbb5a7600da604ad346a936da05839e390038066e93b6d",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/abd9f8bf8f12b53967bbb5a7600da604ad346a936da05839e390038066e93b6d.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "f705dc92bdec09cf2cc4fe8cd92a53b2d9871c6164d60ca877341bc1af80b929",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f705dc92bdec09cf2cc4fe8cd92a53b2d9871c6164d60ca877341bc1af80b929.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/lidax-ultra-maehroboter",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/bodenreinigungsflussigkeit-500ml-kompatibel-mit-x4-plus-m50-ultra",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "359f3040a28b9647a76cabc4cf281324f40dc4b8ad008ea46ac09657dceb0acf",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/359f3040a28b9647a76cabc4cf281324f40dc4b8ad008ea46ac09657dceb0acf.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "29ddbc1fe0386f4408071111c6a9a9f708e693b3288d77419b063a4b6a12983a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/29ddbc1fe0386f4408071111c6a9a9f708e693b3288d77419b063a4b6a12983a.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-gl415-lawn-mower-black",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/burstenwalze-kompatibel-mit-k20-k30-k30-mix",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "8735c4899effa53ddafe1805c52f02b86e7ba2fd112c677cc4baae466eda64ab",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8735c4899effa53ddafe1805c52f02b86e7ba2fd112c677cc4baae466eda64ab.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "f9f7f2829446cb018bd9612075eb225ca42ae1239f331b7027813782e465fa19",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f9f7f2829446cb018bd9612075eb225ca42ae1239f331b7027813782e465fa19.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-1600-mahroboter-gc205-astsage-20-v-und-12-cm-mit-burstenlosem-motor",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/desodorierender-stick-fur-m50-ultra",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "ef3d65488ce4bd6061d59d682295f626ae164feb89580d11ae7cabe2726baf6a",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/ef3d65488ce4bd6061d59d682295f626ae164feb89580d11ae7cabe2726baf6a.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "6a28e30acc98782e5b02f92e31599477a5b4dbac81d35ef950419f35a6774fc7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/6a28e30acc98782e5b02f92e31599477a5b4dbac81d35ef950419f35a6774fc7.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-2000-mahroboter-gc205-astsage-20-v-und-12-cm-mit-burstenlosem-motor",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/direktwasseranschluss-set-fur-den-v70-ultra-complete",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "01d554d91718f82a3f3a9389cb3f35722fb9bd76255b8b866b2ba8370074c7d1",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/01d554d91718f82a3f3a9389cb3f35722fb9bd76255b8b866b2ba8370074c7d1.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "a35fecce774bf0e314c70143e96dbd7c81577a3df719cc1a146afe1c0845efdc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/a35fecce774bf0e314c70143e96dbd7c81577a3df719cc1a146afe1c0845efdc.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-serie-mahroboter-restguthaben",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/direktwasseranschluss-set-fur-den-z70-ultra-roller-complete",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "06a1c8e4a870b24fb201385a1c98d45d7605ad9d81536ebe3d3bbd024d769e35",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/06a1c8e4a870b24fb201385a1c98d45d7605ad9d81536ebe3d3bbd024d769e35.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "4c43f475fa89160e48c2b8549b9294a52dc4bf8266fe437fc3477d9431db3aeb",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/4c43f475fa89160e48c2b8549b9294a52dc4bf8266fe437fc3477d9431db3aeb.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://de.mova.tech/products/mova-mahroboter-ladestation-3a-fur-mova-600-600-kit-1000-mahroboter",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/dreame-roboticmower-a1-pro",
             "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "8b0d370cbfd4ee8e48dcf57df61f1ea120ea72b08028c0285a87ae81b7b1f063",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8b0d370cbfd4ee8e48dcf57df61f1ea120ea72b08028c0285a87ae81b7b1f063.html",
-            "checkedAt": "2026-11-16T11:11:02.378Z",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "170fb622473792c4dec06af605dfea6e4ccdc9b22379bb454836351b00631e72",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/170fb622473792c4dec06af605dfea6e4ccdc9b22379bb454836351b00631e72.html",
+            "checkedAt": "2026-11-16T11:35:57.974Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43855160619",
+              "runId": "43858836950",
               "attempt": "1",
-              "name": "site-private-43855160619-1"
+              "name": "site-private-43858836950-1"
             }
           }
         ],
-        "pendingContentCount": 227,
+        "pendingContentCount": 170,
         "pendingRemovedCount": 0,
-        "heldContentCount": 3,
+        "heldContentCount": 39,
         "removedUrlChecks": [],
+        "bulkLastmodSampleCount": 0,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
+          "runId": "43858836950",
           "attempt": "1",
-          "name": "site-private-43855160619-1"
+          "name": "site-private-43858836950-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 20,
-        "meaningfulChanges": 7,
+        "meaningfulChanges": 0,
         "errors": [],
-        "deferredPages": 227
+        "deferredPages": 170
+      }
+    },
+    {
+      "site": {
+        "id": "mova-fr",
+        "brand": "Mova",
+        "country": "法国",
+        "countryCode": "FR",
+        "priority": "P1",
+        "siteUrl": "https://fr.mova.tech/collections/robot-lawn-mower/",
+        "sitemapUrl": "https://fr.mova.tech/sitemap.xml"
+      },
+      "checkedAt": "2026-11-16T11:36:33.396Z",
+      "status": "partial_content_pending",
+      "baseline": false,
+      "pageCount": 381,
+      "breakdown": {
+        "page": 52,
+        "collection": 46,
+        "blog": 88,
+        "product": 195
+      },
+      "changeCounts": {
+        "added": 1,
+        "removed": 2,
+        "lastmodChanged": 229
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 229,
+        "policy": "full_site_change_gate",
+        "fullSiteInventory": true,
+        "xmlDocuments": [
+          {
+            "url": "https://fr.mova.tech/sitemap.xml",
+            "sha256": "bd9911674345aebf82279d6c404a945abaafc5ccb8dff274751727d206cba51b",
+            "bytes": 945,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/bd9911674345aebf82279d6c404a945abaafc5ccb8dff274751727d206cba51b.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_agentic_discovery.xml",
+            "sha256": "50093676b9f66dfbfb6f7c2f5978fa0ca64d47e46685bc254d15b1b21eed260e",
+            "bytes": 209,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/50093676b9f66dfbfb6f7c2f5978fa0ca64d47e46685bc254d15b1b21eed260e.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_products_1.xml?from=8674708029660&to=15500112593116",
+            "sha256": "710e9ec964df3ea3806cd3b0c3ddc9cbd4071611b371a3aeb6b38818dcf3ec19",
+            "bytes": 93243,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/710e9ec964df3ea3806cd3b0c3ddc9cbd4071611b371a3aeb6b38818dcf3ec19.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_pages_1.xml?from=110184562908&to=167682408668",
+            "sha256": "4814eef501dc7cde045f27ce36a4434e440dfc22ff60963280dcd1cfcc6ea512",
+            "bytes": 8616,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/4814eef501dc7cde045f27ce36a4434e440dfc22ff60963280dcd1cfcc6ea512.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_collections_1.xml?from=432420716764&to=512243957980",
+            "sha256": "a6c169e65fb38cd55f5ce6f43b1005fcfb39b25e105a1defcf038a36060ea368",
+            "bytes": 6431,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/a6c169e65fb38cd55f5ce6f43b1005fcfb39b25e105a1defcf038a36060ea368.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_blogs_1.xml",
+            "sha256": "e00400b15d28cf8f2f0ca34bda568130448539cd7f6150f1bc79a53b4f2d878f",
+            "bytes": 1808,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/e00400b15d28cf8f2f0ca34bda568130448539cd7f6150f1bc79a53b4f2d878f.xml"
+          },
+          {
+            "url": "https://fr.mova.tech/sitemap_articles_1.xml",
+            "sha256": "47404c5119c63da7109bc716e0a107639ff2fc1ef692574435b8b9250993e38d",
+            "bytes": 50823,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/47404c5119c63da7109bc716e0a107639ff2fc1ef692574435b8b9250993e38d.xml"
+          }
+        ],
+        "changedPageDispositions": [
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://fr.mova.tech/blogs/news/mova-lance-le-lb10-air-une-litiere-intelligente-a-laffut-des-habitudes-de-votre-chat",
+            "pageType": "blog",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "edb070821b768bbdb2faba5fe2f21924fadcb31e45f450ef03d67fa97f83b73a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/edb070821b768bbdb2faba5fe2f21924fadcb31e45f450ef03d67fa97f83b73a.html",
+            "checkedAt": "2026-11-16T11:36:33.396Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          }
+        ],
+        "pendingContentCount": 0,
+        "pendingRemovedCount": 2,
+        "heldContentCount": 1,
+        "removedUrlChecks": [
+          {
+            "url": "https://fr.mova.tech/products/mova-lidax-ultra-1600-awd-scie-d-elagage-gc205",
+            "checkedAt": "2026-11-16T11:36:34.507Z",
+            "status": 302,
+            "responseUrl": "https://fr.mova.tech/products/mova-lidax-ultra-1600-awd-scie-d-elagage-gc205",
+            "location": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra-awd",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:36:33.396Z",
+            "disposition": "status_requires_followup"
+          },
+          {
+            "url": "https://fr.mova.tech/products/mova-lidax-ultra-2000-awd-scie-d-elagage-gc205",
+            "checkedAt": "2026-11-16T11:36:35.828Z",
+            "status": 302,
+            "responseUrl": "https://fr.mova.tech/products/mova-lidax-ultra-2000-awd-scie-d-elagage-gc205",
+            "location": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra-awd",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:36:33.396Z",
+            "disposition": "status_requires_followup"
+          }
+        ],
+        "bulkLastmodSampleCount": 0,
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43858836950",
+          "attempt": "1",
+          "name": "site-private-43858836950-1"
+        },
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+      },
+      "contentInspection": {
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": [],
+        "deferredPages": 0
       }
     },
     {
@@ -1012,7 +1147,7 @@
         "siteUrl": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
         "sitemapUrl": "https://www.ecovacs.com/us/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T11:11:46.161Z",
+      "checkedAt": "2026-11-16T11:36:40.243Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 19,
@@ -1040,822 +1175,355 @@
         "errors": [],
         "deferredPages": 0
       }
+    },
+    {
+      "site": {
+        "id": "dreame-de",
+        "brand": "Dreame",
+        "country": "德国",
+        "countryCode": "DE",
+        "priority": "P2",
+        "siteUrl": "https://de.dreametech.com/collections/roboticmower",
+        "sitemapUrl": "https://de.dreametech.com/sitemap.xml"
+      },
+      "checkedAt": "2026-11-16T11:37:13.045Z",
+      "status": "partial_content_pending",
+      "baseline": false,
+      "pageCount": 1134,
+      "breakdown": {
+        "page": 180,
+        "collection": 140,
+        "blog": 129,
+        "product": 685
+      },
+      "changeCounts": {
+        "added": 4,
+        "removed": 1,
+        "lastmodChanged": 795
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 795,
+        "policy": "full_site_change_gate",
+        "fullSiteInventory": true,
+        "xmlDocuments": [
+          {
+            "url": "https://de.dreametech.com/sitemap.xml",
+            "sha256": "eccca199d873724e6b90d35d84f2c9876932aec723127d346d559e39468cc113",
+            "bytes": 972,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/eccca199d873724e6b90d35d84f2c9876932aec723127d346d559e39468cc113.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_agentic_discovery.xml",
+            "sha256": "0b7fa2a29ba8c58c4558223a1e96f32c589f2c6dabb08b14604b8629945cb3c7",
+            "bytes": 214,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/0b7fa2a29ba8c58c4558223a1e96f32c589f2c6dabb08b14604b8629945cb3c7.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_products_1.xml?from=6689598898385&to=7885206716625",
+            "sha256": "670b12e15b6472f080352494652893b1fc22376b9d1ae85ba856a2b7e4ba9182",
+            "bytes": 334030,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/670b12e15b6472f080352494652893b1fc22376b9d1ae85ba856a2b7e4ba9182.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_pages_1.xml?from=81566105809&to=98764849361",
+            "sha256": "68bee869dc989937636ff66d5fd38f22800ad629ea3bff32d1efa1ee80486fed",
+            "bytes": 31208,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/68bee869dc989937636ff66d5fd38f22800ad629ea3bff32d1efa1ee80486fed.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_collections_1.xml?from=269412106449&to=301741539537",
+            "sha256": "311f4e4f3d3986f29a3885d5504865b2bc412ec7328430dad04736dc45be14f9",
+            "bytes": 24396,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/311f4e4f3d3986f29a3885d5504865b2bc412ec7328430dad04736dc45be14f9.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_blogs_1.xml",
+            "sha256": "80d34cd32979adf6481b85dc93c807933f8260f85a1d97224bef45cf08810647",
+            "bytes": 638,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/80d34cd32979adf6481b85dc93c807933f8260f85a1d97224bef45cf08810647.xml"
+          },
+          {
+            "url": "https://de.dreametech.com/sitemap_articles_1.xml",
+            "sha256": "e208a3672ee36ad64e430721a836949b0a117c1f48000538f6d9666e6bf20c82",
+            "bytes": 69998,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/e208a3672ee36ad64e430721a836949b0a117c1f48000538f6d9666e6bf20c82.xml"
+          }
+        ],
+        "changedPageDispositions": [
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/collections/26-flash-sale",
+            "pageType": "collection",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "8fedde289fc63894d09c63524d7001d2877e7479ed2580a4b9ad57508e01af20",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/8fedde289fc63894d09c63524d7001d2877e7479ed2580a4b9ad57508e01af20.html",
+            "checkedAt": "2026-11-16T11:37:13.045Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/dreame-luftreiniger-tp20",
+            "pageType": "product",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "f1da3322af759588f859a55773bfa84f2f0d711146fd664d74ed98600c8dc83f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/f1da3322af759588f859a55773bfa84f2f0d711146fd664d74ed98600c8dc83f.html",
+            "checkedAt": "2026-11-16T11:37:13.045Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/dreame-x60-pro-ultra-matrix-schwarz-saugroboter",
+            "pageType": "product",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "7df746fa4d13ffc3a502c8ff7e76f060852a48aba10dc7fe0a14895df2a184a6",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/7df746fa4d13ffc3a502c8ff7e76f060852a48aba10dc7fe0a14895df2a184a6.html",
+            "checkedAt": "2026-11-16T11:37:13.045Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/dreame-x60-pro-ultra-matrix-vision-saugroboter",
+            "pageType": "product",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "11e8106de2bae94359a7ddd4e89c0640b7d1e2c9905cb8c0781f13957ff90293",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/11e8106de2bae94359a7ddd4e89c0640b7d1e2c9905cb8c0781f13957ff90293.html",
+            "checkedAt": "2026-11-16T11:37:13.045Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          }
+        ],
+        "pendingContentCount": 0,
+        "pendingRemovedCount": 1,
+        "heldContentCount": 2,
+        "removedUrlChecks": [
+          {
+            "url": "https://de.dreametech.com/collections/bts26-flash-sale",
+            "checkedAt": "2026-11-16T11:37:14.156Z",
+            "status": 301,
+            "responseUrl": "https://de.dreametech.com/collections/bts26-flash-sale",
+            "location": "/collections/26-flash-sale",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:37:13.045Z",
+            "disposition": "status_requires_followup"
+          }
+        ],
+        "bulkLastmodSampleCount": 0,
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43858836950",
+          "attempt": "1",
+          "name": "site-private-43858836950-1"
+        },
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+      },
+      "contentInspection": {
+        "inspectedPages": 4,
+        "meaningfulChanges": 0,
+        "errors": [],
+        "deferredPages": 0
+      }
+    },
+    {
+      "site": {
+        "id": "dreame-fr",
+        "brand": "Dreame",
+        "country": "法国",
+        "countryCode": "FR",
+        "priority": "P2",
+        "siteUrl": "https://fr.dreametech.com/collections/robot-tondeuse",
+        "sitemapUrl": "https://fr.dreametech.com/sitemap.xml"
+      },
+      "checkedAt": "2026-11-16T11:37:23.437Z",
+      "status": "partial_content_pending",
+      "baseline": false,
+      "pageCount": 1067,
+      "breakdown": {
+        "page": 142,
+        "collection": 119,
+        "blog": 121,
+        "product": 685
+      },
+      "changeCounts": {
+        "added": 3,
+        "removed": 3,
+        "lastmodChanged": 779
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 779,
+        "policy": "full_site_change_gate",
+        "fullSiteInventory": true,
+        "xmlDocuments": [
+          {
+            "url": "https://fr.dreametech.com/sitemap.xml",
+            "sha256": "a839bba171e6fbe0a0167ca69d9552b6c44f23bcfa9bc63cb4219b5224103511",
+            "bytes": 975,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/a839bba171e6fbe0a0167ca69d9552b6c44f23bcfa9bc63cb4219b5224103511.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_agentic_discovery.xml",
+            "sha256": "5fbbc4044e44b832b3cf58424aafbfbc53e8a5ca3473debee91b7c70d7aef137",
+            "bytes": 214,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/5fbbc4044e44b832b3cf58424aafbfbc53e8a5ca3473debee91b7c70d7aef137.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_products_1.xml?from=7976292122904&to=10576706830616",
+            "sha256": "f154dafb0ac4cfb1c4f32c910f84796c856b0a6acae6981a43b1402b1faad4b8",
+            "bytes": 337996,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/f154dafb0ac4cfb1c4f32c910f84796c856b0a6acae6981a43b1402b1faad4b8.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_pages_1.xml?from=104466940184&to=163952656664",
+            "sha256": "af5e6423bb45b409b2cc0f6dd99258f02f33b98ed5e52a672247b03bfbba5a5c",
+            "bytes": 25026,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/af5e6423bb45b409b2cc0f6dd99258f02f33b98ed5e52a672247b03bfbba5a5c.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_collections_1.xml?from=425921741080&to=524483526936",
+            "sha256": "e4434a8b01940937138254fa862ddaecee0ae7f6b8b9540d9710b29ade59f0d8",
+            "bytes": 21094,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/e4434a8b01940937138254fa862ddaecee0ae7f6b8b9540d9710b29ade59f0d8.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_blogs_1.xml",
+            "sha256": "2f0de48de46301c8f6e28950728a0d3fedac4453acbdd3fbd32d17be77167bd4",
+            "bytes": 326,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/2f0de48de46301c8f6e28950728a0d3fedac4453acbdd3fbd32d17be77167bd4.xml"
+          },
+          {
+            "url": "https://fr.dreametech.com/sitemap_articles_1.xml",
+            "sha256": "7df2488866cba56203c981ab4b04630b76020e62f0a7a0a51782fe94b9eac57d",
+            "bytes": 65852,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/7df2488866cba56203c981ab4b04630b76020e62f0a7a0a51782fe94b9eac57d.xml"
+          }
+        ],
+        "changedPageDispositions": [
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/collections/offres-flash",
+            "pageType": "collection",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "b4a8184b9480e2ae46dd5a8b759ef6a577f42440179a6092a4e016acd1c75723",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/b4a8184b9480e2ae46dd5a8b759ef6a577f42440179a6092a4e016acd1c75723.html",
+            "checkedAt": "2026-11-16T11:37:23.437Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.dreametech.com/products/dreame-x60-pro-ultra-matrix-noir-robot-aspirateur-laveur",
+            "pageType": "product",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "110a48d2aa8c20ae82206fb31c766ff918bf0c535ac779ec87da9af805d3a4ce",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/110a48d2aa8c20ae82206fb31c766ff918bf0c535ac779ec87da9af805d3a4ce.html",
+            "checkedAt": "2026-11-16T11:37:23.437Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.dreametech.com/products/dreame-x60-pro-ultra-matrix-vision-robot-aspirateur-laveur",
+            "pageType": "product",
+            "sourceReason": "new_sitemap_url",
+            "htmlSha256": "b03905c4052984d65cb21cd17cad7dd94a7c511c0823f7305ac4309dd43c27f4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/b03905c4052984d65cb21cd17cad7dd94a7c511c0823f7305ac4309dd43c27f4.html",
+            "checkedAt": "2026-11-16T11:37:23.437Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43858836950",
+              "attempt": "1",
+              "name": "site-private-43858836950-1"
+            }
+          }
+        ],
+        "pendingContentCount": 0,
+        "pendingRemovedCount": 1,
+        "heldContentCount": 1,
+        "removedUrlChecks": [
+          {
+            "url": "https://fr.dreametech.com/collections/mega-solde",
+            "checkedAt": "2026-11-16T11:37:24.813Z",
+            "status": 301,
+            "responseUrl": "https://fr.dreametech.com/collections/mega-solde",
+            "location": "/collections/2-mega-solde",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:37:23.437Z",
+            "disposition": "status_requires_followup"
+          },
+          {
+            "url": "https://fr.dreametech.com/pages/christmas-2023",
+            "checkedAt": "2026-11-16T11:37:26.865Z",
+            "status": 404,
+            "responseUrl": "https://fr.dreametech.com/pages/christmas-2023",
+            "location": "",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:37:23.437Z",
+            "disposition": "url_404_observed_no_product_discontinuation_claim"
+          },
+          {
+            "url": "https://fr.dreametech.com/pages/christmas-2024",
+            "checkedAt": "2026-11-16T11:37:29.926Z",
+            "status": 404,
+            "responseUrl": "https://fr.dreametech.com/pages/christmas-2024",
+            "location": "",
+            "retryAfter": "",
+            "firstDiscoveredAt": "2026-11-16T11:37:23.437Z",
+            "disposition": "url_404_observed_no_product_discontinuation_claim"
+          }
+        ],
+        "bulkLastmodSampleCount": 0,
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43858836950",
+          "attempt": "1",
+          "name": "site-private-43858836950-1"
+        },
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+      },
+      "contentInspection": {
+        "inspectedPages": 3,
+        "meaningfulChanges": 0,
+        "errors": [],
+        "deferredPages": 0
+      }
     }
   ],
-  "pendingRecords": [
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mahrobotergarage-a1pro-a3-awd-pro-3500-a3-awd-pro-5000",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mahrobotergarage-a1pro-a3-awd-pro-3500-a3-awd-pro-5000",
-        "sha256": "79d818bde5f10d6d624f77e5cffe492f2f2b03b44e7a414bcdc9ab2ddd4c2371",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/79d818bde5f10d6d624f77e5cffe492f2f2b03b44e7a414bcdc9ab2ddd4c2371.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "7883f962104cad7efafd7ff09383c6fa4638334d83895e264a6373af0827c6fc",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.35
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.34,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.41,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.15,
-              "routine_content_refresh": 0.43,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.99,
-            "probabilities": {
-              "not_launch_related": 0.99,
-              "weak_signal": 0.01,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 1.52,
-            "confidence": 0.41,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.16,
-              "1": 0.28,
-              "2": 0.45,
-              "3": 0.11,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.9,
-            "probabilities": {
-              "none": 0.05,
-              "event_1": 0.95
-            }
-          }
-        },
-        "latencyMs": 295,
-        "usage": {
-          "input_tokens": 4945,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:09.805Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-8EA2C850EAF5"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-3a-ladestation-fur-lidax-ultra-800-1200-1600",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-3a-ladestation-fur-lidax-ultra-800-1200-1600",
-        "sha256": "e8c4dd8d33727baf68f5458fd2139d0cddfc80d7c1cf786bc518f5b0357da492",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e8c4dd8d33727baf68f5458fd2139d0cddfc80d7c1cf786bc518f5b0357da492.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "2048de83461e1b71e9dc32c798d2ac56fec570c5b74f815b66585c2380fd9e62",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.23
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.44,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.3,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.17,
-              "routine_content_refresh": 0.52,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 0.98,
-            "confidence": 0.46,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.35,
-              "1": 0.38,
-              "2": 0.24,
-              "3": 0.03,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.48,
-            "probabilities": {
-              "none": 0.26,
-              "event_1": 0.74
-            }
-          }
-        },
-        "latencyMs": 110,
-        "usage": {
-          "input_tokens": 4333,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:11.620Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-0ED9EB7A88D0"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-3a-ladestation-fur-mova-viax-250",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-3a-ladestation-fur-mova-viax-250",
-        "sha256": "11cd553369b21d10700e2a236e86b4a74d84b6d183754e1518fe327f89b31e37",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/11cd553369b21d10700e2a236e86b4a74d84b6d183754e1518fe327f89b31e37.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "0ed3bb7aa383aeb37982a63131004fdfa1d0491c6fc30c6363350df07789366f",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.21
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.46,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.29,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.16,
-              "routine_content_refresh": 0.54,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 0.81,
-            "confidence": 0.32,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.44,
-              "1": 0.34,
-              "2": 0.19,
-              "3": 0.03,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.54,
-            "probabilities": {
-              "none": 0.23,
-              "event_1": 0.77
-            }
-          }
-        },
-        "latencyMs": 116,
-        "usage": {
-          "input_tokens": 4073,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:13.379Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-B6292676BBC2"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-600-and-1000-robot-lawn-mower",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-600-and-1000-robot-lawn-mower",
-        "sha256": "8352264f608d7e5cacf42681ed050560aaa4a2f56b8ebd87d4da9e2244eac003",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8352264f608d7e5cacf42681ed050560aaa4a2f56b8ebd87d4da9e2244eac003.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "5d800998363c3b53e44783fbee7d0f25f297fc5df1ef757461320461a23b18c7",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.25
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "promotion",
-            "confidence": 0.42,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.5,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.13,
-              "routine_content_refresh": 0.35,
-              "other": 0.02
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 1.21,
-            "confidence": 0.47,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.22,
-              "1": 0.42,
-              "2": 0.3,
-              "3": 0.06,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.64,
-            "probabilities": {
-              "none": 0.18,
-              "event_1": 0.82
-            }
-          }
-        },
-        "latencyMs": 147,
-        "usage": {
-          "input_tokens": 7839,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:16.600Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-189C81CEE87B"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-600-kit-rlm-spring-special",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-600-kit-rlm-spring-special",
-        "sha256": "153d1c8c45c97308fe1f581ddfe5c902474a2253160a25460b2bc6aa156aa3e8",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/153d1c8c45c97308fe1f581ddfe5c902474a2253160a25460b2bc6aa156aa3e8.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "7e3514acffe372da9af6d0b58b5ed4294e6ff44bdb383b8ad3f86a2c15bcca74",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.22
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.36,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.38,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.16,
-              "routine_content_refresh": 0.45,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.99,
-            "probabilities": {
-              "not_launch_related": 0.99,
-              "weak_signal": 0.01,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 0.94,
-            "confidence": 0.48,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.34,
-              "1": 0.42,
-              "2": 0.2,
-              "3": 0.04,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.66,
-            "probabilities": {
-              "none": 0.17,
-              "event_1": 0.83
-            }
-          }
-        },
-        "latencyMs": 129,
-        "usage": {
-          "input_tokens": 7650,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:18.519Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-6FB113331F3B"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-garage-2026-das-neue-sonnendach-fur-mahroboter",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-garage-2026-das-neue-sonnendach-fur-mahroboter",
-        "sha256": "111d031bb7d2f5de7001cc45cc64f6dc0cc717a943f7ac535d67f975b7a90bab",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/111d031bb7d2f5de7001cc45cc64f6dc0cc717a943f7ac535d67f975b7a90bab.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "7dff0fe1df4d96bc0ea1067bcd5a055221185612142304b6f24c0b5b5629d47f",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.25
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.45,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.32,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.14,
-              "routine_content_refresh": 0.53,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 1.09,
-            "confidence": 0.45,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.29,
-              "1": 0.39,
-              "2": 0.27,
-              "3": 0.05,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.76,
-            "probabilities": {
-              "none": 0.12,
-              "event_1": 0.88
-            }
-          }
-        },
-        "latencyMs": 102,
-        "usage": {
-          "input_tokens": 4297,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:20.250Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-29B8F97E5F00"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-16T11:11:02.378Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/mova-garage-max-fur-mahroboter-der-lidax-ultra-awd-serie",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/mova-garage-max-fur-mahroboter-der-lidax-ultra-awd-serie",
-        "sha256": "b6d437ac8d1f43357eda21eb8c68d57cfaf9122e0fab80b91d9e32fddeeafb10",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/b6d437ac8d1f43357eda21eb8c68d57cfaf9122e0fab80b91d9e32fddeeafb10.html",
-        "capturedAt": "2026-11-16T11:11:02.378Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "43855160619",
-          "attempt": "1",
-          "name": "site-private-43855160619-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "1cba54006a91a0d3a4e1596549fb95dde09dd8b076781b944cfd5b781a0274aa",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.23
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.48,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0.28,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.16,
-              "routine_content_refresh": 0.55,
-              "other": 0.01
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 1,
-            "confidence": 0.45,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.33,
-              "1": 0.38,
-              "2": 0.25,
-              "3": 0.04,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.54,
-            "probabilities": {
-              "none": 0.23,
-              "event_1": 0.77
-            }
-          }
-        },
-        "latencyMs": 104,
-        "usage": {
-          "input_tokens": 4102,
-          "output_tokens": 217
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-16T11:11:21.980Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-20E8DF66B2A9"
-    }
-  ],
+  "pendingRecords": [],
   "productRadar": {
     "mechanism": "open_world_discovery",
     "note": "未知型号先建立临时实体；多国家、多页面或多渠道证据聚合后，再确认正式型号与发布阶段。",
@@ -2095,7 +1763,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-16T11:12:18.771Z",
+    "checkedAt": "2026-11-16T11:37:38.491Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -2107,7 +1775,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T11:12:18.771Z",
+        "checkedAt": "2026-11-16T11:37:38.491Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2134,7 +1802,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T11:12:18.771Z",
+        "checkedAt": "2026-11-16T11:37:38.491Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2161,7 +1829,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T11:12:18.771Z",
+        "checkedAt": "2026-11-16T11:37:38.491Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2188,7 +1856,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T11:12:18.771Z",
+        "checkedAt": "2026-11-16T11:37:38.491Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -8689,8 +8357,11 @@
       "mammotion-fr",
       "mova-us",
       "mova-de",
-      "ecovacs-us"
+      "mova-fr",
+      "ecovacs-us",
+      "dreame-de",
+      "dreame-fr"
     ],
-    "collectedAt": "2026-11-16T11:12:18.724Z"
+    "collectedAt": "2026-11-16T11:37:38.432Z"
   }
 }
