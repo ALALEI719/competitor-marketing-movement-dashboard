@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T09:57:09.795Z",
+  "generatedAt": "2026-11-16T10:53:43.341Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -8,10 +8,10 @@
   ],
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
-    "sites": 5,
+    "sites": 6,
     "healthySites": 5,
-    "pages": 1151,
-    "pendingChanges": 44,
+    "pages": 1551,
+    "pendingChanges": 50,
     "productCandidates": 1,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -34,25 +34,25 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:56:24.637Z",
+      "checkedAt": "2026-11-16T10:52:24.803Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 323,
       "breakdown": {
         "page": 63,
-        "blog": 189,
-        "collection": 22,
+        "collection": 23,
+        "blog": 188,
         "product": 49
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 49
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 49,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
@@ -71,25 +71,25 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:56:27.034Z",
+      "checkedAt": "2026-11-16T10:52:27.200Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 291,
       "breakdown": {
         "page": 37,
-        "blog": 155,
-        "collection": 15,
+        "collection": 16,
+        "blog": 154,
         "product": 84
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 84
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 84,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
@@ -108,25 +108,25 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:56:29.605Z",
+      "checkedAt": "2026-11-16T10:52:29.431Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 216,
       "breakdown": {
         "page": 40,
-        "blog": 93,
-        "collection": 16,
+        "collection": 17,
+        "blog": 92,
         "product": 67
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 67
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 67,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
@@ -145,31 +145,446 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:56:31.780Z",
+      "checkedAt": "2026-11-16T10:52:31.631Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
       "breakdown": {
         "page": 39,
-        "blog": 162,
-        "collection": 17,
+        "collection": 18,
+        "blog": 161,
         "product": 84
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 84
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
-        "note": ""
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 84,
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
         "inspectedPages": 1,
         "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
+      }
+    },
+    {
+      "site": {
+        "id": "mova-de",
+        "brand": "Mova",
+        "country": "德国",
+        "countryCode": "DE",
+        "priority": "P1",
+        "siteUrl": "https://de.mova.tech/collections/robot-lawn-mower",
+        "sitemapUrl": "https://de.mova.tech/sitemap.xml"
+      },
+      "checkedAt": "2026-11-16T10:52:33.919Z",
+      "status": "partial_content_pending",
+      "baseline": false,
+      "pageCount": 400,
+      "breakdown": {
+        "page": 46,
+        "collection": 45,
+        "blog": 92,
+        "product": 217
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 220
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 220,
+        "policy": "full_site_change_gate",
+        "fullSiteInventory": true,
+        "xmlDocuments": [
+          {
+            "url": "https://de.mova.tech/sitemap.xml",
+            "sha256": "6ef17682bf3ea12c0f5e364ce7956fe298753c283d1e2b4daf3e7cfba63d629d",
+            "bytes": 943,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/6ef17682bf3ea12c0f5e364ce7956fe298753c283d1e2b4daf3e7cfba63d629d.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_agentic_discovery.xml",
+            "sha256": "030fb0bee55915c6e6e9c2ca94072dc833304cf5e84f9c91b0ec7c353233b8b1",
+            "bytes": 209,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/030fb0bee55915c6e6e9c2ca94072dc833304cf5e84f9c91b0ec7c353233b8b1.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_products_1.xml?from=8243156910278&to=9149681205446",
+            "sha256": "bcb6e2eb099dc77f0c19165309187a79b88dad74f6837045efd233217ba56e41",
+            "bytes": 102543,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/bcb6e2eb099dc77f0c19165309187a79b88dad74f6837045efd233217ba56e41.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_pages_1.xml?from=95892078790&to=125118677190",
+            "sha256": "051957dff47c50b398f7932d6ba3d4ffaec8e170764b2f1947d66dfffda15564",
+            "bytes": 7391,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/051957dff47c50b398f7932d6ba3d4ffaec8e170764b2f1947d66dfffda15564.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_collections_1.xml?from=301712146630&to=355108487366",
+            "sha256": "2cab4ec995dd864b20889f6cf0bc407b9ba113cdc1c545191aa495451b4597c2",
+            "bytes": 5908,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/2cab4ec995dd864b20889f6cf0bc407b9ba113cdc1c545191aa495451b4597c2.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_blogs_1.xml",
+            "sha256": "d5411896dd0d447a0a8f9e93423a306e9471dedaf3b18222508f035ce23454a5",
+            "bytes": 2077,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/d5411896dd0d447a0a8f9e93423a306e9471dedaf3b18222508f035ce23454a5.xml"
+          },
+          {
+            "url": "https://de.mova.tech/sitemap_articles_1.xml",
+            "sha256": "6572ccdef64cf8795743e09ac2863ec167c87e5291ff0ed5683f55792f477e93",
+            "bytes": 51283,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/6572ccdef64cf8795743e09ac2863ec167c87e5291ff0ed5683f55792f477e93.xml"
+          }
+        ],
+        "changedPageDispositions": [
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-gl415-lawn-mower-black",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "78adb8b2934029b6dd9dc9f0d7d86c3574b897bf449c3ef2849135b0ee5dfd0f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/78adb8b2934029b6dd9dc9f0d7d86c3574b897bf449c3ef2849135b0ee5dfd0f.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-1600-mahroboter-gc205-astsage-20-v-und-12-cm-mit-burstenlosem-motor",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "9f76e46589cb84ca661dbb9a5cc0a136fd5baec9a1f4974ffd26506a08f7e730",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/9f76e46589cb84ca661dbb9a5cc0a136fd5baec9a1f4974ffd26506a08f7e730.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-2000-mahroboter-gc205-astsage-20-v-und-12-cm-mit-burstenlosem-motor",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "2e5485018fb3d0419f204d006d49f40ed36e5bd09a0def156923c429c00cbf86",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/2e5485018fb3d0419f204d006d49f40ed36e5bd09a0def156923c429c00cbf86.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-lidax-ultra-awd-serie-mahroboter-restguthaben",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "061fa9cc4de3e9795bd0895883446959206c89116edca59c330474651e077bfb",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/061fa9cc4de3e9795bd0895883446959206c89116edca59c330474651e077bfb.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-mahroboter-ladestation-3a-fur-mova-600-600-kit-1000-mahroboter",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "5673da123397511f27d6e65b89257f9f56c211ac26d2da5d6fe86a76f1fddd15",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/5673da123397511f27d6e65b89257f9f56c211ac26d2da5d6fe86a76f1fddd15.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-mahroboter-reinigungsset-fur-mova-600-600-kit-1000-mahroboter",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "488d8e077c0c59815ae8774d24aae4362296ae318402c20a93ed10c67a539c7c",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/488d8e077c0c59815ae8774d24aae4362296ae318402c20a93ed10c67a539c7c.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-robot-lawn-mower-4g-module",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "0c2e5cf324df1a51de94ee85ff6161e881487f5e8c04d9ad4fa0d810fa066061",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/0c2e5cf324df1a51de94ee85ff6161e881487f5e8c04d9ad4fa0d810fa066061.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-robot-lawn-mower-garage",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "7f7b6a235b587c78d453cc1475acb88507f73d1bc077f4f33c1249c8d9096572",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/7f7b6a235b587c78d453cc1475acb88507f73d1bc077f4f33c1249c8d9096572.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-robot-lawn-mower-kit",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "ddfaf6d48e43d8adda5e1d76a87c6156e5b8380fa31a4543e03b7b005dd1e2b1",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/ddfaf6d48e43d8adda5e1d76a87c6156e5b8380fa31a4543e03b7b005dd1e2b1.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/products/mova-robot-lawn-mower-offroad-wheel-set",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "914ef809bf7516d6d7a691539fa8a247e08256a1e9d4608c922f6b2d258c7b18",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/914ef809bf7516d6d7a691539fa8a247e08256a1e9d4608c922f6b2d258c7b18.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/mova-robot-lawn-mower-radar-cleaning-brush",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "82aa9ac0adaa32da316269ce6144a03658c43f7d26b7c8c9119afda47765a79c",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/82aa9ac0adaa32da316269ce6144a03658c43f7d26b7c8c9119afda47765a79c.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/viax-250-maehroboter",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "a80e4a64970d2c12958ab0fe51e346200cac8cd6c00acd4f80b3ab6f67155725",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/a80e4a64970d2c12958ab0fe51e346200cac8cd6c00acd4f80b3ab6f67155725.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/viax-500-maehroboter",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "ef84f89fc1634f28d4e071fd6306352029a6d162bae9ab5bd1ed00aa2c5b8160",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/ef84f89fc1634f28d4e071fd6306352029a6d162bae9ab5bd1ed00aa2c5b8160.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://de.mova.tech/products/wiederaufladbarer-lithium-ionen-akku-fur-mova-600-600-kit-1000-mahroboter",
+            "pageType": "product",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "159b60f4adb67079acacb417d83b34757112aaf483cff47801c045781eba0f04",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/159b60f4adb67079acacb417d83b34757112aaf483cff47801c045781eba0f04.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e02eba04b34a1ad1eda93df39f2182a4c9e2d9008e23bc40da679d5ef6c31089",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e02eba04b34a1ad1eda93df39f2182a4c9e2d9008e23bc40da679d5ef6c31089.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f823bb6537ddabcc15f639b7cec25ad562931251c77b0e8ec35631fcc64bda24",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f823bb6537ddabcc15f639b7cec25ad562931251c77b0e8ec35631fcc64bda24.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/exklusives-geschenk-zur-lidax-ultra-awd-serie",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "8b5e2bc78be056f613993af0912e61646b50b279c2de13fe38a2766282d825eb",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8b5e2bc78be056f613993af0912e61646b50b279c2de13fe38a2766282d825eb.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/kleine-mahrobotergarage-a1pro-a3-awd-2000",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "5932b2897064ee819fdfb0cf7be4c7789f322193607f61e3fd5ef840b27dd871",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/5932b2897064ee819fdfb0cf7be4c7789f322193607f61e3fd5ef840b27dd871.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/lidax-ultra-awd-maehroboter",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "0e63a6fe6379bef65ecd6ae409582bc2e42ba20c5183de74ea9f9d5ac267d57a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/0e63a6fe6379bef65ecd6ae409582bc2e42ba20c5183de74ea9f9d5ac267d57a.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://de.mova.tech/products/lidax-ultra-maehroboter",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "d920bd1de1795b2e2f3f87831428b39517c700b3a40e54556edd498ce0077654",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/d920bd1de1795b2e2f3f87831428b39517c700b3a40e54556edd498ce0077654.html",
+            "checkedAt": "2026-11-16T10:52:33.919Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "43852503021",
+              "attempt": "1",
+              "name": "site-private-43852503021-1"
+            }
+          }
+        ],
+        "pendingContentCount": 226,
+        "pendingRemovedCount": 0,
+        "heldContentCount": 5,
+        "removedUrlChecks": [],
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        },
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+      },
+      "contentInspection": {
+        "inspectedPages": 20,
+        "meaningfulChanges": 6,
+        "errors": [],
+        "deferredPages": 226
       }
     },
     {
@@ -182,7 +597,7 @@
         "siteUrl": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
         "sitemapUrl": "https://www.ecovacs.com/us/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:56:34.631Z",
+      "checkedAt": "2026-11-16T10:53:09.059Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 19,
@@ -213,6 +628,702 @@
     }
   ],
   "pendingRecords": [
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
+        "sha256": "e02eba04b34a1ad1eda93df39f2182a4c9e2d9008e23bc40da679d5ef6c31089",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/e02eba04b34a1ad1eda93df39f2182a4c9e2d9008e23bc40da679d5ef6c31089.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "8ce40b23b251fdacb8d7e7cf53d9dcd0e4e293e8e2f926228b6b86573086018c",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.25
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "routine_content_refresh",
+            "confidence": 0.39,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.25,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.26,
+              "routine_content_refresh": 0.48,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 1,
+            "probabilities": {
+              "not_launch_related": 1,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.04,
+            "confidence": 0.47,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.3,
+              "1": 0.4,
+              "2": 0.26,
+              "3": 0.04,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.64,
+            "probabilities": {
+              "none": 0.18,
+              "event_1": 0.82
+            }
+          }
+        },
+        "latencyMs": 157,
+        "usage": {
+          "input_tokens": 4325,
+          "output_tokens": 217
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:52:58.742Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-1D5B3327489D"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500",
+        "sha256": "f823bb6537ddabcc15f639b7cec25ad562931251c77b0e8ec35631fcc64bda24",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f823bb6537ddabcc15f639b7cec25ad562931251c77b0e8ec35631fcc64bda24.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "36759b6792c83810de72d57089f0dd13495239c42e44dd0aab91ca36aac77fd1",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.3
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.34,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.43,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.21,
+              "routine_content_refresh": 0.35,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 1,
+            "probabilities": {
+              "not_launch_related": 1,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.27,
+            "confidence": 0.4,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.23,
+              "1": 0.37,
+              "2": 0.31,
+              "3": 0.09,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.64,
+            "probabilities": {
+              "none": 0.18,
+              "event_1": 0.82
+            }
+          }
+        },
+        "latencyMs": 111,
+        "usage": {
+          "input_tokens": 7035,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:53:00.606Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-AA9DE3057DCE"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/exklusives-geschenk-zur-lidax-ultra-awd-serie",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/exklusives-geschenk-zur-lidax-ultra-awd-serie",
+        "sha256": "8b5e2bc78be056f613993af0912e61646b50b279c2de13fe38a2766282d825eb",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/8b5e2bc78be056f613993af0912e61646b50b279c2de13fe38a2766282d825eb.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "e625ecb2b150c698a4ced88cc5e72b0169f80215ee406bf08a6a5321637b2802",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.31
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.3,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.4,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.24,
+              "routine_content_refresh": 0.35,
+              "other": 0.01
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "not_launch_related": 0.99,
+              "weak_signal": 0.01,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.35,
+            "confidence": 0.43,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.18,
+              "1": 0.4,
+              "2": 0.33,
+              "3": 0.09,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.8,
+            "probabilities": {
+              "none": 0.1,
+              "event_1": 0.9
+            }
+          }
+        },
+        "latencyMs": 141,
+        "usage": {
+          "input_tokens": 4142,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:53:02.396Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-2CE5C87AFD1E"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/kleine-mahrobotergarage-a1pro-a3-awd-2000",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/kleine-mahrobotergarage-a1pro-a3-awd-2000",
+        "sha256": "5932b2897064ee819fdfb0cf7be4c7789f322193607f61e3fd5ef840b27dd871",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/5932b2897064ee819fdfb0cf7be4c7789f322193607f61e3fd5ef840b27dd871.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "7fa192c206ef98ae90eff33dd7367fed1d5c75b225a8d6631d4c119c22379b2c",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.28
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.32,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.42,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.2,
+              "routine_content_refresh": 0.36,
+              "other": 0.02
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "not_launch_related": 0.99,
+              "weak_signal": 0.01,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.24,
+            "confidence": 0.44,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.22,
+              "1": 0.4,
+              "2": 0.31,
+              "3": 0.07,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.66,
+            "probabilities": {
+              "none": 0.17,
+              "event_1": 0.83
+            }
+          }
+        },
+        "latencyMs": 85,
+        "usage": {
+          "input_tokens": 4738,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:53:04.050Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-9191F4EFE719"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/lidax-ultra-awd-maehroboter",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/lidax-ultra-awd-maehroboter",
+        "sha256": "0e63a6fe6379bef65ecd6ae409582bc2e42ba20c5183de74ea9f9d5ac267d57a",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/0e63a6fe6379bef65ecd6ae409582bc2e42ba20c5183de74ea9f9d5ac267d57a.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "cbaef297eb7e3f3587f91fd117b004c93bea41e8a61621a1c2b28dbe0bd2354b",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.22
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "routine_content_refresh",
+            "confidence": 0.4,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.4,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.09,
+              "routine_content_refresh": 0.49,
+              "other": 0.02
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 1,
+            "probabilities": {
+              "not_launch_related": 1,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.01,
+            "confidence": 0.17,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.37,
+              "1": 0.34,
+              "2": 0.22,
+              "3": 0.07,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.44,
+            "probabilities": {
+              "none": 0.28,
+              "event_1": 0.72
+            }
+          }
+        },
+        "latencyMs": 147,
+        "usage": {
+          "input_tokens": 7433,
+          "output_tokens": 217
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:53:05.920Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-A95E6BE6EF98"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T10:52:33.919Z",
+      "publishDate": "",
+      "url": "https://de.mova.tech/products/lidax-ultra-maehroboter",
+      "pageType": "product",
+      "sourceEvidence": {
+        "sourceUrl": "https://de.mova.tech/products/lidax-ultra-maehroboter",
+        "sha256": "d920bd1de1795b2e2f3f87831428b39517c700b3a40e54556edd498ce0077654",
+        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/d920bd1de1795b2e2f3f87831428b39517c700b3a40e54556edd498ce0077654.html",
+        "capturedAt": "2026-11-16T10:52:33.919Z",
+        "privateArchive": {
+          "kind": "authenticated_github_actions_artifact",
+          "runId": "43852503021",
+          "attempt": "1",
+          "name": "site-private-43852503021-1"
+        }
+      },
+      "changedFields": [
+        "offer"
+      ],
+      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "850bf24fa02381a2d1079b0a875e5234425d1e3e0079d696ba30632011afcdc1",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.26
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "routine_content_refresh",
+            "confidence": 0.36,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.37,
+              "price_change": 0,
+              "availability_change": 0,
+              "messaging_or_cta": 0.16,
+              "routine_content_refresh": 0.45,
+              "other": 0.02
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 1,
+            "probabilities": {
+              "not_launch_related": 1,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 1.01,
+            "confidence": 0.42,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0.34,
+              "1": 0.38,
+              "2": 0.21,
+              "3": 0.07,
+              "4": 0
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 0.48,
+            "probabilities": {
+              "none": 0.26,
+              "event_1": 0.74
+            }
+          }
+        },
+        "latencyMs": 149,
+        "usage": {
+          "input_tokens": 7449,
+          "output_tokens": 217
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T10:53:07.752Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-60D9210D7581"
+    },
     {
       "type": "removed_page",
       "reviewStatus": "pending",
@@ -1858,7 +2969,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-16T10:13:15.633Z",
+    "checkedAt": "2026-11-16T10:53:43.389Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1870,7 +2981,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T10:13:15.633Z",
+        "checkedAt": "2026-11-16T10:53:43.389Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1897,7 +3008,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T10:13:15.633Z",
+        "checkedAt": "2026-11-16T10:53:43.389Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1924,7 +3035,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T10:13:15.633Z",
+        "checkedAt": "2026-11-16T10:53:43.389Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1951,7 +3062,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T10:13:15.633Z",
+        "checkedAt": "2026-11-16T10:53:43.389Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -8684,5 +9795,17 @@
         }
       }
     ]
+  },
+  "collectionScope": {
+    "brand": "all",
+    "siteIds": [
+      "mammotion-us",
+      "mammotion-de",
+      "mammotion-uk",
+      "mammotion-fr",
+      "mova-de",
+      "ecovacs-us"
+    ],
+    "collectedAt": "2026-11-16T10:53:43.341Z"
   }
 }
