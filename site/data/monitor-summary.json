@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-09T09:58:29.708Z",
+  "generatedAt": "2026-11-16T09:02:51.640Z",
   "dataMode": "real_sitemap",
-  "brand": "Mammotion",
+  "brand": "all",
   "activeEvents": [
     "Black Friday / Cyber Monday"
   ],
@@ -10,14 +10,14 @@
   "totals": {
     "sites": 4,
     "healthySites": 4,
-    "pages": 1129,
-    "pendingChanges": 38,
+    "pages": 1132,
+    "pendingChanges": 49,
     "productCandidates": 1,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 78,
-    "pendingChannelChanges": 10,
+    "blogChanges": 85,
+    "pendingChannelChanges": 17,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 28,
@@ -34,30 +34,31 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-09T09:58:17.214Z",
+      "checkedAt": "2026-11-16T09:02:33.572Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 324,
+      "pageCount": 323,
       "breakdown": {
-        "page": 64,
+        "page": 63,
         "blog": 189,
         "collection": 22,
         "product": 49
       },
       "changeCounts": {
-        "added": 2,
-        "removed": 0,
-        "lastmodChanged": 71
+        "added": 0,
+        "removed": 1,
+        "lastmodChanged": 72
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 71,
+        "lastmodPagesNeedingContentCheck": 72,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
+        "inspectedPages": 2,
         "meaningfulChanges": 1,
-        "errors": []
+        "errors": [],
+        "deferredPages": 0
       }
     },
     {
@@ -70,30 +71,31 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-09T09:58:20.608Z",
+      "checkedAt": "2026-11-16T09:02:36.643Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 290,
+      "pageCount": 291,
       "breakdown": {
         "page": 37,
-        "blog": 154,
+        "blog": 155,
         "collection": 15,
         "product": 84
       },
       "changeCounts": {
         "added": 1,
         "removed": 0,
-        "lastmodChanged": 109
+        "lastmodChanged": 103
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 109,
+        "lastmodPagesNeedingContentCheck": 103,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 2,
+        "inspectedPages": 3,
         "meaningfulChanges": 1,
-        "errors": []
+        "errors": [],
+        "deferredPages": 0
       }
     },
     {
@@ -106,30 +108,31 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-09T09:58:23.279Z",
+      "checkedAt": "2026-11-16T09:02:40.208Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 213,
+      "pageCount": 216,
       "breakdown": {
         "page": 40,
-        "blog": 90,
+        "blog": 93,
         "collection": 16,
         "product": 67
       },
       "changeCounts": {
-        "added": 2,
-        "removed": 1,
-        "lastmodChanged": 87
+        "added": 3,
+        "removed": 0,
+        "lastmodChanged": 88
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 87,
+        "lastmodPagesNeedingContentCheck": 88,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
+        "inspectedPages": 11,
         "meaningfulChanges": 1,
-        "errors": []
+        "errors": [],
+        "deferredPages": 0
       }
     },
     {
@@ -142,34 +145,613 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-09T09:58:26.447Z",
+      "checkedAt": "2026-11-16T09:02:46.375Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
       "breakdown": {
-        "page": 40,
-        "blog": 161,
+        "page": 39,
+        "blog": 162,
         "collection": 17,
         "product": 84
       },
       "changeCounts": {
-        "added": 2,
-        "removed": 0,
-        "lastmodChanged": 113
+        "added": 1,
+        "removed": 1,
+        "lastmodChanged": 104
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 113,
+        "lastmodPagesNeedingContentCheck": 104,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
+        "inspectedPages": 7,
         "meaningfulChanges": 1,
-        "errors": []
+        "errors": [],
+        "deferredPages": 0
       }
     }
   ],
   "pendingRecords": [
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-16T09:02:46.375Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
+      "publicationEvidence": {
+        "date": "",
+        "precision": "unknown_or_conflicting",
+        "exactTimeAgrees": false,
+        "sourceTimes": []
+      },
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "9822cf56f55b262c83d05b08c354cc0ea64649a6b0363475efa2110e096d40a7",
+        "changedFields": []
+      },
+      "recordId": "SITE-B3A8F09CCBE8"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-16T09:02:46.375Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/pages/bf77854693",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-607543E3635E"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "discoveredAt": "2026-11-16T09:02:46.375Z",
+      "publishDate": "",
+      "url": "https://fr.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "cta",
+        "body"
+      ],
+      "summary": "页面关键内容变化：cta、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "6d8734f1f91fe2affb717ad99d3eb68857e24d2a43f3fa776a3174b800187c6a",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.91,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.92,
+              "price_change": 0.05,
+              "availability_change": 0,
+              "messaging_or_cta": 0.03,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.98,
+            "probabilities": {
+              "not_launch_related": 0.98,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.02
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.9,
+            "confidence": 0.92,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.09,
+              "3": 0.9,
+              "4": 0.01
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 1,
+            "probabilities": {
+              "none": 0,
+              "event_1": 1
+            }
+          }
+        },
+        "latencyMs": 229,
+        "usage": {
+          "input_tokens": 6816,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T09:02:49.109Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-D306091A74FE"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-16T09:02:40.208Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
+      "publicationEvidence": {
+        "date": "",
+        "precision": "unknown_or_conflicting",
+        "exactTimeAgrees": false,
+        "sourceTimes": []
+      },
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "22b1be9de60e9ffce3a99ed82f79420b41a0ae2b798e473b7eb46552e321e604",
+        "changedFields": []
+      },
+      "recordId": "SITE-5D2AC51A4D54"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-16T09:02:40.208Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "title": "What is a GPS robot lawn mower?",
+      "publicationEvidence": {
+        "date": "",
+        "precision": "unknown_or_conflicting",
+        "exactTimeAgrees": false,
+        "sourceTimes": []
+      },
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "9f2a3c2c8ce1536870794ed105772ef3145f5dbd6681ab4fa1c35cf1e6ad5e01",
+        "changedFields": []
+      },
+      "recordId": "SITE-65D06B7FE37A"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-16T09:02:40.208Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
+      "publicationEvidence": {
+        "date": "",
+        "precision": "unknown_or_conflicting",
+        "exactTimeAgrees": false,
+        "sourceTimes": []
+      },
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "4f43acf1bfc046110f2db164ac2b4c03c678a8934c8c48ac36e67b4f1b5e24a7",
+        "changedFields": []
+      },
+      "recordId": "SITE-651C73421F90"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "discoveredAt": "2026-11-16T09:02:40.208Z",
+      "publishDate": "",
+      "url": "https://uk.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "42e1e31945fb7743683be80330995d8b35ecf0e21cc62a41d15015433be3c9e4",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.97
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.98,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.98,
+              "price_change": 0.01,
+              "availability_change": 0,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.95,
+            "probabilities": {
+              "not_launch_related": 0.96,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.04
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.99,
+            "confidence": 0.95,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.03,
+              "3": 0.94,
+              "4": 0.03
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 1,
+            "probabilities": {
+              "none": 0,
+              "event_1": 1
+            }
+          }
+        },
+        "latencyMs": 126,
+        "usage": {
+          "input_tokens": 6316,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T09:02:42.599Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-14AEE15CF7E2"
+    },
+    {
+      "type": "new_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T09:02:36.643Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
+      "pageType": "blog",
+      "summary": "Sitemap 新增页面，待确认是否为营销动作",
+      "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und der richtige Zeitpunkt",
+      "publicationEvidence": {
+        "date": "",
+        "precision": "unknown_or_conflicting",
+        "exactTimeAgrees": false,
+        "sourceTimes": []
+      },
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "bd998f399d88254aba79778722f8ae9fc3195fcfacacb4736e3b5670af980764",
+        "changedFields": []
+      },
+      "recordId": "SITE-ADF9FC2DA33F"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "discoveredAt": "2026-11-16T09:02:36.643Z",
+      "publishDate": "",
+      "url": "https://de.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "e2db3df1d17f00bd41aa9ca1c61114e5b318a0c99d92b9c6e9ed3d26cde64577",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.97
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.98,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.98,
+              "price_change": 0.02,
+              "availability_change": 0,
+              "messaging_or_cta": 0,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.99,
+            "probabilities": {
+              "not_launch_related": 0.99,
+              "weak_signal": 0,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.01
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 2.96,
+            "confidence": 0.94,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.05,
+              "3": 0.93,
+              "4": 0.02
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 1,
+            "probabilities": {
+              "none": 0,
+              "event_1": 1
+            }
+          }
+        },
+        "latencyMs": 148,
+        "usage": {
+          "input_tokens": 7296,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T09:02:39.236Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-6952780F1CD5"
+    },
+    {
+      "type": "removed_page",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-16T09:02:33.572Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/pages/g8oj3oqjz",
+      "pageType": "page",
+      "summary": "页面已从 Sitemap 移除，待确认页面状态",
+      "recordId": "SITE-7A088D36F260"
+    },
+    {
+      "type": "content_change",
+      "reviewStatus": "pending",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "discoveredAt": "2026-11-16T09:02:33.572Z",
+      "publishDate": "",
+      "url": "https://us.mammotion.com/",
+      "pageType": "homepage",
+      "changedFields": [
+        "cta",
+        "offer",
+        "body"
+      ],
+      "summary": "页面关键内容变化：cta、offer、body，待人工或 AI 二次确认",
+      "aiAssessment": {
+        "schemaVersion": "1.0",
+        "provider": "typesafe",
+        "capability": "system_one",
+        "mode": "shadow",
+        "status": "completed",
+        "modelRequested": "jev-latest",
+        "model": "jev-1.14.0",
+        "modelVersion": "jev-1.14.0",
+        "sdkVersion": "0.6.0",
+        "questionSetVersion": "page-change-v2",
+        "inputHash": "9b56dfd3e5d9ad2839db4f7d3f68fa6b57b7bb4e33436af9537b51ed93cdadda",
+        "answers": {
+          "meaningful_marketing_change": {
+            "type": "noul",
+            "noul": 0.97
+          },
+          "change_type": {
+            "type": "choice",
+            "choice": "promotion",
+            "confidence": 0.98,
+            "probabilities": {
+              "product_launch": 0,
+              "promotion": 0.98,
+              "price_change": 0.01,
+              "availability_change": 0,
+              "messaging_or_cta": 0.01,
+              "routine_content_refresh": 0,
+              "other": 0
+            }
+          },
+          "launch_stage": {
+            "type": "choice",
+            "choice": "not_launch_related",
+            "confidence": 0.9,
+            "probabilities": {
+              "not_launch_related": 0.92,
+              "weak_signal": 0.01,
+              "teaser": 0,
+              "announcement": 0,
+              "preorder": 0,
+              "on_sale": 0.07
+            }
+          },
+          "strategic_significance": {
+            "type": "score",
+            "score": 3,
+            "confidence": 0.96,
+            "legend": {
+              "0": "0 — noise or no marketing value",
+              "1": "1 — minor content maintenance",
+              "2": "2 — relevant but routine marketing change",
+              "3": "3 — important campaign, offer, positioning, or launch-stage change",
+              "4": "4 — major launch or high-impact market action requiring prompt review"
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 0.02,
+              "3": 0.95,
+              "4": 0.03
+            }
+          },
+          "event_relation": {
+            "type": "choice",
+            "choice": "event_1",
+            "confidence": 1,
+            "probabilities": {
+              "none": 0,
+              "event_1": 1
+            }
+          }
+        },
+        "latencyMs": 170,
+        "usage": {
+          "input_tokens": 5926,
+          "output_tokens": 215
+        },
+        "error": null,
+        "evaluatedAt": "2026-11-16T09:02:36.073Z"
+      },
+      "policyDecision": {
+        "policyVersion": "page-change-shadow-v1",
+        "mode": "shadow",
+        "route": "existing_manual_review_flow",
+        "behaviorChanged": false,
+        "reason": "TypeSafe result recorded for calibration only."
+      },
+      "recordId": "SITE-4A275290BAF5"
+    },
     {
       "type": "new_page",
       "reviewStatus": "pending",
@@ -1367,7 +1949,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-11T09:53:39.436Z",
+    "checkedAt": "2026-11-16T09:02:51.701Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1379,14 +1961,14 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-11T09:53:39.436Z",
+        "checkedAt": "2026-11-16T09:02:51.701Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-10-27T23:25:26-07:00",
         "changeCounts": {
           "added": 0,
-          "updated": 1
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1406,13 +1988,13 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-11T09:53:39.436Z",
+        "checkedAt": "2026-11-16T09:02:51.701Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-11-09T10:34:45+01:00",
+        "latestPublishedAt": "2026-11-16T09:17:19+01:00",
         "changeCounts": {
-          "added": 0,
+          "added": 1,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -1433,13 +2015,13 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-11T09:53:39.436Z",
+        "checkedAt": "2026-11-16T09:02:51.701Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-11-03T06:27:21+00:00",
+        "latestPublishedAt": "2026-11-16T08:36:03+00:00",
         "changeCounts": {
-          "added": 0,
+          "added": 4,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -1460,14 +2042,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-11T09:53:39.436Z",
+        "checkedAt": "2026-11-16T09:02:51.701Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-11-03T07:20:58+01:00",
+        "latestPublishedAt": "2026-11-13T07:04:02+01:00",
         "changeCounts": {
-          "added": 0,
-          "updated": 0
+          "added": 1,
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -1480,6 +2062,335 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-878638C71753",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
+        "publishDate": "2026-11-16T09:17:19+01:00",
+        "updatedAt": "2026-11-16T09:21:54+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Unkraut im Rasen erkennen und richtig behandeln: Erfahren Sie, warum Löwenzahn, Klee & Co. wachsen und wie Sie Unkraut vorbeugen. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "90c613f128d08e111d60ad21e4be2db7ba3d2ca2de3bf890101302b458d40cbb",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.25,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-62A3CA671063",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot Lawn Mower Edge Cutting: How It Works and What to Look For",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-edge-cutting",
+        "publishDate": "2026-11-16T08:36:03+00:00",
+        "updatedAt": "2026-11-16T08:37:28+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Does a robot lawn mower cut to edge? Compare designs for walls, fences and paths to find one that leaves less grass to trim by hand. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a4ce2d1dfb2d6c8071cb35a064757febfa1bd9578636a311222ef27dd5907aca",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ing height is independently adjustable. Mammotion LUBA 4 AWD (compatible models) Can substantially narrow the "
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "dge of the chassis trims the perimeter. Mammotion LUBA mini 2 AWD 1000 and LUBA mini 2 AWD 1500 ; selected Husqvarn"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.02,
+          "newProductConfidence": 0.96,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.89,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E7989E461BD8",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
+        "publishDate": "2026-11-13T09:33:43+00:00",
+        "updatedAt": "2026-11-13T09:36:39+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Find out why robot lawn mowers miss corners on L- and U-shaped lawns, and what to check for when choose a robot lawn mower for an irregularly shaped lawn. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "22b1be9de60e9ffce3a99ed82f79420b41a0ae2b798e473b7eb46552e321e604",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "n optional edge-trimming attachment for supported LUBA 4 AWD models can help reach grass beyond the main cutti"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.74,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-01C382B7C853",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
+        "publishDate": "2026-11-13T05:34:55+00:00",
+        "updatedAt": "2026-11-13T06:02:32+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "When is Black Friday and Cyber Monday 2026 in the UK? Compare tech deals, find gift ideas and explore Mammotion’s robot lawn mower sale. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "4f43acf1bfc046110f2db164ac2b4c03c678a8934c8c48ac36e67b4f1b5e24a7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 2.84,
+          "priorityConfidence": 0.87
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-CD2EAD7B07F0",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "What is a GPS robot lawn mower?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
+        "publishDate": "2026-11-12T06:40:13+00:00",
+        "updatedAt": "2026-11-12T06:40:13+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "See how a GPS robot lawn mower works without perimeter wire, compare four navigation set-ups and find out which one suits your garden. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "9f2a3c2c8ce1536870794ed105772ef3145f5dbd6681ab4fa1c35cf1e6ad5e01",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9F8A649F2AD0",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
+        "publishDate": "2026-11-13T07:04:02+01:00",
+        "updatedAt": "2026-11-13T07:05:39+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Découvrez les dates du Black Friday et du Cyber Monday 2026 en France. Comparez les offres high-tech, trouvez des idées cadeaux et découvrez les promos sur les robots tondeuses Mammotion. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "9822cf56f55b262c83d05b08c354cc0ea64649a6b0363475efa2110e096d40a7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 2.76,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-8FDE13666B74",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+        "publishDate": "2026-10-10T12:31:16+02:00",
+        "updatedAt": "2026-11-12T07:05:37+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "8caed8f089537ccb949764cd8712fe2e9993a650b366cabd3ba575afce6bf1ee",
+          "afterHash": "43a614d31865e98191ef5d3a2348e17f61b0352ff1ce6b38ab576d06a2a99b7e",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": "Plusieurs appareils sont présentés comme « GPS » sans être de véritables robots de ce type. Type d’appareil Rôle du GPS Fil périphérique Robot avec GPS antivol Localiser le robot en cas de vol Oui Robot avec navigation assistée par GPS Mémoriser les zones déjà tondues Oui Robot à caméra uniquement A",
+          "afterExcerpt": "Il convient toutefois de noter que certains robots équipés d'un GPS sur le marché n'utilisent cette fonction que pour le suivi antivol ou l'assistance à la navigation, tout en restant dépendants d'un fil périphérique. Ils ne doivent donc pas être confondus avec de véritables robots tondeuses GPS (sa"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.57,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-59CD5576EFB7",
         "sourceId": "mammotion-us-blog",
@@ -5517,6 +6428,335 @@
       }
     ],
     "pendingRecords": [
+      {
+        "recordId": "CH-878638C71753",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
+        "publishDate": "2026-11-16T09:17:19+01:00",
+        "updatedAt": "2026-11-16T09:21:54+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Unkraut im Rasen erkennen und richtig behandeln: Erfahren Sie, warum Löwenzahn, Klee & Co. wachsen und wie Sie Unkraut vorbeugen. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "90c613f128d08e111d60ad21e4be2db7ba3d2ca2de3bf890101302b458d40cbb",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.25,
+          "priorityConfidence": 0.74
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-62A3CA671063",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Robot Lawn Mower Edge Cutting: How It Works and What to Look For",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-edge-cutting",
+        "publishDate": "2026-11-16T08:36:03+00:00",
+        "updatedAt": "2026-11-16T08:37:28+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Does a robot lawn mower cut to edge? Compare designs for walls, fences and paths to find one that leaves less grass to trim by hand. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "a4ce2d1dfb2d6c8071cb35a064757febfa1bd9578636a311222ef27dd5907aca",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "ing height is independently adjustable. Mammotion LUBA 4 AWD (compatible models) Can substantially narrow the "
+          },
+          {
+            "name": "LUBA mini 2 AWD",
+            "source": "article_body",
+            "excerpt": "dge of the chassis trims the perimeter. Mammotion LUBA mini 2 AWD 1000 and LUBA mini 2 AWD 1500 ; selected Husqvarn"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0.02,
+          "newProductConfidence": 0.96,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.89,
+          "priorityConfidence": 0.84
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-E7989E461BD8",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "How to choose a robot lawn mower for an irregularly shaped lawn?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
+        "publishDate": "2026-11-13T09:33:43+00:00",
+        "updatedAt": "2026-11-13T09:36:39+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Find out why robot lawn mowers miss corners on L- and U-shaped lawns, and what to check for when choose a robot lawn mower for an irregularly shaped lawn. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "22b1be9de60e9ffce3a99ed82f79420b41a0ae2b798e473b7eb46552e321e604",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [
+          {
+            "name": "LUBA 4 AWD",
+            "source": "article_body",
+            "excerpt": "n optional edge-trimming attachment for supported LUBA 4 AWD models can help reach grass beyond the main cutti"
+          }
+        ],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.74,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-01C382B7C853",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
+        "publishDate": "2026-11-13T05:34:55+00:00",
+        "updatedAt": "2026-11-13T06:02:32+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "When is Black Friday and Cyber Monday 2026 in the UK? Compare tech deals, find gift ideas and explore Mammotion’s robot lawn mower sale. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "4f43acf1bfc046110f2db164ac2b4c03c678a8934c8c48ac36e67b4f1b5e24a7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 2.84,
+          "priorityConfidence": 0.87
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-CD2EAD7B07F0",
+        "sourceId": "mammotion-uk-blog",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "What is a GPS robot lawn mower?",
+        "sourceUrl": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
+        "publishDate": "2026-11-12T06:40:13+00:00",
+        "updatedAt": "2026-11-12T06:40:13+00:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "See how a GPS robot lawn mower works without perimeter wire, compare four navigation set-ups and find out which one suits your garden. More",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "9f2a3c2c8ce1536870794ed105772ef3145f5dbd6681ab4fa1c35cf1e6ad5e01",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.73
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-9F8A649F2AD0",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
+        "publishDate": "2026-11-13T07:04:02+01:00",
+        "updatedAt": "2026-11-13T07:05:39+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Découvrez les dates du Black Friday et du Cyber Monday 2026 en France. Comparez les offres high-tech, trouvez des idées cadeaux et découvrez les promos sur les robots tondeuses Mammotion. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "9822cf56f55b262c83d05b08c354cc0ea64649a6b0363475efa2110e096d40a7",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "promotion",
+          "themeConfidence": 0.99,
+          "monitoringPriority": 2.76,
+          "priorityConfidence": 0.81
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-8FDE13666B74",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Qu’est-ce qu’un robot tondeuse GPS ?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/qu-est-ce-qu-un-robot-tondeuse-gps",
+        "publishDate": "2026-10-10T12:31:16+02:00",
+        "updatedAt": "2026-11-12T07:05:37+01:00",
+        "discoveredAt": "2026-11-16T09:02:51.701Z",
+        "summary": "Robot tondeuse GPS sans fil périphérique : le guide complet Meta description : Tout savoir sur le robot tondeuse GPS sans fil périphérique : fonctionnement, 4 types, avantages, limites et jardins adaptés. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "8caed8f089537ccb949764cd8712fe2e9993a650b366cabd3ba575afce6bf1ee",
+          "afterHash": "43a614d31865e98191ef5d3a2348e17f61b0352ff1ce6b38ab576d06a2a99b7e",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": "Plusieurs appareils sont présentés comme « GPS » sans être de véritables robots de ce type. Type d’appareil Rôle du GPS Fil périphérique Robot avec GPS antivol Localiser le robot en cas de vol Oui Robot avec navigation assistée par GPS Mémoriser les zones déjà tondues Oui Robot à caméra uniquement A",
+          "afterExcerpt": "Il convient toutefois de noter que certains robots équipés d'un GPS sur le marché n'utilisent cette fonction que pour le suivi antivol ou l'assistance à la navigation, tout en restant dépendants d'un fil périphérique. Ils ne doivent donc pas être confondus avec de véritables robots tondeuses GPS (sa"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ]
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.57,
+          "priorityConfidence": 0.64
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-59CD5576EFB7",
         "sourceId": "mammotion-us-blog",

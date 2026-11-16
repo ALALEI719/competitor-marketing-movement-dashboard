@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-09T09:59:54.885Z",
+  "generatedAt": "2026-11-16T09:03:25.711Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -1679,6 +1679,101 @@
         }
       ],
       "entityId": "MAM-UNKNOWN-504F5625"
+    },
+    "f2a84698cef79808": {
+      "url": "https://fr.mammotion.com/blogs/news/quand-black-friday-cyber-monday",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T09:02:57.352Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T09:02:46.375Z",
+          "title": "Black Friday et Cyber Monday 2026 en France : quelles dates ?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-f2a84698cef79808-2026-11-16T09-02-57-352Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "aaa51172b08881fe": {
+      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-irregular-shaped-lawn-guide",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T09:03:03.983Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T09:02:40.208Z",
+          "title": "Robot Lawn Mower for an Irregularly Shaped Lawn Guide",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-aaa51172b08881fe-2026-11-16T09-03-03-983Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "095205622ac35443": {
+      "url": "https://uk.mammotion.com/blogs/news/what-is-gps-robot-lawn-mower",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T09:03:09.062Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T09:02:40.208Z",
+          "title": "What is a robot lawn mower with GPS?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-095205622ac35443-2026-11-16T09-03-09-062Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "632e69ac6281faee": {
+      "url": "https://uk.mammotion.com/blogs/news/when-is-black-friday-cyber-monday",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T09:03:13.995Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T09:02:40.208Z",
+          "title": "When Is Black Friday and Cyber Monday 2026 in the UK?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-632e69ac6281faee-2026-11-16T09-03-13-995Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "aa35fd3ce3f5818d": {
+      "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T09:03:18.984Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T09:02:36.643Z",
+          "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und Tipps",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-aa35fd3ce3f5818d-2026-11-16T09-03-18-984Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
     }
   }
 }
