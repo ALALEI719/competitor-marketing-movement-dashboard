@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T09:03:25.711Z",
+  "generatedAt": "2026-11-16T16:13:06.377Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -1769,6 +1769,139 @@
           "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und Tipps",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-aa35fd3ce3f5818d-2026-11-16T09-03-18-984Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "ec93c8c40316ec2a": {
+      "url": "https://de.mova.tech/blogs/top-auswahl/rasenroboter-fuer-kleine-flaechen",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T15:32:28.548Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-16T14:46:40.321Z",
+          "title": "Rasenroboter für kleine Flächen: Die 3 besten Modelle 2026",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-ec93c8c40316ec2a-2026-11-16T15-32-28-548Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "5911dce20ec54d7a": {
+      "url": "https://de.dreametech.com/collections/26-flash-sale",
+      "siteId": "dreame-de",
+      "brand": "Dreame",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T15:35:09.903Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T11:37:13.045Z",
+          "title": "1€ Flash Sale – Dreame Germany",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-de-5911dce20ec54d7a-2026-11-16T15-35-09-903Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "cc8fe021b4a89180": {
+      "url": "https://fr.dreametech.com/collections/bricolage-et-jardin",
+      "siteId": "dreame-fr",
+      "brand": "Dreame",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T15:37:33.714Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T12:42:16.946Z",
+          "title": "Bricolage et jardin – Dreame France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-fr-cc8fe021b4a89180-2026-11-16T15-37-33-714Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b04fba81d883cb7b": {
+      "url": "https://www.anker.com/de/collections/all-anker",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T16:12:50.031Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T14:48:40.521Z",
+          "title": "Alle Anker Produkte | Anker Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-b04fba81d883cb7b-2026-11-16T16-12-50-031Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "f45bb1ba6574ea1d": {
+      "url": "https://www.anker.com/de/collections/all-eufy",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T16:12:55.944Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T14:48:40.521Z",
+          "title": "eufy Innovationen: Praktische Lösungen für dein Smart Home",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-f45bb1ba6574ea1d-2026-11-16T16-12-55-944Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "220e4c92d46945d1": {
+      "url": "https://www.anker.com/de/collections/outdoor-security-cameras",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T16:13:00.206Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T14:48:40.521Z",
+          "title": "Überwachungskamera außen wetterfest | Anker eufy Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-220e4c92d46945d1-2026-11-16T16-13-00-206Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "1e836bdeb72e51d2": {
+      "url": "https://www.anker.com/de/collections/uberwachungskameras",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-16T16:13:03.074Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-16T14:48:40.521Z",
+          "title": "Überwachungskameras | Anker eufy Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-1e836bdeb72e51d2-2026-11-16T16-13-03-074Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-16T15:11:10.125Z",
+  "updatedAt": "2026-11-16T16:00:44.210Z",
   "actions": [
     {
       "changeType": "new_page",
@@ -43,6 +43,45 @@
     },
     {
       "changeType": "new_page",
+      "contentEvidence": {
+        "status": "new_content",
+        "beforeHash": "",
+        "afterHash": "922b83537863b97d2bd07b0e23a9e42b963369b7a70226424e244cc5bb40d4eb",
+        "changedFields": []
+      },
+      "updatedAt": "",
+      "actionId": "ACT-7E78676B9589",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mova-de",
+      "channel": "official_site",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T14:46:40.321Z",
+      "publishDate": "2026-11-16",
+      "title": "MOVA 德国发布小面积花园机器人割草机选型指南",
+      "summary": "德国官网11月16日文章围绕面积余量、狭窄通道、边缘修剪和无边界线导航，比较ViAX 250、ViAX 500与LiDAX Ultra 800，并按花园面积与布局提供选型建议。属于产品教育内容，参数与排名保留为发布者主张。源文发布时间相差1小时，按日记录。",
+      "marketingTheme": "product_education",
+      "contentType": "article",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mova.tech/blogs/top-auswahl/rasenroboter-fuer-kleine-flaechen"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-de",
+          "url": "https://de.mova.tech/blogs/top-auswahl/rasenroboter-fuer-kleine-flaechen",
+          "capturedAt": "2026-11-16T15:32:22.314Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T15:50:25.585Z"
+    },
+    {
+      "changeType": "new_page",
       "actionId": "ACT-CA6E3A5CA6F9",
       "entityId": "",
       "brand": "Dreame",
@@ -72,6 +111,38 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-16T12:35:30.833Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-3A704B74A029",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T11:37:13.045Z",
+      "publishDate": "",
+      "title": "Dreame 德国配件闪购含 A3 AWD Pro 装饰贴纸",
+      "summary": "德国官网1欧配件闪购包含A3 AWD Pro贴纸套装。规则要求同页配件至少5件享每件1欧，不可叠加优惠码或券，订单处理可能长达10天。页面标题标注2026、活动期11月16日至30日，原发日期未知。本页12款商品，另有7页列表边界。",
+      "marketingTheme": "promotion",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/collections/26-flash-sale"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/collections/26-flash-sale",
+          "capturedAt": "2026-11-16T15:35:03.083Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T15:57:48.817Z"
     },
     {
       "actionId": "ACT-0E7E697B8C8E",
