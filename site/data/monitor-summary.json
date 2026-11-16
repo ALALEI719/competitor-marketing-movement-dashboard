@@ -11,17 +11,17 @@
     "sites": 4,
     "healthySites": 4,
     "pages": 1129,
-    "pendingChanges": 42,
+    "pendingChanges": 38,
     "productCandidates": 1,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 78,
-    "pendingChannelChanges": 12,
+    "pendingChannelChanges": 10,
     "prSources": 19,
     "healthyPrSources": 15,
     "prChanges": 28,
-    "pendingPrChanges": 9
+    "pendingPrChanges": 4
   },
   "sites": [
     {
@@ -178,19 +178,6 @@
       "country": "法国",
       "discoveredAt": "2026-11-09T09:58:26.447Z",
       "publishDate": "",
-      "url": "https://fr.mammotion.com/blogs/news/guide-achat-black-friday",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-E9EC339B379F"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-fr",
-      "brand": "Mammotion",
-      "country": "法国",
-      "discoveredAt": "2026-11-09T09:58:26.447Z",
-      "publishDate": "",
       "url": "https://fr.mammotion.com/pages/bf77854693",
       "pageType": "page",
       "summary": "Sitemap 新增页面，待确认是否为营销动作",
@@ -302,32 +289,6 @@
         "reason": "TypeSafe result recorded for calibration only."
       },
       "recordId": "SITE-156F1C7F0861"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-09T09:58:23.279Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/how-to-clean-robot-lawn-mower",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-B66DC518C08E"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-09T09:58:23.279Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/mammotion-black-friday-buying-guide",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-ECC8FFFEB924"
     },
     {
       "type": "removed_page",
@@ -449,19 +410,6 @@
         "reason": "TypeSafe result recorded for calibration only."
       },
       "recordId": "SITE-FB5C5C285071"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-de",
-      "brand": "Mammotion",
-      "country": "德国",
-      "discoveredAt": "2026-11-09T09:58:20.608Z",
-      "publishDate": "",
-      "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "recordId": "SITE-34B984F295EB"
     },
     {
       "type": "content_change",
@@ -1675,7 +1623,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und der richtige Zeitpunkt",
         "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
         "publishDate": "2026-11-09T10:34:45+01:00",
@@ -1709,7 +1657,13 @@
           "monitoringPriority": 1.25,
           "priorityConfidence": 0.73
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T07:57:05.213Z",
+          "publicTitle": "Mammotion 德国发布秋季草坪养护指南",
+          "publicSummary": "德国官网博客于11月9日发布秋季草坪养护指南，介绍按气候和草坪状态调整割草、秋肥、落叶清理、补播和浇水，并提供季末维护清单。"
+        }
       },
       {
         "recordId": "CH-D0AC51222D5A",
@@ -1719,7 +1673,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "new_content",
-        "reviewStatus": "pending",
+        "reviewStatus": "approved",
         "title": "Rasenpflege im Frühjahr: Die richtige Reihenfolge für einen gesunden Rasen",
         "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
         "publishDate": "2026-11-06T10:57:20+01:00",
@@ -1753,7 +1707,13 @@
           "monitoringPriority": 1.58,
           "priorityConfidence": 0.64
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "not_related",
+          "marketingTheme": "product_education",
+          "reviewedAt": "2026-11-16T07:57:05.260Z",
+          "publicTitle": "Mammotion 德国发布春季草坪养护步骤指南",
+          "publicSummary": "德国官网博客于11月6日发布春季草坪养护指南，介绍清理检查、首次割草、施肥及按需梳草补播的安排，并提示依据土壤、天气和生长情况调整机器人割草机使用。"
+        }
       },
       {
         "recordId": "CH-9C87833EF3C8",
@@ -5693,94 +5653,6 @@
         "humanAssessment": null
       },
       {
-        "recordId": "CH-4EBFF50B32D9",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Rasenpflege im Herbst: Die wichtigsten Maßnahmen und der richtige Zeitpunkt",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
-        "publishDate": "2026-11-09T10:34:45+01:00",
-        "updatedAt": "2026-11-09T10:39:57+01:00",
-        "discoveredAt": "2026-11-09T09:58:29.903Z",
-        "summary": "Rasenpflege im Herbst: Erfahren Sie, wann Sie mähen, düngen, Laub entfernen, nachsäen und bewässern sollten, damit Ihr Rasen gut durch den Winter kommt. Mehr",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "bd998f399d88254aba79778722f8ae9fc3195fcfacacb4736e3b5670af980764",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.25,
-          "priorityConfidence": 0.73
-        },
-        "humanAssessment": null
-      },
-      {
-        "recordId": "CH-D0AC51222D5A",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "pending",
-        "title": "Rasenpflege im Frühjahr: Die richtige Reihenfolge für einen gesunden Rasen",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
-        "publishDate": "2026-11-06T10:57:20+01:00",
-        "updatedAt": "2026-11-06T11:09:46+01:00",
-        "discoveredAt": "2026-11-07T09:18:54.457Z",
-        "summary": "Wie gelingt die Rasenpflege im Frühjahr? Erfahren Sie, wann Sie mähen, düngen, vertikutieren und kahle Stellen nachsäen sollten. Mehr",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "69647bd4176d404fe2bba368f4a8d379db18c1575a6ee9b4072a74beacc83c67",
-          "changedFields": []
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "new_entry"
-          ]
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.58,
-          "priorityConfidence": 0.64
-        },
-        "humanAssessment": null
-      },
-      {
         "recordId": "CH-9C87833EF3C8",
         "sourceId": "mammotion-fr-blog",
         "brand": "Mammotion",
@@ -6742,7 +6614,7 @@
         "countryCode": "UK",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Anthbot N8 robot lawn mower review: Arguably the most versatile wireless robot mower on the market right now",
         "sourceUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
         "publishDate": "2026-10-26T08:00:00Z",
@@ -6791,7 +6663,7 @@
         "countryCode": "US",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Best robot lawnmowers of CES",
         "sourceUrl": "https://www.tomsguide.com/home/lawn-care/best-robot-lawnmowers-of-ces",
         "publishDate": "2026-01-08T12:30:00+00:00",
@@ -6845,7 +6717,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Kein Mähroboter nachts: Igel-Schutz bringt neue Regeln für den Rasen",
         "sourceUrl": "https://www.homeandsmart.de/igel-maehroboter-problematik-0045-140018",
         "publishDate": "2026-11-07T12:22:26+00:00",
@@ -6893,7 +6765,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Unsere Mähroboter-Tests zeigen: Darauf müssen Eltern achten",
         "sourceUrl": "https://www.homeandsmart.de/maehroboter-tests-eltern-tipps-0019-426322",
         "publishDate": "2026-11-08T15:22:01+00:00",
@@ -6941,7 +6813,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Mähroboter-Garage: Darum ist sie oft sinnvoller als gedacht",
         "sourceUrl": "https://www.homeandsmart.de/maehroboter-garage-sinnvoll-0023-973608",
         "publishDate": "2026-11-08T17:22:17+00:00",

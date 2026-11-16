@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-12T07:27:43.002Z",
+  "updatedAt": "2026-11-16T07:57:05.260Z",
   "actions": [
     {
       "changeType": "content_change",
@@ -46,6 +46,70 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-12T07:27:43.002Z"
+    },
+    {
+      "actionId": "ACT-DDF262932917",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-09T09:58:29.903Z",
+      "publishDate": "2026-11-09T10:34:45+01:00",
+      "title": "Mammotion 德国发布秋季草坪养护指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "德国官网博客于11月9日发布秋季草坪养护指南，介绍按气候和草坪状态调整割草、秋肥、落叶清理、补播和浇水，并提供季末维护清单。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-de-blog",
+          "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-herbst",
+          "discoveredAt": "2026-11-09T09:58:29.903Z",
+          "publishDate": "2026-11-09T10:34:45+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T07:57:05.213Z"
+    },
+    {
+      "actionId": "ACT-6A9F14C48659",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "mammotion-de-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-07T09:18:54.457Z",
+      "publishDate": "2026-11-06T10:57:20+01:00",
+      "title": "Mammotion 德国发布春季草坪养护步骤指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "德国官网博客于11月6日发布春季草坪养护指南，介绍清理检查、首次割草、施肥及按需梳草补播的安排，并提示依据土壤、天气和生长情况调整机器人割草机使用。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-de-blog",
+          "url": "https://de.mammotion.com/blogs/news/rasenpflege-im-fruehjahr",
+          "discoveredAt": "2026-11-07T09:18:54.457Z",
+          "publishDate": "2026-11-06T10:57:20+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T07:57:05.260Z"
     },
     {
       "actionId": "ACT-133B2D3C8263",
