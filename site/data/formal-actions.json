@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-16T11:31:58.648Z",
+  "updatedAt": "2026-11-16T12:35:30.833Z",
   "actions": [
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-CA6E3A5CA6F9",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "dreame-fr",
+      "channel": "official_site",
+      "actionType": "promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-16T11:37:23.437Z",
+      "publishDate": "",
+      "title": "Dreame 法国配件闪购含 A3 AWD Pro 装饰贴纸",
+      "summary": "官网配件闪购集合包含A3 AWD Pro装饰贴纸套装。规则为至少5件享每件1欧元，每单最多10件，超出部分按原价，部分配件可能约30天发货。页面标注活动期16/11–30/11，未明示年份，原发日期未知。贴纸商品卡展示22欧元及59.90欧元比较价。当前已核本页12项商品，集合分页共8页，其余分页未核。",
+      "marketingTheme": "promotion",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.dreametech.com/collections/offres-flash"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-fr",
+          "url": "https://fr.dreametech.com/collections/offres-flash",
+          "capturedAt": "2026-11-16T11:57:55.655Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-16T12:35:30.833Z"
+    },
     {
       "actionId": "ACT-0E7E697B8C8E",
       "entityId": "",
