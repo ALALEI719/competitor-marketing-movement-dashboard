@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T09:02:51.640Z",
+  "generatedAt": "2026-11-16T09:57:09.795Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -8,9 +8,9 @@
   ],
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
-    "sites": 4,
-    "healthySites": 4,
-    "pages": 1132,
+    "sites": 5,
+    "healthySites": 5,
+    "pages": 1151,
     "pendingChanges": 49,
     "productCandidates": 1,
     "channelSources": 4,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:02:33.572Z",
+      "checkedAt": "2026-11-16T09:56:24.637Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 323,
@@ -46,17 +46,17 @@
       },
       "changeCounts": {
         "added": 0,
-        "removed": 1,
-        "lastmodChanged": 72
+        "removed": 0,
+        "lastmodChanged": 0
       },
       "auditSignals": {
-        "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 72,
-        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
       },
       "contentInspection": {
-        "inspectedPages": 2,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -71,7 +71,7 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:02:36.643Z",
+      "checkedAt": "2026-11-16T09:56:27.034Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 291,
@@ -82,18 +82,18 @@
         "product": 84
       },
       "changeCounts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
-        "lastmodChanged": 103
+        "lastmodChanged": 0
       },
       "auditSignals": {
-        "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 103,
-        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
       },
       "contentInspection": {
-        "inspectedPages": 3,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -108,7 +108,7 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:02:40.208Z",
+      "checkedAt": "2026-11-16T09:56:29.605Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 216,
@@ -119,18 +119,18 @@
         "product": 67
       },
       "changeCounts": {
-        "added": 3,
+        "added": 0,
         "removed": 0,
-        "lastmodChanged": 88
+        "lastmodChanged": 0
       },
       "auditSignals": {
-        "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 88,
-        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
       },
       "contentInspection": {
-        "inspectedPages": 11,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -145,7 +145,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T09:02:46.375Z",
+      "checkedAt": "2026-11-16T09:56:31.780Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
@@ -156,18 +156,57 @@
         "product": 84
       },
       "changeCounts": {
-        "added": 1,
-        "removed": 1,
-        "lastmodChanged": 104
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
       },
       "auditSignals": {
-        "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 104,
-        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "note": ""
       },
       "contentInspection": {
-        "inspectedPages": 7,
-        "meaningfulChanges": 1,
+        "inspectedPages": 1,
+        "meaningfulChanges": 0,
+        "errors": [],
+        "deferredPages": 0
+      }
+    },
+    {
+      "site": {
+        "id": "ecovacs-us",
+        "brand": "Ecovacs",
+        "country": "美国",
+        "countryCode": "US",
+        "priority": "P1",
+        "siteUrl": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
+        "sitemapUrl": "https://www.ecovacs.com/us/sitemap.xml"
+      },
+      "checkedAt": "2026-11-16T09:56:34.631Z",
+      "status": "ok",
+      "baseline": false,
+      "pageCount": 19,
+      "breakdown": {
+        "collection": 3,
+        "bundle": 8,
+        "product": 8
+      },
+      "changeCounts": {
+        "added": 0,
+        "removed": 0,
+        "lastmodChanged": 0
+      },
+      "auditSignals": {
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 0,
+        "sourceScope": "official_us_goat_category_and_shop_only_not_full_us_sitemap",
+        "pageDiscovery": "bounded_official_goat_pages",
+        "fullInventoryPageCount": 19,
+        "note": ""
+      },
+      "contentInspection": {
+        "inspectedPages": 19,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -1949,7 +1988,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-16T09:02:51.701Z",
+    "checkedAt": "2026-11-16T09:57:09.869Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1961,7 +2000,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:02:51.701Z",
+        "checkedAt": "2026-11-16T09:57:09.869Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1988,13 +2027,13 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:02:51.701Z",
+        "checkedAt": "2026-11-16T09:57:09.869Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-16T09:17:19+01:00",
         "changeCounts": {
-          "added": 1,
+          "added": 0,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2015,13 +2054,13 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:02:51.701Z",
+        "checkedAt": "2026-11-16T09:57:09.869Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-16T08:36:03+00:00",
         "changeCounts": {
-          "added": 4,
+          "added": 0,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -2042,14 +2081,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T09:02:51.701Z",
+        "checkedAt": "2026-11-16T09:57:09.869Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-13T07:04:02+01:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 1
+          "added": 0,
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
