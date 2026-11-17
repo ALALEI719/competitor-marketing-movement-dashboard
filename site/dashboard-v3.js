@@ -217,7 +217,7 @@ export function renderTimelineV3({container,actions,calendar,period,brand,state,
       const title = grouped ? bucket.records.map(action => headline(action)).join('；') : headline(bucket.records[0]);
       const date = (bucket.day < g.from ? g.from : bucket.day).slice(5);
       const dateLabel = grain === 'week' ? `${date} — ${(bucket.to > g.to ? g.to : bucket.to).slice(5)}` : date;
-      const context = grouped ? `${dateLabel} · ${bucket.records.length} 条同类动作` : `${actionDateInfo(bucket.records[0]).day.slice(5)} · ${bucket.records[0].country} · ${channelNames[bucket.records[0].channel]}`;
+      const context = grouped ? `${dateLabel} · ${bucket.records.length} 条同类动作` : `${actionDateLabel(bucket.records[0])} · ${bucket.records[0].country} · ${channelNames[bucket.records[0].channel]}`;
       return `<div class="gantt-event ${grouped ? 'gantt-cluster' : ''} ${selected ? 'is-selected' : ''} action-type-${bucket.type.key} ${muted ? 'is-type-muted' : ''}" ${attribute} data-action-type="${bucket.type.key}" style="left:${bucket.x}px;top:${bucket.lane * rowHeight + 8}px">
         <button class="gantt-type-label" data-timeline-type="${bucket.type.key}" aria-pressed="${state.typeFocus === bucket.type.key}" aria-label="高亮所有${bucket.type.label}动作"><span class="type-label-name">${timelineTypeIcon(bucket.type.key)}${bucket.type.label}</span><span>${grouped ? bucket.records.length + ' 条' : '高亮同类'}</span></button>
         <button class="gantt-action-open" aria-label="${escape(grouped ? '展开同类动作：' + title : title)}"><strong>${escape(title)}</strong><small>${escape(context)}</small></button>
@@ -257,12 +257,24 @@ export function renderTimelineV3({container,actions,calendar,period,brand,state,
   unknownBox.querySelectorAll('[data-undated]').forEach(b=>b.onclick=()=>onAction(unknown.find(a=>a.actionId===b.dataset.undated)));
 }
 
-function actionButton(a){return `<button class="brief-action" data-card-action="${escape(a.actionId)}"><time>${escape(actionDateInfo(a).day.slice(5)||'日期待确认')}</time><span>${escape(headline(a))}<small>${escape(a.brand+' · '+a.country)}</small></span></button>`;}
+export function adDateDisclosure(action) {
+  if (action.channel !== 'google_search_ads') return '';
+  const firstShown = calendarDay(action.firstShownDate) || '待确认';
+  const lastShown = calendarDay(action.lastShownDate) || '待确认';
+  const creativeDate = calendarDay(action.launchDate) || '待确认';
+  return `平台首次展示 ${firstShown} · 平台最近展示 ${lastShown} · 当前文案上线日 ${creativeDate}`;
+}
+
+function actionButton(a){
+  const {day}=actionDateInfo(a);
+  const basis=actionDateLabel(a).replace(`${day} · `,'');
+  return `<button class="brief-action" data-card-action="${escape(a.actionId)}"><time>${escape(day.slice(5)||'日期待确认')}<small>${escape(day?basis:'')}</small></time><span>${escape(headline(a))}<small>${escape(a.brand+' · '+a.country)}</small></span></button>`;
+}
 export function renderCardsV3({container,actions,artworks,onAction,onChannel,all=false}){
   const groups=all?[{code:'all',records:actions}]:['edm','official_site','pr','social_ads','google_search_ads','video'].map(code=>({code,records:actions.filter(a=>code==='official_site'?['official_site','blog'].includes(a.channel):a.channel===code)})).filter(g=>g.records.length);
   container.innerHTML=groups.length?groups.map(group=>{
     const records=[...group.records].sort(actionDateOrder),featured=all?records:records.slice(0,1);
-    return featured.map(a=>{const image=safeArtwork(artworks.get(a.actionId));return `<article class="feature-card ${escape(a.channel)} ${image?'with-cover':'text-only'}"><div class="feature-kicker">${escape(a.brand+' · '+a.country)}<time>${escape(actionDateInfo(a).day||'日期待确认')}</time></div><h3><button data-card-action="${escape(a.actionId)}">${escape(headline(a))}</button></h3><div class="feature-body"><p>${escape(actionReading(a).lead)}</p><div class="action-tags"><span>${escape(channelNames[a.channel])}</span>${a.stage&&a.stage!=='not_launch_related'?`<span>${escape(stageText(a.stage))}</span>`:''}${a.dateBasis==='manual_record'?'<span class="manual-note">人工台账</span>':''}</div>${image?`<button class="feature-visual has-image" data-card-action="${escape(a.actionId)}" aria-label="查看 ${escape(headline(a))}"><img src="${escape(image)}" alt="${escape(a.brand+' 已留存的营销素材')}" loading="lazy"></button>`:''}${!all?records.slice(1,3).map(actionButton).join(''):''}<button class="card-footer" ${all?`data-card-action="${escape(a.actionId)}"`:`data-card-channel="${escape(a.channel)}"`}>${all?'查看详情与证据':`查看该渠道 ${records.length} 条动作`} <span>→</span></button></div></article>`;}).join('');
+    return featured.map(a=>{const image=safeArtwork(artworks.get(a.actionId));return `<article class="feature-card ${escape(a.channel)} ${image?'with-cover':'text-only'}"><div class="feature-kicker">${escape(a.brand+' · '+a.country)}<time>${escape(actionDateLabel(a))}</time></div><h3><button data-card-action="${escape(a.actionId)}">${escape(headline(a))}</button></h3>${adDateDisclosure(a)?`<p class="ad-date-disclosure">${escape(adDateDisclosure(a))}</p>`:''}<div class="feature-body"><p>${escape(actionReading(a).lead)}</p><div class="action-tags"><span>${escape(channelNames[a.channel])}</span>${a.stage&&a.stage!=='not_launch_related'?`<span>${escape(stageText(a.stage))}</span>`:''}${a.dateBasis==='manual_record'?'<span class="manual-note">人工台账</span>':''}</div>${image?`<button class="feature-visual has-image" data-card-action="${escape(a.actionId)}" aria-label="查看 ${escape(headline(a))}"><img src="${escape(image)}" alt="${escape(a.brand+' 已留存的营销素材')}" loading="lazy"></button>`:''}${!all?records.slice(1,3).map(actionButton).join(''):''}<button class="card-footer" ${all?`data-card-action="${escape(a.actionId)}"`:`data-card-channel="${escape(a.channel)}"`}>${all?'查看详情与证据':`查看该渠道 ${records.length} 条动作`} <span>→</span></button></div></article>`;}).join('');
   }).join(''):'<div class="timeline-empty">筛选后无已确认内容。尚未收录不代表没有营销活动。<button data-empty-clear="all">清除筛选，查看全部</button></div>';
   container.querySelectorAll('[data-card-action]').forEach(b=>b.onclick=()=>onAction(actions.find(a=>a.actionId===b.dataset.cardAction)));
   container.querySelectorAll('[data-card-channel]').forEach(b=>b.onclick=()=>onChannel(b.dataset.cardChannel));

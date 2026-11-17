@@ -158,3 +158,19 @@ html[data-theme="light"] code{color:var(--blue)}
 html[data-theme="light"] :is(#date-error,#inventory-error,.p0){color:#a33d45}
 html[data-theme="light"] :is(.p1,.p2,.p4){color:var(--muted)}
 html[data-theme="light"] :is(.date-presets button[aria-pressed=true],.date-bottom button,.primary){background:var(--green);color:#fff}
+
+/* Keep the date basis and platform display endpoints visible on action cards. */
+.feature-kicker {
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+.ad-date-disclosure,
+.recent-actions .ad-date-disclosure {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+.feature-card > .ad-date-disclosure {
+  margin: 0 20px 10px;
+}
