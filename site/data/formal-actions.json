@@ -1,7 +1,196 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T10:35:23.362892+00:00",
+  "updatedAt": "2026-11-17T11:06:16.977Z",
   "actions": [
+    {
+      "actionId": "ACT-32993724ADD2",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T10:53:14.696Z",
+      "publishDate": "",
+      "title": "MOVA 法国｜Google 透明度中心披露机器人割草机黑五搜索广告",
+      "summary": "2026年11月17日在Google官方广告透明度中心，以法国、Google搜索、文字广告及11月14–17日筛选核实该MOVA机器人割草机广告。当前完整预览宣传通过手机管理机器人割草，列出LiDAX Ultra 1200和LiDAX Ultra 800型号标签，标题宣称Black Friday减700欧元。平台披露该广告在法国首次展示为11月16日，最后展示为11月17日。Google验证的广告主SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED与MOVA法国官网页脚名称一致。具体优惠条件、变体总数和真实点击网址未披露，预览的Boutique Amazon标签及应用文字属于存档图内容。",
+      "creative": "Google法国搜索文字广告，完整留存当前一张Black Friday割草机器人预览及两条LiDAX型号标签。",
+      "copy": "Vous souhaitez gérer la tonte depuis votre téléphone ? Découvrez les robots MOVA. Envie de passer à la tonte robotisée ? Découvrez la gamme MOVA au Black Friday.",
+      "offer": "广告标题宣称Black Friday减700欧元，具体适用型号、基准价格、条件与实际优惠未核实。",
+      "cta": "MOVA LiDAX Ultra 1200、MOVA LiDAX Ultra 800",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR13469118363397521409?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "listing_scope",
+          "sha256": "0c1cf793e66923ea6c3130b1c476553afb9d8ff903ce03b57797a6f9e533c5b8",
+          "bytes": 5997,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T10:51:21.723Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_endpoints",
+          "sha256": "78ce7109d38e235aa7693d46f5fe8db7cf32c158c4fc54fdba87fdf10051627e",
+          "bytes": 16984,
+          "variantIndex": null,
+          "capturedAt": ""
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "inventory_identities",
+          "sha256": "cb5164cd1028ffe9d62b63dfd2feb24fdd57ec94cda6f0ba459d7fb082a25ec3",
+          "bytes": 28631,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T10:52:42.855Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR13469118363397521409?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_dates",
+          "sha256": "222386e01a267791ed4e0a77ad3aa6f187b65ecefc39bb8c1d5f8878510d30bb",
+          "bytes": 3408,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T10:53:14.696Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR13469118363397521409?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "3f6817211b8d5a68047d832f531316bdbda7fb0595914feb96a2b9abc5c48b48",
+          "bytes": 81677,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T10:53:14.696Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/5219735478312998541",
+          "kind": "platform_creative_image",
+          "sha256": "118e6501c3637381230a0620eb63283f4d5cce22c9a0ea9e4f3b3adf7f3a310b",
+          "bytes": 72266,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T10:56:26.172098+00:00"
+        },
+        {
+          "sourceId": "mova-official-site",
+          "url": "https://fr.mova.tech/",
+          "kind": "official_brand_model_and_legal_footer",
+          "sha256": "a9c23fe1089e018bdffd0c357e89e7420c3b12de38d7fb0d2e1855da5f63723a",
+          "bytes": 2128021,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T10:56:27.343697+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T11:06:16.977Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR13469118363397521409",
+      "sourceRecordIds": [
+        "CR13469118363397521409"
+      ],
+      "advertiserId": "AR07030260039281541121",
+      "creativeId": "CR13469118363397521409",
+      "advertiserName": "SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T10:53:14.696Z",
+      "firstObservedAt": "2026-11-17T10:53:14.696Z",
+      "firstShownDate": "2026-11-16",
+      "lastShownDate": "2026-11-17",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google法国范围首次展示为2026-11-16，最后展示为2026-11-17。当前预览于2026-11-17留存，预览独立上线时间与全球活动时间未知。",
+      "notificationEligible": true,
+      "notificationReason": "拟播范围限定Google官方披露该AR/CR于2026-11-16首次在法国展示，处于既有11月14日下限之后。当前预览独立上线、产品及全球活动上线时间未知。",
+      "verifiedDynamicDate": "2026-11-16",
+      "dynamicDateBasis": "google_country_first_shown",
+      "notificationClaimScope": "official platform country-scoped first showing of this ad identity",
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "MOVA Black Friday - Black Friday : -700 €",
+          "copy": "Vous souhaitez gérer la tonte depuis votre téléphone ? Découvrez les robots MOVA. Envie de passer à la tonte robotisée ? Découvrez la gamme MOVA au Black Friday.",
+          "cta": [
+            "MOVA LiDAX Ultra 1200",
+            "MOVA LiDAX Ultra 800"
+          ],
+          "offer": "Black Friday : -700 €",
+          "displayUrl": "",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T10:53:14.696Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR13469118363397521409?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "3f6817211b8d5a68047d832f531316bdbda7fb0595914feb96a2b9abc5c48b48",
+              "bytes": 81677,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T10:53:14.696Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/5219735478312998541",
+              "kind": "platform_creative_image",
+              "sha256": "118e6501c3637381230a0620eb63283f4d5cce22c9a0ea9e4f3b3adf7f3a310b",
+              "bytes": 72266,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T10:56:26.172098+00:00"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121?platform=SEARCH&region=FR&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "58f2240936807e30f8d47144d85fffbb40bfaa1cb1f80c1f5706a0153c1c351c",
+            "bytes": 11159,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T10:54:57.381Z"
+          },
+          {
+            "sourceId": "mova-official-site",
+            "url": "https://fr.mova.tech/",
+            "kind": "official_website_legal_entity",
+            "sha256": "a9c23fe1089e018bdffd0c357e89e7420c3b12de38d7fb0d2e1855da5f63723a",
+            "bytes": 2128021,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T10:56:27.343697+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-65D7F04EF51B",
       "entityId": "",

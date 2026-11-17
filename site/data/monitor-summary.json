@@ -18,10 +18,10 @@
     "channelItems": 120,
     "blogChanges": 92,
     "pendingChannelChanges": 2,
-    "prSources": 19,
-    "healthyPrSources": 14,
-    "prChanges": 37,
-    "pendingPrChanges": 1
+    "prSources": 20,
+    "healthyPrSources": 20,
+    "prChanges": 42,
+    "pendingPrChanges": 6
   },
   "sites": [
     {
@@ -8646,7 +8646,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-11-16T11:59:38.993Z",
+    "checkedAt": "2026-11-17T10:25:44.555Z",
     "sources": [
       {
         "source": {
@@ -8659,154 +8659,131 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 3623,
-        "pendingArticleCount": 931,
-        "fetchedCount": 100,
+        "discoveredUrlCount": 3691,
+        "pendingArticleCount": 909,
+        "fetchedCount": 99,
         "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
+        "retiredUntracked404": [
+          {
+            "url": "https://www.chip.de/deals/schnaeppchen/neues-e-suv-von-vw-im-leasing-so-guenstig-startet-der-vw-id-tiguan_3d8d9de0-edec-4dba-9116-f52a6bed3d49.html",
+            "httpStatus": 404,
+            "checkedAt": "2026-11-17T10:25:44.555Z"
+          }
+        ],
         "verifiedRedirects": [
           {
-            "from": "https://www.chip.de/news/software/giftige-chemikalien-in-produkten-kostenlose-app-warnt-nach-scan_e92df2f5-b6f7-4ecf-b506-b6bba7a03a34.html",
-            "to": "https://www.chip.de/news/software/diese-app-warnt-vor-schadstoffen-in-alltagsprodukten_e92df2f5-b6f7-4ecf-b506-b6bba7a03a34.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/haetten-sie-es-gewusst-wann-sie-beim-gruenen-pfeil-wirklich-abbiegen-duerfen_afe62324-06cd-45d5-a7f5-355313cd09cf.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/gruener-pfeil-an-der-ampel-wann-sie-wirklich-abbiegen-duerfen_afe62324-06cd-45d5-a7f5-355313cd09cf.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/hobby-freizeit/schulferien-2027-alle-termine-fuer-die-16-bundeslaender-im-ueberblick_a06877a7-09fd-4459-b341-47bc52b12d8d.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/schulferien-2027-alle-termine-fuer-die-16-bundeslaender-im-blick_a06877a7-09fd-4459-b341-47bc52b12d8d.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/ohne-mehrkosten-us-gigant-will-e-autos-20-prozent-mehr-reichweite-verpassen_49c5bef5-038c-4033-8d9c-f17a9d7ff425.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/gm-entwickelt-neue-e-auto-plattform-sie-soll-20-prozent-mehr-reichweite-ohne-mehrkosten-schaffen_49c5bef5-038c-4033-8d9c-f17a9d7ff425.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/ich-moechte-in-der-black-friday-zeit-etwas-kaufen-ohne-danach-vier-wochen-am-preis-zu-zweifeln_820f8d83-bc26-476a-97cb-2e9d65dcd5f4.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/ich-will-in-der-black-friday-zeit-etwas-kaufen-ohne-anschliessend-vier-wochen-am-preis-zu-zweifeln_820f8d83-bc26-476a-97cb-2e9d65dcd5f4.html",
+            "from": "https://www.chip.de/news/haushalt-garten/brennholz-diese-baeume-haben-im-kamin-nichts-verloren_448561fb-2ad2-4a9a-851a-3207b0dbcaaf.html",
+            "to": "https://www.chip.de/news/haushalt-garten/nicht-jedes-holz-brennt-gleich-gut-welche-baumarten-sich-fuer-den-kamin-wirklich-eignen_448561fb-2ad2-4a9a-851a-3207b0dbcaaf.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/geld-finanzen-recht/usa-verschaerfen-einreise-welche-erklaerung-flugreisende-ab-november-brauchen_413ef8a3-1592-4e33-98f6-59367581a18a.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/einreise-in-die-usa-neue-vorgabe-betrifft-auch-reisende-die-nur-umsteigen_413ef8a3-1592-4e33-98f6-59367581a18a.html",
+            "from": "https://www.chip.de/news/haushalt-garten/guenstiges-katzenfutter-ueberzeugt-bei-oeko-test-ein-bio-produkt-sogar-ungenuegend_a082076f-ebf2-4481-a082-8b1203950ae0.html",
+            "to": "https://www.chip.de/news/haushalt-garten/bio-katzenfutter-bekommt-die-schlechteste-note-discounter-futter-gewinnt-bei-oeko-test_a082076f-ebf2-4481-a082-8b1203950ae0.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/wer-diese-geheimzutat-ins-kochwasser-gibt-isst-moehren-nie-wieder-anders_7cb697d4-d499-49ac-a780-4e072f282da7.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/wer-diese-geheimzutat-ins-kochwasser-gibt-will-moehren-nie-wieder-anders-essen_7cb697d4-d499-49ac-a780-4e072f282da7.html",
+            "from": "https://www.chip.de/news/haushalt-garten/neues-muellsystem-fuer-millionen-haushalte-wer-sich-ab-2027-umstellen-muss_4ef530d0-53ef-42a0-9263-1230def19696.html",
+            "to": "https://www.chip.de/news/haushalt-garten/millionen-haushalte-muessen-sich-umstellen-in-deutscher-grossstadt-gelten-ab-2027-neue-muellregeln_4ef530d0-53ef-42a0-9263-1230def19696.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/geroestete-nuesse-aus-dem-airfryer-schmecken-bitter-dieser-temperatur-fehler-ist-schuld_3953fb7d-64f2-4e8a-a7e6-eb78474a41a2.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/diesen-airfryer-fehler-sollten-sie-vermeiden-wenn-sie-nuesse-roesten_3953fb7d-64f2-4e8a-a7e6-eb78474a41a2.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/warum-sie-lieber-zu-einer-anderen-apfelsorte-als-pink-lady-greifen-sollten_a19141c4-0b98-4adc-830b-c6afedac0743.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/warum-sie-im-supermarkt-nicht-immer-zur-pink-lady-greifen-sollten_a19141c4-0b98-4adc-830b-c6afedac0743.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/smartphones-black-friday-chip-kaufcheck_dd6bb761-a1c5-4b2f-84b8-15869f6141f6.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/smartphones-zum-black-friday-unsere-chip-tipps-fuer-lohnende-handy-schnaeppchen_dd6bb761-a1c5-4b2f-84b8-15869f6141f6.html",
+            "from": "https://www.chip.de/news/haushalt-garten/tieraufnahmen-in-top-qualitaet-diese-wildkamera-setzt-sich-im-test-durch_6d9ceb5d-4fb2-49c1-b689-851a72f0b881.html",
+            "to": "https://www.chip.de/news/haushalt-garten/diese-wildkamera-liefert-im-test-die-beste-bildqualitaet_6d9ceb5d-4fb2-49c1-b689-851a72f0b881.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/software/menue-springt-jetzt-schneller-auf-diesen-windows-klick-macht-jeder-nutzer-zigfach_9bfa7c20-300c-4916-ae1f-90bbbc883c09.html",
-            "to": "https://www.chip.de/news/software/nutzt-jeder-windows-nutzer-zigfach-das-aendert-sich-am-rechtsklick_9bfa7c20-300c-4916-ae1f-90bbbc883c09.html",
+            "from": "https://www.chip.de/news/hobby-freizeit/winterwandern-diese-simple-kleidungsregel-klingt-zunaechst-falsch_5c8fc738-621a-467c-a135-8c4f06150931.html",
+            "to": "https://www.chip.de/news/hobby-freizeit/wer-im-winter-zunaechst-froestelt-wandert-wahrscheinlich-besser_5c8fc738-621a-467c-a135-8c4f06150931.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/haushalt-garten/darum-ist-es-gefaehrlich-dieses-stueck-pappe-aus-der-mikrowelle-zu-nehmen_9667f51e-2d21-4d9c-b953-1edb73758853.html",
-            "to": "https://www.chip.de/news/haushalt-garten/v_9667f51e-2d21-4d9c-b953-1edb73758853.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/maronen-mit-honig-das-schmackhafte-herbst-rezept-ist-in-wenigen-minuten-fertig_46e4b1f1-9638-47d9-85a7-6249e5d4f0c0.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/maronen-mit-honig-dieses-schmackhafte-herbst-rezept-ist-in-wenigen-minuten-fertig_46e4b1f1-9638-47d9-85a7-6249e5d4f0c0.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/amazon-geraete-generalueberholt-im-check-neuware-war-teils-kaum-teurer_523a64ef-5fac-4ad8-91a0-04c8106bfe84.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/teilweise-nur-wenige-euro-mehr-fuer-neuware-amazons-generalueberholte-geraete-im-preischeck_523a64ef-5fac-4ad8-91a0-04c8106bfe84.html",
+            "from": "https://www.chip.de/news/haushalt-garten/reflektor-schirm-fuer-teeelichter-was-die-alufolie-bringen-soll_d4fe66ac-fe86-4e9f-a015-6a288c02ff32.html",
+            "to": "https://www.chip.de/news/haushalt-garten/teelicht-in-alufolie-wickeln-was-das-bringen-soll_d4fe66ac-fe86-4e9f-a015-6a288c02ff32.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/gesundheit-fitness/morgens-oder-abends-ruehrei-essen-diese-tageszeit-ist-laut-experten-am-gesuendesten_59752b5a-ccc3-43e8-af5c-7845e77d1d52.html",
-            "to": "https://www.chip.de/news/gesundheit-fitness/ruehrei-essen-besser-morgens-oder-abends-diese-tageszeit-ist-laut-experten-am-gesuendesten_59752b5a-ccc3-43e8-af5c-7845e77d1d52.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/sprit-wird-knapp-deutsches-nachbarland-prueft-tempolimit-von-80-km-h-auf-der-autobahn_437dbe94-b4f1-431d-a56a-dde734337058.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/sprit-wird-knapp-schweiz-erwaegt-tempo-80-auf-autobahnen_437dbe94-b4f1-431d-a56a-dde734337058.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/bambu-lab-startet-black-friday-3d-drucker-mit-top-bedienkomfort-werden-guenstiger_4c16f4e1-4e35-455f-8b7f-d06b3d53a7c9.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/bambu-lab-am-black-friday-gute-chance-fuer-den-3d-druck-einstieg_4c16f4e1-4e35-455f-8b7f-d06b3d53a7c9.html",
+            "from": "https://www.chip.de/news/geld-finanzen-recht/bis-30-november-handeln-so-bekommen-sie-monatlich-mehr-netto_e9e8fadb-1bf7-4067-bb27-0c85a4294f55.html",
+            "to": "https://www.chip.de/news/geld-finanzen-recht/30-november-ist-stichtag-so-holen-sie-sich-mehr-netto-aufs-gehalt_e9e8fadb-1bf7-4067-bb27-0c85a4294f55.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/bis-zu-320-euro-bussgeld-geplant-in-beliebtem-urlaubsland-sollen-autofahrer-motorraedern-weichen_731551d5-c97c-47db-8b33-7b19db19fb7e.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/vorrang-fuer-motorraeder-in-italien-muessen-autofahrer-ihnen-bald-platz-machen_731551d5-c97c-47db-8b33-7b19db19fb7e.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/diese-drei-fehler-wuerden-italiener-bei-tomate-mozzarella-nie-machen_b5072cf6-4410-45aa-b035-1ac76ecde074.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/italiener-wuerden-das-nie-machen-tv-koechin-verraet-drei-fehler-die-tomate-mozzarella-ruinieren_b5072cf6-4410-45aa-b035-1ac76ecde074.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/neues-audi-patent-elektroautos-sollen-funken-spruehen_09a6f8da-14bd-4bf0-a25c-200df5160527.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/ganz-ohne-verbrenner-elektroautos-von-audi-koennten-bald-funken-spruehen_09a6f8da-14bd-4bf0-a25c-200df5160527.html",
+            "from": "https://www.chip.de/news/forschung-wissen/mit-hitze-kuehlen-deutsche-forscher-entwickeln-klimaanlage-ohne-strom-und-kaeltemittel_f99a960d-f960-444a-addd-1f8f77c8440b.html",
+            "to": "https://www.chip.de/news/forschung-wissen/besondere-klimaanlage-braucht-kein-kaeltemittel-sie-kuehlt-mit-waerme_f99a960d-f960-444a-addd-1f8f77c8440b.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/amazon-echo-time-dieser-wecker-soll-erkennen-wann-sie-leichter-aufwachen_e98f7dc6-ef4a-4acf-afae-c2fd6b02e89c.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/amazons-smarter-wecker-kostet-jetzt-55-euro-weniger-und-soll-den-richtigen-moment-zum-klingeln-finden_e98f7dc6-ef4a-4acf-afae-c2fd6b02e89c.html",
+            "from": "https://www.chip.de/news/geld-finanzen-recht/neue-eu-regeln-fuer-bargeld-wo-ab-3-000-euro-schon-ausweispflicht-besteht_f9b68757-ebf6-4d95-9ab8-c30645fb4943.html",
+            "to": "https://www.chip.de/news/geld-finanzen-recht/neue-bargeldregeln-fuer-2027-wo-ab-3-000-euro-schon-ausweispflicht-besteht_f9b68757-ebf6-4d95-9ab8-c30645fb4943.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/hobby-freizeit/am-flughafen-etwas-vergessen-so-teuer-wird-es-wenn-sie-es-zurueckhaben-wollen_041250da-12ce-46a8-8cd4-2b250961e984.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/etwas-am-flughafen-liegen-lassen-so-teuer-kann-die-rueckgabe-werden_041250da-12ce-46a8-8cd4-2b250961e984.html",
+            "from": "https://www.chip.de/news/gesundheit-fitness/tabakerhitzer-sind-nicht-harmlos-philip-morris-im-interview_7a4b37c7-bceb-4863-9acc-35196f75e04a.html",
+            "to": "https://www.chip.de/news/gesundheit-fitness/philip-morris-im-interview-tabakerhitzer-sind-nicht-harmlos_7a4b37c7-bceb-4863-9acc-35196f75e04a.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/gesundheit-fitness/so-lueften-sie-bei-erkaeltung-richtig-auf-zwei-dinge-kommt-es-an_ff6d2660-c879-4462-8045-235563e14add.html",
-            "to": "https://www.chip.de/news/gesundheit-fitness/auf-zwei-dinge-kommt-es-an-so-lueften-sie-bei-erkaeltung-richtig_ff6d2660-c879-4462-8045-235563e14add.html",
+            "from": "https://www.chip.de/news/business/alleine-schaffen-sie-es-nicht-kleine-stadtwerke-werden-energiewende-nicht-ueberleben_5fc33d14-cb5f-4d6e-ad48-3a58f2467fe2.html",
+            "to": "https://www.chip.de/news/business/wandel-wie-bei-der-sparkasse-viele-deutsche-stadtwerke-stehen-vor-dem-aus_5fc33d14-cb5f-4d6e-ad48-3a58f2467fe2.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/zelda-finale-fuers-regal-lego-set-aktuell-fuer-rund-100-euro_d02d2a54-f77f-42b2-858b-9e75f74cc913.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/zelda-endkampf-aus-lego-ist-jetzt-so-guenstig-wie-noch-nie_d02d2a54-f77f-42b2-858b-9e75f74cc913.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/porsche-designchef-ki-wird-dieses-standardteil-in-autos-vielleicht-komplett-ersetzen_0f260d39-19eb-4790-9021-6d3419a8ab07.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/ki-statt-display-porsche-manager-glaubt-an-wandel-im-auto_0f260d39-19eb-4790-9021-6d3419a8ab07.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/handy/das-beste-handy-unter-300-euro-top-empfehlung-des-chip-testcenters_eb1b4b91-2159-4ae9-997f-0cfe63693a7b.html",
-            "to": "https://www.chip.de/news/handy/top-empfehlung-aus-dem-chip-testcenter-das-beste-handy-unter-300-euro_eb1b4b91-2159-4ae9-997f-0cfe63693a7b.html",
+            "from": "https://www.chip.de/news/cyber-security/wenn-der-patientenservice-anruft-wird-es-brenzlig_2162e024-50b7-4af6-8e8f-82fd414e7911.html",
+            "to": "https://www.chip.de/news/cyber-security/eigentlich-koennen-sie-dieser-nummer-vertrauen-ausser-sie-ruft-bei-ihnen-an_2162e024-50b7-4af6-8e8f-82fd414e7911.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/neue-airpods-5-etwa-10-prozent-guenstiger-was-ihnen-im-alltag-trotzdem-fehlen-koennte_366883b3-33bd-4732-a8c1-11389a6f347d.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/neue-airpods-5-rund-10-prozent-guenstiger-im-alltag-koenne-ihnen-aber-eine-funktion-fehlen_366883b3-33bd-4732-a8c1-11389a6f347d.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/der-beste-supermarkt-kaffee-aldi-macht-das-rennen_643b38e4-5cab-49ca-b777-b71a6f9d976f.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/supermarkt-kaffee-im-test-aldi-produkt-wird-testsieger_643b38e4-5cab-49ca-b777-b71a6f9d976f.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/kaffee-aus-frischen-bohnen-de-longhis-magnifica-s-fuer-239-euro_ef092ad6-a284-4b96-9172-621797d44a25.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/kaffee-aus-frischen-bohnen-de-longhis-magnifica-s-kostet-ab-239-euro_ef092ad6-a284-4b96-9172-621797d44a25.html",
+            "from": "https://www.chip.de/news/apple/apple-macbook-pro-m6-routiniertes-powerupgrade-mit-kleinen-extras_e30a1249-8511-46b1-a154-95bdd2d25039.html",
+            "to": "https://www.chip.de/news/pc-mac-zubehoer/apple-macbook-pro-m6-routiniertes-powerupgrade-mit-kleinen-extras_e30a1249-8511-46b1-a154-95bdd2d25039.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/geld-finanzen-recht/netto-gehalt-2027-rausfinden-neuer-brutto-netto-rechner-zeigt-was-auf-dem-konto-landet_c51d364c-ce8a-495c-b784-1056ca49a3d9.html",
-            "to": "https://www.chip.de/news/geld-finanzen-recht/was-bleibt-2027-vom-gehalt-uebrig-neuer-rechner-macht-den-check_c51d364c-ce8a-495c-b784-1056ca49a3d9.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/deals/schnaeppchen/bosch-geraete-black-friday-rabatt_7832af85-9e57-4ce1-90c3-c7614da8e3f9.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/bosch-geraete-guenstiger-20-prozent-nachlass-vor-dem-black-friday_7832af85-9e57-4ce1-90c3-c7614da8e3f9.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/hobby-freizeit/die-liebsten-erinnerungen-so-huebsch-wie-nie-der-beste-digitale-bilderrahmen_7cb83d5c-6c2f-40fb-8e3a-1375e584e2c0.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/digitale-bilderrahmen-dieser-testsieger-landet-auf-platz-1_7cb83d5c-6c2f-40fb-8e3a-1375e584e2c0.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/deals/schnaeppchen/rabatt-vor-dem-november-start-neues-apple-tv-gibt-s-schon-guenstiger_d4847c47-25b7-4f03-b2fe-7ae7bd792626.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/rabatt-vor-dem-start-neues-apple-tv-gibt-s-schon-guenstiger_d4847c47-25b7-4f03-b2fe-7ae7bd792626.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/deals/schnaeppchen/cyberport-deals-black-friday-black-cyberdeals_84dd5df8-82eb-467c-a1ec-17e605466cbe.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/cyberport-vor-dem-black-friday-wir-checken-was-sich-hier-lohnt_84dd5df8-82eb-467c-a1ec-17e605466cbe.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/tv-streaming-sound/mehrere-tv-sender-betroffen-dieses-angebot-endet-anfang-2027_94146bce-c883-4c5c-8070-15d9ec38d27c.html",
-            "to": "https://www.chip.de/news/tv-streaming-sound/prosiebensat-1-was-anfang-2027-nach-ueber-30-jahren-ausgeschaltet-wird_94146bce-c883-4c5c-8070-15d9ec38d27c.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/forschung-wissen/alles-gescheitert-darum-sind-blaue-leds-lange-zeit-undenkbar-gewesen_4860e3af-2da2-4c96-af1e-a81d816d58b1.html",
-            "to": "https://www.chip.de/news/forschung-wissen/blaue-leds-waren-lange-zeit-technisch-undenkbar-ein-japanischer-forscher-hat-nicht-aufgegeben_4860e3af-2da2-4c96-af1e-a81d816d58b1.html",
+            "from": "https://www.chip.de/news/haushalt-garten/telekom-ersetzt-alte-telefonanschluesse-so-geht-es-fuer-kunden-weiter_4f1e8bb9-0dea-4084-aea9-da96deea8a5e.html",
+            "to": "https://www.chip.de/news/haushalt-garten/telekom-ersetzt-alte-telefonanschluesse-wie-betroffene-viel-geld-sparen-koennen_4f1e8bb9-0dea-4084-aea9-da96deea8a5e.html",
             "httpStatus": 301
           }
         ]
@@ -8822,7 +8799,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -8844,7 +8821,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -8866,13 +8843,13 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 348,
         "pendingArticleCount": 0,
-        "fetchedCount": 7,
+        "fetchedCount": 3,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -8888,13 +8865,13 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 5,
         "pendingArticleCount": 0,
-        "fetchedCount": 3,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -8910,13 +8887,13 @@
           "channel": "pr",
           "url": "https://www.tomsguide.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 18,
         "pendingArticleCount": 0,
-        "fetchedCount": 4,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -8932,13 +8909,13 @@
           "channel": "pr",
           "url": "https://www.techradar.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
-        "itemCount": 1,
-        "discoveredUrlCount": 117,
+        "itemCount": 2,
+        "discoveredUrlCount": 120,
         "pendingArticleCount": 0,
-        "fetchedCount": 18,
+        "fetchedCount": 4,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "discoveryScopesBootstrapped": [],
@@ -8955,7 +8932,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -8977,7 +8954,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -8999,14 +8976,54 @@
           "channel": "pr",
           "url": "https://www.appgefahren.de/wp-json/wp/v2/posts"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
-        "status": "error",
-        "error": "This operation was aborted",
-        "requestUrl": "https://www.appgefahren.de/apple-veroeffentlicht-ios-27-2-mit-diesen-neuerungen-407429.html",
-        "httpStatus": null,
-        "redirectTarget": null,
-        "failurePhase": "request",
-        "itemCount": 1
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 300,
+        "pendingArticleCount": 40,
+        "fetchedCount": 100,
+        "bulkLastmodIgnored": true,
+        "historicalSeedsBootstrapped": [],
+        "metadataDiscovery": {
+          "version": "appgefahren_public_posts_v1",
+          "feedUrl": "https://www.appgefahren.de/wp-json/wp/v2/posts",
+          "initializedAt": "2026-11-09T12:04:15.138Z",
+          "snapshotAt": "2026-11-17T10:25:44.555Z",
+          "pages": 3,
+          "publishedWindowOldest": "2026-10-20T17:50:19.000Z",
+          "publishedWindowNewest": "2026-11-17T10:20:26Z",
+          "historicalMemberships": [],
+          "protectedPosts": [],
+          "legacySitemapBridge": {
+            "previousStateSemanticSha256": "1e97d9d6e973fa11d115b7c6a49e7982ca4ad417ce94fd6b0a5836b72b06eadc",
+            "previousCheckedAt": "2026-10-26T09:19:50.355Z",
+            "retainedSeenUrls": 1709,
+            "olderUrlsSilentlyBootstrapped": 0
+          },
+          "pagesRead": [
+            {
+              "url": "https://www.appgefahren.de/wp-json/wp/v2/posts?per_page=100&page=1&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ccontent.protected&orderby=date&order=desc",
+              "items": 100,
+              "responseSha256": "05c3fa81cbd12c2a3b756e2fd43df30e279a40aa16ad3883adf50afba75409a1",
+              "responseBytes": 25932
+            },
+            {
+              "url": "https://www.appgefahren.de/wp-json/wp/v2/posts?per_page=100&page=2&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ccontent.protected&orderby=date&order=desc",
+              "items": 100,
+              "responseSha256": "8f20645afb907f949c0b128b89fec963bae831cd0d303eed71de52aee6206beb",
+              "responseBytes": 26409
+            },
+            {
+              "url": "https://www.appgefahren.de/wp-json/wp/v2/posts?per_page=100&page=3&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ccontent.protected&orderby=date&order=desc",
+              "items": 100,
+              "responseSha256": "cdaa8450c6197c0c610cc7f1215591c8f080c342b0fb08fad1572690ce3deb96",
+              "responseBytes": 26284
+            }
+          ],
+          "scopeBaselineUrlCount": 0
+        },
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -9019,29 +9036,169 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
-        "discoveredUrlCount": 1282,
-        "pendingArticleCount": 129,
+        "discoveredUrlCount": 1287,
+        "pendingArticleCount": 8,
         "fetchedCount": 100,
         "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": [
           {
-            "from": "https://www.homeandsmart.de/igel-maehroboter-problematik-0045-140018",
-            "to": "https://www.homeandsmart.de/igel-maehroboter-problematik-0046-140018",
+            "from": "https://www.homeandsmart.de/kabellose-fensterputzroboter-test-2026-neue-generation-2059-014767",
+            "to": "https://www.homeandsmart.de/high-tech-fensterputzroboter-test-2026-zukunft-check-2060-014767",
             "httpStatus": 301
           },
           {
-            "from": "https://www.homeandsmart.de/maehroboter-tests-eltern-tipps-0019-426322",
-            "to": "https://www.homeandsmart.de/maehroboter-kinder-garten-sicherheit-0023-426322",
+            "from": "https://www.homeandsmart.de/tsun-ceo-andy-liu-interview-balkonkraftwerk-heimspeicher-541160",
+            "to": "https://www.homeandsmart.de/tsun-interview-balkonkraftwerk-speicher-nachruesten-0001-541160",
             "httpStatus": 301
           },
           {
-            "from": "https://www.homeandsmart.de/maehroboter-garage-sinnvoll-0023-973608",
-            "to": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0030-973608",
+            "from": "https://www.homeandsmart.de/ninja-crispi-pro-test-0035-006882",
+            "to": "https://www.homeandsmart.de/ninja-crispi-pro-glas-airfryer-test-0036-006882",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/solix-3-oder-solarflow-800-wer-ist-besser-0068-073257",
+            "to": "https://www.homeandsmart.de/solix-3-versus-zendure-solarflow-800-pro-0069-073257",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/solix-3-kamof-mit-nexa-2000-0027-066361",
+            "to": "https://www.homeandsmart.de/anker-solix-3-vs-growatt-nexa-2000-speicher-duell-0028-066361",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/gas-teurer-ohne-frist-kuendigen-230785m-0000-901605",
+            "to": "https://www.homeandsmart.de/gasversorger-preiserhoehung-werbung-getarnt-fiese-masche-230785m-0004-901605",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/einbrueche-dunkle-jahreszeit-ueberwachungskamera-erlaubt-0000-975709",
+            "to": "https://www.homeandsmart.de/ueberwachungskamera-gehweg-datenschutz-aerger-0004-975709",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/rebike-black-month-rabatte-230785m-0001-258590",
+            "to": "https://www.homeandsmart.de/rebike-black-month-rabatte-230785m-0005-258590",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/smartes-heizkoerperthermostat-kaufen-230785m-0000-513664",
+            "to": "https://www.homeandsmart.de/smarte-thermostate-vier-fragen-230785m-0004-513664",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/black-month-deal-2026-2000-watt-balkonkraftwerk-mit-solix-4-pro-9005-100351",
+            "to": "https://www.homeandsmart.de/strom-verschenken-leisten-kann-black-month-deal-balkonkraftwerk-mit-speicher-9009-100351",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/sharkninja-angebote-november-2026-code-0002-810047",
+            "to": "https://www.homeandsmart.de/sharkninja-black-weeks-2026-rabatt-0006-810047",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/top-solakon-balkonkraftwerke-black-month-0004-836853",
+            "to": "https://www.homeandsmart.de/solakon-black-month-0012-836853",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/dyson-spot-scrub-ai-test-saugroboter-elite-vergleich-0033-006330",
+            "to": "https://www.homeandsmart.de/dyson-spot-scrub-ai-test-schwaeche-ecken-debuet-0034-006330",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/solakon-onpower-plus-4000-watt-lohnt-sich-0004-772946",
+            "to": "https://www.homeandsmart.de/solaranlage-4000-watt-solakon-black-friday-0012-772946",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/ab-dieser-woche-wird-es-vor-dem-feierabend-dunkel-und-viele-wohnungen-sehen-dann-unbewohnt-aus-40192a-0008-006595",
+            "to": "https://www.homeandsmart.de/einbruchzeit-16-bis-20-uhr-anwesenheit-simulieren-40192a-0009-006595",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/geniale-anti-stromfresser-gadgets-0042-059012",
+            "to": "https://www.homeandsmart.de/guenstige-gadgets-stromfresser-entlarven-0043-059012",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/balkonkraftwerk-speicher-testsieger-870-euro-guenstiger-0005-544479",
+            "to": "https://www.homeandsmart.de/kleines-kraftwerk-quattro-xl-anker-solix-4-pro-deal-0012-544479",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/feldtest-balkonkraftwerk-kleines-kraftwerk-duo-xl-angebot-0005-902154",
+            "to": "https://www.homeandsmart.de/kleines-kraftwerk-duo-xl-1000-watt-deal-299-euro-0013-902154",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/krups-ea8155-lidl-preischeck-230785m-0004-012101",
+            "to": "https://www.homeandsmart.de/lidl-krups-kaffeevollautomat-230785m-0005-012101",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/anker-solix-4-pro-vs-zendure-2400-pro-stromspeicher-duell-0088-055087",
+            "to": "https://www.homeandsmart.de/anker-solix-4-pro-zendure-2400-pro-ueberraschender-sieger-0089-055087",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/saugroboter-mit-beutel-oder-beutellos-allergiker-vergleich-0040-096930",
+            "to": "https://www.homeandsmart.de/saugroboter-beutel-vs-beutellos-guenstiger-saugt-staerker-0041-096930",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/mova-v70-vs-dreame-x60-haertestes-saugroboter-duell-2026-0075-046082",
+            "to": "https://www.homeandsmart.de/mova-v70-x60-gleiche-testnote-guenstigerer-gewinnt-0076-046082",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/staubsauger-allergiker-test-vergleich-0039-015143",
+            "to": "https://www.homeandsmart.de/staubsauger-allergiker-teufelskreis-durchbrechen-0040-015143",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/1200w-balkonkraftwerk-erlaubt-2026-ratgeber-was-ist-erlaubt-0021-016003",
+            "to": "https://www.homeandsmart.de/1200w-balkonkraftwerk-erlaubt-2026-ratgeber-was-ist-erlaubt-0022-016003",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/eeg-2027-vier-voraussetzungen-wichtig-fuer-solaranlagen-0029-092143",
+            "to": "https://www.homeandsmart.de/eeg-2027-solaranlage-einspeisung-reduziert-0030-092143",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/delonghi-kaffeevollautomat-vs-siebtraeger-mediamarkt-angebot-493725",
+            "to": "https://www.homeandsmart.de/delonghi-kaffeevollautomat-vs-siebtraeger-mediamarkt-angebot-0000-493725",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/anker-solix-4-600-euro-zu-viel-0001-859095",
+            "to": "https://www.homeandsmart.de/anker-solix-3-statt-4-600-euro-sparen-0003-859095",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/indevolt-black-friday-balkonkraftwerk-speicher-0000-608532",
+            "to": "https://www.homeandsmart.de/indevolt-black-friday-sale-speicher-sets-0001-608532",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/balkonkraftwerk-speicher-preisgarantie-black-friday-4-sets-0001-735480",
+            "to": "https://www.homeandsmart.de/balkonkraftwerk-speicher-groesse-verbrauch-entscheidungsmatrix-0002-735480",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/balkonkraftwerk-speicher-black-weeks-bis-720-euro-guenstiger-0001-233490",
+            "to": "https://www.homeandsmart.de/balkonkraftwerk-set-speicher-black-weeks-vergleich-yuma-0002-233490",
+            "httpStatus": 301
+          },
+          {
+            "from": "https://www.homeandsmart.de/maehroboter-garage-regen-sonne-0030-973608",
+            "to": "https://www.homeandsmart.de/beste-maehroboter-garagen-0031-973608",
             "httpStatus": 301
           }
         ]
@@ -9057,13 +9214,16 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
-        "status": "error",
-        "error": "PR expansion article identity or editorial body mismatch",
-        "requestUrl": "https://www.idealhome.co.uk/garden/garden-tools/greenworks-24v-cordless-lawn-mower-review",
-        "httpStatus": null,
-        "redirectTarget": null,
-        "itemCount": 1
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 83,
+        "pendingArticleCount": 0,
+        "fetchedCount": 38,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -9076,13 +9236,13 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 1398,
+        "discoveredUrlCount": 1399,
         "pendingArticleCount": 0,
-        "fetchedCount": 62,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9098,12 +9258,12 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
-        "discoveredUrlCount": 3916,
-        "pendingArticleCount": 337,
+        "discoveredUrlCount": 3946,
+        "pendingArticleCount": 269,
         "fetchedCount": 100,
         "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
@@ -9120,13 +9280,16 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
-        "status": "error",
-        "error": "ifun article identity, language, original dateline or editorial body mismatch",
-        "requestUrl": "",
-        "httpStatus": null,
-        "redirectTarget": null,
-        "itemCount": 1
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 1,
+        "discoveredUrlCount": 1998,
+        "pendingArticleCount": 0,
+        "fetchedCount": 58,
+        "bulkLastmodIgnored": true,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -9139,13 +9302,13 @@
           "channel": "pr",
           "url": "https://www.homesandgardens.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
-        "discoveredUrlCount": 135,
+        "discoveredUrlCount": 138,
         "pendingArticleCount": 0,
-        "fetchedCount": 23,
+        "fetchedCount": 4,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9168,13 +9331,13 @@
           "channel": "pr",
           "url": "https://www.androidcentral.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
+        "checkedAt": "2026-11-17T10:25:44.555Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
-        "discoveredUrlCount": 202,
-        "pendingArticleCount": 15,
-        "fetchedCount": 40,
+        "discoveredUrlCount": 210,
+        "pendingArticleCount": 0,
+        "fetchedCount": 24,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9197,13 +9360,36 @@
           "channel": "pr",
           "url": "https://www.capital.fr/sitemap/articles.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
-        "status": "error",
-        "error": "Capital visible and structured full editorial bodies disagree",
-        "requestUrl": "",
-        "httpStatus": null,
-        "redirectTarget": null,
-        "itemCount": 0
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 0,
+        "discoveredUrlCount": 85,
+        "pendingArticleCount": 1,
+        "fetchedCount": 53,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "heldRestrictedArticles": [
+          {
+            "url": "https://www.capital.fr/conso/instinct-nous-avons-teste-lagent-ia-qui-trie-les-mails-depuis-whatsapp-1531570",
+            "title": "IA : nous avons testé Instinct, l’assistant qui promet de tout faire à notre place",
+            "publishDate": "2026-11-05T13:00:00+00:00",
+            "htmlSha256": "cbd71907a4527b82fe22a1182d85032e02310613aeaaa0e86be726ff6ceda3d9",
+            "observedAt": "2026-11-17T10:25:44.555Z",
+            "status": "publisher_restricted_unread"
+          }
+        ],
+        "restrictedArticleCount": 1,
+        "discoveryCheckpoint": {
+          "version": "capital_numbered_v1",
+          "scope": "FR_conso_public_articles",
+          "cursorPage": 554,
+          "highestSeenPage": 554,
+          "pendingShardCount": 0,
+          "discoveryWindowStartPage": 551,
+          "discoveryWindowEndPage": 554
+        },
+        "verifiedRedirects": []
       },
       {
         "source": {
@@ -9223,16 +9409,313 @@
           "channel": "pr",
           "url": "https://www.mein-schoener-garten.de/article/sitemap.xml"
         },
-        "checkedAt": "2026-11-16T11:59:38.993Z",
-        "status": "error",
-        "error": "Garten editorial template changed; verify unsupported content before collection: ParagraphDownload",
-        "requestUrl": "https://www.mein-schoener-garten.de/gartenpraxis/ziergaerten/stauden-teilen-so-gehts-richtig-6931",
-        "httpStatus": null,
-        "redirectTarget": null,
-        "itemCount": 0
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": false,
+        "itemCount": 0,
+        "discoveredUrlCount": 1941,
+        "pendingArticleCount": 0,
+        "fetchedCount": 54,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-turfbusiness-media",
+          "sourceType": "media",
+          "outlet": "Turf Business",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://turfbusiness.co.uk/wp-sitemap.xml"
+        },
+        "checkedAt": "2026-11-17T10:25:44.555Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 0,
+        "discoveredUrlCount": 2630,
+        "pendingArticleCount": 0,
+        "fetchedCount": 0,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "discoveryCheckpoint": {
+          "version": "turfbusiness_posts_v1",
+          "sourceId": "pr-uk-turfbusiness-media",
+          "scope": "UK_news_canonical_two_shard_window",
+          "highestCommittedShard": 5,
+          "highestObservedShard": 5,
+          "selectedShards": [
+            4,
+            5
+          ],
+          "pendingShards": []
+        },
+        "verifiedRedirects": []
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-09836B014D59",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mammotion unveils its latest LUBA robot mower – and it's coming for those missed edges",
+        "sourceUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+        "publishDate": "2026-09-03T11:55:00+00:00",
+        "discoveredAt": "2026-11-17T10:25:44.555Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "event"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/mammotion-unveils-its-latest-luba-robot-mower-and-its-coming-for-those-missed-edges",
+          "capturedAt": "2026-11-17T10:25:44.555Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-09-03T11:55:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-09-03T11:55:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-09-03T11:55:00Z"
+            }
+          ],
+          "contentHash": "305309c9cd155f5e7ddd1ec84053ad8276af3efbda1cf8bf6d7d4a42d6cb44d6",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-1C8D860F4CE7",
+        "sourceId": "pr-uk-t3-mammotion",
+        "sourceType": "media",
+        "outlet": "T3",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Anthbot N8 robot lawn mower review: Arguably the most versatile wireless robot mower on the market right now",
+        "sourceUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+        "publishDate": "2026-10-26T08:00:00Z",
+        "discoveredAt": "2026-11-17T10:25:44.555Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.t3.com/sitemap.xml",
+          "articleUrl": "https://www.t3.com/home-living/garden/anthbot-n8-robot-lawn-mower-review",
+          "capturedAt": "2026-11-17T10:25:44.555Z",
+          "sourceType": "media",
+          "outlet": "T3",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "h1",
+          "dateSource": "meta.published_time",
+          "dateCandidates": [
+            {
+              "source": "meta.published_time",
+              "value": "2026-10-26T08:00:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-10-26T08:00:00Z"
+            }
+          ],
+          "contentHash": "d830a20210524f7e1ba7c4cbd35f7aabb1962055942021a452c4b87f9b4649a9",
+          "bodySource": "div.article-body"
+        }
+      },
+      {
+        "recordId": "PR-DE788BEA1F79",
+        "sourceId": "pr-uk-techradar-mammotion",
+        "sourceType": "media",
+        "outlet": "TechRadar",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "new_coverage",
+        "reviewStatus": "pending",
+        "title": "With the RockMow Z120 LiDAR robot lawn mower, Roborock adds another string to its already ample bow",
+        "sourceUrl": "https://www.techradar.com/home/smart-home/roborock-rockmow-z120-lidar-review",
+        "publishDate": "2026-11-17T10:25:44Z",
+        "discoveredAt": "2026-11-17T10:25:44.555Z",
+        "themeAssessment": {
+          "tags": [
+            "product_launch",
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.techradar.com/sitemap.xml",
+          "articleUrl": "https://www.techradar.com/home/smart-home/roborock-rockmow-z120-lidar-review",
+          "capturedAt": "2026-11-17T10:25:44.555Z",
+          "sourceType": "media",
+          "outlet": "TechRadar",
+          "countryBasis": "publisher_market",
+          "publisherEdition": "GB",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "h1",
+          "dateSource": "meta.published_time",
+          "dateCandidates": [
+            {
+              "source": "meta.published_time",
+              "value": "2026-11-17T10:25:44Z"
+            }
+          ],
+          "contentHash": "e4c8ad2b6359a8e08977d02399cb6744a68b46ecd068587535cc707b846ca484",
+          "bodySource": "div.article-body",
+          "discoveryFeedUrl": "https://www.techradar.com/sitemap.xml"
+        }
+      },
+      {
+        "recordId": "PR-DD9D7EFEE42D",
+        "sourceId": "pr-de-homeandsmart-mammotion",
+        "sourceType": "media",
+        "outlet": "Home and Smart",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Mähroboter-Garage Test 2026: Die besten Modelle, auch für GPS",
+        "sourceUrl": "https://www.homeandsmart.de/beste-maehroboter-garagen-0031-973608",
+        "publishDate": "2026-11-16T17:22:24+00:00",
+        "discoveredAt": "2026-11-17T10:25:44.555Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/beste-maehroboter-garagen-0031-973608",
+          "capturedAt": "2026-11-17T10:25:44.555Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-11-16T17:22:24+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-16T18:22:24+01:00"
+            }
+          ],
+          "contentHash": "e55597fba8c098bb3ef1400871b783bb78a8d05bca0f26aee53746672e16db50",
+          "bodySource": "homeandsmart_article_v1"
+        }
+      },
+      {
+        "recordId": "PR-47CBB7357326",
+        "sourceId": "pr-uk-idealhome-mammotion",
+        "sourceType": "media",
+        "outlet": "Ideal Home",
+        "brand": "Mammotion",
+        "country": "英国",
+        "countryCode": "UK",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "I never thought robot lawn mowers were worth the hype, but these 4 smart machines convinced me they're ideal for busy gardeners – and easy to set up",
+        "sourceUrl": "https://www.idealhome.co.uk/garden/garden-tools/best-robot-lawn-mowers",
+        "publishDate": "",
+        "discoveredAt": "2026-11-17T10:25:44.555Z",
+        "themeAssessment": {
+          "tags": [
+            "review",
+            "promotion"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.idealhome.co.uk/sitemap.xml",
+          "articleUrl": "https://www.idealhome.co.uk/garden/garden-tools/best-robot-lawn-mowers",
+          "capturedAt": "2026-11-17T10:25:44.555Z",
+          "sourceType": "media",
+          "outlet": "Ideal Home",
+          "countryBasis": "publisher_market",
+          "publisherEdition": "GB",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "conflict",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-04-02T15:00:00+00:00"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-04-02T15:00:00Z"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-06-17T16:54:14Z"
+            }
+          ],
+          "contentHash": "4ca8caecf9c6ca8d9473c59b93a88ed7687fec589ba9a9695802eea9c87791b5",
+          "bodySource": "idealhome_article_v1"
+        }
+      },
       {
         "recordId": "PR-5E2DB5A62C9F",
         "sourceId": "pr-uk-t3-mammotion",
