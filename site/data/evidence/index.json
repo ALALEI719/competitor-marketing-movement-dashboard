@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T16:13:06.377Z",
+  "generatedAt": "2026-11-17T03:52:38.116Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -1902,6 +1902,44 @@
           "title": "Überwachungskameras | Anker eufy Deutschland",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-1e836bdeb72e51d2-2026-11-16T16-13-03-074Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "9a51a1df19648405": {
+      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-edge-cutting",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-17T03:52:25.670Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-17T03:04:15.487Z",
+          "title": "Robot Lawn Mower Edge Cutting: How to Get a Cleaner Finish",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-9a51a1df19648405-2026-11-17T03-52-25-670Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "eb34893e8c37b055": {
+      "url": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-17T03:52:32.571Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-17T03:04:12.565Z",
+          "title": "Unkraut im Rasen: Erkennen, entfernen & vorbeugen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T03-52-32-571Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

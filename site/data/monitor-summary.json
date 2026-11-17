@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T16:12:42.417Z",
+  "generatedAt": "2026-11-17T04:46:08.118Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -9,8 +9,8 @@
   "note": "首次运行只建立基线；lastmod 变化进入待复核，不直接视为营销动作。",
   "totals": {
     "sites": 13,
-    "healthySites": 13,
-    "pages": 10148,
+    "healthySites": 11,
+    "pages": 10151,
     "pendingChanges": 0,
     "productCandidates": 0,
     "channelSources": 4,
@@ -34,7 +34,7 @@
         "siteUrl": "https://us.mammotion.com/",
         "sitemapUrl": "https://us.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:45:59.474Z",
+      "checkedAt": "2026-11-17T04:40:05.605Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 323,
@@ -71,24 +71,24 @@
         "siteUrl": "https://de.mammotion.com/",
         "sitemapUrl": "https://de.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:46:01.679Z",
+      "checkedAt": "2026-11-17T04:40:08.805Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 291,
+      "pageCount": 292,
       "breakdown": {
         "page": 37,
         "collection": 16,
-        "blog": 154,
+        "blog": 155,
         "product": 84
       },
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 98
+        "lastmodChanged": 85
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 98,
+        "lastmodPagesNeedingContentCheck": 85,
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
@@ -108,14 +108,14 @@
         "siteUrl": "https://uk.mammotion.com/",
         "sitemapUrl": "https://uk.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:46:03.868Z",
+      "checkedAt": "2026-11-17T04:40:11.691Z",
       "status": "ok",
       "baseline": false,
-      "pageCount": 216,
+      "pageCount": 217,
       "breakdown": {
         "page": 40,
         "collection": 17,
-        "blog": 92,
+        "blog": 93,
         "product": 67
       },
       "changeCounts": {
@@ -145,7 +145,7 @@
         "siteUrl": "https://fr.mammotion.com/",
         "sitemapUrl": "https://fr.mammotion.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:46:05.965Z",
+      "checkedAt": "2026-11-17T04:40:14.551Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 302,
@@ -182,7 +182,7 @@
         "siteUrl": "https://us.mova.tech/collections/robotic-lawn-mower",
         "sitemapUrl": "https://us.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T15:15:45.244Z",
+      "checkedAt": "2026-11-17T04:40:17.995Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 443,
@@ -195,11 +195,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 159
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 159,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "xmlDocuments": [
@@ -217,9 +217,9 @@
           },
           {
             "url": "https://us.mova.tech/sitemap_products_1.xml?from=8611732324588&to=15551888031980",
-            "sha256": "2eb227835123d4d444322ab6d085fe7972aa838ac21bd0adacf71cd1fb6a07b1",
+            "sha256": "cb75dbf99589f406351add07d926b8542c3a029fbf7a334dba22dce08a428741",
             "bytes": 73728,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-us/2eb227835123d4d444322ab6d085fe7972aa838ac21bd0adacf71cd1fb6a07b1.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-us/cb75dbf99589f406351add07d926b8542c3a029fbf7a334dba22dce08a428741.xml"
           },
           {
             "url": "https://us.mova.tech/sitemap_pages_1.xml?from=112017932524&to=164550967532",
@@ -246,246 +246,366 @@
             "rawEvidencePath": ".site-private/full-sitemap-xml/mova-us/7771c68b270474166f259accf01c5648475b81ab4ce05b26321f0b575ccbc32c.xml"
           }
         ],
-        "backfillPendingOnly": true,
-        "inventoryCheckedAt": "2026-11-16T14:46:08.105Z",
-        "inventorySource": "prior_signed_state",
+        "backfillPendingOnly": false,
+        "inventoryCheckedAt": "2026-11-17T04:40:17.995Z",
+        "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43888920453",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43888920453-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
             "disposition": "baseline_only",
             "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/mova-week-sale-exclusive-rewards-flash-deals-bundles-mova-us",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "eead33d17e97f40550a650fc35e01f8413f814c48c6a83db58a7b60adcca4c41",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/eead33d17e97f40550a650fc35e01f8413f814c48c6a83db58a7b60adcca4c41.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
+            "url": "https://us.mova.tech/products/mova-charging-station-3a-for-lidax-ultra",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "245a6658270609392e79d7976cc140b6f1c24b1bdd50d971ca36ea3b9aba2628",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/245a6658270609392e79d7976cc140b6f1c24b1bdd50d971ca36ea3b9aba2628.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-AEBEEAA935AA4043"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/news-mova-modric-with-masterful-precision-sweep-across-the-boundaries-of-life",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "a1b1705e63e1b59c2e754848f62f60334fe939f44e5ff8b171d1e7cc714d1269",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a1b1705e63e1b59c2e754848f62f60334fe939f44e5ff8b171d1e7cc714d1269.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-5D5CEE5573BFEDCE"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/official-rules",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "9f77e0d76daab60778a108a6765b770f153c1b75d619cd808e91e04b36c1d23b",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/9f77e0d76daab60778a108a6765b770f153c1b75d619cd808e91e04b36c1d23b.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-100E28F9DBA6C5DA"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/refer-a-friend",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "d6198f76214393a5615d1051972225d8a691e460af0a7ac8513d3c84de9f753a",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/d6198f76214393a5615d1051972225d8a691e460af0a7ac8513d3c84de9f753a.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-198AF0A314D259AC"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/try-now-pay-after-program-official-rules",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "0f31e1b56c794a51bb72fe4af50a9e28771533b75978411f622456422cb3777e",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/0f31e1b56c794a51bb72fe4af50a9e28771533b75978411f622456422cb3777e.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-F96237A427377839"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/us-mova-week-official-rules",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "5cc1b1d1b4d5f63bd247e0623723a4e7d97fda58b0410c3b8c43134f908a6cb4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/5cc1b1d1b4d5f63bd247e0623723a4e7d97fda58b0410c3b8c43134f908a6cb4.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-12F5950459D0C461"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://us.mova.tech/pages/user-manuals",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "a82729ff2e9906f790a3967f950d90f6a1e8a5211680f613bf9b482f92dad612",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a82729ff2e9906f790a3967f950d90f6a1e8a5211680f613bf9b482f92dad612.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
-              "attempt": "1",
-              "name": "site-private-43894151165-1"
-            },
-            "classificationReviewId": "SCR-F8A99D649141593F"
+              "name": "site-private-44018596210-1"
+            }
           },
           {
             "disposition": "baseline_only",
             "reason": "no_comparable_previous_page_body",
             "url": "https://us.mova.tech/products/mova-battery-5ah",
             "pageType": "product",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "5a23649a55d5bc263615a5b0a3d631a1f2a3c925305c2b3824ad45cadbda32e8",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/5a23649a55d5bc263615a5b0a3d631a1f2a3c925305c2b3824ad45cadbda32e8.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "6a9f69a11c8ca9b2400e24b2dc066fb1679469b1e3885c88eb2a5813bd80e85a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/6a9f69a11c8ca9b2400e24b2dc066fb1679469b1e3885c88eb2a5813bd80e85a.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43894151165-1"
+              "name": "site-private-44018596210-1"
             },
             "classificationReviewId": "SCR-B2FCFE3C420DBF8A"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-brush-roller-for-k30",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "3da5a1a8e940787c971ec9960318db48fd6762057c889d0cf5865dcefb0d44ea",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/3da5a1a8e940787c971ec9960318db48fd6762057c889d0cf5865dcefb0d44ea.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-6828F068656EEA6E"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-brush-roller-for-x4-pro",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "0220a3e1b2ad199ff66e0e02f7e13456bf0e958cd805644166a70105bfc00117",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/0220a3e1b2ad199ff66e0e02f7e13456bf0e958cd805644166a70105bfc00117.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-020FBA464996C570"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-brush-roller-multi-surface-floor-cleaner",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "6a1c1bff5cd8d521c1389a9935ad9a897197e19f0061829978c580b5ecb7cf43",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/6a1c1bff5cd8d521c1389a9935ad9a897197e19f0061829978c580b5ecb7cf43.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-2D27DFF969A33744"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-cat-litter-pad-for-lb10-prime",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "11161fdadf0ead999ae0eb0bfd140733f1f52e030c5d06c8d2db8553af74f370",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/11161fdadf0ead999ae0eb0bfd140733f1f52e030c5d06c8d2db8553af74f370.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-3F459D3A6F013ED1"
           },
           {
             "disposition": "baseline_only",
             "reason": "no_comparable_previous_page_body",
             "url": "https://us.mova.tech/products/mova-cleaning-brush",
             "pageType": "product",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "320ae5a71c5ec532143ba61f5a77acb93216653e6c46d47a57e57e17d3e59127",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/320ae5a71c5ec532143ba61f5a77acb93216653e6c46d47a57e57e17d3e59127.html",
-            "checkedAt": "2026-11-16T15:15:45.244Z",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "de40fa9c9dbaeaec4cc12e9fa24de8b8f4290f87c97e0b7fc1fdc578f5ba0b16",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/de40fa9c9dbaeaec4cc12e9fa24de8b8f4290f87c97e0b7fc1fdc578f5ba0b16.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43894151165",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43894151165-1"
+              "name": "site-private-44018596210-1"
             },
             "classificationReviewId": "SCR-BFB20480E510192B"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-cordless-stick-vacuum-s1-detect",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "23c80937b3b316948cf86a1e2364025a2d67822439797aed0f12ade835277b58",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/23c80937b3b316948cf86a1e2364025a2d67822439797aed0f12ade835277b58.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-56B90B6F4AA3839B"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-detangling-brush",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "3ace5c799acc6dde49514879cba3b742f41d224acdbf12afda856a165431f911",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/3ace5c799acc6dde49514879cba3b742f41d224acdbf12afda856a165431f911.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-BB4326BA43EA45C3"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-diver-a10-robotic-pool-cleaner-live-only",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "57844862fc9a386fde1129666dbf45a7b2a635e866930fceb00f836a3af06133",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/57844862fc9a386fde1129666dbf45a7b2a635e866930fceb00f836a3af06133.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-dust-box-filter",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "34f5e190b5d4408c755825401b4d5c8ee372c4dbdfd766eef43eb4ae8c8f3f5b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/34f5e190b5d4408c755825401b4d5c8ee372c4dbdfd766eef43eb4ae8c8f3f5b.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-9046D4A7FD98E987"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-dust-box-filter-for-s10-s20ultra-e30pro-e30proplus-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "75a77b0b5cb95e04143285fbec5b4220d10c84b4c8f429dd56fb45b04834b247",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/75a77b0b5cb95e04143285fbec5b4220d10c84b4c8f429dd56fb45b04834b247.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-dust-collection-bag-3-2l-roller-mop",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2a346d0d31c3edb76b3d8bc1fad5431eac806be02a2c4e1c5d819d779d5778b0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/2a346d0d31c3edb76b3d8bc1fad5431eac806be02a2c4e1c5d819d779d5778b0.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-E2A3530B559D9EB8"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-dust-collection-bag-3-2l-side-brush",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "dcbdf62421e52ff9fd0d39608afc83ac7e0274011811de2c9a38df7386595d41",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/dcbdf62421e52ff9fd0d39608afc83ac7e0274011811de2c9a38df7386595d41.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-F89BEB845B449342"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-e30-pro-plus-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e5e2b87d401c12a6122bef219fee5f3a19c608b8df5b01cc27ca5c54408e1dc7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/e5e2b87d401c12a6122bef219fee5f3a19c608b8df5b01cc27ca5c54408e1dc7.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-e30-pro-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "0fa36fd850613b17a92c41f9010a7364a3014ea04846bc3ba65a521107d85759",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/0fa36fd850613b17a92c41f9010a7364a3014ea04846bc3ba65a521107d85759.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-e40-ultra-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b38810cb8783bb16af78e1c0316df91876689350ea1b850d9bf17e55f64391af",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/b38810cb8783bb16af78e1c0316df91876689350ea1b850d9bf17e55f64391af.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://us.mova.tech/products/mova-e40-ultra-robot-vacuum-live-only",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "a7f4e19efed88dfb74b544d17cb46bd44b5475ff2f2816b7742ae8d644241a1c",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a7f4e19efed88dfb74b544d17cb46bd44b5475ff2f2816b7742ae8d644241a1c.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://us.mova.tech/products/mova-electric-toothbrush-fresh-pro",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "60563933396bbe6fe446b56f3722b7cb0b0fc48503b5bdbaa6ed99753505d546",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/60563933396bbe6fe446b56f3722b7cb0b0fc48503b5bdbaa6ed99753505d546.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://us.mova.tech/products/mova-filter-for-m10-m50-ultra",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "05102edf358020cbc166ede786a4263ea6eb698ff701a7c42a5b6c31a7713bfc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/05102edf358020cbc166ede786a4263ea6eb698ff701a7c42a5b6c31a7713bfc.html",
+            "checkedAt": "2026-11-17T04:40:17.995Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-19186944C0FA569D"
           }
         ],
         "pendingContentCount": 0,
         "pendingRemovedCount": 0,
-        "heldContentCount": 57,
-        "classificationHeldCount": 57,
+        "heldContentCount": 58,
+        "classificationHeldCount": 58,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 0,
+        "bulkLastmodSampleCount": 20,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43894151165",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43894151165-1"
+          "name": "site-private-44018596210-1"
         },
-        "note": "",
-        "backfillRounds": [
-          {
-            "round": 1,
-            "checkedAt": "2026-11-16T15:15:45.244Z",
-            "inspected": 9,
-            "pendingBefore": 9,
-            "pendingAfter": 0,
-            "status": "ok",
-            "errors": 0,
-            "htmlOriginals": [
-              {
-                "url": "https://us.mova.tech/pages/mova-week-sale-exclusive-rewards-flash-deals-bundles-mova-us",
-                "sha256": "eead33d17e97f40550a650fc35e01f8413f814c48c6a83db58a7b60adcca4c41",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/eead33d17e97f40550a650fc35e01f8413f814c48c6a83db58a7b60adcca4c41.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/news-mova-modric-with-masterful-precision-sweep-across-the-boundaries-of-life",
-                "sha256": "a1b1705e63e1b59c2e754848f62f60334fe939f44e5ff8b171d1e7cc714d1269",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a1b1705e63e1b59c2e754848f62f60334fe939f44e5ff8b171d1e7cc714d1269.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/official-rules",
-                "sha256": "9f77e0d76daab60778a108a6765b770f153c1b75d619cd808e91e04b36c1d23b",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/9f77e0d76daab60778a108a6765b770f153c1b75d619cd808e91e04b36c1d23b.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/refer-a-friend",
-                "sha256": "d6198f76214393a5615d1051972225d8a691e460af0a7ac8513d3c84de9f753a",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/d6198f76214393a5615d1051972225d8a691e460af0a7ac8513d3c84de9f753a.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/try-now-pay-after-program-official-rules",
-                "sha256": "0f31e1b56c794a51bb72fe4af50a9e28771533b75978411f622456422cb3777e",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/0f31e1b56c794a51bb72fe4af50a9e28771533b75978411f622456422cb3777e.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/us-mova-week-official-rules",
-                "sha256": "5cc1b1d1b4d5f63bd247e0623723a4e7d97fda58b0410c3b8c43134f908a6cb4",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/5cc1b1d1b4d5f63bd247e0623723a4e7d97fda58b0410c3b8c43134f908a6cb4.html"
-              },
-              {
-                "url": "https://us.mova.tech/pages/user-manuals",
-                "sha256": "a82729ff2e9906f790a3967f950d90f6a1e8a5211680f613bf9b482f92dad612",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/a82729ff2e9906f790a3967f950d90f6a1e8a5211680f613bf9b482f92dad612.html"
-              },
-              {
-                "url": "https://us.mova.tech/products/mova-battery-5ah",
-                "sha256": "5a23649a55d5bc263615a5b0a3d631a1f2a3c925305c2b3824ad45cadbda32e8",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/5a23649a55d5bc263615a5b0a3d631a1f2a3c925305c2b3824ad45cadbda32e8.html"
-              },
-              {
-                "url": "https://us.mova.tech/products/mova-cleaning-brush",
-                "sha256": "320ae5a71c5ec532143ba61f5a77acb93216653e6c46d47a57e57e17d3e59127",
-                "rawEvidencePath": ".site-private/full-sitemap-html/mova-us/320ae5a71c5ec532143ba61f5a77acb93216653e6c46d47a57e57e17d3e59127.html"
-              }
-            ]
-          }
-        ],
-        "backfillStopReason": "queue_empty"
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 9,
+        "inspectedPages": 20,
         "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
@@ -501,7 +621,7 @@
         "siteUrl": "https://de.mova.tech/collections/robot-lawn-mower",
         "sitemapUrl": "https://de.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T15:32:22.314Z",
+      "checkedAt": "2026-11-17T04:40:52.667Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 405,
@@ -514,11 +634,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 0
+        "lastmodChanged": 217
       },
       "auditSignals": {
-        "bulkLastmodRefresh": false,
-        "lastmodPagesNeedingContentCheck": 0,
+        "bulkLastmodRefresh": true,
+        "lastmodPagesNeedingContentCheck": 217,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "xmlDocuments": [
@@ -536,9 +656,9 @@
           },
           {
             "url": "https://de.mova.tech/sitemap_products_1.xml?from=8243156910278&to=9149681205446",
-            "sha256": "9de373714fa81f18eecd60e450ce4a5bc59ebb4358e93c62f2ff94c290e538d1",
+            "sha256": "dbc553246969f7b4fcb6dba845fed193420041eb043bf1f3b6caae3f5cfb5c17",
             "bytes": 102543,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/9de373714fa81f18eecd60e450ce4a5bc59ebb4358e93c62f2ff94c290e538d1.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/dbc553246969f7b4fcb6dba845fed193420041eb043bf1f3b6caae3f5cfb5c17.xml"
           },
           {
             "url": "https://de.mova.tech/sitemap_pages_1.xml?from=95892078790&to=125118677190",
@@ -548,9 +668,9 @@
           },
           {
             "url": "https://de.mova.tech/sitemap_collections_1.xml?from=301712146630&to=355108487366",
-            "sha256": "8a38c1d484e0018f48640fee94421d322894cbccccb8d2b83442b860c01db516",
+            "sha256": "5002b6f6c9f380d241cbe6497aff1a60a98dafe35cc7af94b4907d8ddd26e07d",
             "bytes": 5908,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/8a38c1d484e0018f48640fee94421d322894cbccccb8d2b83442b860c01db516.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-de/5002b6f6c9f380d241cbe6497aff1a60a98dafe35cc7af94b4907d8ddd26e07d.xml"
           },
           {
             "url": "https://de.mova.tech/sitemap_blogs_1.xml",
@@ -566,50 +686,81 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T15:32:22.314Z",
+        "inventoryCheckedAt": "2026-11-17T04:40:52.667Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43897115941",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43897115941-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
-            "disposition": "pending_review",
-            "reason": "reviewed_content_review_monitor",
-            "url": "https://de.mova.tech/blogs/top-auswahl/rasenroboter-fuer-kleine-flaechen",
-            "pageType": "blog",
-            "sourceReason": "retry_new_sitemap_url",
-            "htmlSha256": "20807dd6fd36acbc9baf75c7ee22bf07cb847fe1946d925ca181addda2782ad3",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/20807dd6fd36acbc9baf75c7ee22bf07cb847fe1946d925ca181addda2782ad3.html",
-            "checkedAt": "2026-11-16T15:32:22.314Z",
+            "disposition": "held",
+            "reason": "mixed_mower_and_other_primary_context",
+            "url": "https://de.mova.tech/collections/mahroboter-saugroboter-nass-und-trockensauger",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "3ca9729fc7f0c71b18477af00af100cdefda68a48349cbc7d823e5a3205dc0f8",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/3ca9729fc7f0c71b18477af00af100cdefda68a48349cbc7d823e5a3205dc0f8.html",
+            "checkedAt": "2026-11-17T04:40:52.667Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43897115941",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43897115941-1"
-            },
-            "classificationReviewId": "SCR-ACA7F3D0DCF21F2C"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/collections/10-rabatt-fur-bestimmte-personengruppen",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "157eea09e03ea516d62b567357486570b6b2d4fdcd7813918d60aef1952d3b52",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/157eea09e03ea516d62b567357486570b6b2d4fdcd7813918d60aef1952d3b52.html",
+            "checkedAt": "2026-11-17T04:40:52.667Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.mova.tech/collections/home-garden",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "6680a65809f17b46dcf84657f4ac2b5a99e3f893222871798e99308c39aa7591",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/6680a65809f17b46dcf84657f4ac2b5a99e3f893222871798e99308c39aa7591.html",
+            "checkedAt": "2026-11-17T04:40:52.667Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           }
         ],
         "pendingContentCount": 0,
         "pendingRemovedCount": 0,
-        "heldContentCount": 0,
-        "classificationHeldCount": 0,
+        "heldContentCount": 22,
+        "classificationHeldCount": 22,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
         "bulkLastmodSampleCount": 0,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43897115941",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43897115941-1"
+          "name": "site-private-44018596210-1"
         },
-        "note": ""
+        "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 3,
         "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
@@ -625,7 +776,7 @@
         "siteUrl": "https://fr.mova.tech/collections/robot-lawn-mower/",
         "sitemapUrl": "https://fr.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:47:10.190Z",
+      "checkedAt": "2026-11-17T04:41:01.649Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 383,
@@ -636,7 +787,7 @@
         "product": 195
       },
       "changeCounts": {
-        "added": 2,
+        "added": 0,
         "removed": 0,
         "lastmodChanged": 195
       },
@@ -660,9 +811,9 @@
           },
           {
             "url": "https://fr.mova.tech/sitemap_products_1.xml?from=8674708029660&to=15500112593116",
-            "sha256": "8ed8d15c824a3381755f01c3707c527babf77102461085883a0945567a8ab9e5",
+            "sha256": "fca05b1e735096a911feac9fb44edd53609e2e7ad1f34d84cd4bbe494a7e4836",
             "bytes": 93243,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/8ed8d15c824a3381755f01c3707c527babf77102461085883a0945567a8ab9e5.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/fca05b1e735096a911feac9fb44edd53609e2e7ad1f34d84cd4bbe494a7e4836.xml"
           },
           {
             "url": "https://fr.mova.tech/sitemap_pages_1.xml?from=110184562908&to=167682408668",
@@ -672,9 +823,9 @@
           },
           {
             "url": "https://fr.mova.tech/sitemap_collections_1.xml?from=432420716764&to=512243957980",
-            "sha256": "dd5ecc93bb654643ab921e0d9fabe23b4b3a31cdbd5a21bfbc198b463b6995e6",
+            "sha256": "ffb4436eea324b0a78594e17160903434e3d5e61277447da15373f78b82ec123",
             "bytes": 6431,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/dd5ecc93bb654643ab921e0d9fabe23b4b3a31cdbd5a21bfbc198b463b6995e6.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/ffb4436eea324b0a78594e17160903434e3d5e61277447da15373f78b82ec123.xml"
           },
           {
             "url": "https://fr.mova.tech/sitemap_blogs_1.xml",
@@ -690,82 +841,353 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T14:47:10.190Z",
+        "inventoryCheckedAt": "2026-11-17T04:41:01.649Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43888920453",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43888920453-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
-            "disposition": "pending_review",
-            "reason": "mower_primary_content",
-            "url": "https://fr.mova.tech/blogs/guides-d-achat/robot-tondeuse-avec-coupe-bordure",
-            "pageType": "blog",
-            "sourceReason": "new_sitemap_url",
-            "htmlSha256": "e38873685e3aae152d2e4cf6defeed469611c9f16b296c8242e9c4e66bb2da0f",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/e38873685e3aae152d2e4cf6defeed469611c9f16b296c8242e9c4e66bb2da0f.html",
-            "checkedAt": "2026-11-16T14:47:10.190Z",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-lawn-mower-4g-module",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "9cd3bdecea2eb204db3c631cafc8f09cbf1f6859dcce1d806f0a6a005d45439d",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/9cd3bdecea2eb204db3c631cafc8f09cbf1f6859dcce1d806f0a6a005d45439d.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43888920453-1"
-            }
-          },
-          {
-            "disposition": "skipped",
-            "reason": "explicit_non_mower_primary_content",
-            "url": "https://fr.mova.tech/blogs/guides-d-achat/aspirateur-robot-pas-cher",
-            "pageType": "blog",
-            "sourceReason": "new_sitemap_url",
-            "htmlSha256": "128a06b8bc9ed800052821de96a01c6b07c10301c1d32a3592e5cc150139dc73",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/128a06b8bc9ed800052821de96a01c6b07c10301c1d32a3592e5cc150139dc73.html",
-            "checkedAt": "2026-11-16T14:47:10.190Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
+              "name": "site-private-44018596210-1"
             }
           },
           {
             "disposition": "baseline_only",
             "reason": "no_comparable_previous_page_body",
-            "url": "https://fr.mova.tech/collections/test-awd",
-            "pageType": "collection",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "df4b0756b0cd73cb7d9b9224d425d84d12e7b2087a0aec709cc77e2c186843af",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/df4b0756b0cd73cb7d9b9224d425d84d12e7b2087a0aec709cc77e2c186843af.html",
-            "checkedAt": "2026-11-16T14:47:10.190Z",
+            "url": "https://fr.mova.tech/products/mova-robot-lawn-mower-garage",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "775357d790a8df12bca80457c15c95ab79eaa99342182ed931052e87c4dcc463",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/775357d790a8df12bca80457c15c95ab79eaa99342182ed931052e87c4dcc463.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-1ACBFF5720773E32"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-lawn-mower-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "1f175198f20177a6f9e4d34ff8c6cd426028438528c4b6dcd316d35392cd0978",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/1f175198f20177a6f9e4d34ff8c6cd426028438528c4b6dcd316d35392cd0978.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://fr.mova.tech/products/mova-robot-lawn-mower-offroad-wheel-set",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "c807c86cb92c6c765c62986ae21becc2e9bedc8e83de6dfea04e39c2081257aa",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/c807c86cb92c6c765c62986ae21becc2e9bedc8e83de6dfea04e39c2081257aa.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://fr.mova.tech/products/mova-robot-lawn-mower-radar-cleaning-brush",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f2403b8a454d4339eae6ca1a27789524077db3ce4bc8c10bf683fc84a93676ce",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/f2403b8a454d4339eae6ca1a27789524077db3ce4bc8c10bf683fc84a93676ce.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://fr.mova.tech/products/mova-robot-tondeuse-lidax-ultra-awd-solde-restant",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "3c9ffbd31fd44d455b7374b08e1d0374a26f9085027d7dad6d7db9799653065e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/3c9ffbd31fd44d455b7374b08e1d0374a26f9085027d7dad6d7db9799653065e.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-rechargeable-lithium-ion-battery",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "627492867d3e9cbf8dc2d11bcfb6a0df06602f1f4b8b17bc99b3b7f82a8ef2a8",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/627492867d3e9cbf8dc2d11bcfb6a0df06602f1f4b8b17bc99b3b7f82a8ef2a8.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-cleaning-solution-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "8ea47248c8516a39ee1881fb793f98d226253c50afbf295f16ccf5fbdf0f8406",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/8ea47248c8516a39ee1881fb793f98d226253c50afbf295f16ccf5fbdf0f8406.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-dustbag",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "513eba5efe99e5c36d9a5a03f4294de8689c705300fdbde54aa5a40a0b6dc8f9",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/513eba5efe99e5c36d9a5a03f4294de8689c705300fdbde54aa5a40a0b6dc8f9.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-dustbox-filter",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "590ecca879e685ce3482b50b83babf0d0919b0237e30ca63e6eb96810ec16e12",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/590ecca879e685ce3482b50b83babf0d0919b0237e30ca63e6eb96810ec16e12.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-main-brush",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "c2ab6fbfda0c265402fcb42ba56c4cce72bbf875e5a97c95c8233de1fc2459f0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/c2ab6fbfda0c265402fcb42ba56c4cce72bbf875e5a97c95c8233de1fc2459f0.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-mop-pad",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "a6b27faff81dbb9d84e4022377c7c11b3364bb1b109c67c131c21474398984dc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/a6b27faff81dbb9d84e4022377c7c11b3364bb1b109c67c131c21474398984dc.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-robot-vacuum-sidebrush",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "6852486ccbdcca0f9edb7681e55cadb51c2c27b987cea657482b1e915eedc534",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/6852486ccbdcca0f9edb7681e55cadb51c2c27b987cea657482b1e915eedc534.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.mova.tech/products/mova-s10-plus-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "3b03d72d9540c664a6ffc7df1e2fb9cab6c40909c948c4edd987cc7fd2ab3d18",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/3b03d72d9540c664a6ffc7df1e2fb9cab6c40909c948c4edd987cc7fd2ab3d18.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.mova.tech/products/mova-s10-plus-robot-vacuum-accessories-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "bb09b5020e02209b9744e3b7feecc365c6c5a8690962c388ab74e9181e329926",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/bb09b5020e02209b9744e3b7feecc365c6c5a8690962c388ab74e9181e329926.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.mova.tech/products/mova-s10-robot-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "80382d482a53f83454022c4d1fdc4a1b8c1943ec4eddee6e2cdb20c0549ef355",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/80382d482a53f83454022c4d1fdc4a1b8c1943ec4eddee6e2cdb20c0549ef355.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://fr.mova.tech/products/mova-s10-robot-vacuum-accessories-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "098a75ce574a9dd28d71f3ab3d733822f340c9381bf6f9043e1ae8454eb0ad62",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/098a75ce574a9dd28d71f3ab3d733822f340c9381bf6f9043e1ae8454eb0ad62.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-s2-cordless-stick-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "5f44df9fbd56e38553d8f576d8a429eb5a5aeb01d80d512fb07fac4d973be9dd",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/5f44df9fbd56e38553d8f576d8a429eb5a5aeb01d80d512fb07fac4d973be9dd.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-s20-ultra-robot-aspirateur-kit-daccessoires-dun-an",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "7e0ee8d476a6840c302c74aab4f69b12b095ad0828b1bf4b2faa7d257f585f12",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/7e0ee8d476a6840c302c74aab4f69b12b095ad0828b1bf4b2faa7d257f585f12.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.mova.tech/products/mova-s4-detect-cordless-stick-vacuum",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "47405345af3ddd9738823636406a6e14ec6ba5646b5dadbbdaf2ce80d67ca714",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/47405345af3ddd9738823636406a6e14ec6ba5646b5dadbbdaf2ce80d67ca714.html",
+            "checkedAt": "2026-11-17T04:41:01.649Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           }
         ],
         "pendingContentCount": 0,
         "pendingRemovedCount": 0,
-        "heldContentCount": 0,
-        "classificationHeldCount": 0,
+        "heldContentCount": 38,
+        "classificationHeldCount": 38,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 0,
+        "bulkLastmodSampleCount": 20,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43888920453",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43888920453-1"
+          "name": "site-private-44018596210-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 3,
+        "inspectedPages": 20,
         "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
@@ -781,7 +1203,7 @@
         "siteUrl": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
         "sitemapUrl": "https://www.ecovacs.com/us/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:47:17.041Z",
+      "checkedAt": "2026-11-17T04:41:44.148Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 19,
@@ -820,7 +1242,7 @@
         "siteUrl": "https://de.dreametech.com/collections/roboticmower",
         "sitemapUrl": "https://de.dreametech.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T15:35:03.083Z",
+      "checkedAt": "2026-11-17T04:42:17.404Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 1134,
@@ -833,19 +1255,19 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 689
+        "lastmodChanged": 692
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 689,
+        "lastmodPagesNeedingContentCheck": 692,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "xmlDocuments": [
           {
             "url": "https://de.dreametech.com/sitemap.xml",
-            "sha256": "eccca199d873724e6b90d35d84f2c9876932aec723127d346d559e39468cc113",
+            "sha256": "54cbce22baa63d10e0e57197fd4b9bd4383856367a9a3eb62b0ff51a7de85178",
             "bytes": 972,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/eccca199d873724e6b90d35d84f2c9876932aec723127d346d559e39468cc113.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/54cbce22baa63d10e0e57197fd4b9bd4383856367a9a3eb62b0ff51a7de85178.xml"
           },
           {
             "url": "https://de.dreametech.com/sitemap_agentic_discovery.xml",
@@ -854,10 +1276,10 @@
             "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/0b7fa2a29ba8c58c4558223a1e96f32c589f2c6dabb08b14604b8629945cb3c7.xml"
           },
           {
-            "url": "https://de.dreametech.com/sitemap_products_1.xml?from=6689598898385&to=7885206716625",
-            "sha256": "ac9a134e53b21e0c0a8560651051895c18b4776fa56e09d1e30158198db3cafa",
-            "bytes": 334030,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/ac9a134e53b21e0c0a8560651051895c18b4776fa56e09d1e30158198db3cafa.xml"
+            "url": "https://de.dreametech.com/sitemap_products_1.xml?from=6689598898385&to=7887426257105",
+            "sha256": "8a6edffb729af968ebe2add714f4cab5b54978ff507832c4ca1cc89e64e89670",
+            "bytes": 334026,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/8a6edffb729af968ebe2add714f4cab5b54978ff507832c4ca1cc89e64e89670.xml"
           },
           {
             "url": "https://de.dreametech.com/sitemap_pages_1.xml?from=81566105809&to=98764849361",
@@ -867,9 +1289,9 @@
           },
           {
             "url": "https://de.dreametech.com/sitemap_collections_1.xml?from=269412106449&to=301741539537",
-            "sha256": "20d3fd8d015fefd6fc5db42f10cca06c5bf8bee7d1caec771a5431c9722916fb",
+            "sha256": "9da0ad2324338bcba262c2933684543a0cbad0dadf9f59300747488a0b6802be",
             "bytes": 24396,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/20d3fd8d015fefd6fc5db42f10cca06c5bf8bee7d1caec771a5431c9722916fb.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-de/9da0ad2324338bcba262c2933684543a0cbad0dadf9f59300747488a0b6802be.xml"
           },
           {
             "url": "https://de.dreametech.com/sitemap_blogs_1.xml",
@@ -885,51 +1307,354 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T15:35:03.083Z",
+        "inventoryCheckedAt": "2026-11-17T04:42:17.404Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43897619439",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43897619439-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
-            "disposition": "pending_review",
-            "reason": "reviewed_content_review_monitor",
-            "url": "https://de.dreametech.com/collections/26-flash-sale",
-            "pageType": "collection",
-            "sourceReason": "retry_new_sitemap_url",
-            "htmlSha256": "09b304c1ddefa96c5d552c27065439fa5b6e0af32e4360934c446f81357962e4",
-            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/09b304c1ddefa96c5d552c27065439fa5b6e0af32e4360934c446f81357962e4.html",
-            "checkedAt": "2026-11-16T15:35:03.083Z",
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/bausatze-m12",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "920637350ee1ac614d1e4a7cf201730223b417dbec5eb2947e7f96ef4a152868",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/920637350ee1ac614d1e4a7cf201730223b417dbec5eb2947e7f96ef4a152868.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43897619439",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43897619439-1"
-            },
-            "classificationReviewId": "SCR-E24028A112ADA257"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/breiter-beizpinsel-fur-h15mix",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e4a4195039a1d2de086761724ba572ad580a0e6a3b4f853de1cd616765b912e7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/e4a4195039a1d2de086761724ba572ad580a0e6a3b4f853de1cd616765b912e7.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/brosses-laterales-2-compatibles-avec-r30",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "19dbf5cd708e4665855ab505dee30e11a52f99f5c6faf99b9c0780d86d5cff2a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/19dbf5cd708e4665855ab505dee30e11a52f99f5c6faf99b9c0780d86d5cff2a.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b8dce29aa561e64ce932888a94141f56417f22381df8aa00ce94c3c737d755fe",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/b8dce29aa561e64ce932888a94141f56417f22381df8aa00ce94c3c737d755fe.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-h11-h11max-h12core",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "4dd9467a2e0937e3429c6e8951d30a04b9da6aa56b24ff1b012713eb4510f252",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/4dd9467a2e0937e3429c6e8951d30a04b9da6aa56b24ff1b012713eb4510f252.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-h11-h11max-h12core-1",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "52d6455a4aa9ee90cd45eb8dda85bf97cd09777e1e75a1b61e4b42b901f4c1a0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/52d6455a4aa9ee90cd45eb8dda85bf97cd09777e1e75a1b61e4b42b901f4c1a0.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-h12-m12-h11-core",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "68881b0216ff474c192ed1b6c6a8d3e3c7ebd29d13c3b0b3e247dde02330b052",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/68881b0216ff474c192ed1b6c6a8d3e3c7ebd29d13c3b0b3e247dde02330b052.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/burstenwalze-h12-pro-h12-dual-h13-pro",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "a10d6e47704eb830ca9b3405d2f91256f26489e454d68531956f88d6f9ba8941",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/a10d6e47704eb830ca9b3405d2f91256f26489e454d68531956f88d6f9ba8941.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-h13-pro-1",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f1ff234f19bca3b6517716eaf3476a5dd60212728c19bdab7f2100605dbdeb4e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/f1ff234f19bca3b6517716eaf3476a5dd60212728c19bdab7f2100605dbdeb4e.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-h15pro",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "283fa5c3328868c1be5aee467a238231f789f937df76cf3155b42ca6d7ff45a4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/283fa5c3328868c1be5aee467a238231f789f937df76cf3155b42ca6d7ff45a4.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/burstenwalze-ht14pro-t14pro-a-t15proheat-t15proheat-a-t15proheat-r-t16prosteam-t16proheat",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "bb3bfb8785454b9694fffe6b6c14bc5a2c3c3c61ea9267c55f756d04b97a2563",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/bb3bfb8785454b9694fffe6b6c14bc5a2c3c3c61ea9267c55f756d04b97a2563.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/c1-verlangerungskabel-fur-hauptgerat",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b1d406e705961883cdc365b65f640ae75b902a70c6e612b27ccc1d5c088f569f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/b1d406e705961883cdc365b65f640ae75b902a70c6e612b27ccc1d5c088f569f.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/customer-service",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f95fc249095cb3a771eea96687783d629fde777b5e3c2b4b7c808776425a016f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/f95fc249095cb3a771eea96687783d629fde777b5e3c2b4b7c808776425a016f.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/customer-service-1",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "05123af229acf4646ece93144d35e9b4c76377eeb15c32def3d26a6de47557fd",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/05123af229acf4646ece93144d35e9b4c76377eeb15c32def3d26a6de47557fd.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/d10-plus-garantieverlangerung-1-jahr",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f78fd23b8df7c5b93d92085475319f24e155b42501fc03ba662d9fb8ce3a4b52",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/f78fd23b8df7c5b93d92085475319f24e155b42501fc03ba662d9fb8ce3a4b52.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/d10-plus-garantieverlangerung-2-jahre",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "efcc73ada6ecc06261410ff18d320d9e11a63c0bc32610ca352fde1ab48826b9",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/efcc73ada6ecc06261410ff18d320d9e11a63c0bc32610ca352fde1ab48826b9.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/d10-plus-gen-2",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b9591b5c9e7ca6f3e4811cbfefb482f5b66853cbf01b29839590cf5162a7da1b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/b9591b5c9e7ca6f3e4811cbfefb482f5b66853cbf01b29839590cf5162a7da1b.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/d10-plus-gen-2-garantieverlangerung-1-jahr",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e1cba639785b0aff85e3d557f23a4bb17437d95daa6e4b722de5b652041a1f88",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/e1cba639785b0aff85e3d557f23a4bb17437d95daa6e4b722de5b652041a1f88.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://de.dreametech.com/products/d10-plus-gen-2-garantieverlangerung-2-jahre",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "767dbaca515733362f7d8fbfcd59778d5de29380ccf542a3c53fa429fcadfe0e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/767dbaca515733362f7d8fbfcd59778d5de29380ccf542a3c53fa429fcadfe0e.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://de.dreametech.com/products/d10s-garantieverlangerung-1-jahr",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "7286fb964de5e7a8825c8c10dd465e78970bf604f88efccbe707605819d4f58d",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-de/7286fb964de5e7a8825c8c10dd465e78970bf604f88efccbe707605819d4f58d.html",
+            "checkedAt": "2026-11-17T04:42:17.404Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           }
         ],
         "pendingContentCount": 0,
         "pendingRemovedCount": 0,
-        "heldContentCount": 0,
-        "classificationHeldCount": 0,
+        "heldContentCount": 43,
+        "classificationHeldCount": 43,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 0,
+        "bulkLastmodSampleCount": 20,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43897619439",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43897619439-1"
+          "name": "site-private-44018596210-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 1,
+        "inspectedPages": 20,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -944,7 +1669,7 @@
         "siteUrl": "https://fr.dreametech.com/collections/robot-tondeuse",
         "sitemapUrl": "https://fr.dreametech.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T15:37:25.832Z",
+      "checkedAt": "2026-11-17T04:43:03.296Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 1068,
@@ -957,11 +1682,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 686
+        "lastmodChanged": 692
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 686,
+        "lastmodPagesNeedingContentCheck": 692,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "xmlDocuments": [
@@ -979,9 +1704,9 @@
           },
           {
             "url": "https://fr.dreametech.com/sitemap_products_1.xml?from=7976292122904&to=10576706830616",
-            "sha256": "3fe71609206019440691ef8fec35f0af7b46dd645c6deefe699c36d7535e425e",
-            "bytes": 337996,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/3fe71609206019440691ef8fec35f0af7b46dd645c6deefe699c36d7535e425e.xml"
+            "sha256": "3efa70c31ce10db63ab10dc2511b03bd51c9df2ad00059e8e6aa5331fe749033",
+            "bytes": 337992,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/3efa70c31ce10db63ab10dc2511b03bd51c9df2ad00059e8e6aa5331fe749033.xml"
           },
           {
             "url": "https://fr.dreametech.com/sitemap_pages_1.xml?from=104466940184&to=164416586008",
@@ -991,9 +1716,9 @@
           },
           {
             "url": "https://fr.dreametech.com/sitemap_collections_1.xml?from=425921741080&to=524483526936",
-            "sha256": "94c8f2958ebbff2f15b4203670c0c48f8d1e7603016949f69c5157ad5eb2aac2",
+            "sha256": "51bd61dce611645865cf3b3b6bd7c82f3dc3421d2354b535b1532343037bd145",
             "bytes": 21094,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/94c8f2958ebbff2f15b4203670c0c48f8d1e7603016949f69c5157ad5eb2aac2.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-fr/51bd61dce611645865cf3b3b6bd7c82f3dc3421d2354b535b1532343037bd145.xml"
           },
           {
             "url": "https://fr.dreametech.com/sitemap_blogs_1.xml",
@@ -1009,51 +1734,354 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T15:37:25.832Z",
+        "inventoryCheckedAt": "2026-11-17T04:43:03.296Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43898042908",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43898042908-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
-            "disposition": "pending_review",
-            "reason": "reviewed_content_review_monitor",
-            "url": "https://fr.dreametech.com/collections/bricolage-et-jardin",
-            "pageType": "collection",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "591be357a07091bcaf8d3fe70454af7012725e0f9b5bc0d922caf72a01d3fb7c",
-            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/591be357a07091bcaf8d3fe70454af7012725e0f9b5bc0d922caf72a01d3fb7c.html",
-            "checkedAt": "2026-11-16T15:37:25.832Z",
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-laveur-h15-pro-heat",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "3a51a73a46cf55a11dd54cca30b866472614ae0d41554b66a8c1445cb24c65c8",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/3a51a73a46cf55a11dd54cca30b866472614ae0d41554b66a8c1445cb24c65c8.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43898042908",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43898042908-1"
-            },
-            "classificationReviewId": "SCR-61CEFDE16349D771"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-r10s-lite-a",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "571d5012417d8151a4e82b9297d15be209632f40976e1e02550dc23ff73a98de",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/571d5012417d8151a4e82b9297d15be209632f40976e1e02550dc23ff73a98de.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-r20-pro-a",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "fe5e896c891a595650190097a1da1fc389630c0ab7290b080ed68e379b7a0c5f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/fe5e896c891a595650190097a1da1fc389630c0ab7290b080ed68e379b7a0c5f.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-r30",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "f12911fbc55ca4aa6b01615e9bc48549d75f13ba0f7c14a7d5b0984165197ad6",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/f12911fbc55ca4aa6b01615e9bc48549d75f13ba0f7c14a7d5b0984165197ad6.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-v20",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "1d3aa2564694af20405c9f5de95a575fd6303bf2a62adcc972aefce79d78d2e5",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/1d3aa2564694af20405c9f5de95a575fd6303bf2a62adcc972aefce79d78d2e5.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-v20-pro-a",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "1f93b6c8c0f37eb23b22011bba03a711b272ae4d30515a3be75179909edb2753",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/1f93b6c8c0f37eb23b22011bba03a711b272ae4d30515a3be75179909edb2753.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/aspirateur-sans-fil-v30",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b7bc07072147233a21831c79fa3266e0a454146ddb6ad0aca5fb4168a0dfbd16",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/b7bc07072147233a21831c79fa3266e0a454146ddb6ad0aca5fb4168a0dfbd16.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/bac-de-sechage-sf25-pour-broyeur-de-dechets-de-cuisine",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "598083db29a2b760cc1a5b4c8bd2a1a7745fc02185dde12d9ab3adbe61b8d5a1",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/598083db29a2b760cc1a5b4c8bd2a1a7745fc02185dde12d9ab3adbe61b8d5a1.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/bandes-dextension-auxiliaires-pour-montee-de-seuil",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "99d861277dddb67c92ac7eadf300277c52ccf0c09a17538d80315c06f24fc159",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/99d861277dddb67c92ac7eadf300277c52ccf0c09a17538d80315c06f24fc159.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-amovible-pour-t15proheat-t15proheat-a-t15proheat-r-t16prosteam-t16proheat",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "d74b119e93644c061b7f431d09dc7e592d8bd9e93e1afe5ec71f5c611bdb6efc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/d74b119e93644c061b7f431d09dc7e592d8bd9e93e1afe5ec71f5c611bdb6efc.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r10",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "5ce5287ea8466d920b49d4c3267a40aa95768d1e2b66cf2829e9365c4d64d39a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/5ce5287ea8466d920b49d4c3267a40aa95768d1e2b66cf2829e9365c4d64d39a.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r10-pro",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "14a3af0bcd7a285720219ce6204f41bf8fe0834434ec9a62b2cd4ab4a772e7a2",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/14a3af0bcd7a285720219ce6204f41bf8fe0834434ec9a62b2cd4ab4a772e7a2.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r20",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "94e446065d0a4ff4518d4edbf4716958d80e6d882cb2f1237c7369c32e98693e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/94e446065d0a4ff4518d4edbf4716958d80e6d882cb2f1237c7369c32e98693e.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r20-1",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2d72a22b6c45a737d460f1506433c787ce24761213854cc98427417cedab92c7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/2d72a22b6c45a737d460f1506433c787ce24761213854cc98427417cedab92c7.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r20se-r20se-a",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "d57b59c64f8a4b4b8b579f14483f56f0529f9a56f6b65c323b0e2ef95c6a5e64",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/d57b59c64f8a4b4b8b579f14483f56f0529f9a56f6b65c323b0e2ef95c6a5e64.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r20slim",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "111606017c0846b18eb82174789188decb31e73465efb07adf7922154a0f0fd7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/111606017c0846b18eb82174789188decb31e73465efb07adf7922154a0f0fd7.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-r30",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "61f67ab941f73cbd6a90da7fa6183834748a4c2b9009c1888eae3ad7e052a3df",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/61f67ab941f73cbd6a90da7fa6183834748a4c2b9009c1888eae3ad7e052a3df.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-u10",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "c8dad02d29a37fafc7361d2851025319f8743211e87cb4e34614120f28601ede",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/c8dad02d29a37fafc7361d2851025319f8743211e87cb4e34614120f28601ede.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-u20",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "21fdd59276dab1f294d3d149361effea9277720de2897c267e91eafdd41607fc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/21fdd59276dab1f294d3d149361effea9277720de2897c267e91eafdd41607fc.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_only_in_unattributed_body",
+            "url": "https://fr.dreametech.com/products/batterie-de-v20-v20pro-v20pro-a",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2754a1fcf50195a8a53978a441ad1d8ba84c1edf6d42eff02ffc9b48500ae08f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-fr/2754a1fcf50195a8a53978a441ad1d8ba84c1edf6d42eff02ffc9b48500ae08f.html",
+            "checkedAt": "2026-11-17T04:43:03.296Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           }
         ],
         "pendingContentCount": 0,
         "pendingRemovedCount": 0,
-        "heldContentCount": 0,
-        "classificationHeldCount": 0,
+        "heldContentCount": 48,
+        "classificationHeldCount": 48,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 0,
+        "bulkLastmodSampleCount": 20,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43898042908",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43898042908-1"
+          "name": "site-private-44018596210-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
-        "meaningfulChanges": 1,
+        "inspectedPages": 20,
+        "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
       }
@@ -1068,7 +2096,7 @@
         "siteUrl": "https://yardcare.dreametech.com/collections/robot-lawn-mowers",
         "sitemapUrl": "https://yardcare.dreametech.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T15:39:46.528Z",
+      "checkedAt": "2026-11-17T04:43:43.466Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 196,
@@ -1104,9 +2132,9 @@
           },
           {
             "url": "https://yardcare.dreametech.com/sitemap_products_1.xml?from=8858199556353&to=9350128304385",
-            "sha256": "76bfe40644f2fd6996d0b36edcb53a7627520de82a3bb5b2a0a5840c19593d8b",
+            "sha256": "12bc4ab71cadc9bfe42469b28f923c8f6ad1166d0c051a1c8037e3b827d6f035",
             "bytes": 10516,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-us/76bfe40644f2fd6996d0b36edcb53a7627520de82a3bb5b2a0a5840c19593d8b.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/dreame-us/12bc4ab71cadc9bfe42469b28f923c8f6ad1166d0c051a1c8037e3b827d6f035.xml"
           },
           {
             "url": "https://yardcare.dreametech.com/sitemap_pages_1.xml?from=123810513153&to=138318840065",
@@ -1134,31 +2162,343 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T15:39:46.528Z",
+        "inventoryCheckedAt": "2026-11-17T04:43:43.466Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43898465040",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43898465040-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
             "disposition": "pending_review",
-            "reason": "reviewed_content_review_monitor",
-            "url": "https://yardcare.dreametech.com/blogs/lawn-garden/are-electric-lawn-mowers-good",
-            "pageType": "blog",
-            "sourceReason": "title_profile_migration",
-            "htmlSha256": "eccdbaa51bb5bf0804f2726ddc2e8a170d05cd4120007e998017d5ee25b1adad",
-            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/eccdbaa51bb5bf0804f2726ddc2e8a170d05cd4120007e998017d5ee25b1adad.html",
-            "checkedAt": "2026-11-16T15:39:46.528Z",
+            "reason": "mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "afe67faa39c499894fbe2540bfd4dc3464e35f36b746a68995f66c7d429d9caa",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/afe67faa39c499894fbe2540bfd4dc3464e35f36b746a68995f66c7d429d9caa.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43898465040",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43898465040-1"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower-app-only",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "40f61841e916341d71dd9891400be24bf9d061c7afc181def0f53842b53773ba",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/40f61841e916341d71dd9891400be24bf9d061c7afc181def0f53842b53773ba.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e1d8d8e6d2dfbb86a6f27bdfe5958f7d342090f6073c2cd3619b5e7229d57d24",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/e1d8d8e6d2dfbb86a6f27bdfe5958f7d342090f6073c2cd3619b5e7229d57d24.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "reviewed_content_review_hold",
+            "url": "https://yardcare.dreametech.com/products/sunglasses-giveaway",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b804949808c8722d1ac4f0a631d9698c3b12a181e4a992a693fb4c3b711030f4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/b804949808c8722d1ac4f0a631d9698c3b12a181e4a992a693fb4c3b711030f4.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
             },
-            "classificationReviewId": "SCR-C04FE25194112973"
+            "classificationReviewId": "SCR-02A6B796903126D4"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/z1-pool-cleaner",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "d7bf69aea415dc8e9f82390e22d4bd187f4395cba6d2902697849732b6aed1ab",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/d7bf69aea415dc8e9f82390e22d4bd187f4395cba6d2902697849732b6aed1ab.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/z1-pro-pool-cleaner",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "a3c27a3cbc6cb7c6f9aded1a6f8e56a0f6d01c2024aa1a6c2faba2561cf28eb4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/a3c27a3cbc6cb7c6f9aded1a6f8e56a0f6d01c2024aa1a6c2faba2561cf28eb4.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/z1-pro-pool-cleaner-promotion",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "712e028ec91c518b759d126ee86029c901d752c494e4a977457e7fec9d9addbd",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/712e028ec91c518b759d126ee86029c901d752c494e4a977457e7fec9d9addbd.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/boy-classical-blind-box",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b0d54def5bcd256c9f3f7a40ba6534dc0cfb03bd97a0b0562398343015b6ab93",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/b0d54def5bcd256c9f3f7a40ba6534dc0cfb03bd97a0b0562398343015b6ab93.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-E863FEB67CA9355B"
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://yardcare.dreametech.com/products/dreame-lawn-mower-accessory-bundle-garage-blade-set-cleaning-kit-decal",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "e27d39207b91ac6cb9c94870099c9fbd5a3a59dfa9d2d682448e8c2251f1ab1a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/e27d39207b91ac6cb9c94870099c9fbd5a3a59dfa9d2d682448e8c2251f1ab1a.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-1B8BE97D8A1949BC"
+          },
+          {
+            "disposition": "baseline_only",
+            "reason": "no_comparable_previous_page_body",
+            "url": "https://yardcare.dreametech.com/products/dreame-lawn-mower-bundle-blade-set-cleaning-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2e09326b78bbe2955c2ab60c64c6ccde0eed4316f7f813b65c163a171df80ea4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/2e09326b78bbe2955c2ab60c64c6ccde0eed4316f7f813b65c163a171df80ea4.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-E67925039BA1D4C8"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/dreame-pool-robot-cleaning-and-maintenance-kit-membership",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "5c06d48e6f2e67ef109429aecc1c17f4e809b3f44de0b8400b21c814e9a95f9f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/5c06d48e6f2e67ef109429aecc1c17f4e809b3f44de0b8400b21c814e9a95f9f.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-3E521BCE2A307188"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/dreame-z1-robotic-pool-cleaner-flash-sale",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "fed84c3642f1629b82b7b1855266f7081ca141e4801fe750793b4bb16dc0ab1e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/fed84c3642f1629b82b7b1855266f7081ca141e4801fe750793b4bb16dc0ab1e.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/dreame-z1-robotic-pool-cleaner-membership",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "1fe144da14757ade592382d9f620a3c157cc124bb6741a40f9fef10e23a3d071",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/1fe144da14757ade592382d9f620a3c157cc124bb6741a40f9fef10e23a3d071.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/dreame-z1-series-debris-basket-membership",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "0fcdabd688b8d084b69b999d8f4a68160a50f854472ee920ce669169bc38503a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/0fcdabd688b8d084b69b999d8f4a68160a50f854472ee920ce669169bc38503a.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-0D867D027CCA2941"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/pool-cleaner-cleaning-and-maintenanc-kit-pacc01",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "c6df72d497bb330fd96d2239a54d312cf0e36010557aac8557f5000eef218a31",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/c6df72d497bb330fd96d2239a54d312cf0e36010557aac8557f5000eef218a31.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-D9B228B74B218A31"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/pool-cleaner-debris-basket-pdb01",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "73421165ba79bd27f899fc3105f1a02e3702576b760fd55d9f178c2f39c53af2",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/73421165ba79bd27f899fc3105f1a02e3702576b760fd55d9f178c2f39c53af2.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-0C6CD5C7F090A390"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://yardcare.dreametech.com/products/pool-cleaner-retrieva-hook-prh01",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2ff0a865ad310aec9ddbabfa7dbcbf78e938920263ef3526dce921c98265f9bb",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/2ff0a865ad310aec9ddbabfa7dbcbf78e938920263ef3526dce921c98265f9bb.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-485872D82CE258E6"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/pool-cleaner-ultra-fine-filter-5pc-pacc10",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b0bfa83f0bb46e66541d9c4c5f6d1cbba7155f969034356360ecf0dada25b487",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/b0bfa83f0bb46e66541d9c4c5f6d1cbba7155f969034356360ecf0dada25b487.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/robot-lawn-mower-cleaning-kit",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "2cccf6328f388d009a19d65f1100515dad6795159918cde47367d620f9052aee",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/2cccf6328f388d009a19d65f1100515dad6795159918cde47367d620f9052aee.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://yardcare.dreametech.com/products/robot-lawn-mower-decal-a3-awd",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "9150f606b5414b6c65a051ea3f77ac2f0a79e39d0b4e36c39bfcd3c19963bb20",
+            "rawEvidencePath": ".site-private/full-sitemap-html/dreame-us/9150f606b5414b6c65a051ea3f77ac2f0a79e39d0b4e36c39bfcd3c19963bb20.html",
+            "checkedAt": "2026-11-17T04:43:43.466Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           }
         ],
         "pendingContentCount": 0,
@@ -1167,17 +2507,17 @@
         "classificationHeldCount": 1,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 0,
+        "bulkLastmodSampleCount": 20,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43898465040",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43898465040-1"
+          "name": "site-private-44018596210-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 1,
+        "inspectedPages": 20,
         "meaningfulChanges": 0,
         "errors": [],
         "deferredPages": 0
@@ -1193,24 +2533,24 @@
         "siteUrl": "https://www.anker.com/de/collections/robot-lawn-mower",
         "sitemapUrl": "https://www.anker.com/de/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T16:12:31.889Z",
-      "status": "ok",
+      "checkedAt": "2026-11-17T04:44:15.556Z",
+      "status": "partial_content_pending",
       "baseline": false,
-      "pageCount": 4139,
+      "pageCount": 4140,
       "breakdown": {
         "page": 75,
         "collection": 501,
-        "blog": 1940,
+        "blog": 1941,
         "product": 1623
       },
       "changeCounts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
-        "lastmodChanged": 225
+        "lastmodChanged": 176
       },
       "auditSignals": {
-        "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 225,
+        "bulkLastmodRefresh": false,
+        "lastmodPagesNeedingContentCheck": 176,
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
         "sourceScope": "official_anker_de_country_source_for_eufy_mowers_not_old_eufy_c_identity",
@@ -1223,42 +2563,193 @@
           },
           {
             "url": "https://www.anker.com/de/server-sitemap-index-pages.xml",
-            "sha256": "0a0229747143d11578d44fd307f85c8ad214b569c1af91b1c515477190c81b51",
+            "sha256": "fee2f9db79b58e87b60b70801a4ccd608bc12d222f74ddf56ada02f1c8869906",
             "bytes": 11799,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/0a0229747143d11578d44fd307f85c8ad214b569c1af91b1c515477190c81b51.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/fee2f9db79b58e87b60b70801a4ccd608bc12d222f74ddf56ada02f1c8869906.xml"
           },
           {
             "url": "https://www.anker.com/de/server-sitemap-index-products.xml",
-            "sha256": "28f2e48b047b702bf8923da3294db9af0a340a5cb7502707e8f802b23b320273",
+            "sha256": "70c77cd88003a8bcb629226ab606b05185bae6f97f62dcad7ae48f9400072e52",
             "bytes": 273600,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/28f2e48b047b702bf8923da3294db9af0a340a5cb7502707e8f802b23b320273.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/70c77cd88003a8bcb629226ab606b05185bae6f97f62dcad7ae48f9400072e52.xml"
           },
           {
             "url": "https://www.anker.com/de/server-sitemap-index-collections.xml",
-            "sha256": "d2a79bf8352c3ab6338d41498898c3a6c53f4ee11f9ac1c4e9c5468481349fe8",
+            "sha256": "78e4dadc7cabf7f0975b8524af3036b020df91f27f50f908e2ce766025cfecf8",
             "bytes": 80523,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/d2a79bf8352c3ab6338d41498898c3a6c53f4ee11f9ac1c4e9c5468481349fe8.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/78e4dadc7cabf7f0975b8524af3036b020df91f27f50f908e2ce766025cfecf8.xml"
           },
           {
             "url": "https://www.anker.com/de/server-sitemap-index-blog.xml",
-            "sha256": "ac338013371742e8b076f63e122d67a13211d7eb2e30372cbd4066c70ada944c",
-            "bytes": 367120,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/ac338013371742e8b076f63e122d67a13211d7eb2e30372cbd4066c70ada944c.xml"
+            "sha256": "2a337351728e588d2d135c013b643d270b9ae6c858dca34694786cdb10e55153",
+            "bytes": 367304,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-de-anker/2a337351728e588d2d135c013b643d270b9ae6c858dca34694786cdb10e55153.xml"
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T16:12:31.889Z",
+        "inventoryCheckedAt": "2026-11-17T04:44:15.556Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43904656664",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43904656664-1"
+          "name": "site-private-44018596210-1"
         },
         "changedPageDispositions": [
           {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/smart-lights",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "bd442251a72bbdd9b14a566885adc35e436e127d921d3a6f55b00227ca1af82e",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/bd442251a72bbdd9b14a566885adc35e436e127d921d3a6f55b00227ca1af82e.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-A6C13DCE88E33754"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/smart-lock",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "bc29ef73311737561bfe545e709714360c77599568f0f93bdefd254968bfa830",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/bc29ef73311737561bfe545e709714360c77599568f0f93bdefd254968bfa830.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-2BC951573F994B1D"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/smart-tracker",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "33fa8a839bb16602d3f0a499618a8403dba21eb08191722d082b614d402a38b0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/33fa8a839bb16602d3f0a499618a8403dba21eb08191722d082b614d402a38b0.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-C48F93C0D00626C4"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/speaker",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "f8b4656496f454fc797acf2d26484e3d7921dc8e2037d4ed5642d21f925a95f9",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/f8b4656496f454fc797acf2d26484e3d7921dc8e2037d4ed5642d21f925a95f9.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-E920143A0E351A24"
+          },
+          {
+            "disposition": "held",
+            "reason": "reviewed_content_review_hold",
+            "url": "https://www.anker.com/de/blogs/user-stories",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "ae1d80e63e4627f3a7dca25e87f25e99bd25a3a28ea6b0fbcf35639244da9e0b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/ae1d80e63e4627f3a7dca25e87f25e99bd25a3a28ea6b0fbcf35639244da9e0b.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-42AF8120F0B91888"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "explicit_non_mower_primary_content",
+            "url": "https://www.anker.com/de/blogs/vacuum",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "be584975e529db92142b27679bef5671ef737931eafc4d8bc7ae8e9be89af616",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/be584975e529db92142b27679bef5671ef737931eafc4d8bc7ae8e9be89af616.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/video-doorbell",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "850955f1ce764e7284b24dbb349a54e5b2474da12b97a5a87395159553801594",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/850955f1ce764e7284b24dbb349a54e5b2474da12b97a5a87395159553801594.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-4398DC3A99F1C9B0"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://www.anker.com/de/blogs/voice-recorder",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "cf3c405a5dba7ed61f2b581d8cc101b7123d2104713a6ac0538d03d6fec6b397",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/cf3c405a5dba7ed61f2b581d8cc101b7123d2104713a6ac0538d03d6fec6b397.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            },
+            "classificationReviewId": "SCR-27C3E027CAE65751"
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://www.anker.com/de/collections/a3062-redeemption-with-credits",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "b058806be8c422efd1fb17b3b29694fcaf8f4140ed71a3954bc0415ea0ae49c2",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/b058806be8c422efd1fb17b3b29694fcaf8f4140ed71a3954bc0415ea0ae49c2.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
             "disposition": "pending_review",
-            "reason": "exact_html_review_monitor",
+            "reason": "anker_primary_mower_product_card",
             "primaryProductCardEvidence": {
               "kind": "anker_de_primary_mower_product_card",
               "title": "Anker eufy Mähroboter C15 Standard mit Garage Deluxe-Set",
@@ -1269,16 +2760,15 @@
             "url": "https://www.anker.com/de/collections/all-anker",
             "pageType": "collection",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "c539a616cdc075c1d1461b91b3d1fa5c1194f7783759647a921311a2d929eb66",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/c539a616cdc075c1d1461b91b3d1fa5c1194f7783759647a921311a2d929eb66.html",
-            "checkedAt": "2026-11-16T16:12:31.889Z",
+            "htmlSha256": "f02c9e0efdc9da1fb51fe96985bf86c641da737b13a8e1cb9ed06f46c4245da0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/f02c9e0efdc9da1fb51fe96985bf86c641da737b13a8e1cb9ed06f46c4245da0.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43904656664",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43904656664-1"
-            },
-            "classificationReviewId": "SCR-A9B8A4206A1C55D9"
+              "name": "site-private-44018596210-1"
+            }
           },
           {
             "disposition": "pending_review",
@@ -1293,84 +2783,161 @@
             "url": "https://www.anker.com/de/collections/all-eufy",
             "pageType": "collection",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "cbeb25842ddf3eb756cf9b8292dac01777781a4306c8a0b5657016b66c3531cf",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/cbeb25842ddf3eb756cf9b8292dac01777781a4306c8a0b5657016b66c3531cf.html",
-            "checkedAt": "2026-11-16T16:12:31.889Z",
+            "htmlSha256": "e21e193873c7dd42568cd4e120034ae9698323c8e2dc156133c42fbac517d83f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/e21e193873c7dd42568cd4e120034ae9698323c8e2dc156133c42fbac517d83f.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43904656664",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43904656664-1"
+              "name": "site-private-44018596210-1"
             }
           },
           {
-            "disposition": "pending_review",
-            "reason": "reviewed_content_review_monitor",
-            "primaryProductCardEvidence": {
-              "kind": "anker_de_primary_mower_product_card",
-              "title": "Anker eufy Mähroboter E18 und eufyCam S330 (eufyCam 3) 4-Kamera-Set",
-              "productUrl": "https://www.anker.com/de/products/bundle-t2801ga1-1-t88733w1-1?ref=outdoor-security-cameras",
-              "sku": "t2801ga1",
-              "price": "2.348,00 €"
-            },
-            "url": "https://www.anker.com/de/collections/outdoor-security-cameras",
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://www.anker.com/de/collections/back-to-school-gift-card",
             "pageType": "collection",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "682c13741d53078a3ea3d713de5d262f398a9fbce2c160c2680e6b09fd49be55",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/682c13741d53078a3ea3d713de5d262f398a9fbce2c160c2680e6b09fd49be55.html",
-            "checkedAt": "2026-11-16T16:12:31.889Z",
+            "htmlSha256": "6edc8d050ccdcb1f85ce49f1691161ac44b172a0b3b0de3396a177c712c33f7a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/6edc8d050ccdcb1f85ce49f1691161ac44b172a0b3b0de3396a177c712c33f7a.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43904656664",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43904656664-1"
-            },
-            "classificationReviewId": "SCR-36D3AA645AB57EF2"
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://www.anker.com/de/collections/charger-powerbank-sets",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "e9671da739d84bac87ac351984e1cee04fd245984d86366db6b5c355d78f4b94",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/e9671da739d84bac87ac351984e1cee04fd245984d86366db6b5c355d78f4b94.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://www.anker.com/de/collections/excluding-new-release-acc-1",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "9056f1ea64820bcefb4c9d09faf65254b7ea88794f528f3aabfd9890ce2af7c7",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/9056f1ea64820bcefb4c9d09faf65254b7ea88794f528f3aabfd9890ce2af7c7.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
+          },
+          {
+            "disposition": "held",
+            "reason": "mower_relevance_unverified",
+            "url": "https://www.anker.com/de/collections/homebase-professional",
+            "pageType": "collection",
+            "sourceReason": "retry_content_check",
+            "htmlSha256": "7c8ada46f3e2698c82c283a0d6dcdc8eedd360fc3d66202950ec860e7c39629b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/7c8ada46f3e2698c82c283a0d6dcdc8eedd360fc3d66202950ec860e7c39629b.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44018596210",
+              "attempt": "1",
+              "name": "site-private-44018596210-1"
+            }
           },
           {
             "disposition": "pending_review",
             "reason": "anker_primary_mower_product_card",
             "primaryProductCardEvidence": {
               "kind": "anker_de_primary_mower_product_card",
-              "title": "Anker eufy Mähroboter E18 und eufyCam S3 Pro 4-Kamera-Set",
-              "productUrl": "https://www.anker.com/de/products/bundle-t2801ga1-1-t88943w1-1?ref=uberwachungskameras",
-              "sku": "t2801ga1",
-              "price": "2.598,00 €"
+              "title": "Anker eufy Mähroboter C15 Solo (Ohne Garage)",
+              "productUrl": "https://www.anker.com/de/products/t280b3a2?ref=hot-deals",
+              "sku": "t280b3a2",
+              "price": "649,00 €"
             },
-            "url": "https://www.anker.com/de/collections/uberwachungskameras",
+            "url": "https://www.anker.com/de/collections/hot-deals",
             "pageType": "collection",
             "sourceReason": "retry_content_check",
-            "htmlSha256": "0e284ac72f9ca200755e3d4dcd9f24a1cc53265e36eab4924902bd4c4b2a66bc",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/0e284ac72f9ca200755e3d4dcd9f24a1cc53265e36eab4924902bd4c4b2a66bc.html",
-            "checkedAt": "2026-11-16T16:12:31.889Z",
+            "htmlSha256": "082b8f83b8c80733ab87eddad8a59912005ae1cbe8616bbf035c92d3b3ce8ead",
+            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-de-anker/082b8f83b8c80733ab87eddad8a59912005ae1cbe8616bbf035c92d3b3ce8ead.html",
+            "checkedAt": "2026-11-17T04:44:15.556Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "43904656664",
+              "runId": "44018596210",
               "attempt": "1",
-              "name": "site-private-43904656664-1"
+              "name": "site-private-44018596210-1"
             }
           }
         ],
-        "pendingContentCount": 0,
+        "pendingContentCount": 195,
         "pendingRemovedCount": 0,
-        "heldContentCount": 5,
-        "classificationHeldCount": 5,
+        "heldContentCount": 10,
+        "classificationHeldCount": 10,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
         "bulkLastmodSampleCount": 0,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43904656664",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43904656664-1"
+          "name": "site-private-44018596210-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
       "contentInspection": {
-        "inspectedPages": 4,
-        "meaningfulChanges": 4,
-        "errors": [],
-        "deferredPages": 0
+        "inspectedPages": 20,
+        "meaningfulChanges": 3,
+        "errors": [
+          {
+            "url": "https://www.anker.com/de/blogs/lifestyle-inspiration/what-is-black-friday",
+            "pageType": "blog",
+            "sourceReason": "new_sitemap_url",
+            "firstDiscoveredAt": "2026-11-17T04:44:15.556Z",
+            "error": "HTTP 404 at https://www.anker.com/de/blogs/lifestyle-inspiration/what-is-black-friday",
+            "checkedAt": "2026-11-17T04:44:17.046Z",
+            "attemptCount": 1
+          },
+          {
+            "url": "https://www.anker.com/de/collections/benefits-me-hp-audio",
+            "pageType": "collection",
+            "sourceReason": "content_check",
+            "firstDiscoveredAt": "2026-11-17T03:34:06.228Z",
+            "error": "HTTP 502 at https://www.anker.com/de/collections/benefits-me-hp-audio",
+            "checkedAt": "2026-11-17T04:45:12.339Z",
+            "attemptCount": 1
+          },
+          {
+            "url": "https://www.anker.com/de/collections/customer-recall",
+            "pageType": "collection",
+            "sourceReason": "content_check",
+            "firstDiscoveredAt": "2026-11-17T03:34:06.228Z",
+            "error": "HTTP 502 at https://www.anker.com/de/collections/customer-recall",
+            "checkedAt": "2026-11-17T04:45:19.706Z",
+            "attemptCount": 1
+          },
+          {
+            "url": "https://www.anker.com/de/collections/excluding-new-release-accessories",
+            "pageType": "collection",
+            "sourceReason": "content_check",
+            "firstDiscoveredAt": "2026-11-17T03:34:06.228Z",
+            "error": "HTTP 502 at https://www.anker.com/de/collections/excluding-new-release-accessories",
+            "checkedAt": "2026-11-17T04:45:39.538Z",
+            "attemptCount": 1
+          }
+        ],
+        "deferredPages": 191
       }
     },
     {
@@ -1383,8 +2950,8 @@
         "siteUrl": "https://www.eufy.com/eu-fr/collections/robot-lawn-mower",
         "sitemapUrl": "https://www.eufy.com/sitemap.xml"
       },
-      "checkedAt": "2026-11-16T14:49:19.625Z",
-      "status": "ok",
+      "checkedAt": "2026-11-17T04:45:51.360Z",
+      "status": "partial_content_pending",
       "baseline": false,
       "pageCount": 1229,
       "breakdown": {
@@ -1412,33 +2979,33 @@
           },
           {
             "url": "https://www.eufy.com/server-sitemap-index.xml",
-            "sha256": "020e1417d52e8edbe82daf4460a4ae2fc4a4fa9d75b31f0cee667012170ade19",
+            "sha256": "1d16f00d3901d0f219abcba9629384d9ce1459e97aa82a081435610a6e0c45aa",
             "bytes": 2467,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/020e1417d52e8edbe82daf4460a4ae2fc4a4fa9d75b31f0cee667012170ade19.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/1d16f00d3901d0f219abcba9629384d9ce1459e97aa82a081435610a6e0c45aa.xml"
           },
           {
             "url": "https://www.eufy.com/server-sitemap-index-pages.xml",
-            "sha256": "db7ecaf9dea88fa7f9626f08ff44c27f8e5083bbef55242c5b9072a366441bde",
-            "bytes": 357629,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/db7ecaf9dea88fa7f9626f08ff44c27f8e5083bbef55242c5b9072a366441bde.xml"
+            "sha256": "9b3c27eb8a771f38ab37f1e6de8be47ff8e2f47136c1b89d755d8b84dafece76",
+            "bytes": 358016,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/9b3c27eb8a771f38ab37f1e6de8be47ff8e2f47136c1b89d755d8b84dafece76.xml"
           },
           {
             "url": "https://www.eufy.com/server-sitemap-index-products.xml",
-            "sha256": "0b5aebbcace2d899529afbb435b95aaf740798bcbb0beb98db4595506b1da478",
-            "bytes": 1015556,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/0b5aebbcace2d899529afbb435b95aaf740798bcbb0beb98db4595506b1da478.xml"
+            "sha256": "a85051fd1bd6ad955f305410dae3aa339a93bbb117be32e15da15282efa31ce0",
+            "bytes": 1014542,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/a85051fd1bd6ad955f305410dae3aa339a93bbb117be32e15da15282efa31ce0.xml"
           },
           {
             "url": "https://www.eufy.com/server-sitemap-index-collections.xml",
-            "sha256": "9b31ecb2a3e2eaa535fca6fa4fdc00446ced0efa898c0ea3a55bebe43aec1801",
+            "sha256": "ce2b297b0cc52ffc298b3dc6880ca52d7cc2c7c5a376c8da477fde6b62d8df2c",
             "bytes": 289438,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/9b31ecb2a3e2eaa535fca6fa4fdc00446ced0efa898c0ea3a55bebe43aec1801.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/ce2b297b0cc52ffc298b3dc6880ca52d7cc2c7c5a376c8da477fde6b62d8df2c.xml"
           },
           {
             "url": "https://www.eufy.com/server-sitemap-index-blog.xml",
-            "sha256": "6855a5241a74297ac09b39ef69e595ad8b07cc56db7bfcb0553299981ccc0775",
-            "bytes": 796994,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/6855a5241a74297ac09b39ef69e595ad8b07cc56db7bfcb0553299981ccc0775.xml"
+            "sha256": "96cf6bef99dc63644ffcfb78c3cac8179996b8088ac294bed017425dc9756b53",
+            "bytes": 797165,
+            "rawEvidencePath": ".site-private/full-sitemap-xml/eufy-fr/96cf6bef99dc63644ffcfb78c3cac8179996b8088ac294bed017425dc9756b53.xml"
           },
           {
             "url": "https://www.eufy.com/sitemap_agentic_discovery.xml",
@@ -1448,239 +3015,44 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-16T14:49:19.625Z",
+        "inventoryCheckedAt": "2026-11-17T04:45:51.360Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43888920453",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43888920453-1"
+          "name": "site-private-44018596210-1"
         },
-        "changedPageDispositions": [
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/best-battery-powered-lawn-mower",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "eec6f00ae8172326204b9d8ae7dcec24682471e02cd3982ca08ceaf4fed09e27",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/eec6f00ae8172326204b9d8ae7dcec24682471e02cd3982ca08ceaf4fed09e27.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-46C7D637FADE4990"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/best-lawn-mower-for-small-yard",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "4cc5859b8cabde80e1760723b68eba0993d227eb55f3445bfbef0fdad1009f79",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/4cc5859b8cabde80e1760723b68eba0993d227eb55f3445bfbef0fdad1009f79.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-F2FEEC297BBBC52C"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/best-mulching-lawnmower",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "d864a5e0299ae66fd9a6cdc2b4efc627767baf909f2b11b6513b1b0d66e7de46",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/d864a5e0299ae66fd9a6cdc2b4efc627767baf909f2b11b6513b1b0d66e7de46.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-86A07592810DC222"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/best-time-to-buy-a-lawn-mower",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "5d412c9748a28d7fa4f42a7cd3b660d5f7c6c5f9f602b65a7bd60419538cc018",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/5d412c9748a28d7fa4f42a7cd3b660d5f7c6c5f9f602b65a7bd60419538cc018.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-8EF9600C980E20FB"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/can-i-mow-the-lawn-on-a-public-holiday",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "46c3c27006d77a14f98745de80e2e6a2f608e2da12fc9099154f8bfed5282ec9",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/46c3c27006d77a14f98745de80e2e6a2f608e2da12fc9099154f8bfed5282ec9.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-5B401A996F3C73F9"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/blogs/lawn-mower/electric-lawnmower-battery-life",
-            "pageType": "blog",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "f1de2521a7f28201957cf9fec93938004605fce727979c6e528aca11c4369913",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/f1de2521a7f28201957cf9fec93938004605fce727979c6e528aca11c4369913.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-F3BF7258C0208369"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "caf22c436d4b7f26b7a8add1c772646c671d5e58fbdea9fdfe850dbcf0f34fe6",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/caf22c436d4b7f26b7a8add1c772646c671d5e58fbdea9fdfe850dbcf0f34fe6.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-F808912003B70966"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/2026-fpd",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "27ee3026eab3cef1e24beaca18a1f7c6a678d712ccc2f3b908507a2c5dd396ca",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/27ee3026eab3cef1e24beaca18a1f7c6a678d712ccc2f3b908507a2c5dd396ca.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-D2EE6975E778B380"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/appliance-hot-deal",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "f4274942e4737994f3f178aaf27219769fe414d2107dcb2316ea1a10a672d73b",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/f4274942e4737994f3f178aaf27219769fe414d2107dcb2316ea1a10a672d73b.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-27784CB7151A1E61"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/appliance-hot-deal-26fpd",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "f6c40346b187d80e4f6fb17493d55f19a033963c468ffc26ab0af142b8623e20",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/f6c40346b187d80e4f6fb17493d55f19a033963c468ffc26ab0af142b8623e20.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-6D776F51E74CA0A2"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/appliance-hot-deal-draft",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "0bee6c2cb1474ce099e8209b89254322c60e84e90b85a3a9e340bb0bd7eb6536",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/0bee6c2cb1474ce099e8209b89254322c60e84e90b85a3a9e340bb0bd7eb6536.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-B4C7D471BE3C9A84"
-          },
-          {
-            "disposition": "baseline_only",
-            "reason": "no_comparable_previous_page_body",
-            "url": "https://www.eufy.com/eu-fr/appliance-hot-deal1",
-            "pageType": "page",
-            "sourceReason": "retry_content_check",
-            "htmlSha256": "d702bde16f07dc5b28b098c587e0414dfa37356b377fba5bd2e2559e0550d6b6",
-            "rawEvidencePath": ".site-private/full-sitemap-html/eufy-fr/d702bde16f07dc5b28b098c587e0414dfa37356b377fba5bd2e2559e0550d6b6.html",
-            "checkedAt": "2026-11-16T14:49:19.625Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "43888920453",
-              "attempt": "1",
-              "name": "site-private-43888920453-1"
-            },
-            "classificationReviewId": "SCR-2C3348D09AD38DC7"
-          }
-        ],
-        "pendingContentCount": 0,
+        "changedPageDispositions": [],
+        "pendingContentCount": 1,
         "pendingRemovedCount": 0,
-        "heldContentCount": 0,
-        "classificationHeldCount": 0,
+        "heldContentCount": 11,
+        "classificationHeldCount": 11,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
         "bulkLastmodSampleCount": 0,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "43888920453",
+          "runId": "44018596210",
           "attempt": "1",
-          "name": "site-private-43888920453-1"
+          "name": "site-private-44018596210-1"
         },
         "note": ""
       },
       "contentInspection": {
-        "inspectedPages": 12,
+        "inspectedPages": 1,
         "meaningfulChanges": 0,
-        "errors": [],
+        "errors": [
+          {
+            "url": "https://www.eufy.com/eu-fr/bfcm-2025-iot",
+            "pageType": "page",
+            "sourceReason": "content_check",
+            "firstDiscoveredAt": "",
+            "error": "HTTP 500 at https://www.eufy.com/eu-fr/bfcm-2025-iot",
+            "checkedAt": "2026-11-17T04:46:06.902Z",
+            "attemptCount": 4
+          }
+        ],
         "deferredPages": 0
       }
     }
@@ -1925,7 +3297,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-16T14:49:46.739Z",
+    "checkedAt": "2026-11-17T04:46:08.186Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -1937,7 +3309,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T14:49:46.739Z",
+        "checkedAt": "2026-11-17T04:46:08.186Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1964,7 +3336,7 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T14:49:46.739Z",
+        "checkedAt": "2026-11-17T04:46:08.186Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -1991,7 +3363,7 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T14:49:46.739Z",
+        "checkedAt": "2026-11-17T04:46:08.186Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -2018,7 +3390,7 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-16T14:49:46.739Z",
+        "checkedAt": "2026-11-17T04:46:08.186Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -8996,8 +10368,20 @@
   "collectionScope": {
     "brand": "all",
     "siteIds": [
-      "eufy-de-anker"
+      "mammotion-us",
+      "mammotion-de",
+      "mammotion-uk",
+      "mammotion-fr",
+      "mova-us",
+      "mova-de",
+      "mova-fr",
+      "ecovacs-us",
+      "dreame-de",
+      "dreame-fr",
+      "dreame-us",
+      "eufy-de-anker",
+      "eufy-fr"
     ],
-    "collectedAt": "2026-11-16T16:12:42.417Z"
+    "collectedAt": "2026-11-17T04:46:08.118Z"
   }
 }
