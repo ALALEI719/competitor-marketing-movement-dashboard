@@ -11,13 +11,13 @@
     "sites": 13,
     "healthySites": 10,
     "pages": 10162,
-    "pendingChanges": 2,
+    "pendingChanges": 1,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 92,
-    "pendingChannelChanges": 2,
+    "pendingChannelChanges": 1,
     "prSources": 20,
     "healthyPrSources": 20,
     "prChanges": 42,
@@ -3321,147 +3321,6 @@
     {
       "type": "content_change",
       "reviewStatus": "pending",
-      "siteId": "mammotion-de",
-      "brand": "Mammotion",
-      "country": "德国",
-      "discoveredAt": "2026-11-17T09:30:50.212Z",
-      "publishDate": "",
-      "url": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
-      "pageType": "blog",
-      "sourceEvidence": {
-        "schemaVersion": "1.0",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
-        "siteId": "mammotion-de",
-        "sha256": "4aa9368b0c31f9aea81d9a7cae9bbc11fa529f481d5a44aecb82455742ae6a63",
-        "rawHtmlSha256": "4aa9368b0c31f9aea81d9a7cae9bbc11fa529f481d5a44aecb82455742ae6a63",
-        "rawEvidencePath": ".site-private/nonfull-site-html/mammotion-de/4aa9368b0c31f9aea81d9a7cae9bbc11fa529f481d5a44aecb82455742ae6a63.html",
-        "manifestPath": ".site-private/nonfull-site-manifests/mammotion-de/eb34893e8c37b0557b4a07fe8b7c181c8ceba88786fa2989c03e82e77a71ebff-4aa9368b0c31f9aea81d9a7cae9bbc11fa529f481d5a44aecb82455742ae6a63-4a7dedf3c8bc.json",
-        "capturedAt": "2026-11-17T09:30:53.171Z",
-        "contentHash": "e3677b3748dd4acb81e52d261216eb4a1d30e31a424024cb490aac8be1d0d20f",
-        "bodyTextSha256": "757049909b9542d5a4579499e98ffa5db38175141021b11bce8c197fe83e44b9",
-        "extractionVersion": "blog-article-v2",
-        "titleExtractionProfile": "",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44055990435",
-          "attempt": "1",
-          "name": "site-private-44055990435-1"
-        }
-      },
-      "changedFields": [
-        "body"
-      ],
-      "contentEvidence": {
-        "status": "changed_content",
-        "beforeHash": "90c613f128d08e111d60ad21e4be2db7ba3d2ca2de3bf890101302b458d40cbb",
-        "afterHash": "e3677b3748dd4acb81e52d261216eb4a1d30e31a424024cb490aac8be1d0d20f",
-        "changedFields": [
-          "body"
-        ],
-        "beforeExcerpt": "Lücken in der Rasennarbe. Kahle oder dünn bewachsene Stellen können beispielsweise durch starke Beanspruchung, Trockenheit oder ungünstige Wachstumsbedingungen entstehen. Werden solche Bereiche nicht rechtzeitig nachgesät, können sich dort andere Pflanzen leichter etablieren. Besonders offene Bodens",
-        "afterExcerpt": ". Lücken in der Rasennarbe. Kahle oder dünn bewachsene Stellen können beispielsweise durch starke Beanspruchung, Trockenheit oder ungünstige Wachstumsbedingungen entstehen. Werden solche Bereiche nicht rechtzeitig nachgesät, können sich dort andere Pflanzen leichter etablieren. Besonders offene Bode"
-      },
-      "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "summary": "页面关键内容变化：，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "e9b7006d1beaf2ef492d9a6f86ad340d28e218abc630db14581e4805f60626b1",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.02
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.94,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0,
-              "routine_content_refresh": 0.95,
-              "other": 0.05
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 0.18,
-            "confidence": 0.86,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.83,
-              "1": 0.17,
-              "2": 0,
-              "3": 0,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "none",
-            "confidence": 0.98,
-            "probabilities": {
-              "none": 0.99,
-              "event_1": 0.01
-            }
-          }
-        },
-        "latencyMs": 152,
-        "usage": {
-          "input_tokens": 5280,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-17T09:30:53.343Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-E33405EAA10A"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
       "siteId": "mova-de",
       "brand": "Mova",
       "country": "德国",
@@ -4091,7 +3950,7 @@
         "countryCode": "DE",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
         "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
         "publishDate": "2026-11-16T09:17:19+01:00",
@@ -4131,7 +3990,11 @@
           "monitoringPriority": 1.18,
           "priorityConfidence": 0.77
         },
-        "humanAssessment": null
+        "humanAssessment": {
+          "newProductRelation": "uncertain",
+          "marketingTheme": "unclassified",
+          "reviewedAt": "2026-11-17T12:00:20.568Z"
+        }
       },
       {
         "recordId": "CH-B5B86D3B1D82",
@@ -8823,56 +8686,6 @@
       }
     ],
     "pendingRecords": [
-      {
-        "recordId": "CH-BAC0BA40DEDC",
-        "sourceId": "mammotion-de-blog",
-        "brand": "Mammotion",
-        "country": "德国",
-        "countryCode": "DE",
-        "channel": "blog",
-        "changeType": "content_updated",
-        "reviewStatus": "pending",
-        "title": "Unkraut im Rasen: Arten erkennen, entfernen und vorbeugen",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-im-rasen",
-        "publishDate": "2026-11-16T09:17:19+01:00",
-        "updatedAt": "2026-11-17T10:10:24+01:00",
-        "discoveredAt": "2026-11-17T09:35:58.300Z",
-        "summary": "Unkraut im Rasen erkennen und richtig behandeln: Erfahren Sie, warum Löwenzahn, Klee & Co. wachsen und wie Sie Unkraut vorbeugen. Mehr",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "changed_content",
-          "beforeHash": "90c613f128d08e111d60ad21e4be2db7ba3d2ca2de3bf890101302b458d40cbb",
-          "afterHash": "e3677b3748dd4acb81e52d261216eb4a1d30e31a424024cb490aac8be1d0d20f",
-          "changedFields": [
-            "body"
-          ],
-          "beforeExcerpt": "Lücken in der Rasennarbe. Kahle oder dünn bewachsene Stellen können beispielsweise durch starke Beanspruchung, Trockenheit oder ungünstige Wachstumsbedingungen entstehen. Werden solche Bereiche nicht rechtzeitig nachgesät, können sich dort andere Pflanzen leichter etablieren. Besonders offene Bodens",
-          "afterExcerpt": ". Lücken in der Rasennarbe. Kahle oder dünn bewachsene Stellen können beispielsweise durch starke Beanspruchung, Trockenheit oder ungünstige Wachstumsbedingungen entstehen. Werden solche Bereiche nicht rechtzeitig nachgesät, können sich dort andere Pflanzen leichter etablieren. Besonders offene Bode"
-        },
-        "feedEvidence": {
-          "changedFields": [
-            "updated_at"
-          ],
-          "publishedAt": "2026-11-16T09:17:19+01:00",
-          "updatedAt": "2026-11-17T10:10:24+01:00"
-        },
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "not_related",
-          "newProductProbability": 0,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_education",
-          "themeConfidence": 1,
-          "monitoringPriority": 1.18,
-          "priorityConfidence": 0.77
-        },
-        "humanAssessment": null
-      },
       {
         "recordId": "CH-CEA994D4CA25",
         "sourceId": "mammotion-fr-blog",
