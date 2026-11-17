@@ -1,7 +1,47 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T14:28:00.379Z",
+  "updatedAt": "2026-11-17T15:48:00.200Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "54e9482c8b18b16fad3844adff91b9536106b3d31bda9a718fe58c11129f2840",
+        "afterHash": "f619e021b0c4a952f0261d4a8015e6b3656e7cff801918d35312ff89e11c9303",
+        "changedFields": [
+          "price"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-2C48E7C97B80",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T15:12:37.640Z",
+      "publishDate": "",
+      "title": "MOVA 法国割草机车库页面售价由99.50欧元调整至99欧元",
+      "summary": "法国官网 MMGM20 车库商品页售价由前版99.50欧元调整至99欧元，页面列原价199欧元。该配件适配 LiDAX Ultra 800/1200/1600 及 MOVA 600/1000/600 Kit。调价生效日期未知。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/products/garage-2026-pour-mova-robot-tondeuse-lidax-ultra-800-1200-1600-mova-600-mova-1000"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/products/garage-2026-pour-mova-robot-tondeuse-lidax-ultra-800-1200-1600-mova-600-mova-1000",
+          "capturedAt": "2026-11-17T15:12:37.640Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T15:47:59.856Z"
+    },
     {
       "actionId": "ACT-B57495F0FA8E",
       "entityId": "",
