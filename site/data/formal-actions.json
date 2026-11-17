@@ -1,7 +1,45 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T06:55:15.410Z",
+  "updatedAt": "2026-11-17T07:57:13.429Z",
   "actions": [
+    {
+      "actionId": "ACT-D4509B64CF5F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T07:37:45.193Z",
+      "publishDate": "2026-11-17T06:39:48+00:00",
+      "title": "Mammotion 英国发布 AWD 机器人割草机坡地牵引力指南",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "LUBA",
+          "source": "article_body",
+          "excerpt": "roximately 38.6°, not 80°. For example, Mammotion LUBA series robot lawn mowers can handle gradients of "
+        }
+      ],
+      "summary": "英国官网文章比较 AWD 与两驱割草机在坡地和不平整草坪上的牵引表现，解释坡度百分比与角度的关系、轮胎及地面条件的影响，并以 LUBA 系列举例介绍品牌标称最高 80%（约 38.6°）爬坡能力及适用条件。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/how-awd-robot-lawn-mower-works"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/how-awd-robot-lawn-mower-works",
+          "discoveredAt": "2026-11-17T07:37:45.193Z",
+          "publishDate": "2026-11-17T06:39:48+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T07:57:13.429Z"
+    },
     {
       "actionId": "ACT-3E17364C2C92",
       "entityId": "",
