@@ -1,7 +1,211 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T12:00:20.568Z",
+  "updatedAt": "2026-11-17T12:20:02.484Z",
   "actions": [
+    {
+      "actionId": "ACT-B84FBB554181",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T12:11:48.113Z",
+      "publishDate": "",
+      "title": "Ecovacs 美国｜GOAT O1000 RTK割草机器人搜索广告",
+      "summary": "2026年11月17日在Google官方广告透明度中心，以美国、Google搜索、文字广告及11月14–17日筛选留存该ECOVACS割草机器人广告。当前完整预览主标题为ECOVACS GOAT O1000 RTK - ECOVACS Robotic Lawn Mower，正文宣传LiDAR增强RTK导航、定位和割草高度。原文末尾另有18000 Pa Suction Power，割草机参数适用性待核。平台仅披露该广告在美国最后展示为11月14日，首次展示未知。Google验证广告主为苏州科沃斯机器人电子商务有限公司，与科沃斯中国官网版权及用户协议主体同名，平台另列广告资助方Sinointeractive Digital Marketing Co., Ltd.。当前预览独立上线、变体总数与真实点击网址未知。",
+      "creative": "美国Google搜索文字广告，主标题和正文直接宣传GOAT O1000 RTK机器人割草机及导航、割草高度。",
+      "copy": "The unique LiDAR-enhanced RTK navigation upgrades with 0.79inch positioning precision. The cutting height can be adjusted from 1.2-3.6 inches in 0.4-inch increments. 18000 Pa Suction Power.",
+      "offer": "",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR14605858802054987777/creative/CR11618184829748641793?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=US&domain=ecovacs.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "listing_scope",
+          "sha256": "930051c4e60c7acbaac11bc76bbfbd2988eb00706c77183b20f8c7a7e39fa6d4",
+          "bytes": 5553,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:10:42.268Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=US&domain=ecovacs.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_endpoints",
+          "sha256": "92b62ca26c8d509bbfe22b2422beaa32d58501477db72f01718960312db5d728",
+          "bytes": 16528,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:10:41.566Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=US&domain=ecovacs.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_application_closed_calendar",
+          "sha256": "5e3c1b687c933a9ef80e2a8645ee5f1a4b1e5aa09fb14ea4a7c54e703893cf19",
+          "bytes": 4744,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:10:40.700Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=US&domain=ecovacs.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "inventory_identities",
+          "sha256": "505e6772ce1f23da3e8a703a152987c66b5b65f1593edbf07bc8847a28032bd5",
+          "bytes": 12838,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:10:59.037Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14605858802054987777/creative/CR11618184829748641793?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_dates_and_funder",
+          "sha256": "c00a123edeb595bf0fe035661302ad6d4256b43945d8c003be43cff9ee2e693a",
+          "bytes": 2485,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:11:48.113Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14605858802054987777/creative/CR11618184829748641793?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "85e83f6d2452bef61421b47f164f144bb9208eb2e790c6712524285e5f128904",
+          "bytes": 75320,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T12:11:48.113Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/8617510542399705969",
+          "kind": "platform_creative_image",
+          "sha256": "df320f10691eeb86f1871a5d694a43b5dd9f68c1f6a4a1a148ab081f54d5056f",
+          "bytes": 81183,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T12:13:01.882853+00:00"
+        },
+        {
+          "sourceId": "ecovacs-official-site",
+          "url": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
+          "kind": "official_goat_robotic_mower_category",
+          "sha256": "2af1bd61bd1959974629d9c82245be05a589ab6b9ada9b3ea5632ef0b271b965",
+          "bytes": 91858,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:13:02.407495+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T12:20:02.484Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR11618184829748641793",
+      "sourceRecordIds": [
+        "CR11618184829748641793"
+      ],
+      "advertiserId": "AR14605858802054987777",
+      "creativeId": "CR11618184829748641793",
+      "advertiserName": "苏州科沃斯机器人电子商务有限公司",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T12:11:48.113Z",
+      "firstObservedAt": "2026-11-17T12:11:48.113Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-14",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google美国范围仅披露最后展示为2026-11-14，首次展示日期未知。当前预览于2026-11-17留存，其独立上线与全球活动时间未知。",
+      "notificationEligible": false,
+      "notificationReason": "美国来源未披露首次展示日期，通知所需日期证据不足。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "ECOVACS GOAT O1000 RTK - ECOVACS Robotic Lawn Mower",
+          "copy": "The unique LiDAR-enhanced RTK navigation upgrades with 0.79inch positioning precision. The cutting height can be adjusted from 1.2-3.6 inches in 0.4-inch increments. 18000 Pa Suction Power.",
+          "cta": [],
+          "offer": "",
+          "displayUrl": "www.ecovacs.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T12:11:48.113Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR14605858802054987777/creative/CR11618184829748641793?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "85e83f6d2452bef61421b47f164f144bb9208eb2e790c6712524285e5f128904",
+              "bytes": 75320,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T12:11:48.113Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/8617510542399705969",
+              "kind": "platform_creative_image",
+              "sha256": "df320f10691eeb86f1871a5d694a43b5dd9f68c1f6a4a1a148ab081f54d5056f",
+              "bytes": 81183,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T12:13:01.882853+00:00"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "苏州科沃斯机器人电子商务有限公司",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR14605858802054987777?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "d73f66428e44322d585c250f0c1b7b8fa7392e3bb645e8ec404c0389c3364c8a",
+            "bytes": 5708,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:12:04.291Z"
+          },
+          {
+            "sourceId": "ecovacs-official-site",
+            "url": "https://www.ecovacs.cn/",
+            "kind": "official_china_brand_copyright_legal_name",
+            "sha256": "7ea0e6e7335c5576be99e885f73857debbd5ddbc8952f3f4d5ad7b1893442573",
+            "bytes": 41952,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:13:44.146345+00:00"
+          },
+          {
+            "sourceId": "ecovacs-official-site",
+            "url": "https://www.ecovacs.cn/policy/agreement",
+            "kind": "official_china_website_user_agreement_legal_entity",
+            "sha256": "3428a901b90fb5251b7d4e3f720bdfcf7bcce7a22c3484b0c666e4a5866e56d2",
+            "bytes": 55801,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:13:44.698456+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "www.ecovacs.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-FC34CC43788F",
       "entityId": "",
