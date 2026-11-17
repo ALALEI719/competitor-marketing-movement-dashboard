@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T09:09:05.224Z",
+  "updatedAt": "2026-11-17T10:02:10.610Z",
   "actions": [
+    {
+      "actionId": "ACT-65D7F04EF51B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T09:35:58.300Z",
+      "publishDate": "2026-11-17T08:47:23+00:00",
+      "title": "Mammotion 英国发布坡地机器人割草机测量与选购指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "英国官网指南介绍草坪坡度测量方法，解释最大爬坡指标与边界、侧坡限制，比较两驱与全轮驱动的适用条件，并列出导航、续航、安装测试和购买前检查事项。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/how-to-choose-robot-lawn-mower-for-slopes"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/how-to-choose-robot-lawn-mower-for-slopes",
+          "discoveredAt": "2026-11-17T09:35:58.300Z",
+          "publishDate": "2026-11-17T08:47:23+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T10:02:10.424Z"
+    },
     {
       "actionId": "ACT-EDM-DDB40C6C52C7",
       "entityId": "",
