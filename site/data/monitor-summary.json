@@ -11,17 +11,17 @@
     "sites": 13,
     "healthySites": 11,
     "pages": 10167,
-    "pendingChanges": 7,
+    "pendingChanges": 2,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
     "blogChanges": 92,
     "pendingChannelChanges": 1,
-    "prSources": 22,
-    "healthyPrSources": 22,
-    "prChanges": 46,
-    "pendingPrChanges": 6
+    "prSources": 23,
+    "healthyPrSources": 23,
+    "prChanges": 47,
+    "pendingPrChanges": 7
   },
   "sites": [
     {
@@ -3374,508 +3374,6 @@
     }
   ],
   "pendingRecords": [
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-fr",
-      "brand": "Mova",
-      "country": "法国",
-      "discoveredAt": "2026-11-17T22:24:42.120Z",
-      "publishDate": "",
-      "url": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra",
-        "sha256": "0d7b56737eb96a58da680f5f060e6a71577829300cb1d28ccf76d063ed68ef3f",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/0d7b56737eb96a58da680f5f060e6a71577829300cb1d28ccf76d063ed68ef3f.html",
-        "capturedAt": "2026-11-17T22:24:42.120Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44189223674",
-          "attempt": "1",
-          "name": "site-private-44189223674-1"
-        }
-      },
-      "beforeSourceEvidence": {
-        "sourceUrl": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra",
-        "sha256": "7d4e1410d707f70c5c22fc76266e068837563f9024405d58d0909143573009af",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/7d4e1410d707f70c5c22fc76266e068837563f9024405d58d0909143573009af.html",
-        "capturedAt": "2026-11-17T21:09:30.381Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44176262797",
-          "attempt": "1",
-          "name": "site-private-44176262797-1"
-        }
-      },
-      "changedFields": [
-        "body"
-      ],
-      "contentEvidence": {
-        "status": "changed_content",
-        "beforeHash": "f82c10465486dba81d97266b6b8542da5ef834c390a88bc1afe86037cdce1816",
-        "afterHash": "8f7806ef9cc840050304ad8a9665f029b715ec39b8a8333b348d83f5dec156e3",
-        "changedFields": [
-          "body"
-        ]
-      },
-      "summary": "页面关键内容变化：body，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "5e92036322e882ace5746770134e91d0d68a96b388b579d995345b743a8cb366",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.07
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "routine_content_refresh",
-            "confidence": 0.98,
-            "probabilities": {
-              "product_launch": 0,
-              "promotion": 0,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0,
-              "routine_content_refresh": 0.98,
-              "other": 0.02
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 1,
-            "probabilities": {
-              "not_launch_related": 1,
-              "weak_signal": 0,
-              "teaser": 0,
-              "announcement": 0,
-              "preorder": 0,
-              "on_sale": 0
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 0.28,
-            "confidence": 0.75,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.74,
-              "1": 0.23,
-              "2": 0.02,
-              "3": 0.01,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "none",
-            "confidence": 0.4,
-            "probabilities": {
-              "none": 0.7,
-              "event_1": 0.3
-            }
-          }
-        },
-        "latencyMs": 115,
-        "usage": {
-          "input_tokens": 7270,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-17T22:24:46.266Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-1B28800DE985"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-17T22:24:05.996Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
-        "sha256": "48a8d48955054732a4dc49fed2c0e489550dac2de7cb7a8801305e0cecfde384",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/48a8d48955054732a4dc49fed2c0e489550dac2de7cb7a8801305e0cecfde384.html",
-        "capturedAt": "2026-11-17T22:24:05.996Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44189223674",
-          "attempt": "1",
-          "name": "site-private-44189223674-1"
-        }
-      },
-      "beforeSourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
-        "sha256": "ab6a0b0aad4cd84e122536c4a15a61caf8b736f341894e01b82eabeb988b5567",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/ab6a0b0aad4cd84e122536c4a15a61caf8b736f341894e01b82eabeb988b5567.html",
-        "capturedAt": "2026-11-17T03:04:55.885Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44007336687",
-          "attempt": "1",
-          "name": "site-private-44007336687-1"
-        }
-      },
-      "changedFields": [
-        "offer",
-        "body"
-      ],
-      "contentEvidence": {
-        "status": "changed_content",
-        "beforeHash": "9f7d06a0e1f05e11709219bb10251e0d93440d6d8ff2cab48c2232130921802a",
-        "afterHash": "b6ae642a03b18f0563da442a5e06436bfc670b613ae9977b0da0ec76f665cb68",
-        "changedFields": [
-          "offer",
-          "body"
-        ]
-      },
-      "summary": "页面关键内容变化：offer、body，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "ef6f55955959632a6751a3434062286769a2dd660d61295dad2592198a955c6c",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.88
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "promotion",
-            "confidence": 0.81,
-            "probabilities": {
-              "product_launch": 0.09,
-              "promotion": 0.84,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.05,
-              "routine_content_refresh": 0.02,
-              "other": 0
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.44,
-            "probabilities": {
-              "not_launch_related": 0.53,
-              "weak_signal": 0.11,
-              "teaser": 0.01,
-              "announcement": 0.2,
-              "preorder": 0,
-              "on_sale": 0.15
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 2.6,
-            "confidence": 0.63,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.01,
-              "1": 0.03,
-              "2": 0.34,
-              "3": 0.61,
-              "4": 0.01
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.98,
-            "probabilities": {
-              "none": 0.01,
-              "event_1": 0.99
-            }
-          }
-        },
-        "latencyMs": 131,
-        "usage": {
-          "input_tokens": 4344,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-17T22:24:11.827Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-D6B5DB2AD8F3"
-    },
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-17T22:24:05.996Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/products/a2",
-      "pageType": "product",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/a2",
-        "sha256": "219d82ef481e0df17d37739eece208171374cffdf56a382854e9c40f27ed8a7f",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/219d82ef481e0df17d37739eece208171374cffdf56a382854e9c40f27ed8a7f.html",
-        "capturedAt": "2026-11-17T22:24:05.996Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44189223674",
-          "attempt": "1",
-          "name": "site-private-44189223674-1"
-        }
-      },
-      "beforeSourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/products/a2",
-        "sha256": "6a909919d85fffd8ee4deb15ca463e56dffc2fbb665f09fa57a371f98f21d853",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/6a909919d85fffd8ee4deb15ca463e56dffc2fbb665f09fa57a371f98f21d853.html",
-        "capturedAt": "2026-11-17T03:04:55.885Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44007336687",
-          "attempt": "1",
-          "name": "site-private-44007336687-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "contentEvidence": {
-        "status": "changed_content",
-        "beforeHash": "22b80b30c96a840a30651c417d89dcf0014e683a533219ab87a74ff3d497449d",
-        "afterHash": "9286f9ffb4280f136f178f5e6cbb9d6d48d143ab3403ee4e1610411521226031",
-        "changedFields": [
-          "offer"
-        ]
-      },
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "3b3ebe1da1a29c74d7ded2e0ba43e85a0b9abd0f556f2a971c2dbffb89f14e84",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.86
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "promotion",
-            "confidence": 0.93,
-            "probabilities": {
-              "product_launch": 0.03,
-              "promotion": 0.94,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.02,
-              "routine_content_refresh": 0.01,
-              "other": 0
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.75,
-            "probabilities": {
-              "not_launch_related": 0.79,
-              "weak_signal": 0.05,
-              "teaser": 0.01,
-              "announcement": 0.07,
-              "preorder": 0,
-              "on_sale": 0.08
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 2.51,
-            "confidence": 0.58,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.01,
-              "1": 0.03,
-              "2": 0.41,
-              "3": 0.55,
-              "4": 0
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.98,
-            "probabilities": {
-              "none": 0.01,
-              "event_1": 0.99
-            }
-          }
-        },
-        "latencyMs": 147,
-        "usage": {
-          "input_tokens": 6927,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-17T22:24:39.086Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-9B24C4F6E0FF"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-uk",
-      "brand": "Mammotion",
-      "country": "英国",
-      "discoveredAt": "2026-11-17T22:23:25.504Z",
-      "publishDate": "",
-      "url": "https://uk.mammotion.com/blogs/news/how-to-choose-robot-lawn-mower-for-slopes",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "Robot Lawn Mower for Slopes: How to Measure and Choose",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "8a08f3111d5b317fc375f642686a8d0a3528e7dd141a5e7866c48ad40fdd3cdc",
-        "changedFields": []
-      },
-      "sourceEvidence": {
-        "schemaVersion": "1.0",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/how-to-choose-robot-lawn-mower-for-slopes",
-        "siteId": "mammotion-uk",
-        "sha256": "26e1ba2b04afb59f3c860f83ca4ec8109090b1b23f385cb1a0e079d5a384a79b",
-        "rawHtmlSha256": "26e1ba2b04afb59f3c860f83ca4ec8109090b1b23f385cb1a0e079d5a384a79b",
-        "rawEvidencePath": ".site-private/nonfull-site-html/mammotion-uk/26e1ba2b04afb59f3c860f83ca4ec8109090b1b23f385cb1a0e079d5a384a79b.html",
-        "manifestPath": ".site-private/nonfull-site-manifests/mammotion-uk/a6a08746018cfbbaeb8e00d79538df68a701272a0a4df9bc2d60866f7be77478-26e1ba2b04afb59f3c860f83ca4ec8109090b1b23f385cb1a0e079d5a384a79b-e6dcc4de3982.json",
-        "capturedAt": "2026-11-17T22:23:28.541Z",
-        "contentHash": "8a08f3111d5b317fc375f642686a8d0a3528e7dd141a5e7866c48ad40fdd3cdc",
-        "bodyTextSha256": "f5574ba2f018286071490f708af6b6e7e9b0ac0857702ee672676cf825d52914",
-        "extractionVersion": "blog-article-v2",
-        "titleExtractionProfile": "",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44189223674",
-          "attempt": "1",
-          "name": "site-private-44189223674-1"
-        }
-      },
-      "recordId": "SITE-1E5C98DA648C"
-    },
-    {
-      "type": "new_page",
-      "reviewStatus": "pending",
-      "siteId": "mammotion-de",
-      "brand": "Mammotion",
-      "country": "德国",
-      "discoveredAt": "2026-11-17T22:23:21.948Z",
-      "publishDate": "",
-      "url": "https://de.mammotion.com/blogs/news/unkraut-aus-dem-rasen-entfernen",
-      "pageType": "blog",
-      "summary": "Sitemap 新增页面，待确认是否为营销动作",
-      "title": "Unkraut aus dem Rasen entfernen: Die besten Methoden und Tipps",
-      "publicationEvidence": {
-        "date": "",
-        "precision": "unknown_or_conflicting",
-        "exactTimeAgrees": false,
-        "sourceTimes": []
-      },
-      "contentEvidence": {
-        "status": "new_content",
-        "beforeHash": "",
-        "afterHash": "3506a9681200ec8f01d06484664e19f16b41f46f2204137a8b042cbaffec65c8",
-        "changedFields": []
-      },
-      "sourceEvidence": {
-        "schemaVersion": "1.0",
-        "sourceUrl": "https://de.mammotion.com/blogs/news/unkraut-aus-dem-rasen-entfernen",
-        "siteId": "mammotion-de",
-        "sha256": "b75040b073ac693fe350353dc36c9ce90b7092f179ae059f177d7faca52ee54e",
-        "rawHtmlSha256": "b75040b073ac693fe350353dc36c9ce90b7092f179ae059f177d7faca52ee54e",
-        "rawEvidencePath": ".site-private/nonfull-site-html/mammotion-de/b75040b073ac693fe350353dc36c9ce90b7092f179ae059f177d7faca52ee54e.html",
-        "manifestPath": ".site-private/nonfull-site-manifests/mammotion-de/23cbe4acfcbed0ff38b31f07b6f184129662b0d3d1f19e5cd23c0ab38fa8793f-b75040b073ac693fe350353dc36c9ce90b7092f179ae059f177d7faca52ee54e-d01b7fea95af.json",
-        "capturedAt": "2026-11-17T22:23:24.736Z",
-        "contentHash": "3506a9681200ec8f01d06484664e19f16b41f46f2204137a8b042cbaffec65c8",
-        "bodyTextSha256": "0bd16613a0469389dfa30ba10b8ba0e323915b7d7dd75cce2ef3662d906de9d7",
-        "extractionVersion": "blog-article-v2",
-        "titleExtractionProfile": "",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44189223674",
-          "attempt": "1",
-          "name": "site-private-44189223674-1"
-        }
-      },
-      "recordId": "SITE-1FB71394D3B3"
-    },
     {
       "type": "content_change",
       "reviewStatus": "pending",
@@ -9423,7 +8921,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-11-17T21:28:13.400Z",
+    "checkedAt": "2026-11-17T22:49:33.045Z",
     "sources": [
       {
         "source": {
@@ -9436,12 +8934,12 @@
           "channel": "pr",
           "url": "https://www.chip.de/sitemap-articles-index.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 3757,
-        "pendingArticleCount": 476,
+        "pendingArticleCount": 378,
         "fetchedCount": 100,
         "bulkLastmodIgnored": true,
         "historicalSeedsBootstrapped": [],
@@ -9464,103 +8962,73 @@
         ],
         "verifiedRedirects": [
           {
-            "from": "https://www.chip.de/news/handy/google-pixel-11-pro-mit-diesen-staerken-ueberzeugt-das-top-smartphone_2999391a-61c7-4ff5-ae2f-559f91f5b997.html",
-            "to": "https://www.chip.de/news/handy/das-beste-google-handy-warum-uns-das-pixel-11-pro-ueberzeugt_2999391a-61c7-4ff5-ae2f-559f91f5b997.html",
+            "from": "https://www.chip.de/deals/schnaeppchen/koda-epiq-im-leasing-zum-kampfpreis-top-deal-oder-lockangebot_b407164e-0fb3-4087-b3ef-40eba5a8045e.html",
+            "to": "https://www.chip.de/deals/schnaeppchen/neues-e-suv-von-koda-im-leasing-epiq-aktuell-zum-kampfpreis-fahren_b407164e-0fb3-4087-b3ef-40eba5a8045e.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/so-guenstig-ist-es-auch-zu-hause-nicht-bei-allego-laden-sie-jetzt-fuer-19-cent-pro-kwh_2159341c-3b9a-4af2-9a50-c94b997c9b2f.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/guenstiger-als-zu-hause-ein-anbieter-verscherbelt-ladestrom-bis-ende-des-jahres_2159341c-3b9a-4af2-9a50-c94b997c9b2f.html",
+            "from": "https://www.chip.de/deals/schnaeppchen/toniebox-unterm-weihnachtsbaum-dieses-paket-bringt-mehr-als-hoergeschichten_dca21811-9e8a-48c4-b01f-42d30f820a11.html",
+            "to": "https://www.chip.de/deals/schnaeppchen/toniebox-unterm-weihnachtsbaum-dieses-paket-bietet-mehr-als-hoergeschichten_dca21811-9e8a-48c4-b01f-42d30f820a11.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/ist-vielen-autofahrern-ein-dorn-im-auge-so-lange-darf-ein-ueberholvorgang-bei-lkws-dauern_8ae7dcc3-4693-463b-9f6c-d6d95fba9f79.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/regt-viele-autofahrer-auf-so-lange-darf-ein-lkw-wirklich-ueberholen_8ae7dcc3-4693-463b-9f6c-d6d95fba9f79.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/derzeit-unter-45-euro-ooono-helfer-warnt-autofahrer-vor-gefahren_663bf89c-4e9d-486a-8244-5ce039f0c0b2.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/aktuell-unter-45-euro-ooono-helfer-warnt-autofahrer-vor-gefahren_663bf89c-4e9d-486a-8244-5ce039f0c0b2.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/bekannte-marke-ist-geschichte-insolventer-deutscher-fahrradhersteller-ist-verkauft_dfb28b9a-1817-48ac-ba1b-352b27bfbd2d.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/wegen-insolvenz-der-mutterfirma-bekannter-deutscher-fahrradhersteller-verschwindet_dfb28b9a-1817-48ac-ba1b-352b27bfbd2d.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/gta-6-bei-lidl-fuer-69-99-euro-warum-die-spielebox-ohne-disc-kommt_2b5f0441-6e9e-4f30-8e70-608d9343ce88.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/gta-6-bei-lidl-fuer-69-99-euro-warum-die-spielbox-ohne-disc-kommt_2b5f0441-6e9e-4f30-8e70-608d9343ce88.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/verbrennerfahrer-wird-vor-ladesaeule-abgeschleppt-fahrer-klagt-gericht-spricht-urteil_4e890486-162f-493e-86c3-c433e129c1a7.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/verbrenner-wird-vor-ladesaeule-abgeschleppt-fahrer-klagt-das-sagt-das-gericht_4e890486-162f-493e-86c3-c433e129c1a7.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/nie-wieder-vergeblich-zu-aldi-diese-app-funktion-kann-ihnen-den-weg-sparen_16185cc0-8aa6-4cc8-bf1f-a253bc214d50.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/nie-wieder-vergeblich-zu-aldi-diese-app-funktion-kann-ihnen-den-weg-ersparen_16185cc0-8aa6-4cc8-bf1f-a253bc214d50.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/einfach-und-guenstig-diese-3-rezepte-aus-der-zeit-der-weltwirtschaftskrise-ueberzeugen-noch-heute_78db3d9f-0146-4823-a97e-fb7b78f8bc88.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/einfach-und-guenstig-3-rezepte-aus-der-zeit-der-weltwirtschaftskrise-ueberzeugen-noch-heute_78db3d9f-0146-4823-a97e-fb7b78f8bc88.html",
+            "from": "https://www.chip.de/deals/schnaeppchen/wenn-es-am-schreibtisch-kalt-bleibt-lidl-bietet-keramik-heizluefter-fuer-17-99-euro-an_180d31ee-cbcd-46cf-8319-832397b6e554.html",
+            "to": "https://www.chip.de/deals/schnaeppchen/wenn-es-am-schreibtisch-kalt-bleibt-lidl-bietet-keramik-heizluefter-fuer-17-99-euro_180d31ee-cbcd-46cf-8319-832397b6e554.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/tv-streaming-sound/jbl-partybox-stage-320-chip-testsieger-unter-partyboxen_c216b274-2431-4f8a-b3ad-d0de755138db.html",
-            "to": "https://www.chip.de/news/tv-streaming-sound/testsieger-warum-diese-jbl-partybox-ihre-konkurrenz-aussticht_c216b274-2431-4f8a-b3ad-d0de755138db.html",
+            "from": "https://www.chip.de/news/cyber-security/kunden-der-deutschen-bank-duerfen-nicht-reagieren-kriminelle-fordern-ausweis-und-adressnachweis_fb3856f8-8805-4430-9912-8df3742abdba.html",
+            "to": "https://www.chip.de/news/cyber-security/e-mails-stammen-nicht-von-der-deutschen-bank-kriminelle-fordern-ausweis-und-adressnachweis_fb3856f8-8805-4430-9912-8df3742abdba.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/nie-dauerhaft-zuverlaessig-deutsche-stadt-legt-wasserstoff-muellauto-still_011b60ac-c935-4900-9648-262cb4ea600c.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/deutsche-stadt-legt-wasserstoff-muellauto-still-wird-nie-dauerhaft-zuverlaessig-sein_011b60ac-c935-4900-9648-262cb4ea600c.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/was-ist-der-unterschied-zwischen-gruener-gelber-und-roter-paprika_780e2614-c7d8-4abe-be29-66a7564dc1e5.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/gruene-gelbe-rote-paprika-meist-steckt-dieselbe-frucht-dahinter_780e2614-c7d8-4abe-be29-66a7564dc1e5.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/hobby-freizeit/die-galaxie-im-zimmer-dieser-sternenhimmel-projektor-ist-der-testsieger_5cc316a6-6764-47eb-95b3-4b4f33c0507a.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/jetzt-schon-an-weihnachtsgeschenke-denken-dieser-sternenhimmel-projektor-ist-testsieger_5cc316a6-6764-47eb-95b3-4b4f33c0507a.html",
+            "from": "https://www.chip.de/news/software/gta-6-fuer-kinder-verbieten-was-ein-medienexperte-eltern-empfiehlt_3d13b598-fe2c-4169-8b53-97a5f6661a5f.html",
+            "to": "https://www.chip.de/news/software/gta-6-ab-18-was-eltern-tun-sollten-wenn-kinder-das-spiel-trotzdem-spielen-wollen_3d13b598-fe2c-4169-8b53-97a5f6661a5f.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/auto-fahrrad/mit-dem-handy-am-steuer-erwischt-diese-neuen-blitzer-koennten-bald-ueberall-in-deutschland-stehen_53e4acdd-fc39-422c-86a2-cdc93d546450.html",
-            "to": "https://www.chip.de/news/auto-fahrrad/handy-blitzer-in-ganz-deutschland-bund-plant-neues-gesetz_53e4acdd-fc39-422c-86a2-cdc93d546450.html",
+            "from": "https://www.chip.de/news/geld-finanzen-recht/frueher-in-rente-wird-wohl-teurer-tabelle-zeigt-die-moeglichen-lebenslangen-abzuege_7ca05e1a-aade-44d0-9f66-246d1740e995.html",
+            "to": "https://www.chip.de/news/geld-finanzen-recht/fruehrente-koennte-144-euro-im-monat-mehr-kosten-tabelle-zeigt-die-neuen-abschlaege_7ca05e1a-aade-44d0-9f66-246d1740e995.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/business/waermepumpen-china-setzt-deutsche-hersteller-unter-druck_70dc483e-bee9-4767-a5df-67807513f5f7.html",
-            "to": "https://www.chip.de/news/business/nach-den-e-autos-startet-china-jetzt-den-angriff-auf-die-waermepumpen_70dc483e-bee9-4767-a5df-67807513f5f7.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/fuegen-sie-zwei-zutaten-hinzu-der-kartoffelsalat-aus-dem-supermarkt-schmeckt-sofort-besser_166ec122-d011-43e9-94c7-f5486a110b53.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/kartoffelsalat-aus-dem-supermarkt-dieser-einfache-trick-macht-ihn-besser_166ec122-d011-43e9-94c7-f5486a110b53.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/haushalt-garten/balkonkraftwerk-im-herbst-7-tipps-fuer-den-anlagencheck_8c023145-9026-404a-bf39-b9d806e8e48f.html",
-            "to": "https://www.chip.de/news/haushalt-garten/herbst-check-fuers-balkonkraftwerk-sieben-dinge-die-sie-jetzt-noch-tun-sollten_8c023145-9026-404a-bf39-b9d806e8e48f.html",
+            "from": "https://www.chip.de/news/gesundheit-fitness/biomedizinerin-warnt-das-machen-die-meisten-beim-kauf-von-kollagen-produkten-falsch_122c7386-9d84-44f9-9175-1d3f15a624ce.html",
+            "to": "https://www.chip.de/news/gesundheit-fitness/biomedizinerin-verraet-diese-fehler-machen-die-meisten-beim-kauf-von-kollagen-produkten_122c7386-9d84-44f9-9175-1d3f15a624ce.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/deals/schnaeppchen/deutschland-gegen-die-niederlande-live-so-sehen-sie-das-spiel-kostenlos_9f6bd982-31b3-44c3-adee-2aa0087d5780.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/deutschland-gegen-die-niederlande-live-wo-laeuft-das-spiel-im-free-tv_9f6bd982-31b3-44c3-adee-2aa0087d5780.html",
+            "from": "https://www.chip.de/news/software/212-gbyte-spieldaten-fuer-gta-6-dieser-rechner-zeigt-wann-ihr-download-fertig-ist_c9e07d45-7710-49db-8220-acf1cf674d22.html",
+            "to": "https://www.chip.de/news/software/ueber-200-gbyte-so-lange-dauert-der-download-von-gta-6_c9e07d45-7710-49db-8220-acf1cf674d22.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/die-perfekte-pizza-italiener-machen-sie-anders-und-lassen-ein-wichtiges-kuechenutensil-weg_e00a3c3c-4c0b-4642-b97e-4a87aa377095.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/die-perfekte-pizza-italiener-lassen-ein-wichtiges-kuechenutensil-weg_e00a3c3c-4c0b-4642-b97e-4a87aa377095.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/deals/schnaeppchen/fire-tv-stick-hd-zum-black-friday-guenstiges-tv-upgrade_108d8616-b0e6-449f-9e91-48590e50bed6.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/fire-tv-stick-hd-zum-black-friday-preiswertes-tv-upgrade_108d8616-b0e6-449f-9e91-48590e50bed6.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/software/gta-6-im-live-ticker-alle-news-infos-und-der-countdown-zum-release_11665404-9d87-4ab8-b5d5-227069309f57.html",
-            "to": "https://www.chip.de/news/software/gta-6-live-ticker-die-letzten-stunden-vor-dem-mega-release_11665404-9d87-4ab8-b5d5-227069309f57.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/rueckrufe/schwerwiegender-fehler-auf-dem-etikett-rueckruf-fuer-einen-bei-lidl-verkauften-thunfisch-salat_f9b7234f-a630-496f-bfe7-487976d7490f.html",
-            "to": "https://www.chip.de/news/rueckrufe/fehlerhaftes-etikett-rueckruf-fuer-einen-bei-lidl-verkauften-thunfisch-salat_f9b7234f-a630-496f-bfe7-487976d7490f.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/hobby-freizeit/warum-am-donnerstag-ploetzlich-so-viele-menschen-urlaub-nehmen_6030f741-7e8a-4f83-b96d-18ab0acbd6df.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/warum-am-donnerstag-ploetzlich-mehr-menschen-als-gewoehnlich-urlaub-nehmen_6030f741-7e8a-4f83-b96d-18ab0acbd6df.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/deals/schnaeppchen/gta-6-liegt-ab-heute-schon-bei-kaufland-im-regal-fuer-69-99-euro-mit-diesem-trick_36542dc1-d65a-4cb6-87ec-874c641866ca.html",
-            "to": "https://www.chip.de/deals/schnaeppchen/gta-6-steht-ab-sofort-bei-kaufland-im-regal-fuer-69-99-euro_36542dc1-d65a-4cb6-87ec-874c641866ca.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/hobby-freizeit/pilot-verraet-das-ist-der-entspannteste-sitzplatz-im-flugzeug_a23bd39c-52f7-4425-be78-2c0604a8a23c.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/pilot-erklaert-hier-finden-sie-den-entspanntesten-sitzplatz-im-flugzeug_a23bd39c-52f7-4425-be78-2c0604a8a23c.html",
+            "from": "https://www.chip.de/news/haushalt-garten/gefaehrlicher-fehler-darum-gehoert-nasse-waesche-nicht-auf-die-heizung_a60bc5d3-8ef6-4a4b-a783-7cf82b09a084.html",
+            "to": "https://www.chip.de/news/haushalt-garten/nasse-waesche-trocknet-nicht-warum-sie-sie-trotzdem-nicht-auf-die-heizung-legen-sollten_a60bc5d3-8ef6-4a4b-a783-7cf82b09a084.html",
             "httpStatus": 301
           }
         ]
@@ -9576,7 +9044,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9598,7 +9066,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9620,13 +9088,13 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 348,
         "pendingArticleCount": 0,
-        "fetchedCount": 3,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9642,7 +9110,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9671,7 +9139,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9688,15 +9156,15 @@
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "177ab462-eada-40f1-9567-2f6b352b4a4c",
+            "batchId": "dcf94462-fd47-420c-9baa-df5efac42efc",
             "sourceId": "pr-us-tomsguide-mammotion",
             "sourceHash": "a4bc222a891cfda214479a11aeb92952c1513aef37f2bd32764bbdd7ec2d942f",
             "planId": "9c24cf9dc71ab42ed44a20f4bfc9a8439f75637f1dd3c21fb06050bf0d2434d0",
-            "checkedAt": "2026-11-17T21:28:13.400Z",
-            "indexFile": ".pr-private/keyword-baseline/177ab462-eada-40f1-9567-2f6b352b4a4c/pr-us-tomsguide-mammotion/index.json",
-            "indexSha256": "8d7b19dc43ed645ab61f5d236c0ad2d34d832b64c261db60d018cbdbe35bb5b2",
+            "checkedAt": "2026-11-17T22:49:33.045Z",
+            "indexFile": ".pr-private/keyword-baseline/dcf94462-fd47-420c-9baa-df5efac42efc/pr-us-tomsguide-mammotion/index.json",
+            "indexSha256": "01c5b2d7c9b50c25aaec87034b603b16cf48169048b46fc7fe88e8d1482fdc70",
             "baselineCount": 0,
-            "runtimeHash": "ed5b3be1dec97d4f31f8d1712e1cbbf585daa105d655c70c9200699d31c29a24"
+            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
           }
         },
         "verifiedRedirects": []
@@ -9719,7 +9187,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9737,15 +9205,15 @@
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "6649052f-7f48-4671-b871-92d9197facb2",
+            "batchId": "0f31dadc-50b8-46e6-bef4-b3d5ac6ba08e",
             "sourceId": "pr-uk-techradar-mammotion",
             "sourceHash": "495378caec3d536319c39f95da1a213c853bad2c51053aa0994b328bc875309f",
             "planId": "530caf3cd63f55729ab57ac12d7e549a8ea366bd23d6b90f74db1787247706c9",
-            "checkedAt": "2026-11-17T21:28:13.400Z",
-            "indexFile": ".pr-private/keyword-baseline/6649052f-7f48-4671-b871-92d9197facb2/pr-uk-techradar-mammotion/index.json",
-            "indexSha256": "5d6742a9be49a256def1f80075ccaa3f827242c84e529f18ca00cdcafffd30b0",
+            "checkedAt": "2026-11-17T22:49:33.045Z",
+            "indexFile": ".pr-private/keyword-baseline/0f31dadc-50b8-46e6-bef4-b3d5ac6ba08e/pr-uk-techradar-mammotion/index.json",
+            "indexSha256": "deae8fcfd5c44f080014cc427df7913865e557356e8f67baf4ba33e8bca60a74",
             "baselineCount": 0,
-            "runtimeHash": "ed5b3be1dec97d4f31f8d1712e1cbbf585daa105d655c70c9200699d31c29a24"
+            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
           }
         },
         "verifiedRedirects": []
@@ -9761,7 +9229,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9783,7 +9251,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9812,7 +9280,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9825,7 +9293,7 @@
           "version": "appgefahren_public_posts_v1",
           "feedUrl": "https://www.appgefahren.de/wp-json/wp/v2/posts",
           "initializedAt": "2026-11-09T12:04:15.138Z",
-          "snapshotAt": "2026-11-17T21:28:13.400Z",
+          "snapshotAt": "2026-11-17T22:49:33.045Z",
           "pages": 3,
           "publishedWindowOldest": "2026-10-21T10:00:58.000Z",
           "publishedWindowNewest": "2026-11-17T19:50:19Z",
@@ -9867,15 +9335,15 @@
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "dec709e5-bf16-437a-a1ff-dfe123d534dc",
+            "batchId": "8fec5185-e303-406c-b5a1-d7c0d7f6d1d8",
             "sourceId": "pr-de-appgefahren-mammotion",
             "sourceHash": "4ede1dfa0c52af4339bc1723e9bf8e05bde2467a23387b4edef8a539110ec2dc",
             "planId": "28819460ead6595fd05be7b12f1512c9b59353f0421f9c352cac0de57574b9de",
-            "checkedAt": "2026-11-17T21:28:13.400Z",
-            "indexFile": ".pr-private/keyword-baseline/dec709e5-bf16-437a-a1ff-dfe123d534dc/pr-de-appgefahren-mammotion/index.json",
-            "indexSha256": "2f8d19c6f7700dccf5d3db6602addac0055a82e69e68b2d767ba65acb460472f",
+            "checkedAt": "2026-11-17T22:49:33.045Z",
+            "indexFile": ".pr-private/keyword-baseline/8fec5185-e303-406c-b5a1-d7c0d7f6d1d8/pr-de-appgefahren-mammotion/index.json",
+            "indexSha256": "90cc9faf74dbb025d0c2b1751209948fc0753b3a11b0274d5b4b53c4be58c9c6",
             "baselineCount": 0,
-            "runtimeHash": "ed5b3be1dec97d4f31f8d1712e1cbbf585daa105d655c70c9200699d31c29a24"
+            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
           }
         },
         "verifiedRedirects": []
@@ -9891,13 +9359,13 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
         "discoveredUrlCount": 1290,
         "pendingArticleCount": 0,
-        "fetchedCount": 7,
+        "fetchedCount": 11,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9913,7 +9381,7 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9935,7 +9403,7 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9957,13 +9425,13 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 3972,
         "pendingArticleCount": 0,
-        "fetchedCount": 3,
+        "fetchedCount": 2,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9979,7 +9447,7 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -10001,7 +9469,7 @@
           "channel": "pr",
           "url": "https://www.homesandgardens.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -10030,7 +9498,7 @@
           "channel": "pr",
           "url": "https://www.androidcentral.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -10059,7 +9527,7 @@
           "channel": "pr",
           "url": "https://www.capital.fr/sitemap/articles.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -10073,8 +9541,8 @@
             "url": "https://www.capital.fr/conso/instinct-nous-avons-teste-lagent-ia-qui-trie-les-mails-depuis-whatsapp-1531570",
             "title": "IA : nous avons testé Instinct, l’assistant qui promet de tout faire à notre place",
             "publishDate": "2026-11-05T13:00:00+00:00",
-            "htmlSha256": "9870c13d987e5bf3f7c49bca75af9f7f8a40f7616ef9c3def7a948b48f64e40b",
-            "observedAt": "2026-11-17T21:28:13.400Z",
+            "htmlSha256": "b33a635febf7621a410936fa943c13a3b86e6d4ad165c3bc1a5999783ba820c2",
+            "observedAt": "2026-11-17T22:49:33.045Z",
             "status": "publisher_restricted_unread"
           }
         ],
@@ -10108,7 +9576,7 @@
           "channel": "pr",
           "url": "https://www.mein-schoener-garten.de/article/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -10137,7 +9605,7 @@
           "channel": "pr",
           "url": "https://turfbusiness.co.uk/wp-sitemap.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -10178,7 +9646,7 @@
           "channel": "pr",
           "url": "https://9to5toys.com/wp-json/wp/v2/posts"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -10190,21 +9658,21 @@
         "metadataDiscovery": {
           "version": "nine_to_five_toys_public_posts_v1",
           "feedUrl": "https://9to5toys.com/wp-json/wp/v2/posts",
-          "snapshotAt": "2026-11-17T21:28:13.400Z",
-          "windowAfter": "2026-11-15T20:34:27",
+          "snapshotAt": "2026-11-17T22:49:33.045Z",
+          "windowAfter": "2026-11-15T21:28:13",
           "pages": 1,
           "publicationOldest": "2026-11-16T08:19:58.000Z",
-          "totalPosts": 89,
-          "screenedPosts": 89,
+          "totalPosts": 90,
+          "screenedPosts": 90,
           "screenedMatches": 0,
           "crossNetworkPosts": [],
           "historicalMemberships": [],
           "pagesRead": [
             {
-              "url": "https://9to5toys.com/wp-json/wp/v2/posts?after=2026-11-15T20%3A34%3A27&per_page=100&page=1&orderby=date&order=desc&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ctitle.rendered%2Ccontent.rendered%2Ccontent.protected",
-              "items": 89,
-              "responseSha256": "d9deb1ae5fa53811ad1000abdc5812270752fe68fdd0e40eb5d2a9072fbf9d5c",
-              "responseBytes": 1238370
+              "url": "https://9to5toys.com/wp-json/wp/v2/posts?after=2026-11-15T21%3A28%3A13&per_page=100&page=1&orderby=date&order=desc&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ctitle.rendered%2Ccontent.rendered%2Ccontent.protected",
+              "items": 90,
+              "responseSha256": "b3c2f6e38ba353162d0c1be5340e90ded6094b387df62893a4718f924e27eb03",
+              "responseBytes": 1248000
             }
           ],
           "scopeBaselineUrlCount": 0
@@ -10229,9 +9697,9 @@
           "channel": "pr",
           "url": "https://www.abavala.com/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T21:28:13.400Z",
+        "checkedAt": "2026-11-17T22:49:33.045Z",
         "status": "ok",
-        "baseline": true,
+        "baseline": false,
         "itemCount": 1,
         "discoveredUrlCount": 1696,
         "pendingArticleCount": 0,
@@ -10239,9 +9707,90 @@
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-turfmatters-media",
+          "sourceType": "media",
+          "outlet": "Turf Matters",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://turfmatters.co.uk/sitemap.xml"
+        },
+        "checkedAt": "2026-11-17T22:49:33.045Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 0,
+        "discoveredUrlCount": 2000,
+        "pendingArticleCount": 0,
+        "fetchedCount": 0,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "PR-B74056F67BE7",
+        "sourceId": "pr-de-chip-mammotion",
+        "sourceType": "media",
+        "outlet": "CHIP",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "pr",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Bevor der Frost kommt: Diese Gartenaufgaben dürfen Sie jetzt nicht vergessen",
+        "sourceUrl": "https://www.chip.de/news/haushalt-garten/bevor-der-frost-kommt-diese-gartenaufgaben-duerfen-sie-jetzt-nicht-vergessen_4469ed36-25cd-4587-9261-0c6e374e160f.html",
+        "publishDate": "2026-11-14T13:10:00.000Z",
+        "discoveredAt": "2026-11-17T22:49:33.045Z",
+        "themeAssessment": {
+          "tags": [
+            "review"
+          ],
+          "method": "keyword_v1",
+          "reviewRequired": true
+        },
+        "evidence": {
+          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
+          "articleUrl": "https://www.chip.de/news/haushalt-garten/bevor-der-frost-kommt-diese-gartenaufgaben-duerfen-sie-jetzt-nicht-vergessen_4469ed36-25cd-4587-9261-0c6e374e160f.html",
+          "capturedAt": "2026-11-17T22:49:33.045Z",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-11-14T13:10:00.000Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-11-14T14:10:00+01:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-14T13:10:00.000Z"
+            }
+          ],
+          "contentHash": "d0178e889a281b36501a9d82d1e2ac5cf90ece981f0d55b099043baef8662eb3",
+          "bodySource": "article"
+        }
+      },
       {
         "recordId": "PR-AA8B8A687CFB",
         "sourceId": "pr-de-chip-mammotion",
