@@ -1,7 +1,204 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T11:06:16.977Z",
+  "updatedAt": "2026-11-17T11:30:46.290Z",
   "actions": [
+    {
+      "actionId": "ACT-FEC03121359D",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T11:21:37.747Z",
+      "publishDate": "",
+      "title": "Dreame 德国｜Google 透明度中心披露割草机器人搜索广告",
+      "summary": "2026年11月17日在Google官方广告透明度中心，以德国、Google搜索、文字广告及11月14–17日筛选留存该Dreame割草机器人广告。当前完整预览标题为Dreame Mähroboter，正文引导选择适合庭院日常的割草机器人。平台披露该广告在德国首次展示为11月9日，最后展示为11月16日。Google验证的广告主与Dreame德国官网Impressum法定名称一致。具体型号、变体总数、当前预览独立上线与真实点击网址未知。",
+      "creative": "当前完整预览标题与正文直接宣传Dreame割草机器人，未列具体型号、优惠或型号链接。",
+      "copy": "Entdecke, welcher Dreame Mähroboter zu deinem Gartenalltag passt.",
+      "offer": "",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17899458630520930305?region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?region=DE&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "listing_scope",
+          "sha256": "b4e81c43d65f100dcee0974c34a14c67c88c9485c2210bf96391718c5791b2b0",
+          "bytes": 6034,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:20:45.830Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?region=DE&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "date_endpoints",
+          "sha256": "100c85c9b3e3641be54bcbb12ad1e14ce9a85fd21385f458a6a7c3f5d554e1ee",
+          "bytes": 16948,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:26:15.567Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?region=DE&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "inventory_identities",
+          "sha256": "556c4d53c351ffd30bdf8de574cc451c8430b6f5483631391d156aa079630482",
+          "bytes": 20526,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:20:58.794Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17899458630520930305?region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "platform_dates",
+          "sha256": "cf5e77b6e535d417de09b1b0b304ee376f2cde3cf0b381383f55371e0c919d7a",
+          "bytes": 3434,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:21:37.747Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17899458630520930305?region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "screenshot",
+          "sha256": "72ba581c3f47a12e7b17e7491bc45cc974ad4a211cb6c149987b47e3a2bb59e4",
+          "bytes": 68735,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T11:21:37.747Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/3050972513286664679",
+          "kind": "platform_creative_image",
+          "sha256": "d116b465e54e0b1b5b6196e8fbdd246e0adca24a9397f1e2cd32371d49afc517",
+          "bytes": 28336,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T11:22:35.594434+00:00"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://de.dreametech.com/",
+          "kind": "official_robotic_mower_category",
+          "sha256": "3549af93af4895e6a958231f11c14130e1173e32a4e45a025cd7b58a1b0a090a",
+          "bytes": 2504874,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:22:36.505292+00:00"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?region=DE&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "date_application_closed_calendar",
+          "sha256": "2b688f607b583d308b889f9a9fb37d45d817f63360f7fa0f944916e1cc75bbdd",
+          "bytes": 5164,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:26:02.720Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T11:30:46.290Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR17899458630520930305",
+      "sourceRecordIds": [
+        "CR17899458630520930305"
+      ],
+      "advertiserId": "AR14450639508611268609",
+      "creativeId": "CR17899458630520930305",
+      "advertiserName": "DREAME INTERNATIONAL (HONGKONG) LIMITED",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T11:21:37.747Z",
+      "firstObservedAt": "2026-11-17T11:21:37.747Z",
+      "firstShownDate": "2026-11-09",
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google德国范围首次展示为2026-11-09，最后展示为2026-11-16，当前预览于2026-11-17留存。当前预览独立上线时间与全球活动时间未知。",
+      "notificationEligible": false,
+      "notificationReason": "Google德国firstShown为11月9日，早于既有11月14日通知下限。最后展示与本次观察日期不替代首次展示日期。",
+      "verifiedDynamicDate": "2026-11-09",
+      "dynamicDateBasis": "google_country_first_shown",
+      "notificationClaimScope": "official platform country-scoped first showing of this ad identity",
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "Dreame Mähroboter",
+          "copy": "Entdecke, welcher Dreame Mähroboter zu deinem Gartenalltag passt.",
+          "cta": [],
+          "offer": "",
+          "displayUrl": "de.dreametech.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T11:21:37.747Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17899458630520930305?region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "screenshot",
+              "sha256": "72ba581c3f47a12e7b17e7491bc45cc974ad4a211cb6c149987b47e3a2bb59e4",
+              "bytes": 68735,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T11:21:37.747Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/3050972513286664679",
+              "kind": "platform_creative_image",
+              "sha256": "d116b465e54e0b1b5b6196e8fbdd246e0adca24a9397f1e2cd32371d49afc517",
+              "bytes": 28336,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T11:22:35.594434+00:00"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "DREAME INTERNATIONAL (HONGKONG) LIMITED",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609?region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+            "kind": "google_verified_advertiser",
+            "sha256": "0b2cc6094daaddaff9d1c6465d07b963088ed56497ff6a864f9e0fd8fd5ae5c3",
+            "bytes": 5510,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T11:21:52.140Z"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://de.dreametech.com/pages/impressum",
+            "kind": "official_legal_entity_impressum",
+            "sha256": "f2ca40e2cdefa179958b288c474987f5ee4f0a5589210baf14b0bbd947a0d59b",
+            "bytes": 2129688,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T11:23:21.537101+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "de.dreametech.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-32993724ADD2",
       "entityId": "",

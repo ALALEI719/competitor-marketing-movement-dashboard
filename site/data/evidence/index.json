@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-17T03:52:38.116Z",
+  "generatedAt": "2026-11-17T11:15:20.493Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -1940,6 +1940,35 @@
           "title": "Unkraut im Rasen: Erkennen, entfernen & vorbeugen",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T03-52-32-571Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-17T11:15:07.007Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-17T09:30:50.212Z",
+          "title": "Unkraut im Rasen: Erkennen, entfernen & vorbeugen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T11-15-07-007Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T03-52-32-571Z-viewport.jpg"
+        }
+      ],
+      "entityId": ""
+    },
+    "050cc22204551799": {
+      "url": "https://de.mova.tech/collections/mahroboter-saugroboter-nass-und-trockensauger",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-17T11:15:13.065Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-17T03:04:55.885Z",
+          "title": "Mähroboter&Saugroboter&Nass-und Trockensauger",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-050cc22204551799-2026-11-17T11-15-13-065Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
