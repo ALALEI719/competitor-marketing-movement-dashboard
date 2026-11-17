@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T10:02:10.610Z",
+  "updatedAt": "2026-11-17T10:35:23.362892+00:00",
   "actions": [
     {
       "actionId": "ACT-65D7F04EF51B",
@@ -295,6 +295,194 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-17T07:57:13.429Z"
+    },
+    {
+      "actionId": "ACT-E92264E6A960",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T05:55:57.117Z",
+      "publishDate": "",
+      "title": "MOVA 德国｜Google 透明度中心披露机器人割草机搜索广告",
+      "summary": "2026年11月17日在Google官方广告透明度中心，以德国、Google搜索、文字广告及11月14–17日筛选核实该MOVA机器人割草机广告。当前完整预览标题“MOVA Robotermäher”，正文邀请消费者在Black Friday了解MOVA割草机器人型号。平台披露该广告在德国首次展示为11月15日，最后展示为11月16日。Google验证的广告主SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED与MOVA德国官网页脚法律名称一致。当前预览具体型号、折扣及资格、变体总数和真实点击落地未知，未据此认定产品或全球广告活动上线。",
+      "creative": "Google德国搜索文字广告，完整留存当前一张MOVA机器人割草机黑五预览。",
+      "copy": "Bereit für einen Mähroboter? Entdecke die MOVA Modelle zum Black Friday.",
+      "offer": "广告邀请了解Black Friday的MOVA机器人割草机型号，具体折扣、型号及优惠条件未说明。",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR07400728971748311041?platform=SEARCH&region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=DE&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "listing_scope",
+          "sha256": "f3496c2e5cd28d8b89b83180fa2cbbca604b32a68b6c71d8e95ef593a793f20d",
+          "bytes": 6041,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T05:55:57.117Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=DE&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_endpoints",
+          "sha256": "57a53f4a0890ab4c224c47fb16828866f8a7ebda8ed5b3786d016d3ec139a140",
+          "bytes": 17014,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T05:55:57.117Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=DE&domain=mova.tech&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "inventory_identities",
+          "sha256": "a0ec1457e87baa3907c81772d7a955043649d32c66677baaf4ac866f22d2cd86",
+          "bytes": 30355,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T05:55:57.117Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR07400728971748311041?platform=SEARCH&region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_dates",
+          "sha256": "d3029be01a215f8221a5f259b8478f2093ea7ec7ca1a3fab51c300a6a17ed1bb",
+          "bytes": 3426,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T05:55:57.117Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR07400728971748311041?platform=SEARCH&region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "2bbcf6e7322c765a60d1e91cde5bbf7fc4bf6d9457b36a379ef5355506c864ea",
+          "bytes": 70293,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T05:55:57.117Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/13663432866312647276",
+          "kind": "platform_creative_image",
+          "sha256": "7899b9b2272b84e22d9712afe858db1497bb4e14c0e58de12f3fced810fe85f9",
+          "bytes": 30222,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T05:57:55.103312+00:00"
+        },
+        {
+          "sourceId": "mova-official-site",
+          "url": "https://de.mova.tech/",
+          "kind": "official_brand_category_and_legal_footer",
+          "sha256": "e6dc23ac910b2a3d03b13effdaf29cd744877ac79f2aea4ba51ce53d330dcf57",
+          "bytes": 2112029,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T05:57:56.016808+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T10:35:23.362892+00:00",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR07400728971748311041",
+      "sourceRecordIds": [
+        "CR07400728971748311041"
+      ],
+      "advertiserId": "AR07030260039281541121",
+      "creativeId": "CR07400728971748311041",
+      "advertiserName": "SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T05:55:57.117Z",
+      "firstObservedAt": "2026-11-17T05:55:57.117Z",
+      "firstShownDate": "2026-11-15",
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google德国范围首次展示为2026-11-15，最后展示为2026-11-16，本次预览观察为2026-11-17。当前预览独立上线时间、全局创意及活动上线时间未知。",
+      "notificationEligible": true,
+      "notificationReason": "拟播范围仅为Google官方披露该广告编号于2026-11-15首次在德国展示，日期处于既有11月14日下限之后。产品、全球活动及当前预览的独立上线时间保持未知，资格由总控唯一原生审核核实。",
+      "verifiedDynamicDate": "2026-11-15",
+      "dynamicDateBasis": "google_country_first_shown",
+      "notificationClaimScope": "official platform country-scoped first showing of this ad identity",
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "MOVA Robotermäher",
+          "copy": "Bereit für einen Mähroboter? Entdecke die MOVA Modelle zum Black Friday.",
+          "cta": [],
+          "offer": "Black Friday",
+          "displayUrl": "de.mova.tech/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T05:55:57.117Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121/creative/CR07400728971748311041?platform=SEARCH&region=DE&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "2bbcf6e7322c765a60d1e91cde5bbf7fc4bf6d9457b36a379ef5355506c864ea",
+              "bytes": 70293,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T05:55:57.117Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/13663432866312647276",
+              "kind": "platform_creative_image",
+              "sha256": "7899b9b2272b84e22d9712afe858db1497bb4e14c0e58de12f3fced810fe85f9",
+              "bytes": 30222,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T05:57:55.103312+00:00"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "SPACEWALKER TECHNOLOGY HONG KONG CO., LIMITED",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR07030260039281541121?platform=SEARCH&region=DE&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "cc132a16a75413f9a66b105f6c0bee7bc24dd33c6b504c9445363c46000f9973",
+            "bytes": 11162,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T05:57:00.790Z"
+          },
+          {
+            "sourceId": "mova-official-site",
+            "url": "https://de.mova.tech/",
+            "kind": "official_website_legal_entity",
+            "sha256": "e6dc23ac910b2a3d03b13effdaf29cd744877ac79f2aea4ba51ce53d330dcf57",
+            "bytes": 2112029,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T05:57:56.016808+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "de.mova.tech/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
     },
     {
       "actionId": "ACT-3E17364C2C92",
