@@ -1,0 +1,404 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-DDB40C6C52C7",
+  "actionId": "ACT-EDM-DDB40C6C52C7",
+  "brand": "Dreame",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-11-16T08:03:54.000Z",
+  "subject": "⚡Der Black Friday ist da! Bis zu 1.060 € Rabatt",
+  "contentSummary": "11月16日黑五正式期邮件列出 A3 AWD Pro 3500 售1999欧元、划线价2599欧元，减600欧元，产品卡有效期至11月30日，并宣传5欧元车库加购。",
+  "bodyParagraphs": [
+    "A3 AWD Pro 3500 活动价1999欧元，划线价2599欧元，减600欧元。产品卡标示11月16日至30日。",
+    "车库加购价为5欧元，参考价值249欧元，具体可购资格及最终结算以活动条款为准。",
+    "主视觉标示德国站活动10月27日至11月30日，11月16日至30日为黑五正式阶段，并宣传11月16日开启限时抢购。该阶段及新邮件独立记录，既有10月邮件保留。",
+    "全品类最高减1060欧元的主标题不等于该款割草机减1060欧元。其他家电、满额赠礼和多件优惠作为邮件背景，未将未知叠加计入割草机报价。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-01.png",
+      "description": "Dreame 德国黑五全品类主视觉，10月27日至11月30日、最高减1060欧元，11月16日至30日为黑五阶段。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-02.png",
+      "description": "德国站限时抢购11月16日开始，时长及库存有限。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-03.png",
+      "description": "德国站满额赠礼599、999和1599欧元三个门槛，具体资格以活动为准。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-04.png",
+      "description": "分享购物车活动，宣传最高500欧元奖励。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-05.png",
+      "description": "Aqua20 Pro Ultra Roller X Complete 扫地机器人产品卡。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-06.png",
+      "description": "X60 Pro Ultra Matrix 扫地机器人产品卡。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-07.png",
+      "description": "L10s Ultra Gen 3 Kit 扫地机器人产品卡。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-08.png",
+      "description": "T16 Pro Heat 洗地机产品卡。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-09.png",
+      "description": "T16 Pro Steam 洗地机产品卡。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-10.png",
+      "description": "G12 Pro Flex 洗地机产品卡。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-11.png",
+      "description": "Z30 Pro Aqua-A 吸尘器产品卡。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-12.png",
+      "description": "V20 Pro-A 吸尘器产品卡。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-13.png",
+      "description": "AirStyle Pro 2 美发器产品卡。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-14.png",
+      "description": "Miracle Pro 吹风机产品卡。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-15.png",
+      "description": "H40 加湿器产品卡。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-16.png",
+      "description": "W20 取暖设备产品卡。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-17.png",
+      "description": "TP10 空气净化器产品卡。"
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-18.png",
+      "description": "Tasti 烹饪设备产品卡。"
+    },
+    {
+      "index": 18,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-19.png",
+      "description": "ToastControl 烤面包机产品卡。"
+    },
+    {
+      "index": 19,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-20.png",
+      "description": "SF25 厨余处理设备及积分换购产品卡。"
+    },
+    {
+      "index": 20,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-21.png",
+      "description": "L9 洗衣机产品卡。"
+    },
+    {
+      "index": 21,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-22.png",
+      "description": "S100 65 电视产品卡。"
+    },
+    {
+      "index": 22,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-23.png",
+      "description": "FizzFresh Multi-Door 冰箱产品卡。"
+    },
+    {
+      "index": 23,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-24.png",
+      "description": "J1 泳池机器人产品卡，属于其他品类。"
+    },
+    {
+      "index": 24,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-25.png",
+      "description": "E10 智能门锁产品卡。"
+    },
+    {
+      "index": 25,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-26.png",
+      "description": "A3 AWD Pro 3500 割草机器人1999欧元，划线价2599欧元，减600欧元，11月16日至30日。车库加购价5欧元，参考价值249欧元。"
+    },
+    {
+      "index": 26,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-27.png",
+      "description": "限量1欧元配件活动示意，适用品类与资格待以活动条款为准。"
+    },
+    {
+      "index": 27,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-28.png",
+      "description": "符合条件设备的家电加购活动背景。"
+    },
+    {
+      "index": 28,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-29.png",
+      "description": "精选产品买2件减5%、买3件减10%，未确认对割草机适用。"
+    },
+    {
+      "index": 29,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-30.png",
+      "description": "德国站价保、积分、退货和2至3年质保服务图示。"
+    },
+    {
+      "index": 35,
+      "src": "./data/edm-assets/EDM-DDB40C6C52C7/image-36.png",
+      "description": "Pinterest 社交图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 4
+          },
+          {
+            "type": "image",
+            "index": 5
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 6
+          },
+          {
+            "type": "image",
+            "index": 7
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 8
+          },
+          {
+            "type": "image",
+            "index": 9
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 10
+          },
+          {
+            "type": "image",
+            "index": 11
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 12
+          },
+          {
+            "type": "image",
+            "index": 13
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 14
+          },
+          {
+            "type": "image",
+            "index": 15
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 16
+          },
+          {
+            "type": "image",
+            "index": 17
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 18
+          },
+          {
+            "type": "image",
+            "index": 19
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 20
+          },
+          {
+            "type": "image",
+            "index": 21
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 22
+          },
+          {
+            "type": "image",
+            "index": 23
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 24
+          },
+          {
+            "type": "image",
+            "index": 25
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "index": 26
+      },
+      {
+        "type": "image",
+        "index": 27
+      },
+      {
+        "type": "image",
+        "index": 28
+      },
+      {
+        "type": "image",
+        "index": 29
+      },
+      {
+        "type": "image",
+        "index": 35
+      }
+    ]
+  }
+}

@@ -96,5 +96,74 @@
     }
   ],
   "recipientDetailsIncluded": false,
-  "externalLinksIncluded": false
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "image",
+        "index": 5
+      },
+      {
+        "type": "image",
+        "index": 6
+      },
+      {
+        "type": "image",
+        "index": 7
+      },
+      {
+        "type": "image",
+        "index": 8
+      },
+      {
+        "type": "image",
+        "index": 9
+      },
+      {
+        "type": "image",
+        "index": 10
+      },
+      {
+        "type": "image",
+        "index": 11
+      },
+      {
+        "type": "image",
+        "index": 12
+      },
+      {
+        "type": "image",
+        "index": 13
+      },
+      {
+        "type": "image",
+        "index": 14
+      },
+      {
+        "type": "image",
+        "index": 15
+      },
+      {
+        "type": "image",
+        "index": 16
+      }
+    ]
+  }
 }

@@ -51,5 +51,49 @@
     }
   ],
   "recipientDetailsIncluded": false,
-  "externalLinksIncluded": false
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "row",
+        "widths": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 3
+          },
+          {
+            "type": "image",
+            "index": 4
+          },
+          {
+            "type": "image",
+            "index": 5
+          },
+          {
+            "type": "image",
+            "index": 6
+          }
+        ]
+      }
+    ]
+  }
 }

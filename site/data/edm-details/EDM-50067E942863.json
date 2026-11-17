@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-50067E942863",
+  "actionId": "ACT-EDM-50067E942863",
+  "brand": "Ecovacs",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-11-13T03:15:15.000Z",
+  "subject": "Didn’t find what‘s your favourite?",
+  "contentSummary": "购物浏览召回邮件以 GOAT A3000 LiDAR PRO 产品卡展示2499.99美元，并推荐 GOAT GX-600。积分优惠的文案以DEEBOT为语境，未确认对割草机适用。",
+  "bodyParagraphs": [
+    "邮件感谢用户访问商店并邀请继续购物，正文两次展示 GOAT A3000 LiDAR PRO，标价2499.99美元。",
+    "页面还推荐 GOAT GX-600，同时有扫地及擦窗机器人内容。割草机品牌、名称与展示图按本封邮件核读。",
+    "3000积分等于30美元的招新宣传使用DEEBOT语境，未确认割草机可以使用，故未从2499.99美元中扣减。未注明活动截止时刻。",
+    "同日后续邮件及次日召回邮件重复展示同一款GOAT及同一价格，合并为一条割草机召回动作。次日5%新人码文案同样使用DEEBOT语境，未将其推定为GOAT折扣。"
+  ],
+  "images": [
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-50067E942863/image-02.png",
+      "description": "ECOVACS 品牌标识。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-50067E942863/image-02.png",
+      "description": "ECOVACS 品牌标识。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-50067E942863/image-04.png",
+      "description": "正文标称 GOAT A3000 LiDAR PRO 的割草机器人产品展示图。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-50067E942863/image-04.png",
+      "description": "正文标称 GOAT A3000 LiDAR PRO 的割草机器人产品展示图。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-50067E942863/image-04.png",
+      "description": "正文标称 GOAT A3000 LiDAR PRO 的割草机器人产品展示图。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-50067E942863/image-04.png",
+      "description": "正文标称 GOAT A3000 LiDAR PRO 的割草机器人产品展示图。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-50067E942863/image-08.webp",
+      "description": "扫地机器人及基站推荐图，属于邮件的家用清洁背景。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-50067E942863/image-09.png",
+      "description": "擦窗机器人展示图，属于其他品类背景。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-50067E942863/image-10.webp",
+      "description": "正文标称 GOAT GX-600 的割草机器人推荐图。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-50067E942863/image-11.png",
+      "description": "DEEBOT 导航标识。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-50067E942863/image-12.png",
+      "description": "WINBOT 导航标识。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-50067E942863/image-13.png",
+      "description": "GOAT 导航标识。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-50067E942863/image-14.png",
+      "description": "配件导航标识。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-50067E942863/image-15.png",
+      "description": "ECOVACS Rewards 积分计划标识。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-50067E942863/image-16.png",
+      "description": "注册可得3000积分，图示100积分抵1美元。具体适用范围须以活动条件为准。"
+    },
+    {
+      "index": 16,
+      "src": "./data/edm-assets/EDM-50067E942863/image-17.png",
+      "description": "邀请好友示意，包含折扣与最高100美元礼卡宣传。"
+    },
+    {
+      "index": 17,
+      "src": "./data/edm-assets/EDM-50067E942863/image-18.png",
+      "description": "配送、30天退货、积分与一年质保服务图示。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "image",
+        "index": 5
+      },
+      {
+        "type": "image",
+        "index": 6
+      },
+      {
+        "type": "image",
+        "index": 7
+      },
+      {
+        "type": "image",
+        "index": 8
+      },
+      {
+        "type": "image",
+        "index": 9
+      },
+      {
+        "type": "image",
+        "index": 10
+      },
+      {
+        "type": "image",
+        "index": 11
+      },
+      {
+        "type": "image",
+        "index": 12
+      },
+      {
+        "type": "image",
+        "index": 13
+      },
+      {
+        "type": "image",
+        "index": 14
+      },
+      {
+        "type": "image",
+        "index": 15
+      },
+      {
+        "type": "image",
+        "index": 16
+      },
+      {
+        "type": "image",
+        "index": 17
+      }
+    ]
+  }
+}

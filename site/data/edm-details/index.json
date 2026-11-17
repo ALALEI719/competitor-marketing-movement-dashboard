@@ -219,6 +219,94 @@
       "subject": "ECOVACS 美国万圣节：GOAT 割草机器人套装 26% 优惠",
       "summary": "ECOVACS 美国万圣节邮件以 GOAT LiDAR PRO 割草机器人与两套刀片配件为相关品类主促销，图示 26% OFF、1,892 美元；图内型号与 HTML 替代文本不一致，活动称至 11 月 2 日但未注明时区。",
       "detailRef": "./data/edm-details/EDM-F501F4B7CAD1.json"
+    },
+    {
+      "actionId": "ACT-EDM-0BAD11EA6731",
+      "recordId": "EDM-0BAD11EA6731",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-03T15:31:10.000Z",
+      "subject": "Shh... want to see the Black Friday deals early? 🤫",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "detailRef": "./data/edm-details/EDM-0BAD11EA6731.json"
+    },
+    {
+      "actionId": "ACT-EDM-24BACEACFA62",
+      "recordId": "EDM-24BACEACFA62",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-11-03T09:01:30.000Z",
+      "subject": "Pssst… Black-Friday-Deals früher sehen? 🤫",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "detailRef": "./data/edm-details/EDM-24BACEACFA62.json"
+    },
+    {
+      "actionId": "ACT-EDM-8A19262BBB64",
+      "recordId": "EDM-8A19262BBB64",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "sentAt": "2026-11-03T11:02:12.000Z",
+      "subject": "Black Friday Deals Are Coming! Here is Your Sneak Peek 🤫",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "detailRef": "./data/edm-details/EDM-8A19262BBB64.json"
+    },
+    {
+      "actionId": "ACT-EDM-C36F290389B8",
+      "recordId": "EDM-C36F290389B8",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-10T15:30:27.000Z",
+      "subject": "🚀 It's ON! Save Up to $850 This Black Friday",
+      "summary": "邮件称11月10–29日黑五最高减800美元，新客另有50美元券。LUBA 3 AWD 3000 售1999美元、券后1949美元，LUBA mini 2 AWD 1500H 售1599美元、券后1549美元。",
+      "detailRef": "./data/edm-details/EDM-C36F290389B8.json"
+    },
+    {
+      "actionId": "ACT-EDM-75767FDBDE97",
+      "recordId": "EDM-75767FDBDE97",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "法国",
+      "sentAt": "2026-11-16T08:04:38.000Z",
+      "subject": "⚡Le Black Friday est lancé ! Jusqu’à 1 060 € de réduction",
+      "summary": "法国黑五正式阶段邮件列出 A2 3000 为939欧元、减1060欧元；A3 AWD 2000 为1399欧元、减600欧元。两款分别有1欧元和5欧元车库加购宣传。",
+      "detailRef": "./data/edm-details/EDM-75767FDBDE97.json"
+    },
+    {
+      "actionId": "ACT-EDM-DDB40C6C52C7",
+      "recordId": "EDM-DDB40C6C52C7",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "sentAt": "2026-11-16T08:03:54.000Z",
+      "subject": "⚡Der Black Friday ist da! Bis zu 1.060 € Rabatt",
+      "summary": "11月16日黑五正式期邮件列出 A3 AWD Pro 3500 售1999欧元、划线价2599欧元，减600欧元，产品卡有效期至11月30日，并宣传5欧元车库加购。",
+      "detailRef": "./data/edm-details/EDM-DDB40C6C52C7.json"
+    },
+    {
+      "actionId": "ACT-EDM-87206D4FFEFE",
+      "recordId": "EDM-87206D4FFEFE",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-14T15:04:56.000Z",
+      "subject": "👀⚡ Get Ahead of Black Friday & Save!",
+      "summary": "LiDAX Ultra 2000 售1099美元、减700美元，Ultra 3000 AWD 售2199美元、减800美元，Pro 800 售949美元、减150美元，Pro 800 另有1美元车库加购。",
+      "detailRef": "./data/edm-details/EDM-87206D4FFEFE.json"
+    },
+    {
+      "actionId": "ACT-EDM-50067E942863",
+      "recordId": "EDM-50067E942863",
+      "brand": "Ecovacs",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-13T03:15:15.000Z",
+      "subject": "Didn’t find what‘s your favourite?",
+      "summary": "购物浏览召回邮件以 GOAT A3000 LiDAR PRO 产品卡展示2499.99美元，并推荐 GOAT GX-600。积分优惠的文案以DEEBOT为语境，未确认对割草机适用。",
+      "detailRef": "./data/edm-details/EDM-50067E942863.json"
     }
   ]
 }

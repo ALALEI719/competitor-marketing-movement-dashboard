@@ -174,3 +174,11 @@ html[data-theme="light"] :is(.date-presets button[aria-pressed=true],.date-botto
 .feature-card > .ad-date-disclosure {
   margin: 0 20px 10px;
 }
+
+/* Preserve the original newsletter image columns and adjoining image slices. */
+.edm-mail-images .edm-original-layout{max-width:600px;margin:0 auto}
+.edm-image-row{display:grid;grid-template-columns:var(--edm-columns);align-items:start;gap:0}
+.edm-image-row>*{min-width:0}
+.edm-mail-images .edm-original-layout figure{position:relative;margin:0}
+.edm-mail-images .edm-original-layout img{display:block;width:100%;height:auto;max-height:none;object-fit:fill;background:transparent}
+.edm-mail-images .edm-original-layout figcaption{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}

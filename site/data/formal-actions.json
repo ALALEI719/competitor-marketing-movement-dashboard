@@ -1,7 +1,231 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T07:57:13.429Z",
+  "updatedAt": "2026-11-17T09:09:05.224Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-DDB40C6C52C7",
+      "entityId": "",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.155Z",
+      "publishDate": "2026-11-16T08:03:54.000Z",
+      "title": "Dreame 德国黑五正式期：A3 AWD Pro 3500 €1,999",
+      "summary": "11月16日黑五正式期邮件列出 A3 AWD Pro 3500 售1999欧元、划线价2599欧元，减600欧元，产品卡有效期至11月30日，并宣传5欧元车库加购。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.165Z",
+      "detailRef": "./data/edm-details/EDM-DDB40C6C52C7.json"
+    },
+    {
+      "actionId": "ACT-EDM-C36F290389B8",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.147Z",
+      "publishDate": "2026-11-10T15:30:27.000Z",
+      "title": "Mammotion 美国黑五：LUBA 3 AWD 3000 新人券后 $1,949",
+      "summary": "邮件称11月10–29日黑五最高减800美元，新客另有50美元券。LUBA 3 AWD 3000 售1999美元、券后1949美元，LUBA mini 2 AWD 1500H 售1599美元、券后1549美元。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.096Z",
+      "detailRef": "./data/edm-details/EDM-C36F290389B8.json"
+    },
+    {
+      "actionId": "ACT-EDM-8A19262BBB64",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.137Z",
+      "publishDate": "2026-11-03T11:02:12.000Z",
+      "title": "Mammotion 英国黑五预览：割草机优惠、免费配件与会员奖励",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.076Z",
+      "detailRef": "./data/edm-details/EDM-8A19262BBB64.json"
+    },
+    {
+      "actionId": "ACT-EDM-87206D4FFEFE",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.135Z",
+      "publishDate": "2026-11-14T15:04:56.000Z",
+      "title": "MOVA 美国黑五：三款 LiDAX 割草机优惠与 $1 车库加购",
+      "summary": "LiDAX Ultra 2000 售1099美元、减700美元，Ultra 3000 AWD 售2199美元、减800美元，Pro 800 售949美元、减150美元，Pro 800 另有1美元车库加购。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.200Z",
+      "detailRef": "./data/edm-details/EDM-87206D4FFEFE.json"
+    },
+    {
+      "actionId": "ACT-EDM-75767FDBDE97",
+      "entityId": "",
+      "brand": "Dreame",
+      "brandRole": "competitor",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.131Z",
+      "publishDate": "2026-11-16T08:04:38.000Z",
+      "title": "Dreame 法国黑五：A2 3000 €939、A3 AWD 2000 €1,399",
+      "summary": "法国黑五正式阶段邮件列出 A2 3000 为939欧元、减1060欧元；A3 AWD 2000 为1399欧元、减600欧元。两款分别有1欧元和5欧元车库加购宣传。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.116Z",
+      "detailRef": "./data/edm-details/EDM-75767FDBDE97.json"
+    },
+    {
+      "actionId": "ACT-EDM-50067E942863",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.118Z",
+      "publishDate": "2026-11-13T03:15:15.000Z",
+      "title": "ECOVACS 美国召回邮件推荐 GOAT A3000 LiDAR PRO，标价 $2,499.99",
+      "summary": "购物浏览召回邮件以 GOAT A3000 LiDAR PRO 产品卡展示2499.99美元，并推荐 GOAT GX-600。积分优惠的文案以DEEBOT为语境，未确认对割草机适用。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.224Z",
+      "detailRef": "./data/edm-details/EDM-50067E942863.json"
+    },
+    {
+      "actionId": "ACT-EDM-24BACEACFA62",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.113Z",
+      "publishDate": "2026-11-03T09:01:30.000Z",
+      "title": "Mammotion 德国黑五预览：割草机优惠、免费配件与会员奖励",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.057Z",
+      "detailRef": "./data/edm-details/EDM-24BACEACFA62.json"
+    },
+    {
+      "actionId": "ACT-EDM-0BAD11EA6731",
+      "entityId": "",
+      "brand": "Mammotion",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-17T08:42:34.102Z",
+      "publishDate": "2026-11-03T15:31:10.000Z",
+      "title": "Mammotion 美国黑五预览：割草机优惠、免费配件与会员奖励",
+      "summary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T09:09:05.004Z",
+      "detailRef": "./data/edm-details/EDM-0BAD11EA6731.json"
+    },
     {
       "actionId": "ACT-D4509B64CF5F",
       "entityId": "",

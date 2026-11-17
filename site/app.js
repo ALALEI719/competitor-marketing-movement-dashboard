@@ -1,4 +1,4 @@
-import { renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut, describeCampaign, coverageCell, selectAdInventory, actionReading, recordLink, timelineModeForWidth, matchesDashboardScope, matchesChannel, websiteContentType, freshnessEntries, timelineActionTypes, timelineActionType, timelineTypeIcon, adDateDisclosure } from './dashboard-v3.js';
+import { renderEdmImages, renderTimelineV3, renderCardsV3, headline, channelSelection, dateRange, shiftDay, todayDay, timelineGeometry, selectDashboardActions, summaryText, stageText, dateBuckets, sortedActions, cut, describeCampaign, coverageCell, selectAdInventory, actionReading, recordLink, timelineModeForWidth, matchesDashboardScope, matchesChannel, websiteContentType, freshnessEntries, timelineActionTypes, timelineActionType, timelineTypeIcon, adDateDisclosure } from './dashboard-v3.js';
 import { websiteReviewQueue } from './website-review.js';
 import { actionDateInfo, actionDateLabel, actionDateOrder, matchesActionPeriod } from './action-date.js';
 import {validatePublicAdObservations,adObservationFreshness} from './ads-observations.js';
@@ -181,7 +181,7 @@ async function edmMailMarkup(reference,action){
   if(!detailRef)return '<div class="evidence">邮件详情尚未通过安全复核。</div>';
   try{
     const detail=await fetchDashboardJson(detailRef);
-    const images=(detail.images||[]).map(item=>{const src=safeEdmAssetPath(item.src);return src?`<figure><img loading="lazy" src="${escapeHtml(src)}" alt="${escapeHtml(item.description||'EDM 营销图片')}"><figcaption>${escapeHtml(item.description||'')}</figcaption></figure>`:'';}).join('');
+    const images=renderEdmImages(detail,{escapeHtml,safeAssetPath:safeEdmAssetPath});
     const paragraphs=(detail.bodyParagraphs||[]).filter(p=>p.trim()!==detail.contentSummary?.trim()&&p.trim()!==action?.summary?.trim());
     return `<article class="edm-mail">${!action?`<h3>${escapeHtml(detail.subject)}</h3><p>${escapeHtml(detail.contentSummary)}</p>`:''}<section class="mail-reading"><h3>邮件内容解读</h3>${paragraphs.map((paragraph,i)=>`<section><h4>${i===0?'活动与产品':/期限|参与期|截止|条件/.test(paragraph)?'时间与参与条件':'优惠与补充事实'}</h4><p>${escapeHtml(paragraph)}</p></section>`).join('')}</section><section><h3>留存素材 <small>点击图片放大 · 按邮件原顺序</small></h3><div class="edm-mail-images">${images||'<p class="evidence">尚未留存公开素材。</p>'}</div></section><details class="record-info"><summary>原邮件主题</summary><p>${escapeHtml(detail.subject)}</p></details><div class="edm-mail-note">邮件图片为留存副本；促销按钮不可点击，原始追踪链接与收件信息不展示。</div></article>`;
   }catch{return '<div class="evidence">邮件详情暂时无法读取。<button data-retry-detail>重新读取详情</button></div>';}

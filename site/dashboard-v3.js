@@ -352,3 +352,34 @@ export function freshnessEntries({summary,actions=[],edmItems=[],ads,filters={}}
     {name:'EDM',channel:'EDM',label:'最近内容复核',time:latest(edm.map(a=>a.reviewedAt)),note:`${edmItems.filter(i=>ids.has(i.actionId)&&matchesDashboardScope(i,filters)).length} 封已收录；发信时间见邮件，收信运行状态未在此导出`},
     {name:'广告观察',channel:'社媒广告',label:'最近成功采集',time:adScope?ads.lastSuccessAt:'',note:adScope?(ads.status==='failed'||ads.status==='needs_attention'?'Mammotion 美国 Meta · 最近检查未完成，保留上次成功观察':'Mammotion 美国 Meta · 上次采集结果，不代表当前实时'):'当前品牌 / 国家尚无已接入广告观察'}];
 }
+
+export function renderEdmImages(detail, { escapeHtml, safeAssetPath }) {
+  const images = (detail.images || []).filter(image => safeAssetPath(image.src));
+  const byIndex = new Map(images.map(image => [image.index, image]));
+  const figure = image => `<figure><img loading="lazy" src="${escapeHtml(image.src)}" alt="${escapeHtml(image.description || 'EDM 营销图片')}"><figcaption>${escapeHtml(image.description || '')}</figcaption></figure>`;
+  const fallback = () => images.map(figure).join('');
+  if (!detail.imageLayout) return fallback();
+  const seen = new Set();
+  function render(node, depth = 0) {
+    if (!node || depth > 30) throw new Error('Invalid image layout');
+    if (node.type === 'image') {
+      if (!byIndex.has(node.index) || seen.has(node.index)) throw new Error('Invalid image reference');
+      seen.add(node.index);
+      return figure(byIndex.get(node.index));
+    }
+    if (!['stack', 'row'].includes(node.type) || !Array.isArray(node.children) || node.children.length > 200) throw new Error('Invalid image group');
+    const content = node.children.map(child => render(child, depth + 1)).join('');
+    if (node.type === 'stack') return `<div class="edm-image-stack">${content}</div>`;
+    if (!Array.isArray(node.widths) || node.widths.length !== node.children.length || node.widths.length > 8 || node.widths.some(width => !Number.isFinite(width) || width <= 0)) throw new Error('Invalid image columns');
+    const total = node.widths.reduce((sum, width) => sum + width, 0);
+    const columns = node.widths.map(width => `${(width / total).toFixed(6)}fr`).join(' ');
+    return `<div class="edm-image-row" style="--edm-columns:${columns}">${content}</div>`;
+  }
+  try {
+    const markup = render(detail.imageLayout);
+    if (seen.size !== images.length) return fallback();
+    return `<div class="edm-original-layout">${markup}</div>`;
+  } catch {
+    return fallback();
+  }
+}

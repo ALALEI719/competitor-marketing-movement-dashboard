@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-24BACEACFA62",
+  "actionId": "ACT-EDM-24BACEACFA62",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "德国",
+  "sentAt": "2026-11-03T09:01:30.000Z",
+  "subject": "Pssst… Black-Friday-Deals früher sehen? 🤫",
+  "contentSummary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+  "bodyParagraphs": [
+    "邮件以割草机器人主视觉预告黑五，邀请查看优惠并宣传畅销割草机的年度优惠及免费配件。未列具体机型售价。",
+    "活动指南为11月3日至30日，幸运转盘分11月3日至9日及11月10日至30日两轮。新会员可得双倍积分。",
+    "推荐人可获3500积分及割草机清洁支架，受邀者可获2000积分，奖励需要满足注册及下单等条件。",
+    "德国版展示相同黑五奖励框架，具体优惠及配件资格以德国站活动条款为准。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-01.png",
+      "description": "Mammotion 德国黑五预告，展示割草机器人并引导查看预览。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-02.png",
+      "description": "德文优惠与免费配件标题。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-03.png",
+      "description": "德文畅销割草机器人年度优惠宣传。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-04.png",
+      "description": "免费配件示意，包括割草机配件和车库。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-05.png",
+      "description": "11月3日至30日黑五活动指南，转盘分11月3日至9日及10日至30日两轮，新会员双倍积分，推荐人3500积分及清洁支架、受邀者2000积分。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-06.png",
+      "description": "积分兑换优惠券与免费产品。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-07.png",
+      "description": "再次引导查看德国黑五预览。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-08.png",
+      "description": "配送服务图标。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-09.png",
+      "description": "退货服务图标。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-10.png",
+      "description": "质保服务图标。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-24BACEACFA62/image-11.png",
+      "description": "客户支持图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "image",
+        "index": 5
+      },
+      {
+        "type": "image",
+        "index": 6
+      },
+      {
+        "type": "row",
+        "widths": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 7
+          },
+          {
+            "type": "image",
+            "index": 8
+          },
+          {
+            "type": "image",
+            "index": 9
+          },
+          {
+            "type": "image",
+            "index": 10
+          }
+        ]
+      }
+    ]
+  }
+}

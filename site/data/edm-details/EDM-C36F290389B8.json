@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-C36F290389B8",
+  "actionId": "ACT-EDM-C36F290389B8",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-11-10T15:30:27.000Z",
+  "subject": "🚀 It's ON! Save Up to $850 This Black Friday",
+  "contentSummary": "邮件称11月10–29日黑五最高减800美元，新客另有50美元券。LUBA 3 AWD 3000 售1999美元、券后1949美元，LUBA mini 2 AWD 1500H 售1599美元、券后1549美元。",
+  "bodyParagraphs": [
+    "LUBA 3 AWD 3000 划线价2799美元，活动价1999美元，使用50美元新人券后为1949美元，并展示赠品。",
+    "LUBA mini 2 AWD 1500H 划线价1999美元，活动价1599美元，新人券后1549美元。宣传360度LiDAR与双摄视觉、边缘割草盘及80%坡度。",
+    "主视觉标示11月10日至29日。新人券来自订阅后的欢迎邮件，每位客户限用一次；标题最高省850美元由最高800美元降价和50美元新人券组成。",
+    "邮件还展示泳池机器人及积分、转盘和推荐奖励，收录动作聚焦割草机器人。价格为邮件发送时宣称，实时库存与最终结算另以商店为准。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-01.png",
+      "description": "Mammotion 美国黑五正式活动，11月10日至29日，最高减800美元，新客户另有50美元礼遇。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-02.png",
+      "description": "新客户需使用订阅欢迎邮件中的优惠码，每位客户限用一次。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-03.png",
+      "description": "LUBA 3 AWD 3000 售1999美元，划线价2799美元，使用50美元新人券后1949美元，附赠品。宣传360度LiDAR、NetRTK及双摄视觉、165W割草和80%坡度。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-04.png",
+      "description": "LUBA mini 2 AWD 1500H 售1599美元，划线价1999美元，新人券后1549美元。宣传360度LiDAR加双摄、边缘割草盘及80%坡度。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-05.png",
+      "description": "SPINO E1 泳池机器人产品卡，属于邮件的其他品类背景。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-06.png",
+      "description": "黑五行动按钮、新会员双倍积分、幸运转盘及推荐奖励宣传。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-07.png",
+      "description": "配送服务图标。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-08.png",
+      "description": "退货服务图标。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-09.png",
+      "description": "质保服务图标。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-C36F290389B8/image-10.png",
+      "description": "客户支持图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "image",
+        "index": 5
+      },
+      {
+        "type": "row",
+        "widths": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 6
+          },
+          {
+            "type": "image",
+            "index": 7
+          },
+          {
+            "type": "image",
+            "index": 8
+          },
+          {
+            "type": "image",
+            "index": 9
+          }
+        ]
+      }
+    ]
+  }
+}

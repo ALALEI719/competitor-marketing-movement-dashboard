@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-87206D4FFEFE",
+  "actionId": "ACT-EDM-87206D4FFEFE",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-11-14T15:04:56.000Z",
+  "subject": "👀⚡ Get Ahead of Black Friday & Save!",
+  "contentSummary": "LiDAX Ultra 2000 售1099美元、减700美元，Ultra 3000 AWD 售2199美元、减800美元，Pro 800 售949美元、减150美元，Pro 800 另有1美元车库加购。",
+  "bodyParagraphs": [
+    "LiDAX Ultra 2000 划线价1799美元，活动价1099美元，减700美元；Lidax Ultra 3000 AWD 划线价2999美元，活动价2199美元，减800美元。",
+    "Lidax Pro 800 划线价1099美元，活动价949美元，减150美元。产品卡标示0.2英亩，并列车库加购1美元及参考价值149美元。",
+    "邮件为美国站黑五提前优惠，同时包含扫地和洗地产品。主视觉最高省550美元与割草机产品卡的700、800美元标示不同，分别保留，割草机动作使用各自产品卡数值。",
+    "本封未明确三款割草机优惠的截止时刻、车库库存及所有资格条件，价格按邮件当日宣称记录。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-01.png",
+      "description": "MOVA 品牌标识。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-02.png",
+      "description": "MOVA 美国黑五提前优惠主视觉，主标题称最高省550美元，产品卡另列各自折扣。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-03.png",
+      "description": "V50 Ultra Complete 扫地机器人产品卡。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-04.png",
+      "description": "Z60 Ultra Roller Complete 扫地机器人产品卡及配件加购。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-05.png",
+      "description": "P10 Pro Ultra 扫地机器人产品卡。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-06.png",
+      "description": "Z60 Ultra Roller SA 扫地机器人产品卡。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-07.png",
+      "description": "MOBIUS 60 扫地机器人产品卡。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-08.png",
+      "description": "LiDAX Ultra 2000 割草机器人1099美元，划线价1799美元，减700美元。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-09.png",
+      "description": "Lidax Ultra 3000 AWD 割草机器人2199美元，划线价2999美元，减800美元。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-10.png",
+      "description": "P50 Ultra 扫地机器人产品卡。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-11.png",
+      "description": "E30 Pro Plus 扫地机器人产品卡。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-12.png",
+      "description": "Lidax Pro 800 割草机器人949美元，划线价1099美元，减150美元。车库加购价1美元，参考价值149美元。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-13.png",
+      "description": "X4 Pro 洗地机产品卡。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-14.png",
+      "description": "购买行动按钮。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-87206D4FFEFE/image-15.png",
+      "description": "官方商店的价保、交付、退货、运输和质保宣传，条款以官网为准。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 5
+          },
+          {
+            "type": "image",
+            "index": 6
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 7
+          },
+          {
+            "type": "image",
+            "index": 8
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 9
+          },
+          {
+            "type": "image",
+            "index": 10
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 11
+          },
+          {
+            "type": "image",
+            "index": 12
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "index": 13
+      },
+      {
+        "type": "image",
+        "index": 14
+      }
+    ]
+  }
+}

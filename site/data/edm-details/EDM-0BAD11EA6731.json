@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-0BAD11EA6731",
+  "actionId": "ACT-EDM-0BAD11EA6731",
+  "brand": "Mammotion",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-11-03T15:31:10.000Z",
+  "subject": "Shh... want to see the Black Friday deals early? 🤫",
+  "contentSummary": "以割草机器人主视觉预告黑五，宣传优惠、免费配件、幸运转盘、会员及推荐积分奖励。国家版本分别记录，具体售价未在本封列明。",
+  "bodyParagraphs": [
+    "邮件以割草机器人主视觉预告黑五，邀请查看优惠并宣传畅销割草机的年度优惠及免费配件。未列具体机型售价。",
+    "活动指南为11月3日至30日，幸运转盘分11月3日至9日及11月10日至30日两轮。新会员可得双倍积分。",
+    "推荐人可获3500积分及割草机清洁支架，受邀者可获2000积分，奖励需要满足注册及下单等条件。",
+    "优惠和奖品因市场及产品而异。邮件脚注将部分年度优惠的适用期列为11月10日至30日。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-01.png",
+      "description": "Mammotion 美国黑五预览主视觉，展示割草机器人并引导查看预告。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-02.png",
+      "description": "黑五大促与免费附加礼遇标题。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-03.png",
+      "description": "畅销割草机器人年度优惠与免费配件示意。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-04.png",
+      "description": "活动指南为11月3日至30日，包含两阶段幸运转盘、新会员双倍积分和邀请奖励。推荐人下单奖励3500积分及割草机清洁支架，受邀者2000积分。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-05.png",
+      "description": "积分可兑换优惠券和免费产品。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-06.png",
+      "description": "再次引导查看黑五预览，脚注指部分产品11月10日至30日适用，具体优惠因产品和市场而异。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-07.png",
+      "description": "配送服务图标。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-08.png",
+      "description": "退货服务图标。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-09.png",
+      "description": "质保服务图标。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-0BAD11EA6731/image-10.png",
+      "description": "客户支持图标。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 4
+      },
+      {
+        "type": "image",
+        "index": 5
+      },
+      {
+        "type": "row",
+        "widths": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 6
+          },
+          {
+            "type": "image",
+            "index": 7
+          },
+          {
+            "type": "image",
+            "index": 8
+          },
+          {
+            "type": "image",
+            "index": 9
+          }
+        ]
+      }
+    ]
+  }
+}

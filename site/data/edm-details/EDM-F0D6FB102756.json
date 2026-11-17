@@ -42,5 +42,30 @@
     }
   ],
   "recipientDetailsIncluded": false,
-  "externalLinksIncluded": false
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "image",
+        "index": 9
+      }
+    ]
+  }
 }
