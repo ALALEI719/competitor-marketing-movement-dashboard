@@ -1,7 +1,208 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T11:30:46.290Z",
+  "updatedAt": "2026-11-17T11:47:42.441Z",
   "actions": [
+    {
+      "actionId": "ACT-FC34CC43788F",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T11:37:01.814Z",
+      "publishDate": "",
+      "title": "Dreame 法国｜A3 AWD Pro 3500割草机器人搜索广告",
+      "summary": "2026年11月17日在Google官方广告透明度中心，以法国、Google搜索、文字广告及11月14–17日筛选留存该Dreame割草机器人广告。当前网页预览明确宣传A3 AWD Pro 3500，广告宣称适用于最高3500平方米的困难地形，配备四轮驱动、3D LiDAR、AI视觉和40厘米切割宽度。平台披露该广告在法国首次展示为11月10日，最后展示为11月16日。Google验证的广告主与Dreame法国官网法定名称一致。当前预览独立上线、变体总数与真实点击网址未知。",
+      "creative": "法国Google搜索文字广告，主标题和正文直接宣传A3 AWD Pro 3500割草机器人。",
+      "copy": "Robot tondeuse 4x4 pour terrains difficiles jusqu’à 3 500 m². A3 AWD Pro 3500 combine 4 roues motrices, LiDAR 3D, vision IA et coupe de 40 cm.",
+      "offer": "",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "listing_scope",
+          "sha256": "ed03e404815b3fb87ab4b9a4a6b2751b6d6bb6717e598f4e3934f8949bd80586",
+          "bytes": 6036,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:36:09.262Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_endpoints",
+          "sha256": "33735c90b7d6e4191cc27ecd5f7490e0a181fe8ecc09bce228bd7c4bf8178cd6",
+          "bytes": 18228,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:36:02.203Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "date_application_closed_calendar",
+          "sha256": "91cf04ea33cb08fd40f4d0e6463ade27c7ef87d10c646bf795eb6209d6ab3bee",
+          "bytes": 5210,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:36:01.240Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/?platform=SEARCH&region=FR&domain=dreametech.com&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "inventory_identities",
+          "sha256": "fcbe09268c8cfb99b14c3c494622e4d0e487ac1f8cfb8f482cdcbb15d70c9a81",
+          "bytes": 40666,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:36:32.765Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_dates",
+          "sha256": "0f100ddca575715555f553d08c000bebaa367fef3b95533f8f7acdf9a8a004b0",
+          "bytes": 3960,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:37:01.814Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "748a3c9f61811daac76fc0ee779406590d1c38e1685153891d01b331e7f193ca",
+          "bytes": 78765,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T11:37:01.814Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_creative_rendered_html_and_text",
+          "sha256": "3bafa8eb3c87f37a79c21c97ad417efb552e6f8f49d6dc0e2cb10c6e019bcfcb",
+          "bytes": 69203,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T11:37:23.989Z"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://fr.dreametech.com/",
+          "kind": "official_model_and_robotic_mower_category",
+          "sha256": "a3816ff83aee1c00cfd175fd58852a647108dafe7964057c232f106c1ee00516",
+          "bytes": 2655426,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T11:38:53.017474+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T11:47:42.441Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR17052301413993938945",
+      "sourceRecordIds": [
+        "CR17052301413993938945"
+      ],
+      "advertiserId": "AR14450639508611268609",
+      "creativeId": "CR17052301413993938945",
+      "advertiserName": "DREAME INTERNATIONAL (HONGKONG) LIMITED",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T11:37:01.814Z",
+      "firstObservedAt": "2026-11-17T11:37:01.814Z",
+      "firstShownDate": "2026-11-10",
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google法国范围首次展示为2026-11-10，最后展示为2026-11-16。当前预览于2026-11-17留存，其独立上线时间与全球活动时间未知。",
+      "notificationEligible": false,
+      "notificationReason": "Google法国firstShown为11月10日，早于既有11月14日通知下限，通知资格依据首次展示日期判定。",
+      "verifiedDynamicDate": "2026-11-10",
+      "dynamicDateBasis": "google_country_first_shown",
+      "notificationClaimScope": "official platform country-scoped first showing of this ad identity",
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "A3 AWD Pro 3500 | Robot tondeuse 4x4 tout terrain – Dreame France",
+          "copy": "Robot tondeuse 4x4 pour terrains difficiles jusqu’à 3 500 m². A3 AWD Pro 3500 combine 4 roues motrices, LiDAR 3D, vision IA et coupe de 40 cm.",
+          "cta": [],
+          "offer": "",
+          "displayUrl": "fr.dreametech.com/dreame/black-friday",
+          "previewUrls": [
+            "https://www.google.com:443?sa=X&ved=2ahUKEwi2vJH99I6YAxWyGX0JHTOLGeQQ0Qx6BAgAEAE"
+          ],
+          "capturedAt": "2026-11-17T11:37:23.989Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "748a3c9f61811daac76fc0ee779406590d1c38e1685153891d01b331e7f193ca",
+              "bytes": 78765,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T11:37:01.814Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609/creative/CR17052301413993938945?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "platform_creative_rendered_html_and_text",
+              "sha256": "3bafa8eb3c87f37a79c21c97ad417efb552e6f8f49d6dc0e2cb10c6e019bcfcb",
+              "bytes": 69203,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T11:37:23.989Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "DREAME INTERNATIONAL (HONGKONG) LIMITED",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR14450639508611268609?platform=SEARCH&region=FR&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "25f61b720cc33c9f583d61e6c8f47a6a1a071d81edc0422ffe37b22775afcc5a",
+            "bytes": 3220,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T11:38:10.656Z"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://fr.dreametech.com/pages/mentions-legales",
+            "kind": "official_legal_entity_mentions_legales",
+            "sha256": "abb745168269c64db695936c506a4ccb78c80bda257c53c5748c517a983b818b",
+            "bytes": 2285866,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T11:39:16.728634+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "fr.dreametech.com/dreame/black-friday"
+        ],
+        "previewAnchorUrls": [
+          "https://www.google.com:443?sa=X&ved=2ahUKEwi2vJH99I6YAxWyGX0JHTOLGeQQ0Qx6BAgAEAE"
+        ],
+        "observedPreviewFinalUrl": "https://adstransparency.google.com/adframe",
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-FEC03121359D",
       "entityId": "",
