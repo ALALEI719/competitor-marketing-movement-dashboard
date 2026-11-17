@@ -11,7 +11,7 @@
     "sites": 13,
     "healthySites": 10,
     "pages": 10163,
-    "pendingChanges": 3,
+    "pendingChanges": 2,
     "productCandidates": 0,
     "channelSources": 4,
     "healthyChannelSources": 4,
@@ -3091,130 +3091,6 @@
     }
   ],
   "pendingRecords": [
-    {
-      "type": "content_change",
-      "reviewStatus": "pending",
-      "siteId": "mova-de",
-      "brand": "Mova",
-      "country": "德国",
-      "discoveredAt": "2026-11-17T12:26:52.005Z",
-      "publishDate": "",
-      "url": "https://de.mova.tech/collections/robot-lawn-mower",
-      "pageType": "collection",
-      "sourceEvidence": {
-        "sourceUrl": "https://de.mova.tech/collections/robot-lawn-mower",
-        "sha256": "f15e4d5eb4a0370f92642e2db235c9be4f62eeb37acd739a5f0640ff7c352ea4",
-        "rawEvidencePath": ".site-private/full-sitemap-html/mova-de/f15e4d5eb4a0370f92642e2db235c9be4f62eeb37acd739a5f0640ff7c352ea4.html",
-        "capturedAt": "2026-11-17T12:26:52.005Z",
-        "privateArchive": {
-          "kind": "authenticated_github_actions_artifact",
-          "runId": "44082820491",
-          "attempt": "1",
-          "name": "site-private-44082820491-1"
-        }
-      },
-      "changedFields": [
-        "offer"
-      ],
-      "contentEvidence": {
-        "status": "changed_content",
-        "beforeHash": "a487cef557ba271bbb77a8409e858f7759d36499abe766da17836f455f79e423",
-        "afterHash": "1992a3ce3db6a384ad8555af5c7ff7c61c61f8f22744ad6e6f73b6d5b6d366be",
-        "changedFields": [
-          "offer"
-        ]
-      },
-      "summary": "页面关键内容变化：offer，待人工或 AI 二次确认",
-      "aiAssessment": {
-        "schemaVersion": "1.0",
-        "provider": "typesafe",
-        "capability": "system_one",
-        "mode": "shadow",
-        "status": "completed",
-        "modelRequested": "jev-latest",
-        "model": "jev-1.14.0",
-        "modelVersion": "jev-1.14.0",
-        "sdkVersion": "0.6.0",
-        "questionSetVersion": "page-change-v2",
-        "inputHash": "1492df70d3df542831a087fa1140b386a3d0b4788acee546917724f52158f910",
-        "answers": {
-          "meaningful_marketing_change": {
-            "type": "noul",
-            "noul": 0.89
-          },
-          "change_type": {
-            "type": "choice",
-            "choice": "promotion",
-            "confidence": 0.8,
-            "probabilities": {
-              "product_launch": 0.15,
-              "promotion": 0.83,
-              "price_change": 0,
-              "availability_change": 0,
-              "messaging_or_cta": 0.02,
-              "routine_content_refresh": 0,
-              "other": 0
-            }
-          },
-          "launch_stage": {
-            "type": "choice",
-            "choice": "not_launch_related",
-            "confidence": 0.26,
-            "probabilities": {
-              "not_launch_related": 0.38,
-              "weak_signal": 0.08,
-              "teaser": 0,
-              "announcement": 0.22,
-              "preorder": 0,
-              "on_sale": 0.32
-            }
-          },
-          "strategic_significance": {
-            "type": "score",
-            "score": 2.65,
-            "confidence": 0.68,
-            "legend": {
-              "0": "0 — noise or no marketing value",
-              "1": "1 — minor content maintenance",
-              "2": "2 — relevant but routine marketing change",
-              "3": "3 — important campaign, offer, positioning, or launch-stage change",
-              "4": "4 — major launch or high-impact market action requiring prompt review"
-            },
-            "probabilities": {
-              "0": 0.01,
-              "1": 0.02,
-              "2": 0.3,
-              "3": 0.66,
-              "4": 0.01
-            }
-          },
-          "event_relation": {
-            "type": "choice",
-            "choice": "event_1",
-            "confidence": 0.96,
-            "probabilities": {
-              "none": 0.02,
-              "event_1": 0.98
-            }
-          }
-        },
-        "latencyMs": 177,
-        "usage": {
-          "input_tokens": 7510,
-          "output_tokens": 215
-        },
-        "error": null,
-        "evaluatedAt": "2026-11-17T12:26:54.131Z"
-      },
-      "policyDecision": {
-        "policyVersion": "page-change-shadow-v1",
-        "mode": "shadow",
-        "route": "existing_manual_review_flow",
-        "behaviorChanged": false,
-        "reason": "TypeSafe result recorded for calibration only."
-      },
-      "recordId": "SITE-34A60ACB3A7B"
-    },
     {
       "type": "content_change",
       "reviewStatus": "pending",

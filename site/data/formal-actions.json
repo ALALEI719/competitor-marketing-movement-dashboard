@@ -1,7 +1,329 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T12:20:02.484Z",
+  "updatedAt": "2026-11-17T13:03:44.212Z",
   "actions": [
+    {
+      "actionId": "ACT-8949FEB5CA23",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T12:46:52.142Z",
+      "publishDate": "",
+      "title": "Dreame 美国｜A3 AWD割草机器人黑五搜索广告",
+      "summary": "2026年11月17日补查Google官方广告透明度中心既有美国搜索文字广告库存第24条，留存该Dreame广告当时披露的三个可见变体。源文案存在省略号，省略内容未知。主标题包括All-Terrain Robot Mower、Dreame A3 AWD Robot Mower和Smart Robot Mower With LiDAR，正文均直接宣传机器人割草。广告宣称指定机型最高省1,000美元及3年免费4G等权益，优惠条件与实际价格待核。平台仅披露美国最后展示为11月16日，首次展示未知。Google验证广告主Dreame Technology USA Inc与美国官方论坛隐私政策主体名称一致。院子站条款另列Dreame International (HongKong) Limited。当前变体独立上线和真实点击网址未知。",
+      "creative": "原站披露三个变体，均明确宣传机器人割草，第二变体主标题列A3 AWD。",
+      "copy": "Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. Get a truly hands-free mowing...\n\nSave up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. 3-Year Warranty Included. 3-Year Free 4G Data.\n\nSave up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Conquer complex yards and steep slopes with our all-terrain robotic mower. Free Shipping in US. 3-Year Free 4G Data. 3-Year Warranty Included.",
+      "offer": "广告宣称指定割草机最高省1,000美元、3年4G及保修，并列200美元割草机车库赠品和首单7%等标签。具体适用机型、资格、有效期及实际价格待核。",
+      "cta": "Early Black Friday、Up to 3-year Warranty、Buy Accessories、Climb 80% Slopes Effortlessly、Dreame Yard Care、Free $200 Mower Garage!、30-day Free Return Policy、Free and Fast Shipping、Extra 7% Off First Order",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_dates_and_variant_total",
+          "sha256": "e40599547c59243a6c34ff494b2ea67b4cb531cfe79ff7f706744258aac7e07c",
+          "bytes": 3215,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:46:52.142Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "efd87fab7b7c60361615f4eee2164b071146cdcc31416b8a1ada69754f8d7807",
+          "bytes": 69529,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T12:46:52.142Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_creative_rendered_html_and_text",
+          "sha256": "c9b07e2fe9e1af8c859301edfe20cbaa16e952046add7b47c3e0670a804b9ff0",
+          "bytes": 78282,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T12:46:52.980Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "5dc537abe5a74197b90178126dbdb9e3d0aecd7b0391b1ef40e20e13e815b62e",
+          "bytes": 77305,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-17T12:47:10.882Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_creative_rendered_html_and_text",
+          "sha256": "fe21318aeae38387c5da92c05d55a15930d52a538224d4385425a0fe1b884984",
+          "bytes": 101411,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-17T12:47:32.491Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "fe75e7e84680196562fc3ab71a1879a0e73ee4a1279bcbeafaf3ef638c9de5c3",
+          "bytes": 69301,
+          "variantIndex": 3,
+          "capturedAt": "2026-11-17T12:47:33.278Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_creative_rendered_html_and_text",
+          "sha256": "45da8a0dafc74e253364b59b37124f5042bbee185240fd1f5b8568a99062d170",
+          "bytes": 75776,
+          "variantIndex": 3,
+          "capturedAt": "2026-11-17T12:48:00.068Z"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://yardcare.dreametech.com/",
+          "kind": "official_robotic_mower_and_A3_AWD_category",
+          "sha256": "22f2035bb744b4560507efdbc3a0ef7e97445564102749fe502606335a0c8673",
+          "bytes": 788331,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:48:59.078442+00:00"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://www.dreametech.com/",
+          "kind": "official_main_brand_and_A3_AWD_category",
+          "sha256": "601b9133200e3ccad1b3f333d6e3718fc56c66bd8f910e35366a54f43ff983ad",
+          "bytes": 2727133,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:49:00.653666+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T13:03:44.212Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR13318142222764343297",
+      "sourceRecordIds": [
+        "CR13318142222764343297"
+      ],
+      "advertiserId": "AR17359429371370143745",
+      "creativeId": "CR13318142222764343297",
+      "advertiserName": "Dreame Technology USA Inc",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T12:46:52.142Z",
+      "firstObservedAt": "2026-11-17T12:46:52.142Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google美国范围仅披露最后展示为2026-11-16，首次展示日期未知。三个当前变体于2026-11-17留存，各变体独立上线与全球活动时间未知。",
+      "notificationEligible": false,
+      "notificationReason": "美国来源未披露首次展示日期，通知所需日期证据不足。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "All-Terrain Robot Mower - Robot Mower For Large Yards",
+          "copy": "Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. Get a truly hands-free mowing...",
+          "cta": [
+            "Early Black Friday",
+            "Up to 3-year Warranty",
+            "Buy Accessories"
+          ],
+          "offer": "3 years of free 4G data, up to 3-year warranty",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [
+            "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQ0Qx6BAgAEAE",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAg",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAk",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAo"
+          ],
+          "capturedAt": "2026-11-17T12:46:52.980Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "efd87fab7b7c60361615f4eee2164b071146cdcc31416b8a1ada69754f8d7807",
+              "bytes": 69529,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T12:46:52.142Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "platform_creative_rendered_html_and_text",
+              "sha256": "c9b07e2fe9e1af8c859301edfe20cbaa16e952046add7b47c3e0670a804b9ff0",
+              "bytes": 78282,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T12:46:52.980Z"
+            }
+          ]
+        },
+        {
+          "variantIndex": 2,
+          "title": "Dreame A3 AWD Robot Mower - Early Black Friday Mower Deals",
+          "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. 3-Year Warranty Included. 3-Year Free 4G Data.",
+          "cta": [
+            "Climb 80% Slopes Effortlessly",
+            "Dreame Yard Care",
+            "Early Black Friday",
+            "Free $200 Mower Garage!",
+            "Up to 3-year Warranty",
+            "30-day Free Return Policy",
+            "Free and Fast Shipping",
+            "Extra 7% Off First Order"
+          ],
+          "offer": "Save up to $1,000 on select Dreame robot mowers, 3-year free 4G data and warranty as advertised",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70Q0Qx6BAgAEAE",
+            "https://www.google.com/shopping/ratings/account/metrics?q=dreametech.com&c=US&v=19",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAO",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAQ",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAS",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAU",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAW",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAY",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAa",
+            "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAc"
+          ],
+          "capturedAt": "2026-11-17T12:47:32.491Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "5dc537abe5a74197b90178126dbdb9e3d0aecd7b0391b1ef40e20e13e815b62e",
+              "bytes": 77305,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-17T12:47:10.882Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "platform_creative_rendered_html_and_text",
+              "sha256": "fe21318aeae38387c5da92c05d55a15930d52a538224d4385425a0fe1b884984",
+              "bytes": 101411,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-17T12:47:32.491Z"
+            }
+          ]
+        },
+        {
+          "variantIndex": 3,
+          "title": "Early Black Friday Mower Deals - Smart Robot Mower With LiDAR",
+          "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Conquer complex yards and steep slopes with our all-terrain robotic mower. Free Shipping in US. 3-Year Free 4G Data. 3-Year Warranty Included.",
+          "cta": [],
+          "offer": "Save up to $1,000 on select Dreame robot mowers, 3-year free 4G data and warranty as advertised",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [
+            "https://www.google.com:443?sa=X&ved=2ahUKEwjZvYy2hI-YAxUaPn0JHRGTM70Q0Qx6BAgAEAE"
+          ],
+          "capturedAt": "2026-11-17T12:48:00.068Z",
+          "textComplete": true,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "fe75e7e84680196562fc3ab71a1879a0e73ee4a1279bcbeafaf3ef638c9de5c3",
+              "bytes": 69301,
+              "variantIndex": 3,
+              "capturedAt": "2026-11-17T12:47:33.278Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR13318142222764343297?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "platform_creative_rendered_html_and_text",
+              "sha256": "45da8a0dafc74e253364b59b37124f5042bbee185240fd1f5b8568a99062d170",
+              "bytes": 75776,
+              "variantIndex": 3,
+              "capturedAt": "2026-11-17T12:48:00.068Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": 3,
+      "variantsComplete": true,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "Dreame Technology USA Inc",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "7c11c224c0496d4bd623658c57c6401f102d15d76a355c27f6484d49d1da7fa6",
+            "bytes": 3142,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:48:00.624Z"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://us.forum.dreametech.com/portal.php?aid=2&mod=view",
+            "kind": "official_us_forum_privacy_legal_entity",
+            "sha256": "d28992fa3aceba1051376dcd7352b5ce14af2ce20745bbbe562cc02f4b5f97a0",
+            "bytes": 82479,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:51:02.528566+00:00"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://yardcare.dreametech.com/pages/terms-conditions",
+            "kind": "official_yardcare_operator_terms",
+            "sha256": "c438a072df4400372a54e097a448543fdacf3d230a311eb710fef4fca7818f3a",
+            "bytes": 607965,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:49:58.358192+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "yardcare.dreametech.com/"
+        ],
+        "previewAnchorUrls": [
+          "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQ0Qx6BAgAEAE",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAg",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAk",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwivvp22hI-YAxXLM30JHRJKGuoQpih6BAgAEAo",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70Q0Qx6BAgAEAE",
+          "https://www.google.com/shopping/ratings/account/metrics?q=dreametech.com&c=US&v=19",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAO",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAQ",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAS",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAU",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAW",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAY",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAa",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwiZvYu2hI-YAxUaPn0JHRGTM70QvrcBegQIABAc",
+          "https://www.google.com:443?sa=X&ved=2ahUKEwjZvYy2hI-YAxUaPn0JHRGTM70Q0Qx6BAgAEAE"
+        ],
+        "observedPreviewFinalUrl": "https://adstransparency.google.com/adframe",
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-B84FBB554181",
       "entityId": "",
