@@ -21,7 +21,7 @@
     "prSources": 20,
     "healthyPrSources": 20,
     "prChanges": 44,
-    "pendingPrChanges": 8
+    "pendingPrChanges": 6
   },
   "sites": [
     {
@@ -9412,7 +9412,7 @@
         "countryCode": "DE",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "Mähroboter-Garage Test 2026: Die besten Modelle, auch für GPS",
         "sourceUrl": "https://www.homeandsmart.de/beste-maehroboter-garagen-0031-973608",
         "publishDate": "2026-11-16T17:22:24+00:00",
@@ -9461,7 +9461,7 @@
         "countryCode": "UK",
         "channel": "pr",
         "changeType": "content_updated",
-        "reviewStatus": "pending",
+        "reviewStatus": "rejected",
         "title": "I never thought robot lawn mowers were worth the hype, but these 4 smart machines convinced me they're ideal for busy gardeners – and easy to set up",
         "sourceUrl": "https://www.idealhome.co.uk/garden/garden-tools/best-robot-lawn-mowers",
         "publishDate": "",
