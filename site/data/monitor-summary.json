@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-17T12:30:40.858Z",
+  "generatedAt": "2026-11-17T13:51:13.330Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -1566,7 +1566,7 @@
         "siteUrl": "https://www.ecovacs.com/us/goat-robotic-lawn-mower",
         "sitemapUrl": "https://www.ecovacs.com/us/sitemap.xml"
       },
-      "checkedAt": "2026-11-17T12:28:07.494Z",
+      "checkedAt": "2026-11-17T13:50:36.550Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 19,
@@ -1602,7 +1602,96 @@
           "missingUrls": [],
           "failedUrls": []
         },
-        "note": ""
+        "note": "",
+        "ecovacsBlog": {
+          "status": "bootstrap_in_progress",
+          "sourceScope": "official_us_blog_mower_articles",
+          "totalPages": 12,
+          "visitedPages": 3,
+          "bootstrapComplete": false,
+          "initialBootstrapComplete": false,
+          "knownArticles": 9,
+          "articleSnapshots": 4,
+          "unbaselined": 5,
+          "listingRequests": 3,
+          "articleFetches": 4,
+          "articleErrors": [],
+          "pendingArticles": 0,
+          "listingEvidence": [
+            {
+              "pageNumber": 1,
+              "sourceUrl": "https://www.ecovacs.com/us/blog",
+              "sourceEvidence": {
+                "schemaVersion": "1.0",
+                "sourceUrl": "https://www.ecovacs.com/us/blog",
+                "siteId": "ecovacs-us",
+                "sha256": "e6af74f92a63f1b6ed254a2ad0bc3b3cc11a7fd85a5bfc50a3e65297178b713f",
+                "rawHtmlSha256": "e6af74f92a63f1b6ed254a2ad0bc3b3cc11a7fd85a5bfc50a3e65297178b713f",
+                "rawEvidencePath": ".site-private/nonfull-site-html/ecovacs-us/e6af74f92a63f1b6ed254a2ad0bc3b3cc11a7fd85a5bfc50a3e65297178b713f.html",
+                "manifestPath": ".site-private/nonfull-site-manifests/ecovacs-us/a6d6512e6ffea47683f3665dae9c221b16b058e5ce9cd1d4b9073131a6d4d781-e6af74f92a63f1b6ed254a2ad0bc3b3cc11a7fd85a5bfc50a3e65297178b713f-534f728c5bd4.json",
+                "capturedAt": "2026-11-17T13:50:36.550Z",
+                "contentHash": "5efe5cf66ada77c6e8db6c773d23335c01ad3582ca22886aa276ebda0ebc4972",
+                "bodyTextSha256": "441b618d2390bcb3a7bb46e56b6fb7ff30dd444bd44bdeee82095a6929699f1b",
+                "extractionVersion": "",
+                "titleExtractionProfile": "",
+                "privateArchive": {
+                  "kind": "authenticated_github_actions_artifact",
+                  "runId": "44096492955",
+                  "attempt": "1",
+                  "name": "site-private-44096492955-1"
+                }
+              }
+            },
+            {
+              "pageNumber": 2,
+              "sourceUrl": "https://www.ecovacs.com/us/blog?page=2",
+              "sourceEvidence": {
+                "schemaVersion": "1.0",
+                "sourceUrl": "https://www.ecovacs.com/us/blog?page=2",
+                "siteId": "ecovacs-us",
+                "sha256": "51798f537d1d5db3a95613bf37b8e98ced38b3b55ad8c7cf90e42a353104512b",
+                "rawHtmlSha256": "51798f537d1d5db3a95613bf37b8e98ced38b3b55ad8c7cf90e42a353104512b",
+                "rawEvidencePath": ".site-private/nonfull-site-html/ecovacs-us/51798f537d1d5db3a95613bf37b8e98ced38b3b55ad8c7cf90e42a353104512b.html",
+                "manifestPath": ".site-private/nonfull-site-manifests/ecovacs-us/bf4890c81a6d395107b90c0d12f5922ccb005b65eb35a9fd4c116972588eb625-51798f537d1d5db3a95613bf37b8e98ced38b3b55ad8c7cf90e42a353104512b-534f728c5bd4.json",
+                "capturedAt": "2026-11-17T13:50:36.550Z",
+                "contentHash": "78f64564b86f6012c95a42199ff3ba3f0797c09f3f52bcd1a3861a8efd0fea72",
+                "bodyTextSha256": "862a895ba1b528923fcb969dffb71c9dc4b874cd784a0aa028ffbfe46f5f33ff",
+                "extractionVersion": "",
+                "titleExtractionProfile": "",
+                "privateArchive": {
+                  "kind": "authenticated_github_actions_artifact",
+                  "runId": "44096492955",
+                  "attempt": "1",
+                  "name": "site-private-44096492955-1"
+                }
+              }
+            },
+            {
+              "pageNumber": 3,
+              "sourceUrl": "https://www.ecovacs.com/us/blog?page=3",
+              "sourceEvidence": {
+                "schemaVersion": "1.0",
+                "sourceUrl": "https://www.ecovacs.com/us/blog?page=3",
+                "siteId": "ecovacs-us",
+                "sha256": "3d9cc7927500469ef09ab6def9fd2b44476e2bfcd5d17eb93dcbd274241d2b1c",
+                "rawHtmlSha256": "3d9cc7927500469ef09ab6def9fd2b44476e2bfcd5d17eb93dcbd274241d2b1c",
+                "rawEvidencePath": ".site-private/nonfull-site-html/ecovacs-us/3d9cc7927500469ef09ab6def9fd2b44476e2bfcd5d17eb93dcbd274241d2b1c.html",
+                "manifestPath": ".site-private/nonfull-site-manifests/ecovacs-us/d35b29e49ecc85a17b23c6845cd21751013ba3d2c8457b8dd864cd91aca18730-3d9cc7927500469ef09ab6def9fd2b44476e2bfcd5d17eb93dcbd274241d2b1c-534f728c5bd4.json",
+                "capturedAt": "2026-11-17T13:50:36.550Z",
+                "contentHash": "4d16c5b087a96ec31280e82c3eb5c21cfa0f511f509504f5fde2b38e6a81e50f",
+                "bodyTextSha256": "2168807531109ff5ef73468b3339493979f8812cdfe8f9ad0ee0f3dcc7d1b5be",
+                "extractionVersion": "",
+                "titleExtractionProfile": "",
+                "privateArchive": {
+                  "kind": "authenticated_github_actions_artifact",
+                  "runId": "44096492955",
+                  "attempt": "1",
+                  "name": "site-private-44096492955-1"
+                }
+              }
+            }
+          ]
+        }
       },
       "contentInspection": {
         "inspectedPages": 19,
@@ -11570,20 +11659,8 @@
   "collectionScope": {
     "brand": "all",
     "siteIds": [
-      "mammotion-us",
-      "mammotion-de",
-      "mammotion-uk",
-      "mammotion-fr",
-      "mova-us",
-      "mova-de",
-      "mova-fr",
-      "ecovacs-us",
-      "dreame-de",
-      "dreame-fr",
-      "dreame-us",
-      "eufy-de-anker",
-      "eufy-fr"
+      "ecovacs-us"
     ],
-    "collectedAt": "2026-11-17T12:30:40.858Z"
+    "collectedAt": "2026-11-17T13:51:13.330Z"
   }
 }
