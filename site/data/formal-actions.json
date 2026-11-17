@@ -1,7 +1,462 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T13:03:44.212Z",
+  "updatedAt": "2026-11-17T13:38:51.766Z",
   "actions": [
+    {
+      "actionId": "ACT-2E0A6BDA1AF9",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T13:30:19.042Z",
+      "publishDate": "",
+      "title": "Dreame 美国｜A3 AWD Pro割草机器人黑五搜索广告",
+      "summary": "2026年11月17日补查Google官方广告透明度中心既有美国搜索文字广告库存第32条。当前单张预览主标题为Dreame A3 AWD Pro Robot Mower，正文直接宣传割草机器人，宣称3年免费4G与3年保修。源站未提供变体页码或总数。广告宣称黑五指定割草机最高省1,000美元，优惠条件和实际价格待核。平台仅披露美国最后展示为11月16日，首次展示未知。Google验证广告主与美国官方论坛隐私政策主体名称一致。真实点击落地未知，图片省略或裁切后的文案未知。",
+      "creative": "当前单张预览主标题明确列A3 AWD Pro机器人割草机，源站未披露变体总数。",
+      "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. 3-Year Free 4G Data. 3-Year Warranty Included. Dreame Robot Lawn Mower. Free...",
+      "offer": "广告宣称指定割草机器人黑五最高省1,000美元。当前预览另宣称3年免费4G与3年保修。适用机型、条件与实际价格待核。",
+      "cta": "Early Black Friday、Save Up to $1000",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR01099789572289593345?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR01099789572289593345?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_country_dates_and_variant_controls",
+          "sha256": "9c02aaf382d52c7c7047ba8bce934f6f8ff7f1c65327730778e83ff88930b00c",
+          "bytes": 2148,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T13:30:19.042Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR01099789572289593345?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "8d3c3960285dafc28362f37090484a5ece803244dcf39920c5a2bdd8c17d8dbd",
+          "bytes": 78332,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T13:30:19.042Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/17412229166071676495",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "8b6f486e4c05268fb9f0ba2e39e575e0827f61ea892a5479aee4d3f84b104344",
+          "bytes": 116737,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T13:30:19.042Z"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://yardcare.dreametech.com/",
+          "kind": "official_robotic_mower_and_A3_AWD_category",
+          "sha256": "22f2035bb744b4560507efdbc3a0ef7e97445564102749fe502606335a0c8673",
+          "bytes": 788331,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:48:59.078442+00:00"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://www.dreametech.com/",
+          "kind": "official_main_brand_and_A3_AWD_category",
+          "sha256": "601b9133200e3ccad1b3f333d6e3718fc56c66bd8f910e35366a54f43ff983ad",
+          "bytes": 2727133,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:49:00.653666+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T13:38:51.766Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR01099789572289593345",
+      "sourceRecordIds": [
+        "CR01099789572289593345"
+      ],
+      "advertiserId": "AR17359429371370143745",
+      "creativeId": "CR01099789572289593345",
+      "advertiserName": "Dreame Technology USA Inc",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T13:30:19.042Z",
+      "firstObservedAt": "2026-11-17T13:30:19.042Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google美国详情仅披露最后展示为2026-11-16，首次展示及变体独立上线日期未知。采集时间单独记录。",
+      "notificationEligible": false,
+      "notificationReason": "美国来源未披露首次展示日期，通知所需日期证据不足。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "Dreame A3 AWD Pro Robot Mower - Black Friday Mega Sale",
+          "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Smart AI obstacle avoidance & precision edging. Get 3 years of free 4G data with Dreame. 3-Year Free 4G Data. 3-Year Warranty Included. Dreame Robot Lawn Mower. Free...",
+          "cta": [
+            "Early Black Friday",
+            "Save Up to $1000"
+          ],
+          "offer": "广告宣称黑五指定割草机器人最高省1,000美元，资格与适用条件待核。",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T13:30:19.042Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR01099789572289593345?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "8d3c3960285dafc28362f37090484a5ece803244dcf39920c5a2bdd8c17d8dbd",
+              "bytes": 78332,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T13:30:19.042Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/17412229166071676495",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "8b6f486e4c05268fb9f0ba2e39e575e0827f61ea892a5479aee4d3f84b104344",
+              "bytes": 116737,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T13:30:19.042Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "Dreame Technology USA Inc",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "9fdcb8a89c801edc2aec8592468847651369ed74fd70264a4b40304209f67acc",
+            "bytes": 5455,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T13:30:03.173Z"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://yardcare.dreametech.com/pages/terms-conditions",
+            "kind": "official_yardcare_operator_terms",
+            "sha256": "c438a072df4400372a54e097a448543fdacf3d230a311eb710fef4fca7818f3a",
+            "bytes": 607965,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:49:58.358192+00:00"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://us.forum.dreametech.com/portal.php?aid=2&mod=view",
+            "kind": "official_us_forum_privacy_legal_entity",
+            "sha256": "d28992fa3aceba1051376dcd7352b5ce14af2ce20745bbbe562cc02f4b5f97a0",
+            "bytes": 82479,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:51:02.528566+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "yardcare.dreametech.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
+    {
+      "actionId": "ACT-617B1F9CCE4F",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-17T13:29:43.882Z",
+      "publishDate": "",
+      "title": "Dreame 美国｜割草机器人黑五搜索广告与A3 AWD Pro坡地文案",
+      "summary": "2026年11月17日补查Google官方广告透明度中心既有美国搜索文字广告库存第10条。源站披露的3个变体均已留存，均直接宣传机器人割草。第二变体明确列Dreame A3 AWD Pro和无需RTK或埋线，并宣称可爬80%坡度。广告宣称黑五指定割草机最高省1,000美元，优惠条件和实际价格待核。平台仅披露美国最后展示为11月16日，首次展示未知。Google验证广告主与美国官方论坛隐私政策主体名称一致。真实点击落地未知，图片省略或裁切后的文案未知。",
+      "creative": "三个当前变体均直接宣传机器人割草，第二变体明确列A3 AWD Pro。",
+      "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Conquer complex yards and steep slopes with our all-terrain robotic...\n\nExperience true wire-free mowing with Dreame A3 AWD Pro. No RTK or buried wires needed. Save up to $1,000 on select...\n\nConquer complex yards and steep slopes with our all-terrain robotic mower. Smart AI obstacle...",
+      "offer": "广告宣称指定割草机器人黑五最高省1,000美元。第二变体标题宣称可爬80%坡度。适用机型、条件与实际价格待核。",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "platform_country_dates_and_variant_controls",
+          "sha256": "0039ba10b7e3907afb967d229cdc8f51ac1a25a33670bebcfee1f8393e72f87f",
+          "bytes": 2258,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T13:29:43.882Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "762f9168da693ca9f7784af01a001849f10534fa163952b98c11a59d18797dbf",
+          "bytes": 72117,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T13:29:43.882Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/11027060059969758044",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "5da624f148859c0ac373827704c1e7a57df78da3b692eeb215f6d631f1b4a003",
+          "bytes": 75643,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-17T13:29:43.882Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "e508f9c76f5396aaa328adc56a4ae08c794b166b82758ab086a2ca09093c32ec",
+          "bytes": 71144,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-17T13:29:54.495Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/10916735545792990956",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "e6a2809691ee0937c8fbe35c73a0634b69f256508f6cbd1996fc85e1b4eddb63",
+          "bytes": 69068,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-17T13:29:54.495Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+          "kind": "screenshot",
+          "sha256": "e4d20c524898fe25eb1dea056734db12ce8c0f0fd97256a725e1c757c99e7f01",
+          "bytes": 66675,
+          "variantIndex": 3,
+          "capturedAt": "2026-11-17T13:30:02.702Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/15189156549926653093",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "7fe9e9e38b88da35b4ed01e90131edb8e813c6803ee6a845f062287dd588097d",
+          "bytes": 52117,
+          "variantIndex": 3,
+          "capturedAt": "2026-11-17T13:30:02.702Z"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://yardcare.dreametech.com/",
+          "kind": "official_robotic_mower_and_A3_AWD_category",
+          "sha256": "22f2035bb744b4560507efdbc3a0ef7e97445564102749fe502606335a0c8673",
+          "bytes": 788331,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:48:59.078442+00:00"
+        },
+        {
+          "sourceId": "dreame-official-site",
+          "url": "https://www.dreametech.com/",
+          "kind": "official_main_brand_and_A3_AWD_category",
+          "sha256": "601b9133200e3ccad1b3f333d6e3718fc56c66bd8f910e35366a54f43ff983ad",
+          "bytes": 2727133,
+          "variantIndex": null,
+          "capturedAt": "2026-11-17T12:49:00.653666+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-17T13:38:51.756Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR09262641962224189441",
+      "sourceRecordIds": [
+        "CR09262641962224189441"
+      ],
+      "advertiserId": "AR17359429371370143745",
+      "creativeId": "CR09262641962224189441",
+      "advertiserName": "Dreame Technology USA Inc",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-17T13:29:43.882Z",
+      "firstObservedAt": "2026-11-17T13:29:43.882Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-16",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "Google美国详情仅披露最后展示为2026-11-16，首次展示及变体独立上线日期未知。采集时间单独记录。",
+      "notificationEligible": false,
+      "notificationReason": "美国来源未披露首次展示日期，通知所需日期证据不足。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "Black Friday Mega Sale - Save Up to $1000 - Won't Get Stuck on Hills",
+          "copy": "Save up to $1,000 on select Dreame robot mowers during our Black Friday Mega Sale. Conquer complex yards and steep slopes with our all-terrain robotic...",
+          "cta": [],
+          "offer": "广告宣称黑五指定割草机器人最高省1,000美元，资格与适用条件待核。",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T13:29:43.882Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&format=TEXT&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "762f9168da693ca9f7784af01a001849f10534fa163952b98c11a59d18797dbf",
+              "bytes": 72117,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T13:29:43.882Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/11027060059969758044",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "5da624f148859c0ac373827704c1e7a57df78da3b692eeb215f6d631f1b4a003",
+              "bytes": 75643,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-17T13:29:43.882Z"
+            }
+          ]
+        },
+        {
+          "variantIndex": 2,
+          "title": "Black Friday Mega Sale - Climb 80% Slopes Effortlessly",
+          "copy": "Experience true wire-free mowing with Dreame A3 AWD Pro. No RTK or buried wires needed. Save up to $1,000 on select...",
+          "cta": [],
+          "offer": "广告宣称黑五指定割草机器人最高省1,000美元，资格与适用条件待核。",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T13:29:54.495Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "e508f9c76f5396aaa328adc56a4ae08c794b166b82758ab086a2ca09093c32ec",
+              "bytes": 71144,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-17T13:29:54.495Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/10916735545792990956",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "e6a2809691ee0937c8fbe35c73a0634b69f256508f6cbd1996fc85e1b4eddb63",
+              "bytes": 69068,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-17T13:29:54.495Z"
+            }
+          ]
+        },
+        {
+          "variantIndex": 3,
+          "title": "Robot Mower For Large Yards - Black Friday Mega Sale",
+          "copy": "Conquer complex yards and steep slopes with our all-terrain robotic mower. Smart AI obstacle...",
+          "cta": [],
+          "offer": "广告宣称黑五指定割草机器人最高省1,000美元，资格与适用条件待核。",
+          "displayUrl": "yardcare.dreametech.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-17T13:30:02.702Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745/creative/CR09262641962224189441?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+              "kind": "screenshot",
+              "sha256": "e4d20c524898fe25eb1dea056734db12ce8c0f0fd97256a725e1c757c99e7f01",
+              "bytes": 66675,
+              "variantIndex": 3,
+              "capturedAt": "2026-11-17T13:30:02.702Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/15189156549926653093",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "7fe9e9e38b88da35b4ed01e90131edb8e813c6803ee6a845f062287dd588097d",
+              "bytes": 52117,
+              "variantIndex": 3,
+              "capturedAt": "2026-11-17T13:30:02.702Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": 3,
+      "variantsComplete": true,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "Dreame Technology USA Inc",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR17359429371370143745?platform=SEARCH&region=US&start-date=2026-11-14&end-date=2026-11-17",
+            "kind": "google_verified_advertiser",
+            "sha256": "9fdcb8a89c801edc2aec8592468847651369ed74fd70264a4b40304209f67acc",
+            "bytes": 5455,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T13:30:03.173Z"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://yardcare.dreametech.com/pages/terms-conditions",
+            "kind": "official_yardcare_operator_terms",
+            "sha256": "c438a072df4400372a54e097a448543fdacf3d230a311eb710fef4fca7818f3a",
+            "bytes": 607965,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:49:58.358192+00:00"
+          },
+          {
+            "sourceId": "dreame-official-site",
+            "url": "https://us.forum.dreametech.com/portal.php?aid=2&mod=view",
+            "kind": "official_us_forum_privacy_legal_entity",
+            "sha256": "d28992fa3aceba1051376dcd7352b5ce14af2ce20745bbbe562cc02f4b5f97a0",
+            "bytes": 82479,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T12:51:02.528566+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "yardcare.dreametech.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-8949FEB5CA23",
       "entityId": "",
