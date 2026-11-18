@@ -1,7 +1,95 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T05:41:40.278Z",
+  "updatedAt": "2026-11-18T07:31:25.248Z",
   "actions": [
+    {
+      "actionId": "ACT-21A5312C36BE",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T07:16:35.175Z",
+      "publishDate": "2026-11-18T06:11:18+00:00",
+      "title": "Mammotion英国发布LUBA 4 AWD与履带割草机比较指南",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "LUBA 4 AWD",
+          "source": "feed_summary",
+          "excerpt": "wet ground, lawn care, edges and price, including LUBA 4 AWD and Lymow One Plus. More"
+        }
+      ],
+      "summary": "英国官网11月18日发布选型指南，比较LUBA 4 AWD与Lymow One Plus的坡地、湿地、护草、转向和边缘处理。文章强调LUBA 4四驱、独立前轮转向、双向行驶及LiDAR/NetRTK/四摄导航，性能与比较结论均属Mammotion宣称，未独立实测。英国LUBA 4价格写明待确认；文中Lymow价格为5A £2,799、10A £2,999，未验证实际成交价。此次为产品教育内容，不表示新品上市。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/tracked-robotic-lawn-mower-vs-awd"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/tracked-robotic-lawn-mower-vs-awd",
+          "discoveredAt": "2026-11-18T07:16:35.175Z",
+          "publishDate": "2026-11-18T06:11:18+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-18T07:31:25.020Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-11-18T07:22:49+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "c27bf5386e6c33a7524909406673f221953e499a5013bc734f12a3ec0cacc47e",
+        "afterHash": "1f3b01b3ddc323224b21bb5ac6d77c62f75f79cbbfa058244a50715933a15670",
+        "changedFields": [
+          "body"
+        ],
+        "beforeExcerpt": "Qu’est-ce qu’un robot tondeuse 4 roues motrices (AWD / 4x4) ? Un robot tondeuse 4 roues motrices dispose d’un moteur ou d’une transmission sur chacune de ses quatre roues. Apparence : une silhouette proche d’un petit véhicule tout-terrain, avec quatre roues larges. Fonctionnement : les quatre roues ",
+        "afterExcerpt": ". Les robots tondeuses à chenilles et à quatre roues motrices assurent tous deux une tonte entièrement automatique. Une fois la pelouse cartographiée et les horaires de tonte définis, ils suivent de manière autonome les itinéraires planifiés pour tondre efficacement, détectent et évitent les obstacl"
+      },
+      "actionId": "ACT-CD76506F112B",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T07:16:35.175Z",
+      "publishDate": "2026-10-13T05:50:29+02:00",
+      "title": "Mammotion法国更新履带与四驱割草机指南的选型及价格比较",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "LUBA 4 AWD",
+          "source": "article_body",
+          "excerpt": "es ou à l’aide de roues directrices, comme sur le LUBA 4 AWD. Point fort : l’équilibre entre motricité, maniab"
+        }
+      ],
+      "summary": "法国官网11月18日更新既有指南：补充自主路线、避障及回充说明，将建议选择履带的坡度阈值由50%改为80%；文中Lymow One Plus起价示例约2,500改为2,999欧元，比较表2,499/2,799改为2,999/3,199欧元。以上仅为Mammotion文章展示及选型主张，未核实Lymow实际调价或性能变化。原文首发10月13日保留，本次属于内容更新，不是再次首发或LUBA 4上市。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-chenilles-ou-4-roues-motrices",
+          "discoveredAt": "2026-11-18T07:16:35.175Z",
+          "publishDate": "2026-10-13T05:50:29+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-18T07:31:25.248Z"
+    },
     {
       "actionId": "ACT-093B38AFD321",
       "entityId": "",
