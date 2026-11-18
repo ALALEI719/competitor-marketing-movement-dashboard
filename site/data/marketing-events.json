@@ -1,7 +1,36 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T01:02:00.646Z",
+  "updatedAt": "2026-11-18T02:12:27.746Z",
   "events": [
+    {
+      "eventId": "EVT-B2293EC0F9B1",
+      "entityId": "",
+      "actionPeriod": [
+        "2026-11-17",
+        "2026-11-18"
+      ],
+      "brand": "Mammotion",
+      "title": "Mammotion 营销事件",
+      "eventType": "marketing_movement",
+      "firstSeenAt": "2026-11-17T13:46:41.773Z",
+      "lastSeenAt": "2026-11-18T01:58:30.438Z",
+      "channels": [
+        "google_search_ads"
+      ],
+      "countries": [
+        "英国"
+      ],
+      "stages": [
+        "not_launch_related"
+      ],
+      "actionIds": [
+        "ACT-CCFF00CEA868",
+        "ACT-AF57CF97C01C"
+      ],
+      "actionCount": 2,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    },
     {
       "eventId": "EVT-86E25E5B4984",
       "entityId": "",
