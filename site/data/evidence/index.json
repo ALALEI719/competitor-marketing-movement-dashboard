@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-17T11:15:20.493Z",
+  "generatedAt": "2026-11-18T10:48:44.492Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -86,6 +86,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-09T09-59-18-020Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-10-12T09-27-34-526Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-18T10:48:20.355Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T10:19:32.023Z",
+          "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-18T10-48-20-355Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-09T09-59-18-020Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -1952,6 +1962,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T11-15-07-007Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T03-52-32-571Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-18T10:48:25.874Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T10:19:32.023Z",
+          "title": "Unkraut im Rasen: Erkennen, entfernen & vorbeugen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-18T10-48-25-874Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-eb34893e8c37b055-2026-11-17T11-15-07-007Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -1969,6 +1989,63 @@
           "title": "Mähroboter&Saugroboter&Nass-und Trockensauger",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mova-de-050cc22204551799-2026-11-17T11-15-13-065Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "7a42d5c5de8ac4e3": {
+      "url": "https://www.anker.com/de/collections/hot-deals",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-18T10:48:16.574Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T10:23:38.101Z",
+          "title": "eufy Hot Deals | Anker eufy Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-7a42d5c5de8ac4e3-2026-11-18T10-48-16-574Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "1976decef9cfd919": {
+      "url": "https://de.mammotion.com/blogs/news/unkrautarten-im-rasen",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-18T10:48:30.861Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T10:19:32.023Z",
+          "title": "Unkrautarten im Rasen: Häufige Arten erkennen und bestimmen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-1976decef9cfd919-2026-11-18T10-48-30-861Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "fd3b8de65fb26233": {
+      "url": "https://de.mammotion.com/products/luba-2-awd-maehroboter",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-18T10:48:35.978Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T10:19:32.023Z",
+          "title": "Mammotion LUBA 2 AWD Mähroboter | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-fd3b8de65fb26233-2026-11-18T10-48-35-978Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
