@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-18T07:16:35.034Z",
+  "generatedAt": "2026-11-18T08:01:30.664Z",
   "dataMode": "real_sitemap",
   "brand": "all",
   "activeEvents": [
@@ -1133,7 +1133,7 @@
         "siteUrl": "https://fr.mova.tech/collections/robot-lawn-mower/",
         "sitemapUrl": "https://fr.mova.tech/sitemap.xml"
       },
-      "checkedAt": "2026-11-18T07:12:22.304Z",
+      "checkedAt": "2026-11-18T08:00:55.543Z",
       "status": "ok",
       "baseline": false,
       "pageCount": 381,
@@ -1146,11 +1146,11 @@
       "changeCounts": {
         "added": 0,
         "removed": 0,
-        "lastmodChanged": 194
+        "lastmodChanged": 193
       },
       "auditSignals": {
         "bulkLastmodRefresh": true,
-        "lastmodPagesNeedingContentCheck": 194,
+        "lastmodPagesNeedingContentCheck": 193,
         "focusMonitoring": {
           "frequency": "hourly",
           "configured": 2,
@@ -1168,6 +1168,24 @@
         },
         "policy": "full_site_change_gate",
         "fullSiteInventory": true,
+        "historicalBlogBaseline": {
+          "source": "seen_inventory_article_without_native_snapshot",
+          "eligibleBefore": 32,
+          "readyRetryCount": 0,
+          "queuedThisRun": [
+            "https://fr.mova.tech/blogs/guides-d-achat/comparatif-robot-tondeuse-sans-fil-peripherique",
+            "https://fr.mova.tech/blogs/entretien-de-la-pelouse/autonomie-robot-tondeuse-4x4",
+            "https://fr.mova.tech/blogs/blog/comment-fonctionne-tondeuse-robot-sans-fil-peripherique",
+            "https://fr.mova.tech/blogs/guides-d-achat/test-tondeuse-robot"
+          ],
+          "attemptedThisRun": [
+            "https://fr.mova.tech/blogs/guides-d-achat/comparatif-robot-tondeuse-sans-fil-peripherique",
+            "https://fr.mova.tech/blogs/entretien-de-la-pelouse/autonomie-robot-tondeuse-4x4",
+            "https://fr.mova.tech/blogs/blog/comment-fonctionne-tondeuse-robot-sans-fil-peripherique",
+            "https://fr.mova.tech/blogs/guides-d-achat/test-tondeuse-robot"
+          ],
+          "articleBudget": 4
+        },
         "xmlDocuments": [
           {
             "url": "https://fr.mova.tech/sitemap.xml",
@@ -1183,9 +1201,9 @@
           },
           {
             "url": "https://fr.mova.tech/sitemap_products_1.xml?from=8704946307292&to=15500112593116",
-            "sha256": "8db5fa908081a001def7bde51346b10eb6141a56fb51e3ed19a4db2c50cb421a",
+            "sha256": "af8c54d7af21f474a33fa516ebae896ae32390a531a834875be1301d3d9a8cd0",
             "bytes": 92399,
-            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/8db5fa908081a001def7bde51346b10eb6141a56fb51e3ed19a4db2c50cb421a.xml"
+            "rawEvidencePath": ".site-private/full-sitemap-xml/mova-fr/af8c54d7af21f474a33fa516ebae896ae32390a531a834875be1301d3d9a8cd0.xml"
           },
           {
             "url": "https://fr.mova.tech/sitemap_pages_1.xml?from=110184562908&to=167682408668",
@@ -1213,13 +1231,13 @@
           }
         ],
         "backfillPendingOnly": false,
-        "inventoryCheckedAt": "2026-11-18T07:12:22.304Z",
+        "inventoryCheckedAt": "2026-11-18T08:00:55.543Z",
         "inventorySource": "current_run",
         "inventoryPrivateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "44256582481",
+          "runId": "44263070621",
           "attempt": "1",
-          "name": "site-private-44256582481-1"
+          "name": "site-private-44263070621-1"
         },
         "changedPageDispositions": [
           {
@@ -1228,14 +1246,14 @@
             "url": "https://fr.mova.tech/collections/robot-lawn-mower",
             "pageType": "collection",
             "sourceReason": "periodic_focus_check",
-            "htmlSha256": "2ffe55f0b31f91360d661151e43a035abbe2e79255cf328395c14e2887f2a152",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/2ffe55f0b31f91360d661151e43a035abbe2e79255cf328395c14e2887f2a152.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "361a9bf02ad70264eff322b3fcf9ce56fa6b2f7da5e5f1b815c5cfb3aa4325bc",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/361a9bf02ad70264eff322b3fcf9ce56fa6b2f7da5e5f1b815c5cfb3aa4325bc.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
           },
           {
@@ -1244,310 +1262,332 @@
             "url": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra",
             "pageType": "product",
             "sourceReason": "periodic_focus_check",
-            "htmlSha256": "f9b6dfeb90598e808871ea0f5be37a543126ca85689b0854283df3b92843da6b",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/f9b6dfeb90598e808871ea0f5be37a543126ca85689b0854283df3b92843da6b.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "c4c0ce7c2860bff2b2136919f737e73cd2c0e0fcb7807c7124d6262035afcd71",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/c4c0ce7c2860bff2b2136919f737e73cd2c0e0fcb7807c7124d6262035afcd71.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
           },
           {
             "disposition": "pending_review",
             "reason": "mower_primary_content",
-            "url": "https://fr.mova.tech/products/disque-de-coupe-6-lames-pour-robot-tondeuse-mova",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "e4f096a8ccb7360358fb24b3db5dc3b93c9a59b5f37bc194197954cdcee11048",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/e4f096a8ccb7360358fb24b3db5dc3b93c9a59b5f37bc194197954cdcee11048.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "url": "https://fr.mova.tech/blogs/guides-d-achat/comparatif-robot-tondeuse-sans-fil-peripherique",
+            "pageType": "blog",
+            "sourceReason": "historical_blog_baseline",
+            "htmlSha256": "1ee2b27a264d80eb30603e83d208fe2f4fac8c219e9f6648dd16058bc541fee6",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/1ee2b27a264d80eb30603e83d208fe2f4fac8c219e9f6648dd16058bc541fee6.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
+            },
+            "historicalPublicationDecision": {
+              "status": "old_baseline",
+              "reason": "all_original_instants_before_cutoff",
+              "cutoff": "2026-11-14T00:00:00+08:00"
             }
           },
           {
             "disposition": "pending_review",
             "reason": "mower_primary_content",
-            "url": "https://fr.mova.tech/products/dreame-garage-mmga20-pour-robot-tondeuse",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "f534d8c00a348aaad601bd752980f90d501693a4c1bfcc7edccc2675219faf88",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/f534d8c00a348aaad601bd752980f90d501693a4c1bfcc7edccc2675219faf88.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "url": "https://fr.mova.tech/blogs/entretien-de-la-pelouse/autonomie-robot-tondeuse-4x4",
+            "pageType": "blog",
+            "sourceReason": "historical_blog_baseline",
+            "htmlSha256": "bfb613a8fa1bba41bd8f4f28c1b47f7ed0df6bc79b84e4dc3356e4cb8d431a9a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/bfb613a8fa1bba41bd8f4f28c1b47f7ed0df6bc79b84e4dc3356e4cb8d431a9a.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
+            },
+            "historicalPublicationDecision": {
+              "status": "old_baseline",
+              "reason": "all_original_instants_before_cutoff",
+              "cutoff": "2026-11-14T00:00:00+08:00"
             }
           },
           {
             "disposition": "pending_review",
             "reason": "mower_primary_content",
-            "url": "https://fr.mova.tech/products/dreame-garage-mmga30-pour-robot-tondeuse",
+            "url": "https://fr.mova.tech/products/garage-2026-pour-mova-robot-tondeuse-lidax-ultra-800-1200-1600-mova-600-mova-1000",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "e8988df9373114c8a693326f63872e576b2c6fc2a07b4b2ad52d452dfc8250a7",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/e8988df9373114c8a693326f63872e576b2c6fc2a07b4b2ad52d452dfc8250a7.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "2141f84fb37a73eb1a69b437323b36dc454ccd98949f00bdabecb94a38c82e42",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/2141f84fb37a73eb1a69b437323b36dc454ccd98949f00bdabecb94a38c82e42.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
           },
           {
             "disposition": "pending_review",
             "reason": "mower_primary_content",
-            "url": "https://fr.mova.tech/products/dreame-robot-tondeuse-a3-awd-pro-3500",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "0b1801b817f0c5c77e7f23e917b892ba8e403831531b520d31a28f6d5c2bec9f",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/0b1801b817f0c5c77e7f23e917b892ba8e403831531b520d31a28f6d5c2bec9f.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "url": "https://fr.mova.tech/blogs/blog/comment-fonctionne-tondeuse-robot-sans-fil-peripherique",
+            "pageType": "blog",
+            "sourceReason": "historical_blog_baseline",
+            "htmlSha256": "f4e51c75c3c3eb49c3f44243f5ed536382757b0e3a713fb7c3462d4c3c61370b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/f4e51c75c3c3eb49c3f44243f5ed536382757b0e3a713fb7c3462d4c3c61370b.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
+            },
+            "historicalPublicationDecision": {
+              "status": "old_baseline",
+              "reason": "all_original_instants_before_cutoff",
+              "cutoff": "2026-11-14T00:00:00+08:00"
             }
           },
           {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/chenilles-pour-robot-de-piscine-rover-x10",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "fc7e85a0d7b0f730b4fe2f801442459452764d84bbc82493b04a266f1662b073",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/fc7e85a0d7b0f730b4fe2f801442459452764d84bbc82493b04a266f1662b073.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "disposition": "pending_review",
+            "reason": "mower_primary_content",
+            "url": "https://fr.mova.tech/blogs/guides-d-achat/test-tondeuse-robot",
+            "pageType": "blog",
+            "sourceReason": "historical_blog_baseline",
+            "htmlSha256": "4e3644b169f5425f8266728a3c618fa32330a6fabf987310c93eea3f710d4f89",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/4e3644b169f5425f8266728a3c618fa32330a6fabf987310c93eea3f710d4f89.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             },
-            "classificationReviewId": "SCR-B2C78E819ACBD0B0"
-          },
-          {
-            "disposition": "held",
-            "reason": "mower_only_in_unattributed_body",
-            "url": "https://fr.mova.tech/products/chiffon-de-rechange-pour-robot-lave-vitres-n1",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "38319670fb3df4ccfce277530117246ffc348690541f07854d46d5ba4d6b1c4c",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/38319670fb3df4ccfce277530117246ffc348690541f07854d46d5ba4d6b1c4c.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
+            "historicalPublicationDecision": {
+              "status": "old_baseline",
+              "reason": "all_original_instants_before_cutoff",
+              "cutoff": "2026-11-14T00:00:00+08:00"
             }
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://fr.mova.tech/products/compteur-intelligent-lumegret-3ct",
+            "url": "https://fr.mova.tech/products/filtre-ultra-fin-pour-robot-de-piscine-divera10",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "fc4755b609370fa038c84ab8069636bfe63f3e35a2ef870076eecfcfb74a9cbe",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/fc4755b609370fa038c84ab8069636bfe63f3e35a2ef870076eecfcfb74a9cbe.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "41bb086b734c31c7edc4c52ca01c4c1a6d7e29c1a3260001cf2a3976285b8978",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/41bb086b734c31c7edc4c52ca01c4c1a6d7e29c1a3260001cf2a3976285b8978.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://fr.mova.tech/products/distributeur-automatique-de-nourriture-mova-pf10-pro-une-alimentation-intelligente-en-toute-serenite",
+            "url": "https://fr.mova.tech/products/filtre-ultra-fin-pour-robot-de-piscine-rover-x10",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "715dafe93104244419d9d10a6b5893436f68a9eee20633ac7681628852871ec3",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/715dafe93104244419d9d10a6b5893436f68a9eee20633ac7681628852871ec3.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "3f8bcd5cacc4d9407c478ec906d9e86f20f0be3853f593c83442e876b1aa2f37",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/3f8bcd5cacc4d9407c478ec906d9e86f20f0be3853f593c83442e876b1aa2f37.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/gants-de-travail-d-exterieur-mova",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "a319dbf8023e5a2c9c4592b2f8ee0f795a773c4f5277967616fda18450ab1f66",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/a319dbf8023e5a2c9c4592b2f8ee0f795a773c4f5277967616fda18450ab1f66.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-4D09E277467DFD4B"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/gc205-tronconneuse-sans-fil",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "b7ddd52063134b2061730f59027fb2474179971ec156e6e3f0cde03ee97a15e0",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/b7ddd52063134b2061730f59027fb2474179971ec156e6e3f0cde03ee97a15e0.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-5A7485E322E55D17"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/gh221-taille-haie-sans-fil",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "31a050e50bf9491f7e71110c5afd1e47ec73cdf87639f3b73c46ad50f8b5bf1b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/31a050e50bf9491f7e71110c5afd1e47ec73cdf87639f3b73c46ad50f8b5bf1b.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-DAE4981CB34F2C27"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/gobrew-t30-machine-expresso-portable",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "d19645a2db11f96488336f2b56d7cd0778836fd72f2ca7519959a0eca1a8c02f",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/d19645a2db11f96488336f2b56d7cd0778836fd72f2ca7519959a0eca1a8c02f.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-E169371F9176D727"
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://fr.mova.tech/products/distributeur-croquettes-chat-nutripal-10-ultra",
+            "url": "https://fr.mova.tech/products/gobrew-t30-machine-expresso-portable-blanc",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "f22015b029cfe64f3bffc73bcaefba65161947b363e3412f94bd67ff6f49c115",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/f22015b029cfe64f3bffc73bcaefba65161947b363e3412f94bd67ff6f49c115.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "dcc31122b9e69006a24f22395b6f1930f6d75cafe0412d473499f274e57be75b",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/dcc31122b9e69006a24f22395b6f1930f6d75cafe0412d473499f274e57be75b.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
-            }
-          },
-          {
-            "disposition": "skipped",
-            "reason": "explicit_non_mower_primary_content",
-            "url": "https://fr.mova.tech/products/e50-pro-ultra-robot-aspirateur",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "d39b02d668a5728d9495b52aa5560ed31ab39898c35bae2d5120dde78f2d6a80",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/d39b02d668a5728d9495b52aa5560ed31ab39898c35bae2d5120dde78f2d6a80.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            }
-          },
-          {
-            "disposition": "skipped",
-            "reason": "explicit_non_mower_primary_content",
-            "url": "https://fr.mova.tech/products/e50-ultra-robot-aspirateur",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "3de9ca0100cc75ae7446d1c8f967132bec42170933ca347754c706d389f3a2cc",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/3de9ca0100cc75ae7446d1c8f967132bec42170933ca347754c706d389f3a2cc.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
           },
           {
             "disposition": "skipped",
             "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/embout-concentrateur-pour-shine-10",
+            "url": "https://fr.mova.tech/products/gt215-coupe-bordure-sans-fil",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "a8d39402b3e548fa7ece011e409f8745c8b9383205e444d24d7f29f9715e4b71",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/a8d39402b3e548fa7ece011e409f8745c8b9383205e444d24d7f29f9715e4b71.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "baba0e4c8bfa0bf120dfc057c556e19889b2256914c5b8e273eb666dd7838e25",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/baba0e4c8bfa0bf120dfc057c556e19889b2256914c5b8e273eb666dd7838e25.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             },
-            "classificationReviewId": "SCR-1DE469414BE6578D"
-          },
-          {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/filtre-a-air-frais-pour-mova-lr10-prime",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "03b2040a53f6c03b58e3a69c1ad49269bca963b439f6374328eaae2085f86e53",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/03b2040a53f6c03b58e3a69c1ad49269bca963b439f6374328eaae2085f86e53.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            },
-            "classificationReviewId": "SCR-F99C69DEB854FB7F"
-          },
-          {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/filtre-de-bac-a-poussiere-compatible-avec-z50-ultra",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "76b392c1bf9595c1684fa04d0085e8f30e57a4d74d9a73f64fb00266a591a48a",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/76b392c1bf9595c1684fa04d0085e8f30e57a4d74d9a73f64fb00266a591a48a.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            },
-            "classificationReviewId": "SCR-782C203D32398EB5"
-          },
-          {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/filtre-de-bac-a-poussiere-pour-mova-z60-ultra-roller-z60-ultra-roller-standalone",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "05d413eb97dce0cc655a579147937afa5f350fcfe7b3be82c3ae72580317366d",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/05d413eb97dce0cc655a579147937afa5f350fcfe7b3be82c3ae72580317366d.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            },
-            "classificationReviewId": "SCR-9F050E15CE6855AD"
-          },
-          {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/filtre-fin-pour-robot-de-piscine-diver-a10",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "3e4e01e378ad74e2263183e7045613cf42f51b694065612b1483b9ba20f73b79",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/3e4e01e378ad74e2263183e7045613cf42f51b694065612b1483b9ba20f73b79.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            },
-            "classificationReviewId": "SCR-5250C1370C894085"
-          },
-          {
-            "disposition": "skipped",
-            "reason": "reviewed_content_review_skip",
-            "url": "https://fr.mova.tech/products/filtre-fin-pour-robot-de-piscine-mova-rover-x10",
-            "pageType": "product",
-            "sourceReason": "lastmod_content_check",
-            "htmlSha256": "86dee47f1723ea113f3fb8b96f164c6c963004a67b2bf6285138e353f0ebb957",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/86dee47f1723ea113f3fb8b96f164c6c963004a67b2bf6285138e353f0ebb957.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
-            "privateArchive": {
-              "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
-              "attempt": "1",
-              "name": "site-private-44256582481-1"
-            },
-            "classificationReviewId": "SCR-A3274F75495C063A"
+            "classificationReviewId": "SCR-542C8EFFF715DC83"
           },
           {
             "disposition": "held",
             "reason": "mower_only_in_unattributed_body",
-            "url": "https://fr.mova.tech/products/filtre-pour-mova-g70-complete-aspirateur-balai-sans-fil",
+            "url": "https://fr.mova.tech/products/kit-d-accessoires-pour-mova-v70-ultra-complete",
             "pageType": "product",
             "sourceReason": "lastmod_content_check",
-            "htmlSha256": "5c20310346872139f06a0e7b8a381b29ec2bf863fd6726641faf2966793e2094",
-            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/5c20310346872139f06a0e7b8a381b29ec2bf863fd6726641faf2966793e2094.html",
-            "checkedAt": "2026-11-18T07:12:22.304Z",
+            "htmlSha256": "b287b52a6f32008313bf637c58555c72b33b669ca1beb9d2b0d575e1c4bf5717",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/b287b52a6f32008313bf637c58555c72b33b669ca1beb9d2b0d575e1c4bf5717.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
             "privateArchive": {
               "kind": "authenticated_github_actions_artifact",
-              "runId": "44256582481",
+              "runId": "44263070621",
               "attempt": "1",
-              "name": "site-private-44256582481-1"
+              "name": "site-private-44263070621-1"
             }
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/kit-d-accessoires-pour-mova-z70-ultra-roller-complete",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "71e81f5503e838032828c4359f19467d62ec095f7d1a57ae0978848d775c1a1a",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/71e81f5503e838032828c4359f19467d62ec095f7d1a57ae0978848d775c1a1a.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-1809ABBCC7330B9C"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/kit-d-accessoires-pour-z60-ultra-roller-complete-standalone",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "54041b551f52f7edebc2a90f6f42093063525def5fb3d86105f337052a96d3e4",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/54041b551f52f7edebc2a90f6f42093063525def5fb3d86105f337052a96d3e4.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-96E0CCF1B4B54D59"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/kit-de-nettoyage-compatible-avec-z50-ultra",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "71730eccf6e708722908e6d268b5c244fa6bb4addc9290235d256d1125f815d2",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/71730eccf6e708722908e6d268b5c244fa6bb4addc9290235d256d1125f815d2.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-0E11CB4D3E257221"
+          },
+          {
+            "disposition": "skipped",
+            "reason": "reviewed_content_review_skip",
+            "url": "https://fr.mova.tech/products/kit-de-nettoyage-mrak86-pour-s70-ultra-roller-s70-roller",
+            "pageType": "product",
+            "sourceReason": "lastmod_content_check",
+            "htmlSha256": "bb0e2a53b22be8d7bee0f6ac8ecc4a68f6c1269acafa2df504fac9a6baef2c11",
+            "rawEvidencePath": ".site-private/full-sitemap-html/mova-fr/bb0e2a53b22be8d7bee0f6ac8ecc4a68f6c1269acafa2df504fac9a6baef2c11.html",
+            "checkedAt": "2026-11-18T08:00:55.543Z",
+            "privateArchive": {
+              "kind": "authenticated_github_actions_artifact",
+              "runId": "44263070621",
+              "attempt": "1",
+              "name": "site-private-44263070621-1"
+            },
+            "classificationReviewId": "SCR-F5B7C7C701FB507C"
           }
         ],
         "pendingContentCount": 0,
@@ -1556,12 +1596,12 @@
         "classificationHeldCount": 81,
         "sourceHeldCount": 0,
         "removedUrlChecks": [],
-        "bulkLastmodSampleCount": 18,
+        "bulkLastmodSampleCount": 14,
         "privateArchive": {
           "kind": "authenticated_github_actions_artifact",
-          "runId": "44256582481",
+          "runId": "44263070621",
           "attempt": "1",
-          "name": "site-private-44256582481-1"
+          "name": "site-private-44263070621-1"
         },
         "note": "lastmod 变化只作为正文二次检查信号，不直接生成营销动作。"
       },
@@ -12816,20 +12856,8 @@
   "collectionScope": {
     "brand": "all",
     "siteIds": [
-      "mammotion-us",
-      "mammotion-de",
-      "mammotion-uk",
-      "mammotion-fr",
-      "mova-us",
-      "mova-de",
-      "mova-fr",
-      "ecovacs-us",
-      "dreame-de",
-      "dreame-fr",
-      "dreame-us",
-      "eufy-de-anker",
-      "eufy-fr"
+      "mova-fr"
     ],
-    "collectedAt": "2026-11-18T07:16:35.034Z"
+    "collectedAt": "2026-11-18T08:01:30.664Z"
   }
 }
