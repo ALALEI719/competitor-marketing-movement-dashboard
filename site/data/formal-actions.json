@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T07:31:25.248Z",
+  "updatedAt": "2026-11-18T09:45:37.413Z",
   "actions": [
+    {
+      "actionId": "ACT-6866C2CC6959",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T09:16:34.859Z",
+      "publishDate": "2026-11-18T08:51:25+00:00",
+      "title": "Mammotion英国发布蹦床、秋千细腿障碍的割草机避障指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "英国官网11月18日发布家庭庭院使用指南，解释蹦床、秋千、细腿餐椅和低框球门可能因草丛遮挡而漏检，介绍在Mammotion App绘制禁区及设备移动后重绘的方法。文中推广多传感器导航，并称可识别300多类对象；这些属于发布方主张，未独立实测，文章也明确不能保证全部检出。本次为使用场景教育，不代表新品上市或功能升级。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/robot-lawn-mower-trampolines-swings"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-trampolines-swings",
+          "discoveredAt": "2026-11-18T09:16:34.859Z",
+          "publishDate": "2026-11-18T08:51:25+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-18T09:45:37.003Z"
+    },
     {
       "actionId": "ACT-21A5312C36BE",
       "entityId": "",
