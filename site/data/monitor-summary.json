@@ -18,8 +18,8 @@
     "channelItems": 120,
     "blogChanges": 92,
     "pendingChannelChanges": 1,
-    "prSources": 23,
-    "healthyPrSources": 23,
+    "prSources": 24,
+    "healthyPrSources": 24,
     "prChanges": 48,
     "pendingPrChanges": 6
   },
@@ -8941,7 +8941,7 @@
     ]
   },
   "prMonitoring": {
-    "checkedAt": "2026-11-17T23:42:01.786Z",
+    "checkedAt": "2026-11-18T01:43:26.601Z",
     "sources": [
       {
         "source": {
@@ -8961,12 +8961,12 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
         "discoveredUrlCount": 3757,
-        "pendingArticleCount": 280,
+        "pendingArticleCount": 182,
         "fetchedCount": 100,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
@@ -8990,71 +8990,66 @@
         "keywordTransition": {
           "planId": "72bf7df318884e40c14fac712863c5898a9f20f2a530f277c66abb2becdf98d2",
           "articleReads": 100,
-          "bodyBytes": 47424303,
-          "firstBaselines": 100,
+          "bodyBytes": 46631342,
+          "firstBaselines": 98,
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "3fc702bb-baba-4bb5-801a-15fd2edebcb4",
+            "batchId": "96814a25-958a-411b-9097-972d63f94d41",
             "sourceId": "pr-de-chip-mammotion",
             "sourceHash": "819aab7ac3dd68dfba0b38423195762c9ef84b978f05fcf48172dbcc6418258e",
             "planId": "72bf7df318884e40c14fac712863c5898a9f20f2a530f277c66abb2becdf98d2",
-            "checkedAt": "2026-11-17T23:42:01.786Z",
-            "indexFile": ".pr-private/keyword-baseline/3fc702bb-baba-4bb5-801a-15fd2edebcb4/pr-de-chip-mammotion/index.json",
-            "indexSha256": "f4b970a536ba5ceda52e83bb7ae118572dc62e3b4429c2c81293291b8c8b9569",
-            "baselineCount": 100,
-            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
+            "checkedAt": "2026-11-18T01:43:26.601Z",
+            "indexFile": ".pr-private/keyword-baseline/96814a25-958a-411b-9097-972d63f94d41/pr-de-chip-mammotion/index.json",
+            "indexSha256": "290aebc3bef0ad3193e8ae2317c1d3cd40f64ec2d132bd9f48a6cc90a432c5f4",
+            "baselineCount": 98,
+            "runtimeHash": "fad7c4b8071de1debab428ab2e43e4e265ce69c2f5b08129a287b8e1066c6fe0"
           }
         },
         "verifiedRedirects": [
           {
-            "from": "https://www.chip.de/news/gesundheit-fitness/weniger-gesund-als-gedacht-mediziner-warnt-vor-vermeintlich-gesunden-lebensmitteln_b07c424a-f36b-4147-b399-d46347d38759.html",
-            "to": "https://www.chip.de/news/gesundheit-fitness/diese-lebensmittel-gelten-als-gesund-doch-ein-mediziner-warnt_b07c424a-f36b-4147-b399-d46347d38759.html",
+            "from": "https://www.chip.de/news/geld-finanzen-recht/steuerklassen-koennten-verschwinden-was-das-finanzministerium-plant_c9866bd8-a3ef-46b0-91c9-19064a815571.html",
+            "to": "https://www.chip.de/news/geld-finanzen-recht/steuerklassen-3-und-5-sollen-wegfallen-das-plant-das-finanzministerium_c9866bd8-a3ef-46b0-91c9-19064a815571.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/steak-wie-im-steakhaus-das-geheimnis-fuer-die-perfekte-kruste-liegt-in-den-ersten-sekunden_46b1a272-bb77-47f4-803f-9c2361b4d82c.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/legt-sich-ihr-steak-lautlos-in-die-pfanne-das-ist-ein-schlechtes-zeichen_46b1a272-bb77-47f4-803f-9c2361b4d82c.html",
+            "from": "https://www.chip.de/news/hobby-freizeit/ueber-sieben-kilometer-verteilt-das-ist-deutschlands-laengster-weihnachtsmarkt_690a00e7-090e-475a-8173-0c213d732d4c.html",
+            "to": "https://www.chip.de/news/hobby-freizeit/deutschlands-laengster-weihnachtsmarkt-liegt-auf-sieben-kilometer-verteilt_690a00e7-090e-475a-8173-0c213d732d4c.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/hobby-freizeit/mehr-freiheit-fuer-camper-neue-eu-regel-oeffnet-spielraeume_b888611b-13b4-47df-b19f-13e43560d9c6.html",
-            "to": "https://www.chip.de/news/hobby-freizeit/mehr-freiheit-fuer-camper-eu-aenderung-beim-fuehrerschein-oeffnet-bald-neue-spielraeume_b888611b-13b4-47df-b19f-13e43560d9c6.html",
+            "from": "https://www.chip.de/news/haushalt-garten/selbst-moderne-waermepumpen-betroffen-sie-drohen-2027-aus-der-foerderung-zu-fliegen_4d675cb8-1848-468d-824a-66e0292cbb3a.html",
+            "to": "https://www.chip.de/news/haushalt-garten/neue-anforderungen-drohen-moderne-waermepumpen-2027-aus-der-foerderung-zu-kicken_4d675cb8-1848-468d-824a-66e0292cbb3a.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/forschung-wissen/teurer-wasserstoff-australische-methode-soll-ihn-nun-30-prozent-guenstiger-machen_c22c850e-a96e-4835-a28a-c42bc6e3e4b8.html",
-            "to": "https://www.chip.de/news/forschung-wissen/30-prozent-effizienter-australier-finden-neue-methode-wasserstoff-herzustellen_c22c850e-a96e-4835-a28a-c42bc6e3e4b8.html",
+            "from": "https://www.chip.de/deals/schnaeppchen/parkscheibe-vergessen-amazon-reduziert-den-helfer-ooono-p-disc-no2-von-ooono_e5489bed-7e32-4d7e-82f0-baf3d91ec3e8.html",
+            "to": "https://www.chip.de/deals/schnaeppchen/kann-man-nicht-vergessen-amazon-reduziert-elektronische-parkscheibe-no2-von-ooono_e5489bed-7e32-4d7e-82f0-baf3d91ec3e8.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/neue-nutella-sorte-startet-in-deutschland-doch-nur-fuer-eine-begrenzte-zeit_f91028b1-9afe-4868-926e-ed7ea22b6545.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/neue-nutella-sorte-startet-in-deutschland-doch-sie-ist-nur-fuer-eine-begrenzte-zeit-erhaeltlich_f91028b1-9afe-4868-926e-ed7ea22b6545.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/ddr-klassiker-leicht-nachmachen-so-gelingt-die-eierschecke-ohne-boden-besonders-fluffig_39e84398-fe13-4f9c-9268-4f9ec5ab74ae.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/ddr-klassiker-ohne-boden-so-wird-die-eierschecke-besonders-luftig-und-cremig_39e84398-fe13-4f9c-9268-4f9ec5ab74ae.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/wifi-dsl-internet/fritzbox-kann-jetzt-werbung-und-malware-blockieren-fuer-alle-geraete-im-wlan_4b4a3f79-34da-45bc-a745-81ff5d7289d0.html",
-            "to": "https://www.chip.de/news/wifi-dsl-internet/ihre-fritzbox-kann-jetzt-werbung-im-ganzen-haus-blockieren-so-schalten-sie-es-frei_4b4a3f79-34da-45bc-a745-81ff5d7289d0.html",
+            "from": "https://www.chip.de/news/auto-fahrrad/ab-sofort-mercedes-zieht-schlussstrich-unter-drei-elektro-modelle_2e941819-d475-44b4-a304-ef1bfa7eb720.html",
+            "to": "https://www.chip.de/news/auto-fahrrad/mercedes-streicht-drei-elektroautos-aus-dem-angebot-nur-eines-bekommt-nachfolger_2e941819-d475-44b4-a304-ef1bfa7eb720.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/gesundheit-fitness/keine-lust-auf-langweiliges-jogging-im-winter-dann-probieren-sie-es-mal-mit-plogging_24076e39-5ace-4558-ba79-38e0c5f5fc6e.html",
-            "to": "https://www.chip.de/news/gesundheit-fitness/sport-im-winter-diese-7-ungewoehnlichen-aktivitaeten-bringen-sie-jetzt-in-bewegung_24076e39-5ace-4558-ba79-38e0c5f5fc6e.html",
+            "from": "https://www.chip.de/news/hobby-freizeit/dieses-hobby-macht-den-sonntagsausflug-zur-schatzsuche-und-kostet-fast-nichts_f9bc1396-6e18-4a91-a996-99547d25fb06.html",
+            "to": "https://www.chip.de/news/hobby-freizeit/letterboxing-macht-den-sonntagsausflug-zur-schatzsuche-und-kostet-fast-nichts_f9bc1396-6e18-4a91-a996-99547d25fb06.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/geld-finanzen-recht/interaktiver-rechner-kalkuliert-es-so-viele-arbeitstage-haben-sie-noch-bis-zur-rente_447bfa48-64f6-46b0-af78-380b862355e0.html",
-            "to": "https://www.chip.de/news/geld-finanzen-recht/noch-500-2-000-oder-6-000-arbeitstage-rechner-zeigt-ihren-weg-bis-zur-rente_447bfa48-64f6-46b0-af78-380b862355e0.html",
+            "from": "https://www.chip.de/news/software/fuehrerschein-auf-dem-handy-speichern-das-koennen-sie-jetzt-schon-vorbereiten_eaba5da6-ec9b-4a45-86a3-4b78635c2234.html",
+            "to": "https://www.chip.de/news/software/digitaler-fuehrerschein-wann-er-startet-und-wie-sie-ihn-aufs-handy-bekommen_eaba5da6-ec9b-4a45-86a3-4b78635c2234.html",
             "httpStatus": 301
           },
           {
-            "from": "https://www.chip.de/news/haushalt-garten/ddr-fernsehkueche-so-gelingt-das-deftige-boehmische-bierfleisch-nach-chefkoch-kurt-drummer_406b4e7e-5829-4a89-947e-59de2ebaf30b.html",
-            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/ddr-fernsehkueche-so-gelingt-ihnen-das-deftige-boehmische-bierfleisch-nach-chefkoch-kurt-drummer_406b4e7e-5829-4a89-947e-59de2ebaf30b.html",
-            "httpStatus": 301
-          },
-          {
-            "from": "https://www.chip.de/news/geld-finanzen-recht/unnnoetige-ausgaben-streichen-so-bauen-sie-sich-ein-kleines-vermoegen-auf_0b0b12a3-6ee8-4913-aaaa-d65b345c4ef9.html",
-            "to": "https://www.chip.de/news/geld-finanzen-recht/kleinvieh-macht-auch-mist-dieser-rendite-rechner-beweist-es_0b0b12a3-6ee8-4913-aaaa-d65b345c4ef9.html",
+            "from": "https://www.chip.de/news/supermaerkte-lebensmittel/knollen-und-stangensellerie-sind-das-unterschiedliche-pflanzen_1329aceb-1768-44fb-bc34-07707d340f01.html",
+            "to": "https://www.chip.de/news/supermaerkte-lebensmittel/knollen-und-stangensellerie-sind-das-zwei-unterschiedliche-pflanzen_1329aceb-1768-44fb-bc34-07707d340f01.html",
             "httpStatus": 301
           }
         ]
@@ -9070,7 +9065,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/News-Garten-33394641.html"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9092,7 +9087,7 @@
           "channel": "pr",
           "url": "https://www.computerbild.de/Tests-Garten-33394661.html"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9114,7 +9109,7 @@
           "channel": "pr",
           "url": "https://www.popularmechanics.com/en/sitemaps/content.2017-10-10T18:24:12.xml.gz"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9136,7 +9131,7 @@
           "channel": "pr",
           "url": "https://www.t3.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9165,7 +9160,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9182,15 +9177,15 @@
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "8ea43a0a-f53b-456a-80df-13ca24cddede",
+            "batchId": "5249ab17-3deb-4089-9a4f-c1b23b634e32",
             "sourceId": "pr-us-tomsguide-mammotion",
             "sourceHash": "a4bc222a891cfda214479a11aeb92952c1513aef37f2bd32764bbdd7ec2d942f",
             "planId": "9c24cf9dc71ab42ed44a20f4bfc9a8439f75637f1dd3c21fb06050bf0d2434d0",
-            "checkedAt": "2026-11-17T23:42:01.786Z",
-            "indexFile": ".pr-private/keyword-baseline/8ea43a0a-f53b-456a-80df-13ca24cddede/pr-us-tomsguide-mammotion/index.json",
-            "indexSha256": "b7569ca28644336e04acbd652c3942369165df2821f07ebd244be27bca11df93",
+            "checkedAt": "2026-11-18T01:43:26.601Z",
+            "indexFile": ".pr-private/keyword-baseline/5249ab17-3deb-4089-9a4f-c1b23b634e32/pr-us-tomsguide-mammotion/index.json",
+            "indexSha256": "567ba11272ecc5abed751e37664cdefaba1807cffa8889db7bac1d2674031b92",
             "baselineCount": 0,
-            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
+            "runtimeHash": "fad7c4b8071de1debab428ab2e43e4e265ce69c2f5b08129a287b8e1066c6fe0"
           }
         },
         "verifiedRedirects": []
@@ -9213,7 +9208,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9226,20 +9221,20 @@
         "keywordTransition": {
           "planId": "530caf3cd63f55729ab57ac12d7e549a8ea366bd23d6b90f74db1787247706c9",
           "articleReads": 2,
-          "bodyBytes": 4253012,
+          "bodyBytes": 4253928,
           "firstBaselines": 0,
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "6f6557f8-7b63-4f6d-b0db-caa288060477",
+            "batchId": "ff8c73b9-4b7b-4e48-a077-cdbf06d78162",
             "sourceId": "pr-uk-techradar-mammotion",
             "sourceHash": "495378caec3d536319c39f95da1a213c853bad2c51053aa0994b328bc875309f",
             "planId": "530caf3cd63f55729ab57ac12d7e549a8ea366bd23d6b90f74db1787247706c9",
-            "checkedAt": "2026-11-17T23:42:01.786Z",
-            "indexFile": ".pr-private/keyword-baseline/6f6557f8-7b63-4f6d-b0db-caa288060477/pr-uk-techradar-mammotion/index.json",
-            "indexSha256": "20867687ed3af117138e71c39ef697377b993992712d34bbf6642013b9f55bf5",
+            "checkedAt": "2026-11-18T01:43:26.601Z",
+            "indexFile": ".pr-private/keyword-baseline/ff8c73b9-4b7b-4e48-a077-cdbf06d78162/pr-uk-techradar-mammotion/index.json",
+            "indexSha256": "fab0b34eb81d7341150621fdf30aa09f83569adb88bdb59229295d7441eb6066",
             "baselineCount": 0,
-            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
+            "runtimeHash": "fad7c4b8071de1debab428ab2e43e4e265ce69c2f5b08129a287b8e1066c6fe0"
           }
         },
         "verifiedRedirects": []
@@ -9255,7 +9250,7 @@
           "channel": "pr",
           "url": "https://www.radins.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9277,7 +9272,7 @@
           "channel": "pr",
           "url": "https://www.20minutes.fr/guide-achat/guide-jardinage/"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9306,7 +9301,7 @@
             "Eufy"
           ]
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9319,7 +9314,7 @@
           "version": "appgefahren_public_posts_v1",
           "feedUrl": "https://www.appgefahren.de/wp-json/wp/v2/posts",
           "initializedAt": "2026-11-09T12:04:15.138Z",
-          "snapshotAt": "2026-11-17T23:42:01.786Z",
+          "snapshotAt": "2026-11-18T01:43:26.601Z",
           "pages": 3,
           "publishedWindowOldest": "2026-10-21T10:00:58.000Z",
           "publishedWindowNewest": "2026-11-17T19:50:19Z",
@@ -9361,15 +9356,15 @@
           "addedBrandRecords": 0,
           "archiveReceipt": {
             "kind": "pr_keyword_baseline_archive_v1",
-            "batchId": "61e0a96a-f591-49c2-aa27-e725ee7e0f1f",
+            "batchId": "dc6f2bec-fedc-4488-b7da-85b92b668e44",
             "sourceId": "pr-de-appgefahren-mammotion",
             "sourceHash": "4ede1dfa0c52af4339bc1723e9bf8e05bde2467a23387b4edef8a539110ec2dc",
             "planId": "28819460ead6595fd05be7b12f1512c9b59353f0421f9c352cac0de57574b9de",
-            "checkedAt": "2026-11-17T23:42:01.786Z",
-            "indexFile": ".pr-private/keyword-baseline/61e0a96a-f591-49c2-aa27-e725ee7e0f1f/pr-de-appgefahren-mammotion/index.json",
-            "indexSha256": "d2f8fb0a6110bef1b5298238a393d0a3efeb7167a2481e2d24ef779d0fa76f8b",
+            "checkedAt": "2026-11-18T01:43:26.601Z",
+            "indexFile": ".pr-private/keyword-baseline/dc6f2bec-fedc-4488-b7da-85b92b668e44/pr-de-appgefahren-mammotion/index.json",
+            "indexSha256": "e7266886d3f9a2c47833e6b9238c945d57b71f5a05850a266993accd34dfa9fe",
             "baselineCount": 0,
-            "runtimeHash": "99fb84f7e07295078c1bb5564131d9a25ad505c515511b01fc93fc2f1c0d684c"
+            "runtimeHash": "fad7c4b8071de1debab428ab2e43e4e265ce69c2f5b08129a287b8e1066c6fe0"
           }
         },
         "verifiedRedirects": []
@@ -9385,13 +9380,13 @@
           "channel": "pr",
           "url": "https://www.homeandsmart.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 4,
         "discoveredUrlCount": 1290,
         "pendingArticleCount": 0,
-        "fetchedCount": 5,
+        "fetchedCount": 19,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
         "verifiedRedirects": []
@@ -9407,7 +9402,7 @@
           "channel": "pr",
           "url": "https://www.idealhome.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9429,7 +9424,7 @@
           "channel": "pr",
           "url": "https://basic-tutorials.de/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9451,7 +9446,7 @@
           "channel": "pr",
           "url": "https://stadt-bremerhaven.de/wp-sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9473,7 +9468,7 @@
           "channel": "pr",
           "url": "https://www.ifun.de/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9495,7 +9490,7 @@
           "channel": "pr",
           "url": "https://www.homesandgardens.com/uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9524,7 +9519,7 @@
           "channel": "pr",
           "url": "https://www.androidcentral.com/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9553,7 +9548,7 @@
           "channel": "pr",
           "url": "https://www.capital.fr/sitemap/articles.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9567,8 +9562,8 @@
             "url": "https://www.capital.fr/conso/instinct-nous-avons-teste-lagent-ia-qui-trie-les-mails-depuis-whatsapp-1531570",
             "title": "IA : nous avons testé Instinct, l’assistant qui promet de tout faire à notre place",
             "publishDate": "2026-11-05T13:00:00+00:00",
-            "htmlSha256": "ea4c82f1352f4efe98838726d1ff1545e4e94dcf83de908f3540faa5a44e0471",
-            "observedAt": "2026-11-17T23:42:01.786Z",
+            "htmlSha256": "f79bdcabdbeb34d33a0896b68c6f57add915168f2edee16917596e57e71410ce",
+            "observedAt": "2026-11-18T01:43:26.601Z",
             "status": "publisher_restricted_unread"
           }
         ],
@@ -9602,7 +9597,7 @@
           "channel": "pr",
           "url": "https://www.mein-schoener-garten.de/article/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9631,7 +9626,7 @@
           "channel": "pr",
           "url": "https://turfbusiness.co.uk/wp-sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9672,7 +9667,7 @@
           "channel": "pr",
           "url": "https://9to5toys.com/wp-json/wp/v2/posts"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 2,
@@ -9684,8 +9679,8 @@
         "metadataDiscovery": {
           "version": "nine_to_five_toys_public_posts_v1",
           "feedUrl": "https://9to5toys.com/wp-json/wp/v2/posts",
-          "snapshotAt": "2026-11-17T23:42:01.786Z",
-          "windowAfter": "2026-11-15T22:49:33",
+          "snapshotAt": "2026-11-18T01:43:26.601Z",
+          "windowAfter": "2026-11-15T23:42:01",
           "pages": 1,
           "publicationOldest": "2026-11-16T08:19:58.000Z",
           "totalPosts": 90,
@@ -9695,9 +9690,9 @@
           "historicalMemberships": [],
           "pagesRead": [
             {
-              "url": "https://9to5toys.com/wp-json/wp/v2/posts?after=2026-11-15T22%3A49%3A33&per_page=100&page=1&orderby=date&order=desc&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ctitle.rendered%2Ccontent.rendered%2Ccontent.protected",
+              "url": "https://9to5toys.com/wp-json/wp/v2/posts?after=2026-11-15T23%3A42%3A01&per_page=100&page=1&orderby=date&order=desc&_fields=id%2Clink%2Cdate_gmt%2Cmodified_gmt%2Cstatus%2Ctype%2Ctitle.rendered%2Ccontent.rendered%2Ccontent.protected",
               "items": 90,
-              "responseSha256": "cee10c2f4096e38f6c041bdf60a42759dbc432660ce2e5a51de7f7ba9e10e185",
+              "responseSha256": "6b6800eda441eac9a4b9b3495359e5c7c5f9dfca3365740e40a1a66333db525f",
               "responseBytes": 1248000
             }
           ],
@@ -9723,7 +9718,7 @@
           "channel": "pr",
           "url": "https://www.abavala.com/sitemap_index.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 1,
@@ -9752,7 +9747,7 @@
           "channel": "pr",
           "url": "https://turfmatters.co.uk/sitemap.xml"
         },
-        "checkedAt": "2026-11-17T23:42:01.786Z",
+        "checkedAt": "2026-11-18T01:43:26.601Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 0,
@@ -9761,6 +9756,40 @@
         "fetchedCount": 0,
         "bulkLastmodIgnored": false,
         "historicalSeedsBootstrapped": [],
+        "verifiedRedirects": []
+      },
+      {
+        "source": {
+          "id": "pr-uk-turfpro-media",
+          "sourceType": "media",
+          "outlet": "TurfPro",
+          "brand": "多竞品",
+          "brands": [
+            "Mammotion",
+            "Mova",
+            "Dreame",
+            "Ecovacs",
+            "Eufy"
+          ],
+          "country": "英国",
+          "countryCode": "UK",
+          "channel": "pr",
+          "url": "https://turfpro.co.uk/sitemap_index.xml"
+        },
+        "checkedAt": "2026-11-18T01:43:26.601Z",
+        "status": "ok",
+        "baseline": true,
+        "itemCount": 2,
+        "discoveredUrlCount": 1413,
+        "pendingArticleCount": 0,
+        "fetchedCount": 2,
+        "bulkLastmodIgnored": false,
+        "historicalSeedsBootstrapped": [
+          {
+            "url": "https://turfpro.co.uk/uk-distribution-for-new-robotic-mowers-confirmed/",
+            "membershipSource": "https://turfpro.co.uk/post-sitemap.xml"
+          }
+        ],
         "verifiedRedirects": []
       }
     ],
