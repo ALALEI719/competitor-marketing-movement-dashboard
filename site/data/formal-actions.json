@@ -1,7 +1,95 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T02:12:27.746Z",
+  "updatedAt": "2026-11-18T03:26:22.748Z",
   "actions": [
+    {
+      "actionId": "ACT-47638498A96F",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-homeandsmart-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T02:47:35.237Z",
+      "publishDate": "2026-11-16T10:38:45+00:00",
+      "title": "Nie wieder Begrenzungskabel verlegen: Smarte Mähroboter von Dreame jetzt zum Schnäppchenpreis ab 599 Euro",
+      "topicTags": [
+        "review",
+        "promotion"
+      ],
+      "summary": "Dreame 媒体报道（Home and Smart）：Nie wieder Begrenzungskabel verlegen: Smarte Mähroboter von Dreame jetzt zum Schnäppchenpreis ab 599 Euro",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.homeandsmart.de/dreame-maehroboter-black-friday-deal-a1-pro-a2-019014"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.homeandsmart.de/sitemap_index.xml",
+          "articleUrl": "https://www.homeandsmart.de/dreame-maehroboter-black-friday-deal-a1-pro-a2-019014",
+          "capturedAt": "2026-11-18T02:47:35.237Z",
+          "sourceType": "media",
+          "outlet": "Home and Smart",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Dreame"
+          ],
+          "keywordProfile": "competitor_lawn_v1",
+          "keywordProfileHash": "568f616541c4aac9e973c5d4eed3b3642ee4cfd437bad02fdaa0cb158e629d80",
+          "matchedBrands": [
+            {
+              "brand": "Dreame",
+              "terms": [
+                "Dreame"
+              ]
+            }
+          ],
+          "topicMatches": [
+            "Mähroboter"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "jsonld.datePublished",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2026-11-16T10:38:45+00:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-16T11:38:45+01:00"
+            }
+          ],
+          "contentHash": "7f54974d6585cb033e111219eec07727b6fb38a42ab5165fcc846700de84028e",
+          "bodySource": "homeandsmart_article_v1",
+          "firstPublication": {
+            "policy": "native_pr_new_discovery_v1",
+            "contextHash": "6819d8ebc1685a2e65a27d2f662fd9a6d10c7be9f3e178eeaaa6148effad977e",
+            "sourceId": "pr-de-homeandsmart-mammotion",
+            "identity": "https://www.homeandsmart.de/dreame-maehroboter-black-friday-deal-a1-pro-a2-019014",
+            "boundary": "2026-11-18T02:42:15.366Z",
+            "checkedAt": "2026-11-18T02:47:35.237Z",
+            "htmlSha256": "83d5cdc18537636ce11cecaa0dc26c56c1245ed479e8fbff7f5f6fee83e98304",
+            "contentHash": "7f54974d6585cb033e111219eec07727b6fb38a42ab5165fcc846700de84028e",
+            "publishDate": "2026-11-16T10:38:45+00:00",
+            "dateSource": "jsonld.datePublished",
+            "knownBefore": true,
+            "decision": "baseline",
+            "reason": "migration_initial_capture"
+          },
+          "brandMatch": {
+            "brand": "Dreame",
+            "status": "matched",
+            "terms": [
+              "Dreame"
+            ]
+          }
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-18T03:26:22.748Z"
+    },
     {
       "actionId": "ACT-AF57CF97C01C",
       "entityId": "",
