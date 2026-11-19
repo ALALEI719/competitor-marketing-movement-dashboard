@@ -1,7 +1,50 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T09:45:37.413Z",
+  "updatedAt": "2026-11-19T07:15:14.042Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "580c456585719f3a1fbb084adb85a51aaae3d8d97a3dbd6c75fbb5dde86eb6c9",
+        "afterHash": "768f474807464116bb620b899b319a3bf384be99830710a1e28925fde7673746",
+        "changedFields": [
+          "cta",
+          "availability",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-9F7906E43552",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "availability_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T10:19:32.023Z",
+      "publishDate": "",
+      "title": "Mammotion德国LUBA 2 AWD 5000X恢复可购买，售价2499欧元",
+      "summary": "11月18日官网观测显示，LUBA 2 AWD 5000X（5000㎡）从缺货转为可加入购物车，同SKU商品目录也由不可售变为可售。售价仍为2499欧元，划线价2999欧元及500欧元优惠未变。此次是旧款供货状态恢复，不代表新品上市、降价或功能升级；准确恢复时间和发布日期未披露。",
+      "marketingTheme": "德国官网旧款恢复可购买",
+      "contentType": "product_page",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/products/luba-2-awd-maehroboter"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/products/luba-2-awd-maehroboter",
+          "capturedAt": "2026-11-18T10:19:36.563Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-19T07:15:13.584Z"
+    },
     {
       "actionId": "ACT-6866C2CC6959",
       "entityId": "",
