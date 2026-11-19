@@ -7,7 +7,7 @@ function text(value,max){if(typeof value!=='string'||value.length>max||/[\u0000-
 export function publicAdLanding(value){
   if(typeof value!=='string')throw Error('Invalid landing');
   const u=new URL(value);
-  if(u.protocol!=='https:'||u.hostname!=='us.mammotion.com'||u.port||u.username||u.password||u.hash||!/^\/(?:products\/[a-z0-9-]+|collections\/[a-z0-9-]+)?\/?$/.test(u.pathname))throw Error('Landing outside US scope');
+  if(u.protocol!=='https:'||u.hostname!=='us.mammotion.com'||u.port||u.username||u.password||u.hash||!/^\/(?:products\/[a-z0-9-]+|collections\/[a-z0-9-]+|pages\/promotions)?\/?$/.test(u.pathname))throw Error('Landing outside US scope');
   // Tracking, referral and signed query values are never exported.
   u.search='';return u.href;
 }
