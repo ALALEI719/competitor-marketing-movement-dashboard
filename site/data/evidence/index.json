@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-18T10:48:44.492Z",
+  "generatedAt": "2026-11-19T10:53:11.521Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -96,6 +96,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-18T10-48-20-355Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-09T09-59-18-020Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-19T10:51:55.461Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:40.236Z",
+          "title": "Mähroboter & Poolroboter für Garten und Pool | Mammotion DE",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-19T10-51-55-461Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-af416e59d4744994-2026-11-18T10-48-20-355Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -135,6 +145,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-11-09T09-59-05-000Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-10-12T09-27-18-822Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-19T10:51:50.581Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T02:42:19.352Z",
+          "title": "Smart Yards Start Here | Mammotion UK",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-11-19T10-51-50-581Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-uk-b2e4ee315005450e-2026-11-09T09-59-05-000Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -2010,6 +2030,16 @@
           "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-7a42d5c5de8ac4e3-2026-11-18T10-48-16-574Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-19T10:48:57.855Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T20:48:46.628Z",
+          "title": "eufy Hot Deals | Anker eufy Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-7a42d5c5de8ac4e3-2026-11-19T10-48-57-855Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/eufy-de-anker-7a42d5c5de8ac4e3-2026-11-18T10-48-16-574Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -2029,6 +2059,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-1976decef9cfd919-2026-11-18T10-48-30-861Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-19T10:52:02.493Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:40.236Z",
+          "title": "Unkrautarten im Rasen: Häufige Arten erkennen und bestimmen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-1976decef9cfd919-2026-11-19T10-52-02-493Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-de-1976decef9cfd919-2026-11-18T10-48-30-861Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -2046,6 +2086,652 @@
           "title": "Mammotion LUBA 2 AWD Mähroboter | Mammotion DE",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mammotion-de-fd3b8de65fb26233-2026-11-18T10-48-35-978Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "f5712794e0081f62": {
+      "url": "https://yardcare.dreametech.com/collections/robot-lawn-mowers",
+      "siteId": "dreame-us",
+      "brand": "Dreame",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:10.953Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:54:09.385Z",
+          "title": "Robot Lawn Mowers – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-f5712794e0081f62-2026-11-19T10-49-10-953Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "01e168cbbee9948f": {
+      "url": "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower",
+      "siteId": "dreame-us",
+      "brand": "Dreame",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:16.122Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:54:09.385Z",
+          "title": "Dreame A3 AWD Pro Robot Lawn Mower – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-01e168cbbee9948f-2026-11-19T10-49-16-122Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "a091a648803afef2": {
+      "url": "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower-app-only",
+      "siteId": "dreame-us",
+      "brand": "Dreame",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:22.380Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:54:09.385Z",
+          "title": "Dreame A3 AWD Pro Robot Lawn Mower - App Only – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-a091a648803afef2-2026-11-19T10-49-22-380Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "778abe0e56809efa": {
+      "url": "https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower",
+      "siteId": "dreame-us",
+      "brand": "Dreame",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:28.452Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:54:09.385Z",
+          "title": "Dreame A3 AWD Robot Lawn Mower – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-778abe0e56809efa-2026-11-19T10-49-28-452Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "513df35e44e69446": {
+      "url": "https://yardcare.dreametech.com/collections/wireless-robotic-lawn-mowers",
+      "siteId": "dreame-us",
+      "brand": "Dreame",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:34.339Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:54:09.385Z",
+          "title": "Best Robot Lawn Mower Without Perimeter Wire – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-513df35e44e69446-2026-11-19T10-49-34-339Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "8d0701296ae2fe9e": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:38.698Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "Shop Robotic Lawn Mowers (ECOVACS GOAT) - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-8d0701296ae2fe9e-2026-11-19T10-49-38-698Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b269a931d85cdc1a": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-blade-kit",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:42.828Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Blade Kit*2 Sets - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-b269a931d85cdc1a-2026-11-19T10-49-42-828Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2fc983c2720ae130": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-garage",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:46.762Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Garage - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-2fc983c2720ae130-2026-11-19T10-49-46-762Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "88dfda5c49888092": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a2000-lidar-pro-garage-blade-kit",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:50.724Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower + Garage + Blade Kit*2 Sets - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-88dfda5c49888092-2026-11-19T10-49-50-724Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d855440e2ef79fd3": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a3000-lidar-pro-blade-kit-2sets",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:54.736Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "Official Exclusive - GOAT A3000 LiDAR PRO + Blade Kit*2 Sets - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-d855440e2ef79fd3-2026-11-19T10-49-54-736Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "9e79b52c47d0e402": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-a3000-lidar-pro-garage-blade-kit",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:49:58.717Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "Official Exclusive - GOAT A3000 LiDAR PRO Package - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-9e79b52c47d0e402-2026-11-19T10-49-58-717Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b4cab8cdd51b10fc": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-blade-kit-2sets",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:02.595Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "Official Exclusive - GOAT O1000 LiDAR PRO + Blade Kit*2 Sets - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-b4cab8cdd51b10fc-2026-11-19T10-50-02-595Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "217654cb52f1ab5d": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-lidar-pro-garage-blade-kit",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:06.430Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower + Garage + Blade Kit*2 Sets - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-217654cb52f1ab5d-2026-11-19T10-50-06-430Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "0b8f7e0e8a6ede96": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/bundle-goat-o1000-rtk-accessories",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:10.384Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "Official Exclusive - ECOVACS GOAT O1000 RTK Care Kit + Wall Mount - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-0b8f7e0e8a6ede96-2026-11-19T10-50-10-384Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "0c775ad511c19d32": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:14.227Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A2000 LiDAR PRO Robot Lawn Mower - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-0c775ad511c19d32-2026-11-19T10-50-14-227Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "5b47ffdf66c7315a": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:18.563Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A3000 LiDAR Robot Lawn Mower (3/4 Acre, High-Performance, Edge Cutting) - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-5b47ffdf66c7315a-2026-11-19T10-50-18-563Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "61bab63ee7651688": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:22.389Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT A3000 LiDAR PRO Robot Lawn Mower (360° LiDAR Navigation, Trimmer Mowing, TrueEdge Precision) - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-61bab63ee7651688-2026-11-19T10-50-22-389Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b6a471ac2cd99294": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:26.571Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT O1000 LiDAR PRO Robot Lawn Mower - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-b6a471ac2cd99294-2026-11-19T10-50-26-571Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "8e7b3561366336f2": {
+      "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-rtk",
+      "siteId": "ecovacs-us",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:30.685Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:44.811Z",
+          "title": "GOAT O1000 RTK Care Kit (45% Slope Climbing,Narrow Path Navigation) - ECOVACS US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/ecovacs-us-8e7b3561366336f2-2026-11-19T10-50-30-685Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "e37c4a07dd208544": {
+      "url": "https://fr.mova.tech/products/robot-tondeuse-lidax-ultra",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:34.583Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:52:03.994Z",
+          "title": "LiDAX Ultra Série Robot tondeuse sans fil périphérique | MOVA France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-e37c4a07dd208544-2026-11-19T10-50-34-583Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "76cf1fbcd25062ba": {
+      "url": "https://us.mova.tech/collections/robotic-lawn-mower",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:51.227Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:50.797Z",
+          "title": "Smart & Wireless Robot Lawn Mowers | LiDAR Navigation & No Wire Setup",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-76cf1fbcd25062ba-2026-11-19T10-50-51-227Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c7c36ce61e358b71": {
+      "url": "https://us.mova.tech/products/mova-lidax-pro-800-robotic-lawn-mower",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:50:58.439Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:50.797Z",
+          "title": "MOVA Lidax Pro 800 Wire-Free Robotic Lawn Mower ｜ MOVA US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-c7c36ce61e358b71-2026-11-19T10-50-58-439Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c64a8e8ea4dcc805": {
+      "url": "https://us.mova.tech/products/live-only-mova-lidax-ultra-1000-lawn-mower-0-25-acre",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:51:09.168Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:50.797Z",
+          "title": "MOVA LiDAX Ultra 1000 Robot Lawn Mower | MOVA US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-c64a8e8ea4dcc805-2026-11-19T10-51-09-168Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "cfa4111e8fb97941": {
+      "url": "https://us.mova.tech/products/live-only-mova-lidax-ultra-2000-lawn-mower-0-5-acre",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:51:24.178Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:50.797Z",
+          "title": "MOVA LiDAX Ultra 2000 Robot Lawn Mower | MOVA US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-cfa4111e8fb97941-2026-11-19T10-51-24-178Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "ac175379a67b409b": {
+      "url": "https://us.mova.tech/products/live-only-mova-lidax-ultra-3000-awd-robotic-lawn-mower",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:51:39.137Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T08:50:50.797Z",
+          "title": "【Live Only】MOVA Lidax Ultra 3000 AWD Robotic Lawn Mower | 0.75 acre",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-ac175379a67b409b-2026-11-19T10-51-39-137Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "bde7314ea74f9149": {
+      "url": "https://fr.mova.tech/collections/robot-lawn-mower",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:07.270Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-19T02:43:41.669Z",
+          "title": "Robot tondeuse pour pelouse automatique | MOVA France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-bde7314ea74f9149-2026-11-19T10-52-07-270Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c48cef52dd082974": {
+      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-trampolines-swings",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:18.539Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-19T02:42:19.352Z",
+          "title": "Trampolines and Swings: Why Robot Lawn Mowers Miss Legs and What to Do",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-c48cef52dd082974-2026-11-19T10-52-18-539Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "30210c644fd2bef8": {
+      "url": "https://de.mammotion.com/blogs/news/gaensebluemchen-im-rasen",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:23.222Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-19T02:42:15.612Z",
+          "title": "Gänseblümchen im Rasen: Erkennen & entfernen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-30210c644fd2bef8-2026-11-19T10-52-23-222Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "60b5cf6d7adcadc4": {
+      "url": "https://fr.dreametech.com/products/robot-tondeuse-dreame-a1-pro",
+      "siteId": "dreame-fr",
+      "brand": "Dreame",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:29.595Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T20:47:38.597Z",
+          "title": "Dreame A1 Pro | Robot tondeuse sans fil 2000 m² – Dreame France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-fr-60b5cf6d7adcadc4-2026-11-19T10-52-29-595Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "7236289c82e81251": {
+      "url": "https://us.mova.tech/blogs/lawn-care/robot-mower-1-acre",
+      "siteId": "mova-us",
+      "brand": "Mova",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:42.445Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-18T20:45:22.257Z",
+          "title": "Robot Mower 1 Acre: 2026 Buying Guide for Larger Lawns",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-7236289c82e81251-2026-11-19T10-52-42-445Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "403178a8b9ede77a": {
+      "url": "https://uk.mammotion.com/blogs/news/tracked-robotic-lawn-mower-vs-awd",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:48.118Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-18T20:45:15.355Z",
+          "title": "Tracked Robot Lawn Mower vs AWD – Which Should You Choose?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-403178a8b9ede77a-2026-11-19T10-52-48-118Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "eee36912623ecaba": {
+      "url": "https://de.mammotion.com/blogs/news/kriechendes-unkraut-im-rasen",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:52.862Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-18T20:45:11.190Z",
+          "title": "Kriechendes Unkraut im Rasen erkennen & bekämpfen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-eee36912623ecaba-2026-11-19T10-52-52-862Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "eae6d4183b60cb80": {
+      "url": "https://www.eufy.com/eu-fr/collections/robot-lawn-mower",
+      "siteId": "eufy-fr",
+      "brand": "Eufy",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:52:57.890Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T12:04:19.779Z",
+          "title": "Robots tondeuses - eufy France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-fr-eae6d4183b60cb80-2026-11-19T10-52-57-890Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2df04943001c65c5": {
+      "url": "https://de.mova.tech/products/mova-robot-lawn-mower-4g-module",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-19T10:53:01.840Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-18T11:59:55.620Z",
+          "title": "MOVA Rasenmäher 4G Verbindungsmodul | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-2df04943001c65c5-2026-11-19T10-53-01-840Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

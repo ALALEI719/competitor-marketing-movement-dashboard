@@ -16,8 +16,8 @@
     "channelSources": 4,
     "healthyChannelSources": 4,
     "channelItems": 120,
-    "blogChanges": 111,
-    "pendingChannelChanges": 8,
+    "blogChanges": 113,
+    "pendingChannelChanges": 10,
     "prSources": 24,
     "healthyPrSources": 24,
     "prChanges": 49,
@@ -10167,7 +10167,7 @@
     ]
   },
   "channelMonitoring": {
-    "checkedAt": "2026-11-19T08:56:07.822Z",
+    "checkedAt": "2026-11-19T10:48:43.246Z",
     "note": "四国 Blog 的每次新增或更新都会进入看板；系统同步提供新品关联、营销主题和优先级初判，人工结论独立保存。",
     "sources": [
       {
@@ -10179,7 +10179,7 @@
           "channel": "blog",
           "url": "https://us.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-19T08:56:07.822Z",
+        "checkedAt": "2026-11-19T10:48:43.246Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
@@ -10206,14 +10206,14 @@
           "channel": "blog",
           "url": "https://de.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-19T08:56:07.822Z",
+        "checkedAt": "2026-11-19T10:48:43.246Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-19T09:23:52+01:00",
         "changeCounts": {
-          "added": 1,
-          "updated": 2
+          "added": 0,
+          "updated": 1
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -10233,13 +10233,13 @@
           "channel": "blog",
           "url": "https://uk.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-19T08:56:07.822Z",
+        "checkedAt": "2026-11-19T10:48:43.246Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
         "latestPublishedAt": "2026-11-19T07:36:55+00:00",
         "changeCounts": {
-          "added": 1,
+          "added": 0,
           "updated": 0
         },
         "snapshotCoverage": {
@@ -10260,14 +10260,14 @@
           "channel": "blog",
           "url": "https://fr.mammotion.com/blogs/news.atom"
         },
-        "checkedAt": "2026-11-19T08:56:07.822Z",
+        "checkedAt": "2026-11-19T10:48:43.246Z",
         "status": "ok",
         "baseline": false,
         "itemCount": 30,
-        "latestPublishedAt": "2026-11-13T07:04:02+01:00",
+        "latestPublishedAt": "2026-11-19T10:16:54+01:00",
         "changeCounts": {
-          "added": 0,
-          "updated": 1
+          "added": 1,
+          "updated": 0
         },
         "snapshotCoverage": {
           "captured": 30,
@@ -10280,6 +10280,102 @@
       }
     ],
     "recentRecords": [
+      {
+        "recordId": "CH-A8F79AF5ED10",
+        "sourceId": "mammotion-de-blog",
+        "brand": "Mammotion",
+        "country": "德国",
+        "countryCode": "DE",
+        "channel": "blog",
+        "changeType": "content_updated",
+        "reviewStatus": "pending",
+        "title": "Löwenzahn im Rasen: Erkennen, entfernen und dauerhaft vorbeugen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/loewenzahn-im-rasen",
+        "publishDate": "2026-11-19T09:23:52+01:00",
+        "updatedAt": "2026-11-19T10:09:12+01:00",
+        "discoveredAt": "2026-11-19T10:48:43.246Z",
+        "summary": "Löwenzahn im Rasen erkennen und entfernen: Erfahren Sie, warum er immer wieder wächst, welche Methoden helfen und wie Sie einer erneuten Ausbreitung vorbeugen. Mehr",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "changed_content",
+          "beforeHash": "3cbaeb0b5e5db81ebab335162b117f8553b900abd3170dc734f77c0c6647b4c5",
+          "afterHash": "2fab6b7b8d84263ea278eae7686c62f7894e6eda61f3ff8e5c193fd371c75edc",
+          "changedFields": [
+            "body"
+          ],
+          "beforeExcerpt": "gehört zu den häufig vorkommenden Pflanzen im Rasen. Einzelne Pflanzen sind für die Rasenfläche meist kein Grund zur Sorge. Wenn er sich jedoch stärker ausbreitet, kann er das gleichmäßige Erscheinungsbild eines gepflegten Rasens beeinträchtigen. Besonders hartnäckig ist Löwenzahn, weil seine kräfti",
+          "afterExcerpt": "(Taraxacum officinale) gehört zu den häufig vorkommenden Pflanzen im Rasen. Einzelne Pflanzen sind für die Rasenfläche meist kein Grund zur Sorge. Wenn er sich jedoch stärker ausbreitet, kann er das gleichmäßige Erscheinungsbild eines gepflegten Rasens beeinträchtigen. Besonders hartnäckig ist Löwen"
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ],
+          "publishedAt": "2026-11-19T09:23:52+01:00",
+          "updatedAt": "2026-11-19T10:09:12+01:00"
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.13,
+          "priorityConfidence": 0.77
+        },
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2FF871724ED8",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Come Fa un Robot Tagliaerba a Muoversi tra Alberi, Arbusti e Aiuole?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tagliaerba-tra-alberi-aiuole",
+        "publishDate": "2026-11-19T10:16:54+01:00",
+        "updatedAt": "2026-11-19T10:16:54+01:00",
+        "discoveredAt": "2026-11-19T10:48:43.246Z",
+        "summary": "Come fa un robot tagliaerba a muoversi tra alberi, arbusti e aiuole? Scopri come pianificare aree di lavoro, zone vietate e percorsi. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "759b6dc37b0d0e04c60636e631f5940eb741d8e74cc7ea6aeab232f24c47edf9",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ],
+          "publishedAt": "2026-11-19T10:16:54+01:00",
+          "updatedAt": "2026-11-19T10:16:54+01:00"
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
+          "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
+          "marketingTheme": "product_education",
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-B7FA97D2F0B5",
         "sourceId": "mammotion-de-blog",
@@ -15613,83 +15709,45 @@
           "marketingTheme": "product_education",
           "reviewedAt": "2026-10-26T06:05:18.896Z"
         }
-      },
+      }
+    ],
+    "pendingRecords": [
       {
-        "recordId": "CH-F3D81040A1B0",
-        "sourceId": "mammotion-uk-blog",
+        "recordId": "CH-A8F79AF5ED10",
+        "sourceId": "mammotion-de-blog",
         "brand": "Mammotion",
-        "country": "英国",
-        "countryCode": "UK",
+        "country": "德国",
+        "countryCode": "DE",
         "channel": "blog",
         "changeType": "content_updated",
-        "reviewStatus": "approved",
-        "title": "LUBA 4 AWD Unveiled: Everything You Need to Know",
-        "sourceUrl": "https://uk.mammotion.com/blogs/news/luba-4-awd-unveiled-everything-you-need-to-know",
-        "publishDate": "2026-09-11T10:01:56+01:00",
-        "updatedAt": "2026-10-12T03:49:55+01:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Explore all LUBA 4 AWD models, their full specs, launch dates, and who each model is best suited for. More ]]>",
+        "reviewStatus": "pending",
+        "title": "Löwenzahn im Rasen: Erkennen, entfernen und dauerhaft vorbeugen",
+        "sourceUrl": "https://de.mammotion.com/blogs/news/loewenzahn-im-rasen",
+        "publishDate": "2026-11-19T09:23:52+01:00",
+        "updatedAt": "2026-11-19T10:09:12+01:00",
+        "discoveredAt": "2026-11-19T10:48:43.246Z",
+        "summary": "Löwenzahn im Rasen erkennen und entfernen: Erfahren Sie, warum er immer wieder wächst, welche Methoden helfen und wie Sie einer erneuten Ausbreitung vorbeugen. Mehr",
         "contentFetch": {
           "status": "ok",
           "error": null
         },
         "contentEvidence": {
           "status": "changed_content",
-          "beforeHash": "4011a6e35f4720ac05ac2fd4fd1b26fb538babf286b62f2fafd8390771841288",
-          "afterHash": "bbd38be9f807f8825149c56a73a0e7a3fe5c1c18ce6b7d547245504d8f51f719",
+          "beforeHash": "3cbaeb0b5e5db81ebab335162b117f8553b900abd3170dc734f77c0c6647b4c5",
+          "afterHash": "2fab6b7b8d84263ea278eae7686c62f7894e6eda61f3ff8e5c193fd371c75edc",
           "changedFields": [
-            "offer"
+            "body"
           ],
-          "beforeExcerpt": "",
-          "afterExcerpt": ""
+          "beforeExcerpt": "gehört zu den häufig vorkommenden Pflanzen im Rasen. Einzelne Pflanzen sind für die Rasenfläche meist kein Grund zur Sorge. Wenn er sich jedoch stärker ausbreitet, kann er das gleichmäßige Erscheinungsbild eines gepflegten Rasens beeinträchtigen. Besonders hartnäckig ist Löwenzahn, weil seine kräfti",
+          "afterExcerpt": "(Taraxacum officinale) gehört zu den häufig vorkommenden Pflanzen im Rasen. Einzelne Pflanzen sind für die Rasenfläche meist kein Grund zur Sorge. Wenn er sich jedoch stärker ausbreitet, kann er das gleichmäßige Erscheinungsbild eines gepflegten Rasens beeinträchtigen. Besonders hartnäckig ist Löwen"
         },
-        "feedEvidence": null,
-        "productExposure": [],
-        "systemAssessment": {
-          "status": "completed",
-          "questionSetVersion": "blog-content-v1",
-          "newProductRelation": "related",
-          "newProductProbability": 1,
-          "newProductConfidence": 1,
-          "marketingTheme": "product_launch",
-          "themeConfidence": 1,
-          "monitoringPriority": 3.97,
-          "priorityConfidence": 0.98
+        "feedEvidence": {
+          "changedFields": [
+            "updated_at"
+          ],
+          "publishedAt": "2026-11-19T09:23:52+01:00",
+          "updatedAt": "2026-11-19T10:09:12+01:00"
         },
-        "humanAssessment": {
-          "newProductRelation": "related",
-          "marketingTheme": "product_education",
-          "reviewedAt": "2026-10-26T06:05:19.020Z",
-          "publicTitle": "LUBA 4 AWD Unveiled: Everything You Need to Know",
-          "publicSummary": "英国 LUBA 4 AWD 文章将 3000F/6000F 切割高度上限从 100 mm 更正为 95 mm；确认参数更新，不推进新的发布阶段。"
-        }
-      },
-      {
-        "recordId": "CH-DB60F9B7ED78",
-        "sourceId": "mammotion-fr-blog",
-        "brand": "Mammotion",
-        "country": "法国",
-        "countryCode": "FR",
-        "channel": "blog",
-        "changeType": "new_content",
-        "reviewStatus": "approved",
-        "title": "Quel robot tondeuse choisir pour un terrain difficile ?",
-        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tondeuse-terrain-difficile",
-        "publishDate": "2026-10-12T09:43:34+02:00",
-        "updatedAt": "2026-10-12T09:43:34+02:00",
-        "discoveredAt": "2026-10-12T09:26:49.072Z",
-        "summary": "Pente forte ou sol bosselé ? Découvrez comment choisir un robot tondeuse pour terrain accidenté : critères clés, précautions et zones à exclure. Plus ]]>",
-        "contentFetch": {
-          "status": "ok",
-          "error": null
-        },
-        "contentEvidence": {
-          "status": "new_content",
-          "beforeHash": "",
-          "afterHash": "7a56132fc40853a5e91e4f6208b259093e36080d8a8e600466eb1e2f530faffa",
-          "changedFields": []
-        },
-        "feedEvidence": null,
         "productExposure": [],
         "systemAssessment": {
           "status": "completed",
@@ -15699,19 +15757,57 @@
           "newProductConfidence": 1,
           "marketingTheme": "product_education",
           "themeConfidence": 1,
-          "monitoringPriority": 1.86,
-          "priorityConfidence": 0.82
+          "monitoringPriority": 1.13,
+          "priorityConfidence": 0.77
         },
-        "humanAssessment": {
+        "humanAssessment": null
+      },
+      {
+        "recordId": "CH-2FF871724ED8",
+        "sourceId": "mammotion-fr-blog",
+        "brand": "Mammotion",
+        "country": "法国",
+        "countryCode": "FR",
+        "channel": "blog",
+        "changeType": "new_content",
+        "reviewStatus": "pending",
+        "title": "Come Fa un Robot Tagliaerba a Muoversi tra Alberi, Arbusti e Aiuole?",
+        "sourceUrl": "https://fr.mammotion.com/blogs/news/robot-tagliaerba-tra-alberi-aiuole",
+        "publishDate": "2026-11-19T10:16:54+01:00",
+        "updatedAt": "2026-11-19T10:16:54+01:00",
+        "discoveredAt": "2026-11-19T10:48:43.246Z",
+        "summary": "Come fa un robot tagliaerba a muoversi tra alberi, arbusti e aiuole? Scopri come pianificare aree di lavoro, zone vietate e percorsi. Plus",
+        "contentFetch": {
+          "status": "ok",
+          "error": null
+        },
+        "contentEvidence": {
+          "status": "new_content",
+          "beforeHash": "",
+          "afterHash": "759b6dc37b0d0e04c60636e631f5940eb741d8e74cc7ea6aeab232f24c47edf9",
+          "changedFields": []
+        },
+        "feedEvidence": {
+          "changedFields": [
+            "new_entry"
+          ],
+          "publishedAt": "2026-11-19T10:16:54+01:00",
+          "updatedAt": "2026-11-19T10:16:54+01:00"
+        },
+        "productExposure": [],
+        "systemAssessment": {
+          "status": "completed",
+          "questionSetVersion": "blog-content-v1",
           "newProductRelation": "not_related",
+          "newProductProbability": 0,
+          "newProductConfidence": 1,
           "marketingTheme": "product_education",
-          "reviewedAt": "2026-10-26T06:05:19.176Z",
-          "publicTitle": "复杂地形机器人割草机选型指南",
-          "publicSummary": "梳理复杂地形选机需要关注的坡度、起伏、边界与易打滑条件，包含 LUBA 系列产品露出。"
-        }
-      }
-    ],
-    "pendingRecords": [
+          "themeConfidence": 1,
+          "monitoringPriority": 1.71,
+          "priorityConfidence": 0.76
+        },
+        "humanAssessment": null
+      },
       {
         "recordId": "CH-B7FA97D2F0B5",
         "sourceId": "mammotion-de-blog",
