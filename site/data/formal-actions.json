@@ -1,7 +1,96 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T08:37:34.367Z",
+  "updatedAt": "2026-11-20T09:57:14.880Z",
   "actions": [
+    {
+      "actionId": "ACT-0F457065FDF4",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T09:16:03.479Z",
+      "publishDate": "2026-11-20T08:51:24+00:00",
+      "title": "Mammotion英国发布避障指南，区分识别、越障与禁区",
+      "marketingTheme": "隐藏障碍识别限制与割草前排查禁区教育",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD 3000",
+          "source": "article_body",
+          "excerpt": "usion positioning: LiDAR, NetRTK and AI vision On LUBA 3 AWD 3000 and 5000, Tri-Fusion positioning combines 360° Li"
+        },
+        {
+          "name": "LUBA 3 AWD 1500",
+          "source": "article_body",
+          "excerpt": "nes 360° LiDAR, NetRTK and dual-camera AI vision. LUBA 3 AWD 1500 uses LiDAR and AI vision. The sensor combination "
+        },
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": "n every situation. Intelligent object recognition LUBA 3 AWD is specified to recognise more than 300 types of "
+        }
+      ],
+      "summary": "英国官方11月20日发布机器人割草机避障教育文章，区分暴露、部分遮挡和完全隐藏障碍，建议割草前排查、移除松散物并为固定危险设置禁区。文中分别说明LUBA3 AWD不同型号的导航组合，提醒300+障碍类别及50毫米越障能力都不保证识别隐藏物或安全碰撞。这是新教育内容，不代表新机或功能升级。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/how-does-robot-lawn-mower-avoid-obstacles"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/how-does-robot-lawn-mower-avoid-obstacles",
+          "discoveredAt": "2026-11-20T09:16:03.479Z",
+          "publishDate": "2026-11-20T08:51:24+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T09:57:12.012Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "a46e9bfdba0588baa9e670245b237b7d0009ad5840355b14bd6e0e5e93795869",
+        "afterHash": "1e94a43c5c1b79b8b4bfb633f913fbc8841e195697ef2bd6c11fd8fe16b9b253",
+        "changedFields": [
+          "availability"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-64B3FD8E2ECC",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T09:11:55.209Z",
+      "publishDate": "",
+      "title": "MOVA法国600 Kit恢复页面可购买状态，599欧价格未变",
+      "summary": "法国官网MOVA600 Kit同一产品和变体由不可售变为可售，购买组件从售罄禁用切换为可购买。售价599欧、参考价1099欧及SKU010901AA000032前后不变，属于页面可售状态恢复，不是降价或新型号发布。两版原件保存在11月18日至20日，实际恢复时刻未知；未验证结算、实物库存或发货。",
+      "marketingTheme": "法国MOVA600 Kit页面可售状态恢复",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/products/mova-600-kit-rlm-spring-special"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/products/mova-600-kit-rlm-spring-special",
+          "capturedAt": "2026-11-20T09:11:55.209Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T09:57:11.686Z"
+    },
     {
       "actionId": "ACT-AC6E33C2EA98",
       "entityId": "",
@@ -336,6 +425,89 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-20T08:37:30.838Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "ea1367b3a999a8e463bd6fda739083e42a33c81c7d612836e67af5d86a6773eb",
+        "afterHash": "cf541072e62b8f6a0128fbc5339a725e35826a7c92a20a5e83d15d0ba1620ee5",
+        "changedFields": [
+          "offer",
+          "price"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-E3358C0D1024",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "dreame-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T08:54:09.385Z",
+      "publishDate": "",
+      "title": "Dreame美国App Only价卡调整，Pro2500条目标为不可售",
+      "summary": "美国官网独立App Only商品条目更新三变体：Pro3500为1899.99→1889.99美元，Pro5000为2799.99→2449.99，Pro2500为1699.99→1799.99且可售标志true→false、显示Sold Out。默认选款从2500切到3500，不能将两款默认价格直接比较。该入口与常规商品拥有不同product/variantID，5000参考价3409.99也单独保留；仅确认11月19日原件区间内的页面状态变化，未核App结算或实时库存。",
+      "marketingTheme": "美国Dreame App Only独立入口价卡及可售调整",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower-app-only"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-us",
+          "url": "https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower-app-only",
+          "capturedAt": "2026-11-19T08:54:09.385Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T09:57:12.574Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "919d43f596825156b0c840b1a1e07280778ad558b3b891bbbbf509c235faa3c3",
+        "afterHash": "c392f7e06f2ea97d73b423283a4a9217b32533588e65e67a0165da8219c8e87b",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-CFB6D7BADB00",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "ecovacs-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T08:52:44.811Z",
+      "publishDate": "",
+      "title": "ECOVACS美国GOAT系列调价，A2000 LiDAR PRO展示1329美元",
+      "summary": "美国官网已核集合第一页12款及对应所选详情页同组降价，合并记录一项：A2000 LiDAR PRO1999.99→1329美元、A3000 PRO2499.99→1799、O1000 PRO1499.99→949、O1000 RTK999.99→630，八个套装及相关配件推荐也调整。价格按商品ID、链接、配置与UPC对应，避免复用SKU文字混淆套装。旧A3000非PRO仍售罄；仅确认11月19日保存区间内的官网显示，未核结算、实时库存或第二页其余商品，实际发布/生效时刻未知。",
+      "marketingTheme": "美国ECOVACS GOAT系列与套装官网促销价调整",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "ecovacs-us",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower",
+          "capturedAt": "2026-11-19T08:52:48.709Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T09:57:13.182Z"
     },
     {
       "changeType": "content_change",
