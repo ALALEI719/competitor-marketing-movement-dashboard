@@ -1,7 +1,92 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T01:52:00.257Z",
+  "updatedAt": "2026-11-20T02:47:13.422Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "e26f7633f4ffe748eff2b4c89e72b60b4f143b2a7a8708765e3ff929dffd6de4",
+        "afterHash": "cb6f1052717aaa8930b5a9953d2fdff1289419a7b7758a225f4deaee2d9ae76d",
+        "changedFields": [
+          "headings",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-4851FFB1F9BD",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T02:27:59.402Z",
+      "publishDate": "",
+      "title": "Mammotion法国首页改推YUKA mini 2 800 LiDAR与500版，展示799/599欧元起",
+      "summary": "法国官网首页把原YUKA mini 2 1000主推卡替换为800 LiDAR版，并加入500版价卡。官网分别标注800㎡、799欧起（参考1099欧）和500㎡、599欧起（参考799欧）；前者为LiDAR加双摄AI，后者为三摄AI加NetRTK，均标注45%坡度。这是11月20日前后保存页面核出的型号陈列与价卡更新，不代表同SKU降价、首售或实际库存；准确发布时间未披露。",
+      "marketingTheme": "YUKA mini 2首页型号与展示价卡调整",
+      "contentType": "homepage",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/",
+          "capturedAt": "2026-11-20T02:28:02.009Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T02:47:13.247Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "736fe59153d90e402c289b18ce77afa4cec9f737565118ae8aa7d2c1f3da49ed",
+        "afterHash": "760ee2f0f2bb44d21023e8cb8dbe73374f47675f95a8c357bbecb8b9b8e3dcd9",
+        "changedFields": [
+          "headings",
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-6AA87E348787",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mammotion-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T02:27:52.530Z",
+      "publishDate": "",
+      "title": "Mammotion德国首页调整YUKA mini 2型号卡，800 LiDAR与500版展示799/599欧元起",
+      "summary": "德国官网首页将原1000版和800三摄版主推卡改为800 LiDAR版与500三摄版，分别展示800㎡、799欧起（参考1099欧）及500㎡、599欧起（参考799欧）。官网分别标注LiDAR加AI视觉、三摄AI加NetRTK，均为45%坡度。型号与产品卡链接都发生变化，不能把旧卡金额与新卡直接计算成同SKU降价；仅确认11月20日保存页面的陈列更新，未核首售、结算价或库存，准确发布时间未披露。",
+      "marketingTheme": "YUKA mini 2首页型号与展示价卡调整",
+      "contentType": "homepage",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mammotion.com/"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-de",
+          "url": "https://de.mammotion.com/",
+          "capturedAt": "2026-11-20T02:27:55.183Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T02:47:13.422Z"
+    },
     {
       "changeType": "content_change",
       "contentEvidence": {
