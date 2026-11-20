@@ -1,7 +1,98 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T07:15:07.708Z",
+  "updatedAt": "2026-11-20T07:33:07.465Z",
   "actions": [
+    {
+      "actionId": "ACT-AC6E33C2EA98",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T07:11:48.307Z",
+      "publishDate": "2026-11-20T06:10:13+00:00",
+      "title": "Mammotion英国发布多区域割草机选购指南，强调分区连通与定位",
+      "marketingTheme": "多区域草坪机器人割草机选购与连接路径教育",
+      "productExposure": [
+        {
+          "name": "LUBA mini 2 AWD",
+          "source": "article_body",
+          "excerpt": "gation Drive Maximum slope Suitable garden layout LUBA mini 2 AWD 1000 1,000 m² 10 Tri-Camera AI Vision + NetRTK AW"
+        },
+        {
+          "name": "LUBA 3 AWD 1500",
+          "source": "article_body",
+          "excerpt": "m-sized garden with passages and changes in level LUBA 3 AWD 1500 1,500 m² 15 360° LiDAR + Dual-Camera AI Vision AW"
+        },
+        {
+          "name": "LUBA 3 AWD 3000",
+          "source": "article_body",
+          "excerpt": "garden with varied zones and demanding navigation LUBA 3 AWD 3000 3,000 m² 30 360° LiDAR + NetRTK + Dual-Camera AI "
+        },
+        {
+          "name": "LUBA 3 AWD 5000",
+          "source": "article_body",
+          "excerpt": "A large garden with slopes, trees or shaded areas LUBA 3 AWD 5000 5,000 m² 50 360° LiDAR + NetRTK + Dual-Camera AI "
+        }
+      ],
+      "summary": "英国官方11月20日发布多区域机器人割草机选购指南，从前后院连通、窄通道、坡度、障碍与充电站位置讨论实际适配，并以LUBA mini 2 AWD及LUBA 3 AWD系列比较区域管理和导航。文章提醒支持多区不等于能自动跨区，需可通行且已正确映射的连接路径。这是产品教育内容，不代表新机发布或独立性能验证。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/how-to-choose-multi-zone-robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/how-to-choose-multi-zone-robot-lawn-mower",
+          "discoveredAt": "2026-11-20T07:11:48.307Z",
+          "publishDate": "2026-11-20T06:10:13+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T07:33:02.613Z"
+    },
+    {
+      "actionId": "ACT-84BB4F094C31",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-20T05:06:42.967Z",
+      "publishDate": "2026-11-20T03:52:14+00:00",
+      "title": "Mammotion英国发布树木花坛场景指南，推广工作区与禁区规划",
+      "marketingTheme": "树木灌木花坛场景的工作区与禁区规划教育",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": "ons depending on the model. For example, selected LUBA 3 AWD models combine 360° LiDAR, NetRTK and Dual-Camera"
+        }
+      ],
+      "summary": "英国官方11月20日发布树木、灌木和花坛场景指南，建议先规划整个园林，再划分工作区、合并相邻障碍禁区、留出适当边界并随季节生长复查。文中说明兼容Mammotion机型的定位与地图编辑方式，强调避障不能代替敏感区域禁区。这是新教育文章，不作为新功能上线或性能实测。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/robot-lawn-mower-around-trees-flower-beds"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-around-trees-flower-beds",
+          "discoveredAt": "2026-11-20T05:06:42.967Z",
+          "publishDate": "2026-11-20T03:52:14+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T07:33:02.864Z"
+    },
     {
       "changeType": "content_change",
       "contentEvidence": {
@@ -86,6 +177,47 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-20T02:47:13.422Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "3c48fbacf904dafeba45323b33910562aa0157a6c93ccf207b8eb6429dbcd749",
+        "afterHash": "44fcf289e4a68d2379056a21c1fc287447f27b5a081681b55b3fe486b725d9ba",
+        "changedFields": [
+          "cta"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-855669907F14",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "dreame-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T20:54:10.318Z",
+      "publishDate": "",
+      "title": "Dreame美国A3系列集合更新价卡，A3 AWD1000展示1099.99美元",
+      "summary": "美国官网八个集合页出现同组A3系列价卡调整，合并记录一项：绑定同变体后，AWD1000为1399.99→1099.99美元、2000为1699.99→1459.99，Pro3500为2399.99→1889.99、5000为2799.99→2449.99；Pro2500则1699.99→1799.99且仍标不可售。场景页Pro默认选款由2500切到3500，不能把Buy Now出现当2500补货。仅确认11月17日至20日保存页面区间内的价卡变化，原发/生效时刻未披露，未核结算价或实际库存。",
+      "marketingTheme": "美国A3 AWD系列集合价卡与默认型号同步调整",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://yardcare.dreametech.com/collections/lidar-robot-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-us",
+          "url": "https://yardcare.dreametech.com/collections/lidar-robot-mower",
+          "capturedAt": "2026-11-19T20:54:10.318Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T07:33:04.056Z"
     },
     {
       "changeType": "content_change",
