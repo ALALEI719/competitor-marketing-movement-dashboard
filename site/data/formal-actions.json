@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T07:33:07.465Z",
+  "updatedAt": "2026-11-20T08:37:34.367Z",
   "actions": [
     {
       "actionId": "ACT-AC6E33C2EA98",
@@ -218,6 +218,124 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-20T07:33:04.056Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "41e3a7e1b58ac6fc53b5d785be64448a33c7828119b26e013a25aa34b42c07e6",
+        "afterHash": "08b2e44a7e7fbe35af81679d251a9e9558a793d32e7d21b06cbfdfb0f5bb0252",
+        "changedFields": [
+          "title",
+          "description",
+          "headings",
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-92B4E232133D",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "dreame-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T11:59:58.421Z",
+      "publishDate": "",
+      "title": "Dreame美国黑五页改写活动日历，顶部优惠与商品卡口径不一",
+      "summary": "美国官网黑五页将FAQ从提前购11月2–18日改为黑五11月2–27日、Cyber Week11月28日至12月6日，并改写选购时机说明。顶部最高优惠从1310改为1000美元，但割草机卡仍标SAVE1310；保留此口径不一致，不据此宣称统一最高优惠。商品价卡及Nov19–30最低价窗口前后未变，不重复已记录的A3价卡动作。只确认11月19日两次保存之间的页面改写，原发/实际生效时刻未知。",
+      "marketingTheme": "美国黑五活动日历与页面优惠主张改写",
+      "contentType": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://yardcare.dreametech.com/pages/black-friday"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-us",
+          "url": "https://yardcare.dreametech.com/pages/black-friday",
+          "capturedAt": "2026-11-19T11:59:58.421Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T08:37:31.996Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "059be60917e5d206bbe9c5db3ffec3b1b0068434533ac7e15b4a79ea66d1161f",
+        "afterHash": "ddd4bb8df55b22b5efa8390c028ad1eb369c807169ae7f74b98dcef078272913",
+        "changedFields": [
+          "price"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-56F1C2C19530",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "mova-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T11:56:15.952Z",
+      "publishDate": "",
+      "title": "MOVA美国LiDAX Ultra1000同SKU展示价从1049降至853美元",
+      "summary": "美国官网LiDAX Ultra1000的同产品、同变体与SKU010901AA000182展示价格由1049降至853美元，减少196美元；参考价1299美元及可售标志前后不变。积分随价格更新，其他US产品页的1000推荐卡同步变化合并记录，不当作2000或AWD3000本品降价。仅确认11月18日至19日保存区间内的页面变化，原发/生效时刻未知，未核结算价或实时库存。",
+      "marketingTheme": "美国LiDAX Ultra1000同SKU官网展示降价",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-us",
+          "url": "https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower",
+          "capturedAt": "2026-11-19T11:56:15.952Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T08:37:33.228Z"
+    },
+    {
+      "actionId": "ACT-D809C480BB62",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T10:48:43.246Z",
+      "publishDate": "2026-11-19T10:16:54+01:00",
+      "title": "Mammotion法国站发布意大利语树木花坛割草机规划指南",
+      "marketingTheme": "法国店面意大利语树木花坛工作区与禁区规划教育",
+      "productExposure": [],
+      "summary": "法国官方店面于11月19日发布意大利语机器人割草机教育文章，建议先整体规划树木、灌木和花坛布局，再划分工作区、合并相邻禁区、调整边界余量并随植物生长复查。文章讨论兼容Mammotion型号的导航与地图编辑限制，强调避障不替代敏感区域禁区。来源国别保留法国、正文语言为意大利语；这是新教育文章，不代表新型号或新功能发布。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tagliaerba-tra-alberi-aiuole"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tagliaerba-tra-alberi-aiuole",
+          "discoveredAt": "2026-11-19T10:48:43.246Z",
+          "publishDate": "2026-11-19T10:16:54+01:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-20T08:37:30.838Z"
     },
     {
       "changeType": "content_change",
