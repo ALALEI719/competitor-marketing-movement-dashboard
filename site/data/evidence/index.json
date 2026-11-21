@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-19T10:53:11.521Z",
+  "generatedAt": "2026-11-21T10:19:09.302Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -2732,6 +2732,196 @@
           "title": "MOVA Rasenmäher 4G Verbindungsmodul | MOVA Deutschland",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mova-de-2df04943001c65c5-2026-11-19T10-53-01-840Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "4e8561013f207de8": {
+      "url": "https://de.mova.tech/collections/robot-lawn-mower",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:17:52.293Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-20T20:36:38.497Z",
+          "title": "Intelligente Rasenmähroboter für einen perfekten Rasen | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-4e8561013f207de8-2026-11-21T10-17-52-293Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d9045e34a5185e3b": {
+      "url": "https://fr.mammotion.com/products/robot-tondeuse-yuka-mini-2-500",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:17:59.351Z",
+          "reason": "product_candidate:MAM-UNKNOWN-5CFF299B",
+          "sourceObservedAt": "2026-11-20T20:36:02.509Z",
+          "title": "Robot tondeuse YUKA mini 2 500 | Mammotion FR",
+          "matchedTerm": "précommande",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-d9045e34a5185e3b-2026-11-21T10-17-59-351Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-d9045e34a5185e3b-2026-11-21T10-17-59-351Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-5CFF299B"
+    },
+    "f781a9dd32fa8e76": {
+      "url": "https://fr.mammotion.com/products/robot-tondeuse-yuka-mini-2-800-lidar",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:08.295Z",
+          "reason": "product_candidate:MAM-UNKNOWN-F439062E",
+          "sourceObservedAt": "2026-11-20T20:36:02.509Z",
+          "title": "Robot tondeuse Mammotion YUKA mini 2 800 LiDAR | Mammotion FR",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-f781a9dd32fa8e76-2026-11-21T10-18-08-295Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-f781a9dd32fa8e76-2026-11-21T10-18-08-295Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-F439062E"
+    },
+    "666c0551316b74ce": {
+      "url": "https://uk.mammotion.com/blogs/news/how-does-robot-lawn-mower-avoid-obstacles",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:20.811Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-20T20:35:58.392Z",
+          "title": "How does a robot lawn mower detect obstacles?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-666c0551316b74ce-2026-11-21T10-18-20-811Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c9b13c124b9de8f4": {
+      "url": "https://uk.mammotion.com/blogs/news/how-to-choose-multi-zone-robot-lawn-mower",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:26.636Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-20T20:35:58.392Z",
+          "title": "Which Multi-Zone Robot Lawn Mower Suits Your Garden?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-c9b13c124b9de8f4-2026-11-21T10-18-26-636Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "2550360c66aca336": {
+      "url": "https://uk.mammotion.com/blogs/news/robot-lawn-mower-around-trees-flower-beds",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:32.562Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-20T20:35:58.392Z",
+          "title": "Can a Robot Lawn Mower Work Around Trees, Shrubs and Flower Beds?",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-2550360c66aca336-2026-11-21T10-18-32-562Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "d4b489698643161b": {
+      "url": "https://de.mammotion.com/products/yuka-mini-2-500-maehroboter",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:38.250Z",
+          "reason": "product_candidate:MAM-UNKNOWN-A101CCD1",
+          "sourceObservedAt": "2026-11-20T20:35:54.293Z",
+          "title": "YUKA mini 2 500 Mähroboter ohne Begrenzungskabel | Mammotion DE",
+          "matchedTerm": "mehr erfahren",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-d4b489698643161b-2026-11-21T10-18-38-250Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-de-d4b489698643161b-2026-11-21T10-18-38-250Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-A101CCD1"
+    },
+    "999535b6e992f615": {
+      "url": "https://de.mammotion.com/products/yuka-mini-2-800-lidar-maehroboter",
+      "siteId": "mammotion-de",
+      "brand": "Mammotion",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:48.932Z",
+          "reason": "product_candidate:MAM-UNKNOWN-A52F7832",
+          "sourceObservedAt": "2026-11-20T20:35:54.293Z",
+          "title": "YUKA mini 2 800 LiDAR Mähroboter ohne Begrenzungskabel | Mammotion DE",
+          "matchedTerm": "mehr erfahren",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-de-999535b6e992f615-2026-11-21T10-18-48-932Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-de-999535b6e992f615-2026-11-21T10-18-48-932Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-A52F7832"
+    },
+    "5fbeb6a3febe4dc6": {
+      "url": "https://www.anker.com/de/collections/robot-lawn-mower",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:18:59.035Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-20T12:01:31.298Z",
+          "title": "Mähroboter Ohne Begrenzungskabel",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-5fbeb6a3febe4dc6-2026-11-21T10-18-59-035Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "b257e67abfb072b0": {
+      "url": "https://fr.mova.tech/products/mova-garage-max-pour-robot-tondeuse-serie-lidax-ultra-awd",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-21T10:19:02.500Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-20T11:58:25.897Z",
+          "title": "MOVA Garage Max MMGM30 pour robot tondeuse Série LiDAX Ultra AWD",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-b257e67abfb072b0-2026-11-21T10-19-02-500Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
