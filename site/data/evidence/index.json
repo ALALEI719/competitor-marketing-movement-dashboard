@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-21T10:19:09.302Z",
+  "generatedAt": "2026-11-22T10:25:52.503Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -2922,6 +2922,272 @@
           "title": "MOVA Garage Max MMGM30 pour robot tondeuse Série LiDAX Ultra AWD",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mova-fr-b257e67abfb072b0-2026-11-21T10-19-02-500Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "26cb139866e2ee79": {
+      "url": "https://fr.mova.tech/products/cadeau-exclusif-pour-serie-lidax-ultra-awd",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:17.054Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:38.043Z",
+          "title": "Cadeau exclusif pour la série LiDAX Ultra AWD | MOVA France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-26cb139866e2ee79-2026-11-22T10-24-17-054Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "44d651581481647f": {
+      "url": "https://fr.mova.tech/products/disque-de-coupe-6-lames-pour-robot-tondeuse-mova",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:24.720Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:38.043Z",
+          "title": "Disque de coupe avec 6 lames pour robot tondeuse MOVA | MOVA France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-44d651581481647f-2026-11-22T10-24-24-720Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "5b5f542a482ce8ad": {
+      "url": "https://fr.mova.tech/products/dreame-garage-mmga20-pour-robot-tondeuse",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:29.822Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:38.043Z",
+          "title": "Dreame Garage MMGA20 pour robot tondeuse A1 Pro/A2 3000",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-5b5f542a482ce8ad-2026-11-22T10-24-29-822Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6631fd3057a5a759": {
+      "url": "https://fr.mova.tech/products/dreame-garage-mmga30-pour-robot-tondeuse",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:35.041Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:38.043Z",
+          "title": "Dreame Garage MMGA30 pour robot tondeuse A1 Pro/A3 AWD Pro 3500",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-6631fd3057a5a759-2026-11-22T10-24-35-041Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "e81e73cb9d6c59f8": {
+      "url": "https://fr.mova.tech/products/dreame-robot-tondeuse-a3-awd-pro-3500",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:39.472Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:38.043Z",
+          "title": "Dreame A3 AWD Pro 3500 | Robot tondeuse 4x4 tout terrain",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-e81e73cb9d6c59f8-2026-11-22T10-24-39-472Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "e0e609295d565379": {
+      "url": "https://de.mova.tech/products/mova-600-kit-rlm-spring-special",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:48.358Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:03.372Z",
+          "title": "MOVA 600 Roboter-Rasenmäher Frühjahrs-Spezial | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-e0e609295d565379-2026-11-22T10-24-48-358Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "64f9d2e602f3cc46": {
+      "url": "https://de.mova.tech/products/mova-garage-2026-das-neue-sonnendach-fur-mahroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:24:56.972Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:03.372Z",
+          "title": "MOVA Garage MMGM20 – Das neue Sonnendach für Mähroboter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-64f9d2e602f3cc46-2026-11-22T10-24-56-972Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "08c110f70a874f27": {
+      "url": "https://de.mova.tech/products/mova-garage-max-fur-mahroboter-der-lidax-ultra-awd-serie",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:03.172Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T09:41:03.372Z",
+          "title": "MOVA Garage Max für Mähroboter der LiDAX Ultra AWD Serie",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-08c110f70a874f27-2026-11-22T10-25-03-172Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "f7da30925b5e9b28": {
+      "url": "https://de.dreametech.com/collections/roboticmower",
+      "siteId": "dreame-de",
+      "brand": "Dreame",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:07.831Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T00:34:01.385Z",
+          "title": "Mähroboter – Smarte Rasenroboter von Dreame – Dreame Germany",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-de-f7da30925b5e9b28-2026-11-22T10-25-07-831Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "812a95483cb72123": {
+      "url": "https://de.dreametech.com/products/kleine-mahrobotergarage-a1-a1pro-a2-3000-a2-1200-a3awdpro-3500-a3awdpro-5000",
+      "siteId": "dreame-de",
+      "brand": "Dreame",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:18.335Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-21T19:34:54.747Z",
+          "title": "Mährobotergarage A1/A1Pro/A2 3000/A2 1200/A3 AWD Pro 3500/A3 AWD Pro 5 – Dreame Germany",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-de-812a95483cb72123-2026-11-22T10-25-18-335Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "62433821db34ad7c": {
+      "url": "https://fr.mova.tech/products/mova-station-de-charge-5a-pour-mova-lidax-ultra-1000-1600-2000-awd",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:29.087Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-21T19:33:40.065Z",
+          "title": "MOVA Station de charge 5A pour MOVA LiDAX Ultra 1000/1600/2000 AWD",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-62433821db34ad7c-2026-11-22T10-25-29-087Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "3f328a452019d4a5": {
+      "url": "https://de.mova.tech/collections/robot-lawn-mower-accessories",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:35.321Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-21T19:33:07.690Z",
+          "title": "Mähroboter Zubehör & Ersatzteile｜MOVA Germany",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-3f328a452019d4a5-2026-11-22T10-25-35-321Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "c572f8ddb2ed741a": {
+      "url": "https://de.mova.tech/products/5a-ladestation-fur-mova-lidax-ultra-awd-1000-1600-2000-mahroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:39.701Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-21T11:29:02.159Z",
+          "title": "5A-Ladestation für MOVA LiDAX Ultra AWD 1000/1600/2000 Mähroboter",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-c572f8ddb2ed741a-2026-11-22T10-25-39-701Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "196f21fbdfceacb9": {
+      "url": "https://de.mova.tech/products/a2",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-22T10:25:44.536Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-21T11:29:02.159Z",
+          "title": "Dreame Mähroboter A2 3000 – Dreame Germany",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-196f21fbdfceacb9-2026-11-22T10-25-44-536Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
