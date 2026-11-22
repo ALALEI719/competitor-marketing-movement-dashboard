@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T09:57:14.880Z",
+  "updatedAt": "2026-11-22T08:56:46.422Z",
   "actions": [
     {
       "actionId": "ACT-0F457065FDF4",
@@ -508,6 +508,48 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-20T09:57:13.182Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "a44843da6f1149a9febe7c0c3271f7c8dd9ce8c3fc22be759ec023847e93c2ee",
+        "afterHash": "f8d8e60a34954ff7e5981c0b60ecd39db3f718a5a56d811b821bbf8761fe5177",
+        "changedFields": [
+          "price",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-4023689A0EA1",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "mova-us",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-19T08:50:50.797Z",
+      "publishDate": "",
+      "title": "MOVA美国LiDAX Pro800同SKU展示价从949降至764美元",
+      "summary": "美国官网LiDAX Pro800同一商品和变体的展示价格由949降至764美元，减少185美元；参考价1099美元及可售标志前后不变，积分同步更新。集合和其他产品页推荐卡的同组800变化合并记录，1000的已记录价变不重复计入。本次仅确认前后保存区间的页面显示，发布日期及实际生效时刻未知，未核结算或实时库存。",
+      "marketingTheme": "美国LiDAX Pro800同SKU展示价调整",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mova.tech/products/mova-lidax-pro-800-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-us",
+          "url": "https://us.mova.tech/products/mova-lidax-pro-800-robotic-lawn-mower",
+          "capturedAt": "2026-11-19T08:50:50.797Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-22T08:56:45.183Z"
     },
     {
       "changeType": "content_change",
