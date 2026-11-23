@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T17:08:34.377Z",
+  "updatedAt": "2026-11-23T17:26:20.518Z",
   "actions": [
     {
       "changeType": "content_change",
@@ -25,7 +25,7 @@
       "discoveredAt": "2026-11-23T16:56:40.655Z",
       "publishDate": "",
       "title": "MOVA法国A2 3000商品页删去环保与无排放宣传段落",
-      "summary": "法国MOVA A2 3000商品页在11月20日03:29至11月24日00:56（北京时间）两次保存之间删去“Écologique”及电池驱动、无排放宣传段落。商品价、优惠和核心规格未见改变；只确认页面措辞删减，不推断删改原因、产品性能或全生命周期排放。",
+      "summary": "法国MOVA A2 3000商品页在11月20日10:29至11月24日00:56（北京时间）两次保存之间删去“Écologique”及电池驱动、无排放宣传段落。商品价、优惠和核心规格未见改变；只确认页面措辞删减，不推断删改原因、产品性能或全生命周期排放。",
       "marketingTheme": "法国A2 3000环保宣传段落删减",
       "contentType": "product",
       "confidence": "reviewed",
