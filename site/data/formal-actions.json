@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T09:07:51.867Z",
+  "updatedAt": "2026-11-23T09:23:13.385Z",
   "actions": [
     {
       "actionId": "ACT-D91137659F6C",
@@ -39,6 +39,58 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-23T09:07:51.867Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-11-23T09:13:02+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "f5d32d9739e74320eb71729a432bca2bb986cc680016b51aa4742a16d7319201",
+        "afterHash": "ef0496731fe2c4786139a8d7d9847e6c646bfe3d92edf592af8d25126840f366",
+        "changedFields": [
+          "headings",
+          "offer",
+          "body"
+        ],
+        "beforeExcerpt": "Votre pelouse est bien fournie, l'herbe a poussé plus vite que prévu. Le robot tondeuse sort… mais peine : il avance au ralenti, laisse des bandes d'herbe couchée et des paquets collés au sol, puis s'arrête en plein milieu d'un passage, pelouse à moitié tondue. On accuse vite la machine. Or « herbe ",
+        "afterExcerpt": "Un robot tondeuse peut-il tondre une herbe épaisse ? Oui, à condition que la pelouse respecte les conditions d’utilisation du modèle choisi : des tontes fréquentes et légères permettent d’entretenir un gazon bien fourni. Si le robot ralentit nettement, couche les brins, laisse des paquets d’herbe co"
+      },
+      "actionId": "ACT-4457668180F2",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T08:58:10.818Z",
+      "publishDate": "2026-09-20T12:29:51+02:00",
+      "title": "Mammotion法国修订厚草机器人割草指南，细化预剪与湿草建议",
+      "marketingTheme": "厚草割草教育内容修订",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": " conditions soient adaptées à la tonte. Mammotion LUBA 3 AWD — robot tondeuse sans fil périphérique Largeur de"
+        }
+      ],
+      "summary": "法国官方厚草割草指南的11月23日保存版本显示实质修订：区分长草、密草和枯草层，细化分阶段预剪、三分之一修剪原则、湿草条件和刀盘清理建议。原文发布日期为9月20日；两版观察证实同一文章内容变化，不据此认定准确修改完成时间，也不代表新机发布或性能验证。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-herbe-epaisse"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-herbe-epaisse",
+          "discoveredAt": "2026-11-23T08:58:10.818Z",
+          "publishDate": "2026-09-20T12:29:51+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:23:13.385Z"
     },
     {
       "actionId": "ACT-A23930B0A978",
@@ -989,6 +1041,132 @@
         "actualFinalUrl": null,
         "redirectChain": []
       }
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "bbe24e6676d10ab059299e6761f20e5325792ba3da48e793b88d7bc6f681f747",
+        "afterHash": "7ff0b5792e93af5be4f8263bdbc4ff25c268a3988453573f8bb39474db34d256",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-46727124EBEC",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "dreame-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T03:54:03.702Z",
+      "publishDate": "",
+      "title": "Dreame法国A2两款割草机集合卡由售罄标签切换为省钱标识",
+      "summary": "法国官方割草机集合中，A2 3000与A2 1200商品卡的售罄标签分别改为省1060欧和省640欧标识。两卡展示价仍为939/1999欧及759/1399欧；只确认集合展示变化，实际库存、结算及发货未核实。",
+      "marketingTheme": "法国A2集合卡优惠标识",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.dreametech.com/collections/robot-tondeuse"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-fr",
+          "url": "https://fr.dreametech.com/collections/robot-tondeuse",
+          "capturedAt": "2026-11-23T03:54:03.702Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:23:12.382Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "a623975e4938db64707f055175438204eafa4536927c8ce36536d69b27277f7d",
+        "afterHash": "940aae299d8b750d09ea73040b46c8f7c7185351b528def3e00f670bb891383a",
+        "changedFields": [
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-08D6E1C48594",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T03:53:16.432Z",
+      "publishDate": "",
+      "title": "Dreame德国A2 1200集合卡由售罄标签切换为减673.20欧标识",
+      "summary": "德国官方割草机集合中，A2 1200商品卡的售罄标签改为减673.20欧标识，展示价725.80欧及1399欧参考价未变。同页A1 Pro价变由对应商品页另记；本条不推断A2实际补货、结算或发货。",
+      "marketingTheme": "德国A2 1200集合卡标识",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/collections/roboticmower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/collections/roboticmower",
+          "capturedAt": "2026-11-23T03:53:16.432Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:23:12.738Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "69d24debe1293f99fcdcba41a8a50b0a72f4664923ad8e4a4564635571ccbd9f",
+        "afterHash": "59ab9d41443348cdf99c5a15029fc8f3da6773d62614270455fbb0ee0945e006",
+        "changedFields": [
+          "offer",
+          "price",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-733C9A8E0F74",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T03:53:16.432Z",
+      "publishDate": "",
+      "title": "Dreame德国A1 Pro商品页展示价由599降至579欧",
+      "summary": "德国官方A1 Pro商品页同一SKU和变体展示价由599降至579欧，999欧参考价不变，减额由400增至420欧，加入购物车变体价同步。德国MOVA集合的相同价变不另记；只确认两次网页保存之间变化，未验证结算价、库存或准确生效时间。",
+      "marketingTheme": "德国A1 Pro同变体降价",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/products/dreame-roboticmower-a1-pro"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/products/dreame-roboticmower-a1-pro",
+          "capturedAt": "2026-11-23T03:53:16.432Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:23:13.109Z"
     },
     {
       "changeType": "content_change",
