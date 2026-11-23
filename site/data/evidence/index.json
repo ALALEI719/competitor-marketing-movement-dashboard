@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-22T10:25:52.503Z",
+  "generatedAt": "2026-11-23T11:22:18.449Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -2145,6 +2145,16 @@
           "viewportScreenshot": "data/evidence/screenshots/dreame-us-a091a648803afef2-2026-11-19T10-49-22-380Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-23T11:21:42.862Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-23T10:49:05.933Z",
+          "title": "Dreame A3 AWD Pro Robot Lawn Mower - App Only – Dreame Yard Care",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-us-a091a648803afef2-2026-11-23T11-21-42-862Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/dreame-us-a091a648803afef2-2026-11-19T10-49-22-380Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3188,6 +3198,101 @@
           "title": "Dreame Mähroboter A2 3000 – Dreame Germany",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mova-de-196f21fbdfceacb9-2026-11-22T10-25-44-536Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "7125d584ec833c22": {
+      "url": "https://www.anker.com/de/blogs/events",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-23T11:21:37.564Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-23T10:49:34.751Z",
+          "title": "Anker Events: Aktuelle Veranstaltungen & Highlights",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-7125d584ec833c22-2026-11-23T11-21-37-564Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "af4778074576d690": {
+      "url": "https://fr.dreametech.com/collections/robot-tondeuse",
+      "siteId": "dreame-fr",
+      "brand": "Dreame",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-23T11:21:49.457Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T22:40:47.968Z",
+          "title": "Robot tondeuse sans fil périphérique | Dreame France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-fr-af4778074576d690-2026-11-23T11-21-49-457Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "831725b31a1d0fba": {
+      "url": "https://de.mova.tech/products/mova-robot-lawn-mower-garage",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-23T11:21:58.446Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T22:38:17.452Z",
+          "title": "Offizielle Garage für Ihren MOVA Rasenmäher | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-831725b31a1d0fba-2026-11-23T11-21-58-446Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "0d180fb05719b2e7": {
+      "url": "https://de.mova.tech/products/mova-robot-lawn-mower-kit",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-23T11:22:04.845Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T22:38:17.452Z",
+          "title": "Offizielles Installationsset für MOVA Rasenmäher | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-0d180fb05719b2e7-2026-11-23T11-22-04-845Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "ee57433af4fde003": {
+      "url": "https://de.mova.tech/products/mova-robot-lawn-mower-radar-cleaning-brush",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-23T11:22:12.026Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-22T22:38:17.452Z",
+          "title": "Offizieller Radarreinigungsbürste für MOVA Mähroboter | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-ee57433af4fde003-2026-11-23T11-22-12-026Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }
