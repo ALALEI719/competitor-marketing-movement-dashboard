@@ -1,7 +1,45 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T08:40:08.604Z",
+  "updatedAt": "2026-11-23T09:07:51.867Z",
   "actions": [
+    {
+      "actionId": "ACT-D91137659F6C",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T08:58:10.818Z",
+      "publishDate": "2026-11-23T08:02:05+00:00",
+      "title": "Mammotion英国发布厚草机器人割草指南，强调预剪和干燥草坪",
+      "marketingTheme": "厚草割草条件与分阶段修剪教育",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": "or wait for suitable mowing conditions. Mammotion LUBA 3 AWD Robot Lawn Mower Without Perimeter Wire Cutting w"
+        }
+      ],
+      "summary": "Mammotion英国11月23日发布机器人割草机厚草指南，区分长草、密草与过厚枯草层，建议先确认机型作业范围、分阶段预剪，草坪干燥后轻量高频修剪，并清理刀盘与积草。文中以LUBA 3 AWD作机型示例；这些是官方使用建议，不代表新机发布或对所有草况的性能保证。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/can-robot-lawn-mower-handle-thick-grass"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/can-robot-lawn-mower-handle-thick-grass",
+          "discoveredAt": "2026-11-23T08:58:10.818Z",
+          "publishDate": "2026-11-23T08:02:05+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:07:51.867Z"
+    },
     {
       "actionId": "ACT-A23930B0A978",
       "entityId": "",
