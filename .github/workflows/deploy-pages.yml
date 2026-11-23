@@ -23,7 +23,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout mirror
@@ -146,6 +146,19 @@ jobs:
         with:
           path: _site
 
+      - name: Allow uploaded artifact metadata to settle
+        run: sleep 45
+
       - name: Deploy GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Retry Pages deployment when artifact metadata is late
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+
+      - name: Deploy GitHub Pages after retry delay
+        if: steps.deployment.outcome == 'failure'
+        id: deployment_retry
         uses: actions/deploy-pages@v4
