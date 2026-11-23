@@ -1,7 +1,49 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T19:14:55.941Z",
+  "updatedAt": "2026-11-23T20:22:23.437Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "cebc27cf178e8cbf61581ca97920b5e70b5d6e3059d65905853a7ef5183b69f5",
+        "afterHash": "905b4a4aa43ad1d2242df0d72dfaad7453faf7cbbbb39ec5c0d70bd9a0e35df5",
+        "changedFields": [
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-D73CAC3D79D0",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T20:11:21.011Z",
+      "publishDate": "",
+      "title": "Dreame德国A2 1200集合卡由折扣徽标切换为售罄标签",
+      "summary": "德国官方割草机集合页A2 1200卡片的“减€673.20”徽标改为“售罄”标签，展示价€725.80及参考价€1,399未变。两版保存于北京时间11月24日03:06与04:11；只确认页面标签变化，不推断实际库存、结算价或优惠终止。",
+      "marketingTheme": "德国A2 1200集合卡徽标切换",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/collections/roboticmower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/collections/roboticmower",
+          "capturedAt": "2026-11-23T20:11:21.011Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T20:22:22.688Z"
+    },
     {
       "changeType": "content_change",
       "contentEvidence": {
