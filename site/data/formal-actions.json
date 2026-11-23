@@ -1,7 +1,90 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T15:24:15.509Z",
+  "updatedAt": "2026-11-23T17:08:34.377Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "6dd036ee1a301efdcdfb784a827215aa33e843bba4f40f3c5613198313651f49",
+        "afterHash": "6a929829923591e9c60cca7ac041c823b5d3cda41779928ae3ee8e8d9610d29c",
+        "changedFields": [
+          "cta"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-37FD2D62CF03",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T16:56:40.655Z",
+      "publishDate": "",
+      "title": "MOVA法国A2 3000商品页删去环保与无排放宣传段落",
+      "summary": "法国MOVA A2 3000商品页在11月20日03:29至11月24日00:56（北京时间）两次保存之间删去“Écologique”及电池驱动、无排放宣传段落。商品价、优惠和核心规格未见改变；只确认页面措辞删减，不推断删改原因、产品性能或全生命周期排放。",
+      "marketingTheme": "法国A2 3000环保宣传段落删减",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/products/robot-tondeuse-a2-3000"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/products/robot-tondeuse-a2-3000",
+          "capturedAt": "2026-11-23T16:56:40.655Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T17:08:32.904Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "ed997786e7f1e7e4c3ee2b9bd6476d5a2c778e979784e113be4b6538502a960c",
+        "afterHash": "e7f1ab057b1adf825707114d5c8065aa99632b74c759e4c79f3ebca8b8f0dd00",
+        "changedFields": [
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-EE240D677F7C",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mova-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T16:56:03.411Z",
+      "publishDate": "",
+      "title": "MOVA德国A3 AWD Pro商品页删去环保与无排放宣传段落",
+      "summary": "德国MOVA A3 AWD Pro 3500商品页在11月20日09:39至11月24日00:56（北京时间）两次保存之间删去“Umweltfreundlich”及无直接尾气排放宣传段落和生命周期限定说明。商品价、优惠和核心规格未见改变；不推断删改原因或产品性能。",
+      "marketingTheme": "德国A3 AWD Pro环保宣传段落删减",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-de",
+          "url": "https://de.mova.tech/products/dreame-mahroboter-a3-awd-pro-3500",
+          "capturedAt": "2026-11-23T16:56:03.411Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T17:08:33.837Z"
+    },
     {
       "actionId": "ACT-2869F6A747E1",
       "entityId": "",
