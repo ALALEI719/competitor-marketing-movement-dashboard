@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T08:35:52.319Z",
+  "updatedAt": "2026-11-23T08:40:08.604Z",
   "actions": [
     {
       "actionId": "ACT-A23930B0A978",
@@ -992,6 +992,89 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-23T08:27:49.119Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "f72942095cfa6b9469952bcb9e4fb9f6f2dadaac229bf74eeea2df5bda2c0a0d",
+        "afterHash": "9feec0115d76df806db93eb2ee1f29f4a69273cec0d80a71ca08a79778d90a48",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-BCA880EC575B",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-22T09:41:38.043Z",
+      "publishDate": "",
+      "title": "MOVA法国站Dreame A3 AWD Pro 3500删减部分环保宣传文案",
+      "summary": "MOVA法国站的Dreame A3 AWD Pro 3500商品页删去顶端环保卖点、两处电池驱动“无排放”宣传段落及其生命周期限定脚注，但其他模块仍保留两处环保表述。1999欧售价、2599欧参考价和5欧车库加购条款未变。仅确认11月20日至22日保存版本间的部分文案删减，不代表功能变更、全面撤回主张或已知监管原因，实际修改时刻未知。",
+      "marketingTheme": "部分环保宣传文案删减",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/products/dreame-robot-tondeuse-a3-awd-pro-3500"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/products/dreame-robot-tondeuse-a3-awd-pro-3500",
+          "capturedAt": "2026-11-22T09:41:38.043Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T08:40:07.969Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "9427e6860ffae788f380840589b34d125a44e87fac65c6de63dfa27f82f164b2",
+        "afterHash": "a99acde4c5e7a467afeb36ca9e832b1ab76336c7e04f755312ebfec02dc9ac9f",
+        "changedFields": [
+          "offer",
+          "availability"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-3610A9F4EF45",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "mova-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-22T09:41:03.372Z",
+      "publishDate": "",
+      "title": "MOVA德国600 Kit恢复页面可购买状态，599欧价格未变",
+      "summary": "德国官网MOVA 600 Kit同一产品、变体及SKU的页面可售标记由false变true，购买组件从售罄禁用转为立即购买和加入购物车。599欧售价及1099欧参考价不变，属于页面可购买状态恢复，不是降价或新型号发布。变化位于11月18日至22日两次保存之间，实际恢复时刻未知，未验证结算、实物库存或发货；法国站此前同SKU记录另行保留。",
+      "marketingTheme": "同变体页面可购买状态恢复",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.mova.tech/products/mova-600-kit-rlm-spring-special"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-de",
+          "url": "https://de.mova.tech/products/mova-600-kit-rlm-spring-special",
+          "capturedAt": "2026-11-22T09:41:03.372Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T08:40:08.189Z"
     },
     {
       "actionId": "ACT-0F457065FDF4",
