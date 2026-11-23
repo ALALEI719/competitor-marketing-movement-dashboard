@@ -1,7 +1,453 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T11:39:12.516Z",
+  "updatedAt": "2026-11-23T11:47:16.573Z",
   "actions": [
+    {
+      "actionId": "ACT-877E148C7821",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T11:42:41.203Z",
+      "publishDate": "",
+      "title": "Mammotion 英国｜机器人割草机搜索广告（原库存第32条）",
+      "summary": "2026-11-23观察到的英国割草机搜索广告，最后展示11月22日。首展与实际落地未知，无新投放播报资格。",
+      "creative": "当前割草机创意原图已留存；性能和优惠作为广告宣称。",
+      "copy": "LUBA 3 AWD-Defining the New Era of Lawn Mastery. Twice the Brainpower. Twice the Awareness Tri-Fusion...",
+      "offer": "当前变体无明确优惠金额。",
+      "cta": "",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/16631778762551867450",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "b2f41d799588a28848512e0c2f6684ab66e7e401e9b42e4523b1057e94c9263d",
+          "bytes": 50815,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:41.203Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "full_page_screenshot",
+          "sha256": "99459da9ed89ba22243b31fdabd55269496470c26950451caa2053227ec3e1c3",
+          "bytes": 77405,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:41.203Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "country_identity_dates_variant_controls",
+          "sha256": "1571d5e3d5b63189541f6623f5665d539fe29a45e5d0446f98ef2884dff21fb9",
+          "bytes": 1420,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:41.203Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "url_identity_timestamp_binding",
+          "sha256": "c815e9f8b58b0291246aa3defe40a5c92c3ad772e95d345519ac4e20ba5e76f2",
+          "bytes": 1089,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:41.203Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T11:47:16.573Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR04154956043664752641",
+      "sourceRecordIds": [
+        "CR04154956043664752641"
+      ],
+      "advertiserId": "AR12459328507945680897",
+      "creativeId": "CR04154956043664752641",
+      "advertiserName": "深圳库犸动力科技有限公司",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-23T11:42:41.203Z",
+      "firstObservedAt": "2026-11-23T11:42:41.203Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-22",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "继承库存查询窗口2026-11-14至17；2026-11-23复查详情实际最近展示2026-11-22，详情日期不受旧查询上界约束。首次展示、独立创意上线和连续投放未知。",
+      "notificationEligible": false,
+      "notificationReason": "首次展示日期未知；最近展示不能证明新上线。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "MAMMOTION Official Store - New Era of Lawn Mastery",
+          "copy": "LUBA 3 AWD-Defining the New Era of Lawn Mastery. Twice the Brainpower. Twice the Awareness Tri-Fusion...",
+          "cta": [],
+          "offer": "当前变体无明确优惠金额。",
+          "displayUrl": "uk.mammotion.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-23T11:42:41.203Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/16631778762551867450",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "b2f41d799588a28848512e0c2f6684ab66e7e401e9b42e4523b1057e94c9263d",
+              "bytes": 50815,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:41.203Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "full_page_screenshot",
+              "sha256": "99459da9ed89ba22243b31fdabd55269496470c26950451caa2053227ec3e1c3",
+              "bytes": 77405,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:41.203Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "country_identity_dates_variant_controls",
+              "sha256": "1571d5e3d5b63189541f6623f5665d539fe29a45e5d0446f98ef2884dff21fb9",
+              "bytes": 1420,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:41.203Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR04154956043664752641?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "url_identity_timestamp_binding",
+              "sha256": "c815e9f8b58b0291246aa3defe40a5c92c3ad772e95d345519ac4e20ba5e76f2",
+              "bytes": 1089,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:41.203Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": null,
+      "variantsComplete": false,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "深圳库犸动力科技有限公司",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+            "kind": "google_verified_advertiser",
+            "sha256": "60cc920f427d1b61ebb70f6027ce30c76c6ac4c3c01deb8105fb6444448d1801",
+            "bytes": 9573,
+            "variantIndex": null,
+            "capturedAt": "2026-11-18T03:32:23.120Z"
+          },
+          {
+            "sourceId": "apple-app-store-publisher",
+            "url": "https://apps.apple.com/us/app/mammotion/id1626028673",
+            "kind": "publisher_identity",
+            "sha256": "9d67c336cf25c0606be17de28f06a871a0ce0bc1b9d7d9700cb376036f599534",
+            "bytes": 584313,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T03:00:24.839351+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "uk.mammotion.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
+    {
+      "actionId": "ACT-8BAAE5137E1A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "google-ads-transparency-center",
+      "channel": "google_search_ads",
+      "actionType": "advertising",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T11:42:31.727Z",
+      "publishDate": "",
+      "title": "Mammotion 英国｜机器人割草机搜索广告（原库存第31条）",
+      "summary": "2026-11-23观察到的英国割草机搜索广告，最后展示11月22日。首展与实际落地未知，无新投放播报资格。",
+      "creative": "当前割草机创意原图已留存；性能和优惠作为广告宣称。",
+      "copy": "Shop the World's Top Wire-Free Mowers with Huge Black Friday Savings. Limited-Time Offer. Upgrade Your Lawn Care Effortlessly with MAMMOTION. Black Friday Sale: Up to...",
+      "offer": "当前变体无明确优惠金额。",
+      "cta": "Perimeter Wire-Free Lawn Mower、LUBA 3 AWD",
+      "landingUrl": null,
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/14584255750560806345",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "36ca9cf8492525d2fceed4252f5b40ab06c68949150d57086a7957c73cc429a9",
+          "bytes": 76416,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:31.727Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "full_page_screenshot",
+          "sha256": "fb8dbc31c5a9074d2c12b2a5a5419f96aaafe49a2451f5446193b1b6d9dd2ff5",
+          "bytes": 85914,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:31.727Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "country_identity_dates_variant_controls",
+          "sha256": "c3c8e1fc160b992646bf46f746240fb3f2f9f2efad341f2fd2357d7f9c2939a6",
+          "bytes": 1574,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:31.727Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "url_identity_timestamp_binding",
+          "sha256": "4a15eb531e3e8fa53fdb359fb9866c54746a81527b0faaab8b4864cbf3051d9b",
+          "bytes": 1089,
+          "variantIndex": 1,
+          "capturedAt": "2026-11-23T11:42:31.727Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://tpc.googlesyndication.com/archive/simgad/4424589059528972167",
+          "kind": "platform_retained_raster_preview",
+          "sha256": "76ee22d155c0673cb807575530f9c58c27c5bcdf850103ff28e7242efb8ed2f0",
+          "bytes": 87059,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-23T11:42:33.691Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "full_page_screenshot",
+          "sha256": "cc14970429a822fa2f4fa190865d76827b67c65e7ac6aedc51fead298875f884",
+          "bytes": 92539,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-23T11:42:33.691Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "country_identity_dates_variant_controls",
+          "sha256": "60c877df419749972b5e9fc05692bb009c4ce0c18e2e59361be0558a3c7f7f96",
+          "bytes": 1583,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-23T11:42:33.691Z"
+        },
+        {
+          "sourceId": "google-ads-transparency-center",
+          "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+          "kind": "url_identity_timestamp_binding",
+          "sha256": "e94c99330333b9d0fd5964b470d6549701040803d5b316d27502ee8d7d58c462",
+          "bytes": 1064,
+          "variantIndex": 2,
+          "capturedAt": "2026-11-23T11:42:33.691Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T11:47:16.529Z",
+      "platform": "google_search_ads",
+      "sourceId": "google-ads-transparency-center",
+      "sourceRecordId": "CR16812901448743387137",
+      "sourceRecordIds": [
+        "CR16812901448743387137"
+      ],
+      "advertiserId": "AR12459328507945680897",
+      "creativeId": "CR16812901448743387137",
+      "advertiserName": "深圳库犸动力科技有限公司",
+      "selectedPlatform": "SEARCH",
+      "actualFormat": "TEXT",
+      "queryWindow": {
+        "start": "2026-11-14",
+        "end": "2026-11-17"
+      },
+      "observedAt": "2026-11-23T11:42:31.727Z",
+      "firstObservedAt": "2026-11-23T11:42:31.727Z",
+      "firstShownDate": null,
+      "lastShownDate": "2026-11-22",
+      "launchDate": null,
+      "dateBasis": "discovery_only",
+      "dateLimit": "继承库存查询窗口2026-11-14至17；2026-11-23复查详情实际最近展示2026-11-22，详情日期不受旧查询上界约束。首次展示、独立创意上线和连续投放未知。",
+      "notificationEligible": false,
+      "notificationReason": "首次展示日期未知；最近展示不能证明新上线。",
+      "verifiedDynamicDate": null,
+      "variants": [
+        {
+          "variantIndex": 1,
+          "title": "Top-Rated Robot Lawn Mower - New Era of Lawn Mastery",
+          "copy": "Shop the World's Top Wire-Free Mowers with Huge Black Friday Savings. Limited-Time Offer. Upgrade Your Lawn Care Effortlessly with MAMMOTION. Black Friday Sale: Up to...",
+          "cta": [
+            "Perimeter Wire-Free Lawn Mower",
+            "LUBA 3 AWD"
+          ],
+          "offer": "当前变体无明确优惠金额。",
+          "displayUrl": "uk.mammotion.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-23T11:42:31.727Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/14584255750560806345",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "36ca9cf8492525d2fceed4252f5b40ab06c68949150d57086a7957c73cc429a9",
+              "bytes": 76416,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:31.727Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "full_page_screenshot",
+              "sha256": "fb8dbc31c5a9074d2c12b2a5a5419f96aaafe49a2451f5446193b1b6d9dd2ff5",
+              "bytes": 85914,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:31.727Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "country_identity_dates_variant_controls",
+              "sha256": "c3c8e1fc160b992646bf46f746240fb3f2f9f2efad341f2fd2357d7f9c2939a6",
+              "bytes": 1574,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:31.727Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&format=TEXT&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "url_identity_timestamp_binding",
+              "sha256": "4a15eb531e3e8fa53fdb359fb9866c54746a81527b0faaab8b4864cbf3051d9b",
+              "bytes": 1089,
+              "variantIndex": 1,
+              "capturedAt": "2026-11-23T11:42:31.727Z"
+            }
+          ]
+        },
+        {
+          "variantIndex": 2,
+          "title": "MAMMOTION Black Friday Sale - Black Friday: Up to £450 Off",
+          "copy": "Shop the World's Top Wire-Free Mowers with Huge Black Friday Savings. Limited-Time Offer.",
+          "cta": [
+            "LUBA mini 2 AWD 1500 Sale",
+            "Black Friday Sale Is Live",
+            "LUBA 3 AWD"
+          ],
+          "offer": "标题宣称Black Friday: Up to £450 Off；另有promotion标签Up to £250 off LUBA mini 2 AW…，Ends Nov 30。两金额属不同组件，型号尾部、截止年份和资格未知。",
+          "displayUrl": "uk.mammotion.com/",
+          "previewUrls": [],
+          "capturedAt": "2026-11-23T11:42:33.691Z",
+          "textComplete": false,
+          "evidenceRefs": [
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://tpc.googlesyndication.com/archive/simgad/4424589059528972167",
+              "kind": "platform_retained_raster_preview",
+              "sha256": "76ee22d155c0673cb807575530f9c58c27c5bcdf850103ff28e7242efb8ed2f0",
+              "bytes": 87059,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-23T11:42:33.691Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "full_page_screenshot",
+              "sha256": "cc14970429a822fa2f4fa190865d76827b67c65e7ac6aedc51fead298875f884",
+              "bytes": 92539,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-23T11:42:33.691Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "country_identity_dates_variant_controls",
+              "sha256": "60c877df419749972b5e9fc05692bb009c4ce0c18e2e59361be0558a3c7f7f96",
+              "bytes": 1583,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-23T11:42:33.691Z"
+            },
+            {
+              "sourceId": "google-ads-transparency-center",
+              "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897/creative/CR16812901448743387137?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+              "kind": "url_identity_timestamp_binding",
+              "sha256": "e94c99330333b9d0fd5964b470d6549701040803d5b316d27502ee8d7d58c462",
+              "bytes": 1064,
+              "variantIndex": 2,
+              "capturedAt": "2026-11-23T11:42:33.691Z"
+            }
+          ]
+        }
+      ],
+      "variantsDisclosed": 2,
+      "variantsComplete": true,
+      "advertiserEvidence": {
+        "status": "verified_brand_relation_primary_sources",
+        "legalName": "深圳库犸动力科技有限公司",
+        "evidenceRefs": [
+          {
+            "sourceId": "google-ads-transparency-center",
+            "url": "https://adstransparency.google.com/advertiser/AR12459328507945680897?region=GB&start-date=2026-11-14&end-date=2026-11-17&platform=SEARCH",
+            "kind": "google_verified_advertiser",
+            "sha256": "60cc920f427d1b61ebb70f6027ce30c76c6ac4c3c01deb8105fb6444448d1801",
+            "bytes": 9573,
+            "variantIndex": null,
+            "capturedAt": "2026-11-18T03:32:23.120Z"
+          },
+          {
+            "sourceId": "apple-app-store-publisher",
+            "url": "https://apps.apple.com/us/app/mammotion/id1626028673",
+            "kind": "publisher_identity",
+            "sha256": "9d67c336cf25c0606be17de28f06a871a0ce0bc1b9d7d9700cb376036f599534",
+            "bytes": 584313,
+            "variantIndex": null,
+            "capturedAt": "2026-11-17T03:00:24.839351+00:00"
+          }
+        ]
+      },
+      "landingEvidence": {
+        "status": "not_disclosed",
+        "displayUrls": [
+          "uk.mammotion.com/"
+        ],
+        "previewAnchorUrls": [],
+        "observedPreviewFinalUrl": null,
+        "actualFinalUrl": null,
+        "redirectChain": []
+      }
+    },
     {
       "actionId": "ACT-AD627FC1BC47",
       "entityId": "",
