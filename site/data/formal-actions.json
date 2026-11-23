@@ -1,35 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T12:19:24.680Z",
+  "updatedAt": "2026-11-23T12:28:51.024Z",
   "actions": [
-    {
-      "actionId": "ACT-EDM-04BCBC506083",
-      "entityId": "",
-      "brand": "Mova",
-      "brandRole": "competitor",
-      "country": "美国",
-      "countryCode": "US",
-      "siteId": "edm-private",
-      "channel": "edm",
-      "actionType": "promotion",
-      "stage": "promotion",
-      "discoveredAt": "2026-11-23T08:28:03.759Z",
-      "publishDate": "2026-11-19T17:06:43.000Z",
-      "title": "MOVA 美国黑五邮件：三款 LiDAX 割草机展示 $1 车库加购",
-      "summary": "11月19日邮件中，Ultra 2000（1099美元）、Ultra 3000 AWD（2199美元）及 Pro 800（764美元）均展示加1美元购车库。相比11月14日邮件，前两款新增该展示；Pro 800降价已由官网渠道记录，本条保留邮件传播与加购条件。",
-      "confidence": "review_confirmed",
-      "confidenceScore": null,
-      "sourceUrls": [],
-      "evidenceRefs": [
-        {
-          "sourceId": "edm-private",
-          "access": "private"
-        }
-      ],
-      "reviewStatus": "approved",
-      "reviewedAt": "2026-11-23T08:42:57.476Z",
-      "detailRef": "./data/edm-details/EDM-04BCBC506083.json"
-    },
     {
       "actionId": "ACT-2869F6A747E1",
       "entityId": "",
@@ -1467,6 +1439,63 @@
       }
     },
     {
+      "changeType": "content_updated",
+      "updatedAt": "2026-11-23T10:51:37+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "54f85e9eeac434688bf8f1b5fda9343d5088279fc4383487f098cd57fd003709",
+        "afterHash": "d6dbf74b9f78d6dd204bec1dd5a644826381056a59639f1a6c811d76a3b743d3",
+        "changedFields": [
+          "headings",
+          "offer",
+          "body"
+        ],
+        "beforeExcerpt": "Vous lancez votre robot tondeuse après une averse, puis vous constatez qu’il avance moins bien, laisse des traces de roues ou accumule de l’herbe sous le carter. Faut-il simplement attendre quelques heures, modifier le planning ou arrêter complètement la tonte ? La difficulté est qu’une pelouse peut",
+        "afterExcerpt": "Après une averse, votre robot tondeuse laisse des traces de roues, patine dans un virage ou ramasse de l’herbe sous le carter. Faut-il modifier le programme ou attendre ? La première chose à regarder est l’état du sol : des brins mouillés par la rosée ne posent pas le même problème qu’une terre gorg"
+      },
+      "actionId": "ACT-755BE9649F1D",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "product_education",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T10:50:43.533Z",
+      "publishDate": "2026-09-28T10:41:48+02:00",
+      "title": "Mammotion法国修订湿草割草指南，细化饱和土壤与禁区建议",
+      "marketingTheme": "湿草及排水不良场景教育修订",
+      "productExposure": [
+        {
+          "name": "LUBA 3 AWD",
+          "source": "article_body",
+          "excerpt": "e gamme de robots tondeuses Mammotion . Mammotion LUBA 3 AWD — robot tondeuse sans fil périphérique Transmissi"
+        },
+        {
+          "name": "LUBA 3 AWD 4",
+          "source": "article_body",
+          "excerpt": "interdites depuis l’application. Voir les modèles LUBA 3 AWD 4. Comment ajuster le programme pendant les période"
+        }
+      ],
+      "summary": "法国官方同篇湿草割草指南的11月23日保存版本显示实质修订：区分湿草和饱和土壤，并细化暂停作业、局部禁区、打滑与清洁建议。原文9月28日首发；此次为旧文内容更新，准确修改完成时间未知，不代表新品或性能验证。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/robot-tondeuse-pelouse-humide-mal-drainee",
+          "discoveredAt": "2026-11-23T10:50:43.533Z",
+          "publishDate": "2026-09-28T10:41:48+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T12:28:51.024Z"
+    },
+    {
       "actionId": "ACT-BE094DDA67AE",
       "entityId": "",
       "brand": "Mammotion",
@@ -2089,6 +2118,34 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-23T09:23:13.385Z"
+    },
+    {
+      "actionId": "ACT-EDM-04BCBC506083",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-23T08:28:03.759Z",
+      "publishDate": "2026-11-19T17:06:43.000Z",
+      "title": "MOVA 美国黑五邮件：三款 LiDAX 割草机展示 $1 车库加购",
+      "summary": "11月19日邮件中，Ultra 2000（1099美元）、Ultra 3000 AWD（2199美元）及 Pro 800（764美元）均展示加1美元购车库。相比11月14日邮件，前两款新增该展示；Pro 800降价已由官网渠道记录，本条保留邮件传播与加购条件。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T08:42:57.476Z",
+      "detailRef": "./data/edm-details/EDM-04BCBC506083.json"
     },
     {
       "actionId": "ACT-A23930B0A978",
