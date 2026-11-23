@@ -307,6 +307,17 @@
       "subject": "Didn’t find what‘s your favourite?",
       "summary": "购物浏览召回邮件以 GOAT A3000 LiDAR PRO 产品卡展示2499.99美元，并推荐 GOAT GX-600。积分优惠的文案以DEEBOT为语境，未确认对割草机适用。",
       "detailRef": "./data/edm-details/EDM-50067E942863.json"
+    },
+    {
+      "actionId": "ACT-EDM-04BCBC506083",
+      "recordId": "EDM-04BCBC506083",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-19T17:06:43.000Z",
+      "subject": "🔥🖤 It's Go Time! Black Friday Deals Are Live",
+      "summary": "11月19日邮件中，Ultra 2000（1099美元）、Ultra 3000 AWD（2199美元）及 Pro 800（764美元）均展示加1美元购车库。相比11月14日邮件，前两款新增该展示；Pro 800降价已由官网渠道记录，本条保留邮件传播与加购条件。",
+      "detailRef": "./data/edm-details/EDM-04BCBC506083.json"
     }
   ]
 }

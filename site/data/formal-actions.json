@@ -1,7 +1,35 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T12:08:25.106Z",
+  "updatedAt": "2026-11-23T12:19:24.680Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-04BCBC506083",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "promotion",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-23T08:28:03.759Z",
+      "publishDate": "2026-11-19T17:06:43.000Z",
+      "title": "MOVA 美国黑五邮件：三款 LiDAX 割草机展示 $1 车库加购",
+      "summary": "11月19日邮件中，Ultra 2000（1099美元）、Ultra 3000 AWD（2199美元）及 Pro 800（764美元）均展示加1美元购车库。相比11月14日邮件，前两款新增该展示；Pro 800降价已由官网渠道记录，本条保留邮件传播与加购条件。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T08:42:57.476Z",
+      "detailRef": "./data/edm-details/EDM-04BCBC506083.json"
+    },
     {
       "actionId": "ACT-2869F6A747E1",
       "entityId": "",
