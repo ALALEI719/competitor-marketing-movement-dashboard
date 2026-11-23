@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T11:47:16.573Z",
+  "updatedAt": "2026-11-23T12:04:11.034Z",
   "actions": [
     {
       "actionId": "ACT-877E148C7821",
@@ -3400,6 +3400,47 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-22T08:56:45.183Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "cfc5e39ce40c80c104e84208de91fc9a50ee0aac51ed4163e407e99529bd8c52",
+        "afterHash": "a6bb00235d710d26730e13a8b5d2f8146f83645ce3d67b6819027dc50cf8539e",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-4260EED8612D",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "eufy-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-18T12:04:19.779Z",
+      "publishDate": "",
+      "title": "eufy法国割草机集合移除E18与SoloCam S220套装卡",
+      "summary": "法国官网割草机集合的E18＋SoloCam S220套装卡（原展示1688.99欧）在两版之间消失，商品计数23→22，其余商品卡与正文保持。观察窗口为11月18日18:24至20:04（北京时间）；仅确认集合展示变化，实际停售、库存、结算及准确生效时间未核。",
+      "marketingTheme": "法国割草机集合套装展示变化",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.eufy.com/eu-fr/collections/robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-fr",
+          "url": "https://www.eufy.com/eu-fr/collections/robot-lawn-mower",
+          "capturedAt": "2026-11-18T12:04:19.779Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T12:04:11.034Z"
     },
     {
       "changeType": "content_change",
