@@ -1,7 +1,48 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-22T08:56:46.422Z",
+  "updatedAt": "2026-11-23T08:27:49.119Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "b533f5af73b59887e037a1600988b89288c7f9790f704a7ba7d2047006e21fe0",
+        "afterHash": "398cfc1789763a573a10d67a4d98813cc711b37fce09bb1c7ffb0e53fede3816",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-48ADF94B3BF7",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "eufy-de-anker",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-22T09:44:34.067Z",
+      "publishDate": "",
+      "title": "Eufy德国C15 Standard含车库套装集合价卡从999降至699欧",
+      "summary": "德国官方Hot Deals集合内，同一C15 Standard含车库套装卡片由999欧改为699欧，新增减300欧标识并将999欧列为划线参考价，其余九张割草机及配件卡价文未变。这与10月已记录的100欧优惠代码文字不同；不代表新券创建、首次促销、结算价或实时库存。仅确认11月22日两次保存之间的集合显示变化，发布日期与实际生效时刻未知；同页E28室内清洁机变化不计入割草机动作。",
+      "marketingTheme": "德国C15 Standard含车库集合价卡降价",
+      "contentType": "collection",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/collections/hot-deals"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de-anker",
+          "url": "https://www.anker.com/de/collections/hot-deals",
+          "capturedAt": "2026-11-22T09:44:34.067Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T08:27:49.119Z"
+    },
     {
       "actionId": "ACT-0F457065FDF4",
       "entityId": "",
