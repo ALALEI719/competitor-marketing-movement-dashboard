@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T09:23:13.385Z",
+  "updatedAt": "2026-11-23T09:45:43.646Z",
   "actions": [
     {
       "actionId": "ACT-D91137659F6C",
@@ -1167,6 +1167,47 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-23T09:23:13.109Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "49f4fd42fa03f0b0a10bfee2a0b91172e7ac468fec9f95bf1dbd0e392e1d8927",
+        "afterHash": "e44b0ca54df79c6f014d846a68f808deff4a402e66b21f8cf715eaa1fe04788e",
+        "changedFields": [
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-3F367EDA0362",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-23T03:51:53.720Z",
+      "publishDate": "",
+      "title": "MOVA法国共享横幅宣传LiDAX Ultra1600 AWD减500欧及车库1欧",
+      "summary": "法国官网共享页首横幅宣传LiDAX Ultra1600 AWD减500欧元、车库1欧元，链接同一1600 AWD变体。横幅变化见于北京时间11月21日04:37至11月23日11:51的两次保存之间；活动开始、截止及领取和结算条件未核。承载页面的MOVA600 Kit商品主区未变，不是该机调价。",
+      "marketingTheme": "LiDAX Ultra1600 AWD共享促销横幅",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/products/mova-600-kit-rlm-spring-special"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/products/mova-600-kit-rlm-spring-special",
+          "capturedAt": "2026-11-23T03:51:53.720Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-23T09:45:43.413Z"
     },
     {
       "changeType": "content_change",
