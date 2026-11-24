@@ -1,7 +1,50 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T23:34:14.268Z",
+  "updatedAt": "2026-11-24T05:22:53.806Z",
   "actions": [
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "41c5835c21b16da8411d29b34da1ed1e5395c308a1a724a602e093c16d67adcf",
+        "afterHash": "790f8491c78d9cb790c9b190f5fc4f4fd4b96fb6beb46f979633504785437d26",
+        "changedFields": [
+          "cta",
+          "availability",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-81F501CF708F",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "page_change",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-24T02:10:43.774Z",
+      "publishDate": "",
+      "title": "德国Dreame A2 1200主购买区显示售罄",
+      "summary": "德国官网Dreame A2 1200商品页主购买区从可加入购物车和立即购买，变为“售罄”且购买控件禁用。展示价725.80欧、参考价1399.00欧、折扣673.20欧未变。此结论只对应两次留存快照之间的页面显示；实际售罄时间及实时库存未知。",
+      "marketingTheme": "德国Dreame A2 1200商品页售罄",
+      "contentType": "product",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/products/dreame-mahroboter-a2-1200"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/products/dreame-mahroboter-a2-1200",
+          "capturedAt": "2026-11-24T02:10:43.774Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-24T05:13:26.893Z"
+    },
     {
       "changeType": "content_change",
       "contentEvidence": {
