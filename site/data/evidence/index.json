@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-23T11:22:18.449Z",
+  "generatedAt": "2026-11-25T02:31:55.721Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -47,6 +47,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-11-09T09-59-46-340Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-10-12T09-27-52-869Z-viewport.jpg"
+        },
+        {
+          "capturedAt": "2026-11-25T02:30:53.586Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-25T02:14:25.400Z",
+          "title": "Robot Lawn Mowers & Robotic Pool Cleaners | Mammotion US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-11-25T02-30-53-586Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mammotion-us-a3bcf7804ee70db1-2026-11-09T09-59-46-340Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -2478,6 +2488,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-fr-e37c4a07dd208544-2026-11-19T10-50-34-583Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-25T02:27:57.400Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-25T02:15:59.583Z",
+          "title": "LiDAX Ultra Série Robot tondeuse sans fil périphérique | MOVA France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-e37c4a07dd208544-2026-11-25T02-27-57-400Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-fr-e37c4a07dd208544-2026-11-19T10-50-34-583Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3293,6 +3313,215 @@
           "title": "Offizieller Radarreinigungsbürste für MOVA Mähroboter | MOVA Deutschland",
           "matchedTerm": "",
           "viewportScreenshot": "data/evidence/screenshots/mova-de-ee57433af4fde003-2026-11-23T11-22-12-026Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "141c9beb8eb58da3": {
+      "url": "https://fr.mammotion.com/products/gobelet-de-voyage-pliable",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:28:15.379Z",
+          "reason": "product_candidate:MAM-UNKNOWN-8FDF4908",
+          "sourceObservedAt": "2026-11-25T02:14:38.671Z",
+          "title": "Gobelet de voyage pliable丨Mammotion FR",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-141c9beb8eb58da3-2026-11-25T02-28-15-379Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-141c9beb8eb58da3-2026-11-25T02-28-15-379Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-8FDF4908"
+    },
+    "34d8af5e4b406558": {
+      "url": "https://fr.mammotion.com/products/sac-bandouliere",
+      "siteId": "mammotion-fr",
+      "brand": "Mammotion",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:28:20.974Z",
+          "reason": "product_candidate:MAM-UNKNOWN-166F05AA",
+          "sourceObservedAt": "2026-11-25T02:14:38.671Z",
+          "title": "Sac bandoulière丨Mammotion FR",
+          "matchedTerm": "en savoir plus",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-fr-34d8af5e4b406558-2026-11-25T02-28-20-974Z-viewport.jpg",
+          "keyRegionScreenshot": "data/evidence/screenshots/mammotion-fr-34d8af5e4b406558-2026-11-25T02-28-20-974Z-key.jpg",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "MAM-UNKNOWN-166F05AA"
+    },
+    "8109af3def96e7de": {
+      "url": "https://uk.mammotion.com/blogs/news/mowing-lawn-sun-shade-height-frequency",
+      "siteId": "mammotion-uk",
+      "brand": "Mammotion",
+      "country": "英国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:28:27.264Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-25T02:14:33.870Z",
+          "title": "Mowing a Lawn in Sun and Shade: Keep Every Patch Healthy",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-uk-8109af3def96e7de-2026-11-25T02-28-27-264Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "df11de9a27b94aeb": {
+      "url": "https://us.mammotion.com/blogs/news/christmas-gifts",
+      "siteId": "mammotion-us",
+      "brand": "Mammotion",
+      "country": "美国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:29:39.270Z",
+          "reason": "new_page",
+          "sourceObservedAt": "2026-11-25T02:14:25.400Z",
+          "title": "Best Christmas Gifts for Dad in 2026 | Practical Gift Ideas",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mammotion-us-df11de9a27b94aeb-2026-11-25T02-29-39-270Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "4c0ff38feb74d89c": {
+      "url": "https://fr.dreametech.com/products/garage-pour-robot-tondeuse-a1",
+      "siteId": "dreame-fr",
+      "brand": "Dreame",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:30:59.060Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-24T07:15:14.930Z",
+          "title": "Abri et garage pour robot tondeuse Dreame | Protection – Dreame France",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/dreame-fr-4c0ff38feb74d89c-2026-11-25T02-30-59-060Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "a565e8048b84620b": {
+      "url": "https://de.mova.tech/products/viax-250-maehroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:07.511Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-24T07:12:36.852Z",
+          "title": "MOVA ViAX 250 – Der intelligente Weg zum perfekten Rasen | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-a565e8048b84620b-2026-11-25T02-31-07-511Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "9a2b2ec8538a8a03": {
+      "url": "https://de.mova.tech/products/viax-500-maehroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:18.751Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-24T07:12:36.852Z",
+          "title": "MOVA ViAX 500 Mähroboter – Kabellos und Intelligent | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-9a2b2ec8538a8a03-2026-11-25T02-31-18-751Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "ab100ea00c99aea3": {
+      "url": "https://de.mova.tech/products/wiederaufladbarer-lithium-ionen-akku-fur-mova-600-600-kit-1000-mahroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:31.518Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-24T07:12:36.852Z",
+          "title": "Offizieller Akku für MOVA 600 & 1000 Rasenmäher | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-ab100ea00c99aea3-2026-11-25T02-31-31-518Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "3b3a3c5317ad928e": {
+      "url": "https://de.mova.tech/products/wiper-pads-for-mobius-60-v70-ultra-complete",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:37.360Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-24T07:12:36.852Z",
+          "title": "MOVA RLM-Serie - Automatische Roboter-Rasenmäher für jeden Garten | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-3b3a3c5317ad928e-2026-11-25T02-31-37-360Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "6058e0b43ddc256e": {
+      "url": "https://fr.mova.tech/products/mova-station-de-charge-3a-pour-mova-lidax-ultra-800-1200-1600",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:42.374Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-23T11:58:25.164Z",
+          "title": "MOVA Station de charge 3A pour MOVA LiDAX Ultra 800/1200/1600",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-6058e0b43ddc256e-2026-11-25T02-31-42-374Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "8c67a9aac8fbcdc3": {
+      "url": "https://fr.mova.tech/products/mova-station-de-charge-3a-pour-mova-viax-250",
+      "siteId": "mova-fr",
+      "brand": "Mova",
+      "country": "法国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-25T02:31:48.807Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-23T11:58:25.164Z",
+          "title": "MOVA Station de charge 3A pour MOVA Viax 250",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-8c67a9aac8fbcdc3-2026-11-25T02-31-48-807Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
         }

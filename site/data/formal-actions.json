@@ -1,7 +1,169 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T07:23:35.727Z",
+  "updatedAt": "2026-11-25T02:36:50.142Z",
   "actions": [
+    {
+      "actionId": "ACT-CBAFFB0A29A3",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "mammotion-us-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T02:19:30.522Z",
+      "publishDate": "2026-11-24T00:07:33-08:00",
+      "title": "美国 Mammotion 发布给父亲的圣诞礼物推荐文章",
+      "marketingTheme": "holiday_gifting",
+      "productExposure": [
+        {
+          "name": "LUBA mini 2 AWD",
+          "source": "article_body",
+          "excerpt": "igned to make routine outdoor maintenance easier. LUBA mini 2 AWD 1500H: A Smart Christmas Gift for Lawn Lovers For"
+        },
+        {
+          "name": "SPINO E1",
+          "source": "article_body",
+          "excerpt": "se-to-Edge Mowing Explore LUBA mini 2 AWD 1500H → SPINO E1: A Thoughtful Christmas Gift for Pool Owners For "
+        }
+      ],
+      "summary": "美国 Mammotion 于 2026 年 11 月 24 日发布圣诞礼物推荐文章，把现有 LUBA mini 2 AWD 1500H 割草机器人和 SPINO E1 泳池机器人作为户外养护礼物介绍。文章没有公布新品或具体折扣。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://us.mammotion.com/blogs/news/christmas-gifts"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-us-blog",
+          "url": "https://us.mammotion.com/blogs/news/christmas-gifts",
+          "discoveredAt": "2026-11-25T02:19:30.522Z",
+          "publishDate": "2026-11-24T00:07:33-08:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-25T02:36:49.996Z"
+    },
+    {
+      "actionId": "ACT-D7666CBF713A",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T02:19:30.522Z",
+      "publishDate": "2026-11-24T07:37:26+00:00",
+      "title": "英国 Mammotion 发布阳光与阴影草坪修剪指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "英国 Mammotion 于 2026 年 11 月 24 日发布草坪修剪指南，说明阳光和阴影区域的高度、频率建议，并介绍其割草机器人分区和排程能力。文章没有公布新品、价格或优惠。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/mowing-lawn-sun-shade-height-frequency"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/mowing-lawn-sun-shade-height-frequency",
+          "discoveredAt": "2026-11-25T02:19:30.522Z",
+          "publishDate": "2026-11-24T07:37:26+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-25T02:36:50.142Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "d655895432dd8b7fad8088577b8043aa76e1f507ea96086233174b9cea3761ac",
+        "afterHash": "5b94dcc4ba1cba32a3f3cc5f5564bee607026c5d7342bbb1fac46c8ae6c17959",
+        "changedFields": [
+          "headings",
+          "offer",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-C7CF1FA586D2",
+      "entityId": "",
+      "brand": "Mova",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mova-fr",
+      "channel": "official_site",
+      "actionType": "site_promotion_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T02:15:59.583Z",
+      "publishDate": "",
+      "title": "法国 MOVA 割草机器人集合页细化车库优惠标注",
+      "summary": "法国 MOVA 割草机器人集合页在 11 月 24 日至 25 日两次观测之间，将 Black Friday 横幅改为“最后机会”，并在 LiDAX Ultra、ViAX 机型卡片上明确标注 MMGM10 车库赠送或 1 欧优惠。原有价格、购买入口及通用车库规则未变；这是现有优惠的展示变化，页面实际修改时间未知。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mova.tech/collections/robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mova-fr",
+          "url": "https://fr.mova.tech/collections/robot-lawn-mower",
+          "capturedAt": "2026-11-25T02:15:59.583Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-25T02:36:48.095Z"
+    },
+    {
+      "changeType": "content_updated",
+      "updatedAt": "2026-11-24T08:12:01+01:00",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "2b15337608c6ca5f4d4542be7e8bc6d92d8c543080f99dcee801b22e549e3481",
+        "afterHash": "54eddc668be3c48a763dc8223c09c0818acec2ee9b5f508089a1de87e125c4aa",
+        "changedFields": [
+          "headings",
+          "body"
+        ],
+        "beforeExcerpt": "Le dilemme de la pelouse mixte : pourquoi une tonte uniforme détruit votre gazon ? Une tonte uniforme appliquée aveuglément sur l'ensemble de votre propriété est la cause première du dépérissement des pelouses à exposition mixte. Passer la lame à la même hauteur et au même intervalle sur la totalité",
+        "afterExcerpt": "Pelouse mi-ombre mi-soleil : pourquoi adapter la tonte à chaque zone ? Lorsque les zones de votre pelouse poussent à des rythmes différents, une même hauteur et un même calendrier de tonte peuvent laisser certaines parties trop courtes ou d'autres trop longues. Adapter les réglages à l'exposition pe"
+      },
+      "actionId": "ACT-AFC583D4AE83",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "FR",
+      "siteId": "mammotion-fr-blog",
+      "channel": "blog",
+      "actionType": "content_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-24T07:18:26.337Z",
+      "publishDate": "2026-09-29T08:58:57+02:00",
+      "title": "法国Mammotion更新半阴半阳草坪修剪指南",
+      "marketingTheme": "product_education",
+      "productExposure": [],
+      "summary": "法国官网原有指南于2026年11月24日更新，重写阴影与阳光区域的修剪高度和频率建议，并把机器人分区设置、导航能力改为按型号和条件说明。文章最初发表于2026年9月29日；此次是内容表述更新，不涉及新品、价格或优惠。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-fr-blog",
+          "url": "https://fr.mammotion.com/blogs/news/tonte-pelouse-mi-ombre-mi-soleil-hauteur-frequence",
+          "discoveredAt": "2026-11-24T07:18:26.337Z",
+          "publishDate": "2026-09-29T08:58:57+02:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-25T02:35:14.751Z"
+    },
     {
       "changeType": "content_change",
       "contentEvidence": {
