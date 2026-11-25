@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T02:36:50.142Z",
+  "updatedAt": "2026-11-25T02:52:40.262191Z",
   "actions": [
     {
       "actionId": "ACT-CBAFFB0A29A3",
@@ -118,6 +118,152 @@
       ],
       "reviewStatus": "approved",
       "reviewedAt": "2026-11-25T02:36:48.095Z"
+    },
+    {
+      "actionId": "ACT-B2FEB6589CD0",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "pr-us-9to5toys-media",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T02:07:29.139Z",
+      "publishDate": "2026-11-24T15:09:20+00:00",
+      "title": "All three ECOVACS LiDAR Pro robot lawn mowers hit lowest prices for Black Friday starting from $949",
+      "topicTags": [
+        "other"
+      ],
+      "summary": "Ecovacs 媒体报道（9to5Toys）：All three ECOVACS LiDAR Pro robot lawn mowers hit lowest prices for Black Friday starting from $949",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://9to5toys.com/2026/11/24/ecovacs-lidar-pro-robot-lawn-mowers-black-friday/"
+      ],
+      "evidenceRefs": [
+        {
+          "bodySource": "nine_to_five_toys_article_v1",
+          "articleUrl": "https://9to5toys.com/2026/11/24/ecovacs-lidar-pro-robot-lawn-mowers-black-friday/",
+          "outlet": "9to5Toys",
+          "countryBasis": "resource_database_US_and_publisher_US_price_context_not_product_availability",
+          "accessBasis": "complete_anonymous_rendered_editorial",
+          "htmlSha256": "e1f1a96022c89a3c114937950391979101a09c1b9acea6afdc08e3a50cee9349",
+          "matchedBrandTerms": [
+            "Ecovacs"
+          ],
+          "excludedComponents": [
+            {
+              "type": "figure",
+              "className": "img-border featured-image",
+              "id": "",
+              "sha256": "25581af733fab8dff76f4cb27e6b28b2beb1c057c1ae43b0d87c8fad533e5864",
+              "textLength": 18
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "b8e454edb476e921e602fdae06b4d48df611c350043cfb5a6cc5c5a872da2f5e",
+              "textLength": 112
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "52679025839bc9eca31fd591b6d28933a0f78da45050aaba65f6f9de8a96dac7",
+              "textLength": 90
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "11097b5383aec4c6e8d24c32c3a8079bb39092e6a6411cd70a4ebabfed7751a8",
+              "textLength": 121
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "cce08ddf825d369a83a9a89fba1e41d5fab5f745af3e53f94fde515dc573129b",
+              "textLength": 127
+            },
+            {
+              "type": "div",
+              "className": "google-preferred-source-badge",
+              "id": "",
+              "sha256": "5ff5d7249fbcb8d0efd8643dfd31767cb10e52b20949384f0d5c7ba5e494116d",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "ad-disclaimer-container",
+              "id": "",
+              "sha256": "1066db74c3526bef0090bbf9a9344625e5b67f36d68d4e99568186d6bcf6be9f",
+              "textLength": 114
+            },
+            {
+              "type": "div",
+              "className": "",
+              "id": "after_disclaimer_placement",
+              "sha256": "f93d33d2694a0296da0df6aa71ad49507e037d3f43526d08ac0f75c853f81dbc",
+              "textLength": 350
+            }
+          ],
+          "relatedCardsIncluded": false,
+          "keywordProfile": "competitor_lawn_v1",
+          "keywordProfileHash": "568f616541c4aac9e973c5d4eed3b3642ee4cfd437bad02fdaa0cb158e629d80",
+          "matchedBrands": [
+            {
+              "brand": "Ecovacs",
+              "terms": [
+                "Ecovacs"
+              ]
+            }
+          ],
+          "topicMatches": [
+            "robot lawn mower",
+            "robot mowers",
+            "robot lawn mowers"
+          ],
+          "contentHash": "489ded3239361b1c4a293bbcc5aa774b68e46a84446cb0488a50b382d51a7abc",
+          "listingUrl": "https://9to5toys.com/wp-json/wp/v2/posts",
+          "capturedAt": "2026-11-25T02:07:29.139Z",
+          "sourceType": "media",
+          "dateSource": "jsonld_original_publication",
+          "titleSource": "jsonld_and_rendered_h1",
+          "brandMatch": {
+            "brand": "Ecovacs",
+            "status": "matched",
+            "terms": [
+              "Ecovacs"
+            ]
+          }
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-25T02:52:40.262191Z"
     },
     {
       "changeType": "content_updated",
