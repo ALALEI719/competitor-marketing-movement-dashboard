@@ -318,6 +318,17 @@
       "subject": "🔥🖤 It's Go Time! Black Friday Deals Are Live",
       "summary": "11月19日邮件中，Ultra 2000（1099美元）、Ultra 3000 AWD（2199美元）及 Pro 800（764美元）均展示加1美元购车库。相比11月14日邮件，前两款新增该展示；Pro 800降价已由官网渠道记录，本条保留邮件传播与加购条件。",
       "detailRef": "./data/edm-details/EDM-04BCBC506083.json"
+    },
+    {
+      "actionId": "ACT-EDM-C3FB963F5FC5",
+      "recordId": "EDM-C3FB963F5FC5",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "sentAt": "2026-11-25T19:03:10.000Z",
+      "subject": "🔥⏳A Little Reminder: Black Friday Is Almost Over",
+      "summary": "11月25日邮件提醒黑五即将结束，主视觉标示11月19日至30日。三款LiDAX割草机价格与1美元车库加购沿用已收录优惠，本次仅记录截止提醒，不重复计为降价。",
+      "detailRef": "./data/edm-details/EDM-C3FB963F5FC5.json"
     }
   ]
 }

@@ -1,7 +1,63 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T02:52:40.262191Z",
+  "updatedAt": "2026-11-26T02:31:49.227Z",
   "events": [
+    {
+      "eventId": "EVT-CEB65E040DBF",
+      "entityId": "",
+      "actionPeriod": [
+        "2026-11-26"
+      ],
+      "brand": "Eufy",
+      "title": "Eufy 营销事件",
+      "eventType": "promotion",
+      "firstSeenAt": "2026-11-26T02:25:28.844Z",
+      "lastSeenAt": "2026-11-26T02:25:28.844Z",
+      "channels": [
+        "official_site"
+      ],
+      "countries": [
+        "德国"
+      ],
+      "stages": [
+        "not_launch_related"
+      ],
+      "actionIds": [
+        "ACT-D036AC356E6C",
+        "ACT-C8A228BB7818"
+      ],
+      "actionCount": 2,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    },
+    {
+      "eventId": "EVT-4D692845DDED",
+      "entityId": "",
+      "actionPeriod": [
+        "2026-11-26"
+      ],
+      "brand": "Eufy",
+      "title": "Eufy 营销事件",
+      "eventType": "promotion",
+      "firstSeenAt": "2026-11-26T02:25:28.844Z",
+      "lastSeenAt": "2026-11-26T02:25:28.844Z",
+      "channels": [
+        "official_site"
+      ],
+      "countries": [
+        "德国"
+      ],
+      "stages": [
+        "not_launch_related"
+      ],
+      "actionIds": [
+        "ACT-7FE3B10E4140",
+        "ACT-4F6B663F93B0"
+      ],
+      "actionCount": 2,
+      "confidenceScore": 0,
+      "status": "confirmed"
+    },
     {
       "eventId": "EVT-B2293EC0F9B1",
       "entityId": "",

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "1.0",
+  "recordId": "EDM-C3FB963F5FC5",
+  "actionId": "ACT-EDM-C3FB963F5FC5",
+  "brand": "Mova",
+  "brandRole": "competitor",
+  "country": "美国",
+  "sentAt": "2026-11-25T19:03:10.000Z",
+  "subject": "🔥⏳A Little Reminder: Black Friday Is Almost Over",
+  "contentSummary": "MOVA美国黑五提醒信首次在该邮件序列中明确写出11月19日至30日活动期，提示即将结束。三款LiDAX割草机产品卡仍为Pro 800 764美元、Ultra 2000 1099美元、Ultra 3000 AWD 2199美元，及1美元车库加购；这些价格和加购条件已由先前邮件收录，本条只记录截止提醒。",
+  "bodyParagraphs": [
+    "11月25日发送的美国站邮件以黑五即将结束为主题。主视觉写明活动日期11月19日至30日，以及最高省800美元；最高折扣属于整封混合品类宣传，不能套用到每台割草机。",
+    "割草机产品卡展示LiDAX Pro 800为764美元、Ultra 2000为1099美元、Ultra 3000 AWD为2199美元，均伴随加1美元购车库展示。三款价格和车库内容与11月19日美国邮件一致，因此不将它们作为新降价或新增权益重复计数。",
+    "这封邮件新增可确认的传播动作是黑五结束提醒和11月30日日期标示。日期来自邮件视觉，不据此推定单款割草机的结算截止、车库库存或完整适用条款。"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-01.png",
+      "description": "MOVA品牌标识。"
+    },
+    {
+      "index": 1,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-02.png",
+      "description": "黑五最后提醒主视觉，明确日期11月19日至30日，最高省800美元；主图混合家电与割草机。"
+    },
+    {
+      "index": 2,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-03.png",
+      "description": "Z70 Ultra Roller Complete扫地机器人899美元。"
+    },
+    {
+      "index": 3,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-04.png",
+      "description": "P70 Pro Ultra扫地机器人549美元。"
+    },
+    {
+      "index": 4,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-05.png",
+      "description": "Z60 Ultra Roller Complete扫地机器人589美元及1美元配件加购。"
+    },
+    {
+      "index": 5,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-06.png",
+      "description": "P10 Pro Ultra扫地机器人299美元及1美元配件加购。"
+    },
+    {
+      "index": 6,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-07.png",
+      "description": "MOBIUS 60扫地机器人599美元及1美元配件加购。"
+    },
+    {
+      "index": 7,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-08.png",
+      "description": "P10 Pro Ultra Gen2扫地机器人359.99美元。"
+    },
+    {
+      "index": 8,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-09.png",
+      "description": "P50 Pro Ultra扫地机器人379美元。"
+    },
+    {
+      "index": 9,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-10.png",
+      "description": "Z60 Ultra Roller SA扫地机器人449美元及1美元配件加购。"
+    },
+    {
+      "index": 10,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-11.png",
+      "description": "翻新V50 Ultra Complete扫地机器人509美元。"
+    },
+    {
+      "index": 11,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-12.png",
+      "description": "LiDAX Pro 800割草机764美元，划线1099美元，减335美元；另展示1美元Garage MMGM10。"
+    },
+    {
+      "index": 12,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-13.png",
+      "description": "LiDAX Ultra 2000割草机1099美元，划线1799美元，减700美元；另展示1美元车库加购。"
+    },
+    {
+      "index": 13,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-14.png",
+      "description": "LiDAX Ultra 3000 AWD割草机2199美元，划线2999美元，减800美元；另展示1美元车库加购。"
+    },
+    {
+      "index": 14,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-15.png",
+      "description": "购买按钮。"
+    },
+    {
+      "index": 15,
+      "src": "./data/edm-assets/EDM-C3FB963F5FC5/image-16.png",
+      "description": "官方商店价保、质保、退货、配送及支付方式说明。"
+    }
+  ],
+  "recipientDetailsIncluded": false,
+  "externalLinksIncluded": false,
+  "imageLayout": {
+    "type": "stack",
+    "children": [
+      {
+        "type": "image",
+        "index": 0
+      },
+      {
+        "type": "image",
+        "index": 1
+      },
+      {
+        "type": "image",
+        "index": 2
+      },
+      {
+        "type": "image",
+        "index": 3
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 4
+          },
+          {
+            "type": "image",
+            "index": 5
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 6
+          },
+          {
+            "type": "image",
+            "index": 7
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 8
+          },
+          {
+            "type": "image",
+            "index": 9
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 10
+          },
+          {
+            "type": "image",
+            "index": 11
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "widths": [
+          50,
+          50
+        ],
+        "children": [
+          {
+            "type": "image",
+            "index": 12
+          },
+          {
+            "type": "image",
+            "index": 13
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "index": 14
+      },
+      {
+        "type": "image",
+        "index": 15
+      }
+    ]
+  }
+}

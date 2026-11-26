@@ -1,7 +1,730 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T02:52:40.262191Z",
+  "updatedAt": "2026-11-26T02:35:54.350Z",
   "actions": [
+    {
+      "actionId": "ACT-EDM-C3FB963F5FC5",
+      "entityId": "",
+      "brand": "Mova",
+      "brandRole": "competitor",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "edm-private",
+      "channel": "edm",
+      "actionType": "email_campaign",
+      "stage": "promotion",
+      "discoveredAt": "2026-11-26T02:04:04.062Z",
+      "publishDate": "2026-11-25T19:03:10.000Z",
+      "title": "MOVA 美国黑五结束提醒：邮件标示活动至11月30日",
+      "summary": "11月25日邮件提醒黑五即将结束，主视觉标示11月19日至30日。三款LiDAX割草机价格与1美元车库加购沿用已收录优惠，本次仅记录截止提醒，不重复计为降价。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [],
+      "evidenceRefs": [
+        {
+          "sourceId": "edm-private",
+          "access": "private"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:06:00.407Z",
+      "detailRef": "./data/edm-details/EDM-C3FB963F5FC5.json"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-D036AC356E6C",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "eufy-de-anker",
+      "channel": "official_site",
+      "actionType": "bundle_promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:25:28.844Z",
+      "publishDate": "",
+      "title": "德国 Eufy 展示 HydroJet E35 + C15 扫拖与割草组合包",
+      "summary": "德国 Eufy 官网新观察到 HydroJet E35 + C15 组合商品页，页面标价 €1,998，显示可解锁 €550 优惠券并有购买入口。优惠弹层货币符号与德文页面不一致，结账抵扣与实际首次上架时间待核；这不是新割草机型号。",
+      "marketingTheme": "promotion",
+      "contentType": "bundle",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t210mg11-1-t280b3a2-1-t292c011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de-anker",
+          "url": "https://www.anker.com/de/products/bundle-t210mg11-1-t280b3a2-1-t292c011-1",
+          "capturedAt": "2026-11-26T02:25:28.844Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:31:48.761Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-C8A228BB7818",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "eufy-de-anker",
+      "channel": "official_site",
+      "actionType": "bundle_promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:25:28.844Z",
+      "publishDate": "",
+      "title": "德国 Eufy 展示 HydroJet E35 + E15 扫拖与割草组合包",
+      "summary": "德国 Eufy 官网新观察到 HydroJet E35 + E15 组合商品页，页面标价 €2,198，显示可解锁 €550 优惠券并有购买入口。优惠弹层货币符号与德文页面不一致，结账抵扣与实际首次上架时间待核；这不是新割草机型号。",
+      "marketingTheme": "promotion",
+      "contentType": "bundle",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t210mg11-1-t2880ha1-1-t292ga10-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de-anker",
+          "url": "https://www.anker.com/de/products/bundle-t210mg11-1-t2880ha1-1-t292ga10-1",
+          "capturedAt": "2026-11-26T02:25:28.844Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:31:48.884Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-7FE3B10E4140",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "eufy-de-anker",
+      "channel": "official_site",
+      "actionType": "bundle_promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:25:28.844Z",
+      "publishDate": "",
+      "title": "德国 Eufy 展示 C30 Edge + C15 扫拖与割草组合包",
+      "summary": "德国 Eufy 官网新观察到 C30 Edge + C15 组合商品页，页面标价 €1,698，显示可解锁 €520 优惠券并有购买入口。优惠弹层货币符号与德文页面不一致，结账抵扣与实际首次上架时间待核；这不是新割草机型号。",
+      "marketingTheme": "promotion",
+      "contentType": "bundle",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t210qg11-1-t280b3a2-1-t292c011-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de-anker",
+          "url": "https://www.anker.com/de/products/bundle-t210qg11-1-t280b3a2-1-t292c011-1",
+          "capturedAt": "2026-11-26T02:25:28.844Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:31:48.999Z"
+    },
+    {
+      "changeType": "new_page",
+      "actionId": "ACT-4F6B663F93B0",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "eufy-de-anker",
+      "channel": "official_site",
+      "actionType": "bundle_promotion",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:25:28.844Z",
+      "publishDate": "",
+      "title": "德国 Eufy 展示 C30 Edge + E15 扫拖与割草组合包",
+      "summary": "德国 Eufy 官网新观察到 C30 Edge + E15 组合商品页，页面标价 €1,898，显示可解锁 €520 优惠券并有购买入口。优惠弹层货币符号与德文页面不一致，结账抵扣与实际首次上架时间待核；这不是新割草机型号。",
+      "marketingTheme": "promotion",
+      "contentType": "bundle",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.anker.com/de/products/bundle-t210qg11-1-t2880ha1-1-t292ga10-1"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-de-anker",
+          "url": "https://www.anker.com/de/products/bundle-t210qg11-1-t2880ha1-1-t292ga10-1",
+          "capturedAt": "2026-11-26T02:25:28.844Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:31:49.110Z"
+    },
+    {
+      "actionId": "ACT-50071F71E8FE",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "德国",
+      "countryCode": "DE",
+      "siteId": "pr-de-chip-mammotion",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:07:38.720Z",
+      "publishDate": "",
+      "title": "MAMMOTION: Black Friday mit Mega-Deals für Mähroboter",
+      "topicTags": [
+        "promotion",
+        "partnership"
+      ],
+      "summary": "Mammotion 媒体报道（CHIP）：MAMMOTION: Black Friday mit Mega-Deals für Mähroboter",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.chip.de/deals/schnaeppchen/bis-zu-650-euro-rabatt-mammotion-startet-black-friday-mit-mega-deals-fuer-maehroboter_e53c4e79-330f-466e-a49e-b0eabfb2c92f.html"
+      ],
+      "evidenceRefs": [
+        {
+          "listingUrl": "https://www.chip.de/sitemap-articles-index.xml",
+          "articleUrl": "https://www.chip.de/deals/schnaeppchen/bis-zu-650-euro-rabatt-mammotion-startet-black-friday-mit-mega-deals-fuer-maehroboter_e53c4e79-330f-466e-a49e-b0eabfb2c92f.html",
+          "capturedAt": "2026-11-26T02:07:38.720Z",
+          "sourceType": "media",
+          "outlet": "CHIP",
+          "countryBasis": "publisher_market",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "titleSource": "jsonld.headline",
+          "dateSource": "conflict",
+          "dateCandidates": [
+            {
+              "source": "jsonld.datePublished",
+              "value": "2025-11-24T07:14:00.000Z"
+            },
+            {
+              "source": "meta.published_time",
+              "value": "2026-11-23T17:01:00+01:00"
+            },
+            {
+              "source": "time.datetime",
+              "value": "2026-11-23T16:01:00.000Z"
+            }
+          ],
+          "contentHash": "e90cb50aa1197a82845548a7d72a38dd43e613748831af849e46ead7dea76345",
+          "bodySource": "article"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:22:32.549739Z"
+    },
+    {
+      "actionId": "ACT-39A968E32AB6",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "美国",
+      "countryCode": "US",
+      "siteId": "pr-us-9to5toys-media",
+      "channel": "pr",
+      "actionType": "award_or_media",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:07:38.720Z",
+      "publishDate": "2026-11-25T13:37:45+00:00",
+      "title": "Mammotion’s robot lawn mowers up to 34% off: LUBA Mini 2 AWD 1500H + cleaning stand at new $1,599 low ($479 off), more",
+      "topicTags": [
+        "promotion"
+      ],
+      "summary": "Mammotion 媒体报道（9to5Toys）：Mammotion’s robot lawn mowers up to 34% off: LUBA Mini 2 AWD 1500H + cleaning stand at new $1,599 low ($479 off), more",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://9to5toys.com/2026/11/25/mammotion-luba-mini-2-awd-1500h-robot-lawn-mower/"
+      ],
+      "evidenceRefs": [
+        {
+          "bodySource": "nine_to_five_toys_article_v1",
+          "articleUrl": "https://9to5toys.com/2026/11/25/mammotion-luba-mini-2-awd-1500h-robot-lawn-mower/",
+          "outlet": "9to5Toys",
+          "countryBasis": "resource_database_US_and_publisher_US_price_context_not_product_availability",
+          "accessBasis": "complete_anonymous_rendered_editorial",
+          "htmlSha256": "f215edb0bba6a5637ea3f4f5d7bf309451b42d277d481b589a7b9e3b9bc94e68",
+          "matchedBrandTerms": [
+            "Mammotion"
+          ],
+          "excludedComponents": [
+            {
+              "type": "figure",
+              "className": "img-border featured-image",
+              "id": "",
+              "sha256": "c9f970002133e61b690e3de1cf36883f595b5aee30804788d78fa6ea0bd1941f",
+              "textLength": 15
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "67029d882377b2d815602d650446da9da1c11b818cca999d364542d40488ad15",
+              "textLength": 99
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "b8e454edb476e921e602fdae06b4d48df611c350043cfb5a6cc5c5a872da2f5e",
+              "textLength": 112
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "3b22d549b5d205c953d629ab65456c6b73ce0e9654f55a283c58b12a6cc60816",
+              "textLength": 103
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "52679025839bc9eca31fd591b6d28933a0f78da45050aaba65f6f9de8a96dac7",
+              "textLength": 90
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "dfac0c9c1fc39c03dcfeb6ceb03bddc9eb6f1eb5b7b47bee3a6250bdf56745f4",
+              "textLength": 121
+            },
+            {
+              "type": "div",
+              "className": "wp-block-spacer",
+              "id": "",
+              "sha256": "b1f509cbeabbdf98ab277dcae6f2aa8c3efbcdeb6414493baa79753a9669722e",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "wp-block-media-text is-stacked-on-mobile",
+              "id": "",
+              "sha256": "cce08ddf825d369a83a9a89fba1e41d5fab5f745af3e53f94fde515dc573129b",
+              "textLength": 127
+            },
+            {
+              "type": "div",
+              "className": "google-preferred-source-badge",
+              "id": "",
+              "sha256": "5ff5d7249fbcb8d0efd8643dfd31767cb10e52b20949384f0d5c7ba5e494116d",
+              "textLength": 0
+            },
+            {
+              "type": "div",
+              "className": "ad-disclaimer-container",
+              "id": "",
+              "sha256": "1066db74c3526bef0090bbf9a9344625e5b67f36d68d4e99568186d6bcf6be9f",
+              "textLength": 114
+            },
+            {
+              "type": "div",
+              "className": "",
+              "id": "after_disclaimer_placement",
+              "sha256": "f93d33d2694a0296da0df6aa71ad49507e037d3f43526d08ac0f75c853f81dbc",
+              "textLength": 350
+            }
+          ],
+          "relatedCardsIncluded": false,
+          "keywordProfile": "competitor_lawn_v1",
+          "keywordProfileHash": "568f616541c4aac9e973c5d4eed3b3642ee4cfd437bad02fdaa0cb158e629d80",
+          "matchedBrands": [
+            {
+              "brand": "Mammotion",
+              "terms": [
+                "Mammotion"
+              ]
+            }
+          ],
+          "topicMatches": [
+            "robot lawn mower",
+            "robot mower",
+            "robot mowers",
+            "robot lawn mowers"
+          ],
+          "contentHash": "bde94d3047ca2510e6741e58587532d583c09a27574720f3be121768570fcacd",
+          "listingUrl": "https://9to5toys.com/wp-json/wp/v2/posts",
+          "capturedAt": "2026-11-26T02:07:38.720Z",
+          "sourceType": "media",
+          "dateSource": "jsonld_original_publication",
+          "titleSource": "jsonld_and_rendered_h1",
+          "brandMatch": {
+            "brand": "Mammotion",
+            "status": "matched",
+            "terms": [
+              "Mammotion"
+            ]
+          }
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:22:32.549739Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "790f8491c78d9cb790c9b190f5fc4f4fd4b96fb6beb46f979633504785437d26",
+        "afterHash": "59113c76564564e7fe5e6dd887278aa2f1b3b7d5a5f560e4efbfb26029c6618f",
+        "changedFields": [
+          "cta",
+          "availability",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-81D627D51F17",
+      "entityId": "",
+      "brand": "Dreame",
+      "country": "德国",
+      "countryCode": "",
+      "siteId": "dreame-de",
+      "channel": "official_site",
+      "actionType": "availability_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:03:23.190Z",
+      "publishDate": "",
+      "title": "德国 Dreame A2 1200 主购买区恢复可购买",
+      "summary": "德国 Dreame A2 1200 商品页在北京时间 11 月 24 日与 11 月 26 日两次留存之间，主购买区由“售罄”恢复显示 €725.80、加入购物车与立即购买；页面 SKU 由 010901AA000296 切换为 010901AA000188。页面实际变更时间未知，不代表整个系列或线下库存均已恢复。",
+      "marketingTheme": "availability",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://de.dreametech.com/products/dreame-mahroboter-a2-1200"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "dreame-de",
+          "url": "https://de.dreametech.com/products/dreame-mahroboter-a2-1200",
+          "capturedAt": "2026-11-26T02:03:23.190Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:02.305Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "1a3bee1580875e834c07fada5bf660dd4ae18a033a08f0c9f37903dc4d739508",
+        "afterHash": "c392f7e06f2ea97d73b423283a4a9217b32533588e65e67a0165da8219c8e87b",
+        "changedFields": [
+          "offer"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-E8F112DAAAE1",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "ecovacs-us",
+      "channel": "official_site",
+      "actionType": "site_promotion_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-26T02:02:44.181Z",
+      "publishDate": "",
+      "title": "美国 Ecovacs 割草机器人页面移除 5% 折扣码标注",
+      "summary": "美国 Ecovacs 割草机器人集合页在 11 月 25 日至 26 日两次官网观测之间移除“5% OFF Code: savings”标注，同站多款 GOAT 商品和套装页同步移除。各机型标价及库存未变；只能确认页面标注撤下，不能确定优惠实际失效时刻或结账规则。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "ecovacs-us",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower",
+          "capturedAt": "2026-11-26T02:02:47.761Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:03.695Z"
+    },
+    {
+      "actionId": "ACT-0E9D8B9E0B23",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T10:39:41.718Z",
+      "publishDate": "2026-11-25T08:34:20+00:00",
+      "title": "英国 Mammotion 发布视觉割草机器人选购指南",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "YUKA mini 2",
+          "source": "article_body",
+          "excerpt": "um-sized gardens with relatively flat ground, the YUKA mini 2 series uses rear-wheel drive (RWD) in a compact, "
+        },
+        {
+          "name": "LUBA",
+          "source": "article_body",
+          "excerpt": "s, steeper slopes or more challenging ground, the LUBA series uses all-wheel drive (AWD) for greater tra"
+        },
+        {
+          "name": "YUKA mini 2 800",
+          "source": "article_body",
+          "excerpt": "zones Maximum slope Drive Advantages Ideal garden YUKA mini 2 800 Entry level; small and medium gardens Triple-Came"
+        },
+        {
+          "name": "YUKA mini 2 1000",
+          "source": "article_body",
+          "excerpt": "e Open, relatively level garden with little shade YUKA mini 2 1000 Mid-range; medium gardens 360° LiDAR + Dual-Camer"
+        },
+        {
+          "name": "LUBA mini 2 AWD",
+          "source": "article_body",
+          "excerpt": "rden with shade or a moderate number of obstacles LUBA mini 2 AWD 1000 Entry-level AWD; gardens with moderate slope"
+        },
+        {
+          "name": "LUBA 3 AWD 1500",
+          "source": "article_body",
+          "excerpt": "t Sloping garden with shade or multiple obstacles LUBA 3 AWD 1500 High end; demanding medium-sized gardens 360° LiD"
+        },
+        {
+          "name": "LUBA 3 AWD 3000",
+          "source": "article_body",
+          "excerpt": "etection range Complex, shaded garden with slopes LUBA 3 AWD 3000 High end; large lawns 360° LiDAR + NetRTK + Dual-"
+        },
+        {
+          "name": "LUBA 3 AWD 5000",
+          "source": "article_body",
+          "excerpt": " Large garden with open, shaded and sloping areas LUBA 3 AWD 5000 High end; very large lawns 360° LiDAR + NetRTK + "
+        }
+      ],
+      "summary": "英国 Mammotion 于 2026 年 11 月 25 日发布视觉割草机器人指南，解释视觉导航与障碍识别，并按庭院条件比较 YUKA mini 2、LUBA mini 2 AWD 等现有机型；没有新品、价格或优惠发布。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/vision-robot-lawn-mower-a-complete-guide"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/vision-robot-lawn-mower-a-complete-guide",
+          "discoveredAt": "2026-11-25T10:39:41.718Z",
+          "publishDate": "2026-11-25T08:34:20+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:13.619Z"
+    },
+    {
+      "actionId": "ACT-3B89D669B3F1",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "英国",
+      "countryCode": "UK",
+      "siteId": "mammotion-uk-blog",
+      "channel": "blog",
+      "actionType": "content_publication",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T10:39:41.718Z",
+      "publishDate": "2026-11-25T03:50:38+00:00",
+      "title": "英国 Mammotion 发布 LiDAR 割草机器人选购指南",
+      "marketingTheme": "product_education",
+      "productExposure": [
+        {
+          "name": "YUKA mini 2 1000",
+          "source": "article_body",
+          "excerpt": "configurations to suit the lawn area and terrain. YUKA mini 2 1000 The YUKA mini 2 1000 combines 360° LiDAR with dua"
+        },
+        {
+          "name": "LUBA mini 2 AWD",
+          "source": "article_body",
+          "excerpt": "ges up to 10 zones and slopes of up to 45% (24°). LUBA mini 2 AWD 1500 The LUBA mini 2 AWD 1500 combines 360° LiDAR"
+        },
+        {
+          "name": "LUBA 3 AWD 1500",
+          "source": "article_body",
+          "excerpt": ", with a maximum slope capability of 80% (38.6°). LUBA 3 AWD 1500 The LUBA 3 AWD 1500 pairs 360° LiDAR with dual-ca"
+        },
+        {
+          "name": "LUBA 3 AWD 3000",
+          "source": "article_body",
+          "excerpt": "gation, including beneath trees and in low light. LUBA 3 AWD 3000 and 5000 Developed by Mammotion Atlas Lab, Tri-Fu"
+        },
+        {
+          "name": "LUBA 3 AWD 5000",
+          "source": "article_body",
+          "excerpt": "g open areas, trees and slopes 30 80% (38.6°) AWD LUBA 3 AWD 5000 For 5,000 m² lawns 360° LiDAR + NetRTK + dual-cam"
+        }
+      ],
+      "summary": "英国 Mammotion 于 2026 年 11 月 25 日发布 LiDAR 割草机器人指南，介绍 YUKA mini 2、LUBA mini 2 AWD 与 LUBA 3 AWD 等现有机型的导航和适用庭院；没有新品、价格或优惠发布。",
+      "confidence": "review_confirmed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://uk.mammotion.com/blogs/news/lidar-robot-lawn-mower-guide"
+      ],
+      "evidenceRefs": [
+        {
+          "sourceId": "mammotion-uk-blog",
+          "url": "https://uk.mammotion.com/blogs/news/lidar-robot-lawn-mower-guide",
+          "discoveredAt": "2026-11-25T10:39:41.718Z",
+          "publishDate": "2026-11-25T03:50:38+00:00"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:13.814Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "bb4edb9455d41ca240b4fbd55eb5781d1472acc6e8a9ec68b48f04750fad2294",
+        "afterHash": "801c0bfe6163cbca064ba3097a14d72d4068a3fdd76ba50be7fab2e672e815ac",
+        "changedFields": [
+          "headings",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-D7CB465E8C2D",
+      "entityId": "",
+      "brand": "Eufy",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "eufy-fr",
+      "channel": "official_site",
+      "actionType": "content_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T10:39:21.447Z",
+      "publishDate": "",
+      "title": "法国 Eufy 重写割草机器人集合页选购文案",
+      "summary": "法国 Eufy 割草机器人集合页在 11 月 25 日两次留存之间重写介绍与“为何选择 eufy”段落，从导航、避障、边缘修剪等功能分节改为庭院日常维护与选购说明。未发现商品价格、优惠或购买条件变化；页面实际编辑时间未知。",
+      "marketingTheme": "product_education",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.eufy.com/eu-fr/collections/robot-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "eufy-fr",
+          "url": "https://www.eufy.com/eu-fr/collections/robot-lawn-mower",
+          "capturedAt": "2026-11-25T10:39:21.447Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:08.666Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "c392f7e06f2ea97d73b423283a4a9217b32533588e65e67a0165da8219c8e87b",
+        "afterHash": "1a3bee1580875e834c07fada5bf660dd4ae18a033a08f0c9f37903dc4d739508",
+        "changedFields": [
+          "offer"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-EF6014609F46",
+      "entityId": "",
+      "brand": "Ecovacs",
+      "country": "美国",
+      "countryCode": "",
+      "siteId": "ecovacs-us",
+      "channel": "official_site",
+      "actionType": "site_promotion_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T10:36:56.314Z",
+      "publishDate": "",
+      "title": "美国 Ecovacs 割草机器人页面出现 5% 折扣码标注",
+      "summary": "美国 Ecovacs 割草机器人集合页在 11 月 25 日两次官网观测之间出现“5% OFF Code: savings”标注，同站多款 GOAT 商品和套装页同步显示。各机型标价及库存未随之变化；仅能确认页面展示，未验证结账适用范围。11 月 26 日再观测时该标注已移除。",
+      "marketingTheme": "promotion",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "ecovacs-us",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower",
+          "capturedAt": "2026-11-25T10:36:59.900Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:08.845Z"
+    },
+    {
+      "changeType": "content_change",
+      "contentEvidence": {
+        "status": "changed_content",
+        "beforeHash": "7bfebbdf739135be47b8693c1f960e6db0b557426b8203b0b7bf8cf883fff6da",
+        "afterHash": "99bed345f6be5806e6bb4b53f1d9212445d87310e9c1cfd4c1680bc1c26f799c",
+        "changedFields": [
+          "availability",
+          "body"
+        ]
+      },
+      "updatedAt": "",
+      "actionId": "ACT-7BBC5A176C4F",
+      "entityId": "",
+      "brand": "Mammotion",
+      "country": "法国",
+      "countryCode": "",
+      "siteId": "mammotion-fr",
+      "channel": "official_site",
+      "actionType": "availability_update",
+      "stage": "not_launch_related",
+      "discoveredAt": "2026-11-25T10:35:12.644Z",
+      "publishDate": "",
+      "title": "法国 Mammotion LUBA 2 AWD 5000X 由售罄改为可选",
+      "summary": "法国 Mammotion LUBA 2 AWD 商品页在 11 月 25 日两次留存之间，5000X 规格从“Rupture de stock”改为可选，页面默认显示价随所选规格由 3000X 的 €2,099 切至 5000X 的 €2,499；两个规格各自的标价和 €500 优惠未变。",
+      "marketingTheme": "availability",
+      "confidence": "reviewed",
+      "confidenceScore": null,
+      "sourceUrls": [
+        "https://fr.mammotion.com/products/robot-tondeuse-luba-2-awd"
+      ],
+      "evidenceRefs": [
+        {
+          "siteId": "mammotion-fr",
+          "url": "https://fr.mammotion.com/products/robot-tondeuse-luba-2-awd",
+          "capturedAt": "2026-11-25T10:35:15.760Z"
+        }
+      ],
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-11-26T02:28:13.190Z"
+    },
     {
       "actionId": "ACT-CBAFFB0A29A3",
       "entityId": "",
