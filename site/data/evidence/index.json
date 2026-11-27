@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-26T02:22:26.201Z",
+  "generatedAt": "2026-11-26T10:18:53.161Z",
   "entries": {
     "a3bcf7804ee70db1": {
       "url": "https://us.mammotion.com/",
@@ -2667,6 +2667,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-us-76cf1fbcd25062ba-2026-11-19T10-50-51-227Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-26T10:15:57.985Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:06:53.586Z",
+          "title": "Smart & Wireless Robot Lawn Mowers | LiDAR Navigation & No Wire Setup",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-76cf1fbcd25062ba-2026-11-26T10-15-57-985Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-us-76cf1fbcd25062ba-2026-11-19T10-50-51-227Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -2686,6 +2696,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-us-c7c36ce61e358b71-2026-11-19T10-50-58-439Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-26T10:16:04.015Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:06:53.586Z",
+          "title": "MOVA Lidax Pro 800 Wire-Free Robotic Lawn Mower ｜ MOVA US",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-us-c7c36ce61e358b71-2026-11-26T10-16-04-015Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-us-c7c36ce61e358b71-2026-11-19T10-50-58-439Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3171,6 +3191,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-fr-5b5f542a482ce8ad-2026-11-22T10-24-29-822Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-26T10:15:24.807Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:07:59.247Z",
+          "title": "Dreame Garage MMGA20 pour robot tondeuse A1 Pro/A2 3000",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-5b5f542a482ce8ad-2026-11-26T10-15-24-807Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-fr-5b5f542a482ce8ad-2026-11-22T10-24-29-822Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3190,6 +3220,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-fr-6631fd3057a5a759-2026-11-22T10-24-35-041Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-26T10:15:31.261Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:07:59.247Z",
+          "title": "Dreame Garage MMGA30 pour robot tondeuse A1 Pro/A3 AWD Pro 3500",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-6631fd3057a5a759-2026-11-26T10-15-31-261Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-fr-6631fd3057a5a759-2026-11-22T10-24-35-041Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3209,6 +3249,16 @@
           "viewportScreenshot": "data/evidence/screenshots/mova-fr-e81e73cb9d6c59f8-2026-11-22T10-24-39-472Z-viewport.jpg",
           "keyRegionScreenshot": "",
           "previousViewportScreenshot": ""
+        },
+        {
+          "capturedAt": "2026-11-26T10:15:36.506Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:07:59.247Z",
+          "title": "Dreame A3 AWD Pro 3500 | Robot tondeuse 4x4 tout terrain",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-fr-e81e73cb9d6c59f8-2026-11-26T10-15-36-506Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": "data/evidence/screenshots/mova-fr-e81e73cb9d6c59f8-2026-11-22T10-24-39-472Z-viewport.jpg"
         }
       ],
       "entityId": ""
@@ -3915,6 +3965,101 @@
         }
       ],
       "entityId": ""
+    },
+    "8446c40779a092cd": {
+      "url": "https://de.mova.tech/products/lidax-ultra-maehroboter",
+      "siteId": "mova-de",
+      "brand": "Mova",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-26T10:15:45.026Z",
+          "reason": "content_change",
+          "sourceObservedAt": "2026-11-26T10:07:26.568Z",
+          "title": "LiDAX Ultra Serie mähroboter ohne Begrenzungskabel | MOVA Deutschland",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/mova-de-8446c40779a092cd-2026-11-26T10-15-45-026Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": ""
+    },
+    "faa0b93d9d250eb9": {
+      "url": "https://www.anker.com/de/products/bundle-t210mg11-1-t280b3a2-1-t292c011-1",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-26T10:16:12.567Z",
+          "reason": "product_candidate:EUF-UNKNOWN-424BBC77",
+          "sourceObservedAt": "2026-11-26T02:25:28.844Z",
+          "title": "ANKER eufy Saug- und Wischroboter HydroJet E35 mit 35.000Pa",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-faa0b93d9d250eb9-2026-11-26T10-16-12-567Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "EUF-UNKNOWN-424BBC77"
+    },
+    "9697517d59667efb": {
+      "url": "https://www.anker.com/de/products/bundle-t210mg11-1-t2880ha1-1-t292ga10-1",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-26T10:16:18.310Z",
+          "reason": "product_candidate:EUF-UNKNOWN-91DE7EE4",
+          "sourceObservedAt": "2026-11-26T02:25:28.844Z",
+          "title": "ANKER eufy Saug- und Wischroboter HydroJet E35 mit 35.000Pa",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-9697517d59667efb-2026-11-26T10-16-18-310Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "EUF-UNKNOWN-91DE7EE4"
+    },
+    "a8a1fffd0437dbe7": {
+      "url": "https://www.anker.com/de/products/bundle-t210qg11-1-t280b3a2-1-t292c011-1",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-26T10:16:23.340Z",
+          "reason": "product_candidate:EUF-UNKNOWN-DBCFE690",
+          "sourceObservedAt": "2026-11-26T02:25:28.844Z",
+          "title": "ANKER eufy C30 Edge Saug- und Wischroboter, 35.000Pa, Kantenwischen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-a8a1fffd0437dbe7-2026-11-26T10-16-23-340Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "EUF-UNKNOWN-DBCFE690"
+    },
+    "26a461a77562646c": {
+      "url": "https://www.anker.com/de/products/bundle-t210qg11-1-t2880ha1-1-t292ga10-1",
+      "siteId": "eufy-de-anker",
+      "brand": "Eufy",
+      "country": "德国",
+      "captures": [
+        {
+          "capturedAt": "2026-11-26T10:16:28.227Z",
+          "reason": "product_candidate:EUF-UNKNOWN-479E373F",
+          "sourceObservedAt": "2026-11-26T02:25:28.844Z",
+          "title": "ANKER eufy C30 Edge Saug- und Wischroboter, 35.000Pa, Kantenwischen",
+          "matchedTerm": "",
+          "viewportScreenshot": "data/evidence/screenshots/eufy-de-anker-26a461a77562646c-2026-11-26T10-16-28-227Z-viewport.jpg",
+          "keyRegionScreenshot": "",
+          "previousViewportScreenshot": ""
+        }
+      ],
+      "entityId": "EUF-UNKNOWN-479E373F"
     }
   }
 }
