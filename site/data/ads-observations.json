@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
   "targetId": "meta-mammotion-us",
-  "generatedAt": "2026-11-24T02:23:53.766Z",
-  "lastSuccessAt": "2026-11-18T06:11:05.118Z",
-  "lastAttemptAt": "2026-11-24T02:21:01.752Z",
-  "status": "failed",
+  "generatedAt": "2026-11-27T02:08:23.290Z",
+  "lastSuccessAt": "2026-11-27T02:07:46.016Z",
+  "lastAttemptAt": "2026-11-27T02:07:34.139Z",
+  "status": "success",
   "records": [
     {
       "sourceRecordId": "1010823171714354",
@@ -18,7 +18,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1010823171714354",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1013948371014648",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1013948371014648",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -33,7 +48,37 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1143162845239916",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1149662974137349",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1149662974137349",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1157896693398838",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1157896693398838",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -48,7 +93,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1179276381710493",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1476030094497999",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1476030094497999",
+      "publishDate": "2026-11-16",
+      "firstSeenAt": "2026-11-17T22:10:42.101Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -63,7 +123,37 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1605943324107661",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1614478679803766",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1614478679803766",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1619897056816181",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1619897056816181",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -78,7 +168,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1645930940321577",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1667138041628668",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1667138041628668",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -93,7 +198,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1691219309261147",
       "publishDate": "2026-11-17",
       "firstSeenAt": "2026-11-18T04:11:02.390Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -108,7 +213,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1693506142145900",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -123,7 +228,67 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=1831223848198672",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1833821941149411",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1833821941149411",
+      "publishDate": "2026-11-16",
+      "firstSeenAt": "2026-11-17T22:10:42.101Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "1844142943500195",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1844142943500195",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "2044404432937129",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2044404432937129",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "2228566351419528",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2228566351419528",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -138,7 +303,7 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=2361468177957482",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:40:12.968Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -153,7 +318,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=2387916365289317",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "2432198710856923",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2432198710856923",
+      "publishDate": "2026-11-16",
+      "firstSeenAt": "2026-11-17T22:10:42.101Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -168,7 +348,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=2470133376845807",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "28633574046325830",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28633574046325830",
+      "publishDate": "2026-11-16",
+      "firstSeenAt": "2026-11-17T22:10:42.101Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -183,7 +378,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=3181536268718366",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:40:12.968Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "3251263468405769",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3251263468405769",
+      "publishDate": "2026-11-16",
+      "firstSeenAt": "2026-11-17T22:10:42.101Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     },
     {
@@ -198,7 +408,22 @@
       "libraryUrl": "https://www.facebook.com/ads/library/?id=3687436704739258",
       "publishDate": "2026-11-16",
       "firstSeenAt": "2026-11-17T22:10:42.101Z",
-      "lastCapturedAt": "2026-11-18T06:11:05.118Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
+      "mediaStatus": "source_only"
+    },
+    {
+      "sourceRecordId": "4627645090780957",
+      "brand": "Mammotion",
+      "platform": "meta",
+      "countryCode": "US",
+      "copy": "🎉 Mammotion Black Friday Mega Sale\n💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🌳 LUBA mini 2 AWD 1500H: Compact Size. Cleaner Edges. Stronger Drive for All Terrain.\n\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n\n🏆 Up to 3 Years Warranty for Peace of Mind.\n🌱 Free 4G Module with 3-year Free Data.\n\n#Mammotion #RoboticLawnMower",
+      "offer": "💰 Save Up To $529 On LUBA mini 2 AWD 1500H, Only 11/10–11/30.\n🔹$400 Instant Savings.\n🔹Free Mower Cleaning Stand (Worth $79).\n🔹Get a $50 Sign-up Bonus.\n🌱 Free 4G Module with 3-year Free Data.\nSave Up To $529",
+      "cta": "去逛逛",
+      "landingUrl": "https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower",
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4627645090780957",
+      "publishDate": "2026-11-26",
+      "firstSeenAt": "2026-11-27T02:07:46.016Z",
+      "lastCapturedAt": "2026-11-27T02:07:46.016Z",
       "mediaStatus": "source_only"
     }
   ]
